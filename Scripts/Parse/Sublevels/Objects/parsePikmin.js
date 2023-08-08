@@ -32,6 +32,11 @@ function assertSpawnerParams(params, hasSpawns) {
   }
 }
 
+function getPikminColor(enumStr) {
+  enumStr = enumStr || 'EPikminColor::Red';
+  return enumStr.substring(14);
+}
+
 export function isPikminSpawnerComp(comp) {
   return !!comp.Properties.NoraSpawnerAI;
 }
@@ -50,8 +55,6 @@ export function isPikminSpawnerComp(comp) {
 // }
 export function parsePikminSpawnerAIComp(NoraSpawnerAI) {
   const params = NoraSpawnerAI.Properties.NoraSpawnerAIParam;
-  // set default color.
-  params.PikminColor = params.PikminColor || 'EPikminColor::Red';
 
   const isCandypop = NoraSpawnerAI.Type.includes('PongashiLock');
   const isSprouts = NoraSpawnerAI.Type.includes('HeadLock');
@@ -67,7 +70,7 @@ export function parsePikminSpawnerAIComp(NoraSpawnerAI) {
     type: isCandypop
       ? ObjectTypes.Candypop
       : ObjectTypes.Pikmin,
-    color: params.PikminColor.substring(14), // remove "EPikminColor::"
+    color: getPikminColor(params.PikminColor), // remove "EPikminColor::"
     // What state are the pikmin in? candypop, fighting, sprouts, or idle (are there others?)
     variant: isCandypop
       ? undefined
@@ -78,8 +81,8 @@ export function parsePikminSpawnerAIComp(NoraSpawnerAI) {
           : PikminVariants.Idle,
     amount: params.SpawnNum || (isCandypop ? 1 : 5),
     // unknown if these are candypop only.
-    changeMaxCondition: params.PongashiChangeColorFollowNum,
-    changeToColor: params.PongashiChangeColorFromFollow,
+    changeToCondition: params.PongashiChangeColorFollowNum,
+    changeToColor: params.PongashiChangeColorFromFollow && getPikminColor(params.PongashiChangeColorFromFollow),
     // Add 1 b/c of >check
     // the spawner will not spawn if the player has >='replacementCondition' of the same pikmin color
     replacementCondition: params.MabikiNumFromFollow + 1,

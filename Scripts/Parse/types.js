@@ -9,6 +9,7 @@ export const ObjectTypes = {
   Shortcut: 'shortcut',
   Structure: 'structure',
   Candypop: 'candypop',
+  Pikmin: 'pikmin',
   Treasure: 'treasure',
   GlowPellets: 'glowPellets',
   Mound: 'mound',
