@@ -1,0 +1,23 @@
+{
+  "name": "pikmin-4-data-parser",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Parses Pikmin 4 object data",
+  "main": "./Scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dodiou/Pikmin-4-Datamining.git"
+  },
+  "author": "Dodiou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dodiou/Pikmin-4-Datamining/issues"
+  },
+  "homepage": "https://github.com/Dodiou/Pikmin-4-Datamining#readme",
+  "dependencies": {
+    "three": "^0.155.0"
+  }
+}

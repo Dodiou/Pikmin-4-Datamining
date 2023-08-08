@@ -1,0 +1,1048 @@
+[
+  {
+    "type": "zipline",
+    "transform": {
+      "translation": {
+        "x": 1997,
+        "y": -627
+      },
+      "rotation": -93.99983975845596
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -782,
+        "y": -1569
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -784.02203,
+        "y": -1515.149
+      }
+    }
+  },
+  {
+    "type": "structure",
+    "variant": "slope",
+    "materialsNeeded": 20,
+    "transform": {
+      "translation": {
+        "x": 3130,
+        "y": -3619
+      },
+      "rotation": 1.9999999595489366
+    }
+  },
+  {
+    "type": "shortcut",
+    "variant": "string",
+    "weight": 5,
+    "transform": {
+      "translation": {
+        "x": 718.17365,
+        "y": -4035
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -733.02203,
+        "y": -1540.149
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [
+      {
+        "item": "GHoney_C",
+        "chance": 1,
+        "min": 3
+      }
+    ],
+    "transform": {
+      "translation": {
+        "x": -210,
+        "y": -1651
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 580,
+        "y": -2310
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 955.9731,
+        "y": -1807.5789
+      }
+    }
+  },
+  {
+    "type": "gate",
+    "variant": "electric",
+    "transform": {
+      "translation": {
+        "x": 2548,
+        "y": -1121
+      },
+      "rotation": 0
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 410,
+        "y": -1852
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 472,
+        "y": -1792
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -151,
+        "y": -1605
+      }
+    }
+  },
+  {
+    "type": "water",
+    "variant": "water",
+    "amountToFreeze": 15,
+    "normalTexture": "T_ui_Map_Area010_WaterBox00_D.png",
+    "transform": {
+      "translation": {
+        "x": 2909,
+        "y": -1953
+      },
+      "rotation": 0
+    }
+  },
+  {
+    "type": "hydroJelly",
+    "drops": [
+      {
+        "item": "GIceBomb_C",
+        "chance": 1,
+        "min": 1
+      }
+    ],
+    "transform": {
+      "translation": {
+        "x": 1578,
+        "y": -3499
+      }
+    }
+  },
+  {
+    "type": "hydroJelly",
+    "drops": [
+      {
+        "item": "GIceBomb_C",
+        "chance": 1,
+        "min": 1
+      }
+    ],
+    "transform": {
+      "translation": {
+        "x": 1578,
+        "y": -3392
+      }
+    }
+  },
+  {
+    "type": "materials",
+    "amount": 5,
+    "transform": {
+      "translation": {
+        "x": 1022,
+        "y": -3936
+      }
+    }
+  },
+  {
+    "type": "materials",
+    "amount": 5,
+    "transform": {
+      "translation": {
+        "x": 1679,
+        "y": -2338
+      }
+    }
+  },
+  {
+    "type": "gate",
+    "variant": "numbered",
+    "transform": {
+      "translation": {
+        "x": 2665,
+        "y": -2735
+      },
+      "rotation": 0
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 414,
+        "y": -1783
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 887,
+        "y": -1773
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 635,
+        "y": -2340
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 4,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 3521,
+        "y": 1781
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "fighting",
+    "amount": 3,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1110.8153,
+        "y": 3926.5342
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 4,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 193.70523,
+        "y": 1123.3573
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 3589,
+        "y": 1794.7852
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -669.9652,
+        "y": -142.61061
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1996,
+        "y": 3283
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 5,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2153.3152,
+        "y": 967.748
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2260.0854,
+        "y": 2405.7852
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1262,
+        "y": 3315
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 285.7051,
+        "y": 1157.3573
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1085.7051,
+        "y": 2991.3574
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 2,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 3563.0854,
+        "y": 2784.7852
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 3,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -313.44257,
+        "y": -778.38135
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 554.7052,
+        "y": 1284.3573
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 607.7052,
+        "y": 1324.3573
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 991.7052,
+        "y": 1363.3573
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 830.7052,
+        "y": 1480.3573
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1221.7052,
+        "y": 1407.3573
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "fighting",
+    "amount": 5,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 718.8153,
+        "y": 3931.5342
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2033.3152,
+        "y": 1444.748
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2124.3152,
+        "y": 1479.748
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2058.3152,
+        "y": 1492.748
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2423.0854,
+        "y": 2178.7852
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2348.0854,
+        "y": 2108.7852
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 913.7051,
+        "y": 2979.3574
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "fighting",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 913.7051,
+        "y": 2797.3574
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 5,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1583,
+        "y": 3423
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1483,
+        "y": 3275
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 5,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -430.34933,
+        "y": 3966.9622
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 3697,
+        "y": 2609.7139
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 3649,
+        "y": 2658.7139
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 3712,
+        "y": 2677.7139
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -1086,
+        "y": 736
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -1127,
+        "y": 789
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -1026,
+        "y": 774
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -1211.8116,
+        "y": 1960.6293
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -1207.7083,
+        "y": 2055.148
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -1131.7291,
+        "y": 2002.4454
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 103.70511,
+        "y": 1467.3573
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 364.7051,
+        "y": 1254.3573
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -681.68945,
+        "y": -116.20153
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -667.3384,
+        "y": -108.849815
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -644.4119,
+        "y": -113.86079
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -647.80914,
+        "y": -142.5811
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2055,
+        "y": 3294
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2070,
+        "y": 3263
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2028,
+        "y": 3243
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 1971,
+        "y": 3230
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -1836.2949,
+        "y": 2185.3574
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -1862.2949,
+        "y": 2210.3574
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -1710.2949,
+        "y": 1096.3574
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2232.0854,
+        "y": 2483.7852
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2263.0854,
+        "y": 2461.7852
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2233.0854,
+        "y": 2393.7852
+      }
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2221.0854,
+        "y": 2447.7852
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -198.44257,
+        "y": -739.38135
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": null,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": -441.44257,
+        "y": -726.38135
+      }
+    }
+  },
+  {
+    "type": "switch",
+    "transform": {
+      "translation": {
+        "x": 2884,
+        "y": -3301
+      },
+      "rotation": 0
+    }
+  },
+  {
+    "color": "Red",
+    "variant": "idle",
+    "amount": 3,
+    "replacementCondition": 31,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2059,
+        "y": -635
+      }
+    }
+  },
+  {
+    "color": "Blue",
+    "variant": "idle",
+    "amount": 3,
+    "replacementCondition": 31,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2080,
+        "y": -648
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 2,
+    "replacementCondition": 31,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2090,
+        "y": -632
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": 31,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2228,
+        "y": -613
+      }
+    }
+  },
+  {
+    "color": "Yellow",
+    "variant": "idle",
+    "amount": 1,
+    "replacementCondition": 31,
+    "replacement": "other",
+    "transform": {
+      "translation": {
+        "x": 2222,
+        "y": -617
+      }
+    }
+  },
+  {
+    "type": "shortcut",
+    "variant": "string",
+    "weight": 5,
+    "transform": {
+      "translation": {
+        "x": 2072,
+        "y": 1034
+      }
+    }
+  }
+]

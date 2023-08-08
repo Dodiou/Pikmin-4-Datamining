@@ -32,7 +32,10 @@ def get_treasure_data():
         if treasure in basedata[0]['Rows']:
             treasure_dict['ActorName'] = basedata[0]['Rows'][treasure]['ActorName']
             treasure_dict['Weight'] = basedata[0]['Rows'][treasure]['CarryWeightMin']
+            treasure_dict['Carry Max'] = basedata[0]['Rows'][treasure]['CarryWeightMax']
             treasure_dict['Sparklium'] = basedata[0]['Rows'][treasure]['Kira']
+            # treasure_dict['Challenge Points'] = basedata[0]['Rows'][treasure]['CarryWeightMin']
+            # treasure_dict['Battle Points'] = basedata[0]['Rows'][treasure]['CarryWeightMin']
         if treasure in otakaradesc['OtakaraDesc']:
             treasure_dict['Description'] = otakaradesc['OtakaraDesc'][treasure].split(']')[-1]
         if treasure in otakaradesclouie['OtakaraDescLouie']:
