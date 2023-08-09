@@ -2,7 +2,16 @@ import { Euler, Quaternion } from 'three';
 
 import { ObjectTypes, StructureVariants } from "./types.js";
 
-const ImportantRotations = [ObjectTypes.Fence, ObjectTypes.Gate, ObjectTypes.Structure, ObjectTypes.Switch, ObjectTypes.Water, ObjectTypes.Zipline];
+const ImportantRotations = [
+  ObjectTypes.Conveyor,
+  ObjectTypes.Fence,
+  ObjectTypes.Gate,
+  ObjectTypes.Shortcut,
+  ObjectTypes.Structure,
+  ObjectTypes.Switch,
+  ObjectTypes.Water,
+  ObjectTypes.Zipline
+];
 const RotationVariantExceptions = [StructureVariants.Valve];
 
 const ImportantScales = [];
@@ -36,7 +45,8 @@ export function parseObjectLocations(actorGeneratorList, parsedObjectDict) {
 
       // Radar only cares about rotations along about the Z axis.
       // convert to degrees
-      transform.rotation = eulerAngle.z * 180 / Math.PI;
+      // Round to nearest one-thousandth
+      transform.rotation = Math.round(eulerAngle.z * 180 * 1000 / Math.PI) / 1000;
     }
     if (needsScale) {
       transform.scale = {
@@ -48,6 +58,15 @@ export function parseObjectLocations(actorGeneratorList, parsedObjectDict) {
     // keep all params, but add in transform
     return { ...parsedObject, transform };
   });
+}
+
+// Rebirth info:
+// Never respawns if set to NoRebirth
+// Respawns after "RebirthInterval + 1" sunsets if set to RebirthLater
+// Respawns on every LOAD (not day) if set to AlwaysRebirth
+// Respawns every load only if Cave 100% (i.e. every sublevel,  only occurs in caves) if set to RebirthFullExplore
+export function parseObjectRebirthInfo() {
+  // TODO
 }
 
 export function parseCreatureLocations(actorGeneratorList, parsedCreatureDict) {

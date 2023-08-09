@@ -1,0 +1,65 @@
+{
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 137,
+          "y": -755
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -549.6969,
+          "y": 204.74377
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 251,
+          "y": 590
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": 420,
+          "y": 500
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -688,
+          "y": 58.75
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

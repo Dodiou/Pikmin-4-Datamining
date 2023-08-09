@@ -1,0 +1,71 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 767.5,
+          "y": -283.37494
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 587.5,
+          "y": -125
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 550.5,
+          "y": 405
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 1100,
+          "y": 644.7673
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 100,
+      "transform": {
+        "translation": {
+          "x": 272.5,
+          "y": 137.5
+        },
+        "rotation": -90
+      }
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 60,
+      "transform": {
+        "translation": {
+          "x": 822.55664,
+          "y": -862.1299
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 40,
+      "transform": {
+        "translation": {
+          "x": 1270.2734,
+          "y": 411.2622
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 50,
+      "transform": {
+        "translation": {
+          "x": -2.7265625,
+          "y": -1147.7378
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 71,
+      "transform": {
+        "translation": {
+          "x": -822.67596,
+          "y": 1136.1025
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -289,
+          "y": 383.5
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -413.33145,
+          "y": -1377.8588
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 1077.25,
+          "y": -678
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 1152.75,
+          "y": -612
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 557,
+          "y": 1508.5
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 621,
+          "y": 1404.5
+        }
+      }
+    }
+  ],
+  "straw": [
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -877,
+          "y": 512.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 138,
+          "y": 1284.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 143,
+          "y": 1208.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 170,
+          "y": 1133.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 322,
+          "y": 1103.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 243,
+          "y": 1108.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 552,
+          "y": 1261.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 832.0098,
+          "y": 1402.2303
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 823.02435,
+          "y": 1473.643
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 708,
+          "y": 1260.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 821,
+          "y": 1332.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 784,
+          "y": 1266.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 666.5,
+          "y": -316.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 691,
+          "y": -136.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -826,
+          "y": 547.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 690,
+          "y": -252.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -773,
+          "y": 513.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 663,
+          "y": -191.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 689,
+          "y": -371.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 660,
+          "y": -85.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 665.5,
+          "y": -421.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 638.5,
+          "y": -469
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 576,
+          "y": -450
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 515,
+          "y": -464
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 448,
+          "y": -446.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 627,
+          "y": 1269.5
+        }
+      }
+    }
+  ]
+}

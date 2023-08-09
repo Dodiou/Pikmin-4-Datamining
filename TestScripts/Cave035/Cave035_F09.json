@@ -1,0 +1,228 @@
+{
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -414,
+          "y": 549.5
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -990,
+          "y": 718
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -523.2274,
+          "y": -247.10889
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -291.22742,
+          "y": 631.8911
+        }
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminPurple_C",
+          "chance": 1,
+          "min": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -305,
+          "y": 270
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -522,
+          "y": 1097
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 100,
+      "transform": {
+        "translation": {
+          "x": 420,
+          "y": 825
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": -350
+        },
+        "rotation": -180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 50,
+      "transform": {
+        "translation": {
+          "x": -701,
+          "y": -1
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -825,
+          "y": 1083
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 1056,
+          "y": 553
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 105,
+          "y": -883
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -935,
+          "y": -375
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -1157,
+          "y": 174
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 750,
+          "y": -168
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBomb_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1345,
+          "y": 275
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBaby_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1251,
+          "y": -1066
+        }
+      }
+    }
+  ]
+}

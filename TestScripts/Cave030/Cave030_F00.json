@@ -1,0 +1,194 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 100,
+      "normalTexture": "T_ui_Map_Cave030_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -29.000017,
+          "y": 33
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": 273.89325,
+          "y": 1256.1953
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": -277,
+          "y": 189.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 577.6613,
+          "y": -1192.1982
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 35,
+      "transform": {
+        "translation": {
+          "x": -782.2686,
+          "y": 464.03842
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": -843.8714,
+          "y": -705.23615
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -115.99973,
+          "y": 625.00024
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -40.66162,
+          "y": 300.318
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "idle",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -647.001,
+          "y": 306.27637
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "idle",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 1116.0173,
+          "y": 1210.7881
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -1649,
+          "y": -289
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -279.98096,
+          "y": -165.21167
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 570.3949,
+          "y": -1559.9907
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 98.33374,
+          "y": 1485.2502
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboardYellow",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -886
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -826,
+          "y": 134
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

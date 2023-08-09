@@ -1,0 +1,31 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "swamp",
+      "amountToFreeze": 100,
+      "canSink": true,
+      "normalTexture": "T_ui_Map_Cave016_F07_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 743.8809,
+          "y": -55.745598
+        },
+        "rotation": -90
+      }
+    }
+  ]
+}

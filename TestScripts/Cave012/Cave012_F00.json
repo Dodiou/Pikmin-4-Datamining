@@ -1,0 +1,132 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 61.930595,
+          "y": 31.846893
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -67.5,
+          "y": 785
+        }
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GKinkaiPick_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 226.49994,
+          "y": -911
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -415,
+          "y": 685
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 410.7143,
+          "y": 952.5045
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -780.98474,
+          "y": -324.53278
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -539.2857,
+          "y": -517.4955
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "changeToCondition": 50,
+      "changeToColor": "Ice",
+      "replacementCondition": 52,
+      "replacement": "candypop",
+      "transform": {
+        "translation": {
+          "x": 411.5829,
+          "y": 952.09924
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 6,
+      "transform": {
+        "translation": {
+          "x": -58.999985,
+          "y": 130.00005
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 402,
+          "y": -138
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -282.91736,
+          "y": -1864.1257
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -1034.3895,
+          "y": 966.48114
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 273.67484,
+          "y": 1060.5483
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 29,
+      "transform": {
+        "translation": {
+          "x": -1.5220642,
+          "y": -969
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -138,
+          "y": 1925
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -302.0426,
+          "y": 274.734
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -355,
+          "y": 1455
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -551,
+          "y": -745
+        }
+      }
+    }
+  ]
+}

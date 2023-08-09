@@ -1,0 +1,59 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 550,
+          "y": -195
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -964.72906,
+          "y": -135.83934
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 145.01526,
+          "y": 687.4672
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 860,
+          "y": -135
+        }
+      }
+    }
+  ]
+}

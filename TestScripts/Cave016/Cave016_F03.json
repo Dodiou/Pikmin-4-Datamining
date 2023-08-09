@@ -1,0 +1,29 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 60.009827,
+          "y": -864.5108
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -0.14257812,
+          "y": -779.0724
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

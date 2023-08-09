@@ -1,0 +1,41 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -70,
+          "y": -820
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -621.6007,
+          "y": -136.469
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 361.9676,
+          "y": 962.0285
+        }
+      }
+    }
+  ]
+}

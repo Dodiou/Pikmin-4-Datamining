@@ -1,0 +1,89 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 650,
+          "y": -217
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 659,
+          "y": 332.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -767.5,
+          "y": -201
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 798.25256,
+          "y": 279.94543
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -827.2628,
+          "y": -425.93726
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": 0.23846436,
+          "y": -1.1198804
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": -549.5925,
+          "y": -100.04199
+        },
+        "rotation": -90
+      }
+    }
+  ]
+}

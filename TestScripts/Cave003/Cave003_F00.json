@@ -1,0 +1,146 @@
+{
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 438,
+          "y": 855
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 439.41333,
+          "y": 928.3382
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -985.6105,
+          "y": 157.75523
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 612.5,
+          "y": -43
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -534.5,
+          "y": -712
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 531.8208,
+          "y": -967.0913
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -737.3475,
+          "y": -167.20068
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 66,
+          "y": 551
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": -137.55737,
+          "y": -353
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 40,
+      "transform": {
+        "translation": {
+          "x": 164,
+          "y": -437
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 208,
+          "y": 721
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -357.4999,
+          "y": 208
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

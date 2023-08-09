@@ -1,0 +1,330 @@
+{
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -239.84076,
+          "y": -174.73608
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -231.67502,
+          "y": -249.82681
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -303.13733,
+          "y": -230.8024
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -230.13733,
+          "y": -86.8024
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -294.67502,
+          "y": -89.82681
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -249.84076,
+          "y": -23.736084
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -323.13733,
+          "y": -32.8024
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -263.13733,
+          "y": -315.8024
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 283.10764,
+          "y": 561.53613
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 188.52542,
+          "y": 656.5358
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 228.43597,
+          "y": 606.22144
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 289.3271,
+          "y": 641.36694
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -323.13733,
+          "y": -285.8024
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPikminWhite_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -314.84076,
+          "y": -159.73608
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -275,
+          "y": 535
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -434.5,
+          "y": 535
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -410,
+          "y": -443
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 550,
+          "y": -546
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": -180
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 50,
+      "transform": {
+        "translation": {
+          "x": 274,
+          "y": -21
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 1087,
+          "y": 382
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 81.00189,
+          "y": -276.8144
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": -419,
+          "y": 272
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 40,
+      "transform": {
+        "translation": {
+          "x": 480,
+          "y": -195
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": -775,
+          "y": -228
+        }
+      }
+    }
+  ]
+}

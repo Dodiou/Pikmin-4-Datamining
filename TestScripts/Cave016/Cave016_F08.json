@@ -1,0 +1,161 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 546,
+          "y": -194.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -386.8158,
+          "y": 695.5099
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -147.5539,
+          "y": -975.61237
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 50,
+      "normalTexture": "T_ui_Map_Cave016_F08_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -204.85135,
+          "y": -138.36098
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -495.68552,
+          "y": -520.6815
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 153.06845,
+          "y": -411.67432
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 87.67682,
+          "y": -473.09518
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -573.25977,
+          "y": -118.58002
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -602.2385,
+          "y": -62.272644
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -548.57336,
+          "y": -49.584534
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 88.94055,
+          "y": -418.089
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -538.72107,
+          "y": -484.63416
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 121.54059,
+          "y": 174.51764
+        }
+      }
+    }
+  ]
+}

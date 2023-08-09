@@ -1,0 +1,112 @@
+{
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 807,
+          "y": -826
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -628,
+          "y": 242
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 277,
+          "y": 968
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -963,
+          "y": -822
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 977,
+          "y": 554
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 355,
+          "y": 448.4048
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": -762,
+          "y": -378
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "item": [
+    {
+      "type": "item",
+      "variant": "iceBomb",
+      "transform": {
+        "translation": {
+          "x": -988,
+          "y": -6
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -413,
+          "y": -446
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

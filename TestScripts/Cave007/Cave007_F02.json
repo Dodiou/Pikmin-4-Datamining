@@ -1,0 +1,109 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 1122,
+          "y": -270.5
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 852,
+          "y": 1098.8513
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": 226,
+          "y": 199.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 550,
+          "y": 1050
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 845,
+          "y": -8
+        },
+        "rotation": -70
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -9,
+          "y": -1076.5
+        },
+        "rotation": 80
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -8,
+          "y": -910
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Yellow",
+      "amount": 1,
+      "replacementCondition": 6,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -1059,
+          "y": 165.5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -938.2274,
+          "y": 186.89117
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 152.13037,
+          "y": -342.44476
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 901.7726,
+          "y": 266.89117
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave004_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -298.20526,
+          "y": 271.93707
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 10,
+      "normalTexture": "T_ui_Map_Cave004_F00_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": 545.57886,
+          "y": -66.72235
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -701.4596,
+          "y": 425.63257
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "idle",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "candypopOffset": {
+        "X": -685,
+        "Y": 135,
+        "Z": 5
+      },
+      "transform": {
+        "translation": {
+          "x": -297.93475,
+          "y": 271.77075
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 11,
+      "transform": {
+        "translation": {
+          "x": 839.6687,
+          "y": 404.3405
+        }
+      }
+    }
+  ]
+}

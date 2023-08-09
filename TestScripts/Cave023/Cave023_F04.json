@@ -1,0 +1,80 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -1255.4329,
+          "y": -1268.3557
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -276,
+          "y": -433
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": -1071.9757,
+          "y": -628.5161
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "slope",
+      "materialsNeeded": 22,
+      "transform": {
+        "translation": {
+          "x": -281.2619,
+          "y": 687.5
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 289.01282,
+          "y": 6.201538
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 38.230644,
+          "y": -959.9096
+        }
+      }
+    }
+  ]
+}

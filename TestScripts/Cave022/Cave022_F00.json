@@ -1,0 +1,172 @@
+{
+  "straw": [
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -460.52844,
+          "y": 404.50623
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -406.06958,
+          "y": 368.62457
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -364.55627,
+          "y": 421.4806
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 281,
+          "y": 600
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 261.10938,
+          "y": 551
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 283,
+          "y": 502
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 887.54944,
+          "y": 323.10822
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 941.68256,
+          "y": 274.65314
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 889.5239,
+          "y": 223.13562
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -791.4374,
+          "y": -48.766235
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 461.0417,
+          "y": -670.0665
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 411.58673,
+          "y": -623.23236
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 364.06915,
+          "y": -675.0408
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -655.77435,
+          "y": -41.366486
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -714.1802,
+          "y": 47.763214
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -723.5165,
+          "y": -23.957016
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 408.79004,
+          "y": 806.50555
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 805.78375,
+          "y": -274
+        },
+        "rotation": -90
+      }
+    }
+  ]
+}

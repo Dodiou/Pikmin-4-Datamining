@@ -1,0 +1,69 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 405.75208,
+          "y": 470.1953
+        },
+        "rotation": 90.001
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave016_F10_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -219.02356,
+          "y": -681.5198
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave016_F10_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": 691.86206,
+          "y": -278.01318
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -550.23914,
+          "y": 554.15466
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 77.07019,
+          "y": 968.1438
+        }
+      }
+    }
+  ]
+}

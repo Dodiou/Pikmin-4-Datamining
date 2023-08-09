@@ -1,0 +1,68 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 59.046722,
+          "y": 1010.00476
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 202.86017,
+          "y": -1013.9739
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -157.83795,
+          "y": -803.9182
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 803.26135,
+          "y": 129.32959
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 50,
+      "transform": {
+        "translation": {
+          "x": -28.074768,
+          "y": 153.77588
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

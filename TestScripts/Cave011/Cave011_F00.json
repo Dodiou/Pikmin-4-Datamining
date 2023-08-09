@@ -1,0 +1,122 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 100,
+      "normalTexture": "T_ui_Map_Cave011_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 300,
+          "y": 200
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 752,
+          "y": -866
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "valve",
+      "materialsNeeded": 12,
+      "transform": {
+        "translation": {
+          "x": 545,
+          "y": 696
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -470,
+          "y": 475
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 284,
+          "y": 824
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "idle",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 702,
+          "y": -373
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -1140,
+          "y": 1089
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -5.044983,
+          "y": -69.978485
+        }
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -429,
+          "y": 1123
+        }
+      }
+    }
+  ]
+}

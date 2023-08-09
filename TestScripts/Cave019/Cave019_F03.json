@@ -1,0 +1,127 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -777,
+          "y": -125.3
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 1205.5997,
+          "y": 207.17834
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 417,
+          "y": -155.69183
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -700.31573,
+          "y": -275.7481
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -806.94745,
+          "y": -293.09338
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GOtaDice6WHT_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -956.2218,
+          "y": -138.0964
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -762.9449,
+          "y": -261.36536
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 692.9754,
+          "y": -182.41348
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -1422.398,
+          "y": -0.684448
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 160.70815,
+          "y": 811.0488
+        }
+      }
+    }
+  ]
+}

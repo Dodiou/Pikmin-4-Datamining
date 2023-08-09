@@ -1,0 +1,163 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 10,
+      "normalTexture": "T_ui_Map_Cave033_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 979.3756,
+          "y": 677.7356
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -1259.2156,
+          "y": -131.28758
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "wall",
+      "materialsNeeded": 14,
+      "transform": {
+        "translation": {
+          "x": 34,
+          "y": 412
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -1071.0029,
+          "y": -137.1239
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GOtaMatDollLB_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -413.37357,
+          "y": -667.29584
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -900,
+          "y": 645
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 433.54044,
+          "y": 1229.1654
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "fighting",
+      "amount": 3,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -675.5608,
+          "y": -255.80267
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "fighting",
+      "amount": 2,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -244.56079,
+          "y": -122.80267
+        }
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -676.5744,
+          "y": 830.21655
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -626.7634,
+          "y": 795.1421
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -740,
+          "y": 812.0477
+        }
+      }
+    }
+  ]
+}

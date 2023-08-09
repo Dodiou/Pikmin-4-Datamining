@@ -1,0 +1,15 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 534.8851,
+          "y": 192.42754
+        },
+        "rotation": 90
+      }
+    }
+  ]
+}

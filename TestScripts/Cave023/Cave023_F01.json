@@ -1,0 +1,79 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": -988.12256,
+          "y": 232.55383
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -403.57092,
+          "y": 340.41968
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 832,
+          "y": 888
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 513,
+          "y": 907
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": 683,
+          "y": 412
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -284,
+          "y": -275
+        },
+        "rotation": -90
+      }
+    }
+  ]
+}

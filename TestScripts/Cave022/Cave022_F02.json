@@ -1,0 +1,205 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave022_F02_WaterBox00_D.png",
+      "dynamicTexture": "T_ui_Map_Cave022_F02_WaterBox00_ChangeDist_D.png",
+      "transform": {
+        "translation": {
+          "x": -789.4903,
+          "y": -116.91708
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "straw": [
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 253.29822,
+          "y": 274.75153
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 311.66663,
+          "y": 322.38422
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 312.74988,
+          "y": 229.80127
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -639.6537,
+          "y": 633.79004
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -719.6453,
+          "y": 470.56604
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -537.38544,
+          "y": 552.7582
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -565.9874,
+          "y": 488.5739
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -627.17737,
+          "y": 459.8404
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -572.6537,
+          "y": 612.79004
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -699.6537,
+          "y": 603.79004
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 795.07837,
+          "y": 479.49988
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 954.41736,
+          "y": 479.49988
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": -824.4743,
+          "y": -137.77463
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 413.5923,
+          "y": -744.5375
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 2.978943,
+          "y": 419.77783
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -745,
+          "y": -416.4743
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 6,
+      "transform": {
+        "translation": {
+          "x": 699.4258,
+          "y": 12.868717
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Red",
+      "amount": 1,
+      "replacementCondition": 6,
+      "transform": {
+        "translation": {
+          "x": 915,
+          "y": 320
+        }
+      }
+    }
+  ]
+}

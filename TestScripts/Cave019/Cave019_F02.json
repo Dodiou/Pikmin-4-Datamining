@@ -1,0 +1,17 @@
+{
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -890
+        }
+      }
+    }
+  ]
+}

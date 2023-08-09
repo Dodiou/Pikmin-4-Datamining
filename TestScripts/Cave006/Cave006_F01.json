@@ -1,0 +1,53 @@
+{
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 139.08786,
+          "y": 52.38411
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 904.3483,
+          "y": -43.358856
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 80.62039,
+          "y": -380.31976
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 140.6441,
+          "y": -685.7654
+        }
+      }
+    }
+  ]
+}

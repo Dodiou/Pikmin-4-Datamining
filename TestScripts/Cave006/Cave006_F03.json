@@ -1,0 +1,31 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 57.513428,
+          "y": -847.7927
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "idle",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 427,
+          "y": -142
+        }
+      }
+    }
+  ]
+}

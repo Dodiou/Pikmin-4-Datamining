@@ -1,5 +1,5 @@
 import { ObjectTypes, PikminVariants } from "../../types.js";
-import { removeUndefineds } from "../../util.js";
+import { getObjectFromPath, removeUndefineds } from "../../util.js";
 
 // The spawner code params is very poorly written, so some assertions to help find special cases if they arise:
 function assertSpawnerParams(params, hasSpawns) {
@@ -37,10 +37,6 @@ function getPikminColor(enumStr) {
   return enumStr.substring(14);
 }
 
-export function isPikminSpawnerComp(comp) {
-  return !!comp.Properties.NoraSpawnerAI;
-}
-
 // Some defaults for non-candypop pikmin spawners
 // const DEFAULT_NORA_SPAWNER_AI_PARAMS = {
 //   "PikminColor": "EPikminColor::Red",
@@ -53,13 +49,13 @@ export function isPikminSpawnerComp(comp) {
 //     "Z": 0,
 //   },
 // }
-export function parsePikminSpawnerAIComp(NoraSpawnerAI) {
-  const params = NoraSpawnerAI.Properties.NoraSpawnerAIParam;
+function parsePikminSpawnerAIComp(spawnerType, NoraSpawnerAI) {
+  const params = NoraSpawnerAI.Properties.NoraSpawnerAIParam || {};
 
-  const isCandypop = NoraSpawnerAI.Type.includes('PongashiLock');
-  const isSprouts = NoraSpawnerAI.Type.includes('HeadLock');
+  const isCandypop = spawnerType.includes('PongashiLock');
+  const isSprouts = spawnerType.includes('HeadLock');
   const isFighting = params.bProWrestling === true;
-  const hasSpawns = params.RandomActorSpawnList?.length !== 0;
+  const hasSpawns = params.RandomActorSpawnList && params.RandomActorSpawnList.length !== 0;
 
   // uncomment to debug some of the weird spawner params:
   // assertSpawnerParams(params, hasSpawns);
@@ -70,8 +66,8 @@ export function parsePikminSpawnerAIComp(NoraSpawnerAI) {
     type: isCandypop
       ? ObjectTypes.Candypop
       : ObjectTypes.Pikmin,
-    color: getPikminColor(params.PikminColor), // remove "EPikminColor::"
-    // What state are the pikmin in? candypop, fighting, sprouts, or idle (are there others?)
+    color: getPikminColor(params.PikminColor),
+    // What state the pikmin are in. candypop, fighting, sprouts, or idle (are there others?)
     variant: isCandypop
       ? undefined
       : isSprouts
@@ -85,7 +81,7 @@ export function parsePikminSpawnerAIComp(NoraSpawnerAI) {
     changeToColor: params.PongashiChangeColorFromFollow && getPikminColor(params.PongashiChangeColorFromFollow),
     // Add 1 b/c of >check
     // the spawner will not spawn if the player has >='replacementCondition' of the same pikmin color
-    replacementCondition: params.MabikiNumFromFollow + 1,
+    replacementCondition: params.MabikiNumFromFollow && params.MabikiNumFromFollow + 1,
     // some spawners have replacements if 'spawnMaxCondition' is met, (and only if it is met, not if "forced" by 100 pikmin limit)
     // usually candypops of the same color, but sometimes eggs or candypops of a different color
     // TODO: depends on bDisableForcePongashi?
@@ -96,4 +92,13 @@ export function parsePikminSpawnerAIComp(NoraSpawnerAI) {
   };
 
   return removeUndefineds(spawnerProps);
+}
+
+export function isPikminSpawnerComp(comp) {
+  return !!comp.Properties.NoraSpawnerAI;
+}
+
+export function parsePikminSpawnerComp(comp, compsList) {
+  const spawnerComp = getObjectFromPath(comp.Properties.NoraSpawnerAI, compsList);
+  return parsePikminSpawnerAIComp(comp.Type, spawnerComp);
 }

@@ -1,0 +1,105 @@
+{
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -959,
+          "y": 497
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 816,
+          "y": -968
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -595,
+          "y": -939
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 525,
+          "y": 406
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -694,
+          "y": -682
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": 277,
+          "y": 550
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 137,
+          "y": -690
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -402,
+          "y": 1127
+        }
+      }
+    }
+  ]
+}

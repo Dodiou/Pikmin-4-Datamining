@@ -1,0 +1,126 @@
+{
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -261.95532,
+          "y": 82.66855
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -3048.155,
+          "y": 1577.7446
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -2330.568,
+          "y": 1438.9781
+        },
+        "rotation": -155
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -979.9054,
+          "y": 1143.4768
+        },
+        "rotation": -65
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -2463.632,
+          "y": 1170.0131
+        },
+        "rotation": 25
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 1053.1763,
+          "y": 184.40143
+        },
+        "rotation": -65
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 1120.3728,
+          "y": 328.50418
+        },
+        "rotation": -65
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 350.60553,
+          "y": 865.09674
+        },
+        "rotation": 25
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F01_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -2952.4197,
+          "y": 1536.9644
+        },
+        "rotation": 25
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F01_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": 2470.1245,
+          "y": -520.4675
+        },
+        "rotation": 25
+      }
+    }
+  ]
+}

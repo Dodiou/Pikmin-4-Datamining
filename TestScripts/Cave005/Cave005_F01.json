@@ -1,0 +1,164 @@
+{
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -81.34405,
+          "y": -0.049682617
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -391.55115,
+          "y": 1100.3926
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 99.14102,
+          "y": -825.5183
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 452.39932,
+          "y": -824.9408
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 810,
+          "y": -525
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 548.3081,
+          "y": -1020.37366
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -399.80762,
+          "y": -774.85156
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 557.3148,
+          "y": 278.5374
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 482.11035,
+          "y": 306.13214
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -445,
+          "y": -819
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 548.5178,
+          "y": 212.67169
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -413.7484,
+          "y": -873.63086
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "candypopOffset": {
+        "X": 266,
+        "Y": 74,
+        "Z": 0
+      },
+      "transform": {
+        "translation": {
+          "x": 553.7565,
+          "y": -292.17645
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -900.1731,
+          "y": -481.52368
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -1042.5,
+          "y": 235
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F03_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 912.5,
+          "y": 935
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F03_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": -514.5,
+          "y": 13
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F03_WaterBox02_D.png",
+      "transform": {
+        "translation": {
+          "x": 327.5,
+          "y": -191
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -4.9987793,
+          "y": -340.5005
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 837.5,
+          "y": -700
+        }
+      }
+    }
+  ],
+  "item": [
+    {
+      "type": "item",
+      "variant": "iceBomb",
+      "transform": {
+        "translation": {
+          "x": 426.1317,
+          "y": 646.9248
+        }
+      }
+    },
+    {
+      "type": "item",
+      "variant": "iceBomb",
+      "transform": {
+        "translation": {
+          "x": 1095.585,
+          "y": 645.07635
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "slope",
+      "materialsNeeded": 21,
+      "transform": {
+        "translation": {
+          "x": -662.5,
+          "y": -687.5
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -360.33734,
+          "y": -328.79132
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -645,
+          "y": 137
+        },
+        "rotation": 90
+      }
+    }
+  ]
+}

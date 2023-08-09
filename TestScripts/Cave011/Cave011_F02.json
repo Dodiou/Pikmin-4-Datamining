@@ -1,0 +1,177 @@
+{
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -368,
+          "y": -963
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": -575,
+          "y": 391
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -1080.1204,
+          "y": 1256.2042
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -827.0357,
+          "y": 428.19916
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 824.98816,
+          "y": -550.854
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 1438,
+          "y": 418
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 27,
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -237
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "candypopOffset": {
+        "X": -760,
+        "Y": 345,
+        "Z": 115
+      },
+      "transform": {
+        "translation": {
+          "x": -353,
+          "y": -748
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "candypopOffset": {
+        "X": -177,
+        "Y": 389.50687,
+        "Z": 125
+      },
+      "transform": {
+        "translation": {
+          "x": 288.1897,
+          "y": 248.90234
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 100,
+      "normalTexture": "T_ui_Map_Cave011_F02_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 0
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -58,
+          "y": -870
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -58,
+          "y": 1073
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 938,
+          "y": 550
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

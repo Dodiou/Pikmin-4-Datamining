@@ -1,0 +1,245 @@
+{
+  "straw": [
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 304.5,
+          "y": 727.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -1074.0142,
+          "y": 101.56604
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -1084.0142,
+          "y": 176.31
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 14.486298,
+          "y": -375.35608
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 12.638733,
+          "y": -457.44336
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -135.24396,
+          "y": -104.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -210.34769,
+          "y": -84.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 297.5,
+          "y": 650.5
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 729.46545,
+          "y": -133.72803
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": -61.7287,
+          "y": -416.44128
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 722.46545,
+          "y": -208.41891
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 730.46545,
+          "y": -281.63293
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": -671.5,
+          "y": -663.5
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 939.14136,
+          "y": 949.26624
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 30,
+      "transform": {
+        "translation": {
+          "x": -413.9115,
+          "y": -830.7981
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 30,
+      "transform": {
+        "translation": {
+          "x": 1107,
+          "y": 688
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 138,
+          "y": 268.67786
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 693.5,
+          "y": -638.5
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -784.2691,
+          "y": 197.07704
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 630,
+          "y": 311.33673
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "idle",
+      "amount": 5,
+      "replacementCondition": 6,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -983.8428,
+          "y": -173.15112
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 6,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -435,
+          "y": 375
+        }
+      }
+    }
+  ]
+}

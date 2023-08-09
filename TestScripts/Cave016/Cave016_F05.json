@@ -1,0 +1,54 @@
+{
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 962.81494,
+          "y": -135.65833
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -131.39117,
+          "y": -686.3441
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -139.60318,
+          "y": -307.62744
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 137,
+          "y": -925
+        }
+      }
+    }
+  ]
+}

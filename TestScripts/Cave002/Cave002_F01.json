@@ -1,0 +1,95 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": -679,
+          "y": 53.5
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 140.58997,
+          "y": -567.4131
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -887.2465,
+          "y": -148.47362
+        },
+        "rotation": -180
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 0.80009854,
+          "y": -333
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "changeToColor": "Undef",
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 930,
+          "y": 822.5
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "changeToCondition": 0,
+      "changeToColor": "Yellow",
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "transform": {
+        "translation": {
+          "x": -452,
+          "y": -272.5
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Red",
+      "amount": 1,
+      "replacementCondition": 6,
+      "transform": {
+        "translation": {
+          "x": -940.31635,
+          "y": -794.3253
+        }
+      }
+    }
+  ]
+}

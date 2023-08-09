@@ -1,0 +1,166 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 555.5,
+          "y": 435.00015
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F00_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": 37.500275,
+          "y": 573
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F00_WaterBox02_D.png",
+      "transform": {
+        "translation": {
+          "x": -702.5,
+          "y": -90
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F00_WaterBox03_D.png",
+      "transform": {
+        "translation": {
+          "x": -295.5,
+          "y": -447.00122
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave014_F00_WaterBox04_D.png",
+      "transform": {
+        "translation": {
+          "x": 257.5,
+          "y": -502
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -410.47974,
+          "y": -767.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 882.5,
+          "y": -380
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -112.5,
+          "y": 275
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 287.5,
+          "y": 0
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 506.5,
+          "y": -825
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -1064.0009,
+          "y": 555.17145
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 837.5,
+          "y": 11
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": -572.5,
+          "y": -826
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

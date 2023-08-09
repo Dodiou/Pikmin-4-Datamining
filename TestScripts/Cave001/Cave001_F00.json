@@ -1,0 +1,167 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 89.56979,
+          "y": -255.794
+        }
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 830.9091,
+          "y": 289.47336
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 892.6327,
+          "y": 267.3994
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 771.84,
+          "y": 263.57895
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 113.653145,
+          "y": 449.61688
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -549.10596,
+          "y": 377.52634
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -613.6663,
+          "y": 392.71823
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -331.1454,
+          "y": -258.43457
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -377.6948,
+          "y": -296.64227
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -485.53378,
+          "y": 393
+        }
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 493.5,
+          "y": -445.5
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 579.5,
+          "y": -414.5
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "candypopOffset": {
+        "X": 1000,
+        "Y": -1000,
+        "Z": 0
+      },
+      "transform": {
+        "translation": {
+          "x": -229.5,
+          "y": 964.5
+        }
+      }
+    }
+  ]
+}

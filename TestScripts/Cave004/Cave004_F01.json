@@ -1,0 +1,156 @@
+{
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 395,
+          "y": -551
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 805.59863,
+          "y": -223.0531
+        },
+        "rotation": -11.346
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "slope",
+      "materialsNeeded": 22,
+      "transform": {
+        "translation": {
+          "x": -389.5701,
+          "y": 275
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 1124.1575,
+          "y": -355.29272
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 37.01523,
+          "y": -428.53278
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GSurvivorA_C",
+          "chance": 1,
+          "min": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -825,
+          "y": 420
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 664.47906,
+          "y": 210.95442
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "changeToCondition": 0,
+      "changeToColor": "Ice",
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 1220.999,
+          "y": -229.40439
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Red",
+      "amount": 1,
+      "replacementCondition": 6,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 658,
+          "y": -636
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -10,
+          "y": 685
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 665,
+          "y": 208
+        }
+      }
+    }
+  ]
+}

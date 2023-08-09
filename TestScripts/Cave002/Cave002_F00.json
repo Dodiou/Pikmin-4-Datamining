@@ -1,0 +1,62 @@
+{
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -1515,
+          "y": -412
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "idle",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "candypopOffset": {
+        "X": 210,
+        "Y": 50,
+        "Z": -84
+      },
+      "transform": {
+        "translation": {
+          "x": -399,
+          "y": -1249
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 397,
+          "y": -1167
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": 887.52673,
+          "y": 22.935669
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

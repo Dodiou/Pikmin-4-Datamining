@@ -1,0 +1,59 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -1213.5,
+          "y": -543.5
+        },
+        "rotation": 45
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 277.071,
+          "y": -527.07104
+        },
+        "rotation": 135
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 388.5,
+          "y": 543.5
+        },
+        "rotation": -135
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -1060,
+          "y": 145
+        },
+        "rotation": -67.5
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -47.071014,
+          "y": 557.6729
+        },
+        "rotation": -155.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave034_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 425.5,
+          "y": 412.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave034_F00_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": -427.5,
+          "y": 563
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave034_F00_WaterBox02_D.png",
+      "transform": {
+        "translation": {
+          "x": 850,
+          "y": -575
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "swamp",
+      "amountToFreeze": 5,
+      "canSink": false,
+      "normalTexture": "T_ui_Map_Cave034_F00_WaterBox03_D.png",
+      "transform": {
+        "translation": {
+          "x": -151.5,
+          "y": -313
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -25,
+          "y": -687.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -647.75,
+          "y": -480.25
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -728.75,
+          "y": -617.75
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 136.75,
+          "y": -138
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 480.75,
+          "y": -987.75
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 40,
+      "transform": {
+        "translation": {
+          "x": 433.5,
+          "y": 664.5
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 1019.75,
+          "y": -1017.5
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "fighting",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -116,
+          "y": -1014.25
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "fighting",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 958,
+          "y": 415.75
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -939,
+          "y": 864.75
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 72.75,
+          "y": 635.5
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -461,
+          "y": 632.75
+        }
+      }
+    }
+  ]
+}

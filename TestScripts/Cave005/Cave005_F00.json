@@ -1,0 +1,106 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 469.61084,
+          "y": -710.5697
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 687.88,
+          "y": -16.292908
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -858.1865,
+          "y": 138
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -907.2584,
+          "y": 240.79257
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1003.27515,
+          "y": 281.9358
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -969.74023,
+          "y": 227.0947
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -940.8684,
+          "y": 294.89783
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": 633.3169,
+          "y": -387.69604
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -396.33606,
+          "y": -412.5089
+        }
+      }
+    }
+  ]
+}

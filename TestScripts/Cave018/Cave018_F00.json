@@ -1,0 +1,126 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "swamp",
+      "amountToFreeze": 100,
+      "canSink": true,
+      "normalTexture": "T_ui_Map_Cave018_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 8,
+          "y": -21
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 35,
+      "transform": {
+        "translation": {
+          "x": -1040.2483,
+          "y": -1194.6692
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "wall",
+      "materialsNeeded": 13,
+      "transform": {
+        "translation": {
+          "x": -276.48907,
+          "y": 414.79977
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 1277.1702,
+          "y": 590.7256
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -916,
+          "y": -1084
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -460.59775,
+          "y": 54.05015
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -396.21286,
+          "y": 208.36084
+        }
+      }
+    }
+  ],
+  "zipline": [
+    {
+      "type": "zipline",
+      "transform": {
+        "translation": {
+          "x": -209.83972,
+          "y": 19.45462
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -726.1504,
+          "y": -1099
+        },
+        "rotation": -90
+      }
+    }
+  ]
+}

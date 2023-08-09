@@ -1,0 +1,148 @@
+{
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -962.9179,
+          "y": 303.95355
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -130.72742,
+          "y": 413.39587
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -687.5,
+          "y": 790
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 962.5,
+          "y": 6
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 398.27258,
+          "y": 413.39587
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -324.5,
+          "y": 133
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 475.5,
+          "y": -420
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 47.5,
+          "y": 134
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -686.5,
+          "y": 1174
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -551.48157,
+          "y": -2.7170715
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "changeToCondition": 11,
+      "changeToColor": "White",
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -110
+        }
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBomb_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1195.5,
+          "y": 179
+        }
+      }
+    }
+  ]
+}

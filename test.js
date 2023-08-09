@@ -4,7 +4,7 @@ import { parseObjectLocations } from "./Scripts/Parse/parseMapActorLocations.js"
 import { parseRootMapComponents } from "./Scripts/Parse/parseRootMapFile.js";
 import { preprocessJSON } from "./Scripts/Parse/util.js";
 
-const area = 'Area010';
+const area = 'Area001';
 const root = `./Maps/Main/Area/${area}`;
 
 const rootMap = root + `/${area}_P.json`;

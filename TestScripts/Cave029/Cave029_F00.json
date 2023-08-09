@@ -1,0 +1,210 @@
+{
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -316.9983,
+          "y": 1349.9998
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "idle",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -971.2233,
+          "y": 380.79742
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -921.2767,
+          "y": -736.4077
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -665,
+          "y": 1482
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 361.99976,
+          "y": -1241
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 948.0008,
+          "y": -166.00098
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 191.0008,
+          "y": 520.999
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -285.99997,
+          "y": -225.6746
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -630,
+          "y": -565
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 80,
+          "y": 1055
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": -169
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -688,
+          "y": 242
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": 537,
+          "y": 656
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": -993.5
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 187,
+          "y": -962
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 40,
+      "transform": {
+        "translation": {
+          "x": 671,
+          "y": 93
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 33,
+      "transform": {
+        "translation": {
+          "x": 385,
+          "y": 1200
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 40,
+      "transform": {
+        "translation": {
+          "x": -426,
+          "y": 82
+        }
+      }
+    }
+  ]
+}

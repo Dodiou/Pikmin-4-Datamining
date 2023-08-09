@@ -1,0 +1,110 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 266.5,
+          "y": -848.5
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 376.94992,
+          "y": -270.45758
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave010_F01_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 483.57742,
+          "y": 277.06708
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -381.8414,
+          "y": -413.2509
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "candypopOffset": {
+        "X": 0,
+        "Y": 155.56754,
+        "Z": 0
+      },
+      "transform": {
+        "translation": {
+          "x": -136.8414,
+          "y": 675.74915
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -670,
+          "y": 551
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": -675
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": 273,
+          "y": -422
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

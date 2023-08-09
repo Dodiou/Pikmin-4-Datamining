@@ -1,0 +1,106 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 630,
+          "y": 569.5
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "changeToCondition": 41,
+      "changeToColor": "Ice",
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "transform": {
+        "translation": {
+          "x": -833,
+          "y": -817
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "changeToCondition": 41,
+      "changeToColor": "Ice",
+      "replacementCondition": 51,
+      "replacement": "candypop",
+      "transform": {
+        "translation": {
+          "x": 284,
+          "y": 422
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 100,
+      "normalTexture": "T_ui_Map_Cave011_F03_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": 0
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 1006.05286,
+          "y": 671.2552
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 1555.4996,
+          "y": -1035.0736
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Blue",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -692.77386,
+          "y": 1096.0999
+        }
+      }
+    }
+  ]
+}

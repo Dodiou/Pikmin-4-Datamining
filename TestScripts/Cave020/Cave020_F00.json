@@ -1,0 +1,206 @@
+{
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 50,
+      "transform": {
+        "translation": {
+          "x": -940,
+          "y": 0
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 42,
+      "transform": {
+        "translation": {
+          "x": 687,
+          "y": 219
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 50,
+      "transform": {
+        "translation": {
+          "x": 146.99994,
+          "y": -1061
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -664,
+          "y": 1085
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -652,
+          "y": 242
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 274,
+          "y": 1125
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 390,
+          "y": 260
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -1,
+          "y": -900
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -763,
+          "y": -412
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": 567,
+          "y": -825
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -273,
+          "y": 0
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 15,
+      "transform": {
+        "translation": {
+          "x": 527,
+          "y": -47
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBomb_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 354,
+          "y": -222
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBomb_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -440,
+          "y": 257
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 447,
+          "y": 1077
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 636,
+          "y": 0
+        },
+        "rotation": 90
+      }
+    }
+  ]
+}

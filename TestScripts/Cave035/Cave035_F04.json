@@ -1,0 +1,136 @@
+{
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 736,
+          "y": -149
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -976,
+          "y": -274
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 690,
+          "y": -1637
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -1157.6339,
+          "y": -155
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "fighting",
+      "amount": 3,
+      "transform": {
+        "translation": {
+          "x": 813.89056,
+          "y": -1234.5
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "fighting",
+      "amount": 4,
+      "transform": {
+        "translation": {
+          "x": 922.2938,
+          "y": -1171.5
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "fighting",
+      "amount": 3,
+      "transform": {
+        "translation": {
+          "x": 241.75531,
+          "y": 1339.7976
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "fighting",
+      "amount": 4,
+      "transform": {
+        "translation": {
+          "x": 300.49188,
+          "y": 1371.3495
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 7,
+      "replacement": "candypop",
+      "transform": {
+        "translation": {
+          "x": -820,
+          "y": -262
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "sprouts",
+      "amount": 7,
+      "transform": {
+        "translation": {
+          "x": -930,
+          "y": 1219
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 7,
+      "transform": {
+        "translation": {
+          "x": -1577,
+          "y": 276
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 15,
+      "normalTexture": "T_ui_Map_Cave021_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -280,
+          "y": -700
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 15,
+      "normalTexture": "T_ui_Map_Cave021_F00_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": -410,
+          "y": 137
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 271.0944,
+          "y": 543.92346
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 5.880768,
+          "y": 310.60297
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 107.57625,
+          "y": 75.03143
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -4.243347,
+          "y": 541.41187
+        }
+      }
+    }
+  ]
+}

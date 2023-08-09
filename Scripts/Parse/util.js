@@ -37,3 +37,19 @@ const DebugUniqueIdRegex = /"DebugUniqueId": (\d+)/g;
 export function preprocessJSON(jsonString) {
   return jsonString.replaceAll(DebugUniqueIdRegex, (_match, digits) => `"DebugUniqueId": "${digits}"`);
 }
+
+export function groupBy(array, property) {
+  const results = {};
+
+  for (const obj of array) {
+    const propVal = obj[property];
+
+    if (!results[propVal]) {
+      results[propVal] = [];
+    }
+
+    results[propVal].push(obj);
+  }
+
+  return results;
+}

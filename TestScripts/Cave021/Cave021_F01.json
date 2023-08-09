@@ -1,0 +1,139 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 11.559502,
+          "y": 58.0625
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 607.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 238.839,
+          "y": -216.87115
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -247.55147,
+          "y": 357.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 729.1924,
+          "y": -439.2671
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -570,
+          "y": -226.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -242.28693,
+          "y": -226.78052
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 50,
+      "transform": {
+        "translation": {
+          "x": -955,
+          "y": -287.5
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 324.6741,
+          "y": -619.94543
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 20,
+      "normalTexture": "T_ui_Map_Cave021_F01_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -546.0431,
+          "y": -686.3894
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -860,
+          "y": 957.5
+        }
+      }
+    }
+  ]
+}

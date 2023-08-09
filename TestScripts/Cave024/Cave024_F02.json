@@ -1,0 +1,72 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -136.4527,
+          "y": 773.43884
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -1018.95874,
+          "y": -661.40125
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -965.4527,
+          "y": -1281.0833
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -1008.13495,
+          "y": 964.0908
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -689,
+          "y": 1062.9175
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 137,
+          "y": 1654.3848
+        },
+        "rotation": 180
+      }
+    }
+  ]
+}

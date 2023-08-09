@@ -1,0 +1,235 @@
+{
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "idle",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -123.936584,
+          "y": 394.53418
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "idle",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -1296.0746,
+          "y": -705.36255
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -1493.5,
+          "y": 977.5
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -141.5,
+          "y": -571.5
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 1740.9254,
+          "y": 178.63745
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "fighting",
+      "amount": 5,
+      "replacementCondition": 0,
+      "transform": {
+        "translation": {
+          "x": 890.5,
+          "y": 18.5
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -1803.114,
+          "y": -901.8772
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": -848.5,
+          "y": 337.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": -1254.5,
+          "y": 1215.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 1997.5137,
+          "y": 523.42676
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 50,
+      "transform": {
+        "translation": {
+          "x": -1238,
+          "y": -11.5
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 49.5,
+          "y": 225.5
+        },
+        "rotation": -45
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 558.5,
+          "y": -687.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 15,
+      "normalTexture": "T_ui_Map_Cave031_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -1257.5,
+          "y": -825.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 15,
+      "normalTexture": "T_ui_Map_Cave031_F00_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": -280.5,
+          "y": 416.5
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -132.5,
+          "y": -1499
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": -2040.5,
+          "y": -1006.5
+        }
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1028.5,
+          "y": -1000.5
+        }
+      }
+    },
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1953.75,
+          "y": -672.5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": 14,
+          "y": -1307.5
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -1108.0581,
+          "y": 280.5
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "idle",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 160.68677,
+          "y": -1248.8859
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "idle",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 684,
+          "y": 964.5
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 23,
+      "transform": {
+        "translation": {
+          "x": 419,
+          "y": -277.5
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 827.9416,
+          "y": -1577.475
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -388,
+          "y": 206
+        },
+        "rotation": -56
+      }
+    }
+  ]
+}

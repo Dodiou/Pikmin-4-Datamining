@@ -1,0 +1,41 @@
+{
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 1100,
+          "y": -217.5
+        }
+      }
+    }
+  ],
+  "zipline": [
+    {
+      "type": "zipline",
+      "transform": {
+        "translation": {
+          "x": -541.5639,
+          "y": -218.00455
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 825
+        }
+      }
+    }
+  ]
+}

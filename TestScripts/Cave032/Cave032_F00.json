@@ -1,0 +1,189 @@
+{
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -528.8223,
+          "y": 530.3223
+        },
+        "rotation": -45
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 47,
+      "transform": {
+        "translation": {
+          "x": 715,
+          "y": -576.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 969,
+          "y": 468.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": -594.5,
+          "y": -713.5
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -266.0023,
+          "y": -368.44333
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -1015,
+          "y": 245.75
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 1037.25,
+          "y": -1025
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -970,
+          "y": -968
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 1029,
+          "y": 907
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 404,
+          "y": 362.75
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 100,
+      "normalTexture": "T_ui_Map_Cave032_F00_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -644,
+          "y": 430
+        },
+        "rotation": 30
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 100,
+      "normalTexture": "T_ui_Map_Cave032_F00_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": 513,
+          "y": -577
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -630,
+          "y": 1003
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "wall",
+      "materialsNeeded": 15,
+      "transform": {
+        "translation": {
+          "x": 991,
+          "y": 272
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Purple",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 699,
+          "y": -983
+        }
+      }
+    }
+  ]
+}

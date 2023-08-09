@@ -1,0 +1,152 @@
+{
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": -202.5,
+          "y": -687.5
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -567.95154
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 954.5,
+          "y": 412.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -607.5,
+          "y": -33.5
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": -471.77393
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboardYellow",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": -576.489
+        },
+        "rotation": -180
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Wing",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -900,
+          "y": 135
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Yellow",
+      "amount": 1,
+      "replacementCondition": 6,
+      "transform": {
+        "translation": {
+          "x": -1159.0183,
+          "y": 159.1177
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Red",
+      "amount": 1,
+      "replacementCondition": 6,
+      "transform": {
+        "translation": {
+          "x": -1322.8596,
+          "y": 110.37032
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "fighting",
+      "amount": 2,
+      "transform": {
+        "translation": {
+          "x": 516.4049,
+          "y": -430.66208
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "fighting",
+      "amount": 3,
+      "transform": {
+        "translation": {
+          "x": 481.27185,
+          "y": -632.64215
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "valve",
+      "materialsNeeded": 16,
+      "transform": {
+        "translation": {
+          "x": 584.10266,
+          "y": -567.046
+        }
+      }
+    }
+  ]
+}

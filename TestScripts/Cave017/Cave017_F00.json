@@ -1,0 +1,148 @@
+{
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 50,
+      "transform": {
+        "translation": {
+          "x": 252,
+          "y": -1046
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 39,
+      "transform": {
+        "translation": {
+          "x": 1049.7476,
+          "y": -392.03418
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "amount": 50,
+      "transform": {
+        "translation": {
+          "x": -693,
+          "y": 923.7894
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -271.00073,
+          "y": -345.0055
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -277,
+          "y": 481
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 65.00037,
+          "y": -692.9994
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 66.99927,
+          "y": 133.9945
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 904.99927,
+          "y": -701.0055
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 545.99927,
+          "y": -333.0055
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 773,
+          "y": -810
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "transform": {
+        "translation": {
+          "x": 671,
+          "y": -889
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 546,
+          "y": -1100
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -961,
+          "y": 410
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

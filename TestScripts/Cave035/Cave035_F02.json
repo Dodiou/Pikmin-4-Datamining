@@ -1,0 +1,138 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 10,
+      "normalTexture": "T_ui_Map_Cave035_F02_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 505,
+          "y": -523
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 5,
+      "normalTexture": "T_ui_Map_Cave035_F02_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": -644,
+          "y": 430
+        },
+        "rotation": 30
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Ice",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 909,
+          "y": -550
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -1003,
+          "y": 590
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 130,
+          "y": -119
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 541,
+          "y": 398
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Yellow",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 961,
+          "y": 970
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "White",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -458,
+          "y": -758
+        }
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -640,
+          "y": 982
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GOtaApricot_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -975,
+          "y": -949
+        }
+      }
+    }
+  ]
+}

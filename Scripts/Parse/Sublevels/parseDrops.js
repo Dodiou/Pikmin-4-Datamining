@@ -10,11 +10,13 @@ const AllDropValues = [
   'GPikminIce_C',
   'GHoney_C',
   'GPiecePick_C',
-  'GHikariStation_C', // Huh?? Glow pellets in Cave002_F00??
+  // Huh?? Glow pellets in Cave002_F00??
+  // This might just be a copy/paste thing form night enemies...
+  'GHikariStation_C',
   'GHotExtract_C'
 ]
 
-const DropsToInclude = [];
+const DropsToExclude = ['GHikariStation_C'];
 
 
 const TrackedDropValues = {};
@@ -26,24 +28,36 @@ export function debugDropItems() {
   console.log(Object.keys(TrackedDropValues));
 }
 
+export const DefaultLarvaDrop = {
+  item: 'GBaby_C',
+  chance: 1.0,
+  min: 1,
+  max: 1,
+};
+
 /*
  * DropParameter for objects comes from Properties.ObjectAIParameter.DropParameter
  */
-export function parseObjectDropList(comp) {
+export function parseObjectDropList(comp, defaultDrop = undefined) {
   if (!comp.Properties?.ObjectAIParameter?.DropParameter?.DropItemParameter) {
-    return [];
+    return defaultDrop ? [defaultDrop] : [];
   }
 
   return parseDropList(comp.Properties.ObjectAIParameter.DropParameter);
 }
 
 // NOTE: Some objects have "RareDropParameter", but this always seems to be empty or with drop-rates,min,max set to 0.
-export function parseDropList(DropParameter) {
-  return DropParameter.DropItemParameter.map(dropItem => {
-    // TODO a few have "null" DropActor's. What happens if these drop rates hit?
-    //      I am just setting to the BABY teki for now.
-    const blueprintName = dropItem.SpawnMiniInfo.DropActor?.ObjectName || "'GBaby_C'";
+export function parseDropList(DropParameter, defaultDrop = undefined) {
+  // TODO: a few have "null" DropActor's. What are the default drops?
+  const dropsWithUndefineds = DropParameter.DropItemParameter.map((dropItem) => {
+    if (dropItem.DropRatio <= 0.0) {
+      return undefined;
+    }
+    if (!dropItem.SpawnMiniInfo?.DropActor?.ObjectName) {
+      return defaultDrop;
+    }
 
+    const blueprintName = dropItem.SpawnMiniInfo.DropActor.ObjectName;
     const internalItemName = blueprintName.substring(blueprintName.indexOf("'") + 1, blueprintName.length - 1);
     trackDropItem(internalItemName);
 
@@ -52,6 +66,9 @@ export function parseDropList(DropParameter) {
       chance: dropItem.DropRatio,
       min: dropItem.MinNum,
       max: dropItem.Max,
-    }
-  })
+    };
+  });
+
+  // filter out the undefineds and DropsToExclude
+  return dropsWithUndefineds.filter(dropItem => dropItem && !DropsToExclude.includes(dropItem.item));
 }

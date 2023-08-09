@@ -1,0 +1,143 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 416,
+          "y": -218
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 766.8694,
+          "y": -149.58679
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -447.5,
+          "y": 59
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": -335,
+          "y": 636.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": 430,
+          "y": 825
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 551,
+          "y": -547.2453
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": -827,
+          "y": 238
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": -829,
+          "y": 589
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 1100,
+          "y": -1257
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "zipline": [
+    {
+      "type": "zipline",
+      "transform": {
+        "translation": {
+          "x": -822.5639,
+          "y": 479.53046
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -275,
+          "y": -385
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Red",
+      "variant": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 550.90857,
+          "y": 1084.5919
+        }
+      }
+    }
+  ]
+}

@@ -2,101 +2,62 @@
   {
     "type": "water",
     "variant": "water",
-    "amountToFreeze": 15,
-    "normalTexture": "T_ui_Map_Area010_WaterBox00_D.png",
+    "amountToFreeze": 30,
+    "normalTexture": "T_ui_Map_Area001_WaterBox00_D.png",
     "transform": {
       "translation": {
-        "x": 2909,
-        "y": -1953
+        "x": -295,
+        "y": 2580
       },
       "rotation": 0
     }
   },
   {
-    "type": "switch",
+    "type": "water",
+    "variant": "water",
+    "amountToFreeze": 20,
+    "normalTexture": "T_ui_Map_Area001_WaterBox01_D.png",
     "transform": {
       "translation": {
-        "x": 3133.001,
-        "y": -2178
+        "x": -3414,
+        "y": 608
       },
-      "rotation": 89.99988150621371
-    }
-  },
-  {
-    "type": "structure",
-    "variant": "wall",
-    "materialsNeeded": 30,
-    "transform": {
-      "translation": {
-        "x": -19,
-        "y": 3824
-      },
-      "rotation": 90.0000954213392
-    }
-  },
-  {
-    "type": "structure",
-    "variant": "slope",
-    "materialsNeeded": 21,
-    "transform": {
-      "translation": {
-        "x": 455,
-        "y": -632
-      },
-      "rotation": 0
+      "rotation": -50
     }
   },
   {
     "type": "shortcut",
-    "variant": "string",
-    "weight": 5,
+    "variant": "squashbag",
+    "weight": 10,
     "transform": {
       "translation": {
-        "x": 718.17365,
-        "y": -4046
-      }
+        "x": -3551.9924,
+        "y": 1670.051
+      },
+      "rotation": 5.068
     }
   },
   {
     "type": "shortcut",
-    "variant": "string",
-    "weight": 5,
+    "variant": "clipboard",
+    "weight": 10,
     "transform": {
       "translation": {
-        "x": 852,
-        "y": -3780
-      }
-    }
-  },
-  {
-    "type": "zipline",
-    "transform": {
-      "translation": {
-        "x": 3000,
-        "y": -600
+        "x": 583.6657,
+        "y": -1340.3356
       },
-      "rotation": -89.99999818714215
+      "rotation": 45
     }
   },
   {
-    "type": "shortcut",
-    "variant": "string",
-    "weight": 5,
+    "type": "gate",
+    "variant": "electric",
     "transform": {
       "translation": {
-        "x": 3719,
-        "y": 1677
-      }
-    }
-  },
-  {
-    "type": "zipline",
-    "transform": {
-      "translation": {
-        "x": -482.4806,
-        "y": -973.82715
+        "x": -2070.298,
+        "y": 67.071594
       },
-      "rotation": 0
+      "rotation": -66
     }
   },
   {
@@ -104,8 +65,109 @@
     "drops": [],
     "transform": {
       "translation": {
-        "x": 3345,
-        "y": -1664
+        "x": 860.4356,
+        "y": -1445.4868
+      }
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 901.1027,
+        "y": -1394.3153
+      }
+    }
+  },
+  {
+    "type": "shortcut",
+    "variant": "clipboardYellow",
+    "weight": 10,
+    "transform": {
+      "translation": {
+        "x": -2780.8513,
+        "y": 3333.9656
+      },
+      "rotation": 45
+    }
+  },
+  {
+    "type": "structure",
+    "variant": "wall",
+    "materialsNeeded": 15,
+    "transform": {
+      "translation": {
+        "x": 180,
+        "y": 3164
+      },
+      "rotation": 0
+    }
+  },
+  {
+    "type": "structure",
+    "variant": "bridge",
+    "materialsNeeded": 23,
+    "transform": {
+      "translation": {
+        "x": -1813,
+        "y": 2750
+      },
+      "rotation": 0
+    }
+  },
+  {
+    "type": "structure",
+    "variant": "bridge",
+    "materialsNeeded": 39,
+    "transform": {
+      "translation": {
+        "x": -1077,
+        "y": -851
+      },
+      "rotation": -90
+    }
+  },
+  {
+    "type": "structure",
+    "variant": "bridge",
+    "materialsNeeded": 22,
+    "transform": {
+      "translation": {
+        "x": 327.57895,
+        "y": 2015.8365
+      },
+      "rotation": 35
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 796.2613,
+        "y": -1498.755
+      }
+    }
+  },
+  {
+    "type": "shortcut",
+    "variant": "Root",
+    "transform": {
+      "translation": {
+        "x": 135.27502,
+        "y": -9.64061
+      },
+      "rotation": -120
+    }
+  },
+  {
+    "type": "pot",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": 797.0817,
+        "y": -1444.5248
       }
     }
   },
@@ -115,54 +177,45 @@
       {
         "item": "GPiecePick_C",
         "chance": 1,
-        "min": 10
+        "min": 5
       }
     ],
     "transform": {
       "translation": {
-        "x": 3290,
-        "y": -1620
+        "x": 528.2993,
+        "y": -681.4362
       }
     }
   },
   {
-    "type": "pot",
-    "drops": [],
+    "type": "gate",
+    "variant": "dirt",
     "transform": {
       "translation": {
-        "x": 3236,
-        "y": -1649
-      }
+        "x": 1571,
+        "y": 351
+      },
+      "rotation": 75
     }
   },
   {
-    "type": "shortcut",
-    "variant": "string",
-    "weight": 5,
+    "type": "gate",
+    "variant": "dirt",
     "transform": {
       "translation": {
-        "x": 2072,
-        "y": 1034
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": 256.3463,
-        "y": -2980.6306
-      }
+        "x": -608,
+        "y": -221.99997
+      },
+      "rotation": 0
     }
   },
   {
     "type": "glowPellets",
-    "amount": 25,
+    "amount": 20,
     "transform": {
       "translation": {
-        "x": 2184,
-        "y": -1151
+        "x": -1062,
+        "y": 136
       }
     }
   },
@@ -171,8 +224,8 @@
     "amount": 10,
     "transform": {
       "translation": {
-        "x": -169.98108,
-        "y": -181.27809
+        "x": 945.5584,
+        "y": 616.68054
       }
     }
   },
@@ -181,18 +234,8 @@
     "amount": 5,
     "transform": {
       "translation": {
-        "x": 15.135002,
-        "y": -709.7857
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 948.41376,
-        "y": 507.29004
+        "x": 2493.1528,
+        "y": 2583.7712
       }
     }
   },
@@ -201,8 +244,8 @@
     "amount": 5,
     "transform": {
       "translation": {
-        "x": -433,
-        "y": -1281
+        "x": -2198.9824,
+        "y": 2809.1562
       }
     }
   },
@@ -211,38 +254,8 @@
     "amount": 10,
     "transform": {
       "translation": {
-        "x": 1097,
-        "y": -1882
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 5,
-    "transform": {
-      "translation": {
-        "x": 184,
-        "y": -484
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 874,
-        "y": -555
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 350,
-        "y": -1335
+        "x": -2138.054,
+        "y": 1657.8729
       }
     }
   },
@@ -251,138 +264,8 @@
     "amount": 15,
     "transform": {
       "translation": {
-        "x": 42.96519,
-        "y": 815.35846
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 5,
-    "transform": {
-      "translation": {
-        "x": 3801.2195,
-        "y": 2203.3289
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": 1521.215,
-        "y": -511.5523
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 853.57,
-        "y": 2631.899
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 2647.218,
-        "y": 1028.5985
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": -1357.37,
-        "y": 1780.8207
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 25,
-    "transform": {
-      "translation": {
-        "x": 89.78634,
-        "y": 3944.768
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 1534.7036,
-        "y": 2143.6848
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": 3036.6008,
-        "y": 3139.7842
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 806.8492,
-        "y": 1298.571
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 1943.1825,
-        "y": 2640.9438
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": -425.00378,
-        "y": 3943.0112
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": -473.32687,
-        "y": 2769.2607
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 1087.418,
-        "y": 3638.302
+        "x": -331,
+        "y": -1306
       }
     }
   },
@@ -391,38 +274,8 @@
     "amount": 20,
     "transform": {
       "translation": {
-        "x": 1188.7228,
-        "y": 2605.157
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 5,
-    "transform": {
-      "translation": {
-        "x": 3068.8682,
-        "y": 478.1809
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 74.033936,
-        "y": 3475.502
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 543,
-        "y": 196
+        "x": -1578,
+        "y": -112
       }
     }
   },
@@ -431,8 +284,8 @@
     "amount": 15,
     "transform": {
       "translation": {
-        "x": -472.9945,
-        "y": 1575.016
+        "x": -1694.2517,
+        "y": 1024.409
       }
     }
   },
@@ -441,18 +294,8 @@
     "amount": 10,
     "transform": {
       "translation": {
-        "x": 2005.5833,
-        "y": 295.80136
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": -719.9811,
-        "y": -131.27809
+        "x": -201,
+        "y": -114
       }
     }
   },
@@ -461,18 +304,8 @@
     "amount": 10,
     "transform": {
       "translation": {
-        "x": -559.9811,
-        "y": 528.7219
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 124.24977,
-        "y": -1825.2092
+        "x": -1847.8678,
+        "y": 71.32169
       }
     }
   },
@@ -481,98 +314,27 @@
     "amount": 20,
     "transform": {
       "translation": {
-        "x": 397,
-        "y": -1845
+        "x": -1993,
+        "y": -1119
       }
     }
   },
   {
     "type": "glowPellets",
-    "amount": 10,
     "transform": {
       "translation": {
-        "x": 907,
-        "y": -1785
+        "x": -4359.316,
+        "y": -244.89252
       }
     }
   },
   {
     "type": "glowPellets",
-    "amount": 10,
+    "amount": 40,
     "transform": {
       "translation": {
-        "x": -490,
-        "y": -861
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 3017.527,
-        "y": 1721.8691
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 5,
-    "transform": {
-      "translation": {
-        "x": 1896.6415,
-        "y": 2638.7224
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 880.67596,
-        "y": 3194.9534
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 649.5182,
-        "y": 3601.6062
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 1262,
-        "y": 362
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 5,
-    "transform": {
-      "translation": {
-        "x": 2913.8071,
-        "y": 2583.1077
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 2397.3523,
-        "y": 2548.3901
+        "x": -4856.316,
+        "y": -1677.8926
       }
     }
   },
@@ -581,18 +343,8 @@
     "amount": 15,
     "transform": {
       "translation": {
-        "x": 1303.7844,
-        "y": 693.0057
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 3875.804,
-        "y": 2106.2542
+        "x": -2446.3352,
+        "y": 2210.655
       }
     }
   },
@@ -601,18 +353,8 @@
     "amount": 15,
     "transform": {
       "translation": {
-        "x": 3847.5293,
-        "y": 1731.0651
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 15,
-    "transform": {
-      "translation": {
-        "x": -9,
-        "y": -2338
+        "x": -200.14148,
+        "y": 2847.38
       }
     }
   },
@@ -621,38 +363,8 @@
     "amount": 20,
     "transform": {
       "translation": {
-        "x": 1861,
-        "y": -1785
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 2316.4849,
-        "y": 1651.25
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 5,
-    "transform": {
-      "translation": {
-        "x": 2805.5737,
-        "y": -2490.0393
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 743.5799,
-        "y": 2569.1096
+        "x": -2498,
+        "y": 3570
       }
     }
   },
@@ -661,28 +373,18 @@
     "amount": 15,
     "transform": {
       "translation": {
-        "x": 444.07526,
-        "y": 2386.935
+        "x": -3401,
+        "y": 838
       }
     }
   },
   {
     "type": "glowPellets",
-    "amount": 25,
+    "amount": 20,
     "transform": {
       "translation": {
-        "x": 642.99414,
-        "y": 2249.6514
-      }
-    }
-  },
-  {
-    "type": "glowPellets",
-    "amount": 10,
-    "transform": {
-      "translation": {
-        "x": 664.4002,
-        "y": 2369.6565
+        "x": -5005,
+        "y": -1699
       }
     }
   },
@@ -691,28 +393,456 @@
     "amount": 10,
     "transform": {
       "translation": {
-        "x": 402.6101,
-        "y": 1644.8381
+        "x": -1548.3734,
+        "y": 1728.3578
       }
     }
   },
   {
-    "type": "pot",
-    "drops": [],
+    "type": "glowPellets",
+    "amount": 10,
     "transform": {
       "translation": {
-        "x": 4010,
-        "y": 2021
+        "x": 246.90295,
+        "y": 1658.4529
       }
     }
   },
   {
-    "type": "pot",
+    "type": "glowPellets",
+    "amount": 15,
+    "transform": {
+      "translation": {
+        "x": 873.34174,
+        "y": 1195.2074
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -1546.6727,
+        "y": 1186.382
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 15,
+    "transform": {
+      "translation": {
+        "x": -965.5393,
+        "y": 125.54512
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -1446.7708,
+        "y": 2781.3926
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -966.98663,
+        "y": 1399.7173
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -2187.7532,
+        "y": 1680.5045
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": 1261.9531,
+        "y": 2492.9075
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": 80.98019,
+        "y": 447.05295
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 15,
+    "transform": {
+      "translation": {
+        "x": 1201.8009,
+        "y": 1216.0864
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 15,
+    "transform": {
+      "translation": {
+        "x": -1182,
+        "y": 928
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": 54.594788,
+        "y": 1487.7686
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 15,
+    "transform": {
+      "translation": {
+        "x": 747.24805,
+        "y": 77.12952
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": 1613.7072,
+        "y": 2898.3892
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": 518.25635,
+        "y": 2519.9902
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -374,
+        "y": 2391
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -60.586937,
+        "y": 1415.3309
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 5,
+    "transform": {
+      "translation": {
+        "x": 2534,
+        "y": 1601
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -1218.2437,
+        "y": 1429.649
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -477.53992,
+        "y": 1294.6416
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 20,
+    "transform": {
+      "translation": {
+        "x": 902.47076,
+        "y": -615.3738
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "transform": {
+      "translation": {
+        "x": 2160,
+        "y": -276
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -140,
+        "y": -254
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 5,
+    "transform": {
+      "translation": {
+        "x": -1910.0703,
+        "y": 1531.4221
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "transform": {
+      "translation": {
+        "x": 846,
+        "y": -953
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": 1615,
+        "y": 601
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 40,
+    "transform": {
+      "translation": {
+        "x": -2228.2114,
+        "y": 938.26746
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 20,
+    "transform": {
+      "translation": {
+        "x": 1268.8108,
+        "y": 3534.15
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 20,
+    "transform": {
+      "translation": {
+        "x": 1082.3184,
+        "y": 1234.1382
+      }
+    }
+  },
+  {
+    "type": "mound",
     "drops": [],
     "transform": {
       "translation": {
-        "x": 3999.0002,
-        "y": 2083.0002
+        "x": -1873,
+        "y": 2440
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -246.32495,
+        "y": 1015.7996
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": 35.591488,
+        "y": 646.74713
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 5,
+    "transform": {
+      "translation": {
+        "x": 347.77063,
+        "y": 1800.2603
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 5,
+    "transform": {
+      "translation": {
+        "x": -2149.368,
+        "y": 1642.4421
+      }
+    }
+  },
+  {
+    "type": "mound",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -717.2991,
+        "y": 15.873769
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -2635.7917,
+        "y": 2299.0754
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -741.1365,
+        "y": 1956.2599
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 15,
+    "transform": {
+      "translation": {
+        "x": -1216.0455,
+        "y": 855.8074
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -2693.5354,
+        "y": 1111.7898
+      }
+    }
+  },
+  {
+    "type": "mound",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -4029.8577,
+        "y": 1058.2864
+      }
+    }
+  },
+  {
+    "type": "mound",
+    "drops": [],
+    "transform": {
+      "translation": {
+        "x": -87.402565,
+        "y": 1530.2855
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -3388.4412,
+        "y": 1253.6477
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -3087.175,
+        "y": 2497.4834
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 15,
+    "transform": {
+      "translation": {
+        "x": -454.08392,
+        "y": -111.87772
+      }
+    }
+  },
+  {
+    "type": "glowPellets",
+    "amount": 10,
+    "transform": {
+      "translation": {
+        "x": -1694.1565,
+        "y": 2218.0833
       }
     }
   }

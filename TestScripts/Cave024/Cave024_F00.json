@@ -1,0 +1,70 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -9.710541,
+          "y": 492.7185
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -137.06091,
+          "y": -86.54266
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 21,
+      "transform": {
+        "translation": {
+          "x": -138.48816,
+          "y": 1044.7197
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 27,
+      "transform": {
+        "translation": {
+          "x": 412.5,
+          "y": -447
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Wing",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 339.167,
+          "y": 550.25854
+        }
+      }
+    }
+  ]
+}

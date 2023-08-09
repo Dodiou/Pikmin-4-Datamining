@@ -2,17 +2,24 @@ import { ObjectTypes, ShortcutVariants } from "../../types.js";
 import { getObjectFromPath } from "../../util.js";
 
 export function isShortcutComp(comp) {
-  return !!(comp.Properties.HandleBoardAI || comp.Properties.DownFloorAI || comp.Properties.StringAI || comp.Properties.PushGimmisckAI);
+  return !!(
+    comp.Properties.HandleBoardAI ||
+    comp.Properties.DownFloorAI ||
+    comp.Properties.StringAI ||
+    comp.Properties.PushGimmisckAI ||
+    comp.Properties.PullNekkoAI
+  );
 }
 
 export function parseShortcutComp(comp, compsList) {
   if (comp.Properties.HandleBoardAI) {
+    const isYellow = comp.Type.includes("Yellow");
     const handleBoardComp = getObjectFromPath(comp.Properties.HandleBoardAI, compsList);
+
     return {
       type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.Clipboard,
+      variant: isYellow ? ShortcutVariants.ClipboardYellow : ShortcutVariants.ClipboardAny,
       weight: handleBoardComp.Properties?.HandleBoardAIParameter?.WorkNum || 20 // TODO: double check it isn't based on component
-      // TODO: find the "high" ones?
     };
   }
   else if (comp.Properties.DownFloorAI) {
@@ -41,5 +48,11 @@ export function parseShortcutComp(comp, compsList) {
       variant: ShortcutVariants.PushBag,
       weight: pushAffordanceComp?.Properties?.WorkNum || 10, // See any push box. TODO: double check not component based?
     };
+  }
+  else if (comp.Properties.PullNekkoAI) {
+    return {
+      type: ObjectTypes.Shortcut,
+      variant: ShortcutVariants.Root
+    }
   }
 }

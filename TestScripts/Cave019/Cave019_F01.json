@@ -1,0 +1,53 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 368.88864,
+          "y": -140.60942
+        },
+        "rotation": -30.823
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -897.6121,
+          "y": 186.9448
+        },
+        "rotation": -140.938
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": -1247.5,
+          "y": 0
+        }
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -345,
+          "y": -80
+        }
+      }
+    }
+  ]
+}

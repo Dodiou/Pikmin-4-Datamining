@@ -72,8 +72,10 @@ const SlopeParamDefaults = {
   // _panelsPerRow, PiecePerPanel, and NeedColumnNum are unknown, since nothing uses these.
   //   total mats = 46 if Name includes '80uu', else 25
 }
-function parseStructureSlopeComp(SlopeBothAI) {
-  const isLargeSlope = SlopeBothAI.Name.includes('80uu'); // wish there was a better way to get this
+function parseStructureSlopeComp(slopeType, SlopeBothAI) {
+  // Read the slope type for number of pieces needed
+  const isLargeSlope = slopeType.includes('80uu');
+
   const structureParams = { ...SlopeParamDefaults, ...SlopeBothAI.Properties };
   structureParams.NeedColumnNum = isLargeSlope ? 46 : 25;
 
@@ -106,7 +108,7 @@ export function parseStructureComp(comp, compsList) {
   }
   else if (comp.Properties.SlopeBothAI) {
     const slopeComp = getObjectFromPath(comp.Properties.SlopeBothAI, compsList);
-    return parseStructureSlopeComp(slopeComp);
+    return parseStructureSlopeComp(comp.Type, slopeComp);
   }
 
   throw new Error('Could not parse unknown structure');

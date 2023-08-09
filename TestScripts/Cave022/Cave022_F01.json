@@ -1,0 +1,135 @@
+{
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 25,
+      "transform": {
+        "translation": {
+          "x": 1045.9154,
+          "y": -969.3462
+        }
+      }
+    }
+  ],
+  "straw": [
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 501.38623,
+          "y": -10.4104
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 597.4348,
+          "y": -8.855957
+        }
+      }
+    },
+    {
+      "type": "straw",
+      "transform": {
+        "translation": {
+          "x": 551.0149,
+          "y": 40.234314
+        }
+      }
+    }
+  ],
+  "pikmin": [
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": -21.291931,
+          "y": 933.2296
+        }
+      }
+    },
+    {
+      "type": "pikmin",
+      "color": "Rock",
+      "variant": "sprouts",
+      "amount": 5,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 594.87286,
+          "y": -457.83594
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": -624.58374,
+          "y": -793.44446
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "crystal",
+      "transform": {
+        "translation": {
+          "x": -919,
+          "y": -413
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "slope",
+      "materialsNeeded": 20,
+      "transform": {
+        "translation": {
+          "x": -274.72287,
+          "y": 24.196045
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 947.311,
+          "y": 137.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 6,
+      "transform": {
+        "translation": {
+          "x": -826.1025,
+          "y": 441.247
+        }
+      }
+    }
+  ]
+}

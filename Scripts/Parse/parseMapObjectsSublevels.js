@@ -1,12 +1,12 @@
 import { getObjectFromPath } from './util.js';
-import { ObjectTypes } from './types.js';
+import { ItemVariants, ObjectTypes } from './types.js';
 import { isStructureComp, parseStructureComp } from './Sublevels/Objects/parseStructure.js';
 import { isWaterComp, parseWaterComp } from './Sublevels/Objects/parseWater.js';
-import { isPikminSpawnerComp, parsePikminSpawnerAIComp } from './Sublevels/Objects/parsePikmin.js';
-import { isPieceStationComp, parsePieceStationAIComp } from './Sublevels/Objects/parsePieceStation.js';
+import { isPikminSpawnerComp, parsePikminSpawnerComp } from './Sublevels/Objects/parsePikmin.js';
+import { isPieceStationComp, parsePieceStationComp } from './Sublevels/Objects/parsePieceStation.js';
 import { isGateComp, parseGateComp } from './Sublevels/Objects/parseGate.js';
 import { isShortcutComp, parseShortcutComp } from './Sublevels/Objects/parseShortcut.js';
-import { parseObjectDropList } from './Sublevels/parseDrops.js';
+import { DefaultLarvaDrop, parseObjectDropList } from './Sublevels/parseDrops.js';
 
 /* 
  * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
@@ -18,6 +18,10 @@ import { parseObjectDropList } from './Sublevels/parseDrops.js';
  *       these sublevels files for now.
  */
 
+const ItemMap = {
+  'GIceBomb_C': ItemVariants.Bomb,
+  'GBomb_C': ItemVariants.IceBomb,
+};
 
 /**
  * Finds root object components by DebugUniqueId
@@ -35,12 +39,10 @@ export function parseSublevelsObjects(compsList) {
     let componentProps = {};
 
     if (isPikminSpawnerComp(comp)) {
-      const spawnerComp = getObjectFromPath(comp.Properties.NoraSpawnerAI, compsList);
-      componentProps = parsePikminSpawnerAIComp(spawnerComp);
+      componentProps = parsePikminSpawnerComp(comp, compsList);
     }
     else if (isPieceStationComp(comp)) {
-      const workStationComp = getObjectFromPath(comp.Properties.PieceStationAI, compsList);
-      componentProps = parsePieceStationAIComp(workStationComp);
+      componentProps = parsePieceStationComp(comp, compsList);
     }
     else if (isStructureComp(comp)) {
       componentProps = parseStructureComp(comp, compsList);
@@ -54,7 +56,7 @@ export function parseSublevelsObjects(compsList) {
     }
     else if (comp.Properties.ZiplineAI) {
       // TODO ZiplineAI.Properties.ZiplineAIParameter.goalOffset?
-      // TODO would it be possible to read the Spline too?
+      // Note: Spline not needed. Maps have the zipline route.
       componentProps = { type: ObjectTypes.Zipline };
     }
     else if (comp.Properties.CrackPotAI) {
@@ -83,14 +85,21 @@ export function parseSublevelsObjects(compsList) {
       componentProps = parseShortcutComp(comp, compsList);
     }
     else if (comp.Properties.TateanaAI) {
-      // TODO ActorSpawner.Properties.MaxSpawnNum: 3 = number of respawns. Default is 1 (every day). Giant's Hearth bombs respawn on 3rd day (i.e. 1 and 2 days after = no mound, 3 = mound)
-      //   also has night wave information.
+      // TODO parse RebirthInterval?
       const moundAIComp = getObjectFromPath(comp.Properties.TateanaAI, compsList);
       componentProps = {
         type: ObjectTypes.Mound,
         // TODO: default drop is to spawn BABY teki (bulbor larva)
-        drops: parseObjectDropList(moundAIComp)
+        drops: parseObjectDropList(moundAIComp, DefaultLarvaDrop)
       };
+    }
+    else if (comp.Properties.BombAI) {
+      componentProps = {
+        type: ObjectTypes.Item,
+        variant: ItemMap[comp.Type]
+      };
+      // test for other item types
+      componentProps.variant == undefined && console.error("Unknown item type!");
     }
     else if (isGateComp(comp)) {
       componentProps = parseGateComp(comp, compsList);
@@ -120,7 +129,6 @@ Objects to look at:
 "Name": "StickyFloorAI"
 "Name": "BranchAI"
 "Name": "GeyserAI"
-"Name": "PullNekkoAI" (Pull roots)
 "Name": "SprinklerAI" (location, maybe radius too?)
 "Name": "RopeFishingAI" what is this??
 "Name": "WarpCarryAI" tunnels?
@@ -135,4 +143,7 @@ WasurenagusaMiniAI/NIGHTDECOY must be Trickknolls.
 
 "Name": "OnyonCarryAI",
 "Name": "OtakaraAI",
+
+EPikminColor::Mix
+"PelletColor": "EPikminColor::Yellow"
 */

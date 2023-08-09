@@ -1,0 +1,71 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 632.5377,
+          "y": -30.205902
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "transform": {
+        "translation": {
+          "x": 655.1401,
+          "y": 757.0545
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -688.05096,
+          "y": -342.42584
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 10,
+      "normalTexture": "T_ui_Map_Cave016_F14_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": -499.79575,
+          "y": 379.94986
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "swamp",
+      "amountToFreeze": 10,
+      "canSink": false,
+      "normalTexture": "T_ui_Map_Cave016_F14_WaterBox01_D.png",
+      "transform": {
+        "translation": {
+          "x": 62.634476,
+          "y": 477.35614
+        },
+        "rotation": 0
+      }
+    }
+  ]
+}

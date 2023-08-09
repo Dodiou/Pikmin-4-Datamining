@@ -1,0 +1,27 @@
+{
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "numbered",
+      "transform": {
+        "translation": {
+          "x": 57.51066,
+          "y": -800.5
+        },
+        "rotation": -179.985
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -585,
+          "y": -140
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "candypop": [
+    {
+      "type": "candypop",
+      "color": "Red",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -454.12695,
+          "y": 585.6966
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Yellow",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -365.813,
+          "y": 747.3118
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Blue",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -217.15173,
+          "y": 680.2527
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "Ice",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": 27.961426,
+          "y": 675.7648
+        }
+      }
+    },
+    {
+      "type": "candypop",
+      "color": "White",
+      "amount": 1,
+      "replacementCondition": 51,
+      "replacement": "other",
+      "transform": {
+        "translation": {
+          "x": -117.38025,
+          "y": 761.596
+        }
+      }
+    }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "amountToFreeze": 10,
+      "normalTexture": "T_ui_Map_Cave016_F18_WaterBox00_D.png",
+      "transform": {
+        "translation": {
+          "x": 131.75476,
+          "y": -136.52808
+        },
+        "rotation": -20
+      }
+    }
+  ]
+}
