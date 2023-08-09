@@ -1,0 +1,464 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_Area001_WaterBox00_D.png",
+        "amountToFreeze": 30
+      },
+      "transform": {
+        "translation": {
+          "x": -295,
+          "y": 2580
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_Area001_WaterBox01_D.png",
+        "amountToFreeze": 20
+      },
+      "transform": {
+        "translation": {
+          "x": -3414,
+          "y": 608
+        },
+        "rotation": -50
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -3551.9924,
+          "y": 1670.051
+        },
+        "rotation": 5.068
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "clipboard",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 583.6657,
+          "y": -1340.3356
+        },
+        "rotation": 45
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "clipboardYellow",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -2780.8513,
+          "y": 3333.9656
+        },
+        "rotation": 45
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": 135.27502,
+          "y": -9.64061
+        },
+        "rotation": -120
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -2070.298,
+          "y": 67.071594
+        },
+        "rotation": -66
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 1571,
+          "y": 351
+        },
+        "rotation": 75
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -608,
+          "y": -221.99997
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 860.4356,
+          "y": -1445.4868
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 901.1027,
+          "y": -1394.3153
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 796.2613,
+          "y": -1498.755
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 797.0817,
+          "y": -1444.5248
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 528.2993,
+          "y": -681.4362
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GOtaButtonWood_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -4177.8066,
+          "y": 899.4269
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GOtaButtonWood_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -4078.126,
+          "y": 884.4307
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -4085.674,
+          "y": 948.7697
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -4140.4873,
+          "y": 952.84204
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GOtaPlum_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 436.80707,
+          "y": -669.0775
+        }
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "wall",
+      "materialsNeeded": 15,
+      "transform": {
+        "translation": {
+          "x": 180,
+          "y": 3164
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 23,
+      "transform": {
+        "translation": {
+          "x": -1813,
+          "y": 2750
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 39,
+      "transform": {
+        "translation": {
+          "x": -1077,
+          "y": -851
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 22,
+      "transform": {
+        "translation": {
+          "x": 327.57895,
+          "y": 2015.8365
+        },
+        "rotation": 35
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 25,
+      "transform": {
+        "translation": {
+          "x": -2079,
+          "y": 666
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 26,
+      "transform": {
+        "translation": {
+          "x": -2079,
+          "y": 3613
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 23,
+      "transform": {
+        "translation": {
+          "x": -815,
+          "y": -1633
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": 419.7041,
+          "y": 1665.4102
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -749.851,
+          "y": 2583.236
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 20,
+      "transform": {
+        "translation": {
+          "x": 2332.1238,
+          "y": 1940.7927
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 4,
+      "transform": {
+        "translation": {
+          "x": -293.851,
+          "y": 2423.236
+        }
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2701,
+          "y": 3428
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -4279,
+          "y": -1910
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -499.80573,
+          "y": 846.1282
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1192.1943,
+          "y": 1692.1282
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1825.1943,
+          "y": -1396.8718
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2589.8057,
+          "y": -1597.8718
+        }
+      }
+    }
+  ]
+}

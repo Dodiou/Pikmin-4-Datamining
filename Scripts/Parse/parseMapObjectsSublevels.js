@@ -132,7 +132,8 @@ Objects to look at:
 "Name": "SprinklerAI" (location, maybe radius too?)
 "Name": "RopeFishingAI" what is this??
 "Name": "WarpCarryAI" tunnels?
-"Name:" "HappyDoorAI" pup tunnels!
+"Name": "HappyDoorAI" pup tunnels!
+"Name": "MizunukiAI" these are drains for water. They have a default "SwitchID" of "mizunuki"
 
 "Name": "WasurenagusaAI" forget-me-nots? This is Lumiknolls
 _00 = blue

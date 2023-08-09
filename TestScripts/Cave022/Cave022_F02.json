@@ -1,11 +1,16 @@
 {
   "water": [
     {
+      "dynamic": {
+        "image": "T_ui_Map_Cave022_F02_WaterBox00_ChangeDist_D.png",
+        "amountToFreeze": 5
+      },
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 5,
-      "normalTexture": "T_ui_Map_Cave022_F02_WaterBox00_D.png",
-      "dynamicTexture": "T_ui_Map_Cave022_F02_WaterBox00_ChangeDist_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave022_F02_WaterBox00_D.png",
+        "amountToFreeze": 5
+      },
       "transform": {
         "translation": {
           "x": -789.4903,

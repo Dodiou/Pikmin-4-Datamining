@@ -1,0 +1,493 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory001_WaterBox00_Hero_D.png",
+        "amountToFreeze": 30
+      },
+      "transform": {
+        "translation": {
+          "x": -3444,
+          "y": 334
+        },
+        "rotation": -50
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 11,
+      "transform": {
+        "translation": {
+          "x": 507.55365,
+          "y": 2280.5796
+        },
+        "rotation": -145
+      }
+    },
+    {
+      "type": "structure",
+      "variant": "slope",
+      "materialsNeeded": 20,
+      "transform": {
+        "translation": {
+          "x": -1359.5387,
+          "y": 1222.5869
+        },
+        "rotation": -41.433
+      }
+    },
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 34,
+      "transform": {
+        "translation": {
+          "x": -3262.596,
+          "y": 1165.9136
+        },
+        "rotation": -158.952
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -552.09314,
+          "y": 2709.0474
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "squashbag",
+      "weight": 25,
+      "transform": {
+        "translation": {
+          "x": 183,
+          "y": 20
+        },
+        "rotation": 62
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "clipboardYellow",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -1819,
+          "y": 3002
+        },
+        "rotation": -178
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2714.6118,
+          "y": 197.44154
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2773.154,
+          "y": 112.2377
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2835.642,
+          "y": 95.18047
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 1970.7323,
+          "y": 474.4356
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 1994.4883,
+          "y": 412.31067
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2320.2354,
+          "y": 1049.1846
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2170,
+          "y": 984
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2198,
+          "y": 1101
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -3555.204,
+          "y": 1630.075
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -3494.632,
+          "y": 1677.114
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -3614.833,
+          "y": 1682.1302
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1072,
+          "y": 3391
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1072,
+          "y": 3446
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1072,
+          "y": 3501
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2160,
+          "y": 1053
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2122,
+          "y": 914
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2778.0854,
+          "y": 186.75734
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 2320.6167,
+          "y": 700.3535
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -1364.8839,
+          "y": 363.9289
+        },
+        "rotation": 61.942
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 1996.8824,
+          "y": 32.026302
+        },
+        "rotation": -30
+      }
+    }
+  ],
+  "mound": [
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -215.12631,
+          "y": 2811.9014
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -958.5104,
+          "y": -1506.1768
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBomb_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1543,
+          "y": 534
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBomb_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2357.7422,
+          "y": 1541.3086
+        }
+      }
+    },
+    {
+      "type": "mound",
+      "drops": [
+        {
+          "item": "GBomb_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1415.1263,
+          "y": 836.90137
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 907.8625,
+          "y": 3366.5654
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -4180.999,
+          "y": 878
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -2077.259,
+          "y": 661.3129
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -1083.9905,
+          "y": 115.21028
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 12,
+      "transform": {
+        "translation": {
+          "x": 904.52094,
+          "y": -1117.5173
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 918.5913,
+          "y": 1380.92
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 520.7396,
+          "y": -380.14236
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -2912.0615,
+          "y": 3284.4885
+        }
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -1982,
+          "y": 1662
+        },
+        "rotation": -70
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -599,
+          "y": -301.4386
+        },
+        "rotation": -4
+      }
+    }
+  ]
+}

@@ -16,8 +16,10 @@
     {
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 5,
-      "normalTexture": "T_ui_Map_Cave014_F03_WaterBox00_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F03_WaterBox00_D.png",
+        "amountToFreeze": 5
+      },
       "transform": {
         "translation": {
           "x": 912.5,
@@ -29,8 +31,10 @@
     {
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 5,
-      "normalTexture": "T_ui_Map_Cave014_F03_WaterBox01_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F03_WaterBox01_D.png",
+        "amountToFreeze": 5
+      },
       "transform": {
         "translation": {
           "x": -514.5,
@@ -42,8 +46,10 @@
     {
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 5,
-      "normalTexture": "T_ui_Map_Cave014_F03_WaterBox02_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F03_WaterBox02_D.png",
+        "amountToFreeze": 5
+      },
       "transform": {
         "translation": {
           "x": 327.5,

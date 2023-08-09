@@ -1,0 +1,389 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_Area010_WaterBox00_D.png",
+        "amountToFreeze": 15
+      },
+      "transform": {
+        "translation": {
+          "x": 2909,
+          "y": -1953
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "transform": {
+        "translation": {
+          "x": 3133.001,
+          "y": -2178
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "wall",
+      "materialsNeeded": 30,
+      "transform": {
+        "translation": {
+          "x": -19,
+          "y": 3824
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "structure",
+      "variant": "slope",
+      "materialsNeeded": 21,
+      "transform": {
+        "translation": {
+          "x": 455,
+          "y": -632
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 718.17365,
+          "y": -4046
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 852,
+          "y": -3780
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 3719,
+          "y": 1677
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 2072,
+          "y": 1034
+        },
+        "rotation": 167
+      }
+    }
+  ],
+  "zipline": [
+    {
+      "type": "zipline",
+      "transform": {
+        "translation": {
+          "x": 3000,
+          "y": -600
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "zipline",
+      "transform": {
+        "translation": {
+          "x": -482.4806,
+          "y": -973.82715
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 3345,
+          "y": -1664
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 3290,
+          "y": -1620
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 3236,
+          "y": -1649
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 4010,
+          "y": 2021
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 3999.0002,
+          "y": 2083.0002
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 2940,
+          "y": -934
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 3015,
+          "y": -927
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 2971,
+          "y": -971
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 2946.9312,
+          "y": -882.17267
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GOtaRoboHandR_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -620,
+          "y": -246
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GNiseZako_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1977,
+          "y": -3113
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GNiseZako_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2042,
+          "y": -2993
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GOtaApricot_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2068,
+          "y": -3112
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 25,
+      "transform": {
+        "translation": {
+          "x": 2833.9585,
+          "y": -135.36157
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 2079.0476,
+          "y": 3721.3037
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 30,
+      "transform": {
+        "translation": {
+          "x": 376,
+          "y": 890
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 946,
+          "y": -3863
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 780,
+          "y": 2644
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 6,
+      "transform": {
+        "translation": {
+          "x": -1500,
+          "y": 3296
+        }
+      }
+    }
+  ],
+  "hydroJelly": [
+    {
+      "type": "hydroJelly",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 1509,
+          "y": -3451
+        }
+      }
+    }
+  ],
+  "item": [
+    {
+      "type": "item",
+      "variant": "iceBomb",
+      "transform": {
+        "translation": {
+          "x": 1708,
+          "y": 834
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 1299,
+          "y": 690
+        }
+      }
+    }
+  ]
+}

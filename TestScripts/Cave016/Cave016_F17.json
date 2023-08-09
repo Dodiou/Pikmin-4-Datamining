@@ -55,7 +55,9 @@
     {
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 50,
+      "normal": {
+        "amountToFreeze": 50
+      },
       "transform": {
         "translation": {
           "x": -28.074768,

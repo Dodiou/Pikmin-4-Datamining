@@ -2,19 +2,44 @@ import { ObjectTypes, WaterVariants } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 
 
-function parseWaterTriggersComp(WaterCarrotTrigger) {
+function parseWaterTriggersComp(WaterCarrotTrigger, texture) {
   const isSwamp = WaterCarrotTrigger.Type.includes('Swamp');
 
   const waterProps = {
     type: ObjectTypes.Water,
     variant: isSwamp ? WaterVariants.Swamp : WaterVariants.Water,
-    amountToFreeze: WaterCarrotTrigger.Properties?.MaxIcePikmins ?? 5, // See Aquiferous Summit floor 1
-    canSink: isSwamp
-      ? !(WaterCarrotTrigger.Properties?.bDisableSink)
-      : undefined
+    // separate water into two parts: normal and dynamic (e.g. for Serene Shores)
+    normal: removeUndefineds({
+      image: texture,
+      // See Aquiferous Summit floor 1 for default
+      amountToFreeze: WaterCarrotTrigger.Properties?.MaxIcePikmins ?? 5,
+      canSink: isSwamp
+        ? !(WaterCarrotTrigger.Properties?.bDisableSink)
+        : undefined
+    })
   };
 
   return removeUndefineds(waterProps);
+}
+
+function parseWaterBoxAIComp(WaterBoxAIComp, texture, normalData) {
+  const dynamicData = removeUndefineds({
+    amountToFreeze: WaterBoxAIComp.Properties?.WaterBoxAIParameter?.WaterLevel?.AfterMaxIcePikmins,
+    image: texture
+    // TODO: is bUseSunMeter important? Only happens in Serene Shores.
+  });
+
+  if (Object.keys(dynamicData).length === 0) {
+    return undefined;
+  }
+
+  return removeUndefineds({
+    // use normalData if props in dynamicData do not exist.
+    dynamic: { ...normalData, ...dynamicData },
+    // Note: No default. See Cave012_F01 (Subzero Sauna). Fences use 'switch01', switch has no ID,
+    //       and one waterbox has no ID. Fences link up, but the water doesn't
+    switchId: WaterBoxAIComp.Properties?.WaterLevel?.WaterBoxSwitchID
+  });
 }
 
 function getTextureFilename(fullpath, extension = '.png') {
@@ -28,16 +53,16 @@ function getTextureFilename(fullpath, extension = '.png') {
 // it looks like water levels in places other than Serene Shores were planned to be changeable, but was later scrapped
 const EXCLUDE_CHANGE_WATER_TEXTURES = ['T_ui_Map_Cave022_F02_WaterBox00_ChangeDist_D', 'T_ui_Map_HeroStory002_WaterBox00_Hero_ChangeDist_D'];
 function getWaterRadarTextures(waterTexture, changedTexture) {
-  const normalTexture = getTextureFilename(waterTexture?.ObjectPath);
-  const dynamicTexture = getTextureFilename(changedTexture?.ObjectPath);
+  const normal = getTextureFilename(waterTexture?.ObjectPath);
+  const dynamic = getTextureFilename(changedTexture?.ObjectPath);
 
-  if (EXCLUDE_CHANGE_WATER_TEXTURES.includes(dynamicTexture)) {
-    dynamicTexture = undefined;
+  if (EXCLUDE_CHANGE_WATER_TEXTURES.includes(dynamic)) {
+    dynamic = undefined;
   }
 
   return removeUndefineds({
-    normalTexture,
-    dynamicTexture
+    normal,
+    dynamic
   });
 }
 
@@ -49,14 +74,16 @@ export function isWaterComp(comp) {
 export function parseWaterComp(comp, compsList) {
   const waterTriggersCompProp = comp.Properties.WaterCarrotTrigger || comp.Properties.SwampCarrotTrigger;
   const waterTriggersComp = getObjectFromPath(waterTriggersCompProp, compsList);
+  const textureData = getWaterRadarTextures(comp.Properties.RadarMapWBTexture, comp.Properties.RadarMapWBChangeDistTexture);
 
-  const waterAIComp = getObjectFromPath(comp.Properties.WaterBoxAI, compsList);
+  const waterData = parseWaterTriggersComp(waterTriggersComp, textureData.normal);
 
-  // TODO: add 'WaterBoxAIParameter?.WaterLevel?.WaterBoxSwitchID'? (Only in Hideaway to drain sink)
-  // TODO: add 'WaterBoxAIParameter?.WaterLevel?.AfterMaxIcePikmins' and 'bUseSunMeter'? (Serene Shores, big pond)
-  return Object.assign(
-    {},
-    parseWaterTriggersComp(waterTriggersComp),
-    getWaterRadarTextures(comp.Properties.RadarMapWBTexture, comp.Properties.RadarMapWBChangeDistTexture),
-  );
+  const waterBoxAIComp = getObjectFromPath(comp.Properties.WaterBoxAI, compsList);
+  const dynamicData = parseWaterBoxAIComp(waterBoxAIComp, textureData.dynamic, waterData.normal);
+
+  // TODO: add 'WaterBoxAIParameter?.WaterLevel?.WaterBoxSwitchID'?
+  return {
+    ...dynamicData,
+    ...waterData
+  }
 }

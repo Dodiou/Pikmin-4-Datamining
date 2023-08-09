@@ -16,8 +16,10 @@
     {
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 5,
-      "normalTexture": "T_ui_Map_Cave016_F10_WaterBox00_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave016_F10_WaterBox00_D.png",
+        "amountToFreeze": 5
+      },
       "transform": {
         "translation": {
           "x": -219.02356,
@@ -29,8 +31,10 @@
     {
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 5,
-      "normalTexture": "T_ui_Map_Cave016_F10_WaterBox01_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave016_F10_WaterBox01_D.png",
+        "amountToFreeze": 5
+      },
       "transform": {
         "translation": {
           "x": 691.86206,

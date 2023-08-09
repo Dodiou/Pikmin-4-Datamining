@@ -43,8 +43,10 @@
     {
       "type": "water",
       "variant": "water",
-      "amountToFreeze": 50,
-      "normalTexture": "T_ui_Map_Cave016_F08_WaterBox00_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave016_F08_WaterBox00_D.png",
+        "amountToFreeze": 50
+      },
       "transform": {
         "translation": {
           "x": -204.85135,

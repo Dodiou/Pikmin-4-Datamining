@@ -30,6 +30,7 @@ for (const cave of caves) {
     const parsedObjects = parseObjectLocations(apfObjectsJson[0].Properties.ActorGeneratorList, semiParsedObjects);
     const groupedObjects = groupBy(parsedObjects, 'type');
 
+    console.log(parsedRootMap);
     mkdirSync(`./TestScripts/${cave}`, { recursive: true });
     writeFileSync(`./TestScripts/${cave}/${floor}.json`, JSON.stringify(groupedObjects, undefined, 2));
   }

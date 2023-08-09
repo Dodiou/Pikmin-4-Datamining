@@ -8,6 +8,7 @@ export const ObjectTypes = {
   GlowPellets: 'glowPellets',
   HydroJelly: 'hydroJelly',
   Item: 'item',
+  MapLink: 'mapLink',
   Materials: 'materials',
   Mound: 'mound',
   Pikmin: 'pikmin',
@@ -79,4 +80,11 @@ export const SwitchVariants = {
 export const FenceVariant = {
   Iron: 'iron',
   Normal: 'normal'
+}
+
+export const MapLinkVariants = {
+  Battle: 'battle',
+  Cave: 'cave',
+  Challenge: 'challenge',
+  Exit: 'exit'
 }

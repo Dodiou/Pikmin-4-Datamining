@@ -1,8 +1,8 @@
 import { FenceVariant, ObjectTypes, SwitchVariants } from "../../types";
 import { getObjectFromPath, removeUndefineds } from "../../util";
 
-// Unknown what the default is. Doesn't matter as long as the defaults link up.
-export const DefaultSwitchID = '__undefined_ID';
+// See Cave012_F01. Fences have this ID, but SingleSwitch does not.
+export const DefaultSwitchID = 'switch01';
 
 function parseFan(CirculatorAI) {
   return {

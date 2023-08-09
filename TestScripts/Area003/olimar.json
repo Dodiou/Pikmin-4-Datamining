@@ -1,0 +1,530 @@
+{
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox00_Hero_D.png",
+        "amountToFreeze": 30
+      },
+      "transform": {
+        "translation": {
+          "x": -914,
+          "y": 3465
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "dynamic": {
+        "image": "T_ui_Map_HeroStory003_Hero_WaterBox01_ChangeDist_D.png",
+        "amountToFreeze": 10
+      },
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox01_Hero_D.png",
+        "amountToFreeze": 10
+      },
+      "transform": {
+        "translation": {
+          "x": 3355,
+          "y": -1451
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "dynamic": {
+        "image": "T_ui_Map_HeroStory003_Hero_WaterBox02_ChangeDist_D.png",
+        "amountToFreeze": 10
+      },
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox02_Hero_D.png",
+        "amountToFreeze": 10
+      },
+      "transform": {
+        "translation": {
+          "x": 3232,
+          "y": -653
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "dynamic": {
+        "image": "T_ui_Map_HeroStory003_Hero_WaterBox03_ChangeDist_D.png",
+        "amountToFreeze": 10
+      },
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox03_Hero_D.png",
+        "amountToFreeze": 10
+      },
+      "transform": {
+        "translation": {
+          "x": 1229,
+          "y": -2777
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "dynamic": {
+        "image": "T_ui_Map_HeroStory003_Hero_WaterBox04_ChangeDist_D.png",
+        "amountToFreeze": 30
+      },
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox04_Hero_D.png",
+        "amountToFreeze": 80
+      },
+      "transform": {
+        "translation": {
+          "x": 76,
+          "y": -489
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "dynamic": {
+        "image": "T_ui_Map_HeroStory003_Hero_WaterBox05_ChangeDist_D.png",
+        "amountToFreeze": 20
+      },
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox05_Hero_D.png",
+        "amountToFreeze": 40
+      },
+      "transform": {
+        "translation": {
+          "x": 1060,
+          "y": 1730
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "dynamic": {
+        "image": "T_ui_Map_HeroStory003_Hero_WaterBox06_ChangeDist_D.png",
+        "amountToFreeze": 20
+      },
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox06_Hero_D.png",
+        "amountToFreeze": 40
+      },
+      "transform": {
+        "translation": {
+          "x": 1784,
+          "y": -792
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox07_Hero_D.png",
+        "amountToFreeze": 40
+      },
+      "transform": {
+        "translation": {
+          "x": 1663,
+          "y": 198
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "dynamic": {
+        "image": "T_ui_Map_HeroStory003_Hero_WaterBox08_ChangeDist_D.png",
+        "amountToFreeze": 80
+      },
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "image": "T_ui_Map_HeroStory003_WaterBox08_Hero_D.png",
+        "amountToFreeze": 100
+      },
+      "transform": {
+        "translation": {
+          "x": -2964,
+          "y": 1089
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "type": "materials",
+      "amount": 11,
+      "transform": {
+        "translation": {
+          "x": -302.3806,
+          "y": 3533.9307
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 6,
+      "transform": {
+        "translation": {
+          "x": -2828.986,
+          "y": -1410.1926
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -1960,
+          "y": -2111
+        }
+      }
+    },
+    {
+      "type": "materials",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 3127.5789,
+          "y": -156.73325
+        }
+      }
+    }
+  ],
+  "fence": [
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": -2193.071,
+          "y": 1807.7487
+        },
+        "rotation": -106
+      }
+    },
+    {
+      "type": "fence",
+      "transform": {
+        "translation": {
+          "x": 11.026104,
+          "y": -2410.1416
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "structure": [
+    {
+      "type": "structure",
+      "variant": "bridge",
+      "materialsNeeded": 21,
+      "transform": {
+        "translation": {
+          "x": 474.7018,
+          "y": 786.588
+        },
+        "rotation": 100
+      }
+    },
+    {
+      "type": "structure",
+      "variant": "wall",
+      "materialsNeeded": 11,
+      "transform": {
+        "translation": {
+          "x": -2480.0605,
+          "y": -2780.3054
+        },
+        "rotation": -100
+      }
+    }
+  ],
+  "pot": [
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1992.9951,
+          "y": 1395.1094
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2002.4617,
+          "y": 1462.2854
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1996.2539,
+          "y": 1292.3729
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 114.62231,
+          "y": 2211.2542
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 43.957924,
+          "y": 2208.7556
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -6.8585415,
+          "y": 2263.1
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2427,
+          "y": -2360
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2383,
+          "y": -2292
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -169,
+          "y": -955
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -192,
+          "y": -1036
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1675.01,
+          "y": -1493.9324
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1621.4214,
+          "y": -1373.2778
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1691,
+          "y": -1565
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 54,
+          "y": 2283
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1632.3499,
+          "y": -1435.3334
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 75,
+          "y": 2136
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1745,
+          "y": -1593
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 37,
+          "y": -2820
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -2025.9033,
+          "y": 1337.5625
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 87,
+          "y": -2762.7632
+        }
+      }
+    },
+    {
+      "type": "pot",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 22,
+          "y": -2759
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "clipboardYellow",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": 2016,
+          "y": -218
+        },
+        "rotation": 115
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": 2517,
+          "y": 116
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 406,
+          "y": -802
+        },
+        "rotation": -8
+      }
+    },
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": 887,
+          "y": 935
+        },
+        "rotation": 10
+      }
+    }
+  ]
+}

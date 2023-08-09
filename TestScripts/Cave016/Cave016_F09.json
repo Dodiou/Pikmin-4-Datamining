@@ -16,9 +16,11 @@
     {
       "type": "water",
       "variant": "swamp",
-      "amountToFreeze": 100,
-      "canSink": true,
-      "normalTexture": "T_ui_Map_Cave016_F09_WaterBox00_D.png",
+      "normal": {
+        "image": "T_ui_Map_Cave016_F09_WaterBox00_D.png",
+        "amountToFreeze": 100,
+        "canSink": true
+      },
       "transform": {
         "translation": {
           "x": 0.756836,
