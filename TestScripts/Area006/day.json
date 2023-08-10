@@ -50,6 +50,32 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -3039.8354,
+          "y": 815.0394
+        },
+        "rotation": 170
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 1866,
+          "y": -44
+        },
+        "rotation": -135
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
@@ -157,20 +183,6 @@
           "y": 3222
         },
         "rotation": -35
-      }
-    }
-  ],
-  "shortcut": [
-    {
-      "type": "shortcut",
-      "variant": "string",
-      "weight": 5,
-      "transform": {
-        "translation": {
-          "x": 1866,
-          "y": -44
-        },
-        "rotation": -135
       }
     }
   ],

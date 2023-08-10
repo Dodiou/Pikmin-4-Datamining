@@ -266,6 +266,18 @@
         },
         "rotation": 0
       }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 200,
+          "y": -704
+        },
+        "rotation": -90
+      }
     }
   ],
   "candypop": [

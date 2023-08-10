@@ -12,6 +12,35 @@
       }
     }
   ],
+  "firePit": [
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -267.6947,
+          "y": 895.64136
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 584.364,
+          "y": -134.36047
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -585.376,
+          "y": -137.5
+        }
+      }
+    }
+  ],
   "hydroJelly": [
     {
       "type": "hydroJelly",

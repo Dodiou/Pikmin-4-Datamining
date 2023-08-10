@@ -152,6 +152,20 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 230,
+          "y": 275
+        },
+        "rotation": 90
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",

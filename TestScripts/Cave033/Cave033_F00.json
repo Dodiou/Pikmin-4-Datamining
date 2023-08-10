@@ -161,5 +161,19 @@
         }
       }
     }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -182,
+          "y": -135
+        },
+        "rotation": 90
+      }
+    }
   ]
 }

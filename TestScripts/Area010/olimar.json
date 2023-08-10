@@ -11,6 +11,56 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 553,
+          "y": -841
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 109.08861,
+          "y": -1218.3207
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 718.17365,
+          "y": -4035
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "string",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 2072,
+          "y": 1034
+        },
+        "rotation": 167
+      }
+    }
+  ],
   "pot": [
     {
       "type": "pot",
@@ -240,32 +290,6 @@
           "y": -3619
         },
         "rotation": 2
-      }
-    }
-  ],
-  "shortcut": [
-    {
-      "type": "shortcut",
-      "variant": "string",
-      "weight": 5,
-      "transform": {
-        "translation": {
-          "x": 718.17365,
-          "y": -4035
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "string",
-      "weight": 5,
-      "transform": {
-        "translation": {
-          "x": 2072,
-          "y": 1034
-        },
-        "rotation": 167
       }
     }
   ],

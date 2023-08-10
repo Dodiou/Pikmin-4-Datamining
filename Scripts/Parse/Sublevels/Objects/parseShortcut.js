@@ -6,7 +6,7 @@ export function isShortcutComp(comp) {
     comp.Properties.HandleBoardAI ||
     comp.Properties.DownFloorAI ||
     comp.Properties.StringAI ||
-    comp.Properties.PushGimmisckAI ||
+    comp.Properties.PushGimmickAI ||
     comp.Properties.PullNekkoAI
   );
 }
@@ -41,7 +41,7 @@ export function parseShortcutComp(comp, compsList) {
     };
     // TODO: what is WorkNumGensei?
   }
-  else if (comp.Properties.PushGimmisckAI) {
+  else if (comp.Properties.PushGimmickAI) {
     const pushAffordanceComp = comp.Properties.PushAffordance && getObjectFromPath(comp.Properties.PushAffordance, compsList);
     return {
       type: ObjectTypes.Shortcut,

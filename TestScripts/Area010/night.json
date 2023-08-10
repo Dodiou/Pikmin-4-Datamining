@@ -57,6 +57,18 @@
   "shortcut": [
     {
       "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -715,
+          "y": -1551
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "string",
       "weight": 5,
       "transform": {
@@ -77,6 +89,18 @@
           "y": -3780
         },
         "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 93,
+          "y": -1218
+        },
+        "rotation": 0
       }
     },
     {

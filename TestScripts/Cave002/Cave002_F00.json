@@ -34,6 +34,20 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 138,
+          "y": -456
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",

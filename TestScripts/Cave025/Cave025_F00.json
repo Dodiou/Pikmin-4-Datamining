@@ -210,6 +210,18 @@
         },
         "rotation": 90
       }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 618.4442,
+          "y": 137.21619
+        },
+        "rotation": -90
+      }
     }
   ]
 }

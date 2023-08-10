@@ -1,4 +1,41 @@
 {
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -962,
+          "y": -621.99963
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 926.63586,
+          "y": 3140.1274
+        },
+        "rotation": -158
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": 2517,
+          "y": 116
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",
@@ -270,19 +307,6 @@
         "translation": {
           "x": -2964,
           "y": 1089
-        },
-        "rotation": 0
-      }
-    }
-  ],
-  "shortcut": [
-    {
-      "type": "shortcut",
-      "variant": "Root",
-      "transform": {
-        "translation": {
-          "x": 2517,
-          "y": 116
         },
         "rotation": 0
       }

@@ -21,6 +21,62 @@
       }
     }
   ],
+  "firePit": [
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 808.5,
+          "y": 311.5
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -824.5,
+          "y": -3.5
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 552,
+          "y": 1010.49994
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -329.75,
+          "y": 513.5
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 245.2688,
+          "y": -773
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 263.25,
+          "y": -263.5
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",

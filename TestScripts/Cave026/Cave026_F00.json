@@ -133,6 +133,26 @@
       }
     }
   ],
+  "firePit": [
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -410.49976,
+          "y": -1002.8511
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -168.5986,
+          "y": 993.0253
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",

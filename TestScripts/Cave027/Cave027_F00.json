@@ -1,4 +1,33 @@
 {
+  "firePit": [
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -565,
+          "y": -1247.5
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -2,
+          "y": 1236
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -1112,
+          "y": 137.5
+        }
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",

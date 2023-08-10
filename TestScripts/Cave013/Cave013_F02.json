@@ -23,6 +23,20 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -230.5,
+          "y": 550
+        },
+        "rotation": 90
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",

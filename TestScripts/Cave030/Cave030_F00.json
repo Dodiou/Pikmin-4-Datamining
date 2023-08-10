@@ -170,6 +170,30 @@
   "shortcut": [
     {
       "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 504.00024,
+          "y": -549.5
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -501.99976,
+          "y": -551
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "clipboardYellow",
       "weight": 10,
       "transform": {

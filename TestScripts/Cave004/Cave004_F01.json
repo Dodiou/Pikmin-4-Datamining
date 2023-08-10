@@ -23,6 +23,20 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 276.99622,
+          "y": 200.9823
+        },
+        "rotation": 180
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",

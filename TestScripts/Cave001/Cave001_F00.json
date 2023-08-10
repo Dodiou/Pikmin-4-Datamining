@@ -109,6 +109,20 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 44.323334,
+          "y": 1
+        },
+        "rotation": -90
+      }
+    }
+  ],
   "hydroJelly": [
     {
       "type": "hydroJelly",

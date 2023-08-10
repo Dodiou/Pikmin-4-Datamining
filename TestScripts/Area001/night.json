@@ -78,6 +78,42 @@
         },
         "rotation": -120
       }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -4621,
+          "y": -1259
+        },
+        "rotation": 5
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -2100.439,
+          "y": 1829.0679
+        },
+        "rotation": 110
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -1231,
+          "y": 1059
+        },
+        "rotation": -40
+      }
     }
   ],
   "gate": [

@@ -364,6 +364,71 @@
       }
     }
   ],
+  "firePit": [
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -766.8906,
+          "y": 1989.304
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 3096,
+          "y": 67
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 1263.292,
+          "y": 349.47842
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -1407.1085,
+          "y": -119.03734
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -499.68652,
+          "y": -661.4957
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 1132.292,
+          "y": 1620.4784
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -1180.708,
+          "y": 1833.4784
+        }
+      }
+    }
+  ],
   "water": [
     {
       "dynamic": {

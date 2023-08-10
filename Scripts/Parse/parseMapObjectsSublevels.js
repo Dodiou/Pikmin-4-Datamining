@@ -50,7 +50,7 @@ export function parseSublevelsObjects(compsList) {
     else if (comp.Properties.BurningAI) {
       componentProps = { type: ObjectTypes.Straw };
     }
-    else if (comp.Properties.TanebiAI) {
+    else if (comp.Properties.TanebiStationAI) {
       // TODO find out first lit one in Cave035_F01. Only one that doesn't have "Relay" in name?
       componentProps = { type: ObjectTypes.FirePit };
     }

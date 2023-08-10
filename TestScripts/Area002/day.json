@@ -60,6 +60,55 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 2310.2288,
+          "y": -1076.1255
+        },
+        "rotation": -2.427
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -2351.0447,
+          "y": -2019.427
+        },
+        "rotation": 121.376
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -583.02374,
+          "y": 1243
+        },
+        "rotation": -1.3
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "Root",
+      "transform": {
+        "translation": {
+          "x": 2609.612,
+          "y": 421.46838
+        },
+        "rotation": 14.085
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -334,19 +383,6 @@
           "x": -1908.339,
           "y": -1617.0547
         }
-      }
-    }
-  ],
-  "shortcut": [
-    {
-      "type": "shortcut",
-      "variant": "Root",
-      "transform": {
-        "translation": {
-          "x": 2609.612,
-          "y": 421.46838
-        },
-        "rotation": 14.085
       }
     }
   ],

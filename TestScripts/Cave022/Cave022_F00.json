@@ -168,5 +168,34 @@
         "rotation": -90
       }
     }
+  ],
+  "firePit": [
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 449.1516,
+          "y": -251.15042
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 533.1516,
+          "y": 383.8496
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -153.15527,
+          "y": -16.009766
+        }
+      }
+    }
   ]
 }

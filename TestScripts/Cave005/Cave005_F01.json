@@ -53,6 +53,20 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -551,
+          "y": 505
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "switch": [
     {
       "type": "switch",

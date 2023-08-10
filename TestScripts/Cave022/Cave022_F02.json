@@ -1,4 +1,24 @@
 {
+  "firePit": [
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": -411.25403,
+          "y": -493.9641
+        }
+      }
+    },
+    {
+      "type": "firePit",
+      "transform": {
+        "translation": {
+          "x": 2.9789429,
+          "y": 419.77783
+        }
+      }
+    }
+  ],
   "water": [
     {
       "dynamic": {
