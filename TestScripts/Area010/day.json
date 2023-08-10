@@ -167,7 +167,8 @@
         {
           "item": "GPiecePick_C",
           "chance": 1,
-          "min": 10
+          "min": 10,
+          "max": 10
         }
       ],
       "transform": {
@@ -253,7 +254,8 @@
         {
           "item": "GOtaRoboHandR_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -269,7 +271,8 @@
         {
           "item": "GNiseZako_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -285,7 +288,8 @@
         {
           "item": "GNiseZako_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -301,7 +305,8 @@
         {
           "item": "GOtaApricot_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {

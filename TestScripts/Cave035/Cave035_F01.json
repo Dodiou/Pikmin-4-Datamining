@@ -286,7 +286,8 @@
         {
           "item": "GPikminRed_C",
           "chance": 1,
-          "min": 5
+          "min": 5,
+          "max": 5
         }
       ],
       "transform": {

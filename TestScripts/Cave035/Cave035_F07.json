@@ -6,7 +6,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -22,7 +23,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -38,7 +40,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -54,7 +57,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -70,7 +74,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -86,7 +91,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -102,7 +108,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -118,7 +125,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -174,7 +182,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {
@@ -190,7 +199,8 @@
         {
           "item": "GPikminWhite_C",
           "chance": 1,
-          "min": 1
+          "min": 1,
+          "max": 1
         }
       ],
       "transform": {

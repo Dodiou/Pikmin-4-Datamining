@@ -43,11 +43,14 @@ export function parseObjectDropList(comp, defaultDrop = undefined) {
     return defaultDrop ? [defaultDrop] : [];
   }
 
-  return parseDropList(comp.Properties.ObjectAIParameter.DropParameter);
+  // there's one mound (Secluded Courtyard Floor 3) with this annoying parameter
+  const dropAmountMultiplier = comp.Properties.TateanaAIParameter?.NumDig || 1;
+
+  return parseDropList(comp.Properties.ObjectAIParameter.DropParameter, defaultDrop, dropAmountMultiplier);
 }
 
 // NOTE: Some objects have "RareDropParameter", but this always seems to be empty or with drop-rates,min,max set to 0.
-export function parseDropList(DropParameter, defaultDrop = undefined) {
+export function parseDropList(DropParameter, defaultDrop = undefined, dropAmountMultiplier = 1) {
   // TODO: a few have "null" DropActor's. What are the default drops?
   const dropsWithUndefineds = DropParameter.DropItemParameter.map((dropItem) => {
     if (dropItem.DropRatio <= 0.0) {
@@ -64,8 +67,8 @@ export function parseDropList(DropParameter, defaultDrop = undefined) {
     return {
       item: internalItemName,
       chance: dropItem.DropRatio,
-      min: dropItem.MinNum,
-      max: dropItem.Max,
+      min: dropItem.MinNum * dropAmountMultiplier,
+      max: dropItem.MaxNum * dropAmountMultiplier,
     };
   });
 

@@ -31,7 +31,8 @@
         {
           "item": "GKinkaiPick_C",
           "chance": 1,
-          "min": 5
+          "min": 5,
+          "max": 5
         }
       ],
       "transform": {
@@ -67,7 +68,8 @@
         {
           "item": "GPikminIce_C",
           "chance": 1,
-          "min": 5
+          "min": 5,
+          "max": 5
         }
       ],
       "transform": {

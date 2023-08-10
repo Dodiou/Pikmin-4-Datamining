@@ -48,7 +48,8 @@
         {
           "item": "GHoney_C",
           "chance": 1,
-          "min": 2
+          "min": 2,
+          "max": 2
         }
       ],
       "transform": {
@@ -130,7 +131,8 @@
         {
           "item": "GPiecePick_C",
           "chance": 1,
-          "min": 2
+          "min": 2,
+          "max": 2
         }
       ],
       "transform": {
@@ -146,7 +148,8 @@
         {
           "item": "GPiecePick_C",
           "chance": 1,
-          "min": 3
+          "min": 3,
+          "max": 3
         }
       ],
       "transform": {

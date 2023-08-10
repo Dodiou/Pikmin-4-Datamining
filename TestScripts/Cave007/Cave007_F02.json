@@ -80,7 +80,8 @@
         {
           "item": "GPiecePick_C",
           "chance": 1,
-          "min": 5
+          "min": 25,
+          "max": 25
         }
       ],
       "transform": {
