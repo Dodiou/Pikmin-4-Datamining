@@ -5,6 +5,7 @@ import { parseRootMapComponents } from "./Scripts/Parse/parseRootMapFile.js";
 import { groupBy, preprocessJSON } from "./Scripts/Parse/util.js";
 
 const caves = new Array(36).fill(0).map((_, i) => 'Cave' + ('000' + i).slice(-3));
+const mapTransforms = {};
 
 for (const cave of caves) {
   console.log("Cave:", cave);
@@ -24,14 +25,16 @@ for (const cave of caves) {
     const apfObjectsJson = JSON.parse(preprocessJSON(readFileSync(apfObjects).toString()));
   
     // TODO view map rotation info.
-    const parsedRootMap = parseRootMapComponents(rootMapJson);
+    const parsedRootMap = parseRootMapComponents(rootMapJson, true);
     const semiParsedObjects = parseSublevelsObjects(subObjectsJson);
   
     const parsedObjects = parseObjectLocations(apfObjectsJson[0].Properties.ActorGeneratorList, semiParsedObjects);
     const groupedObjects = groupBy(parsedObjects, 'type');
 
-    console.log(parsedRootMap);
+    mapTransforms[floor] = parsedRootMap;
     mkdirSync(`./TestScripts/${cave}`, { recursive: true });
     writeFileSync(`./TestScripts/${cave}/${floor}.json`, JSON.stringify(groupedObjects, undefined, 2));
   }
 }
+
+writeFileSync(`./TestScripts/cave-transforms.json`, JSON.stringify(mapTransforms, undefined, 2));

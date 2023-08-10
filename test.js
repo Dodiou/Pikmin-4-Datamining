@@ -22,6 +22,7 @@ const areaHasOlimar = {
 };
 
 const root = `./Maps/Main/Area/`;
+const mapTransforms = {};
 
 Object.entries(areaHasOlimar).forEach(([area, hasOlimar]) => {
   const areaRoot = root + `/${area}`;
@@ -53,7 +54,7 @@ Object.entries(areaHasOlimar).forEach(([area, hasOlimar]) => {
   }
 
   const rootMapObjects = JSON.parse(preprocessJSON(readFileSync(rootMapFile).toString()));
-  const rotation = parseRootMapComponents(rootMapObjects).rotation;
-
-  console.log('Map rotation for ', area, ':', rotation);
+  mapTransforms[area] = parseRootMapComponents(rootMapObjects, false);
 });
+
+writeFileSync(`./TestScripts/area-transforms.json`, JSON.stringify(mapTransforms, undefined, 2));

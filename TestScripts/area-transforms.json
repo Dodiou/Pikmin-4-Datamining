@@ -1,0 +1,56 @@
+{
+  "Area001": {
+    "rotation": -75,
+    "extent": {
+      "xMin": -6000,
+      "xMax": 6000,
+      "yMin": -6000,
+      "yMax": 6000
+    }
+  },
+  "Area002": {
+    "rotation": 154,
+    "extent": {
+      "xMin": -6000,
+      "xMax": 6000,
+      "yMin": -6000,
+      "yMax": 6000
+    }
+  },
+  "Area003": {
+    "rotation": 92,
+    "extent": {
+      "xMin": -6000,
+      "xMax": 6000,
+      "yMin": -6000,
+      "yMax": 6000
+    }
+  },
+  "Area004": {
+    "rotation": 55,
+    "extent": {
+      "xMin": -6000,
+      "xMax": 6000,
+      "yMin": -6000,
+      "yMax": 6000
+    }
+  },
+  "Area006": {
+    "rotation": 54,
+    "extent": {
+      "xMin": -6000,
+      "xMax": 6000,
+      "yMin": -6000,
+      "yMax": 6000
+    }
+  },
+  "Area010": {
+    "rotation": -90,
+    "extent": {
+      "xMin": -6000,
+      "xMax": 6000,
+      "yMin": -6000,
+      "yMax": 6000
+    }
+  }
+}
