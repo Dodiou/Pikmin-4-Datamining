@@ -24,8 +24,8 @@ export const ObjectTypes = {
   Shortcut: 'shortcut',
   Spout: 'spout',
   Straw: 'straw',
-  Switch: 'switch',
   Structure: 'structure',
+  Switch: 'switch',
   Treasure: 'treasure',
   Water: 'water',
   Unknown: '__unknown'

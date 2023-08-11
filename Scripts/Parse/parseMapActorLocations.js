@@ -6,11 +6,11 @@ const ImportantRotations = [
   ObjectTypes.Conveyor,
   ObjectTypes.Fence,
   ObjectTypes.Gate,
+  ObjectTypes.RopeFishing,
   ObjectTypes.Shortcut,
   ObjectTypes.Structure,
   ObjectTypes.Switch,
-  ObjectTypes.Water,
-  ObjectTypes.Zipline
+  ObjectTypes.Water
 ];
 const RotationVariantExceptions = [StructureVariants.Valve];
 
