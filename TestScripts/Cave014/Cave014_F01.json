@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave014_F02",
+      "transform": {
+        "translation": {
+          "x": -2864.0708,
+          "y": 1856.5715
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave014_F00",
+      "transform": {
+        "translation": {
+          "x": -1941.1282,
+          "y": 1365.5104
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",
@@ -54,6 +76,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -2463.632,
@@ -64,6 +88,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 1053.1763,
@@ -74,6 +100,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 1120.3728,
@@ -86,6 +114,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 350.60553,
@@ -124,6 +154,46 @@
           "y": -520.4675
         },
         "rotation": 25
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -1941.1282,
+          "y": 1365.5104
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -2864.0708,
+          "y": 1856.5715
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -3180.988,
+          "y": 1346.8013
+        }
       }
     }
   ]

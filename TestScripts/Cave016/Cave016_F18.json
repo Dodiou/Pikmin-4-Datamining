@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F19",
+      "transform": {
+        "translation": {
+          "x": 648,
+          "y": 398
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Area006",
+      "transform": {
+        "translation": {
+          "x": -872.5625,
+          "y": 410.48254
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -66,6 +88,134 @@
       }
     }
   ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTACHERRY",
+      "name": "Cupid's Grenade",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 205.05652,
+          "y": -111.52734
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACHERRY",
+      "name": "Cupid's Grenade",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 186.0719,
+          "y": 28.995605
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACHERRY",
+      "name": "Cupid's Grenade",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -245.62854,
+          "y": -125.86633
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAICHIGO",
+      "name": "Sunseed Berry",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": 472.2061,
+          "y": 576.40576
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAKIWIGLD",
+      "name": "Blonde Impostor",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 387.81213,
+          "y": 53.96753
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARASPBERRY",
+      "name": "Juicy Gaggle",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 418.48315,
+          "y": 538.8856
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTALIME",
+      "name": "Zest Bomb",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 310.58557,
+          "y": -202.19775
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMANGO",
+      "name": "Heroine's Tear",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -128.33704,
+          "y": 267.86438
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADEKOPON",
+      "name": "Pocked Airhead",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -781.8859,
+          "y": -167.55664
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -80,6 +230,19 @@
           "y": -136.52808
         },
         "rotation": -20
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -298,
+          "y": -826
+        }
       }
     }
   ]

@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area003",
+      "transform": {
+        "translation": {
+          "x": 860,
+          "y": -135
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -9,6 +21,41 @@
           "y": -195
         },
         "rotation": -90
+      }
+    }
+  ],
+  "heatObstacle": [
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 153.83325,
+          "y": -479.4453
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -481.64764,
+          "y": -369.6952
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 134.41089,
+          "y": 194.34091
+        }
       }
     }
   ],
@@ -54,6 +101,35 @@
         "translation": {
           "x": 860,
           "y": -135
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -344.49988,
+          "y": 887.062
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTARODAN",
+      "name": "Contemplation Station",
+      "weight": 50,
+      "carryMax": 100,
+      "value": 300,
+      "transform": {
+        "translation": {
+          "x": 710,
+          "y": -12
         }
       }
     }

@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area002",
+      "transform": {
+        "translation": {
+          "x": 664.0598,
+          "y": -556.8973
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -22,6 +34,35 @@
           "y": 825
         },
         "rotation": 90
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 482.7317,
+          "y": 886.5994
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAMASK",
+      "name": "Expression Hider",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 907,
+          "y": 88.05127
+        }
       }
     }
   ]

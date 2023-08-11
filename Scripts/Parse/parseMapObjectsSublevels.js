@@ -6,7 +6,15 @@ import { isPikminSpawnerComp, parsePikminSpawnerComp } from './Sublevels/Objects
 import { isPieceStationComp, parsePieceStationComp } from './Sublevels/Objects/parsePieceStation.js';
 import { isGateComp, parseGateComp } from './Sublevels/Objects/parseGate.js';
 import { isShortcutComp, parseShortcutComp } from './Sublevels/Objects/parseShortcut.js';
-import { DefaultLarvaDrop, parseObjectDropList } from './Sublevels/parseDrops.js';
+import { parseObjectDropList } from './Sublevels/parseDrops.js';
+import { isDrainComp, isFishingComp, isMoundComp, parseDrainComponent, parseFishingComp, parseMoundComp } from './Sublevels/Objects/parseGroundWork.js';
+import { isSwitchableComp, parseSwitchableComp } from './Sublevels/Objects/parseSwitchables.js';
+import { isSpoutComp, parseSpoutComp } from './Sublevels/Objects/parseSpoutObstacles.js';
+import { isGroundItemComp, parseGroundItemComp } from './Sublevels/Objects/parseGroundItem.js';
+import { isHeatObstacleComp, parseHeatObstacleComp } from './Sublevels/Objects/parseHeatObstacle.js';
+import { isBaseComp, parseBaseComp } from './Sublevels/Objects/parseBase.js';
+import { isCaveLinkComp, parseCaveLinkComp } from './Sublevels/Objects/parseCaveLinks.js';
+import { isCollectableComp, parseCollectableComp } from './Sublevels/Objects/parseCollectable.js';
 
 /* 
  * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
@@ -17,11 +25,6 @@ import { DefaultLarvaDrop, parseObjectDropList } from './Sublevels/parseDrops.js
  *       These "AI" props are hard to figure out meaning though. It's easier to read
  *       these sublevels files for now.
  */
-
-const ItemMap = {
-  'GIceBomb_C': ItemVariants.Bomb,
-  'GBomb_C': ItemVariants.IceBomb,
-};
 
 /**
  * Finds root object components by DebugUniqueId
@@ -41,23 +44,17 @@ export function parseSublevelsObjects(compsList) {
     if (isPikminSpawnerComp(comp)) {
       componentProps = parsePikminSpawnerComp(comp, compsList);
     }
+    else if (isCollectableComp(comp)) {
+      componentProps = parseCollectableComp(comp, compsList);
+    }
     else if (isPieceStationComp(comp)) {
       componentProps = parsePieceStationComp(comp, compsList);
     }
     else if (isStructureComp(comp)) {
       componentProps = parseStructureComp(comp, compsList);
     }
-    else if (comp.Properties.BurningAI) {
-      componentProps = { type: ObjectTypes.Straw };
-    }
-    else if (comp.Properties.TanebiStationAI) {
-      // TODO find out first lit one in Cave035_F01. Only one that doesn't have "Relay" in name?
-      componentProps = { type: ObjectTypes.FirePit };
-    }
-    else if (comp.Properties.ZiplineAI) {
-      // TODO ZiplineAI.Properties.ZiplineAIParameter.goalOffset?
-      // Note: Spline not needed. Maps have the zipline route.
-      componentProps = { type: ObjectTypes.Zipline };
+    else if (isHeatObstacleComp(comp)) {
+      componentProps = parseHeatObstacleComp(comp, compsList);
     }
     else if (comp.Properties.CrackPotAI) {
       const crackPotComp = getObjectFromPath(comp.Properties.CrackPotAI, compsList);
@@ -73,33 +70,29 @@ export function parseSublevelsObjects(compsList) {
         drops: parseObjectDropList(crushJellyComp)
       };
     }
-    else if (comp.Properties.FenceFallAI) {
-      // TODO: add Properties.FenceFallAIParameter.SwitchID
-      componentProps = { type: ObjectTypes.Fence };
+    else if (isCaveLinkComp(comp)) {
+      componentProps = parseCaveLinkComp(comp, compsList);
     }
-    else if (comp.Properties.SingleSwitchAI) {
-      // TODO: add Properties.SwitchBaseAIParameter.SwitchID
-      componentProps = { type: ObjectTypes.Switch };
+    else if (isSpoutComp(comp)) {
+      componentProps = parseSpoutComp(comp);
+    }
+    else if (isSwitchableComp(comp)) {
+      componentProps = parseSwitchableComp(comp, compsList);
     }
     else if (isShortcutComp(comp)) {
       componentProps = parseShortcutComp(comp, compsList);
     }
-    else if (comp.Properties.TateanaAI) {
-      // TODO parse RebirthInterval?
-      const moundAIComp = getObjectFromPath(comp.Properties.TateanaAI, compsList);
-      componentProps = {
-        type: ObjectTypes.Mound,
-        // TODO: default drop is to spawn BABY teki (bulbor larva)
-        drops: parseObjectDropList(moundAIComp, DefaultLarvaDrop)
-      };
+    else if (isMoundComp(comp)) {
+      componentProps = parseMoundComp(comp, compsList);
     }
-    else if (comp.Properties.BombAI) {
-      componentProps = {
-        type: ObjectTypes.Item,
-        variant: ItemMap[comp.Type]
-      };
-      // test for other item types
-      componentProps.variant == undefined && console.error("Unknown item type!");
+    else if (isDrainComp(comp)) {
+      componentProps = parseDrainComponent(comp, compsList);
+    }
+    else if (isFishingComp(comp)) {
+      componentProps = parseFishingComp(comp, compsList);
+    }
+    else if (isGroundItemComp(comp)) {
+      componentProps = parseGroundItemComp(comp);
     }
     else if (isGateComp(comp)) {
       componentProps = parseGateComp(comp, compsList);
@@ -107,14 +100,14 @@ export function parseSublevelsObjects(compsList) {
     else if (isWaterComp(comp)) {
       componentProps = parseWaterComp(comp, compsList);
     }
+    else if (isBaseComp(comp)) {
+      componentProps = parseBaseComp(comp, compsList);
+    }
     else {
       // skip over this useless comp
       continue;
     }
 
-    if (comp.Properties.GenerateInfo.DebugUniqueId in componentPropsDict) {
-      console.error("BAD.ID:", comp.Properties.GenerateInfo.DebugUniqueId, "-");
-    }
     componentPropsDict[comp.Properties.GenerateInfo.DebugUniqueId] = componentProps;
   }
 
@@ -125,12 +118,7 @@ export function parseSublevelsObjects(compsList) {
 
 /*
 Objects to look at:
-"Name": "ColdBoxAI"
-"Name": "StickyFloorAI"
-"Name": "BranchAI"
-"Name": "GeyserAI"
 "Name": "SprinklerAI" (location, maybe radius too?)
-"Name": "RopeFishingAI" what is this??
 "Name": "WarpCarryAI" tunnels?
 "Name": "HappyDoorAI" pup tunnels!
 "Name": "MizunukiAI" these are drains for water. They have a default "SwitchID" of "mizunuki"
@@ -142,8 +130,17 @@ WasurenagusaMiniAI/NIGHTDECOY must be Trickknolls.
 
 "Name": "ExcavationAI" might be important
 
-"Name": "OnyonCarryAI",
-"Name": "OtakaraAI",
+GKomushL_C
+GKomushS_C
+GKomush_C
+GMushL_C
+GMushS_C
+GMush_C
+GStickyMush_C
+GStickyMushB_C // maybe poison?
+GStickyMushC_C // maybe poison
+Drops TODO
+  IwakkoCrystal (scutterchuck?), coldbox, stickyfloor, komush
 
 EPikminColor::Mix
 "PelletColor": "EPikminColor::Yellow"

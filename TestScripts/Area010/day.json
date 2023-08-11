@@ -1,4 +1,66 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave021_F00",
+      "transform": {
+        "translation": {
+          "x": 1289.4199,
+          "y": 4021.2935
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave023_F00",
+      "transform": {
+        "translation": {
+          "x": -725.8672,
+          "y": 512.65894
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP006_F00",
+      "transform": {
+        "translation": {
+          "x": 1028.5068,
+          "y": -4107.469
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave022_F00",
+      "transform": {
+        "translation": {
+          "x": 2882.7532,
+          "y": -3299.921
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave022_F03",
+      "transform": {
+        "translation": {
+          "x": 3053.0625,
+          "y": -3859.9768
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveVS003_F00",
+      "transform": {
+        "translation": {
+          "x": 3336.0002,
+          "y": 511.99963
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -19,12 +81,124 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch00",
+      "transform": {
+        "translation": {
+          "x": 449.03424,
+          "y": 1898.3843
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "single",
+      "switchId": "WaterBox00",
       "transform": {
         "translation": {
           "x": 3133.001,
           "y": -2178
         },
         "rotation": 90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch01",
+      "transform": {
+        "translation": {
+          "x": 671.03174,
+          "y": -1814.1836
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch04",
+      "transform": {
+        "translation": {
+          "x": 436,
+          "y": -2695
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch05",
+      "transform": {
+        "translation": {
+          "x": 2432,
+          "y": -3808
+        },
+        "rotation": 115
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch01",
+      "transform": {
+        "translation": {
+          "x": 1004.9993,
+          "y": -1506.9995
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch00",
+      "transform": {
+        "translation": {
+          "x": 789,
+          "y": 1947
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch04",
+      "transform": {
+        "translation": {
+          "x": 465,
+          "y": -2857
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch04",
+      "transform": {
+        "translation": {
+          "x": -491,
+          "y": -3765
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch05",
+      "transform": {
+        "translation": {
+          "x": 2343,
+          "y": -3289
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 2270,
+          "y": 514
+        }
       }
     }
   ],
@@ -93,6 +267,16 @@
     },
     {
       "type": "shortcut",
+      "transform": {
+        "translation": {
+          "x": 3000,
+          "y": -600
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "pushbag",
       "weight": 10,
       "transform": {
@@ -117,6 +301,16 @@
     },
     {
       "type": "shortcut",
+      "transform": {
+        "translation": {
+          "x": -482.4806,
+          "y": -973.82715
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "string",
       "weight": 5,
       "transform": {
@@ -128,25 +322,88 @@
       }
     }
   ],
-  "zipline": [
+  "base": [
     {
-      "type": "zipline",
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
       "transform": {
         "translation": {
-          "x": 3000,
-          "y": -600
-        },
-        "rotation": -90
+          "x": -1141.0902,
+          "y": 2724.9968
+        }
       }
     },
     {
-      "type": "zipline",
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
       "transform": {
         "translation": {
-          "x": -482.4806,
-          "y": -973.82715
-        },
-        "rotation": 0
+          "x": -1322.1783,
+          "y": 2874.1682
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "NOMI"
+      ],
+      "transform": {
+        "translation": {
+          "x": -190.30975,
+          "y": -2600.3005
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 28.42218,
+          "y": -2517.9668
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "BILLY"
+      ],
+      "transform": {
+        "translation": {
+          "x": 3036.5967,
+          "y": 2394.9512
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": 3067.1477,
+          "y": 2627.5703
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "transform": {
+        "translation": {
+          "x": 2884.7532,
+          "y": -3300.921
+        }
       }
     }
   ],
@@ -317,6 +574,261 @@
       }
     }
   ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAPERCRANEGLD",
+      "name": "Priceless Bird",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -318.1521,
+          "y": 3313.348
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 2937,
+          "y": -2139
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 2835,
+          "y": -2001
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAROBOHEAD",
+      "name": "Think-Tank Combobot",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 1363,
+          "y": -2584
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASPONGEA",
+      "name": "Doggy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 3376.4236,
+          "y": -2144.0747
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAROBOHANDL",
+      "name": "Peacemaker Combobot",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 966.85266,
+          "y": 3875.288
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAROBOLEGL",
+      "name": "Sure-Footed Combobot",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 2260.477,
+          "y": -2091.9082
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADENTAKU",
+      "name": "Number Jumper",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 200,
+      "transform": {
+        "translation": {
+          "x": 1818,
+          "y": 2301
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADARTS",
+      "name": "Relentless Spear",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -1415.1543,
+          "y": 945.8895
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAENGAGERING",
+      "name": "Unbreakable Promise",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 1941.8456,
+          "y": -644.25793
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMACARONB",
+      "name": "S.S. Peppermint",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 410,
+          "y": -2385
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPINBADGEE",
+      "name": "Shooting-Star Shield",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1531,
+          "y": 3358
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPHOTOFRAME",
+      "name": "Buddy Display",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 200,
+      "transform": {
+        "translation": {
+          "x": -747,
+          "y": 37
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMUSICBOXC",
+      "name": "Mechanical Harp (Windmills)",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -717,
+          "y": -3500
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGBAROMBLK",
+      "name": "Spinning Memories Plank",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 1696.5863,
+          "y": 3980.4893
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMACARONC",
+      "name": "S.S. Chocolate",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 487,
+          "y": -2278
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABUTTONMETAL",
+      "name": "Trap Lid",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -430,
+          "y": 3941
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 5,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 1299,
+          "y": 690
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -379,6 +891,56 @@
       }
     }
   ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "ice",
+      "weight": 30,
+      "transform": {
+        "translation": {
+          "x": 1513,
+          "y": -3451
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 779,
+          "y": -2834
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 3132,
+          "y": 506
+        }
+      }
+    },
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 917.8382,
+          "y": -3932.423
+        }
+      }
+    }
+  ],
   "hydroJelly": [
     {
       "type": "hydroJelly",
@@ -399,18 +961,6 @@
         "translation": {
           "x": 1708,
           "y": 834
-        }
-      }
-    }
-  ],
-  "treasure": [
-    {
-      "type": "treasure",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 1299,
-          "y": 690
         }
       }
     }

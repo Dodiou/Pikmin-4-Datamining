@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F12",
+      "transform": {
+        "translation": {
+          "x": -127.841736,
+          "y": -898.52
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Area006",
+      "transform": {
+        "translation": {
+          "x": 325.41882,
+          "y": 667.20874
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -22,6 +44,35 @@
         "translation": {
           "x": 434.36,
           "y": 110.28381
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -500.45215,
+          "y": -715.7311
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAVENUS",
+      "name": "Unfinished Statue",
+      "weight": 30,
+      "carryMax": 60,
+      "value": 300,
+      "transform": {
+        "translation": {
+          "x": 602.891,
+          "y": -563.34924
         }
       }
     }

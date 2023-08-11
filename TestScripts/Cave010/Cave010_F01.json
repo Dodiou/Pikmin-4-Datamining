@@ -14,6 +14,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 376.94992,
@@ -37,6 +38,48 @@
           "y": 277.06708
         },
         "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTATAKENOKO",
+      "name": "Anxious Sprout",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 1059.6627,
+          "y": -7.9061966
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAINTSBLK",
+      "name": "Ambiguous Goo",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -566.6908,
+          "y": -820.99976
+        }
+      }
+    }
+  ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave010_F02",
+      "transform": {
+        "translation": {
+          "x": -866.15234,
+          "y": 556.5406
+        }
       }
     }
   ],
@@ -106,6 +149,19 @@
           "y": -422
         },
         "rotation": 0
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 143.13148,
+          "y": -144.75291
+        }
       }
     }
   ]

@@ -111,7 +111,26 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "OTAAPRICOT",
+      "name": "Searing Acidshock",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 755,
+          "y": 576
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 40,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 164,
@@ -121,11 +140,85 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 30,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 208,
           "y": 721
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAJAMICHIGO",
+      "name": "Condensed Sunshine",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": 703,
+          "y": -683
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAYOSHICOOKIEC",
+      "name": "Vanishing Cookie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -862,
+          "y": 450
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAECLAIR",
+      "name": "Sweet Torrent",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -988.8123,
+          "y": -143.49847
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAWAFFLE",
+      "name": "Cushion Cake",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -436,
+          "y": 840.30273
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -201.75,
+          "y": -37.75
         }
       }
     }

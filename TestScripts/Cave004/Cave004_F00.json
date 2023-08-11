@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave004_F01",
+      "transform": {
+        "translation": {
+          "x": 747,
+          "y": -528.18207
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Area001",
+      "transform": {
+        "translation": {
+          "x": 595,
+          "y": 324.5
+        }
+      }
+    }
+  ],
   "hydroJelly": [
     {
       "type": "hydroJelly",
@@ -106,6 +128,46 @@
         "translation": {
           "x": -297.93475,
           "y": 271.77075
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 747,
+          "y": -348.18207
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 595,
+          "y": 324.5
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAHANAFUDAA",
+      "name": "Talisman of Life (Crane)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 168.02402,
+          "y": -323.99927
         }
       }
     }

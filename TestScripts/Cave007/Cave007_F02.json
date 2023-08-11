@@ -1,4 +1,48 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave007_F03",
+      "transform": {
+        "translation": {
+          "x": -386.38928,
+          "y": 818.7693
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": 688.08594,
+          "y": 551.8725
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": 322,
+          "y": 1096.5
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": -462,
+          "y": -293.5
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -14,11 +58,57 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 15,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 852,
           "y": 1098.8513
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGRAPEFRUIT",
+      "name": "Astringent Clump",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 692.84204,
+          "y": 554.65625
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAKIWIGLD",
+      "name": "Blonde Impostor",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -134.16878,
+          "y": -1160.4698
+        }
+      }
+    }
+  ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -101.00001,
+          "y": -675.5
         }
       }
     }
@@ -54,6 +144,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 845,
@@ -64,6 +155,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -9,
@@ -103,6 +195,19 @@
         "translation": {
           "x": -1059,
           "y": 165.5
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -514.6782,
+          "y": 213.78949
         }
       }
     }

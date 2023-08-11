@@ -1,4 +1,28 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave023_F01",
+      "transform": {
+        "translation": {
+          "x": 837.84424,
+          "y": 859.5315
+        }
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -71.994385,
+          "y": -10.316528
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -9,6 +33,105 @@
           "y": 206
         },
         "rotation": -56
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP100",
+      "name": "Disk of Surprising Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 100,
+      "transform": {
+        "translation": {
+          "x": -502.90027,
+          "y": 139.65942
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADICE12",
+      "name": "Long-Shot Totem",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 687.2534,
+          "y": 435.01334
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP25",
+      "name": "Disk of Sorrowful Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 25,
+      "transform": {
+        "translation": {
+          "x": 568.5725,
+          "y": 266.03857
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACARDDENTAKU",
+      "name": "Solar-Powered Computing Machine",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 170,
+      "transform": {
+        "translation": {
+          "x": 24.681152,
+          "y": 970.84644
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADICE20",
+      "name": "Go-with-the-Flow Totem",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -183.12355,
+          "y": 523.7279
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADICE20",
+      "name": "Go-with-the-Flow Totem",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -126.83899,
+          "y": 591.7032
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -370,
+          "y": -534
+        }
       }
     }
   ]

@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave005_F01",
+      "transform": {
+        "translation": {
+          "x": 415.1964,
+          "y": -1092.6165
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -12,9 +24,70 @@
       }
     }
   ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -104.41528,
+          "y": -250.13074
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "conveyor": [
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -412
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 138,
+          "y": 412.5
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -412,
+          "y": 412.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -138,
+          "y": 140
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 687.88,
@@ -25,12 +98,26 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -858.1865,
           "y": 138
         },
         "rotation": 90
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -651.36255,
+          "y": -120.98114
+        },
+        "rotation": 0
       }
     }
   ],
@@ -99,6 +186,49 @@
         "translation": {
           "x": -396.33606,
           "y": -412.5089
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAFINGERBOARD",
+      "name": "Personal-Injury Plank",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 867,
+          "y": -134
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLED",
+      "name": "Memory Fragment (Top Right)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -984.7115,
+          "y": 92.24266
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 682.41235,
+          "y": 538.15356
         }
       }
     }

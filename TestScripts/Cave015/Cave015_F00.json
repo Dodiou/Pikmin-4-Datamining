@@ -77,7 +77,12 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 26,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 195.43103,
@@ -87,7 +92,12 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 46,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 1640.4739,
@@ -97,11 +107,142 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -1802.5261,
           "y": 15.4956665
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 127.08574,
+          "y": 185.98132
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 225,
+          "y": 294
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKL",
+      "name": "Universal Rubber Cutie",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 1524,
+          "y": -356.4996
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASPONGEC",
+      "name": "Fishy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 1309,
+          "y": -839
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASPONGEA",
+      "name": "Doggy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -980.7683,
+          "y": 308.4351
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -962.9498,
+          "y": 743.09576
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABOAT",
+      "name": "Unfloatable Boat",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": -1512,
+          "y": -839
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1163.783,
+          "y": -626.11224
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKS",
+      "name": "Stately Rubber Cutie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -1255,
+          "y": -673
         }
       }
     }
@@ -176,6 +317,53 @@
         "translation": {
           "x": -997.1035,
           "y": -28.971191
+        }
+      }
+    }
+  ],
+  "undefined": [
+    {
+      "weight": 15,
+      "transform": {
+        "translation": {
+          "x": 1543.4526,
+          "y": -237.60658
+        },
+        "rotation": -45
+      }
+    }
+  ],
+  "drain": [
+    {
+      "type": "drain",
+      "switchId": "mizunuki",
+      "transform": {
+        "translation": {
+          "x": 451,
+          "y": -313
+        }
+      }
+    },
+    {
+      "type": "drain",
+      "switchId": "mizunuki",
+      "transform": {
+        "translation": {
+          "x": -1584.72,
+          "y": -213.95
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -120,
+          "y": -558.5
         }
       }
     }

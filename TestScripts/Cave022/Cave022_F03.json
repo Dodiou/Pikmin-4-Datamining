@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area010",
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -1162.5
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave022_F02",
+      "transform": {
+        "translation": {
+          "x": 4.13855,
+          "y": 1118.7712
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -12,9 +34,24 @@
       }
     }
   ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 280.84454,
+          "y": -978.0499
+        }
+      }
+    }
+  ],
   "firePit": [
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": -267.6947,
@@ -24,6 +61,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 584.364,
@@ -33,6 +71,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -585.376,
@@ -49,6 +88,30 @@
         "translation": {
           "x": -585,
           "y": -140
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 4.014618,
+          "y": 1120.2698
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 141.49142,
+          "y": -1049.918
         }
       }
     }

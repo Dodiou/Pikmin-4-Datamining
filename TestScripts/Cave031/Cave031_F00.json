@@ -101,7 +101,12 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 30,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -1254.5,
@@ -111,11 +116,276 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 30,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 1997.5137,
           "y": 523.42676
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -1743.5,
+          "y": 685.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAICHIJIKU",
+      "name": "Delectable Bouquet",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -1029.5,
+          "y": -1001.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADRAGONFRUIT",
+      "name": "Fire-Breathing Feast",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 170,
+      "transform": {
+        "translation": {
+          "x": -1370.5,
+          "y": -1227.504
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAAPRICOT",
+      "name": "Searing Acidshock",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 72.5,
+          "y": -261.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTANASHI",
+      "name": "Crunchy Deluge",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 822.5,
+          "y": 584.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAWATERMELON",
+      "name": "Crimson Banquet",
+      "weight": 100,
+      "carryMax": 200,
+      "value": 200,
+      "transform": {
+        "translation": {
+          "x": -411.135,
+          "y": 1156.6055
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -408.5,
+          "y": -399
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMUSCAT",
+      "name": "Dawn Pustules",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -1918.5,
+          "y": -1157.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGRAPE",
+      "name": "Dusk Pustules",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": -1967.5,
+          "y": -680.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAAPRICOT",
+      "name": "Searing Acidshock",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 286.5,
+          "y": -484.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANANA",
+      "name": "Slapstick Crescent",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": 1278.5,
+          "y": -120.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -1188.5,
+          "y": -1221.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATOMATOS",
+      "name": "Crush Nugget",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 185.5,
+          "y": -370.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 97.0611,
+          "y": -953.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 982.5,
+          "y": 382.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTALEMON",
+      "name": "Face Wrinkler",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -390.45483,
+          "y": 157.62901
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -567.5,
+          "y": 226.5
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -1237.5,
+          "y": 825.5
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -1237.5,
+          "y": -339.5
         }
       }
     }
@@ -137,6 +407,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 49.5,
@@ -149,6 +421,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 558.5,
@@ -210,6 +484,33 @@
         "translation": {
           "x": -2040.5,
           "y": -1006.5
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 960.7024,
+          "y": -688.3589
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "guardedBy": [
+        "IceKochappy"
+      ],
+      "transform": {
+        "translation": {
+          "x": -1235.5,
+          "y": 411.5
         }
       }
     }

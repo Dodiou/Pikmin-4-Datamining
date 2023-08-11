@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave011_F02",
+      "transform": {
+        "translation": {
+          "x": -1454.5,
+          "y": 1040
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -11,6 +23,64 @@
         "translation": {
           "x": 0,
           "y": 0
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -966,
+          "y": 809
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "hasCrystal": true,
+      "transform": {
+        "translation": {
+          "x": -1377,
+          "y": 15
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -164,
+          "y": 91
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "stick",
+      "transform": {
+        "translation": {
+          "x": 940,
+          "y": -960
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 327,
+          "y": 810
         },
         "rotation": 0
       }
@@ -31,6 +101,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 139.41013,
@@ -41,6 +113,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -1,
@@ -51,6 +125,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 234,
@@ -61,6 +137,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 329.41013,
@@ -71,6 +149,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 235.41013,
@@ -125,9 +205,43 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -544,
+          "y": 507
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 4,
+          "y": -286
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -1136,
+          "y": -263
+        }
+      }
+    }
+  ],
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 735,
@@ -149,6 +263,133 @@
         "translation": {
           "x": 679,
           "y": 1030
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": -1392.1796,
+          "y": 678.9692
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 279.9969,
+          "y": 401.8475
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1129,
+          "y": 405
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1267,
+          "y": 328
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATAKOWIENER",
+      "name": "Octoplus",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1222.6088,
+          "y": -1702.4348
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATAKOWIENER",
+      "name": "Octoplus",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1266.9982,
+          "y": -1644.7808
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMANGOSTEEN",
+      "name": "Dapper Blob",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -592.36414,
+          "y": -479.27084
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABUTTONMETAL",
+      "name": "Trap Lid",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -790,
+          "y": -13
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKL",
+      "name": "Universal Rubber Cutie",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 236,
+          "y": -958
         }
       }
     }

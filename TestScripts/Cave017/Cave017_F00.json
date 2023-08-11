@@ -2,7 +2,12 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 50,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 252,
@@ -12,7 +17,12 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 39,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 1049.7476,
@@ -22,12 +32,199 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 50,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -693,
           "y": 923.7894
         }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAWHISTLE",
+      "name": "Emperor Whistle",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 722,
+          "y": -1204
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAWHISTLE",
+      "name": "Emperor Whistle",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 639,
+          "y": -1170
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASMALLBELL",
+      "name": "Spouse Alert",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -975,
+          "y": -464
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASMALLBELL",
+      "name": "Spouse Alert",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -813,
+          "y": -316
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASMALLBELL",
+      "name": "Spouse Alert",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -860,
+          "y": -516
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAOCARINABRN",
+      "name": "Ambiguous Hostel",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -539,
+          "y": 832
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHANDBELL",
+      "name": "Time Marker",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": -412,
+          "y": 1055
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHORNBELL",
+      "name": "Path Creator",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 100,
+      "transform": {
+        "translation": {
+          "x": 945,
+          "y": -1080
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACASTANETS",
+      "name": "Harmonic Synthesizer",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -826.81775,
+          "y": 109.78015
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHARMONICA",
+      "name": "Wind Detector",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 1324.5155,
+          "y": -275.18372
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHORNBELL",
+      "name": "Path Creator",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 100,
+      "transform": {
+        "translation": {
+          "x": 446,
+          "y": -909
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAOCARINABRN",
+      "name": "Ambiguous Hostel",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 374.72345,
+          "y": -822.6375
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -4,
+          "y": 580
+        },
+        "rotation": 90
       }
     }
   ],
@@ -126,6 +323,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 546,
@@ -136,12 +334,26 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -961,
           "y": 410
         },
         "rotation": 0
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -275
+        }
       }
     }
   ]

@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area010",
+      "transform": {
+        "translation": {
+          "x": -1430,
+          "y": -1375
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -31,6 +43,33 @@
         "translation": {
           "x": -1071.9757,
           "y": -628.5161
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 432.06348,
+          "y": -262.8291
+        }
+      }
+    }
+  ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -501.07742,
+          "y": -923.1194
         }
       }
     }
@@ -73,6 +112,105 @@
         "translation": {
           "x": 38.230644,
           "y": -959.9096
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 535,
+          "y": -810
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAYOSHICOOKIED",
+      "name": "Love's Fortune Cookie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -866,
+          "y": 1351
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAECLAIR",
+      "name": "Sweet Torrent",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -335.75952,
+          "y": -558.40454
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAYOSHICOOKIEE",
+      "name": "Hearty Container",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -812,
+          "y": 1420
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACANDYSTICK",
+      "name": "Sweet Stumble-Not",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 819.4901,
+          "y": 1326.0457
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABUTTONWOOD",
+      "name": "Perforated Raft",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 10,
+      "transform": {
+        "translation": {
+          "x": -37.829903,
+          "y": 36.336
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAKIWI",
+      "name": "Disguised Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -659.7402,
+          "y": -427.92184
         }
       }
     }

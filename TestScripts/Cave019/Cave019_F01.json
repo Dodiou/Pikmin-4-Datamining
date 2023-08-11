@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave019_F02",
+      "transform": {
+        "translation": {
+          "x": -547.5,
+          "y": -720
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -46,6 +58,63 @@
         "translation": {
           "x": -345,
           "y": -80
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -549.0413,
+          "y": 554.9745
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTASMALLBELL",
+      "name": "Spouse Alert",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": 806.42834,
+          "y": 92.60034
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASUSHITAMAGO",
+      "name": "Belted Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -503.25766,
+          "y": 9.634312
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASUSHITAMAGO",
+      "name": "Belted Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -554.694,
+          "y": 22.89046
         }
       }
     }

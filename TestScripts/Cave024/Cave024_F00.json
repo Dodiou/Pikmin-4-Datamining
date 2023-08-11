@@ -1,18 +1,28 @@
 {
-  "gate": [
+  "caveLink": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "caveLink",
+      "link": "Cave024_F01",
       "transform": {
         "translation": {
-          "x": -9.710541,
-          "y": 492.7185
-        },
-        "rotation": -90
+          "x": 402.1853,
+          "y": 25.601807
+        }
       }
     }
   ],
   "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -409.90845,
+          "y": -353.66785
+        },
+        "rotation": 0
+      }
+    },
     {
       "type": "shortcut",
       "variant": "clipboard",
@@ -23,6 +33,19 @@
           "y": -86.54266
         },
         "rotation": 0
+      }
+    }
+  ],
+  "gate": [
+    {
+      "type": "gate",
+      "variant": "dirt",
+      "transform": {
+        "translation": {
+          "x": -9.710541,
+          "y": 492.7185
+        },
+        "rotation": -90
       }
     }
   ],
@@ -63,6 +86,63 @@
         "translation": {
           "x": 339.167,
           "y": 550.25854
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 276.94348,
+          "y": -967.55505
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALL8",
+      "name": "Sphere of Trust",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -410,
+          "y": 405
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADARTS",
+      "name": "Relentless Spear",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 953.0326,
+          "y": 4.3049755
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADICE12",
+      "name": "Long-Shot Totem",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -888.9894,
+          "y": -823.7583
         }
       }
     }

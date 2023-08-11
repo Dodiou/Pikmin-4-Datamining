@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave022_F02",
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": -884.0905
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave022_F00",
+      "transform": {
+        "translation": {
+          "x": 521.2844,
+          "y": 450.1516
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -11,9 +33,47 @@
       }
     }
   ],
-  "straw": [
+  "heatObstacle": [
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 134.93945,
+          "y": 411.7173
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -584.6089,
+          "y": 478.8097
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 501.38623,
@@ -22,7 +82,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 597.4348,
@@ -31,11 +93,31 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 551.0149,
           "y": 40.234314
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -286.5981,
+          "y": -669.8677
         }
       }
     }
@@ -64,6 +146,36 @@
         "translation": {
           "x": 594.87286,
           "y": -457.83594
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTARINGO",
+      "name": "Insect Condo",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -1041.2334,
+          "y": -419.04846
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATOMATOS",
+      "name": "Crush Nugget",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -767.93835,
+          "y": 852.15656
         }
       }
     }
@@ -120,9 +232,22 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 823.0121,
+          "y": -271.1458
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 947.311,
@@ -132,9 +257,34 @@
       }
     }
   ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 521.6145,
+          "y": 449.313
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": -875
+        }
+      }
+    }
+  ],
   "firePit": [
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": 17.354828,
@@ -144,6 +294,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -758.66626,
@@ -153,6 +304,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 330,

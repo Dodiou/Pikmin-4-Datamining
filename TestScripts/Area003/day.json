@@ -1,4 +1,106 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave012_F00",
+      "transform": {
+        "translation": {
+          "x": 1807.5271,
+          "y": 1714.3187
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave011_F00",
+      "transform": {
+        "translation": {
+          "x": 93.98181,
+          "y": -867.1321
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave014_F00",
+      "disabledPikmin": {
+        "red": true,
+        "blue": true,
+        "yellow": true,
+        "rock": true,
+        "wing": true,
+        "purple": true,
+        "white": true,
+        "ice": true
+      },
+      "transform": {
+        "translation": {
+          "x": 1213.0968,
+          "y": 1792.2612
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave013_F00",
+      "transform": {
+        "translation": {
+          "x": -974.3186,
+          "y": -3226.1934
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP004_F00",
+      "transform": {
+        "translation": {
+          "x": 2768.948,
+          "y": 2578.8699
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveVS002_F00",
+      "transform": {
+        "translation": {
+          "x": 1529.2646,
+          "y": -725.3163
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP005_F00",
+      "disabledPikmin": {
+        "red": true,
+        "blue": true,
+        "yellow": true,
+        "rock": true,
+        "wing": true,
+        "purple": true,
+        "white": true,
+        "ice": true
+      },
+      "transform": {
+        "translation": {
+          "x": -3541.521,
+          "y": 1860.6395
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave014_F04",
+      "transform": {
+        "translation": {
+          "x": 1421.0968,
+          "y": 2209.2612
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -10,6 +112,29 @@
           "y": -621.99963
         },
         "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "stick",
+      "transform": {
+        "translation": {
+          "x": -1940.0112,
+          "y": -2380.5093
+        },
+        "rotation": -89.658
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "hasCrystal": true,
+      "transform": {
+        "translation": {
+          "x": 737,
+          "y": 3367
+        },
+        "rotation": -14
       }
     },
     {
@@ -86,6 +211,68 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": -1144,
+          "y": -1402
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": -1652,
+          "y": -1559
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": -10,
+          "y": -2295
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": 2317,
+          "y": 1285
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": 2417,
+          "y": 1610
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": 1982,
+          "y": 1435
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -129,6 +316,28 @@
           "y": -313.9957
         },
         "rotation": -50
+      }
+    }
+  ],
+  "drain": [
+    {
+      "type": "drain",
+      "switchId": "WaterBox_Off_2",
+      "transform": {
+        "translation": {
+          "x": -3308.211,
+          "y": -3337.8372
+        }
+      }
+    },
+    {
+      "type": "drain",
+      "switchId": "WaterBox_Off_1",
+      "transform": {
+        "translation": {
+          "x": -862.6809,
+          "y": 3460.9375
+        }
       }
     }
   ],
@@ -312,9 +521,84 @@
       }
     }
   ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1976.8502,
+          "y": -2511.8203
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 2167.9028,
+          "y": -2647.9963
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "SAKADACHI"
+      ],
+      "transform": {
+        "translation": {
+          "x": -1173.3912,
+          "y": -2270.3152
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -1322.5592,
+          "y": -2451.406
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "Excavation"
+      ],
+      "transform": {
+        "translation": {
+          "x": -305.98334,
+          "y": 1673.4087
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -453.12683,
+          "y": 1856.1484
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -2184.4646,
@@ -409,6 +693,390 @@
         "translation": {
           "x": -1494.5048,
           "y": 3118.2954
+        }
+      }
+    }
+  ],
+  "undefined": [
+    {
+      "weight": 7,
+      "drops": [
+        {
+          "item": "GKanitama_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2772,
+          "y": 2818.883
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "transform": {
+        "translation": {
+          "x": -3032.143,
+          "y": 2507.0198
+        },
+        "rotation": -5
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAFRUITSPICKYEL",
+      "name": "Bright Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -317,
+          "y": 1669.0566
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPEACH",
+      "name": "Mock Bottom",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -533.60004,
+          "y": -28.89708
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMOAI",
+      "name": "Giant's Fossil",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 450,
+      "transform": {
+        "translation": {
+          "x": -2886.8425,
+          "y": 1368.8765
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARASPBERRY",
+      "name": "Juicy Gaggle",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 1094.1108,
+          "y": 3420.1902
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAWATERMELON",
+      "name": "Crimson Banquet",
+      "weight": 100,
+      "carryMax": 200,
+      "value": 200,
+      "transform": {
+        "translation": {
+          "x": -159.53949,
+          "y": -1679.461
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGOLFBALL",
+      "name": "Orbital Communication Sphere",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1678.0367,
+          "y": 203.3949
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASTARFRUIT",
+      "name": "Stellar Extrusion",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1275.1525,
+          "y": -1523.5133
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMUSCAT",
+      "name": "Dawn Pustules",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -3246,
+          "y": -1702
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPLUM",
+      "name": "Lesser Mock Bottom",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 2132.3887,
+          "y": 2850.0503
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAWHISTLE",
+      "name": "Emperor Whistle",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 872.5461,
+          "y": -2990.3147
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAAMMOLITE",
+      "name": "Newtolite Shell",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 400,
+      "transform": {
+        "translation": {
+          "x": -3312.9934,
+          "y": 3446.3914
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAFISHCRUET",
+      "name": "Mystery Squish Fish",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -3185.2507,
+          "y": 2492.784
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAOCARINABRN",
+      "name": "Ambiguous Hostel",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 1885.9539,
+          "y": 3547.8035
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTALIME",
+      "name": "Zest Bomb",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -3715.087,
+          "y": -1007.6969
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKS",
+      "name": "Stately Rubber Cutie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -1407.6309,
+          "y": -182.7116
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKS",
+      "name": "Stately Rubber Cutie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -1407.6309,
+          "y": -259.7116
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKS",
+      "name": "Stately Rubber Cutie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 1666.3114,
+          "y": 2182.9482
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMANGO",
+      "name": "Heroine's Tear",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 207.01596,
+          "y": 3300.9001
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAEGGPLANT",
+      "name": "Foolish Fruit",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -593.6049,
+          "y": -1297.3384
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGODDESS",
+      "name": "Lamp of Inspiration",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 300,
+      "transform": {
+        "translation": {
+          "x": 1221.6152,
+          "y": 951.62823
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANANA",
+      "name": "Slapstick Crescent",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": -4326,
+          "y": 1455
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 172.9291,
+          "y": 474.65793
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -1729.8938,
+          "y": 1713.1764
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -1960,
+          "y": -2111
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASPONGEC",
+      "name": "Fishy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 1058.1367,
+          "y": -617.1602
         }
       }
     }
@@ -623,34 +1291,53 @@
       }
     }
   ],
-  "treasure": [
+  "onion": [
     {
-      "type": "treasure",
-      "amount": 20,
+      "type": "onion",
+      "color": "blue",
+      "weight": 20,
       "transform": {
         "translation": {
-          "x": 172.9291,
-          "y": 474.65793
+          "x": -3306.7917,
+          "y": -3340.8967
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 1536.9489,
+          "y": -526.6245
         }
       }
     },
     {
-      "type": "treasure",
-      "amount": 20,
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
       "transform": {
         "translation": {
-          "x": -1729.8938,
-          "y": 1713.1764
+          "x": 2584,
+          "y": 2659
         }
       }
     },
     {
-      "type": "treasure",
-      "amount": 20,
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
       "transform": {
         "translation": {
-          "x": -1960,
-          "y": -2111
+          "x": -3537.1636,
+          "y": 1659.2542
         }
       }
     }

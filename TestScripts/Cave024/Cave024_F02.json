@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave024_F03",
+      "transform": {
+        "translation": {
+          "x": -1176.5107,
+          "y": 690.2896
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -18,6 +30,53 @@
           "x": -1018.95874,
           "y": -661.40125
         }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 681.1084,
+          "y": 894.4686
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 139.97534,
+          "y": 1191.7571
+        },
+        "rotation": -180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -493.01605,
+          "y": 695.10785
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 649.5724,
+          "y": -58.905396
+        },
+        "rotation": 90
       }
     }
   ],
@@ -50,6 +109,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -689,
@@ -60,6 +120,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 137,
@@ -69,17 +130,96 @@
       }
     }
   ],
-  "shortcut": [
+  "spout": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
+      "type": "spout",
+      "variant": "bubble",
       "transform": {
         "translation": {
-          "x": 139.97534,
-          "y": 1191.7571
-        },
-        "rotation": -180
+          "x": -687.32965,
+          "y": 381.22583
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 168.75739,
+          "y": -441.34943
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": -436.88644,
+          "y": 1238.2963
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALL3",
+      "name": "Sphere of Heart",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 115.80286,
+          "y": 1736.2228
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAFRUITSPICKPNK",
+      "name": "Heart Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -799,
+          "y": -843
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAFRUITSPICKPNK",
+      "name": "Heart Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -840,
+          "y": -891
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 953.3887,
+          "y": -206.21588
+        }
       }
     }
   ]

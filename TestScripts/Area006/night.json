@@ -1,4 +1,76 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave018_F00",
+      "transform": {
+        "translation": {
+          "x": 1153.453,
+          "y": -2750.6274
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave016_F00",
+      "transform": {
+        "translation": {
+          "x": 2899.8857,
+          "y": 3186.5715
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave019_F00",
+      "transform": {
+        "translation": {
+          "x": -2607.5925,
+          "y": -3157.6768
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP010_F00",
+      "transform": {
+        "translation": {
+          "x": 327.21506,
+          "y": 982.73456
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveVS005_F00",
+      "transform": {
+        "translation": {
+          "x": -1204.0057,
+          "y": 1422.5608
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP011_F00",
+      "transform": {
+        "translation": {
+          "x": -1860.7852,
+          "y": 220.73456
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP012_F00",
+      "transform": {
+        "translation": {
+          "x": -2794.9858,
+          "y": 1309.6101
+        }
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",
@@ -50,6 +122,38 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "poison",
+      "transform": {
+        "translation": {
+          "x": -3182.138,
+          "y": 1117.4457
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "poison",
+      "transform": {
+        "translation": {
+          "x": -3116.5054,
+          "y": 964.1982
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "poison",
+      "transform": {
+        "translation": {
+          "x": -3192.9321,
+          "y": 1269.2113
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -74,11 +178,35 @@
         },
         "rotation": -135
       }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "hasCrystal": true,
+      "transform": {
+        "translation": {
+          "x": 2101,
+          "y": 2624
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -4300,
+          "y": 1027
+        },
+        "rotation": 0
+      }
     }
   ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 114.95111,
@@ -183,6 +311,82 @@
           "y": 3222
         },
         "rotation": -35
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -132.10266,
+          "y": -3087.2463
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -65.1962,
+          "y": -3312.1206
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "Egg",
+        "BigEgg"
+      ],
+      "transform": {
+        "translation": {
+          "x": 2857.5737,
+          "y": 743.6593
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 3057.344,
+          "y": 868.30035
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "StickyFloor",
+        "HageDamagumo"
+      ],
+      "transform": {
+        "translation": {
+          "x": -2329.9578,
+          "y": -1413.5415
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -2100.508,
+          "y": -1364.5742
+        }
       }
     }
   ],

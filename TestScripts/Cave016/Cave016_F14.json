@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F15",
+      "transform": {
+        "translation": {
+          "x": 992.2092,
+          "y": -61.868362
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -69,6 +81,51 @@
           "y": 477.35614
         },
         "rotation": 0
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": -545.9193,
+          "y": 892.7577
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": 71.36046,
+          "y": 789.15204
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": 71.36046,
+          "y": 331.42105
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 68.75,
+          "y": -838.06824
+        }
       }
     }
   ]

@@ -1,4 +1,40 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F17",
+      "transform": {
+        "translation": {
+          "x": 932.4049,
+          "y": -101.71544
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 143.83864,
+          "y": -198
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 417.3583,
+          "y": -618
+        },
+        "rotation": -90
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -9,6 +45,19 @@
           "y": 192.42754
         },
         "rotation": 90
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -560.93463,
+          "y": 254.65848
+        }
       }
     }
   ]

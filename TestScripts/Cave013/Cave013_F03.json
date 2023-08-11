@@ -1,11 +1,74 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave013_F04",
+      "transform": {
+        "translation": {
+          "x": 1237.5,
+          "y": 412.5
+        }
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 15,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -202.5,
+          "y": -687.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALL4",
+      "name": "Sphere of Beginnings",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 886.7781,
+          "y": 413.32922
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -1375,
+          "y": -137.5
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 512.5,
+          "y": 925
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 0,
           "y": -687.5
         }
       }
@@ -14,6 +77,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 0,
@@ -24,6 +89,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 954.5,
@@ -49,6 +116,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 275,
@@ -69,6 +138,18 @@
           "y": -576.489
         },
         "rotation": -180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "hasCrystal": true,
+      "transform": {
+        "translation": {
+          "x": -1100,
+          "y": -90
+        },
+        "rotation": -90
       }
     }
   ],
@@ -132,6 +213,19 @@
         "translation": {
           "x": 481.27185,
           "y": -632.64215
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -305,
+          "y": 478.75
         }
       }
     }

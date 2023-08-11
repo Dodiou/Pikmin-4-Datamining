@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave007_F01",
+      "transform": {
+        "translation": {
+          "x": -399.43115,
+          "y": 236.55823
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -72,6 +84,50 @@
       }
     }
   ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAINTSBLU",
+      "name": "Decorative Goo",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 828.70575,
+          "y": 618.4569
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKL",
+      "name": "Universal Rubber Cutie",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -1325.3049,
+          "y": 378.95618
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 33,
+          "y": -140.22769
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -82,6 +138,19 @@
           "y": 138.61365
         },
         "rotation": 90
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 130.16327,
+          "y": -533.44415
+        }
       }
     }
   ]

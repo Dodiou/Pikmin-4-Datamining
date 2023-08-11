@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave021_F03",
+      "transform": {
+        "translation": {
+          "x": -135.94644,
+          "y": 1045.3953
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -31,15 +43,159 @@
       }
     }
   ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -413.4985,
+          "y": 655.89624
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -411.4143,
+          "y": -1277.7727
+        },
+        "rotation": 90
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 30,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -1587.0656,
           "y": -1262.258
         }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADEKOPON",
+      "name": "Pocked Airhead",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -410.6623,
+          "y": 67.09445
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEB",
+      "name": "Memory Fragment (Top-ish)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -169.79044,
+          "y": 1356.1296
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGRAPE",
+      "name": "Dusk Pustules",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": 970,
+          "y": -855
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -1223,
+          "y": -1512
+        }
+      }
+    }
+  ],
+  "conveyor": [
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 137.6272,
+          "y": 1234
+        },
+        "rotation": -180
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 139.5,
+          "y": -136.6908
+        },
+        "rotation": -179.999
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -432.64432,
+          "y": -1510.8403
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -169.40826,
+          "y": -1510.8403
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -695.80646,
+          "y": -1510.8403
+        },
+        "rotation": 90
       }
     }
   ],
@@ -51,6 +207,60 @@
         "translation": {
           "x": 1421.5,
           "y": -689
+        }
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "switch02",
+      "transform": {
+        "translation": {
+          "x": -413.9167,
+          "y": 1510.25
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch02",
+      "transform": {
+        "translation": {
+          "x": 1279.5,
+          "y": 139
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 1249.5,
+          "y": -693
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 423.2967,
+          "y": -690
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -1260
         }
       }
     }
@@ -98,6 +308,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -50.12265,
@@ -108,6 +320,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 137,
@@ -118,22 +332,12 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -1100.5735,
           "y": -1512.5281
-        },
-        "rotation": 90
-      }
-    }
-  ],
-  "switch": [
-    {
-      "type": "switch",
-      "transform": {
-        "translation": {
-          "x": -411.4143,
-          "y": -1277.7727
         },
         "rotation": 90
       }
@@ -167,6 +371,33 @@
         "translation": {
           "x": -1499.6086,
           "y": 136.91826
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 273.5489,
+          "y": 399.73926
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "guardedBy": [
+        "FUTAKUCHI"
+      ],
+      "transform": {
+        "translation": {
+          "x": -876.3611,
+          "y": -599.41956
         }
       }
     }

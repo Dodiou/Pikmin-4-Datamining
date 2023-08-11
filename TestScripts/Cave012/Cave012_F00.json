@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave012_F01",
+      "transform": {
+        "translation": {
+          "x": -412.5,
+          "y": 675
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -90,6 +102,78 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 809.5,
+          "y": 142
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": -238.5,
+          "y": -685
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": -412.5,
+          "y": 410
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 355.80145,
+          "y": 325
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 62.47766,
+          "y": 435
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 292.5,
+          "y": 705
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "poison",
+      "transform": {
+        "translation": {
+          "x": 537,
+          "y": -137
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -119,10 +203,42 @@
       }
     }
   ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 389.5193,
+          "y": -671.4327
+        }
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "OTAKIWI",
+      "name": "Disguised Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -540,
+          "y": -534.02136
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 10,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 402,

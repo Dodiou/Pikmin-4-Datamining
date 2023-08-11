@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave002_F01",
+      "transform": {
+        "translation": {
+          "x": 689,
+          "y": -1209
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",
@@ -48,6 +60,50 @@
       }
     }
   ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTABOARDERASER",
+      "name": "Dusty Bed",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 398,
+          "y": -689.36115
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAINTSYEL",
+      "name": "Illumination Goo",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -861,
+          "y": -508
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAISOBEYAKI",
+      "name": "Deceptive Snack",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -965,
+          "y": 64
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -56,6 +112,19 @@
         "translation": {
           "x": 397,
           "y": -1167
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 444,
+          "y": 422
         }
       }
     }

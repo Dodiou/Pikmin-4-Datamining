@@ -1,7 +1,21 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave010_F05",
+      "transform": {
+        "translation": {
+          "x": -647.5,
+          "y": -822.5
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 549,
@@ -14,6 +28,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -837.5,
@@ -64,6 +80,36 @@
       }
     }
   ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAZUCCHINI",
+      "name": "Crew-Cut Gourd",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -271.70477,
+          "y": 1054
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAYOSHICOOKIEB",
+      "name": "Cookie of Prosperity",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 271.6005,
+          "y": 364.2735
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -85,6 +131,19 @@
           "y": -692
         },
         "rotation": 0
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 684.30554,
+          "y": -686.39124
+        }
       }
     }
   ],

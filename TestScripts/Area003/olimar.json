@@ -206,9 +206,125 @@
       }
     }
   ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -1269.7485,
+          "y": -1520.8499
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "blue",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -101.42682,
+          "y": -1636.7523
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 3300.5454,
+          "y": -1718.7886
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 1212,
+          "y": 939
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -3405.75,
+          "y": -957.25
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSI",
+      "name": "Bowsprit",
+      "weight": 30,
+      "carryMax": 60,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -4526.7188,
+          "y": 985.073
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSK",
+      "name": "Repair-Type Bolt",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -1660.1023,
+          "y": 831.05164
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSW",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 1803.1182,
+          "y": 1684.1729
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSX",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -3446.985,
+          "y": -3478.3435
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -2193.071,
@@ -219,6 +335,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 11.026104,
@@ -480,6 +597,80 @@
       }
     }
   ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "PATROLLER"
+      ],
+      "transform": {
+        "translation": {
+          "x": 1955.4904,
+          "y": -2609.3535
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": 2186.9028,
+          "y": -2647.9963
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "BIGKINGCHAPPY"
+      ],
+      "transform": {
+        "translation": {
+          "x": -1173.3912,
+          "y": -2270.3152
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -1322.5592,
+          "y": -2451.406
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -305.98334,
+          "y": 1673.4087
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -453.12683,
+          "y": 1856.1484
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -526,6 +717,78 @@
           "y": 935
         },
         "rotation": 10
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 1782,
+          "y": 826
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 1401,
+          "y": 1086
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": 1706,
+          "y": 1121
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -3125,
+          "y": -3356
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -3321.25,
+          "y": -3195
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -2836,
+          "y": -2974
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -3027,
+          "y": -260
+        }
       }
     }
   ]

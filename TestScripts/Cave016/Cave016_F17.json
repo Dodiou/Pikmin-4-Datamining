@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F18",
+      "transform": {
+        "translation": {
+          "x": 2.8875122,
+          "y": 1409.2179
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -47,6 +59,19 @@
         "translation": {
           "x": 803.26135,
           "y": 129.32959
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 0.519348,
+          "y": -1162.4342
         }
       }
     }

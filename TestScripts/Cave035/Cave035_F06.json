@@ -1,1 +1,15 @@
-{}
+{
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -413.13528,
+          "y": 372.00195
+        }
+      }
+    }
+  ]
+}

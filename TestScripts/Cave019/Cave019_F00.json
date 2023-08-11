@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave019_F01",
+      "transform": {
+        "translation": {
+          "x": 415,
+          "y": 855
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -58,6 +70,63 @@
         "translation": {
           "x": -145,
           "y": 900
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 625.5175,
+          "y": -46.21411
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTALIGHTUPRINGBLU",
+      "name": "Hoop of Healing",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": -474.5161,
+          "y": 487.96625
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTALIGHTUPRINGYEL",
+      "name": "Hoop of Fortune",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": -474.5161,
+          "y": 627.81616
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALL6",
+      "name": "Sphere of Calm",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 392.10315,
+          "y": -250
         }
       }
     }

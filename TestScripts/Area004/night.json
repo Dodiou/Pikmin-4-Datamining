@@ -1,4 +1,76 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "CaveVS004_F00",
+      "transform": {
+        "translation": {
+          "x": -4648.89,
+          "y": 1533.925
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave025_F00",
+      "transform": {
+        "translation": {
+          "x": 931.20825,
+          "y": 2775.0698
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave026_F00",
+      "transform": {
+        "translation": {
+          "x": -966.8076,
+          "y": -2703.58
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave024_F00",
+      "transform": {
+        "translation": {
+          "x": -1933.7495,
+          "y": 2516.7417
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP009_F00",
+      "transform": {
+        "translation": {
+          "x": -960.57794,
+          "y": -448.06168
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP007_F00",
+      "transform": {
+        "translation": {
+          "x": 1150.8921,
+          "y": -2073.15
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP008_F00",
+      "transform": {
+        "translation": {
+          "x": 259.00098,
+          "y": 3494.0002
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -26,6 +98,17 @@
     },
     {
       "type": "shortcut",
+      "variant": "stick",
+      "transform": {
+        "translation": {
+          "x": -3990.677,
+          "y": 2407.546
+        },
+        "rotation": -48
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "string",
       "weight": 5,
       "transform": {
@@ -46,6 +129,17 @@
           "y": 2368
         },
         "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -2647.6794,
+          "y": -1445.1655
+        },
+        "rotation": -104
       }
     },
     {
@@ -82,6 +176,20 @@
           "y": 1530
         },
         "rotation": 44.165
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch02",
+      "transform": {
+        "translation": {
+          "x": -3788.2263,
+          "y": 2222.8018
+        },
+        "rotation": -50.625
       }
     }
   ],
@@ -278,6 +386,7 @@
   "firePit": [
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": 2403,
@@ -287,6 +396,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": 1224.6752,
@@ -296,6 +406,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": -3773,
@@ -305,6 +416,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": -30,
@@ -314,6 +426,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": -2503,
@@ -323,6 +436,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": -1527,
@@ -332,6 +446,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": 2544,
@@ -341,6 +456,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": -43.421223,
@@ -350,6 +466,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": 647,
@@ -358,9 +475,11 @@
       }
     }
   ],
-  "straw": [
+  "heatObstacle": [
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -552,
@@ -369,7 +488,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -592,
@@ -378,7 +499,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -594,
@@ -387,7 +510,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -2506.2832,
@@ -396,7 +521,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -2475.6877,
@@ -405,7 +532,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -2537.0398,
@@ -414,7 +543,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -2125.2517,
@@ -423,7 +554,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -2051,
@@ -432,7 +565,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -2049,
@@ -441,7 +576,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -945,
@@ -450,7 +587,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -963,
@@ -459,7 +598,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1055,
@@ -468,7 +609,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1704,
@@ -477,7 +620,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1630,
@@ -486,7 +631,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1689,
@@ -495,7 +642,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -887,
@@ -504,7 +653,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -119,
@@ -513,7 +664,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -115,
@@ -522,7 +675,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -92,
@@ -531,7 +686,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -41,
@@ -540,7 +697,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 21,
@@ -549,7 +708,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1019,
@@ -558,7 +719,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 95,
@@ -567,7 +730,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -894,
@@ -576,7 +741,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1031,
@@ -585,7 +752,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 2668,
@@ -594,7 +763,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 2654,
@@ -603,7 +774,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 2601,
@@ -612,7 +785,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 376.6289,
@@ -621,7 +796,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 306.5041,
@@ -630,7 +807,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 374.85834,
@@ -639,7 +818,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 236.69012,
@@ -648,7 +829,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1355,
@@ -657,7 +840,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1337,
@@ -666,7 +851,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1361,
@@ -675,7 +862,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1571,
@@ -684,7 +873,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4300.89,
@@ -693,7 +884,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4218.608,
@@ -702,7 +895,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4128.0547,
@@ -711,7 +906,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4226.8975,
@@ -720,7 +917,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4336.378,
@@ -729,7 +928,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 206.61067,
@@ -738,7 +939,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1617,
@@ -747,7 +950,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1642,
@@ -756,7 +961,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1617,
@@ -765,7 +972,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1642,
@@ -774,7 +983,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1617,
@@ -783,7 +994,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1642,
@@ -792,7 +1005,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 1628,
@@ -801,7 +1016,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 3138.7568,
@@ -810,7 +1027,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 3082.6946,
@@ -819,7 +1038,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 3033.5884,
@@ -828,7 +1049,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1529.9966,
@@ -837,7 +1060,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1495.7606,
@@ -846,7 +1071,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1256.4917,
@@ -855,7 +1082,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -1326.9288,
@@ -864,7 +1093,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 307.51633,
@@ -873,7 +1104,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4341.306,
@@ -882,7 +1115,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4159.8994,
@@ -891,7 +1126,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4290.302,
@@ -900,7 +1137,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": -4153.966,
@@ -909,7 +1148,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 235.76227,
@@ -918,7 +1159,9 @@
       }
     },
     {
-      "type": "straw",
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
       "transform": {
         "translation": {
           "x": 401.71558,
@@ -930,12 +1173,99 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -1108.4719,
           "y": -155.67938
         },
         "rotation": 42.188
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 2142.457,
+          "y": -869.3419
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 2290.9712,
+          "y": -1050.9694
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "FIRECHAPPY"
+      ],
+      "transform": {
+        "translation": {
+          "x": 241.15009,
+          "y": 887.11163
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 70.20658,
+          "y": 1047.8079
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "BURNING"
+      ],
+      "transform": {
+        "translation": {
+          "x": -2505.6248,
+          "y": 128.93372
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -2271.7656,
+          "y": 110.09534
+        }
+      }
+    }
+  ],
+  "drain": [
+    {
+      "type": "drain",
+      "switchId": "mizunuki",
+      "transform": {
+        "translation": {
+          "x": 2687.474,
+          "y": -2996.167
+        }
       }
     }
   ],

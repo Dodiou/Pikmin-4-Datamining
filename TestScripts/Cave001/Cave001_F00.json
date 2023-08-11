@@ -11,6 +11,32 @@
       }
     }
   ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area001",
+      "transform": {
+        "translation": {
+          "x": 552,
+          "y": -1054.0544
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 549.70557,
+          "y": -741.635
+        }
+      }
+    }
+  ],
   "pot": [
     {
       "type": "pot",
@@ -177,6 +203,62 @@
         "translation": {
           "x": -229.5,
           "y": 964.5
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAINTSAQU",
+      "name": "Refreshing Goo",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 740.8137,
+          "y": -201.54724
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACOMPASS",
+      "name": "Director of Destiny",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -698.86346,
+          "y": 164.1148
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -560.31915,
+          "y": -709.537
+        }
+      }
+    }
+  ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 766.5228,
+          "y": 522.6247
         }
       }
     }

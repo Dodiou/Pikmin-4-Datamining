@@ -7,7 +7,10 @@ export function isShortcutComp(comp) {
     comp.Properties.DownFloorAI ||
     comp.Properties.StringAI ||
     comp.Properties.PushGimmickAI ||
-    comp.Properties.PullNekkoAI
+    comp.Properties.PullNekkoAI ||
+    comp.Properties.BranchAI ||
+    comp.Properties.GeyserAI ||
+    comp.Properties.ZiplineAI
   );
 }
 
@@ -37,7 +40,8 @@ export function parseShortcutComp(comp, compsList) {
       type: ObjectTypes.Shortcut,
       variant: ShortcutVariants.String,
       weight: pushAffordanceComp?.Properties?.WorkNum || 5, // See any StringAI, other than Cave20
-      // completed: stringComp.Properties?.bFalled
+      // unknown what bFalled is
+      //   completed: stringComp.Properties?.bFalled
     };
     // TODO: what is WorkNumGensei?
   }
@@ -55,4 +59,26 @@ export function parseShortcutComp(comp, compsList) {
       variant: ShortcutVariants.Root
     }
   }
+  else if (comp.Properties.BranchAI) {
+    return {
+      type: ObjectTypes.Shortcut,
+      variant: ShortcutVariants.Stick
+    }
+  }
+  else if (comp.Properties.ZiplineAI) {
+    return {
+      type: ObjectTypes.Shortcut,
+      variant: ShortcutVariants.Zipline
+    }
+  }
+  else if (comp.Properties.GeyserAI) {
+    // TODO: read spline for end locations?
+    const Geyser = getObjectFromPath(comp.Properties.GeyserAI, compsList);
+    return {
+      type: ObjectTypes.Shortcut,
+      variant: ShortcutVariants.Geyser,
+      hasCrystal: Geyser.Properties?.GeyserAIParameter?.bSetCrystal
+    };
+  }
+  throw new Error('Unknown shortcut!');
 }

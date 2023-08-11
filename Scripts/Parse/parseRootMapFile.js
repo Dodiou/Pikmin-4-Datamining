@@ -82,6 +82,7 @@ function findMapExtent(isCave) {
 export function parseRootMapComponents(compsList, isCave) {
   return {
     rotation: findMapRotaton(compsList),
-    extent: findMapExtent(isCave)
+    extent: findMapExtent(isCave),
+    oldExtent: __OLD__findMapExtent(compsList)
   }
 }

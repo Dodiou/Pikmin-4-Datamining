@@ -1,4 +1,66 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave021_F00",
+      "transform": {
+        "translation": {
+          "x": 1289.4199,
+          "y": 4021.2935
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave023_F00",
+      "transform": {
+        "translation": {
+          "x": -725.8672,
+          "y": 512.65894
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP006_F00",
+      "transform": {
+        "translation": {
+          "x": 1028.5068,
+          "y": -4107.469
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave022_F00",
+      "transform": {
+        "translation": {
+          "x": 2882.7532,
+          "y": -3299.921
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave022_F03",
+      "transform": {
+        "translation": {
+          "x": 3053.0625,
+          "y": -3859.9768
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveVS003_F00",
+      "transform": {
+        "translation": {
+          "x": 3336.0002,
+          "y": 511.99963
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -19,12 +81,124 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch00",
+      "transform": {
+        "translation": {
+          "x": 449.03424,
+          "y": 1898.3843
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "single",
+      "switchId": "WaterBox00",
       "transform": {
         "translation": {
           "x": 3133.001,
           "y": -2178
         },
         "rotation": 90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch01",
+      "transform": {
+        "translation": {
+          "x": 671.03174,
+          "y": -1814.1836
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch04",
+      "transform": {
+        "translation": {
+          "x": 436,
+          "y": -2695
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch05",
+      "transform": {
+        "translation": {
+          "x": 2432,
+          "y": -3808
+        },
+        "rotation": 115
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch01",
+      "transform": {
+        "translation": {
+          "x": 1004.9993,
+          "y": -1506.9995
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch00",
+      "transform": {
+        "translation": {
+          "x": 789,
+          "y": 1947
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch04",
+      "transform": {
+        "translation": {
+          "x": 465,
+          "y": -2857
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch04",
+      "transform": {
+        "translation": {
+          "x": -491,
+          "y": -3765
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch05",
+      "transform": {
+        "translation": {
+          "x": 2343,
+          "y": -3289
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 2270,
+          "y": 514
+        }
       }
     }
   ],
@@ -93,6 +267,16 @@
     },
     {
       "type": "shortcut",
+      "transform": {
+        "translation": {
+          "x": 3000,
+          "y": -600
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "pushbag",
       "weight": 10,
       "transform": {
@@ -117,6 +301,16 @@
     },
     {
       "type": "shortcut",
+      "transform": {
+        "translation": {
+          "x": -482.4806,
+          "y": -973.82715
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "string",
       "weight": 5,
       "transform": {
@@ -128,25 +322,88 @@
       }
     }
   ],
-  "zipline": [
+  "base": [
     {
-      "type": "zipline",
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
       "transform": {
         "translation": {
-          "x": 3000,
-          "y": -600
-        },
-        "rotation": -90
+          "x": -1141.0902,
+          "y": 2724.9968
+        }
       }
     },
     {
-      "type": "zipline",
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
       "transform": {
         "translation": {
-          "x": -482.4806,
-          "y": -973.82715
-        },
-        "rotation": 0
+          "x": -1322.1783,
+          "y": 2874.1682
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "NOMI"
+      ],
+      "transform": {
+        "translation": {
+          "x": -190.30975,
+          "y": -2600.3005
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 28.42218,
+          "y": -2517.9668
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "BILLY"
+      ],
+      "transform": {
+        "translation": {
+          "x": 3036.5967,
+          "y": 2394.9512
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": 3067.1477,
+          "y": 2627.5703
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "transform": {
+        "translation": {
+          "x": 2884.7532,
+          "y": -3300.921
+        }
       }
     }
   ],

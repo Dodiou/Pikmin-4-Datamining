@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area002",
+      "transform": {
+        "translation": {
+          "x": 240.87042,
+          "y": -1203.1849
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -24,6 +36,35 @@
         "translation": {
           "x": 427,
           "y": -142
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALL2",
+      "name": "Sphere of Family",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 32.32611,
+          "y": -1042.9316
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 140.58241,
+          "y": 1067.1545
         }
       }
     }

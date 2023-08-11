@@ -31,6 +31,103 @@
       }
     }
   ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -377.3774,
+          "y": 1370.7882
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "FIRETANK"
+      ],
+      "transform": {
+        "translation": {
+          "x": -439.86432,
+          "y": 1596.9305
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 2067.2705,
+          "y": 2938.707
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1852,
+          "y": 3032
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "Chappy",
+        "KOCHAPPY"
+      ],
+      "transform": {
+        "translation": {
+          "x": -2614.3838,
+          "y": 2513.1536
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -2832.8074,
+          "y": 2427.502
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 3,
+      "transform": {
+        "translation": {
+          "x": -4750.577,
+          "y": -1764.3406
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 3,
+      "transform": {
+        "translation": {
+          "x": -4634.859,
+          "y": -1560.2467
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -77,6 +174,17 @@
           "y": -9.64061
         },
         "rotation": -120
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -78.275955,
+          "y": 2800.512
+        },
+        "rotation": -105
       }
     },
     {
@@ -331,6 +439,88 @@
       }
     }
   ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave001_F00",
+      "transform": {
+        "translation": {
+          "x": 905.72064,
+          "y": -5.1807404
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave004_F00",
+      "transform": {
+        "translation": {
+          "x": -5217.325,
+          "y": -813.6194
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave002_F00",
+      "transform": {
+        "translation": {
+          "x": -1199.09,
+          "y": 468.76685
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave033_F00",
+      "transform": {
+        "translation": {
+          "x": 745.5682,
+          "y": 3185.3516
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave005_F00",
+      "transform": {
+        "translation": {
+          "x": 836.96124,
+          "y": 1364.8511
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP001_F00",
+      "transform": {
+        "translation": {
+          "x": -3525.597,
+          "y": 352.59937
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveVS000_F00",
+      "transform": {
+        "translation": {
+          "x": -1370.8451,
+          "y": 3502.6174
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave004_F01",
+      "transform": {
+        "translation": {
+          "x": -5151.27,
+          "y": -1370.7908
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -503,6 +693,209 @@
         "translation": {
           "x": -2589.8057,
           "y": -1597.8718
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": -1492,
+          "y": 3347
+        }
+      }
+    },
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": -3447,
+          "y": 539
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAKENDAMAA",
+      "name": "Aspiration-Ritual Ball",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 2497.9216,
+          "y": -367.6993
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -1894.9204,
+          "y": -1366
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHARDBALL",
+      "name": "Orb of Destruction",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 952,
+          "y": 3663
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPINBADGEC",
+      "name": "Satellite Shield",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -2357,
+          "y": 1536
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPOCKETWATCH",
+      "name": "Temporal Mechanism",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -614,
+          "y": -419.32507
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPEANUT",
+      "name": "Snack Bean",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 30,
+      "transform": {
+        "translation": {
+          "x": -2357.6184,
+          "y": -1198.8738
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADRAGONFRUIT",
+      "name": "Fire-Breathing Feast",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 170,
+      "transform": {
+        "translation": {
+          "x": -3919,
+          "y": -1003
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUMPKIN",
+      "name": "Mysterious Carriage",
+      "weight": 30,
+      "carryMax": 60,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -3040.659,
+          "y": 3065.5002
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAICHIGO",
+      "name": "Sunseed Berry",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": 1223.3364,
+          "y": 977.02673
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAFIELDGLASS",
+      "name": "Double Dragon-Eyed Scope",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": -1428.0077,
+          "y": 838.71674
+        }
+      }
+    }
+  ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -367,
+          "y": -1451
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "yellow",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -3562,
+          "y": 2050
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "blue",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -946,
+          "y": 3535
         }
       }
     }

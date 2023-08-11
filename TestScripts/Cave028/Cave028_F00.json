@@ -2,7 +2,12 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 50,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -263,
@@ -12,11 +17,72 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 41,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -521,
           "y": -1067
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATAKENOKO",
+      "name": "Anxious Sprout",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -754.39355,
+          "y": -816.29285
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -277.36673,
+          "y": -555.8097
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -791.2814,
+          "y": 237.58098
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -2.75,
+          "y": -1097.25
         }
       }
     }
@@ -24,6 +90,7 @@
   "firePit": [
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": 808.5,
@@ -33,6 +100,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -824.5,
@@ -42,6 +110,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 552,
@@ -51,6 +120,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -329.75,
@@ -60,6 +130,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 245.2688,
@@ -69,6 +140,7 @@
     },
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": 263.25,
@@ -250,6 +322,19 @@
         "translation": {
           "x": 821.75,
           "y": -822.75
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 687.5,
+          "y": 68.75
         }
       }
     }

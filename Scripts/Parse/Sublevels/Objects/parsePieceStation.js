@@ -3,8 +3,20 @@ import { getObjectFromPath } from "../../util.js";
 
 // "PieceStations" are piles that pikmin will run back and forth to. Includes Materials, Gold Nuggets, and "Star Bits"/glow pellets
 function parsePieceStationAIComp(stationType, PieceStationAI) {
-  // Hopefully "Outer" always includes the type. If not, component type will have to be deferred until XYZ is read.
   const isGoldNugget = stationType.includes('KinkaiStation');
+  const amount = PieceStationAI.Properties.PieceNum;
+  if (isGoldNugget) {
+    return {
+      type: ObjectTypes.Treasure,
+      treasureId: 'KINKAISTATION',
+      name: 'Gold Nugget',
+      amount,
+      weight: 1,
+      carryMax: 1,
+      value: 5
+    }
+  }
+
   const isGlowPellet = stationType.includes('HikariStation');
   const isMaterials = stationType.includes('BridgeStation');
 
@@ -13,14 +25,10 @@ function parsePieceStationAIComp(stationType, PieceStationAI) {
   }
 
   return {
-    type: isGoldNugget
-      ? ObjectTypes.Treasure
-      : isMaterials
-        ? ObjectTypes.Materials
-        : isGlowPellet
-          ? ObjectTypes.GlowPellets
-          : ObjectTypes.Unknown,
-    amount: PieceStationAI.Properties.PieceNum,
+    type: isMaterials
+      ? ObjectTypes.Materials
+      : ObjectTypes.GlowPellets,
+    amount
   };
 }
 

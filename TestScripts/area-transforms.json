@@ -6,6 +6,12 @@
       "xMax": 6000,
       "yMin": -6000,
       "yMax": 6000
+    },
+    "oldExtent": {
+      "xMin": -5500,
+      "xMax": 5500,
+      "yMin": -5000,
+      "yMax": 5000
     }
   },
   "Area002": {
@@ -15,6 +21,12 @@
       "xMax": 6000,
       "yMin": -6000,
       "yMax": 6000
+    },
+    "oldExtent": {
+      "xMin": -4500,
+      "xMax": 4500,
+      "yMin": -4000,
+      "yMax": 4000
     }
   },
   "Area003": {
@@ -24,6 +36,12 @@
       "xMax": 6000,
       "yMin": -6000,
       "yMax": 6000
+    },
+    "oldExtent": {
+      "xMin": -5000,
+      "xMax": 5000,
+      "yMin": -4000,
+      "yMax": 4000
     }
   },
   "Area004": {
@@ -33,6 +51,12 @@
       "xMax": 6000,
       "yMin": -6000,
       "yMax": 6000
+    },
+    "oldExtent": {
+      "xMin": -5000,
+      "xMax": 5000,
+      "yMin": -4000,
+      "yMax": 4000
     }
   },
   "Area006": {
@@ -42,6 +66,12 @@
       "xMax": 6000,
       "yMin": -6000,
       "yMax": 6000
+    },
+    "oldExtent": {
+      "xMin": -5000,
+      "xMax": 5000,
+      "yMin": -4000,
+      "yMax": 4000
     }
   },
   "Area010": {
@@ -51,6 +81,12 @@
       "xMax": 6000,
       "yMin": -6000,
       "yMax": 6000
+    },
+    "oldExtent": {
+      "xMin": -5000,
+      "xMax": 5000,
+      "yMin": -5000,
+      "yMax": 5000
     }
   }
 }

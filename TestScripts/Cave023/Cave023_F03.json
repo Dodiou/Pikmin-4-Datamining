@@ -1,4 +1,145 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave023_F04",
+      "transform": {
+        "translation": {
+          "x": -424.85754,
+          "y": -4.781494
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP1",
+      "name": "Disk of Joyous Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 1,
+      "transform": {
+        "translation": {
+          "x": 865.2235,
+          "y": 739.0489
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP1",
+      "name": "Disk of Joyous Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 1,
+      "transform": {
+        "translation": {
+          "x": 906.9093,
+          "y": 661.68134
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP1",
+      "name": "Disk of Joyous Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 1,
+      "transform": {
+        "translation": {
+          "x": 809.5615,
+          "y": 676.02844
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -940,
+          "y": -448
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 420,
+          "y": 500
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHANAFUDAD",
+      "name": "Talisman of Life (Rain)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 603.96606,
+          "y": -896.8894
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEI",
+      "name": "Memory Fragment (Bottom Left)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 830.47705,
+          "y": 1172.3712
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP50",
+      "name": "Disk of Amusing Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -11.988525,
+          "y": 178.4253
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP100",
+      "name": "Disk of Surprising Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 100,
+      "transform": {
+        "translation": {
+          "x": 626.44165,
+          "y": 480.31665
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -37,14 +178,51 @@
       }
     }
   ],
-  "treasure": [
+  "fan": [
     {
-      "type": "treasure",
-      "amount": 20,
+      "type": "fan",
+      "switchId": "switch01",
       "transform": {
         "translation": {
-          "x": 420,
-          "y": 500
+          "x": 386.20264,
+          "y": -517.8584
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -444.57092,
+          "y": 406.4889
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -189.1167,
+          "y": -687.4946
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -712,
+          "y": 800
         }
       }
     }

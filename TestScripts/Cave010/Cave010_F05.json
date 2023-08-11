@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area002",
+      "transform": {
+        "translation": {
+          "x": -355,
+          "y": -640
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -26,6 +38,87 @@
           "y": -730.3662
         },
         "rotation": 0
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 4.7802124,
+          "y": -760.2888
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 371.2865,
+          "y": -558.4098
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 83.01898,
+          "y": -1049.5615
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -81.428345,
+          "y": -1049.5615
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -32.237534,
+          "y": -853.41846
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTADOGUHEAD",
+      "name": "Ancient Statue Head",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 200,
+      "transform": {
+        "translation": {
+          "x": 1.292725,
+          "y": -1183.2515
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": 1095
+        }
       }
     }
   ]

@@ -1,12 +1,106 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave006_F02",
+      "transform": {
+        "translation": {
+          "x": 683.8105,
+          "y": -1002.53613
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 313.01938,
+          "y": 281.3487
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -451.98834,
+          "y": -273.97375
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -1237.6282,
+          "y": -6.585594
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 10,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 139.08786,
           "y": 52.38411
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARAILWAYLINED",
+      "name": "Back-at-the-Beginning Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -966.079,
+          "y": 549.313
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALL9",
+      "name": "Sphere of Support",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 856.1014,
+          "y": -403.55624
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGRIPPER",
+      "name": "Tandem Trainer",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -329,
+          "y": 754
         }
       }
     }
@@ -35,6 +129,28 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 582.969,
+          "y": -273.01654
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -414.6107,
+          "y": 217.38495
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -46,6 +162,19 @@
         "translation": {
           "x": 140.6441,
           "y": -685.7654
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 822.72784,
+          "y": 692.0527
         }
       }
     }

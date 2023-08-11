@@ -1,7 +1,139 @@
 {
-  "zipline": [
+  "treasure": [
     {
-      "type": "zipline",
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSAD",
+      "name": "Pilot's Seat",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 3338.4565,
+          "y": 504.85938
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSM",
+      "name": "Repair-Type Bolt",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 2957.2126,
+          "y": -2165.8884
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSP",
+      "name": "Interstellar Radio",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 868.693,
+          "y": 2184.611
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSY",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -698,
+          "y": 506
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSH",
+      "name": "Geiger Counter",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 1842,
+          "y": -925
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSQ",
+      "name": "Extraordinary Bolt",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 2623.3455,
+          "y": -3968.861
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -190.30975,
+          "y": -2600.3005
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 28.42218,
+          "y": -2517.9668
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -1141.0902,
+          "y": 2724.9968
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -1322.1783,
+          "y": 2874.1682
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
       "transform": {
         "translation": {
           "x": 1997,
@@ -9,9 +141,7 @@
         },
         "rotation": -94
       }
-    }
-  ],
-  "shortcut": [
+    },
     {
       "type": "shortcut",
       "variant": "pushbag",
@@ -58,6 +188,84 @@
           "y": 1034
         },
         "rotation": 167
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 2067,
+          "y": 150
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "CirculatorSwitch01",
+      "transform": {
+        "translation": {
+          "x": 775,
+          "y": -3461
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 1247,
+          "y": -374
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch005",
+      "transform": {
+        "translation": {
+          "x": 1218,
+          "y": -2075
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -496.88602,
+          "y": 732.1684
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "CirculatorSwitch01",
+      "transform": {
+        "translation": {
+          "x": 1399,
+          "y": -3458
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "single",
+      "switchId": "FenceFall01",
+      "transform": {
+        "translation": {
+          "x": 2884,
+          "y": -3301
+        },
+        "rotation": 0
       }
     }
   ],
@@ -294,6 +502,17 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "transform": {
+        "translation": {
+          "x": 2887,
+          "y": -3297
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -309,6 +528,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "FenceFall01",
       "transform": {
         "translation": {
           "x": 2665,
@@ -1045,18 +1265,6 @@
           "x": 2222,
           "y": -617
         }
-      }
-    }
-  ],
-  "switch": [
-    {
-      "type": "switch",
-      "transform": {
-        "translation": {
-          "x": 2884,
-          "y": -3301
-        },
-        "rotation": 0
       }
     }
   ]

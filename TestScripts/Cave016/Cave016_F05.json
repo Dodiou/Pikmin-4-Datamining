@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F06",
+      "transform": {
+        "translation": {
+          "x": 137,
+          "y": -925
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Area006",
+      "transform": {
+        "translation": {
+          "x": -413.44995,
+          "y": 469.42816
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -25,6 +47,28 @@
       }
     }
   ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 174.19446,
+          "y": -135.57903
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -129.04245,
+          "y": 1032.3395
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -36,6 +80,35 @@
           "y": -307.62744
         },
         "rotation": 0
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -850.8706,
+          "y": 133.95886
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -322.58484,
+          "y": 164.10254
+        }
       }
     }
   ],

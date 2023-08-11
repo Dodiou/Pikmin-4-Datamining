@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave013_F01",
+      "transform": {
+        "translation": {
+          "x": 744.0485,
+          "y": -277.96912
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -56,6 +68,49 @@
         "translation": {
           "x": 275,
           "y": -769
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALLCUE",
+      "name": "Sphere of Truth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 68,
+          "y": -550
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARAILWAYLINEE",
+      "name": "Thrill-Ride Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -319.09198,
+          "y": 531.4716
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -305,
+          "y": -549.5
         }
       }
     }

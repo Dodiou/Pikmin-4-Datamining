@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave021_F01",
+      "transform": {
+        "translation": {
+          "x": -802.9045,
+          "y": -258.42114
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -28,6 +40,38 @@
           "y": 137
         },
         "rotation": 0
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -560.58295,
+          "y": 820.2148
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -542.58185,
+          "y": -307.62592
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "bubble",
+      "transform": {
+        "translation": {
+          "x": -386.68353,
+          "y": -729.8794
+        }
       }
     }
   ],
@@ -81,6 +125,63 @@
         "translation": {
           "x": -4.243347,
           "y": 541.41187
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTALEMON",
+      "name": "Face Wrinkler",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -554.2171,
+          "y": -1074.9468
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTASQUEEZER",
+      "name": "Merciless Extractor",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -326.72708,
+          "y": 824.8695
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGRAPEFRUIT",
+      "name": "Astringent Clump",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -226.58105,
+          "y": -60.45775
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 719.00586,
+          "y": -188.93115
         }
       }
     }

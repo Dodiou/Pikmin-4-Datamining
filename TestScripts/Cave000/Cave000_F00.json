@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area500",
+      "transform": {
+        "translation": {
+          "x": 143.24422,
+          "y": 967.48865
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Area500",
+      "transform": {
+        "translation": {
+          "x": 1090.2441,
+          "y": -838.51135
+        }
+      }
+    }
+  ],
   "pot": [
     {
       "type": "pot",
@@ -47,6 +69,30 @@
         "translation": {
           "x": -211,
           "y": 5
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1089.8074,
+          "y": -837.41724
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 144.80737,
+          "y": 968.58276
         }
       }
     }

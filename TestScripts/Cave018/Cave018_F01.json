@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave018_F02",
+      "transform": {
+        "translation": {
+          "x": 93.444824,
+          "y": 75.87183
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -206,6 +218,19 @@
       }
     }
   ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 830,
+          "y": -1115
+        }
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",
@@ -228,6 +253,63 @@
         "translation": {
           "x": -489.76492,
           "y": -693.11584
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 10.329376,
+          "y": 1205.1088
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "guardedBy": [
+        "NumaSuitori"
+      ],
+      "transform": {
+        "translation": {
+          "x": 917.6791,
+          "y": -722.89124
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAPERCRANEBLU",
+      "name": "Sweat-Soaked Blue Bird",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 828.89404,
+          "y": -207.7687
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAPERCRANERED",
+      "name": "Skin of the Phoenix",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 812.4613,
+          "y": -137.00316
         }
       }
     }

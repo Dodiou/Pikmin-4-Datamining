@@ -1,1 +1,27 @@
-{}
+{
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area006",
+      "transform": {
+        "translation": {
+          "x": -205.08919,
+          "y": -1033.1902
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -912.5
+        }
+      }
+    }
+  ]
+}

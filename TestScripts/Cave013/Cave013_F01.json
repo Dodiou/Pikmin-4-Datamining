@@ -1,7 +1,21 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave013_F02",
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": 863
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -405,
@@ -12,6 +26,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -962,
@@ -22,6 +38,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -405,
@@ -32,6 +50,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 138,
@@ -56,6 +76,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -973,
@@ -90,6 +112,81 @@
           "y": 123
         },
         "rotation": 0
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 575,
+          "y": 275
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -1191,
+          "y": -516
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -941,
+          "y": 25
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -790
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAEFFECTSUNIT",
+      "name": "Soul Reverberator",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 230,
+      "transform": {
+        "translation": {
+          "x": -970,
+          "y": 257
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACANDLE",
+      "name": "Olfactory Sculpture",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 1211.9407,
+          "y": 0.0004272461
+        }
       }
     }
   ]

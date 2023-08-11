@@ -1,4 +1,18 @@
 {
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": -701.00006,
+          "y": -386.00003
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -17,6 +31,18 @@
         "translation": {
           "x": 140.58997,
           "y": -567.4131
+        }
+      }
+    }
+  ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area001",
+      "transform": {
+        "translation": {
+          "x": 687,
+          "y": -826.5
         }
       }
     }
@@ -74,6 +100,77 @@
         "translation": {
           "x": -452,
           "y": -272.5
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 544.53815,
+          "y": 843.5971
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAYOSHICOOKIEA",
+      "name": "Cookie of Nibbled Circles",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 360.55463,
+          "y": -115.34644
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMACARONC",
+      "name": "S.S. Chocolate",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 336.60385,
+          "y": -26.5
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -855,
+          "y": 1270
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "guardedBy": [
+        "YAKISENBEI"
+      ],
+      "transform": {
+        "translation": {
+          "x": 754.76733,
+          "y": -214.79065
         }
       }
     }

@@ -12,6 +12,40 @@
       }
     }
   ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F13",
+      "transform": {
+        "translation": {
+          "x": -158.53638,
+          "y": 551.29675
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "poison",
+      "transform": {
+        "translation": {
+          "x": -16.115417,
+          "y": -487.52527
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "poison",
+      "transform": {
+        "translation": {
+          "x": -79.5,
+          "y": -116
+        }
+      }
+    }
+  ],
   "pot": [
     {
       "type": "pot",
@@ -75,6 +109,19 @@
         "translation": {
           "x": -145.5,
           "y": -821
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 573.2169,
+          "y": 430.3839
         }
       }
     }

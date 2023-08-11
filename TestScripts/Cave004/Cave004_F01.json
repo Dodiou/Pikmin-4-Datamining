@@ -1,7 +1,31 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave004_F00",
+      "transform": {
+        "translation": {
+          "x": -813.4767,
+          "y": -317.2708
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Area001",
+      "transform": {
+        "translation": {
+          "x": -1016.92163,
+          "y": 154.13611
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 395,
@@ -14,6 +38,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 805.59863,
@@ -146,14 +172,71 @@
       }
     }
   ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -813.4767,
+          "y": -317.2708
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -1016.92163,
+          "y": 154.13611
+        }
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "OTAPAPERCRANERED",
+      "name": "Skin of the Phoenix",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1109,
+          "y": -200
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 10,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -10,
           "y": 685
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEA",
+      "name": "Memory Fragment (Top Left)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 93.02977,
+          "y": 558.7801
         }
       }
     }

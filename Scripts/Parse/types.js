@@ -1,25 +1,32 @@
 export const ObjectTypes = {
+  Base: 'base',
+  Berry: 'berry',
   Candypop: 'candypop',
+  Castaway: 'castaway',
+  CaveLink: 'caveLink',
   Conveyor: 'conveyor',
+  Drain: 'drain',
   Fan: 'fan',
   Fence: 'fence',
   FirePit: 'firePit',
+  FloorObstacle: 'floor',
   Gate: 'gate',
   GlowPellets: 'glowPellets',
+  HeatObstacle: 'heatObstacle',
   HydroJelly: 'hydroJelly',
   Item: 'item',
-  MapLink: 'mapLink',
   Materials: 'materials',
   Mound: 'mound',
+  Onion: 'onion',
   Pikmin: 'pikmin',
   Pot: 'pot',
   Shortcut: 'shortcut',
+  Spout: 'spout',
   Straw: 'straw',
   Switch: 'switch',
   Structure: 'structure',
   Treasure: 'treasure',
   Water: 'water',
-  Zipline: 'zipline', // aka the "Slide Rails"
   Unknown: '__unknown'
 }
 
@@ -30,10 +37,26 @@ export const RebirthTypes = {
   RebirthLater: 'RebirthLater',
 }
 
+export const BaseVariants = {
+  Onion: 'onion',
+  Beagle: 'beagle'
+}
+
 export const ItemVariants = {
   Bomb: 'bomb',
   IceBomb: 'iceBomb'
   // Don't think any other items appear anywhere
+}
+
+export const HeatObstacleVariants = {
+  IceBox: 'iceBox',
+  Straw: 'straw'
+}
+
+export const FloorObstacleVariants = {
+  Mushroom: 'mushroom',
+  Fire: 'fire',
+  Movable: 'movable'
 }
 
 export const GateVariants = {
@@ -53,9 +76,12 @@ export const PikminVariants = {
 
 export const StructureVariants = {
   Bridge: 'bridge',
+  Geyser: 'geyser', // aka the "Slide Rails"
   Slope: 'slope',
+  Stick: 'stick', // aka the "Slide Rails"
   Valve: 'valve',
-  Wall: 'wall'
+  Wall: 'wall',
+  Zipline: 'zipline', // aka the "Slide Rails"
 }
 
 export const WaterVariants = {
@@ -66,10 +92,21 @@ export const WaterVariants = {
 export const ShortcutVariants = {
   ClipboardAny: 'clipboard',
   ClipboardYellow: 'clipboardYellow',
+  Geyser: 'geyser',
   PushBag: 'pushbag',
   Root: 'Root',
   SquashBag: 'squashbag',
+  Stick: 'stick',
   String: 'string',
+}
+
+export const SpoutVariants = {
+  Bubble: 'bubble',
+  Electric: 'electric',
+  Fire: 'fire',
+  Ice: 'ice',
+  Poison: 'poison',
+  Water: 'water'
 }
 
 export const SwitchVariants = {
@@ -82,7 +119,7 @@ export const FenceVariant = {
   Normal: 'normal'
 }
 
-export const MapLinkVariants = {
+export const CaveLinkVariants = {
   Battle: 'battle',
   Cave: 'cave',
   Challenge: 'challenge',

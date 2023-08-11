@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave014_F03",
+      "transform": {
+        "translation": {
+          "x": -1249.5,
+          "y": 550
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave014_F01",
+      "transform": {
+        "translation": {
+          "x": 448.91187,
+          "y": 871.39404
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -31,9 +53,73 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": 752.5,
+          "y": 825.5
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -825.5,
+          "y": 5.5
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -576.5,
+          "y": -385.5
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": -172.5,
+          "y": 550
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": 0
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "electric",
+      "transform": {
+        "translation": {
+          "x": 2.5,
+          "y": -515.5
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -462.5,
@@ -44,6 +130,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 276,
@@ -54,6 +142,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 0,
@@ -64,6 +154,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 412.5,
@@ -139,6 +231,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -1100,
@@ -156,6 +250,88 @@
         "translation": {
           "x": -562.5,
           "y": 302.5
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 448.91187,
+          "y": 871.39404
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "guardedBy": [
+        "Hanachirashi"
+      ],
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -275
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -1249.5,
+          "y": 550
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEK",
+      "name": "Memory Fragment (Bottom...Probably?)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -187.7771,
+          "y": -495.47485
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAAVOCADO",
+      "name": "Scaly Custard",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": 520,
+          "y": -12
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -259.27838,
+          "y": -1069.0355
         }
       }
     }

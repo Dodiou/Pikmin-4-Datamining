@@ -60,6 +60,88 @@
       }
     }
   ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave006_F00",
+      "transform": {
+        "translation": {
+          "x": -991.68604,
+          "y": 899.70044
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave010_F00",
+      "transform": {
+        "translation": {
+          "x": 986.211,
+          "y": -3024.9683
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave007_F00",
+      "transform": {
+        "translation": {
+          "x": 1126.1545,
+          "y": -1837.4165
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave009_F00",
+      "transform": {
+        "translation": {
+          "x": -1938.659,
+          "y": -173.1612
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveVS001_F00",
+      "transform": {
+        "translation": {
+          "x": 902.2632,
+          "y": 756.08405
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP002_F00",
+      "transform": {
+        "translation": {
+          "x": -646.4329,
+          "y": -1527.8934
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "CaveSP003_F00",
+      "transform": {
+        "translation": {
+          "x": 3048.0674,
+          "y": -41.314827
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave009_F00",
+      "transform": {
+        "translation": {
+          "x": -2192.869,
+          "y": -1073.2218
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
@@ -352,6 +434,77 @@
         "translation": {
           "x": 1487.6288,
           "y": 1799.0084
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -1646.3981,
+          "y": -466.4656
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -1545.5916,
+          "y": -678.3218
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "guardedBy": [
+        "BIKKURIGIKU"
+      ],
+      "transform": {
+        "translation": {
+          "x": 1504.6885,
+          "y": 2342.9246
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 1483.9028,
+          "y": 2577.0037
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 991.65375,
+          "y": -154.36243
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1160.8732,
+          "y": 8.148453
         }
       }
     }

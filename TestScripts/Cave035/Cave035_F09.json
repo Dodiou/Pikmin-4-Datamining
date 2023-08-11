@@ -1,7 +1,34 @@
 {
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 167.94164,
+          "y": 697.77826
+        }
+      }
+    }
+  ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "purple",
+      "weight": 100,
+      "transform": {
+        "translation": {
+          "x": -433,
+          "y": -500
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -414,

@@ -1,4 +1,36 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave014_F01",
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -645
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Area003",
+      "disabledPikmin": {
+        "red": true,
+        "blue": true,
+        "yellow": true,
+        "rock": true,
+        "wing": true,
+        "purple": true,
+        "white": true,
+        "ice": true
+      },
+      "transform": {
+        "translation": {
+          "x": -4.9064155,
+          "y": 825
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -76,6 +108,68 @@
       }
     }
   ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 603.5,
+          "y": 823
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -1045.8148,
+          "y": 102.02989
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -275.49988,
+          "y": 277.5153
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -286.93683,
+          "y": -788.0005
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 549.5,
+          "y": -0.00048828125
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": 261.5,
+          "y": -277.0005
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -103,6 +197,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -112.5,
@@ -113,6 +209,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 287.5,
@@ -123,6 +221,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 506.5,
@@ -164,12 +264,96 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -572.5,
           "y": -826
         },
         "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPADLOCK",
+      "name": "Secured Satchel",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 486,
+          "y": -825
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAFRUITSPICKBLU",
+      "name": "Ice Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -609.7221,
+          "y": -57.76017
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARASPBERRY",
+      "name": "Juicy Gaggle",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -591.7221,
+          "y": -85.76016
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTALIGHTUPRINGRED",
+      "name": "Hoop of Passion",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": 169.37735,
+          "y": 1.28846
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 4,
+          "y": 733
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -645
+        }
       }
     }
   ]

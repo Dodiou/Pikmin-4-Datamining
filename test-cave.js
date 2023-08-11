@@ -8,8 +8,6 @@ const caves = new Array(36).fill(0).map((_, i) => 'Cave' + ('000' + i).slice(-3)
 const mapTransforms = {};
 
 for (const cave of caves) {
-  console.log("Cave:", cave);
-
   const caveDir = `./Maps/Madori/Cave/${cave}`;
   const floors = readdirSync(caveDir);
 
@@ -35,6 +33,7 @@ for (const cave of caves) {
     mkdirSync(`./TestScripts/${cave}`, { recursive: true });
     writeFileSync(`./TestScripts/${cave}/${floor}.json`, JSON.stringify(groupedObjects, undefined, 2));
   }
+  console.log("Parsed:", cave);
 }
 
 writeFileSync(`./TestScripts/cave-transforms.json`, JSON.stringify(mapTransforms, undefined, 2));

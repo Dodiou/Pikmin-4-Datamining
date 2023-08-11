@@ -55,6 +55,7 @@ Object.entries(areaHasOlimar).forEach(([area, hasOlimar]) => {
 
   const rootMapObjects = JSON.parse(preprocessJSON(readFileSync(rootMapFile).toString()));
   mapTransforms[area] = parseRootMapComponents(rootMapObjects, false);
+  console.log("Parsed:", area);
 });
 
 writeFileSync(`./TestScripts/area-transforms.json`, JSON.stringify(mapTransforms, undefined, 2));

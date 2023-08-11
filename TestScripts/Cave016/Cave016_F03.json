@@ -12,7 +12,31 @@
       }
     }
   ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F04",
+      "transform": {
+        "translation": {
+          "x": 1.1284027,
+          "y": -1114.9473
+        }
+      }
+    }
+  ],
   "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "hasCrystal": true,
+      "transform": {
+        "translation": {
+          "x": -290.49475,
+          "y": -204.0232
+        },
+        "rotation": 0
+      }
+    },
     {
       "type": "shortcut",
       "variant": "clipboard",
@@ -23,6 +47,19 @@
           "y": -779.0724
         },
         "rotation": 0
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -687.29956,
+          "y": -239.05408
+        }
       }
     }
   ]

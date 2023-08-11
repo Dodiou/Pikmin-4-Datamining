@@ -1,7 +1,68 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave024_F02",
+      "transform": {
+        "translation": {
+          "x": 961.3989,
+          "y": -150.88354
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -686.5621,
+          "y": -216.4174
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "hasCrystal": true,
+      "transform": {
+        "translation": {
+          "x": 619.5,
+          "y": 412
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 772.5,
+          "y": 138
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -139.5,
+          "y": -894
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -962.9179,
@@ -12,6 +73,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -130.72742,
@@ -22,6 +85,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -687.5,
@@ -32,6 +96,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 962.5,
@@ -42,6 +108,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 398.27258,
@@ -76,6 +144,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 47.5,
@@ -123,6 +193,49 @@
         "translation": {
           "x": 137.5,
           "y": -110
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTARAILWAYLINEB",
+      "name": "Straight-and-Narrow Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 138.46194,
+          "y": -1112.7306
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAJOYCONL",
+      "name": "Telekinesis Detector",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -687.0642,
+          "y": 900.6808
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -1241.278,
+          "y": -197.20587
         }
       }
     }

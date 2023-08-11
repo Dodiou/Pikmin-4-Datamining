@@ -29,5 +29,46 @@
         "rotation": 90.311
       }
     }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -847.79254,
+          "y": -140.1524
+        }
+      }
+    }
+  ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area006",
+      "transform": {
+        "translation": {
+          "x": 1517.9932,
+          "y": -141.82388
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTARAILWAYLINEA",
+      "name": "Life Station",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 134,
+          "y": 397
+        }
+      }
+    }
   ]
 }

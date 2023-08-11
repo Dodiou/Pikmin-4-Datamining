@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area003",
+      "transform": {
+        "translation": {
+          "x": 1157.5,
+          "y": 140
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -9,6 +21,33 @@
           "y": 80
         },
         "rotation": -90
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 1117,
+          "y": 301
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -1117.5,
+          "y": 140
+        }
       }
     }
   ]

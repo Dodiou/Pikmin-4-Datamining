@@ -16,6 +16,41 @@
       }
     }
   ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 1573.1206,
+          "y": -345.98407
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -842.4343,
+          "y": -872.82184
+        }
+      }
+    },
+    {
+      "type": "onion",
+      "color": "yellow",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": 1640,
+          "y": 1951
+        }
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",
@@ -69,6 +104,17 @@
     },
     {
       "type": "shortcut",
+      "variant": "stick",
+      "transform": {
+        "translation": {
+          "x": -365.0952,
+          "y": -1214.0156
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "squashbag",
       "weight": 25,
       "transform": {
@@ -89,6 +135,103 @@
           "y": 3002
         },
         "rotation": -178
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "stick",
+      "transform": {
+        "translation": {
+          "x": -2626.2139,
+          "y": 3622.0713
+        },
+        "rotation": 45
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSF",
+      "name": "Libra",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -3561.1145,
+          "y": 2106.1472
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSA",
+      "name": "Whimsical Radar",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 2250.6477,
+          "y": -107.97095
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSL",
+      "name": "Repair-Type Bolt",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 946.5487,
+          "y": 3783.325
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSV",
+      "name": "Extraordinary Bolt",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -391.59244,
+          "y": -1481.9832
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSAA",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -1495.3934,
+          "y": -76.39349
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHEROPARTSO",
+      "name": "Nova Blaster",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -11.111801,
+          "y": 3316.007
+        }
       }
     }
   ],
@@ -284,6 +427,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -1364.8839,
@@ -294,6 +438,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 1996.8824,
@@ -493,6 +638,77 @@
           "y": -301.4386
         },
         "rotation": -4
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 2067.2705,
+          "y": 2938.707
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 1852,
+          "y": 3032
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -377.3774,
+          "y": 1370.7882
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -439.86432,
+          "y": 1596.9305
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 2,
+      "guardedBy": [
+        "FUTAKUCHIADULT"
+      ],
+      "transform": {
+        "translation": {
+          "x": -2614.3838,
+          "y": 2513.1536
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -2832.8074,
+          "y": 2427.502
+        }
       }
     }
   ]

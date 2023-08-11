@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave012_F02",
+      "transform": {
+        "translation": {
+          "x": -415.0005,
+          "y": -985.4999
+        }
+      }
+    }
+  ],
   "hydroJelly": [
     {
       "type": "hydroJelly",
@@ -68,9 +80,53 @@
       }
     }
   ],
+  "heatObstacle": [
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 900,
+          "y": -277.5
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -411.95508,
+          "y": -770.48535
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -685.9445,
+          "y": 1043.5265
+        }
+      }
+    }
+  ],
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -125.25983,
@@ -83,6 +139,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -413.2176,
@@ -93,6 +151,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 278,
@@ -103,6 +163,8 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -38.533203,
@@ -113,6 +175,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 740,
@@ -123,6 +186,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 740,
@@ -187,6 +251,20 @@
       }
     }
   ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 788.18164,
+          "y": -597.3161
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",
@@ -212,6 +290,61 @@
         "translation": {
           "x": 670.10986,
           "y": 23.296265
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -424.88443,
+          "y": 441.63202
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "poison",
+      "transform": {
+        "translation": {
+          "x": 835,
+          "y": -836
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEE",
+      "name": "Memory Fragment (Left Edge)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 611.46594,
+          "y": -451.70837
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAINTSWHT",
+      "name": "True Goo",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 946,
+          "y": -1085
         }
       }
     }

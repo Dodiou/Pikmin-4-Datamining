@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave019_F04",
+      "transform": {
+        "translation": {
+          "x": 1351.6102,
+          "y": 274.86835
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -27,6 +39,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 417,
@@ -88,11 +101,44 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 15,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 692.9754,
           "y": -182.41348
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEF",
+      "name": "Memory Fragment (Center Left)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -938,
+          "y": 71
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARAPPA",
+      "name": "Mega Horn",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 250,
+      "transform": {
+        "translation": {
+          "x": -132,
+          "y": 480
         }
       }
     }
@@ -121,6 +167,19 @@
         "translation": {
           "x": 160.70815,
           "y": 811.0488
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 275.33295,
+          "y": -677.2098
         }
       }
     }

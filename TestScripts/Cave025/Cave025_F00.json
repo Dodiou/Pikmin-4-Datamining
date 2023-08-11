@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area004",
+      "transform": {
+        "translation": {
+          "x": 145.63599,
+          "y": -134.4945
+        }
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",
@@ -138,7 +150,12 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 446.6482,
@@ -148,11 +165,100 @@
     },
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -760.90027,
           "y": 1451.3513
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAHANDSPINNER",
+      "name": "Space Spinner",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -422.31677,
+          "y": 121.45154
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTATRAINC",
+      "name": "Leisure Car",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -1080.2877,
+          "y": 1356.2539
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAINTSPNK",
+      "name": "Captivation Goo",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -1308.9535,
+          "y": 772.74536
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPINBADGEA",
+      "name": "Blast Shield",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 888,
+          "y": 1372
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAPERBALLOON",
+      "name": "Divine Balloon",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1370,
+          "y": -1383
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUDDING",
+      "name": "Jiggle-Jiggle",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -218,
+          "y": 929
         }
       }
     }
@@ -221,6 +327,32 @@
           "y": 137.21619
         },
         "rotation": -90
+      }
+    }
+  ],
+  "onion": [
+    {
+      "type": "onion",
+      "color": "flarlic",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -1357.9784,
+          "y": 176.48743
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -70,
+          "y": 400
+        }
       }
     }
   ]

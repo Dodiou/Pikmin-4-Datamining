@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave019_F03",
+      "transform": {
+        "translation": {
+          "x": -606.00104,
+          "y": 272.5115
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -10,6 +22,49 @@
         "translation": {
           "x": 0,
           "y": -890
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 458.19522,
+          "y": -528.2152
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTARAILWAYLINED",
+      "name": "Back-at-the-Beginning Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 698.35425,
+          "y": 276.55872
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": true,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 14,
+          "y": 849
         }
       }
     }

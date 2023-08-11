@@ -1,4 +1,111 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave023_F02",
+      "transform": {
+        "translation": {
+          "x": 274,
+          "y": 953
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTA3DMEGANE",
+      "name": "Dimension Converter",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -482.23804,
+          "y": 80.5343
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 15,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 513,
+          "y": 907
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAROBOBODY",
+      "name": "Nexus Combobot",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 127.88751,
+          "y": 542.2842
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAROBOLEGR",
+      "name": "Kick-Start Combobot",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 806.7803,
+          "y": -829.4511
+        }
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 256.33386,
+          "y": -309.11597
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -150,
+          "y": 895
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 550,
+          "y": 137.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -40,14 +147,15 @@
       }
     }
   ],
-  "treasure": [
+  "base": [
     {
-      "type": "treasure",
-      "amount": 15,
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
       "transform": {
         "translation": {
-          "x": 513,
-          "y": 907
+          "x": 46,
+          "y": 215
         }
       }
     }

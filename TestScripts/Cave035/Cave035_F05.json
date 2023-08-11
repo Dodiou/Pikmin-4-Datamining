@@ -1,8 +1,33 @@
 {
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1.6991818,
+          "y": 111.83615
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 960,
+          "y": -829
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 416,
@@ -25,6 +50,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch05",
       "transform": {
         "translation": {
           "x": -447.5,
@@ -36,6 +62,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch04",
       "transform": {
         "translation": {
           "x": -335,
@@ -59,6 +86,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 551,
@@ -69,6 +98,20 @@
     },
     {
       "type": "switch",
+      "variant": "double",
+      "switchId": "switch03",
+      "transform": {
+        "translation": {
+          "x": -568,
+          "y": 1133.9253
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "switch",
+      "variant": "single",
+      "switchId": "switch05",
       "transform": {
         "translation": {
           "x": -827,
@@ -79,6 +122,8 @@
     },
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch04",
       "transform": {
         "translation": {
           "x": -829,
@@ -91,6 +136,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 1100,
@@ -100,9 +146,143 @@
       }
     }
   ],
-  "zipline": [
+  "spout": [
     {
-      "type": "zipline",
+      "type": "spout",
+      "variant": "ice",
+      "transform": {
+        "translation": {
+          "x": 909.50024,
+          "y": -1373
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAGOLFBALL",
+      "name": "Orbital Communication Sphere",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1098.5004,
+          "y": -1350.931
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGOLFBALL",
+      "name": "Orbital Communication Sphere",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1376.5004,
+          "y": -946.931
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAGOLFBALL",
+      "name": "Orbital Communication Sphere",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 830,
+          "y": -830
+        }
+      }
+    }
+  ],
+  "conveyor": [
+    {
+      "type": "conveyor",
+      "switchId": "switch03",
+      "transform": {
+        "translation": {
+          "x": -1248.25,
+          "y": 922.5
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch03",
+      "transform": {
+        "translation": {
+          "x": -974.49976,
+          "y": 1375
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch03",
+      "transform": {
+        "translation": {
+          "x": -1239.4998,
+          "y": 1375
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch03",
+      "transform": {
+        "translation": {
+          "x": -950.75,
+          "y": 922.5
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "switch001",
+      "transform": {
+        "translation": {
+          "x": -1280,
+          "y": 728.75
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch001",
+      "transform": {
+        "translation": {
+          "x": -1447,
+          "y": 1405
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch001",
+      "transform": {
+        "translation": {
+          "x": 70.5,
+          "y": -833.75
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
       "transform": {
         "translation": {
           "x": -822.5639,
@@ -110,9 +290,7 @@
         },
         "rotation": 90
       }
-    }
-  ],
-  "shortcut": [
+    },
     {
       "type": "shortcut",
       "variant": "string",

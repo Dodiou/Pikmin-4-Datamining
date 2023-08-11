@@ -28,7 +28,19 @@ export function getMapFolderPath(radarFolderId) {
 }
 
 export function removeUndefineds(obj) {
-  return Object.fromEntries(Object.entries(obj).filter(([k,v]) => v !== undefined));
+  return Object.fromEntries(Object.entries(obj).filter(([k,v]) => {
+    if (v === undefined || v === null) {
+      return false;
+    }
+
+    if (typeof v !== 'object') {
+      return true;
+    }
+
+    // only keep objects that have keys and arrays that have items.
+    return (Array.isArray(v) && v.length > 0) ||
+      Object.keys(v).length > 0
+  }));
 }
 
 const DebugUniqueIdRegex = /"DebugUniqueId": (\d+)/g;

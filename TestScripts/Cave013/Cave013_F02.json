@@ -1,19 +1,151 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave013_F03",
+      "transform": {
+        "translation": {
+          "x": -135.081,
+          "y": -688.5359
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 386,
+          "y": 500.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "fan": [
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 115,
+          "y": 50
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -325
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 212.5,
+          "y": 275
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -275,
+          "y": 859
+        }
+      }
+    },
+    {
+      "type": "fan",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -2,
+          "y": 47
+        }
+      }
+    }
+  ],
+  "conveyor": [
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 575,
+          "y": 0
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 371,
+          "y": -275
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 71,
+          "y": -275
+        },
+        "rotation": 90
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 10,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": 1100,
           "y": -217.5
         }
       }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARAILWAYLINEC",
+      "name": "Turn-of-Events Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -563.04083,
+          "y": 846.9457
+        }
+      }
     }
   ],
-  "zipline": [
+  "shortcut": [
     {
-      "type": "zipline",
+      "type": "shortcut",
       "transform": {
         "translation": {
           "x": -541.5639,
@@ -21,9 +153,7 @@
         },
         "rotation": -90
       }
-    }
-  ],
-  "shortcut": [
+    },
     {
       "type": "shortcut",
       "variant": "pushbag",
@@ -48,6 +178,19 @@
         "translation": {
           "x": 0,
           "y": 825
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -937.5,
+          "y": 137.5
         }
       }
     }

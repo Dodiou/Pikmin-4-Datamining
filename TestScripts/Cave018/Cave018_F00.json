@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave018_F01",
+      "transform": {
+        "translation": {
+          "x": -1214.2207,
+          "y": 1204.1536
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -20,12 +32,91 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 35,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -1040.2483,
           "y": -1194.6692
         }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABILLIARDBALL7",
+      "name": "Sphere of Good Fortune",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 229,
+          "y": 965
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTALIGHTUPRINGRED",
+      "name": "Hoop of Passion",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": 336,
+          "y": 125
+        }
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -740.4311,
+          "y": -11.136337
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "hasCrystal": true,
+      "transform": {
+        "translation": {
+          "x": 741.4304,
+          "y": 701.40643
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "transform": {
+        "translation": {
+          "x": -209.83972,
+          "y": 19.45462
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -1430.6075,
+          "y": -888.4316
+        },
+        "rotation": 97.747
       }
     }
   ],
@@ -101,21 +192,23 @@
       }
     }
   ],
-  "zipline": [
+  "base": [
     {
-      "type": "zipline",
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
       "transform": {
         "translation": {
-          "x": -209.83972,
-          "y": 19.45462
-        },
-        "rotation": 0
+          "x": -1337.1732,
+          "y": -417.6082
+        }
       }
     }
   ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -726.1504,

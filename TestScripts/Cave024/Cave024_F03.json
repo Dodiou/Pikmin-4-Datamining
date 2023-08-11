@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave024_F04",
+      "transform": {
+        "translation": {
+          "x": 1304.663,
+          "y": -1104.628
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",
@@ -11,14 +23,159 @@
       }
     }
   ],
+  "conveyor": [
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 823,
+          "y": 282.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 823,
+          "y": 547.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": 1097.5
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 1102,
+          "y": -826.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 549.18835,
+          "y": -1375.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -823,
+          "y": -7.5
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 5,
+          "y": -819.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 5,
+          "y": -554.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -274,
+          "y": -554.5
+        },
+        "rotation": -180
+      }
+    },
+    {
+      "type": "conveyor",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -274,
+          "y": -819.5
+        },
+        "rotation": -180
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 15,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -1108.0581,
           "y": 280.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTACASINOCHIP100",
+      "name": "Disk of Surprising Wisdom",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 100,
+      "transform": {
+        "translation": {
+          "x": -232,
+          "y": 1092.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEH",
+      "name": "Memory Fragment (Right Edge)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -1371,
+          "y": 8.5
         }
       }
     }
@@ -65,6 +222,55 @@
       }
     }
   ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 228,
+          "y": -79.07477
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 277,
+          "y": 364.5
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -275,
+          "y": 742.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": -1027,
+          "y": -259.5
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -75,6 +281,19 @@
         "translation": {
           "x": 827.9416,
           "y": -1577.475
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1090.4889,
+          "y": -344.0925
         }
       }
     }

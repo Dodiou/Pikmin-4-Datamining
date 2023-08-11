@@ -1,4 +1,30 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave021_F02",
+      "transform": {
+        "translation": {
+          "x": -1185,
+          "y": -822.5
+        }
+      }
+    }
+  ],
+  "switch": [
+    {
+      "type": "switch",
+      "variant": "double",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 390,
+          "y": 349.5
+        },
+        "rotation": 180
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -81,11 +107,58 @@
   "treasure": [
     {
       "type": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
       "amount": 50,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
       "transform": {
         "translation": {
           "x": -955,
           "y": -287.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMATDOLLSA",
+      "name": "Granddaughter Doll Head",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -961.60925,
+          "y": -2.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTANESCLASSICMINI",
+      "name": "Life Controller",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -885,
+          "y": 290.5
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMATDOLLSB",
+      "name": "Gifting Vase",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 1160,
+          "y": -827.5
         }
       }
     }
@@ -134,6 +207,41 @@
         "translation": {
           "x": -860,
           "y": 957.5
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": -413,
+          "y": -247.5
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "water",
+      "transform": {
+        "translation": {
+          "x": -957.75446,
+          "y": -1090.2467
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 684.8048,
+          "y": 279.30444
         }
       }
     }

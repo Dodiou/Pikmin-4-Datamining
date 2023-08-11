@@ -1,5 +1,5 @@
-import { FenceVariant, ObjectTypes, SwitchVariants } from "../../types";
-import { getObjectFromPath, removeUndefineds } from "../../util";
+import { FenceVariant, ObjectTypes, SwitchVariants } from "../../types.js";
+import { getObjectFromPath, removeUndefineds } from "../../util.js";
 
 // See Cave012_F01. Fences have this ID, but SingleSwitch does not.
 export const DefaultSwitchID = 'switch01';

@@ -1,4 +1,16 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area004",
+      "transform": {
+        "translation": {
+          "x": -1207.7421,
+          "y": -796.13464
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -53,6 +65,35 @@
           "y": 557.6729
         },
         "rotation": -155.5
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1110,
+          "y": -2.49942
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAGCCONWB",
+      "name": "Winged Freedom Sculpture",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 300,
+      "transform": {
+        "translation": {
+          "x": 372.27206,
+          "y": 780.2721
+        }
       }
     }
   ]

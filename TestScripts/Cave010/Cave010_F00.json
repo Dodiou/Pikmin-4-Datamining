@@ -1,4 +1,48 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave010_F01",
+      "transform": {
+        "translation": {
+          "x": -545.5485,
+          "y": 948.6513
+        }
+      }
+    }
+  ],
+  "spout": [
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -275.84192,
+          "y": 41.949493
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -0.8497925,
+          "y": 245.5138
+        }
+      }
+    },
+    {
+      "type": "spout",
+      "variant": "fire",
+      "transform": {
+        "translation": {
+          "x": -633.9919,
+          "y": 383.2422
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -38,6 +82,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -730.02716,
@@ -71,6 +116,49 @@
         "translation": {
           "x": 555,
           "y": -420
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -924.5563,
+          "y": -506.40594
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTACROISSANT",
+      "name": "Flaky Temptation",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 535,
+          "y": 62
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAPUZZLEL",
+      "name": "Memory Fragment (Bottom Right)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -281,
+          "y": -126
         }
       }
     }

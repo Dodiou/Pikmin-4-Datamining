@@ -2,6 +2,8 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -81.34405,
@@ -12,6 +14,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -391.55115,
@@ -22,6 +25,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 99.14102,
@@ -32,12 +36,39 @@
     },
     {
       "type": "fence",
+      "variant": "iron",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 452.39932,
           "y": -824.9408
         },
         "rotation": 90
+      }
+    }
+  ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "geyser",
+      "transform": {
+        "translation": {
+          "x": 893,
+          "y": 6
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -551,
+          "y": 505
+        },
+        "rotation": 0
       }
     }
   ],
@@ -53,23 +84,37 @@
       }
     }
   ],
-  "shortcut": [
+  "caveLink": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
+      "type": "caveLink",
+      "link": "Area001",
       "transform": {
         "translation": {
-          "x": -551,
-          "y": 505
-        },
-        "rotation": 0
+          "x": -837.89874,
+          "y": 245.44525
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": -131.41882,
+          "y": -690.249
+        }
       }
     }
   ],
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 548.3081,
@@ -172,6 +217,60 @@
           "y": -481.52368
         },
         "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTATRAINA",
+      "name": "Unlimited Locomotive",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -814.1361,
+          "y": -1103.7922
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTALOUPE",
+      "name": "Detective's Truth Seeker",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 230,
+      "transform": {
+        "translation": {
+          "x": -802.0913,
+          "y": 1059.3326
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 139.41235,
+          "y": 1090.1039
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -658.33936,
+          "y": -952.72656
+        }
       }
     }
   ]

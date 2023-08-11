@@ -12,6 +12,42 @@
       }
     }
   ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Area003",
+      "transform": {
+        "translation": {
+          "x": 825.00006,
+          "y": -613
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave014_F03",
+      "transform": {
+        "translation": {
+          "x": 1000,
+          "y": 312.5
+        }
+      }
+    }
+  ],
+  "castaway": [
+    {
+      "type": "castaway",
+      "isLeafling": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 820.4833,
+          "y": -470.82303
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",
@@ -50,6 +86,46 @@
         "translation": {
           "x": 1100,
           "y": 644.7673
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 1000,
+          "y": 312.5
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": 825.00006,
+          "y": -558
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAINTSPPL",
+      "name": "Noble Goo",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -711.4966,
+          "y": 523.7124
         }
       }
     }

@@ -1,4 +1,26 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave014_F04",
+      "transform": {
+        "translation": {
+          "x": -826.5,
+          "y": -315
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave014_F02",
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -841
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -135,9 +157,78 @@
       }
     }
   ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -841
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -826.5,
+          "y": -315
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTADICE4SIDED",
+      "name": "Difficult-Choice Totem",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 864.9019,
+          "y": 734.89874
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABIWA",
+      "name": "Velvety Dreamdrop",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -491.56787,
+          "y": 458.97366
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTARAILWAYLINEC",
+      "name": "Turn-of-Events Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 615.0977,
+          "y": -378.5111
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": -645,

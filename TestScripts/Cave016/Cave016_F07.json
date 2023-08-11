@@ -29,5 +29,30 @@
         "rotation": -90
       }
     }
+  ],
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave016_F08",
+      "transform": {
+        "translation": {
+          "x": 1342.9951,
+          "y": -145.40158
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -1538.0067,
+          "y": 7.193017
+        }
+      }
+    }
   ]
 }

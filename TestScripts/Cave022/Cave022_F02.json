@@ -1,7 +1,189 @@
 {
+  "caveLink": [
+    {
+      "type": "caveLink",
+      "link": "Cave022_F03",
+      "transform": {
+        "translation": {
+          "x": -824.1967,
+          "y": -691.65137
+        }
+      }
+    },
+    {
+      "type": "caveLink",
+      "link": "Cave022_F01",
+      "transform": {
+        "translation": {
+          "x": -902.4725,
+          "y": 727.59717
+        }
+      }
+    }
+  ],
+  "heatObstacle": [
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -776.3129,
+          "y": 514.8315
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 253.29822,
+          "y": 274.75153
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 311.66663,
+          "y": 322.38422
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 312.74988,
+          "y": 229.80127
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -639.6537,
+          "y": 633.79004
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -719.6453,
+          "y": 470.56604
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -537.38544,
+          "y": 552.7582
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -565.9874,
+          "y": 488.5739
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -627.17737,
+          "y": 459.8404
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 977.8181,
+          "y": 848.53
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -572.6537,
+          "y": 612.79004
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "iceBox",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 417.8181,
+          "y": -741.47
+        }
+      }
+    },
+    {
+      "type": "heatObstacle",
+      "variant": "straw",
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -699.6537,
+          "y": 603.79004
+        }
+      }
+    }
+  ],
   "firePit": [
     {
       "type": "firePit",
+      "isLit": true,
       "transform": {
         "translation": {
           "x": -411.25403,
@@ -11,6 +193,7 @@
     },
     {
       "type": "firePit",
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 2.9789429,
@@ -40,94 +223,34 @@
       }
     }
   ],
-  "straw": [
+  "spout": [
     {
-      "type": "straw",
+      "type": "spout",
+      "variant": "ice",
       "transform": {
         "translation": {
-          "x": 253.29822,
-          "y": 274.75153
+          "x": 408.92078,
+          "y": -487.03482
         }
       }
     },
     {
-      "type": "straw",
+      "type": "spout",
+      "variant": "ice",
       "transform": {
         "translation": {
-          "x": 311.66663,
-          "y": 322.38422
+          "x": 409.2975,
+          "y": -101.36517
         }
       }
     },
     {
-      "type": "straw",
+      "type": "spout",
+      "variant": "ice",
       "transform": {
         "translation": {
-          "x": 312.74988,
-          "y": 229.80127
-        }
-      }
-    },
-    {
-      "type": "straw",
-      "transform": {
-        "translation": {
-          "x": -639.6537,
-          "y": 633.79004
-        }
-      }
-    },
-    {
-      "type": "straw",
-      "transform": {
-        "translation": {
-          "x": -719.6453,
-          "y": 470.56604
-        }
-      }
-    },
-    {
-      "type": "straw",
-      "transform": {
-        "translation": {
-          "x": -537.38544,
-          "y": 552.7582
-        }
-      }
-    },
-    {
-      "type": "straw",
-      "transform": {
-        "translation": {
-          "x": -565.9874,
-          "y": 488.5739
-        }
-      }
-    },
-    {
-      "type": "straw",
-      "transform": {
-        "translation": {
-          "x": -627.17737,
-          "y": 459.8404
-        }
-      }
-    },
-    {
-      "type": "straw",
-      "transform": {
-        "translation": {
-          "x": -572.6537,
-          "y": 612.79004
-        }
-      }
-    },
-    {
-      "type": "straw",
-      "transform": {
-        "translation": {
-          "x": -699.6537,
-          "y": 603.79004
+          "x": -963.08954,
+          "y": 157.09076
         }
       }
     }
@@ -135,6 +258,7 @@
   "fence": [
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 795.07837,
@@ -145,6 +269,7 @@
     },
     {
       "type": "fence",
+      "variant": "normal",
       "transform": {
         "translation": {
           "x": 954.41736,
@@ -157,6 +282,8 @@
   "switch": [
     {
       "type": "switch",
+      "variant": "single",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -824.4743,
@@ -198,6 +325,60 @@
           "y": -416.4743
         },
         "rotation": 0
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "treasureId": "OTAPAPAYA",
+      "name": "Seed Hive",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -140,
+          "y": -61
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -622.7742,
+          "y": 548.6064
+        }
+      }
+    }
+  ],
+  "base": [
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -901.87085,
+          "y": 726.8009
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 1,
+      "transform": {
+        "translation": {
+          "x": -823.0124,
+          "y": -691.43036
+        }
       }
     }
   ],
