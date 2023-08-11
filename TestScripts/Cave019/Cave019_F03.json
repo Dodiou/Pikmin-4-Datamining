@@ -143,6 +143,73 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1419.344,
+          "y": -3.1471863
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 704.9094,
+          "y": 39.48996
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 691.53076,
+          "y": 219.02118
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 1028.9746,
+          "y": 214.73761
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 859.90454,
+          "y": 275.34906
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",

@@ -24,6 +24,21 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 100,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 1232.2004,
+          "y": -413.47614
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",

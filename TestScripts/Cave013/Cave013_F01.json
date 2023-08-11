@@ -73,6 +73,28 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -687.5,
+          "y": 25
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": 962.5,
+          "y": 275
+        }
+      }
+    }
+  ],
   "switch": [
     {
       "type": "switch",

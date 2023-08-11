@@ -52,5 +52,33 @@
         }
       }
     }
+  ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 505,
+          "y": 71
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 134,
+          "y": 596
+        }
+      }
+    }
   ]
 }

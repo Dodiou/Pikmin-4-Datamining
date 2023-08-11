@@ -11,6 +11,18 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -687.5001,
+          "y": -136.14337
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",

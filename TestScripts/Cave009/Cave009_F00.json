@@ -513,5 +513,29 @@
         }
       }
     }
+  ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": -1250.1802,
+          "y": -983.11646
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": -969.55396,
+          "y": -1251.3259
+        }
+      }
+    }
   ]
 }

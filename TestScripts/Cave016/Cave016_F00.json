@@ -50,6 +50,21 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -618.4275,
+          "y": -135.93164
+        }
+      }
+    }
+  ],
   "base": [
     {
       "type": "base",

@@ -304,6 +304,28 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -1364.5082,
+          "y": 185.18384
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -1111.8848,
+          "y": -50.217407
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",

@@ -228,6 +228,74 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": true,
+      "radius": 100,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -553,
+          "y": 693
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": true,
+      "radius": 100,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 963,
+          "y": -272
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 100,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 142,
+          "y": -1100
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -73,
+          "y": -1330
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",

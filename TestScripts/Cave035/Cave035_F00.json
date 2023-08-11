@@ -122,6 +122,21 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 100,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 283,
+          "y": -814
+        }
+      }
+    }
+  ],
   "base": [
     {
       "type": "base",

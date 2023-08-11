@@ -199,6 +199,87 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": 967.5,
+          "y": -681
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": true,
+      "radius": 100,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -1138.499,
+          "y": -111.75244
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -411.53122,
+          "y": 62.21985
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -972.5293,
+          "y": -1493.8516
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -862.0514,
+          "y": 15.644165
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 420,
+          "y": -955
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",

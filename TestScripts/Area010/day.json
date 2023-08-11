@@ -202,6 +202,58 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": 2227,
+          "y": -437
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -405,
+          "y": -547
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": 1521,
+          "y": 1184
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -269,
+          "y": 3182
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": 1986,
+          "y": -3459
+        }
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",

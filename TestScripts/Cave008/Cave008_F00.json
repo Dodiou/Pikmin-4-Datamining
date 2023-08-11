@@ -272,6 +272,30 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": 587.49915,
+          "y": 1205.0331
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": 669.49023,
+          "y": -182
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",

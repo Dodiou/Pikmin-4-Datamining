@@ -254,5 +254,27 @@
         }
       }
     }
+  ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -587,
+          "y": 810
+        }
+      }
+    }
   ]
 }

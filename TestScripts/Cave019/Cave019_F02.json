@@ -11,6 +11,147 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -194.57947,
+          "y": -0.688766
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 100,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 106.07498,
+          "y": -68.432175
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 100,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 288.39972,
+          "y": 311.3246
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 17.921764,
+          "y": 457.4367
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 100,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -246.44756,
+          "y": 305.9728
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 701.13837,
+          "y": 280.27478
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 11.269233,
+          "y": 849.46356
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 1.2692327,
+          "y": -890.53644
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",

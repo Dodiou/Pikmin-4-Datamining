@@ -24,6 +24,60 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": true,
+      "radius": 100,
+      "drops": [
+        {
+          "item": "GOtaPuzzleG_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -300.5,
+          "y": -262
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": true,
+      "radius": 100,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 125.5,
+          "y": -283
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 175,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": -142.85474,
+          "y": -557.4988
+        }
+      }
+    }
+  ],
   "spout": [
     {
       "type": "spout",

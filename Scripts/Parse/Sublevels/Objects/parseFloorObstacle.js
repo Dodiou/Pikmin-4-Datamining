@@ -14,7 +14,7 @@ function getFloorDiameter(compType) {
 }
 
 function parseMushroomFloor(comp, compsList) {
-  const StickyFloor = getObjectFromPath(comp, compsList);
+  const StickyFloor = getObjectFromPath(comp.Properties.StickyFloorAI, compsList);
   const isPoison = comp.Type.includes('Poison');
 
   return {
@@ -54,13 +54,13 @@ export function isFloorComp(comp) {
 
 export function parseFloorComp(comp, compsList) {
   if (comp.Properties.MoveFloorAI) {
-    parseMoveFloor(comp);
+    return parseMoveFloor(comp);
   }
   else if (comp.Properties.StickyFloorAI) {
-    parseMushroomFloor(comp, compsList);
+    return parseMushroomFloor(comp, compsList);
   }
   else if (comp.Properties.FireFloorAI) {
-    parseFireFloor(comp);
+    return parseFireFloor(comp);
   }
   throw new Error('Unknown floor type!');
 }

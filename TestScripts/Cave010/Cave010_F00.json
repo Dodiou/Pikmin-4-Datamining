@@ -92,6 +92,41 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 175,
+      "transform": {
+        "translation": {
+          "x": -823.7805,
+          "y": -34.299847
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 175,
+      "transform": {
+        "translation": {
+          "x": 503.62012,
+          "y": -114.23859
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": 129,
+          "y": -123
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",

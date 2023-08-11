@@ -127,6 +127,30 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 525,
+      "transform": {
+        "translation": {
+          "x": 550,
+          "y": 412.5
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": 583.76355,
+          "y": -559.848
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",

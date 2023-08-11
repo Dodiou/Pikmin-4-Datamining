@@ -13,6 +13,63 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 525,
+      "transform": {
+        "translation": {
+          "x": 531,
+          "y": 834.5
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 175,
+      "transform": {
+        "translation": {
+          "x": 685,
+          "y": -566
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 175,
+      "transform": {
+        "translation": {
+          "x": -387,
+          "y": 1103.5
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": -700,
+          "y": -648.5
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 175,
+      "transform": {
+        "translation": {
+          "x": 154.96097,
+          "y": 156.79796
+        }
+      }
+    }
+  ],
   "materials": [
     {
       "type": "materials",

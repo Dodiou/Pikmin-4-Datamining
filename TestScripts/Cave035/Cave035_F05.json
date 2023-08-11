@@ -304,6 +304,18 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": 545,
+          "y": -828
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",

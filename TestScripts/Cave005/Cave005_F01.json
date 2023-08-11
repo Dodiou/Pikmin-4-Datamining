@@ -47,6 +47,28 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": 549,
+          "y": -574
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -136.20361,
+          "y": -688.90247
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",

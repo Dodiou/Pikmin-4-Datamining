@@ -15,6 +15,7 @@ import { isHeatObstacleComp, parseHeatObstacleComp } from './Sublevels/Objects/p
 import { isBaseComp, parseBaseComp } from './Sublevels/Objects/parseBase.js';
 import { isCaveLinkComp, parseCaveLinkComp } from './Sublevels/Objects/parseCaveLinks.js';
 import { isCollectableComp, parseCollectableComp } from './Sublevels/Objects/parseCollectable.js';
+import { isFloorComp, parseFloorComp } from './Sublevels/Objects/parseFloorObstacle.js';
 
 /* 
  * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
@@ -55,6 +56,9 @@ export function parseSublevelsObjects(compsList) {
     }
     else if (isHeatObstacleComp(comp)) {
       componentProps = parseHeatObstacleComp(comp, compsList);
+    }
+    else if (isFloorComp(comp)) {
+      componentProps = parseFloorComp(comp, compsList);
     }
     else if (comp.Properties.CrackPotAI) {
       const crackPotComp = getObjectFromPath(comp.Properties.CrackPotAI, compsList);

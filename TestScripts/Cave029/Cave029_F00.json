@@ -153,6 +153,19 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "fire",
+      "radius": 350,
+      "transform": {
+        "translation": {
+          "x": 138,
+          "y": -841
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",

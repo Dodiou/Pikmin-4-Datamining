@@ -217,5 +217,40 @@
         "rotation": -90
       }
     }
+  ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 525,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -914.2813,
+          "y": 804.03687
+        }
+      }
+    },
+    {
+      "type": "floor",
+      "variant": "mushroom",
+      "isPoison": false,
+      "radius": 525,
+      "drops": [],
+      "transform": {
+        "translation": {
+          "x": 544.7898,
+          "y": -1088.108
+        }
+      }
+    }
   ]
 }

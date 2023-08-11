@@ -61,6 +61,18 @@
       }
     }
   ],
+  "floor": [
+    {
+      "type": "floor",
+      "variant": "movable",
+      "transform": {
+        "translation": {
+          "x": -772.87415,
+          "y": -19.894531
+        }
+      }
+    }
+  ],
   "onion": [
     {
       "type": "onion",
