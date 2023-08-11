@@ -176,15 +176,15 @@
       }
     }
   ],
-  "undefined": [
+  "ropeFishing": [
     {
+      "type": "ropeFishing",
       "weight": 5,
       "transform": {
         "translation": {
           "x": 1391.7163,
           "y": -347.77747
-        },
-        "rotation": -90
+        }
       }
     }
   ],

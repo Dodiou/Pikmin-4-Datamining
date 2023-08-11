@@ -108,6 +108,9 @@ export function parseSublevelsObjects(compsList) {
       continue;
     }
 
+    if (componentProps.type === undefined) {
+      throw new Error('Programmer error in parsing code. Sorry!');
+    }
     componentPropsDict[comp.Properties.GenerateInfo.DebugUniqueId] = componentProps;
   }
 

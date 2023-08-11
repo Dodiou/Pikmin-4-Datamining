@@ -20,6 +20,7 @@ export const ObjectTypes = {
   Onion: 'onion',
   Pikmin: 'pikmin',
   Pot: 'pot',
+  RopeFishing: 'ropeFishing',
   Shortcut: 'shortcut',
   Spout: 'spout',
   Straw: 'straw',

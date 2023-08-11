@@ -697,8 +697,9 @@
       }
     }
   ],
-  "undefined": [
+  "ropeFishing": [
     {
+      "type": "ropeFishing",
       "weight": 7,
       "drops": [
         {
@@ -712,17 +713,16 @@
         "translation": {
           "x": -2772,
           "y": 2818.883
-        },
-        "rotation": 90
+        }
       }
     },
     {
+      "type": "ropeFishing",
       "transform": {
         "translation": {
           "x": -3032.143,
           "y": 2507.0198
-        },
-        "rotation": -5
+        }
       }
     }
   ],
