@@ -23,10 +23,16 @@ export function parseHeatObstacleComp(comp, compsList) {
     };
   }
   else if (comp.Properties.TanebiStationAI) {
-    // "Relay" stations are not lit initially
+    const TanebiStationAI = getObjectFromPath(comp.Properties.TanebiStationAI, compsList);
+    // In most caves, "Relay" stations means it is not lit initially... but there is also a parameter
+    // used for the some stations that determine this... oof.
+    const isLit = !comp.Type.includes("Relay") &&
+      !TanebiStationAI.Properties?.TanebiStationAIParameter?.bInitOff;
+
+      console.log(isLit)
     return {
       type: ObjectTypes.FirePit,
-      isLit: !comp.Type.includes("Relay")
+      isLit
     };
   }
   else if (comp.Properties.ColdBoxAI) {

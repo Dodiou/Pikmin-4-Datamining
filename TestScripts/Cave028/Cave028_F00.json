@@ -140,7 +140,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 263.25,

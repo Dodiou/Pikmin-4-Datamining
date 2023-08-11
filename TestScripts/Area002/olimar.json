@@ -559,7 +559,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 3096,
@@ -569,7 +569,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 1263.292,
@@ -579,7 +579,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -1407.1085,
@@ -589,7 +589,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -499.68652,
@@ -599,7 +599,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 1132.292,
@@ -609,7 +609,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -1180.708,

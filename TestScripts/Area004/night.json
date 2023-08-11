@@ -396,7 +396,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 1224.6752,
@@ -406,7 +406,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -3773,
@@ -416,7 +416,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -30,
@@ -426,7 +426,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -2503,
@@ -436,7 +436,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -1527,
@@ -446,7 +446,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 2544,
@@ -456,7 +456,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": -43.421223,
@@ -466,7 +466,7 @@
     },
     {
       "type": "firePit",
-      "isLit": true,
+      "isLit": false,
       "transform": {
         "translation": {
           "x": 647,
