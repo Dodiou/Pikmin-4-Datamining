@@ -68,7 +68,12 @@ function getWaterRadarTextures(waterTexture, changedTexture) {
 
 
 export function isWaterComp(comp) {
-  return !!(comp.Properties.WaterCarrotTrigger || comp.Properties.SwampCarrotTrigger || comp.Properties.RadarMapWBTexture);
+  return !!(
+    (comp.Properties.WaterCarrotTrigger || comp.Properties.SwampCarrotTrigger) &&
+    // NOTE: there is 1 waterbox in Cave016_F17 (CfaK, Empress Bulblax) that does not have a radar image
+    //       the water also does not appear in game.
+    comp.Properties.RadarMapWBTexture
+  );
 }
 
 export function parseWaterComp(comp, compsList) {

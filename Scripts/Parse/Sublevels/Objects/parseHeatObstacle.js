@@ -29,14 +29,13 @@ export function parseHeatObstacleComp(comp, compsList) {
     const isLit = !comp.Type.includes("Relay") &&
       !TanebiStationAI.Properties?.TanebiStationAIParameter?.bInitOff;
 
-      console.log(isLit)
     return {
       type: ObjectTypes.FirePit,
       isLit
     };
   }
   else if (comp.Properties.ColdBoxAI) {
-    const ColdBox = getObjectFromPath(comp.Properties.ColdBoxAI, compsList)
+    const ColdBox = getObjectFromPath(comp.Properties.ColdBoxAI, compsList);
     return {
       type: ObjectTypes.HeatObstacle,
       variant: HeatObstacleVariants.IceBox,
