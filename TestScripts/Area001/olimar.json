@@ -604,26 +604,6 @@
     {
       "type": "gate",
       "variant": "electric",
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        }
-      ],
       "transform": {
         "translation": {
           "x": -1982,

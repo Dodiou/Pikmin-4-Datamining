@@ -61,7 +61,7 @@ export function parseCreatureDropList(aiComp) {
 export function parseDropList(DropParameter, defaultDrop = undefined, dropAmountMultiplier = 1) {
   // TODO: a few have "null" DropActor's. What are the default drops?
   const dropsWithUndefineds = DropParameter.DropItemParameter.map((dropItem) => {
-    if (dropItem.DropRatio <= 0.0) {
+    if (dropItem.DropRatio <= 0.0 || dropItem.MaxNum <= 0) {
       return undefined;
     }
     if (!dropItem.SpawnMiniInfo?.DropActor?.ObjectName) {

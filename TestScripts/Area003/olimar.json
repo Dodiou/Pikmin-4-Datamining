@@ -681,26 +681,6 @@
     {
       "type": "gate",
       "variant": "dirt",
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        }
-      ],
       "transform": {
         "translation": {
           "x": 406,
@@ -712,26 +692,6 @@
     {
       "type": "gate",
       "variant": "dirt",
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 0
-        }
-      ],
       "transform": {
         "translation": {
           "x": 887,
