@@ -28,6 +28,106 @@
       }
     }
   ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 499,
+          "y": -283
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 336,
+          "y": -113
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 316,
+          "y": -84
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 8,
+          "max": 8
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 298,
+          "y": 826
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 354,
+          "y": 835
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 262,
+          "y": 780
+        }
+      }
+    }
+  ],
   "structure": [
     {
       "type": "structure",
@@ -177,7 +277,6 @@
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -676.5744,
@@ -187,7 +286,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -626.7634,
@@ -197,7 +295,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -740,

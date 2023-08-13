@@ -124,7 +124,6 @@
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -907.2584,
@@ -134,7 +133,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1003.27515,
@@ -144,7 +142,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -969.74023,
@@ -154,7 +151,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -940.8684,

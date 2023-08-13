@@ -41,7 +41,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 152.13037,

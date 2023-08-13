@@ -5,28 +5,37 @@ export const ObjectTypes = {
   Castaway: 'castaway',
   CaveLink: 'caveLink',
   Conveyor: 'conveyor',
+  Creature: 'creature',
+  Crystal: 'crystal',
   Drain: 'drain',
+  Egg: 'egg',
   Fan: 'fan',
   Fence: 'fence',
   FirePit: 'firePit',
   FloorObstacle: 'floor',
   Gate: 'gate',
   GlowPellets: 'glowPellets',
+  GroupDropManager: 'groupDropManager',
   HeatObstacle: 'heatObstacle',
+  Honey: 'honey',
   HydroJelly: 'hydroJelly',
   Item: 'item',
   Materials: 'materials',
   Mound: 'mound',
+  Mushroom: 'mushroom',
   Onion: 'onion',
+  Pellet: 'pellet',
   Pikmin: 'pikmin',
   Pot: 'pot',
   RopeFishing: 'ropeFishing',
   Shortcut: 'shortcut',
   Spout: 'spout',
+  Sprinkler: 'sprinkler',
   Straw: 'straw',
   Structure: 'structure',
   Switch: 'switch',
   Treasure: 'treasure',
+  Tunnel: 'tunnel',
   Water: 'water',
   Unknown: '__unknown'
 }
@@ -91,11 +100,13 @@ export const WaterVariants = {
 }
 
 export const ShortcutVariants = {
+  BounceShroom: 'bounceShroom',
   ClipboardAny: 'clipboard',
   ClipboardYellow: 'clipboardYellow',
+  ChargeShroom: 'chargeShroom',
   Geyser: 'geyser',
   PushBag: 'pushbag',
-  Root: 'Root',
+  Root: 'root',
   SquashBag: 'squashbag',
   Stick: 'stick',
   String: 'string',
@@ -113,6 +124,12 @@ export const SpoutVariants = {
 export const SwitchVariants = {
   DoubleSwitch: 'double',
   SingleSwitch: 'single',
+}
+
+export const TunnelVariants = {
+  Captain: 'captain',
+  Normal: 'normal',
+  Oatchi: 'pup'
 }
 
 export const FenceVariant = {

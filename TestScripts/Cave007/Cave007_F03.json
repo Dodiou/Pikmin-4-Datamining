@@ -27,7 +27,7 @@
   "shortcut": [
     {
       "type": "shortcut",
-      "variant": "Root",
+      "variant": "root",
       "transform": {
         "translation": {
           "x": 25,

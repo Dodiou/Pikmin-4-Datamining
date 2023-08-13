@@ -37,6 +37,7 @@
       }
     },
     {
+      "valveId": "valve1",
       "type": "structure",
       "variant": "valve",
       "materialsNeeded": 16,
@@ -181,7 +182,7 @@
     },
     {
       "type": "shortcut",
-      "variant": "Root",
+      "variant": "root",
       "transform": {
         "translation": {
           "x": 2609.612,
@@ -279,7 +280,6 @@
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1957.8165,
@@ -289,7 +289,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1972.2007,
@@ -299,7 +298,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2011.0884,
@@ -309,7 +307,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -872.5494,
@@ -319,7 +316,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -787.129,
@@ -329,7 +325,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -924.1758,
@@ -339,7 +334,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1908.2278,
@@ -349,7 +343,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2030.8843,
@@ -359,7 +352,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2049.9758,
@@ -369,7 +361,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1895.8824,
@@ -379,7 +370,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -841.8541,
@@ -389,7 +379,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1860.686,
@@ -399,7 +388,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1455.6288,
@@ -409,7 +397,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1541.8431,
@@ -419,7 +406,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1511.661,
@@ -429,7 +415,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1487.6288,
@@ -439,7 +424,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1954.9868,
@@ -449,7 +433,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1878.1569,
@@ -459,7 +442,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1908.339,
@@ -535,6 +517,19 @@
         "translation": {
           "x": 1160.8732,
           "y": 8.148453
+        }
+      }
+    }
+  ],
+  "sprinkler": [
+    {
+      "type": "sprinkler",
+      "valveId": "valve1",
+      "radius": 345,
+      "transform": {
+        "translation": {
+          "x": 411.5246,
+          "y": 2922.4104
         }
       }
     }

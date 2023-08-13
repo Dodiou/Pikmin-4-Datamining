@@ -73,7 +73,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 501.38623,
@@ -84,7 +83,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 597.4348,
@@ -95,7 +93,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 551.0149,

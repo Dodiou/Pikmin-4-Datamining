@@ -49,7 +49,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 975.5394,
@@ -90,7 +89,6 @@
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -463.19528,
@@ -100,7 +98,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -478.90277,
@@ -110,7 +107,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -455.91022,
@@ -120,7 +116,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -516.31866,
@@ -130,7 +125,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -741.44696,
@@ -157,7 +151,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -870.62054,
@@ -184,7 +177,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -401.50668,
@@ -194,7 +186,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -747.62054,

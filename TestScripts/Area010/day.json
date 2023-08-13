@@ -462,7 +462,6 @@
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 3345,
@@ -489,7 +488,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 3236,
@@ -499,7 +497,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 4010,
@@ -509,7 +506,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 3999.0002,
@@ -519,7 +515,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 2940,
@@ -529,7 +524,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 3015,
@@ -539,7 +533,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 2971,
@@ -549,7 +542,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 2946.9312,
@@ -643,6 +635,34 @@
     },
     {
       "type": "treasure",
+      "treasureId": "OTABANKCARDA",
+      "name": "Courage Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 989,
+          "y": -3980
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANKCARDB",
+      "name": "Power Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 3558,
+          "y": 1548
+        }
+      }
+    },
+    {
+      "type": "treasure",
       "treasureId": "OTATOMATOM",
       "name": "Love Nugget",
       "weight": 10,
@@ -666,6 +686,20 @@
         "translation": {
           "x": 2835,
           "y": -2001
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANKCARDC",
+      "name": "Wisdom Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -1446.5712,
+          "y": 908.6219
         }
       }
     },
@@ -967,6 +1001,30 @@
       }
     }
   ],
+  "pellet": [
+    {
+      "type": "pellet",
+      "color": "EPikminColor::Yellow",
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 1824,
+          "y": -941
+        }
+      }
+    },
+    {
+      "type": "pellet",
+      "color": "EPikminColor::Red",
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": 1869,
+          "y": -912
+        }
+      }
+    }
+  ],
   "castaway": [
     {
       "type": "castaway",
@@ -996,11 +1054,199 @@
   "hydroJelly": [
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1509,
           "y": -3451
+        }
+      }
+    }
+  ],
+  "crystal": [
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2779,
+          "y": 520
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1899,
+          "y": 2762
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1774,
+          "y": 2920
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2032,
+          "y": 3000
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1688,
+          "y": 3639
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1860,
+          "y": 3812
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1868,
+          "y": 865
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1498,
+          "y": 1047
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1520,
+          "y": 855
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1794,
+          "y": 646
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2958,
+          "y": 260
         }
       }
     }
@@ -1013,6 +1259,37 @@
         "translation": {
           "x": 1708,
           "y": 834
+        }
+      }
+    }
+  ],
+  "honey": [
+    {
+      "type": "honey",
+      "transform": {
+        "translation": {
+          "x": 2747,
+          "y": -2592
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2145,
+          "y": 961
         }
       }
     }

@@ -59,7 +59,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": 505,
@@ -72,7 +71,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": 134,

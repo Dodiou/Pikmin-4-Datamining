@@ -184,6 +184,26 @@
       }
     }
   ],
+  "honey": [
+    {
+      "type": "honey",
+      "transform": {
+        "translation": {
+          "x": -391,
+          "y": -684.5
+        }
+      }
+    },
+    {
+      "type": "honey",
+      "transform": {
+        "translation": {
+          "x": -578,
+          "y": -895.5
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",

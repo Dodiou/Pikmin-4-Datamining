@@ -85,6 +85,85 @@
       }
     }
   ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -820,
+          "y": 59
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -820,
+          "y": -60
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 188,
+          "y": -858
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 338,
+          "y": -889
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 218,
+          "y": -755
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 272,
+          "y": -783
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 348,
+          "y": -704
+        }
+      }
+    }
+  ],
   "item": [
     {
       "type": "item",
@@ -128,7 +207,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 100,
-      "drops": [],
       "transform": {
         "translation": {
           "x": 283,

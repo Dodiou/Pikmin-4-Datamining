@@ -128,6 +128,30 @@
       }
     }
   ],
+  "sprinkler": [
+    {
+      "type": "sprinkler",
+      "valveId": "valve1",
+      "radius": 225,
+      "transform": {
+        "translation": {
+          "x": -517.95483,
+          "y": 144.38292
+        }
+      }
+    },
+    {
+      "type": "sprinkler",
+      "valveId": "valve1",
+      "radius": 330,
+      "transform": {
+        "translation": {
+          "x": -312.5343,
+          "y": 942.9324
+        }
+      }
+    }
+  ],
   "spout": [
     {
       "type": "spout",
@@ -152,6 +176,7 @@
   ],
   "structure": [
     {
+      "valveId": "valve1",
       "type": "structure",
       "variant": "valve",
       "materialsNeeded": 12,
@@ -248,7 +273,6 @@
   "hydroJelly": [
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -429,

@@ -118,6 +118,93 @@
       }
     }
   ],
+  "crystal": [
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -891.6936,
+          "y": -747.4053
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -549.9691,
+          "y": -627.2206
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -717.86584,
+          "y": -872.79395
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -440.62885,
+          "y": -1027.9536
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -984.432,
+          "y": -608.0593
+        }
+      }
+    }
+  ],
   "floor": [
     {
       "type": "floor",

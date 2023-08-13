@@ -95,7 +95,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 5.880768,

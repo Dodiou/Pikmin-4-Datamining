@@ -151,7 +151,7 @@
     },
     {
       "type": "shortcut",
-      "variant": "Root",
+      "variant": "root",
       "transform": {
         "translation": {
           "x": 2517,
@@ -611,7 +611,6 @@
   "hydroJelly": [
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -416.28888,
@@ -621,7 +620,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -72.578,
@@ -631,7 +629,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 45.668076,
@@ -641,7 +638,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -365.26584,
@@ -651,7 +647,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1891.544,
@@ -661,7 +656,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1940.9882,
@@ -671,7 +665,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1950.8541,

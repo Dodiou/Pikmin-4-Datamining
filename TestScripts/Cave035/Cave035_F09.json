@@ -127,7 +127,7 @@
     },
     {
       "type": "shortcut",
-      "variant": "Root",
+      "variant": "root",
       "transform": {
         "translation": {
           "x": 275,
@@ -273,6 +273,41 @@
         "translation": {
           "x": -587,
           "y": 810
+        }
+      }
+    }
+  ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -546,
+          "y": 788
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -568,
+          "y": 830
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -624,
+          "y": 801
         }
       }
     }

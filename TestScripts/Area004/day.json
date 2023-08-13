@@ -302,6 +302,7 @@
   ],
   "structure": [
     {
+      "valveId": "valve3",
       "type": "structure",
       "variant": "valve",
       "materialsNeeded": 16,
@@ -313,6 +314,7 @@
       }
     },
     {
+      "valveId": "valve4",
       "type": "structure",
       "variant": "valve",
       "materialsNeeded": 16,
@@ -348,6 +350,7 @@
       }
     },
     {
+      "valveId": "valve5",
       "type": "structure",
       "variant": "valve",
       "materialsNeeded": 16,
@@ -479,7 +482,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -552,
@@ -490,7 +492,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -592,
@@ -501,7 +502,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -594,
@@ -512,7 +512,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2506.2832,
@@ -523,7 +522,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2475.6877,
@@ -534,7 +532,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2537.0398,
@@ -545,7 +542,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2125.2517,
@@ -556,7 +552,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2051,
@@ -567,7 +562,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -2049,
@@ -578,7 +572,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -945,
@@ -589,7 +582,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -963,
@@ -600,7 +592,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1055,
@@ -611,7 +602,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1704,
@@ -622,7 +612,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1630,
@@ -633,7 +622,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1689,
@@ -644,7 +632,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -887,
@@ -655,7 +642,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -119,
@@ -666,7 +652,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -115,
@@ -677,7 +662,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -92,
@@ -688,7 +672,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -41,
@@ -699,7 +682,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 21,
@@ -710,7 +692,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1019,
@@ -721,7 +702,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 95,
@@ -732,7 +712,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -894,
@@ -743,7 +722,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1031,
@@ -754,7 +732,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 2668,
@@ -765,7 +742,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 2654,
@@ -776,7 +752,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 2601,
@@ -787,7 +762,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 376.6289,
@@ -798,7 +772,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 306.5041,
@@ -809,7 +782,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 374.85834,
@@ -820,7 +792,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 236.69012,
@@ -831,7 +802,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1355,
@@ -842,7 +812,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1337,
@@ -853,7 +822,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1361,
@@ -864,7 +832,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1571,
@@ -875,7 +842,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4300.89,
@@ -886,7 +852,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4218.608,
@@ -897,7 +862,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4128.0547,
@@ -908,7 +872,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4226.8975,
@@ -919,7 +882,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4336.378,
@@ -930,7 +892,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 206.61067,
@@ -941,7 +902,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1617,
@@ -952,7 +912,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1642,
@@ -963,7 +922,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1617,
@@ -974,7 +932,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1642,
@@ -985,7 +942,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1617,
@@ -996,7 +952,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1642,
@@ -1007,7 +962,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1628,
@@ -1018,7 +972,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 3138.7568,
@@ -1029,7 +982,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 3082.6946,
@@ -1040,7 +992,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 3033.5884,
@@ -1051,7 +1002,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1529.9966,
@@ -1062,7 +1012,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1495.7606,
@@ -1073,7 +1022,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1256.4917,
@@ -1084,7 +1032,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1326.9288,
@@ -1095,7 +1042,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 307.51633,
@@ -1106,7 +1052,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4341.306,
@@ -1117,7 +1062,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4159.8994,
@@ -1128,7 +1072,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4290.302,
@@ -1139,7 +1082,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -4153.966,
@@ -1150,7 +1092,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 235.76227,
@@ -1161,7 +1102,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 401.71558,
@@ -1172,7 +1112,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1241,
@@ -1183,7 +1122,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1085,
@@ -1194,7 +1132,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1048,
@@ -1205,7 +1142,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1257,
@@ -1216,7 +1152,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1220,
@@ -1227,7 +1162,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1153,
@@ -1238,7 +1172,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1062,
@@ -1249,7 +1182,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1119,
@@ -1260,7 +1192,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1190,
@@ -1364,6 +1295,52 @@
         "translation": {
           "x": 2687.474,
           "y": -2996.167
+        }
+      }
+    }
+  ],
+  "sprinkler": [
+    {
+      "type": "sprinkler",
+      "valveId": "valve3",
+      "radius": 300,
+      "transform": {
+        "translation": {
+          "x": -118,
+          "y": -1370
+        }
+      }
+    },
+    {
+      "type": "sprinkler",
+      "valveId": "valve3",
+      "radius": 300,
+      "transform": {
+        "translation": {
+          "x": -838,
+          "y": -1457
+        }
+      }
+    },
+    {
+      "type": "sprinkler",
+      "valveId": "valve4",
+      "radius": 300,
+      "transform": {
+        "translation": {
+          "x": -76,
+          "y": 2268
+        }
+      }
+    },
+    {
+      "type": "sprinkler",
+      "valveId": "valve5",
+      "radius": 365,
+      "transform": {
+        "translation": {
+          "x": 1092.6831,
+          "y": -711.31604
         }
       }
     }

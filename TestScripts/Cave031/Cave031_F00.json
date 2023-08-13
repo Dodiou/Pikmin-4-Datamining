@@ -518,7 +518,6 @@
   "hydroJelly": [
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1028.5,
@@ -528,7 +527,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1953.75,

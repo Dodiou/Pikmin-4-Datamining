@@ -1,5 +1,5 @@
 import { FloorObstacleVariants, ObjectTypes } from "../../types.js";
-import { getObjectFromPath } from "../../util.js";
+import { getObjectFromPath, removeUndefineds } from "../../util.js";
 import { parseObjectDropList } from "../parseDrops.js";
 
 const FLOOR_RADIUS_REGEX = /G\w+Floor(\d+)uu_C/;
@@ -17,13 +17,13 @@ function parseMushroomFloor(comp, compsList) {
   const StickyFloor = getObjectFromPath(comp.Properties.StickyFloorAI, compsList);
   const isPoison = comp.Type.includes('Poison');
 
-  return {
+  return removeUndefineds({
     type: ObjectTypes.FloorObstacle,
     variant: FloorObstacleVariants.Mushroom,
     isPoison,
     radius: getFloorDiameter(comp.Type),
     drops: parseObjectDropList(StickyFloor)
-  }
+  });
 }
 
 function parseFireFloor(comp) {

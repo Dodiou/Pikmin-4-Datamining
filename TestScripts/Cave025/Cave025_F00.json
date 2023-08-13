@@ -28,7 +28,6 @@
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 98.56323,
@@ -38,7 +37,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 47.10089,
@@ -48,7 +46,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 5.7211914,
@@ -58,7 +55,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1429.3572,
@@ -68,7 +64,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1388.0206,
@@ -78,7 +73,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1348.698,
@@ -88,7 +82,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -902.89465,
@@ -98,7 +91,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -862.0958,
@@ -108,7 +100,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 20.39746,
@@ -118,7 +109,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 46.370117,
@@ -128,7 +118,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 96.853516,
@@ -138,7 +127,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -926.7209,
@@ -175,6 +163,20 @@
         "translation": {
           "x": -760.90027,
           "y": 1451.3513
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANKCARDBLANK",
+      "name": "Deity's Portrait",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 250.1875,
+          "y": 1396.2273
         }
       }
     },
@@ -236,6 +238,48 @@
     },
     {
       "type": "treasure",
+      "treasureId": "OTABANKCARDD",
+      "name": "Love Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 870,
+          "y": 1370
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANKCARDE",
+      "name": "Money Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -1010.625,
+          "y": 952.2815
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANKCARDF",
+      "name": "Work Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 705.75256,
+          "y": -413.9436
+        }
+      }
+    },
+    {
+      "type": "treasure",
       "treasureId": "OTAPAPERBALLOON",
       "name": "Divine Balloon",
       "weight": 3,
@@ -245,6 +289,20 @@
         "translation": {
           "x": -1370,
           "y": -1383
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "treasureId": "OTABANKCARDBLANK2",
+      "name": "Devil's Portrait",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 335.6194,
+          "y": -1163.9039
         }
       }
     },

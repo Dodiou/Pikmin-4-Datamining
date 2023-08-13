@@ -157,7 +157,6 @@
   "hydroJelly": [
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 137,

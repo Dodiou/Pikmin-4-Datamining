@@ -56,7 +56,6 @@
       "variant": "mushroom",
       "isPoison": true,
       "radius": 100,
-      "drops": [],
       "transform": {
         "translation": {
           "x": 125.5,
@@ -69,11 +68,166 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": -142.85474,
           "y": -557.4988
+        }
+      }
+    }
+  ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -328.14517,
+          "y": -424.66437
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -390.3959,
+          "y": -368.91937
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 277.1266,
+          "y": -248.63641
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 106.30127,
+          "y": -120.44824
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -257.83264,
+          "y": -129.00977
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -409.6609,
+          "y": -138.0014
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 113.68591,
+          "y": -423.3462
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 237.97638,
+          "y": -376.0965
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -444.24915,
+          "y": -228.91138
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 22.93042,
+          "y": -186.21606
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 207.48303,
+          "y": -210.49567
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -303.02808,
+          "y": -336.49237
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -173.40887,
+          "y": -603.0167
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -196.85864,
+          "y": -535.89966
         }
       }
     }
@@ -103,7 +257,6 @@
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -418.4823,
@@ -113,7 +266,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -470.1584,
@@ -123,7 +275,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 411.5177,
@@ -133,7 +284,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 368.84155,
@@ -143,7 +293,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 456.84155,

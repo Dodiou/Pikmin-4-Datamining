@@ -14,7 +14,6 @@
   "hydroJelly": [
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 960,
@@ -24,7 +23,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 897.66785,
@@ -102,7 +100,6 @@
     {
       "type": "heatObstacle",
       "variant": "iceBox",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -411.95508,
@@ -113,7 +110,6 @@
     {
       "type": "heatObstacle",
       "variant": "iceBox",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -685.9445,

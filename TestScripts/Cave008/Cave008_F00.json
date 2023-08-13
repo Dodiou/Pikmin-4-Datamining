@@ -223,6 +223,74 @@
       }
     }
   ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -560.17145,
+          "y": -813.16565
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -515.3441,
+          "y": -780.25397
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -495.06982,
+          "y": -873.23145
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -583.89514,
+          "y": -743
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -605.9894,
+          "y": -778.8814
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -512.0828,
+          "y": -836.27155
+        }
+      }
+    }
+  ],
   "gate": [
     {
       "type": "gate",
@@ -299,7 +367,7 @@
   "shortcut": [
     {
       "type": "shortcut",
-      "variant": "Root",
+      "variant": "root",
       "transform": {
         "translation": {
           "x": 180.21373,

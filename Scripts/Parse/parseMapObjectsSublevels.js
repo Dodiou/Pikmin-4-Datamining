@@ -1,12 +1,9 @@
-import { getObjectFromPath } from './util.js';
-import { ItemVariants, ObjectTypes } from './types.js';
 import { isStructureComp, parseStructureComp } from './Sublevels/Objects/parseStructure.js';
 import { isWaterComp, parseWaterComp } from './Sublevels/Objects/parseWater.js';
 import { isPikminSpawnerComp, parsePikminSpawnerComp } from './Sublevels/Objects/parsePikmin.js';
 import { isPieceStationComp, parsePieceStationComp } from './Sublevels/Objects/parsePieceStation.js';
 import { isGateComp, parseGateComp } from './Sublevels/Objects/parseGate.js';
 import { isShortcutComp, parseShortcutComp } from './Sublevels/Objects/parseShortcut.js';
-import { parseObjectDropList } from './Sublevels/parseDrops.js';
 import { isDrainComp, isFishingComp, isMoundComp, parseDrainComponent, parseFishingComp, parseMoundComp } from './Sublevels/Objects/parseGroundWork.js';
 import { isSwitchableComp, parseSwitchableComp } from './Sublevels/Objects/parseSwitchables.js';
 import { isSpoutComp, parseSpoutComp } from './Sublevels/Objects/parseSpoutObstacles.js';
@@ -16,6 +13,10 @@ import { isBaseComp, parseBaseComp } from './Sublevels/Objects/parseBase.js';
 import { isCaveLinkComp, parseCaveLinkComp } from './Sublevels/Objects/parseCaveLinks.js';
 import { isCollectableComp, parseCollectableComp } from './Sublevels/Objects/parseCollectable.js';
 import { isFloorComp, parseFloorComp } from './Sublevels/Objects/parseFloorObstacle.js';
+import { isEggComp, parseEggComp } from './Sublevels/parseEgg.js';
+import { isGroupDropManagerComp, parseGroupDropManagerComp } from './Sublevels/parseGroupDropManager.js';
+import { isBreakObstacleComp, parseBreakObstacleComp } from './Sublevels/Objects/parseBreakObstacle.js';
+import { isMiscComp, parseMiscComp } from './Sublevels/Objects/parseMisc.js';
 
 /* 
  * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
@@ -60,19 +61,8 @@ export function parseSublevelsObjects(compsList) {
     else if (isFloorComp(comp)) {
       componentProps = parseFloorComp(comp, compsList);
     }
-    else if (comp.Properties.CrackPotAI) {
-      const crackPotComp = getObjectFromPath(comp.Properties.CrackPotAI, compsList);
-      componentProps = {
-        type: ObjectTypes.Pot,
-        drops: parseObjectDropList(crackPotComp)
-      };
-    }
-    else if (comp.Properties.CrushJellyAI) {
-      const crushJellyComp = getObjectFromPath(comp.Properties.CrushJellyAI, compsList);
-      componentProps = {
-        type: ObjectTypes.HydroJelly,
-        drops: parseObjectDropList(crushJellyComp)
-      };
+    else if (isBreakObstacleComp(comp)) {
+      componentProps = parseBreakObstacleComp(comp, compsList);
     }
     else if (isCaveLinkComp(comp)) {
       componentProps = parseCaveLinkComp(comp, compsList);
@@ -107,6 +97,15 @@ export function parseSublevelsObjects(compsList) {
     else if (isBaseComp(comp)) {
       componentProps = parseBaseComp(comp, compsList);
     }
+    else if (isMiscComp(comp)) {
+      componentProps = parseMiscComp(comp, compsList);
+    }
+    else if (isGroupDropManagerComp(comp)) {
+      componentProps = parseGroupDropManagerComp(comp, compsList);
+    }
+    else if (isEggComp(comp)) {
+      componentProps = parseEggComp(comp, compsList);
+    }
     else {
       // skip over this useless comp
       continue;
@@ -125,30 +124,37 @@ export function parseSublevelsObjects(compsList) {
 
 /*
 Objects to look at:
-"Name": "SprinklerAI" (location, maybe radius too?)
-"Name": "WarpCarryAI" tunnels?
-"Name": "HappyDoorAI" pup tunnels!
-"Name": "MizunukiAI" these are drains for water. They have a default "SwitchID" of "mizunuki"
+TrampolineAI
+OoAshibaKinokoAI // charge mushroom
+BookendAI
+TsuyukusaAI? spicy berries?
+"Name": "CharcoalAI" these things extinguish FireFloorAI
+IcicleAI
 
+// Night objects
 "Name": "WasurenagusaAI" forget-me-nots? This is Lumiknolls
 _00 = blue
 _01 = orange/red
 WasurenagusaMiniAI/NIGHTDECOY must be Trickknolls.
 
-"Name": "ExcavationAI" might be important
+//Nearest object modifiers
+"Name": "ExcavationAI" buried object
+"Name": "RopeBranchAI" hanging object
+"Name": "RopeFishingAI"
+"CrushJellyAIParameter.SearchCIDList"
+"AreaBaseCampParameter.CIDList"
+"AreaBaseCampParameter.BaseCampID"
 
-GKomushL_C
-GKomushS_C
-GKomush_C
-GMushL_C
-GMushS_C
-GMush_C
-GStickyMush_C
-GStickyMushB_C // maybe poison?
-GStickyMushC_C // maybe poison
-Drops TODO
-  IwakkoCrystal (scutterchuck?), coldbox, stickyfloor, komush
 
-EPikminColor::Mix
-"PelletColor": "EPikminColor::Yellow"
+// unimportant
+"HikariKinoko" glow mushroom. not important
+TriggerColdAI? causes pikmin to shiver
+ShakeObjectAI? unknown
+OjamaBlockAI? Rock blocking CfaK/Rescue Command expansion sites?
+CushionAI? probably just for pikmin "playing" triggers
+
+// enemy-like
+PelplantAI // cannot parse. These don't have DebugUniqueIds to link to positions
+
+EPikminColor::Mix? None?
 */

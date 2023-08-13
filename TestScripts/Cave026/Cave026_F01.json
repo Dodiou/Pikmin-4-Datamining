@@ -23,10 +23,56 @@
       }
     }
   ],
+  "crystal": [
+    {
+      "type": "crystal",
+      "transform": {
+        "translation": {
+          "x": 647.0821,
+          "y": 641.90186
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "transform": {
+        "translation": {
+          "x": 715.3951,
+          "y": 408.75275
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "transform": {
+        "translation": {
+          "x": 1068.4912,
+          "y": 700.2676
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "transform": {
+        "translation": {
+          "x": 966.8667,
+          "y": 749
+        }
+      }
+    },
+    {
+      "type": "crystal",
+      "transform": {
+        "translation": {
+          "x": 1054.4299,
+          "y": 456.08203
+        }
+      }
+    }
+  ],
   "pot": [
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 49.46338,
@@ -36,7 +82,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -50.11859,
@@ -46,7 +91,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -0.2078247,
@@ -56,7 +100,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 55.436607,
@@ -66,7 +109,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -0.2078247,

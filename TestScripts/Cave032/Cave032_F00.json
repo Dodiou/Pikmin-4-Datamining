@@ -326,7 +326,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": 394,
@@ -339,7 +338,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": 243,
@@ -352,11 +350,89 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": 699,
           "y": -983.25
+        }
+      }
+    }
+  ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 338,
+          "y": -1022
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 301,
+          "y": -920
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 375,
+          "y": -958
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 277,
+          "y": -861
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 414,
+          "y": -1035
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 735,
+          "y": -1027
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 751,
+          "y": -937
         }
       }
     }

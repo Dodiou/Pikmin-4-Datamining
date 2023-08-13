@@ -1,10 +1,7 @@
 import { GateVariants, ObjectTypes } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
+import { parseObjectDropList } from "../parseDrops.js";
 import { DefaultSwitchID } from "./parseSwitchables.js";
-
-function isNumberedGate(comp) {
-  return !!comp.Properties.TriggerDoorAI;
-}
 
 function parseNumberedGate(comp, compsList) {
   const triggerComp = getObjectFromPath(comp.Properties.TriggerDoorAI, compsList);
@@ -33,25 +30,32 @@ const VariantMap = {
   'Trigger': GateVariants.Numbered,
 }
 const VariantMatchRegex = '(' + Object.keys(VariantMap).join('|') + ')';
-function parseNonNumberedGate(comp, _compsList) {
-  // Reading gate type from Type currently. Is there a better way?
+function parseNonNumberedGate(comp, compsList) {
   const variantMatch = comp.Type.match(VariantMatchRegex)[1];
   const variant = VariantMap[variantMatch];
 
-  return {
+  const VarGateAI = getObjectFromPath(comp.Properties.VarGateAI, compsList);
+
+  return removeUndefineds({
     type: ObjectTypes.Gate,
-    variant
-  };
+    variant,
+    drops: parseObjectDropList(VarGateAI)
+  });
 }
 
 export function isGateComp(comp) {
-  return !!comp.Properties.WallAffordance;
+  return !!(
+    comp.Properties.VarGateAI ||
+    comp.Properties.TriggerDoorAI
+  );
 }
 
 export function parseGateComp(comp, compsList) {
-  if (isNumberedGate(comp)) {
+  if (comp.Properties.TriggerDoorAI) {
     return parseNumberedGate(comp, compsList);
   }
-
-  return parseNonNumberedGate(comp, compsList);
+  else if (comp.Properties.VarGateAI) {
+    return parseNonNumberedGate(comp, compsList);
+  }
+  throw new Error(`Unknown gate component ${comp.Type}`);
 }

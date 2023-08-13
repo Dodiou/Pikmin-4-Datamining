@@ -28,7 +28,6 @@
     {
       "type": "heatObstacle",
       "variant": "iceBox",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 153.83325,
@@ -39,7 +38,6 @@
     {
       "type": "heatObstacle",
       "variant": "iceBox",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -481.64764,
@@ -50,7 +48,6 @@
     {
       "type": "heatObstacle",
       "variant": "iceBox",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 134.41089,
@@ -96,7 +93,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 860,

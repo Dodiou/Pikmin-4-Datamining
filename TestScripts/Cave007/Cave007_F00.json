@@ -11,6 +11,52 @@
       }
     }
   ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -231.5,
+          "y": -180.29413
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -203.5,
+          "y": -160.18701
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -196.5,
+          "y": -76.797646
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -217.5,
+          "y": -121.36698
+        }
+      }
+    }
+  ],
   "water": [
     {
       "type": "water",
@@ -131,7 +177,7 @@
   "shortcut": [
     {
       "type": "shortcut",
-      "variant": "Root",
+      "variant": "root",
       "transform": {
         "translation": {
           "x": 554.8306,

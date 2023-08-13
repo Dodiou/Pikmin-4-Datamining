@@ -10,11 +10,11 @@ const AllDropValues = [
   'GPikminIce_C',
   'GHoney_C',
   'GPiecePick_C',
-  // Huh?? Glow pellets in Cave002_F00??
-  // This might just be a copy/paste thing form night enemies...
+  // This drop appears in non-night areas. might just be a copy/paste thing from night enemies.
+  // Or can you grow glow pikmin in caves too?
   'GHikariStation_C',
   'GHotExtract_C'
-]
+];
 
 const DropsToExclude = ['GHikariStation_C'];
 
@@ -47,6 +47,14 @@ export function parseObjectDropList(comp, defaultDrop = undefined) {
   const dropAmountMultiplier = comp.Properties.TateanaAIParameter?.NumDig || 1;
 
   return parseDropList(comp.Properties.ObjectAIParameter.DropParameter, defaultDrop, dropAmountMultiplier);
+}
+
+export function parseCreatureDropList(aiComp) {
+  if (!aiComp.Properties?.TekiAIParameter?.DropParameter?.DropItemParameter) {
+    return [];
+  }
+
+  return parseDropList(aiComp.Properties.TekiAIParameter.DropParameter);
 }
 
 // NOTE: Some objects have "RareDropParameter", but this always seems to be empty or with drop-rates,min,max set to 0.

@@ -151,7 +151,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 283.10764,
@@ -161,7 +160,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 188.52542,
@@ -171,7 +169,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 228.43597,
@@ -181,7 +178,6 @@
     },
     {
       "type": "pot",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 289.3271,
@@ -472,7 +468,7 @@
   "shortcut": [
     {
       "type": "shortcut",
-      "variant": "Root",
+      "variant": "root",
       "transform": {
         "translation": {
           "x": -550,
@@ -519,6 +515,184 @@
       }
     }
   ],
+  "mushroom": [
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 924,
+          "y": 384
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 925,
+          "y": 321
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 940,
+          "y": 443
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": 891,
+          "y": 440
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -576,
+          "y": 676
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -488,
+          "y": 650
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": true,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -528,
+          "y": 593
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -543,
+          "y": 224
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -467,
+          "y": 361
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -339,
+          "y": 345
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -297,
+          "y": 292
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -327,
+          "y": 179
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -447,
+          "y": 129
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -144,
+          "y": 352
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -114,
+          "y": 401
+        }
+      }
+    },
+    {
+      "type": "mushroom",
+      "isPoison": false,
+      "isLarge": false,
+      "transform": {
+        "translation": {
+          "x": -184,
+          "y": 373
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",
@@ -539,7 +713,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": -542,
@@ -552,7 +725,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 175,
-      "drops": [],
       "transform": {
         "translation": {
           "x": -121,
@@ -565,7 +737,6 @@
       "variant": "mushroom",
       "isPoison": false,
       "radius": 100,
-      "drops": [],
       "transform": {
         "translation": {
           "x": -419,

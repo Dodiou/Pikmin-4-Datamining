@@ -201,7 +201,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 440,
@@ -212,7 +211,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 439.99994,
@@ -223,7 +221,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 507,
@@ -234,7 +231,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1500.0001,
@@ -245,7 +241,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -1499.9999,
@@ -256,7 +251,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 41.000183,
@@ -267,7 +261,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -39.999817,
@@ -278,7 +271,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -579.00006,
@@ -289,7 +281,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -579.00006,
@@ -300,7 +291,6 @@
     {
       "type": "heatObstacle",
       "variant": "straw",
-      "drops": [],
       "transform": {
         "translation": {
           "x": -649,
@@ -312,7 +302,6 @@
   "hydroJelly": [
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 161,
@@ -339,7 +328,6 @@
     },
     {
       "type": "hydroJelly",
-      "drops": [],
       "transform": {
         "translation": {
           "x": 1116,

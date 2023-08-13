@@ -37,6 +37,7 @@ function parseStructureWallComp(BuildWallFlexibleAI) {
   return parseStructureProps(structureParams);
 }
 
+export const DefaultValveId = 'valve1';
 // PiecePutNum(8) + Defaults = 12 (Seafloor Resort floor 1)
 // All Defaults = 16 (All other valves)
 const ValveParamDefaults = {
@@ -50,7 +51,10 @@ const ValveParamDefaults = {
 }
 function parseStructureValveComp(ValveAI) {
   const structureParams = { ...ValveParamDefaults, ...ValveAI.Properties };
-  return parseStructureProps(structureParams);
+  return {
+    valveId: ValveAI.Properties?.ValveAIParam?.ValveID || DefaultValveId,
+    ...parseStructureProps(structureParams)
+  };
 }
 
 // Props             Mats Needed       Total       Object name

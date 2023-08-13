@@ -4,6 +4,17 @@ export function getObjectFromPath(component, allObjects) {
   return allObjects[compIndex];
 }
 
+// Used for Treasures and Creatures
+export function getInternalId(component) {
+  // Remove starting 'G' and ending '_C' from Type to get the name. Force uppercase
+  return component.Type.substring(1, component.Type.length - 2).toUpperCase();
+}
+
+export function removeLocalizationMetadata(localeStr) {
+  // Match all character between '[' and ']', non-greedy so it doesn't eat the entire string if multiple meta tags
+  return localeStr.split(/\[.*?\]/).join('');
+}
+
 const OstAreaNameToFolderId = {
   'HeroStory001': 'Area001',
   'HeroStory002': 'Area002',
