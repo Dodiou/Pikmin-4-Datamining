@@ -129,5 +129,187 @@
         }
       }
     }
+  ],
+  "icicle": [
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 146.41357,
+          "y": -420.01233
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 252.95215,
+          "y": 196.69519
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -303.04785,
+          "y": 48.69519
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -240.04785,
+          "y": 14.69519
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -449.58643,
+          "y": -273.01233
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 45.518433,
+          "y": 210.28732
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 59.941895,
+          "y": 246.5773
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 216.9419,
+          "y": 160.5773
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -481.58643,
+          "y": -66.01233
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 60.413574,
+          "y": -136.01233
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 201.41357,
+          "y": -428.01233
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 14.185791,
+          "y": -162.63269
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -538.04785,
+          "y": -58.30481
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -501.04785,
+          "y": -310.3048
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -387.04785,
+          "y": -260.3048
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -440.04785,
+          "y": -531.3048
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -402.04785,
+          "y": -478.3048
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -174.04785,
+          "y": -373.3048
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -196.58643,
+          "y": -330.01233
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -116.586426,
+          "y": -377.01233
+        }
+      }
+    }
   ]
 }

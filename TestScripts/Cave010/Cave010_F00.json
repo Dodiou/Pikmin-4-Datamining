@@ -127,6 +127,53 @@
       }
     }
   ],
+  "charcoal": [
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": -825.78424,
+          "y": -35.53524
+        }
+      }
+    },
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": 506.8219,
+          "y": -112.59143
+        }
+      }
+    },
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": 177.46751,
+          "y": -56.44268
+        }
+      }
+    },
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": 177.46751,
+          "y": -191.44269
+        }
+      }
+    },
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": 53.538513,
+          "y": -124.42178
+        }
+      }
+    }
+  ],
   "pikmin": [
     {
       "type": "pikmin",

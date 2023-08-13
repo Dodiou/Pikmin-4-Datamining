@@ -364,6 +364,17 @@
       }
     }
   ],
+  "charcoal": [
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": 669.49023,
+          "y": -182
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",

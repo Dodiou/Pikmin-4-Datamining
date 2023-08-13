@@ -21,6 +21,35 @@
       }
     }
   ],
+  "charcoal": [
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": 4.102844,
+          "y": -11.965759
+        }
+      }
+    },
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": -40.96469,
+          "y": 270.0691
+        }
+      }
+    },
+    {
+      "type": "charcoal",
+      "transform": {
+        "translation": {
+          "x": 30.035301,
+          "y": 249.06909
+        }
+      }
+    }
+  ],
   "fence": [
     {
       "type": "fence",

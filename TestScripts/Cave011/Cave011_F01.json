@@ -36,8 +36,7 @@
         "translation": {
           "x": -966,
           "y": 809
-        },
-        "rotation": 0
+        }
       }
     },
     {
@@ -48,8 +47,7 @@
         "translation": {
           "x": -1377,
           "y": 15
-        },
-        "rotation": 0
+        }
       }
     },
     {
@@ -59,8 +57,7 @@
         "translation": {
           "x": -164,
           "y": 91
-        },
-        "rotation": 0
+        }
       }
     },
     {
@@ -81,8 +78,7 @@
         "translation": {
           "x": 327,
           "y": 810
-        },
-        "rotation": 0
+        }
       }
     }
   ],

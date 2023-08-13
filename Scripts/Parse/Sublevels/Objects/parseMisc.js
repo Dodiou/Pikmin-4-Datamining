@@ -6,6 +6,8 @@ import { DefaultValveId } from "./parseStructure.js";
 export function isMiscComp(comp) {
   return !!(
     comp.Properties.SprinklerAI ||
+    comp.Properties.CharcoalAI ||
+    comp.Properties.IcicleAI ||
     comp.Properties.PelletAI ||
     comp.Properties.HoneyAI ||
     comp.Properties.IwakkoCrystalAI
@@ -24,6 +26,16 @@ export function parseMiscComp(comp, compsList) {
       type: ObjectTypes.Sprinkler,
       valveId,
       radius
+    };
+  }
+  else if (comp.Properties.CharcoalAI) {
+    return {
+      type: ObjectTypes.Charcoal
+    };
+  }
+  else if (comp.Properties.IcicleAI) {
+    return {
+      type: ObjectTypes.Icicle
     };
   }
   else if (comp.Properties.PelletAI) {

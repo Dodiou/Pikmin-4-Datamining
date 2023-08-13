@@ -114,5 +114,97 @@
         }
       }
     }
+  ],
+  "icicle": [
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 260.7101,
+          "y": -923.6985
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 225,
+          "y": -525
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 232.04048,
+          "y": -954.7704
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 231.63593,
+          "y": -996.12695
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 303.70663,
+          "y": -1022.9938
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 302,
+          "y": -919
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 333.32758,
+          "y": -993.4708
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 330.59143,
+          "y": -951.0116
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 260.7101,
+          "y": -1025.3015
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 270,
+          "y": -475
+        }
+      }
+    }
   ]
 }

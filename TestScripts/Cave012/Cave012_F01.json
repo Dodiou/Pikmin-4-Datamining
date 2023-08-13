@@ -344,5 +344,43 @@
         }
       }
     }
+  ],
+  "icicle": [
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -443,
+          "y": -1.5
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 530,
+          "y": -740.5
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 389,
+          "y": -711.5
+        }
+      }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": 137,
+          "y": 77.5
+        }
+      }
+    }
   ]
 }

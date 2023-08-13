@@ -1,6 +1,6 @@
 import { Euler, Quaternion } from 'three';
 
-import { ObjectTypes, StructureVariants } from "./types.js";
+import { ObjectTypes, ShortcutVariants, StructureVariants } from "./types.js";
 
 const ImportantRotations = [
   ObjectTypes.Conveyor,
@@ -12,7 +12,7 @@ const ImportantRotations = [
   ObjectTypes.Switch,
   ObjectTypes.Water
 ];
-const RotationVariantExceptions = [StructureVariants.Valve];
+const RotationVariantExceptions = [StructureVariants.Valve, ShortcutVariants.Geyser];
 
 const ImportantScales = [];
 const ScaleVariantExceptions = [];
