@@ -40,6 +40,30 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": 671.10095,
+          "y": 699.87213
+        },
+        "rotation": -130
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": 775.9964,
+          "y": 532.3526
+        },
+        "rotation": 55
+      }
+    }
+  ],
   "base": [
     {
       "type": "base",

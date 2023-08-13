@@ -98,6 +98,7 @@
     },
     {
       "type": "shortcut",
+      "variant": "zipline",
       "transform": {
         "translation": {
           "x": -209.83972,

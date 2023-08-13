@@ -651,6 +651,17 @@
     },
     {
       "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 2450.8853,
+          "y": -570.19
+        },
+        "rotation": 165
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "string",
       "weight": 5,
       "transform": {
@@ -659,6 +670,72 @@
           "y": -44
         },
         "rotation": -135
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": -753,
+          "y": 1852
+        },
+        "rotation": -6
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": -777.44995,
+          "y": 2126.9487
+        },
+        "rotation": -13
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 3096,
+          "y": -1213
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 2384.6138,
+          "y": -265
+        },
+        "rotation": 165
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 2945,
+          "y": -1172
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 2537.117,
+          "y": -824.60406
+        },
+        "rotation": 165
       }
     },
     {
@@ -680,6 +757,28 @@
           "x": -4300,
           "y": 1027
         }
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": -3388,
+          "y": -153
+        },
+        "rotation": 35
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": -3210,
+          "y": -70
+        },
+        "rotation": 35
       }
     }
   ],

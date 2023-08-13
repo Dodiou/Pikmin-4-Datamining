@@ -77,6 +77,97 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": -275,
+          "y": 137.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "zipline",
+      "transform": {
+        "translation": {
+          "x": -541.5639,
+          "y": -218.00455
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "pushbag",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -230.5,
+          "y": 550
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 391,
+          "y": 0
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 565,
+          "y": -275
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 550,
+          "y": 190
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": -2,
+          "y": 310.5
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": -139,
+          "y": -275
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "conveyor": [
     {
       "type": "conveyor",
@@ -140,30 +231,6 @@
           "x": -563.04083,
           "y": 846.9457
         }
-      }
-    }
-  ],
-  "shortcut": [
-    {
-      "type": "shortcut",
-      "transform": {
-        "translation": {
-          "x": -541.5639,
-          "y": -218.00455
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": -230.5,
-          "y": 550
-        },
-        "rotation": 90
       }
     }
   ],

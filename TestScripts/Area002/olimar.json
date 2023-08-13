@@ -747,6 +747,30 @@
       }
     }
   ],
+  "shortcut": [
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 348.2003,
+          "y": 902.1268
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 239.05856,
+          "y": 1071.6542
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "crystal": [
     {
       "type": "crystal",

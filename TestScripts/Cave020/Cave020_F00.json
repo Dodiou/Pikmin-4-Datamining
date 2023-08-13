@@ -252,6 +252,17 @@
         },
         "rotation": -90
       }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 280,
+          "y": 826
+        },
+        "rotation": 0
+      }
     }
   ],
   "mound": [

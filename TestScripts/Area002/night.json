@@ -170,6 +170,50 @@
     },
     {
       "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": -537.7697,
+          "y": -2569.7075
+        },
+        "rotation": -22.523
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": -482.1119,
+          "y": -2723.8984
+        },
+        "rotation": 64.107
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": -314.49823,
+          "y": -2975.1677
+        },
+        "rotation": 42.153
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "chargeShroom",
+      "transform": {
+        "translation": {
+          "x": -419.23035,
+          "y": -2876.1619
+        },
+        "rotation": -37.898
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "pushbag",
       "weight": 10,
       "transform": {

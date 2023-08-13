@@ -112,6 +112,7 @@ export const ShortcutVariants = {
   SquashBag: 'squashbag',
   Stick: 'stick',
   String: 'string',
+  Zipline: 'zipline'
 }
 
 export const SpoutVariants = {

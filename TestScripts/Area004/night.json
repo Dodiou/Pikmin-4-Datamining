@@ -109,6 +109,17 @@
     },
     {
       "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 1491.6277,
+          "y": 2943.0867
+        },
+        "rotation": -28.125
+      }
+    },
+    {
+      "type": "shortcut",
       "variant": "string",
       "weight": 5,
       "transform": {
@@ -129,6 +140,17 @@
           "y": 2368
         },
         "rotation": 180
+      }
+    },
+    {
+      "type": "shortcut",
+      "variant": "bounceShroom",
+      "transform": {
+        "translation": {
+          "x": 1943.6277,
+          "y": 2102.0867
+        },
+        "rotation": -28.125
       }
     },
     {

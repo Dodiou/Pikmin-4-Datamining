@@ -319,6 +319,7 @@
     },
     {
       "type": "shortcut",
+      "variant": "zipline",
       "transform": {
         "translation": {
           "x": 3000,
@@ -353,6 +354,7 @@
     },
     {
       "type": "shortcut",
+      "variant": "zipline",
       "transform": {
         "translation": {
           "x": -482.4806,

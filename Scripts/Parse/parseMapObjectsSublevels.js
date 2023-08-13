@@ -17,6 +17,7 @@ import { isEggComp, parseEggComp } from './Sublevels/parseEgg.js';
 import { isGroupDropManagerComp, parseGroupDropManagerComp } from './Sublevels/parseGroupDropManager.js';
 import { isBreakObstacleComp, parseBreakObstacleComp } from './Sublevels/Objects/parseBreakObstacle.js';
 import { isMiscComp, parseMiscComp } from './Sublevels/Objects/parseMisc.js';
+import { isPlatformComp, parsePlatformComp } from './Sublevels/Objects/parsePlatforms.js';
 
 /* 
  * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
@@ -76,6 +77,9 @@ export function parseSublevelsObjects(compsList) {
     else if (isShortcutComp(comp)) {
       componentProps = parseShortcutComp(comp, compsList);
     }
+    else if (isPlatformComp(comp)) {
+      componentProps = parsePlatformComp(comp);
+    }
     else if (isMoundComp(comp)) {
       componentProps = parseMoundComp(comp, compsList);
     }
@@ -124,12 +128,8 @@ export function parseSublevelsObjects(compsList) {
 
 /*
 Objects to look at:
-TrampolineAI
-OoAshibaKinokoAI // charge mushroom
 BookendAI
 TsuyukusaAI? spicy berries?
-"Name": "CharcoalAI" these things extinguish FireFloorAI
-IcicleAI
 
 // Night objects
 "Name": "WasurenagusaAI" forget-me-nots? This is Lumiknolls
@@ -154,7 +154,7 @@ OjamaBlockAI? Rock blocking CfaK/Rescue Command expansion sites?
 CushionAI? probably just for pikmin "playing" triggers
 
 // enemy-like
-PelplantAI // cannot parse. These don't have DebugUniqueIds to link to positions
+PelplantAI // cannot parse in this file. These don't have DebugUniqueIds to link to positions
 
 EPikminColor::Mix? None?
 */

@@ -134,6 +134,7 @@
   "shortcut": [
     {
       "type": "shortcut",
+      "variant": "zipline",
       "transform": {
         "translation": {
           "x": 1997,
