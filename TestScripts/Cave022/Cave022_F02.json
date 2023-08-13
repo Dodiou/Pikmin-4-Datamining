@@ -319,6 +319,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -745,

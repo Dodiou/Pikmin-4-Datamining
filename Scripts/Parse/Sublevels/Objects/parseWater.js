@@ -50,9 +50,11 @@ function getTextureFilename(fullpath, extension = '.png') {
   return fullpath.substring(fullpath.lastIndexOf('/') + 1, fullpath.lastIndexOf('.')) + extension;
 }
 
-// it looks like water levels in places other than Serene Shores were planned to be changeable, but was later scrapped
+// it looks like these were planned to be changeable, but were scrapped.
 const EXCLUDE_CHANGE_WATER_TEXTURES = ['T_ui_Map_Cave022_F02_WaterBox00_ChangeDist_D', 'T_ui_Map_HeroStory002_WaterBox00_Hero_ChangeDist_D'];
 function getWaterRadarTextures(waterTexture, changedTexture) {
+  // NOTE: there is 1 waterbox in Cave016_F17 (CfaK, Sovereign Bulblax) that does not have a radar image
+  //       this the press floor/squishy terrain. No waterbox, but there is water
   const normal = getTextureFilename(waterTexture?.ObjectPath);
   const dynamic = getTextureFilename(changedTexture?.ObjectPath);
 
@@ -69,10 +71,7 @@ function getWaterRadarTextures(waterTexture, changedTexture) {
 
 export function isWaterComp(comp) {
   return !!(
-    (comp.Properties.WaterCarrotTrigger || comp.Properties.SwampCarrotTrigger) &&
-    // NOTE: there is 1 waterbox in Cave016_F17 (CfaK, Empress Bulblax) that does not have a radar image
-    //       the water also does not appear in game.
-    comp.Properties.RadarMapWBTexture
+    comp.Properties.WaterCarrotTrigger || comp.Properties.SwampCarrotTrigger
   );
 }
 
@@ -86,7 +85,6 @@ export function parseWaterComp(comp, compsList) {
   const waterBoxAIComp = getObjectFromPath(comp.Properties.WaterBoxAI, compsList);
   const dynamicData = parseWaterBoxAIComp(waterBoxAIComp, textureData.dynamic, waterData.normal);
 
-  // TODO: add 'WaterBoxAIParameter?.WaterLevel?.WaterBoxSwitchID'?
   return {
     ...dynamicData,
     ...waterData

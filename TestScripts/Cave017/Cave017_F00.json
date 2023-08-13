@@ -300,6 +300,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -271.00073,
@@ -311,6 +312,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -277,
@@ -322,6 +324,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 65.00037,
@@ -333,6 +336,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 66.99927,
@@ -344,6 +348,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 904.99927,
@@ -355,6 +360,7 @@
     {
       "type": "gate",
       "variant": "numbered",
+      "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 545.99927,

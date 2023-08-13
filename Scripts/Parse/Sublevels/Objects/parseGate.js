@@ -1,5 +1,6 @@
 import { GateVariants, ObjectTypes } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
+import { DefaultSwitchID } from "./parseSwitchables.js";
 
 function isNumberedGate(comp) {
   return !!comp.Properties.TriggerDoorAI;
@@ -8,13 +9,18 @@ function isNumberedGate(comp) {
 function parseNumberedGate(comp, compsList) {
   const triggerComp = getObjectFromPath(comp.Properties.TriggerDoorAI, compsList);
 
-  // TODO: number = TriggerDoorAIParameter.CIDList.length
+  // TODO: number actually depends on objects in level with CID in list, not just the length
+  const number = triggerComp.Properties?.TriggerDoorAIParameter?.CIDList?.length
+  // These DO have a default of 'switch01'. See Cave022_F02
+  // ...but only if no CIDList. See Cave035_F05
+  const switchId = number !== undefined
+    ? undefined
+    : triggerComp.Properties?.TriggerDoorAIParameter?.SwitchID || DefaultSwitchID
 
   return removeUndefineds({
     type: ObjectTypes.Gate,
     variant: GateVariants.Numbered,
-    // no default for switch ID. default is to use CIDList.
-    switchId: triggerComp.Properties?.TriggerDoorAIParameter?.SwitchID
+    switchId
   });
 }
 

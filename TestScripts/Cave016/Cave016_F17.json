@@ -75,5 +75,21 @@
         }
       }
     }
+  ],
+  "water": [
+    {
+      "type": "water",
+      "variant": "water",
+      "normal": {
+        "amountToFreeze": 50
+      },
+      "transform": {
+        "translation": {
+          "x": -28.074768,
+          "y": 153.77588
+        },
+        "rotation": 0
+      }
+    }
   ]
 }
