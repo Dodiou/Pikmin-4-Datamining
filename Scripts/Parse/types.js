@@ -143,3 +143,27 @@ export const CaveLinkVariants = {
   Challenge: 'challenge',
   Exit: 'exit'
 }
+
+export const PikminColor = {
+  Red: 'red',
+  Yellow: 'yellow',
+  Blue: 'blue',
+  Purple: 'purple',
+  White: 'white',
+  Rock: 'rock',
+  Wing: 'wing',
+  Ice: 'ice',
+  Glow: 'glow',
+}
+
+export const PikminColorEnumMap = {
+  "EPikminColor::Red": PikminColor.Red,
+  "EPikminColor::Yellow": PikminColor.Yellow,
+  "EPikminColor::Blue": PikminColor.Blue,
+  "EPikminColor::Purple": PikminColor.Purple,
+  "EPikminColor::White": PikminColor.White,
+  "EPikminColor::Rock": PikminColor.Rock,
+  "EPikminColor::Wing": PikminColor.Wing,
+  "EPikminColor::Ice": PikminColor.Ice,
+  "EPikminColor::Photon": PikminColor.Glow,
+}

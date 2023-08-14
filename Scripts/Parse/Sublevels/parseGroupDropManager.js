@@ -12,7 +12,10 @@ export function parseGroupDropManagerComp(comp, compsList) {
 
   const ignoreIds = GroupDropManager.Properties.GroupDropManagerAIParameter.IgnoreCIDList;
   const radius = GroupDropManager.Properties.GroupDropManagerAIParameter.GroupingRadius;
-  const drops = parseDropList(GroupDropManager.Properties.GroupDropManagerAIParameter.DropParameter);
+  // TODO: there are a few GorupDropManager's that don't drop anything. Do they have a default?
+  const drops = GroupDropManager.Properties.GroupDropManagerAIParameter?.DropParameter?.DropItemParameter
+    ? parseDropList(GroupDropManager.Properties.GroupDropManagerAIParameter.DropParameter)
+    : [];
   if (drops.length !== 1) {
     console.warn('GroupDropManager drops something other than a single item.');
   }

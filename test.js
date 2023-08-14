@@ -1,8 +1,9 @@
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
-import { parseSublevelsObjects } from "./Scripts/Parse/parseMapObjectsSublevels.js";
+import { parseSublevelsObjects } from "./Scripts/Parse/parseMapSublevels.js";
 import { parseObjectLocations } from "./Scripts/Parse/parseMapActorLocations.js";
 import { parseRootMapComponents } from "./Scripts/Parse/parseRootMapFile.js";
 import { groupBy, preprocessJSON } from "./Scripts/Parse/util.js";
+import { debugDropItems } from "./Scripts/Parse/Sublevels/parseDrops.js";
 
 function parseObjectFiles(sublevelFile, placementFile) {
   const sublevelJson = JSON.parse(preprocessJSON(readFileSync(sublevelFile).toString()));
@@ -58,4 +59,5 @@ Object.entries(areaHasOlimar).forEach(([area, hasOlimar]) => {
   console.log("Parsed:", area);
 });
 
+debugDropItems();
 writeFileSync(`./TestScripts/area-transforms.json`, JSON.stringify(mapTransforms, undefined, 2));

@@ -18,99 +18,23 @@ import { isGroupDropManagerComp, parseGroupDropManagerComp } from './Sublevels/p
 import { isBreakObstacleComp, parseBreakObstacleComp } from './Sublevels/Objects/parseBreakObstacle.js';
 import { isMiscComp, parseMiscComp } from './Sublevels/Objects/parseMisc.js';
 import { isPlatformComp, parsePlatformComp } from './Sublevels/Objects/parsePlatforms.js';
-
-/* 
- * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
- *       "Sublevels" JSON.
- *       E.g., AI.Static[0] = NoraSpawnerAI.NoraSpawnerAIParam.NumSpawn
- *             AI.Static[12] = NoraSpawnerAI.NoraSpawnerAIParam.PikminColor (converted from enum to int)
- *             AI.Dynamic[36] = PieceStationAI.Properties.PieceNum
- *       These "AI" props are hard to figure out meaning though. It's easier to read
- *       these sublevels files for now.
- */
+import { isCreatureComp, parseCreatureComp } from './Sublevels/parseCreature.js';
 
 /**
  * Finds root object components by DebugUniqueId
  * @param {*} compsList The entire JSON file for {Map}/Sublevels/{Map}_Objects.json
- * @param {*} debugUuids The entire list of DebugUniqueId's from {Map}/ActorPlacementInfo/{Map}_Objects.json
  * @returns 
  */
-export function parseSublevelsObjects(compsList) {
+function parseSublevelsComponents(compsList, propsFinderFunc) {
   const rootComps = compsList.filter(comp => {
     return comp.Properties?.GenerateInfo?.DebugUniqueId != undefined
   });
 
   const componentPropsDict = {};
   for(const comp of rootComps) {
-    let componentProps = {};
+    let componentProps = propsFinderFunc(comp);
 
-    if (isPikminSpawnerComp(comp)) {
-      componentProps = parsePikminSpawnerComp(comp, compsList);
-    }
-    else if (isCollectableComp(comp)) {
-      componentProps = parseCollectableComp(comp, compsList);
-    }
-    else if (isPieceStationComp(comp)) {
-      componentProps = parsePieceStationComp(comp, compsList);
-    }
-    else if (isStructureComp(comp)) {
-      componentProps = parseStructureComp(comp, compsList);
-    }
-    else if (isHeatObstacleComp(comp)) {
-      componentProps = parseHeatObstacleComp(comp, compsList);
-    }
-    else if (isFloorComp(comp)) {
-      componentProps = parseFloorComp(comp, compsList);
-    }
-    else if (isBreakObstacleComp(comp)) {
-      componentProps = parseBreakObstacleComp(comp, compsList);
-    }
-    else if (isCaveLinkComp(comp)) {
-      componentProps = parseCaveLinkComp(comp, compsList);
-    }
-    else if (isSpoutComp(comp)) {
-      componentProps = parseSpoutComp(comp);
-    }
-    else if (isSwitchableComp(comp)) {
-      componentProps = parseSwitchableComp(comp, compsList);
-    }
-    else if (isShortcutComp(comp)) {
-      componentProps = parseShortcutComp(comp, compsList);
-    }
-    else if (isPlatformComp(comp)) {
-      componentProps = parsePlatformComp(comp);
-    }
-    else if (isMoundComp(comp)) {
-      componentProps = parseMoundComp(comp, compsList);
-    }
-    else if (isDrainComp(comp)) {
-      componentProps = parseDrainComponent(comp, compsList);
-    }
-    else if (isFishingComp(comp)) {
-      componentProps = parseFishingComp(comp, compsList);
-    }
-    else if (isGroundItemComp(comp)) {
-      componentProps = parseGroundItemComp(comp);
-    }
-    else if (isGateComp(comp)) {
-      componentProps = parseGateComp(comp, compsList);
-    }
-    else if (isWaterComp(comp)) {
-      componentProps = parseWaterComp(comp, compsList);
-    }
-    else if (isBaseComp(comp)) {
-      componentProps = parseBaseComp(comp, compsList);
-    }
-    else if (isMiscComp(comp)) {
-      componentProps = parseMiscComp(comp, compsList);
-    }
-    else if (isGroupDropManagerComp(comp)) {
-      componentProps = parseGroupDropManagerComp(comp, compsList);
-    }
-    else if (isEggComp(comp)) {
-      componentProps = parseEggComp(comp, compsList);
-    }
-    else {
+    if (!componentProps) {
       // skip over this useless comp
       continue;
     }
@@ -124,6 +48,117 @@ export function parseSublevelsObjects(compsList) {
   return componentPropsDict;
 }
 
+/*
+ * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
+ *       "Sublevels" JSON.
+ *       E.g., AI.Static[0] = NoraSpawnerAI.NoraSpawnerAIParam.NumSpawn
+ *             AI.Static[12] = NoraSpawnerAI.NoraSpawnerAIParam.PikminColor (converted from enum to int)
+ *             AI.Dynamic[36] = PieceStationAI.Properties.PieceNum
+ *       These "AI" props are hard to figure out meaning though. It's easier to read
+ *       these sublevels files for now.
+ */
+
+/**
+ * Parse object components by finding them in the objComps list. Pushes interesting objects, their props, and their
+ * DebugUniqueId's to the returned Map object.
+ * @param {*} objComps The entire JSON file for {Map}/Sublevels/{Map}_Objects.json
+ * @returns 
+ */
+export function parseSublevelsObjects(objComps) {
+  return parseSublevelsComponents(objComps, (comp) => {
+    if (isPikminSpawnerComp(comp)) {
+      return parsePikminSpawnerComp(comp, objComps);
+    }
+    else if (isCollectableComp(comp)) {
+      return parseCollectableComp(comp, objComps);
+    }
+    else if (isPieceStationComp(comp)) {
+      return parsePieceStationComp(comp, objComps);
+    }
+    else if (isStructureComp(comp)) {
+      return parseStructureComp(comp, objComps);
+    }
+    else if (isHeatObstacleComp(comp)) {
+      return parseHeatObstacleComp(comp, objComps);
+    }
+    else if (isFloorComp(comp)) {
+      return parseFloorComp(comp, objComps);
+    }
+    else if (isBreakObstacleComp(comp)) {
+      return parseBreakObstacleComp(comp, objComps);
+    }
+    else if (isCaveLinkComp(comp)) {
+      return parseCaveLinkComp(comp, objComps);
+    }
+    else if (isSpoutComp(comp)) {
+      return parseSpoutComp(comp);
+    }
+    else if (isSwitchableComp(comp)) {
+      return parseSwitchableComp(comp, objComps);
+    }
+    else if (isShortcutComp(comp)) {
+      return parseShortcutComp(comp, objComps);
+    }
+    else if (isPlatformComp(comp)) {
+      return parsePlatformComp(comp);
+    }
+    else if (isMoundComp(comp)) {
+      return parseMoundComp(comp, objComps);
+    }
+    else if (isDrainComp(comp)) {
+      return parseDrainComponent(comp, objComps);
+    }
+    else if (isFishingComp(comp)) {
+      return parseFishingComp(comp, objComps);
+    }
+    else if (isGroundItemComp(comp)) {
+      return parseGroundItemComp(comp);
+    }
+    else if (isGateComp(comp)) {
+      return parseGateComp(comp, objComps);
+    }
+    else if (isWaterComp(comp)) {
+      return parseWaterComp(comp, objComps);
+    }
+    else if (isBaseComp(comp)) {
+      return parseBaseComp(comp, objComps);
+    }
+    else if (isMiscComp(comp)) {
+      return parseMiscComp(comp, objComps);
+    }
+    else if (isGroupDropManagerComp(comp)) {
+      return parseGroupDropManagerComp(comp, objComps);
+    }
+    else if (isEggComp(comp)) {
+      return parseEggComp(comp, objComps);
+    }
+    // skip over this useless comp
+    return undefined;
+  });
+}
+
+
+/**
+ * Parse teki components by finding them in the tekiComps list. Pushes interesting objects, their props, and their
+ * DebugUniqueId's to the returned Map object.
+ * @param {*} tekiComps The entire JSON file for {Map}/Sublevels/{Map}_Teki.json
+ * @returns 
+ */
+export function parseSublevelsTekis(tekiComps) {
+  return parseSublevelsComponents(tekiComps, (comp) => {
+    if (isGroupDropManagerComp(comp)) {
+      return parseGroupDropManagerComp(comp, tekiComps);
+    }
+    else if (isEggComp(comp)) {
+      return parseEggComp(comp, tekiComps);
+    }
+    else if (isCreatureComp(comp)) {
+      return parseCreatureComp(comp, tekiComps);
+    }
+    // skip over this component. Unknown what it is.
+    return undefined;
+  });
+}
 
 
 /*
