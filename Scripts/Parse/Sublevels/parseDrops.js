@@ -101,6 +101,101 @@ export function parseCreatureDropList(aiComp) {
   return parseDropList(aiComp.Properties.TekiAIParameter.DropParameter);
 }
 
+// Note: Drops for flint beetles use KoganeBaseAIParameter instead.
+//       See: Area001 Teki_Day beetle, near the pond near the challenge cave
+//       It drops 1 pellet, three 1 pellets, two 5 pellets instead of its TekiAI drop list.
+const DefaultIridescentBeetleDrops = [
+  {
+    item: 'GPellet1_C',
+    chance: 1.0,
+    min: 1,
+    max: 1,
+  },
+  {
+    item: 'GPellet1_C',
+    chance: 1.0,
+    min: 3,
+    max: 3,
+  },
+  {
+    item: 'GPellet5_C',
+    chance: 1.0,
+    min: 2,
+    max: 2,
+  }
+];
+// See: Area006 Teki_Day beetle, near the tunnel near landing site 2
+const DefaultGoldenBeetleDrops = [
+  {
+    item: 'GHotExtract_C',
+    chance: 1.0,
+    min: 1,
+    max: 1,
+  },
+  {
+    item: 'GHotExtract_C',
+    chance: 1.0,
+    min: 2,
+    max: 2,
+  },
+  {
+    item: 'GHotExtract_C',
+    chance: 1.0,
+    min: 3,
+    max: 3,
+  }
+];
+// stinkbug. Drops seem random. These are the ones I have seen.
+const DefaultDoodleBugDrops = [
+  {
+    item: 'GIceBomb_C',
+    chance: 0.5,
+    min: 1,
+    max: 3,
+  },
+  {
+    item: 'GBomb_C',
+    chance: 0.5,
+    min: 1,
+    max: 3,
+  },
+  {
+    item: 'GTamagoMushi_C', // Mitites.
+    chance: 0.0, // unknown chance
+    min: 8,
+    max: 8,
+  },
+  {
+    item: 'GHotExtract_C', // very low chance. also had 2 bombs with it.
+    chance: 0.0, // unknown chance
+    min: 1,
+    max: 1,
+  },
+];
+export function parseFlintBeetleDropList(aiComp) {
+  if (!aiComp.Type.includes('Kogane')) {
+    throw new Error(`Trying to add Flint Beetle drops for a non-Flint Beetle: ${comp.Type}`);
+  }
+
+  if (aiComp.Properties?.KoganeBaseAIParameter?.DropParameter?.ParameterList) {
+    const dropItemsList = aiComp.Properties.KoganeBaseAIParameter.DropParameter.ParameterList.reduce(
+      (collector, curDropList) => {
+        return [...collector, ...curDropList.DropItemParameter]
+      },
+      []
+    );
+    return parseDropList({ DropItemParameter: dropItemsList });
+  }
+
+  if (aiComp.Type.startsWith('Oo')) {
+    return DefaultGoldenBeetleDrops;
+  }
+  else if (aiComp.Type.startsWith('Gas')) {
+    return DefaultDoodleBugDrops;
+  }
+  return DefaultDoodleBugDrops;
+}
+
 // NOTE: Some objects have "RareDropParameter", but this always seems to be empty or with drop-rates,min,max set to 0.
 export function parseDropList(DropParameter, defaultDrop = undefined, dropAmountMultiplier = 1) {
   // TODO: a few have "null" DropActor's. What are the default drops?

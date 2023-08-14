@@ -255,22 +255,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GPellet1_C",
-          "chance": 1,
-          "min": 2,
-          "max": 2
-        },
-        {
-          "item": "GHoney_C",
+          "item": "GPiecePick_C",
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPellet5_C",
+          "item": "GPiecePick_C",
           "chance": 1,
-          "min": 2,
-          "max": 2
+          "min": 6,
+          "max": 6
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
         }
       ],
       "transform": {

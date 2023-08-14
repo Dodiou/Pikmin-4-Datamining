@@ -2,7 +2,7 @@ import { default as EnemyData } from '../../../Enemy Data/BaseData.json' assert 
 import { default as EnemyNames } from '../../../Localization/GenseiName/en-US/GenseiName.json' assert { type: 'json' };
 import { ObjectTypes } from '../types.js';
 import { getInternalId, getObjectFromPath, removeLocalizationMetadata, removeUndefineds } from "../util.js";
-import { parseCreatureDropList } from './parseDrops.js';
+import { parseCreatureDropList, parseFlintBeetleDropList } from './parseDrops.js';
 
 const CreatureIdMap = {
   'BIGCHAPPY': 'BIGCHAPPY_NIGHT',
@@ -50,6 +50,11 @@ export function parseCreatureComp(comp, compsList) {
   }
   const creatureName = removeLocalizationMetadata(CreatureNamesMap[creatureId]);
 
+  // Note: flint-beetles ignore normal TekiAIParameter drops.
+  let drops = !aiComponentKey.includes("Kogane")
+    ? parseCreatureDropList(AIComponent)
+    : parseFlintBeetleDropList(AIComponent);
+
   return removeUndefineds({
     type: ObjectTypes.Creature,
     creatureId,
@@ -58,6 +63,6 @@ export function parseCreatureComp(comp, compsList) {
     carryMax: creature.CarryWeightMax,
     value: creature.Kira,
     seeds: creature.CarryIncPikmins,
-    drops: parseCreatureDropList(AIComponent)
+    drops
   });
 }
