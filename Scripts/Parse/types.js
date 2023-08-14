@@ -88,12 +88,9 @@ export const PikminVariants = {
 
 export const StructureVariants = {
   Bridge: 'bridge',
-  Geyser: 'geyser', // aka the "Slide Rails"
   Slope: 'slope',
-  Stick: 'stick', // aka the "Slide Rails"
   Valve: 'valve',
   Wall: 'wall',
-  Zipline: 'zipline', // aka the "Slide Rails"
 }
 
 export const WaterVariants = {
