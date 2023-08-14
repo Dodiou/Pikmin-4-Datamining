@@ -411,5 +411,213 @@
         }
       }
     }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 469.75,
+          "y": -772.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 540.5,
+          "y": -771.25
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -451.25,
+          "y": 1045.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -362.5,
+          "y": 1046.75
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -963.5,
+          "y": 344.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -963.5,
+          "y": 799.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 963.5,
+          "y": 413.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AWADAKO",
+      "name": "Waddlepus",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 273.5,
+          "y": 977.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -160.5,
+          "y": -1013.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 439.5,
+          "y": -308.5
+        }
+      }
+    }
   ]
 }

@@ -121,5 +121,127 @@
         }
       }
     }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "Kogane",
+        "Egg"
+      ],
+      "radius": 600,
+      "drops": [
+        {
+          "item": "GSurvivorA_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 15,
+          "max": 15
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -10,
+          "y": 420
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 489.3081,
+          "y": 449.34418
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 436.66748,
+          "y": 402.9709
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -38,
+          "y": 443
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 53,
+          "y": 362
+        }
+      }
+    }
   ]
 }

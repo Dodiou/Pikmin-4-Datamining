@@ -294,5 +294,185 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 164,
+          "y": -1249.5002
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -149,
+          "y": -1227.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 685.00024,
+          "y": 964.49963
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIREOTAKARA",
+      "name": "Fiery Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -157,
+          "y": 1247.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIREOTAKARA",
+      "name": "Fiery Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -192,
+          "y": 929.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "OOKURAGE",
+      "name": "Greater Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -39,
+          "y": -6.5
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -29,
+          "y": 1361.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -3,
+          "y": 1396.5
+        }
+      }
+    }
   ]
 }

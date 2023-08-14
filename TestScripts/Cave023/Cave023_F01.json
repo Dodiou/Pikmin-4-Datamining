@@ -282,5 +282,217 @@
         "rotation": -90
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 366.1631,
+          "y": -885.8506
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 881.6907,
+          "y": 873.15497
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -625.2196,
+          "y": 867.95514
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -483.27118,
+          "y": 701.85144
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -574.79517,
+          "y": -876.62524
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -808.4175,
+          "y": -659.68274
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -739.25055,
+          "y": -469.69983
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GBabyCrow_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 988.6941,
+          "y": -397.45947
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 893.8469,
+          "y": -572.47217
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 998.0552,
+          "y": -598.1537
+        }
+      }
+    }
   ]
 }

@@ -488,5 +488,241 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -503.75,
+          "y": 1.75
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -972,
+          "y": 964
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 540.5,
+          "y": -909.61224
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 62.5,
+          "y": -131.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 756.75,
+          "y": 71.75
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -909,
+          "y": -592.75
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 416.75,
+          "y": 71.75
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 460.10547,
+          "y": -800.69617
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -536.25,
+          "y": -1059.25
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -480.5,
+          "y": -1066.25
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 659.66614,
+          "y": 1047.5139
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 594,
+          "y": 1042.25
+        }
+      }
+    }
   ]
 }

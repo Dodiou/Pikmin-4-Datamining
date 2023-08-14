@@ -254,5 +254,141 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -555.59155,
+          "y": -5.346924
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 379.3936,
+          "y": 48.23298
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -121.5,
+          "y": 996.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": 315.0538,
+          "y": 181.79477
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "Kochappy",
+        "Mush"
+      ],
+      "radius": 125,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -374.16232,
+          "y": -264.78314
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "Kochappy",
+        "Mush",
+        "CrackPotL",
+        "CrackPotS"
+      ],
+      "radius": 120,
+      "drops": [
+        {
+          "item": "GPikminIce_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 817.2479,
+          "y": 251.11688
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "Kochappy",
+        "Mush"
+      ],
+      "radius": 69.201416,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -600.3122,
+          "y": 416.39087
+        }
+      }
+    }
   ]
 }

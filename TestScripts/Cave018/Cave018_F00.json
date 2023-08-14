@@ -482,5 +482,571 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "MIULIN",
+      "name": "Mamuta",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GOtaNashi_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1367.057,
+          "y": 670.76764
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGUJINKO",
+      "name": "Mama Sheargrub",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -914.42444,
+          "y": 809.64056
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -415.02783,
+          "y": -699.0486
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1398.3759,
+          "y": 635.44104
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -977.02783,
+          "y": -1100.0486
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 709.32196,
+          "y": -1047.3057
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 404.6499,
+          "y": -998.38763
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 141.05742,
+          "y": 829.2423
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.51,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1304,
+          "y": 609
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1306,
+          "y": 614
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1010,
+          "y": 452
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.51,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1034,
+          "y": 515
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1032,
+          "y": 699
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -994,
+          "y": 758
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -988,
+          "y": 885
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -862,
+          "y": 666
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -773,
+          "y": 860
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -828,
+          "y": 924
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -797,
+          "y": 701
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -880,
+          "y": 731
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1035,
+          "y": 959
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1090,
+          "y": 821
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 150,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -985
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "ShippoZako"
+      ],
+      "radius": 200,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 546.6234,
+          "y": -1082.565
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "StickyMush"
+      ],
+      "radius": 80,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1232.5262,
+          "y": 852.283
+        }
+      }
+    }
   ]
 }

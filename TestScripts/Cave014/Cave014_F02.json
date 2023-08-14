@@ -335,5 +335,245 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "ELECOTAKARA",
+      "name": "Anode Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 573,
+          "y": -550
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -551.5,
+          "y": -815.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": 600
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HANACHIRASHI",
+      "name": "Withering Blowhog",
+      "carryMax": 1,
+      "value": 5,
+      "seeds": 4,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -275
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -1024.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1053.5,
+          "y": -252.5
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 304.5,
+          "y": -518.4999
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 279.50012,
+          "y": -577.5001
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1407.5,
+          "y": 582.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1382.5,
+          "y": 528.5
+        }
+      }
+    }
   ]
 }

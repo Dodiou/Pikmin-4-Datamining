@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from 'fs';
 import { getMapFolderPath, isCaveId, preprocessJSON, removeUndefineds } from "./util.js"
 import { parseSublevelsObjects, parseSublevelsTekis } from './parseMapSublevels.js';
+import { parseObjectLocations } from './parseMapActorLocations.js';
 
 
 export function parseMapFiles(radarFolderId) {

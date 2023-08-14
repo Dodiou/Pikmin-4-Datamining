@@ -254,5 +254,177 @@
         }
       }
     }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 166.5,
+          "y": 771
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 119.5,
+          "y": 751
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "WATERTANK",
+      "name": "Watery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -825.1604,
+          "y": -409.47705
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HANACHIRASHI",
+      "name": "Withering Blowhog",
+      "carryMax": 1,
+      "value": 5,
+      "seeds": 4,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -821.2053,
+          "y": 541.3043
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "WATERTANK",
+      "name": "Watery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 212.8396,
+          "y": 468.52295
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 66.78821,
+          "y": 419.12738
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 138.48389,
+          "y": -452.90417
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -824.1954,
+          "y": 549.73846
+        }
+      }
+    }
   ]
 }

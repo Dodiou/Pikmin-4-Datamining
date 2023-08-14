@@ -28,7 +28,7 @@ export function isCaveId(mapId) {
 
 export function getMapFolderPath(radarFolderId) {
   const mapId = OstAreaNameToFolderId[radarFolderId] || radarFolderId;
-  const isCave = mapId.startsWith('Case');
+  const isCave = isCaveId(radarFolderId);
 
   if (isCave) {
     const caveId = mapId.split('_')[0];

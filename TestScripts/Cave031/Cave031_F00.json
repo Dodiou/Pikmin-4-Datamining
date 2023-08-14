@@ -534,5 +534,211 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1323.5,
+          "y": 324.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -1760.4951,
+          "y": -540.2932
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1155.5,
+          "y": 504.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 850.5,
+          "y": 19.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -126.5,
+          "y": -696.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 1740.9254,
+          "y": 178.63745
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AWADAKO",
+      "name": "Waddlepus",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -530.5,
+          "y": 963.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AWADAKO",
+      "name": "Waddlepus",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -216.5,
+          "y": 1031.5
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 110.053345,
+          "y": 1026.1724
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -300,
+          "y": -1148.75
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 686.5,
+          "y": -1115.5
+        }
+      }
+    }
   ]
 }

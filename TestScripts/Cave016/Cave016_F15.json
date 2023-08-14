@@ -110,5 +110,61 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 503.95538,
+          "y": -475.55017
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -296.38422,
+          "y": 270.12598
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 700,
+      "drops": [
+        {
+          "item": "GOtaJoyConR_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -9.00708,
+          "y": -211.39185
+        }
+      }
+    }
   ]
 }

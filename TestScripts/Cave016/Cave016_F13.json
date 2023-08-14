@@ -36,5 +36,109 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "FUTAKUCHIADULT",
+      "name": "Horned Cannon Beetle",
+      "carryMax": 60,
+      "value": 20,
+      "seeds": 50,
+      "drops": [
+        {
+          "item": "GOtaEggplant_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 20,
+          "max": 20
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -271.8052,
+          "y": 542.2821
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -568.5122,
+          "y": 234.06604
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -457.5,
+          "y": 852
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 282.5,
+          "y": 532
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -12.821533,
+          "y": -558.82043
+        }
+      }
+    }
   ]
 }

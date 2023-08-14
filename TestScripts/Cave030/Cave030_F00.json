@@ -411,5 +411,213 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 840.5,
+          "y": 1385.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1221.659,
+          "y": 393.4701
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEOTAKARA",
+      "name": "Iceblown Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1232,
+          "y": 972
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 694.34094,
+          "y": -1262.5299
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARIUO",
+      "name": "Pricklepuff",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -276.5,
+          "y": -135.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KANITAMA",
+      "name": "Peckish Aristocrab",
+      "carryMax": 14,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -881,
+          "y": -225
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 96,
+          "y": 1735.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1076,
+          "y": 753
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1013,
+          "y": 859
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 191,
+          "y": 1726.5
+        }
+      }
+    }
   ]
 }

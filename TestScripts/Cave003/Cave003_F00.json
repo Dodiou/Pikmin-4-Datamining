@@ -233,5 +233,255 @@
         "rotation": 0
       }
     }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 13.486065,
+      "drops": [
+        {
+          "item": "GPikminRed_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 433,
+          "y": 857
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -711.1447,
+          "y": -106.15448
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "CHAPPY",
+      "name": "Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 10,
+      "drops": [
+        {
+          "item": "GOtaYoshiCookieB_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -106.5,
+          "y": -655.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 618,
+          "y": -71
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -481,
+          "y": -679
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -268,
+          "y": 543
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -260,
+          "y": 707
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -495,
+          "y": -460
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 632.25757,
+          "y": 353.841
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -906.25415,
+          "y": -638.78516
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -875,
+          "y": -713.25
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 766.5319,
+          "y": 919.8118
+        }
+      }
+    }
   ]
 }

@@ -199,5 +199,158 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "HAMBO",
+      "name": "Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -391.55536,
+          "y": -106.60283
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HAMBO",
+      "name": "Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -621.3561,
+          "y": -258.3181
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -969,
+          "y": -97
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -948,
+          "y": -195
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1138.5352,
+          "y": 189.25357
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1056.5352,
+          "y": 254.25357
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GMiniMochi_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 938.5,
+          "y": -21
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "Hambo"
+      ],
+      "radius": 100,
+      "transform": {
+        "translation": {
+          "x": -144.70566,
+          "y": -152.56854
+        }
+      }
+    }
   ]
 }

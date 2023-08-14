@@ -184,5 +184,129 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "HARIUO",
+      "name": "Pricklepuff",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -427.4527,
+          "y": -721.01697
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AMEMBO",
+      "name": "Skeeterskate",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -593.37244,
+          "y": 304.85938
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 452.76685,
+          "y": 1017.0463
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AMEMBO",
+      "name": "Skeeterskate",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -352.55,
+          "y": 83.985504
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GNiseZako_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -793.8385,
+          "y": 940.76355
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 254.5402,
+          "y": 1118.4739
+        }
+      }
+    }
   ]
 }

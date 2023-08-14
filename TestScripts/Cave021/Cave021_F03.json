@@ -155,5 +155,147 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "NISEBOSS",
+      "name": "Gildemander",
+      "carryMax": 40,
+      "value": 20,
+      "seeds": 30,
+      "drops": [
+        {
+          "item": "GOtaRailwayLineE_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 15,
+          "max": 15
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -422.49994,
+          "y": 129.99988
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 140,
+      "drops": [
+        {
+          "item": "GKinkaiPick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -146.66882,
+          "y": -188.67041
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "radius": 140,
+      "drops": [
+        {
+          "item": "GOtaDice4Sided_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -825.94824,
+          "y": 370.11365
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "radius": 140,
+      "drops": [
+        {
+          "item": "GOtaDice20_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -40.216675,
+          "y": 387.2423
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "radius": 140,
+      "drops": [
+        {
+          "item": "GSurvivorLeaf_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 742.7833,
+          "y": -100.75769
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -415,
+          "y": 870
+        }
+      }
+    }
   ]
 }

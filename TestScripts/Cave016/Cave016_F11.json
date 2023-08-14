@@ -76,5 +76,197 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 123.41864,
+          "y": -570.882
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 366.74573,
+          "y": 1.3125763
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -140,
+          "y": 450
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 456,
+          "y": 434
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.51,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -125.443695,
+          "y": 74.3571
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.51,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -169,
+          "y": 108
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 413.3089,
+          "y": -26.388092
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 84.65723,
+          "y": 271.56897
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "OOKOGANE",
+      "name": "Iridescent Glint Beetle",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 92,
+          "y": 789
+        }
+      }
+    }
   ]
 }

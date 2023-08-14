@@ -400,5 +400,281 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "CHAPPY",
+      "name": "Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 10,
+      "drops": [
+        {
+          "item": "GOtaIsobeyaki_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -304.47617,
+          "y": -909.76385
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 558.6878,
+          "y": 1166.7357
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ELECMUSHI",
+      "name": "Anode Beetle",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1072.059,
+          "y": 235.49426
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -260.81726,
+          "y": 868.79346
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 760.5,
+          "y": -704
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -105.38391,
+          "y": 1153.7935
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HAMBO",
+      "name": "Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -977.5,
+          "y": -677
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HAMBO",
+      "name": "Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -874.5,
+          "y": -13
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ELECMUSHI",
+      "name": "Anode Beetle",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 946.05896,
+          "y": 141.49426
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ELECMUSHI",
+      "name": "Anode Beetle",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 997.05896,
+          "y": 391.49426
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HAMBO",
+      "name": "Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -888.5,
+          "y": -773
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 287.0144,
+          "y": 919.1719
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1157.5,
+          "y": -136
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 370.0144,
+          "y": 860.17194
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 60,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -552.5,
+          "y": -818
+        }
+      }
+    }
   ]
 }

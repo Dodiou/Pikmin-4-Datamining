@@ -400,5 +400,145 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "OOKURAGE",
+      "name": "Greater Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1389,
+          "y": 682
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KANITAMA",
+      "name": "Peckish Aristocrab",
+      "carryMax": 14,
+      "value": 12,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -99,
+          "y": -845
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIREOTAKARA",
+      "name": "Fiery Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1272,
+          "y": 269
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIREOTAKARA",
+      "name": "Fiery Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1136,
+          "y": 476
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1213,
+          "y": -876
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -819,
+          "y": -339
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -546,
+          "y": 694
+        }
+      }
+    }
   ]
 }

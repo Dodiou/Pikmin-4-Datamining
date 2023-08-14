@@ -231,5 +231,113 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 170,
+          "y": -670.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 324,
+          "y": -902.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 627,
+          "y": 1003.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -352,
+          "y": -893.5
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 553,
+          "y": 137.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GMiniMochi_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 203,
+          "y": 567.5
+        }
+      }
+    }
   ]
 }

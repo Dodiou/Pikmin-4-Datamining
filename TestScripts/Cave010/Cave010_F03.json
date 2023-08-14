@@ -256,5 +256,99 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 526.3894,
+          "y": -121.78677
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -757.39233,
+          "y": 343.13376
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GOtaCandyStick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -826.4475,
+          "y": 278.56174
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -934.39233,
+          "y": 203.13376
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -747.39233,
+          "y": 204.13376
+        }
+      }
+    }
   ]
 }

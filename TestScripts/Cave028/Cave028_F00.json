@@ -338,5 +338,113 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GOtaTomatoM_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": 762
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICESENBEI",
+      "name": "Freezecake",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -291.5,
+          "y": -824.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 691,
+          "y": -599
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -737.5,
+          "y": 737.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -387.75,
+          "y": 977.75
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -549.5,
+          "y": 132.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 350.5,
+          "y": 759.5
+        }
+      }
+    }
   ]
 }

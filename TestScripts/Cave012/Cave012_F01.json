@@ -382,5 +382,77 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -357.14172,
+          "y": -444.96112
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -337.14172,
+          "y": -259.96112
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -267.14172,
+          "y": -344.96112
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 673,
+          "y": 250
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 510,
+          "y": -947
+        }
+      }
+    }
   ]
 }

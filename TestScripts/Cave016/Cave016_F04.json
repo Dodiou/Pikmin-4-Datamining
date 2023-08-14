@@ -36,5 +36,107 @@
         }
       }
     }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 700,
+      "drops": [
+        {
+          "item": "GOtaLaFrance_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 20,
+          "max": 20
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -121.64746,
+          "y": -4.335205
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -132.70093,
+          "y": -648.7489
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -37.32074,
+          "y": 215.35648
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 73.499084,
+          "y": -246.05908
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -408.25854,
+          "y": -311.7464
+        }
+      }
+    }
   ]
 }

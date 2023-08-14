@@ -545,5 +545,281 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -451.70197,
+          "y": -379.02966
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 40.36328,
+          "y": -637.589
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 57.926025,
+          "y": 1280.2412
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 818.329,
+          "y": -52.60315
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -897.3953,
+          "y": -1029.9814
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1206.7338,
+          "y": -1084.2585
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1378.9268,
+          "y": -453.899
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 922.1714,
+          "y": 101.73279
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGCHAPPY_NIGHT",
+      "name": "Jumbo Bulborb",
+      "carryMax": 40,
+      "value": 15,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaJamIchigo_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -214.71765,
+          "y": -554.1386
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -9.395325,
+          "y": -994.98145
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPO",
+      "name": "Mammoth Snootwhacker",
+      "carryMax": 40,
+      "value": 20,
+      "seeds": 20,
+      "drops": [
+        {
+          "item": "GSurvivorA_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 889,
+          "y": 907
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 150,
+      "drops": [
+        {
+          "item": "GOtaButtonPlastic_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1376.8219,
+          "y": -723.864
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "radius": 150,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -889.6415,
+          "y": -158.72888
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1022.6333,
+          "y": -1033.3098
+        }
+      }
+    }
   ]
 }

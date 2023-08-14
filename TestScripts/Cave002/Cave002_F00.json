@@ -141,5 +141,191 @@
         "rotation": 0
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -178,
+          "y": -951
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 815.4012,
+          "y": -828.02155
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -5.1253357,
+          "y": 521.97925
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 110,
+          "y": -855
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 252,
+          "y": -649
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1149,
+          "y": -435
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -979,
+          "y": -245
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1206.7317,
+          "y": 356.76843
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1183.2908,
+          "y": 399.2838
+        }
+      }
+    }
   ]
 }

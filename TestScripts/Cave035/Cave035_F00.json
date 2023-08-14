@@ -240,5 +240,161 @@
         "rotation": 0
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "CHAPPY",
+      "name": "Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -852,
+          "y": -0.52557397
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -541.91943,
+          "y": 100.38208
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -480.8181,
+          "y": -84.45459
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -820.5699,
+          "y": -684.5932
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 806.9309,
+          "y": 32.57242
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRECHAPPY",
+      "name": "Fiery Bulblax",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": -257,
+          "y": -830.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": -424.5,
+          "y": 886
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENTENCHAPPY",
+      "name": "Orange Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 826.703,
+          "y": 693.80884
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENKOCHAPPY",
+      "name": "Dwarf Orange Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 730,
+          "y": 600
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -580,
+          "y": 775
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -530,
+          "y": 720
+        }
+      }
+    }
   ]
 }

@@ -264,5 +264,161 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "CHAPPY",
+      "name": "Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 10,
+      "drops": [
+        {
+          "item": "GOtaTomatoS_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 325.03668,
+          "y": 196.23535
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 68.1192,
+          "y": 230.46014
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 132.0238,
+          "y": 524.9296
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 556.3124,
+          "y": 204.9458
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 461.34686,
+          "y": -76.969246
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIREOTAKARA",
+      "name": "Fiery Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 221.4748,
+          "y": 904.3469
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -1556.9304,
+          "y": 1238.2146
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1759.3105,
+          "y": 1031.3635
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1657.3447,
+          "y": 1065.466
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YAMASHINJU",
+      "name": "Pearly Clamclamp",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 2194.731,
+          "y": -1672.5969
+        }
+      }
+    }
   ]
 }

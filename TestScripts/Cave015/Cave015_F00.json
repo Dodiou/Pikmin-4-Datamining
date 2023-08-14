@@ -368,5 +368,167 @@
         }
       }
     }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -400,
+          "y": -813.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1812,
+          "y": 23.5
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1262,
+          "y": -521.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1309,
+          "y": -484.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1172,
+          "y": 367
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1026,
+          "y": 491
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": 413
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -297,
+          "y": 711
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FROG",
+      "name": "Yellow Wollyhop",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -1369,
+          "y": -414
+        }
+      }
+    }
   ]
 }

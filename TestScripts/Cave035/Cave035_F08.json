@@ -116,5 +116,91 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "MITSUMOCHI",
+      "name": "Foolix",
+      "carryMax": 10,
+      "value": 20,
+      "seeds": 30,
+      "transform": {
+        "translation": {
+          "x": 135,
+          "y": -1101
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGUJINKO",
+      "name": "Mama Sheargrub",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -825,
+          "y": 195
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGUJINKO",
+      "name": "Mama Sheargrub",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -405,
+          "y": -370
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 119,
+          "y": -259
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SNAKECROW",
+      "name": "Burrowing Snagret",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 963,
+          "y": -260
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -538.51904,
+          "y": 692.19116
+        }
+      }
+    }
   ]
 }

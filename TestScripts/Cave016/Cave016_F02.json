@@ -36,5 +36,136 @@
         }
       }
     }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 261.24615,
+          "y": -436.4038
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 295.83868,
+          "y": -394.70728
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "SNAKECROW",
+      "name": "Burrowing Snagret",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -98.12561,
+          "y": -286.07764
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SNAKECROW",
+      "name": "Burrowing Snagret",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -88.12561,
+          "y": -16.07782
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SNAKECROW",
+      "name": "Burrowing Snagret",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 135.8742,
+          "y": -159.07782
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "drops": [
+        {
+          "item": "GOtaHanafudaE_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1.0856628,
+          "y": -151.90088
+        }
+      }
+    }
   ]
 }

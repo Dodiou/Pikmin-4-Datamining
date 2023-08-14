@@ -365,5 +365,189 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 204,
+          "y": -821
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 70,
+          "y": -865
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YAKISENBEI",
+      "name": "Scorchcake",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -646,
+          "y": 549
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANE",
+      "name": "Iridescent Flint Beetle",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 200,
+          "y": 857
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YAKISENBEI",
+      "name": "Scorchcake",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 10,
+      "drops": [
+        {
+          "item": "GOtaTomatoS_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -844,
+          "y": -1184
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -471,
+          "y": -165
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -491,
+          "y": -247
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -474,
+          "y": -81
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -284,
+          "y": 1347
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 191,
+          "y": 512
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 611,
+          "y": -141
+        }
+      }
+    }
   ]
 }

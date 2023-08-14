@@ -91,5 +91,49 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "BABY",
+      "name": "Bulborb Larva",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 47,
+          "y": 282
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABY",
+      "name": "Bulborb Larva",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 46,
+          "y": 111
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABY",
+      "name": "Bulborb Larva",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 52,
+          "y": 150
+        }
+      }
+    }
   ]
 }

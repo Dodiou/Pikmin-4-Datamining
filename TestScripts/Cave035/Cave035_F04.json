@@ -516,5 +516,155 @@
         }
       }
     }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 644.34155,
+          "y": 1371.6451
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 653.14136,
+          "y": 1404.4866
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 674.34143,
+          "y": 1346.645
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -450.5,
+          "y": -592
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 976.79376,
+          "y": -1245
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 757.8936,
+          "y": -1262.8625
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPO",
+      "name": "Mammoth Snootwhacker",
+      "carryMax": 40,
+      "value": 20,
+      "seeds": 20,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1107.1456,
+          "y": 274.48706
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 170,
+          "y": 1325
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 350.00006,
+          "y": 1454.9996
+        }
+      }
+    }
   ]
 }

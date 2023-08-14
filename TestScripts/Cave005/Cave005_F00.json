@@ -227,5 +227,25 @@
         }
       }
     }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 150,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -955.7699,
+          "y": 263.71045
+        }
+      }
+    }
   ]
 }

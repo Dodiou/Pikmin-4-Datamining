@@ -114,5 +114,105 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -302,
+          "y": 273.75
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 495.7849,
+          "y": 349.05493
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 747.3266,
+          "y": 618.8184
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 495,
+          "y": -505
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -860,
+          "y": 0
+        }
+      }
+    }
   ]
 }

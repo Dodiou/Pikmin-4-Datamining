@@ -385,5 +385,171 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -127.27161,
+          "y": 1117.9558
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -436.8556,
+          "y": 1083.9883
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEMAR",
+      "name": "Icy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -4,
+          "y": -572
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1711.7284,
+          "y": 420.95575
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1016.5592,
+          "y": 512.13513
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1020.5592,
+          "y": 273.13513
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 2024.6376,
+          "y": 527.81775
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 637.86975,
+          "y": -543.90466
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -1095,
+          "y": -1070
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1752,
+          "y": -382
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1713,
+          "y": -347
+        }
+      }
+    }
   ]
 }

@@ -134,5 +134,211 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "PANMODOKI",
+      "name": "Breadbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -203.719,
+          "y": 350.66687
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "PANMODOKI",
+      "name": "Breadbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 65.21826,
+          "y": -225.10657
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENKOCHAPPY",
+      "name": "Dwarf Orange Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -741.75543,
+          "y": 96.77832
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENKOCHAPPY",
+      "name": "Dwarf Orange Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -599.3838,
+          "y": 476.59033
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENKOCHAPPY",
+      "name": "Dwarf Orange Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -547.36414,
+          "y": 716.1613
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENKOCHAPPY",
+      "name": "Dwarf Orange Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -640.70026,
+          "y": 658.11127
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BILLY",
+      "name": "Bearded Amprat",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 270.8424,
+          "y": 685.88135
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BILLY",
+      "name": "Bearded Amprat",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 300.15747,
+          "y": 207.96448
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENKOCHAPPY",
+      "name": "Dwarf Orange Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 151.76584,
+          "y": 549.4476
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 66.936646,
+          "y": -467.92163
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 128.43323,
+          "y": -416.3766
+        }
+      }
+    }
   ]
 }

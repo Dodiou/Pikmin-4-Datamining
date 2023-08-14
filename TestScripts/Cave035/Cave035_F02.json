@@ -309,5 +309,77 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "HANACHIRASHI",
+      "name": "Withering Blowhog",
+      "carryMax": 1,
+      "value": 5,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 308,
+          "y": -19
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HANACHIRASHI",
+      "name": "Withering Blowhog",
+      "carryMax": 1,
+      "value": 5,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -897,
+          "y": -402
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "OOKOGANE",
+      "name": "Iridescent Glint Beetle",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 649,
+          "y": 898
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIKKURIGIKU",
+      "name": "Creeping Chrysanthemum",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -25.5,
+          "y": -865.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 206,
+          "y": 783
+        }
+      }
+    }
   ]
 }

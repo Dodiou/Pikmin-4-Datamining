@@ -226,5 +226,197 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "OOPANMODOKI",
+      "name": "Giant Breadbug",
+      "carryMax": 24,
+      "value": 15,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaMacaronA_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -302.77393,
+          "y": 298.0697
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 797.2788,
+          "y": 539.3115
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 154.3703,
+          "y": 520.2635
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 99.47241,
+          "y": 377.5017
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -69.44122,
+          "y": 1088.7499
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -580.91565,
+          "y": -571.47876
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -836.86273,
+          "y": -616.714
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -834.94055,
+          "y": 999.3203
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -980.39105,
+          "y": 862.5299
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -972.0292,
+          "y": 1081.9099
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "OOPANMODOKI",
+      "name": "Giant Breadbug",
+      "carryMax": 24,
+      "value": 15,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaCasinoChip10_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 167.91574,
+          "y": -266.989
+        }
+      }
+    }
   ]
 }

@@ -128,5 +128,35 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "HAGEDAMAGUMO",
+      "name": "Baldy Long Legs",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GOtaButtonMetal_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 20,
+          "max": 20
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 16.403015,
+          "y": 215.93875
+        }
+      }
+    }
   ]
 }

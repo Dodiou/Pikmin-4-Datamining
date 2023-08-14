@@ -160,5 +160,125 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -491.16675,
+          "y": 595.1029
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaDice6WHT_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -262.5,
+          "y": -442.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -13.098999,
+          "y": -344.14328
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 360.66574,
+          "y": 472.4532
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -36.588287,
+          "y": -510.9373
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANE",
+      "name": "Iridescent Flint Beetle",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPellet1_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 460,
+          "y": 820
+        }
+      }
+    }
   ]
 }

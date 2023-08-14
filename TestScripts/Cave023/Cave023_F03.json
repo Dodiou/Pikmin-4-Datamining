@@ -239,5 +239,137 @@
         "rotation": 0
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "PANMODOKI",
+      "name": "Breadbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 153.26648,
+          "y": 304.42578
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "PANMODOKI",
+      "name": "Breadbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -712.7117,
+          "y": -387.8435
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "PANMODOKI",
+      "name": "Breadbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 342.8026,
+          "y": -114.755005
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SUITORI",
+      "name": "Waddlequaff",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 754.5051,
+          "y": 557.8546
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 133.7489,
+          "y": 6.671509
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -550.3346,
+          "y": -740.0847
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SUITORI",
+      "name": "Waddlequaff",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 105.025024,
+          "y": 685.83575
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 750.4773,
+          "y": 920.5228
+        }
+      }
+    }
   ]
 }

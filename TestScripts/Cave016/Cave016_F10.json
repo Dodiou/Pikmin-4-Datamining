@@ -165,5 +165,81 @@
         }
       }
     }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -550.0171,
+          "y": 447.36078
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "PATROLLER",
+      "name": "Bloomcap Bloyster",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 281.8715,
+          "y": -590.6055
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "PATROLLER",
+      "name": "Bloomcap Bloyster",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 477.96463,
+          "y": -144.13599
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "PATROLLER",
+      "name": "Bloomcap Bloyster",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": -808.2679,
+          "y": -330.77252
+        }
+      }
+    }
   ]
 }

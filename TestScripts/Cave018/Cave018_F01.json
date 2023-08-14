@@ -304,5 +304,235 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "NUMASUITORI",
+      "name": "Bogswallow",
+      "carryMax": 14,
+      "value": 10,
+      "seeds": 10,
+      "drops": [
+        {
+          "item": "GOtaKaki_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -834,
+          "y": 620
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NUMASUITORI",
+      "name": "Bogswallow",
+      "carryMax": 14,
+      "value": 10,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 1087.5426,
+          "y": -888.61743
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -276.8032,
+          "y": -617.4625
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 132.8162,
+          "y": -633.06946
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGICETANK",
+      "name": "Blizzarding Blowhog",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaMuscat_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 15,
+          "max": 15
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 825.6333,
+          "y": 467.05222
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 746.2056,
+          "y": -707.32947
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1038.422,
+          "y": -647.8437
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 799.4926,
+          "y": -75.86787
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1234,
+          "y": -343
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -723,
+          "y": -70
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 324,
+          "y": -592
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -544.09,
+          "y": -252.71643
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 150,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -453.50595,
+          "y": 1040.7258
+        }
+      }
+    }
   ]
 }

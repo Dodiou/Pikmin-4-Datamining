@@ -60,5 +60,125 @@
         "rotation": 0
       }
     }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 414.70996,
+          "y": 533.67316
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 447.23395,
+          "y": 573.1521
+        }
+      }
+    }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "BIGICETANK",
+      "name": "Blizzarding Blowhog",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaMacaronB_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 4.2698975,
+          "y": -137.47137
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGFIRETANK",
+      "name": "Titan Blowhog",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaMacaronA_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 817.57605,
+          "y": -405.70813
+        }
+      }
+    }
   ]
 }

@@ -72,5 +72,93 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "BABY",
+      "name": "Bulborb Larva",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 319.34314,
+          "y": 99.73053
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABY",
+      "name": "Bulborb Larva",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -14.121216,
+          "y": 134.20728
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BABY",
+      "name": "Bulborb Larva",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -422.3413,
+          "y": -653.27637
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "QUEEN",
+      "name": "Empress Bulblax",
+      "carryMax": 40,
+      "value": 20,
+      "seeds": 50,
+      "drops": [
+        {
+          "item": "GOtaDuckS_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -566.2854,
+          "y": -278.2556
+        }
+      }
+    }
   ]
 }

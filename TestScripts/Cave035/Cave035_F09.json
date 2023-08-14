@@ -311,5 +311,105 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -69.93042,
+          "y": -492.7854
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -990,
+          "y": 718
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -107,
+          "y": -1067
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -282,
+          "y": -877
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIKKURIKINOKO",
+      "name": "Startle Spore",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 414,
+          "y": 135
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 691,
+          "y": -423
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 824.6376,
+          "y": 828.81775
+        }
+      }
+    }
   ]
 }

@@ -323,5 +323,87 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "ICEKOCHAPPY",
+      "name": "Dwarf Frosty Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -489.4682,
+          "y": -248.84827
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -645.06836,
+          "y": -506.58417
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEMAR",
+      "name": "Icy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 835.6378,
+          "y": -708.18054
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEFROG",
+      "name": "Chillyhop",
+      "carryMax": 10,
+      "value": 7,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -219,
+          "y": 410
+        }
+      }
+    }
   ]
 }

@@ -80,5 +80,35 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "QUEEN",
+      "name": "Empress Bulblax",
+      "carryMax": 40,
+      "value": 20,
+      "seeds": 50,
+      "drops": [
+        {
+          "item": "GSurvivorA_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 30.000435,
+          "y": 60
+        }
+      }
+    }
   ]
 }

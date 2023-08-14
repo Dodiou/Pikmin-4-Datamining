@@ -288,5 +288,176 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 32.416565,
+          "y": 273.6975
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 923.974,
+          "y": 359.6291
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -157.98724,
+          "y": 126.484924
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -1089.806,
+          "y": 51
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 574.34375,
+          "y": 719.127
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 20,
+      "drops": [
+        {
+          "item": "GOtaHam_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -730.51904,
+          "y": -413.80884
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 21,
+          "y": -550
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 500,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 848.5244,
+          "y": 531.7346
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "ignoreIds": [
+        "None"
+      ],
+      "radius": 200,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1.7545776,
+          "y": -150.1958
+        }
+      }
+    }
   ]
 }

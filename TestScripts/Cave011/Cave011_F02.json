@@ -395,5 +395,153 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 623,
+          "y": 609
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KANITAMA",
+      "name": "Peckish Aristocrab",
+      "carryMax": 14,
+      "value": 12,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1615,
+          "y": 141
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "OOKURAGE",
+      "name": "Greater Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -140,
+          "y": 682
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARIUO",
+      "name": "Pricklepuff",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 397.76685,
+          "y": -46.01761
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARIUO",
+      "name": "Pricklepuff",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -435,
+          "y": -458
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARIUO",
+      "name": "Pricklepuff",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1174,
+          "y": -168
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1080,
+          "y": -235
+        }
+      }
+    }
   ]
 }

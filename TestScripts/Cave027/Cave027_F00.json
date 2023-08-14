@@ -604,5 +604,213 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -691.99976,
+          "y": 824.49994
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -825.5,
+          "y": -284.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SARAI",
+      "name": "Swooping Snitchbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 972.5,
+          "y": 1364.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SARAI",
+      "name": "Swooping Snitchbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 781.5,
+          "y": 1103.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SARAI",
+      "name": "Swooping Snitchbug",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 964.5,
+          "y": 558.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -204.5,
+          "y": -758.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -111.5,
+          "y": -835.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -83.5,
+          "y": -719.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -188.31601,
+          "y": -884.4686
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1103.5,
+          "y": 1714.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": true,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 0.2,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.05,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1280.5,
+          "y": -691.5
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -367,
+          "y": 687
+        }
+      }
+    }
   ]
 }
