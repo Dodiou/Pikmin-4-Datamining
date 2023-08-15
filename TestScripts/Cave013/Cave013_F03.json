@@ -189,6 +189,30 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -1053.553
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -787.5
+        }
+      }
+    }
+  ],
   "candypop": [
     {
       "type": "candypop",

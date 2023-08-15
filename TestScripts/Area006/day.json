@@ -109,6 +109,52 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "WarpCarryID_0",
+      "transform": {
+        "translation": {
+          "x": -1258.1215,
+          "y": -1418.2815
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "WarpCarryID_0",
+      "transform": {
+        "translation": {
+          "x": -836.3856,
+          "y": -1333.3123
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "TunnelID_1",
+      "transform": {
+        "translation": {
+          "x": -1490.8982,
+          "y": 347.62027
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "TunnelID_1",
+      "transform": {
+        "translation": {
+          "x": -1298.189,
+          "y": 701.23193
+        }
+      }
+    }
+  ],
   "floor": [
     {
       "type": "floor",

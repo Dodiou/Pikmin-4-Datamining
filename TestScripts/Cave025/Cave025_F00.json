@@ -25,6 +25,74 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": -671.31696,
+          "y": -1371.9954
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": -750.88184,
+          "y": -1318.5895
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "WarpCarryID_0",
+      "transform": {
+        "translation": {
+          "x": -477.48007,
+          "y": 1101.1748
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "WarpCarryID_0",
+      "transform": {
+        "translation": {
+          "x": -552.2742,
+          "y": 754.55493
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": -275,
+          "y": 1410
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": -412.5,
+          "y": 1410
+        }
+      }
+    }
+  ],
   "pot": [
     {
       "type": "pot",

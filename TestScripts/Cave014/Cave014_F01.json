@@ -265,6 +265,30 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": 1028.916,
+          "y": 551.0024
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": 2790.2168,
+          "y": -413.7456
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",

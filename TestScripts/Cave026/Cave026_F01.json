@@ -70,6 +70,30 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_1",
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -896
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_1",
+      "transform": {
+        "translation": {
+          "x": 618.5,
+          "y": -825
+        }
+      }
+    }
+  ],
   "pot": [
     {
       "type": "pot",

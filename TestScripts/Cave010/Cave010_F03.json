@@ -125,6 +125,30 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": 237.32544,
+          "y": 267.0165
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "pup",
+      "tunnelId": "HappyDoorID_0",
+      "transform": {
+        "translation": {
+          "x": 828.01575,
+          "y": 937.8264
+        }
+      }
+    }
+  ],
   "spout": [
     {
       "type": "spout",

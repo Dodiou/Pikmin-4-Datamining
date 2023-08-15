@@ -483,6 +483,30 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": 685.13824,
+          "y": -319.25565
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": 1144.6399,
+          "y": 148.36478
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",

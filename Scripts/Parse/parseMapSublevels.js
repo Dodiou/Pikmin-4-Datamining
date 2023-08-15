@@ -13,6 +13,7 @@ import { isBaseComp, parseBaseComp } from './Sublevels/Objects/parseBase.js';
 import { isCaveLinkComp, parseCaveLinkComp } from './Sublevels/Objects/parseCaveLinks.js';
 import { isCollectableComp, parseCollectableComp } from './Sublevels/Objects/parseCollectable.js';
 import { isFloorComp, parseFloorComp } from './Sublevels/Objects/parseFloorObstacle.js';
+import { isTunnelComp, parseTunnelComp } from './Sublevels/Objects/parseTunnel.js';
 import { isEggComp, parseEggComp } from './Sublevels/parseEgg.js';
 import { isGroupDropManagerComp, parseGroupDropManagerComp } from './Sublevels/parseGroupDropManager.js';
 import { isBreakObstacleComp, parseBreakObstacleComp } from './Sublevels/Objects/parseBreakObstacle.js';
@@ -116,6 +117,9 @@ export function parseSublevelsObjects(objComps) {
     }
     else if (isGateComp(comp)) {
       return parseGateComp(comp, objComps);
+    }
+    else if (isTunnelComp(comp)) {
+      return parseTunnelComp(comp, objComps);
     }
     else if (isWaterComp(comp)) {
       return parseWaterComp(comp, objComps);

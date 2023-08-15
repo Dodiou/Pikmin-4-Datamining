@@ -310,6 +310,30 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "WarpCarryID_0",
+      "transform": {
+        "translation": {
+          "x": 1090,
+          "y": 190
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "WarpCarryID_0",
+      "transform": {
+        "translation": {
+          "x": 1103,
+          "y": 345
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",

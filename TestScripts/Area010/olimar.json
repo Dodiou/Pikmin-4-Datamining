@@ -276,6 +276,52 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "TunnelID_02",
+      "transform": {
+        "translation": {
+          "x": -816,
+          "y": -1548
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "TunnelID_02",
+      "transform": {
+        "translation": {
+          "x": -588,
+          "y": -805
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": 2501.7417,
+          "y": -2557.0376
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": 2744.292,
+          "y": -2564.2825
+        }
+      }
+    }
+  ],
   "switch": [
     {
       "type": "switch",

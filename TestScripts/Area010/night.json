@@ -280,6 +280,96 @@
       }
     }
   ],
+  "tunnel": [
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "TunnelID_02",
+      "transform": {
+        "translation": {
+          "x": -816,
+          "y": -1513
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "captain",
+      "tunnelId": "TunnelID_02",
+      "transform": {
+        "translation": {
+          "x": -588,
+          "y": -805
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "WarpCarryID_3",
+      "transform": {
+        "translation": {
+          "x": -1071,
+          "y": 857
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "WarpCarryID_3",
+      "transform": {
+        "translation": {
+          "x": -520,
+          "y": 767
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "WarpCarryID_04",
+      "transform": {
+        "translation": {
+          "x": 1727,
+          "y": -1540
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "WarpCarryID_04",
+      "transform": {
+        "translation": {
+          "x": 1715,
+          "y": -1263
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": 4097,
+          "y": 2030
+        }
+      }
+    },
+    {
+      "type": "tunnel",
+      "variant": "normal",
+      "tunnelId": "TunnelID_0",
+      "transform": {
+        "translation": {
+          "x": 4099,
+          "y": 1760
+        }
+      }
+    }
+  ],
   "shortcut": [
     {
       "type": "shortcut",
