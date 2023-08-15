@@ -45,8 +45,7 @@
         "translation": {
           "x": 962.5,
           "y": -20
-        },
-        "rotation": 0
+        }
       }
     },
     {
@@ -56,8 +55,7 @@
         "translation": {
           "x": 962.5,
           "y": 212
-        },
-        "rotation": 0
+        }
       }
     }
   ],

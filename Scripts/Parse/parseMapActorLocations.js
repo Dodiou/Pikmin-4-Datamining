@@ -12,7 +12,12 @@ const ImportantRotations = [
   ObjectTypes.Switch,
   ObjectTypes.Water
 ];
-const RotationVariantExceptions = [StructureVariants.Valve, ShortcutVariants.Geyser];
+const RotationVariantExceptions = [
+  StructureVariants.Valve,
+  ShortcutVariants.Geyser,
+  ShortcutVariants.BounceShroom,
+  ShortcutVariants.ChargeShroom
+];
 
 const ImportantScales = [];
 const ScaleVariantExceptions = [];
