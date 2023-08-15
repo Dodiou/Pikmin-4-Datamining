@@ -363,7 +363,7 @@
     {
       "type": "mushroom",
       "isPoison": false,
-      "isLarge": false,
+      "isLarge": true,
       "transform": {
         "translation": {
           "x": -1271.0421,
@@ -396,7 +396,7 @@
     {
       "type": "mushroom",
       "isPoison": false,
-      "isLarge": false,
+      "isLarge": true,
       "transform": {
         "translation": {
           "x": -7.681122,
@@ -429,7 +429,7 @@
     {
       "type": "mushroom",
       "isPoison": false,
-      "isLarge": false,
+      "isLarge": true,
       "transform": {
         "translation": {
           "x": -1232.1205,
@@ -440,7 +440,7 @@
     {
       "type": "mushroom",
       "isPoison": false,
-      "isLarge": false,
+      "isLarge": true,
       "transform": {
         "translation": {
           "x": -1218.4443,

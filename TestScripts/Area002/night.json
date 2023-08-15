@@ -1206,5 +1206,651 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2304.3284,
+          "y": 747.62744
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2667.6633,
+          "y": 674.5456
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 179.85919,
+          "y": -1816.7958
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 230.62094,
+          "y": -1888.3641
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2363.0745,
+          "y": 832.8703
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2867.66,
+          "y": -229.63037
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 268.44916,
+          "y": -2194.3508
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 525.98175,
+          "y": -2037.2588
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1998.6902,
+          "y": 654.8999
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2183.767,
+          "y": 788.865
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1014.9364,
+          "y": 1822.9646
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 2224.3228,
+          "y": 1759.56
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1208.3392,
+          "y": 1706.0363
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2703.049,
+          "y": 729.86743
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1497.7023,
+          "y": -1335.0891
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1571.368,
+          "y": -1486.1572
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1465.6063,
+          "y": -1561.7258
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1498.3564,
+          "y": -1797.6862
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1678.0869,
+          "y": -1885.1141
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1577.3252,
+          "y": -1933.683
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 623.1652,
+          "y": 678.39355
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 467.62875,
+          "y": 532.606
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2659.167,
+          "y": 649.0851
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2268.88,
+          "y": 1690.683
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 793.3128,
+          "y": 938.8062
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2196.13,
+          "y": 1522.935
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2788.5435,
+          "y": 1233.5768
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 1276.4763,
+          "y": 1682.6895
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -2080.5403,
+          "y": 1064.0907
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 837.67865,
+          "y": 648.1221
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2559.087,
+          "y": 852.6539
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -1.0238767,
+          "y": 2208.4185
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 2950.1309,
+          "y": 707.1117
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -352.70807,
+          "y": 1164.2887
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2852.9917,
+          "y": 1460.6156
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2623.8662,
+          "y": 1428.1523
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 603.8226,
+          "y": 689.35736
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -3099.2651,
+          "y": 138.21397
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2485.8958,
+          "y": 264.1917
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2474.6963,
+          "y": -1789.9163
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2285.7075,
+          "y": 901.5884
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -884.1119,
+          "y": -2940.665
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2790.9304,
+          "y": 1169.346
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -58.797733,
+          "y": -233.36533
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -226.48807,
+          "y": -676.8062
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -570.1653,
+          "y": -2853.7559
+        }
+      }
+    }
   ]
 }

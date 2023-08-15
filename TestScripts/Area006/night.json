@@ -3016,5 +3016,1103 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 2279.1846,
+          "y": 90.030014
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -274.8252,
+          "y": 346.93375
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 3090,
+          "y": 20
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 553.48096,
+          "y": -1959.9331
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -972,
+          "y": 1632
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 2558,
+          "y": 1859
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "THROWEATER",
+      "name": "Grubchucker",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 2484,
+          "y": 1718
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 2558,
+          "y": 1579
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 2428,
+          "y": 1619
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 2438,
+          "y": 1959
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGKINGCHAPPY",
+      "name": "Sovereign Bulblax",
+      "carryMax": 60,
+      "value": 20,
+      "seeds": 50,
+      "transform": {
+        "translation": {
+          "x": 980,
+          "y": -1040
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 2200,
+          "y": 190
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -560,
+          "y": 1370
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 1860,
+          "y": -650
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -1260,
+          "y": 980
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 360,
+          "y": 610
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1068,
+          "y": -580
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2518,
+          "y": 1230
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIKKURIKINOKO",
+      "name": "Startle Spore",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 490,
+          "y": 1980
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -1020,
+          "y": 980
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 936,
+          "y": 166
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1136,
+          "y": 226
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIKKURIKINOKO",
+      "name": "Startle Spore",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1690,
+          "y": 3410
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIKKURIKINOKO",
+      "name": "Startle Spore",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1740,
+          "y": 2930
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENTENCHAPPY",
+      "name": "Orange Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -430,
+          "y": 1990
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1606,
+          "y": -794
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1506,
+          "y": -834
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2326,
+          "y": 1116
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENTENCHAPPY",
+      "name": "Orange Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 2100,
+          "y": -920
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENTENCHAPPY",
+      "name": "Orange Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 290,
+          "y": -1080
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 510,
+          "y": 3120
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "THROWEATER",
+      "name": "Grubchucker",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 1104,
+          "y": 2358
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENTENCHAPPY",
+      "name": "Orange Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -430,
+          "y": 1690
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TENTENCHAPPY",
+      "name": "Orange Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 2600,
+          "y": 1310
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 868,
+          "y": -420
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1972,
+          "y": -2943
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1897,
+          "y": -2864
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1825,
+          "y": -2939
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2432,
+          "y": -973
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2469,
+          "y": -1122
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2265,
+          "y": -1075
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1052.1768,
+          "y": 461.17825
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -727.75323,
+          "y": -41.864693
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -3048.3281,
+          "y": -2293.68
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 996.3059,
+          "y": 385.92963
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 971.3085,
+          "y": 488.16882
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2310.5842,
+          "y": -1237.3638
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 298.5987,
+          "y": -448.64835
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 924.1771,
+          "y": 459.8028
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -1701,
+          "y": 1674
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -3420,
+          "y": -1949
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -3548,
+          "y": -2046
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -2369,
+          "y": 1434
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1692.559,
+          "y": -1784.4938
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1535.6514,
+          "y": -1607.4791
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -969,
+          "y": -192
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -880,
+          "y": -509
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1059,
+          "y": -452
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -1061.2549,
+          "y": 1613.1127
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINGCHAPPY",
+      "name": "Emperor Bulblax",
+      "carryMax": 30,
+      "value": 15,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": -1103,
+          "y": -893
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -605.15216,
+          "y": -2091.7742
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -823.04736,
+          "y": -1939.2025
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -3500.8423,
+          "y": 1034.7814
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -3467.0251,
+          "y": 877.77985
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2652.7947,
+          "y": 1712.9171
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2618.9778,
+          "y": 1555.9154
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2554.007,
+          "y": 1666.8514
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2436.7554,
+          "y": -43.850773
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2306,
+          "y": -1864
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2306,
+          "y": -1714
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2475,
+          "y": -1785
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1109,
+          "y": -1105
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1058,
+          "y": -1374
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -3704,
+          "y": -1016
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HAGEDAMAGUMO",
+      "name": "Baldy Long Legs",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 521,
+          "y": -2982
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HAGEDAMAGUMO",
+      "name": "Baldy Long Legs",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 521,
+          "y": -2944
+        }
+      }
+    }
   ]
 }

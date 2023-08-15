@@ -1067,5 +1067,1183 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 812.6381,
+          "y": -2100.5093
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 758.2096,
+          "y": -2288.953
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 611.698,
+          "y": -2261.3462
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 632.931,
+          "y": -2131.9724
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 668.6952,
+          "y": -2388.5007
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -387.63354,
+          "y": 1341.0516
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -254.6335,
+          "y": 1279.0516
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -57.633453,
+          "y": 1814.0519
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1507,
+          "y": 811
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1576.2214,
+          "y": 571
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1719,
+          "y": 815
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 890.9266,
+          "y": 2342.3325
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 538.0396,
+          "y": 2083.0093
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 556.1221,
+          "y": 2248.0515
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 852.096,
+          "y": 2161.4438
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 709.75415,
+          "y": 2144.9272
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 3941,
+          "y": 1573
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 730.8461,
+          "y": 862.5148
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 839,
+          "y": 896
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 617.2482,
+          "y": 863.2521
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 926,
+          "y": 961
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 732,
+          "y": 937
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 613.75,
+          "y": 949
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 646,
+          "y": 907
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 3395,
+          "y": 1754
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 512.3985,
+          "y": 919.37463
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 875.9896,
+          "y": 909.4244
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 712.70013,
+          "y": 870.5031
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -285.4324,
+          "y": 667.1107
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -176.88596,
+          "y": 473.81415
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -573.98065,
+          "y": 2710.12
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -172.26942,
+          "y": 2866.0308
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2672.5452,
+          "y": -318.54498
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2888.8628,
+          "y": 18.602453
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2658.054,
+          "y": -51.878242
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 3881.223,
+          "y": 3100.1797
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 2059.6208,
+          "y": 325.34143
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -163.82742,
+          "y": 724.0886
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -499.22586,
+          "y": 3745.1306
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -196.01994,
+          "y": 3600.7905
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -296,
+          "y": 1914
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 722.3153,
+          "y": 1278.7057
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 835,
+          "y": 1517.8682
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 539.65826,
+          "y": 1355.4628
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 544.30316,
+          "y": 1455.8357
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 754.78375,
+          "y": 1587.7256
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 864.73883,
+          "y": 1432.4105
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 614.7019,
+          "y": 1579.0001
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 620.27026,
+          "y": 1300.2787
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 805.7764,
+          "y": 1337.5566
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1546.6575,
+          "y": -2240.8987
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1926.8738,
+          "y": -2845.6829
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 58.243774,
+          "y": -3048.321
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1572.7438,
+          "y": 1240.679
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 642.2438,
+          "y": 1536.679
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -80.36417,
+          "y": 575.1276
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -394,
+          "y": 1235
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 2176,
+          "y": -2780
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 2369,
+          "y": -2438
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 1395,
+          "y": -1798
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICECHAPPY",
+      "name": "Frosty Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1485.2438,
+          "y": 2886.679
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGCHAPPY_NIGHT",
+      "name": "Jumbo Bulborb",
+      "carryMax": 40,
+      "value": 15,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 1569.25,
+          "y": 106.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BIGCHAPPY_NIGHT",
+      "name": "Jumbo Bulborb",
+      "carryMax": 40,
+      "value": 15,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 1692.5,
+          "y": -221.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -45.95945,
+          "y": 3213.364
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -235.509,
+          "y": 3450.8855
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -539.9479,
+          "y": 2985.1902
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2716.1243,
+          "y": 1545.9899
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2838.342,
+          "y": 1324.5979
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2788.0156,
+          "y": 1111.3907
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -236.97539,
+          "y": 1070.0948
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -162.73083,
+          "y": 1262.4977
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -418.85623,
+          "y": 1073.4421
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -253.35303,
+          "y": 941.39496
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 3749.409,
+          "y": 3103.0002
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 3879.5066,
+          "y": 2877.0576
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2760.5369,
+          "y": 382.9222
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2964.283,
+          "y": 378.86615
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2886.9812,
+          "y": 622.9757
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2931.8606,
+          "y": 902.8162
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2966.3145,
+          "y": 111.4796
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2984.8625,
+          "y": -278.5973
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 681,
+          "y": 1424.3043
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 899.98456,
+          "y": -3918.355
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DODORO",
+      "name": "Smoky Progg",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": 961,
+          "y": -1201
+        }
+      }
+    }
   ]
 }

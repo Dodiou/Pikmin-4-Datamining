@@ -1280,5 +1280,393 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "ICEMAR",
+      "name": "Icy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1715.7893,
+          "y": -2588.1284
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 561,
+          "y": 2229
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -382.47974,
+          "y": -1852.9856
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "RUSHER",
+      "name": "Tusked Blowhog",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 64.37537,
+          "y": -1607.1362
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1518.5786,
+          "y": 9.289288
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NISEBOSS",
+      "name": "Gildemander",
+      "carryMax": 40,
+      "value": 20,
+      "seeds": 30,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 3090,
+          "y": 2465
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 717.139,
+          "y": 2229.5293
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -583,
+          "y": 429
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2404,
+          "y": -1669
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -351,
+          "y": -4002
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "BILLY",
+      "name": "Bearded Amprat",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 2100,
+          "y": -1027
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 1482,
+          "y": -2296
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "DAMAGUMOCANNON",
+      "name": "Man-at-Legs",
+      "carryMax": 0,
+      "value": 0,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GOtaHeroPartsG_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 721,
+          "y": -1923
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 3420.2585,
+          "y": -1685.2019
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 597,
+          "y": -3981
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 2891,
+          "y": -1998
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 3013.2585,
+          "y": 470.7981
+        }
+      }
+    }
+  ],
+  "egg": [
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 3153,
+          "y": -896
+        }
+      }
+    },
+    {
+      "type": "egg",
+      "isBig": false,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 3113,
+          "y": -941
+        }
+      }
+    }
+  ],
+  "groupDropManager": [
+    {
+      "type": "groupDropManager",
+      "radius": 50,
+      "drops": [
+        {
+          "item": "GPikminRed_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1217,
+          "y": 1961
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "radius": 100,
+      "drops": [
+        {
+          "item": "GPikminBlue_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 3684,
+          "y": 2654
+        }
+      }
+    },
+    {
+      "type": "groupDropManager",
+      "radius": 150,
+      "drops": [
+        {
+          "item": "GPikminYellow_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1078,
+          "y": 786
+        }
+      }
+    }
   ]
 }

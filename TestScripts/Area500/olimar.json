@@ -1,0 +1,26 @@
+{
+  "base": [
+    {
+      "type": "base",
+      "variant": "onion",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 611.1356,
+          "y": -1118.3147
+        }
+      }
+    },
+    {
+      "type": "base",
+      "variant": "beagle",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 396.93466,
+          "y": -1021.6553
+        }
+      }
+    }
+  ]
+}

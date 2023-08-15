@@ -431,7 +431,7 @@
     {
       "type": "mushroom",
       "isPoison": true,
-      "isLarge": false,
+      "isLarge": true,
       "transform": {
         "translation": {
           "x": -253.06633,
@@ -442,7 +442,7 @@
     {
       "type": "mushroom",
       "isPoison": true,
-      "isLarge": false,
+      "isLarge": true,
       "transform": {
         "translation": {
           "x": -267.32324,

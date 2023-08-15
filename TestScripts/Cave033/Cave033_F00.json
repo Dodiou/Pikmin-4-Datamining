@@ -73,7 +73,7 @@
     {
       "type": "mushroom",
       "isPoison": false,
-      "isLarge": false,
+      "isLarge": true,
       "drops": [
         {
           "item": "GPiecePick_C",

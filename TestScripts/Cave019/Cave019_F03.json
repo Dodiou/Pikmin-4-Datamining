@@ -206,7 +206,7 @@
     {
       "type": "mushroom",
       "isPoison": false,
-      "isLarge": false,
+      "isLarge": true,
       "drops": [
         {
           "item": "GHoney_C",

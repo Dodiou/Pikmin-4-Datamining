@@ -1271,5 +1271,1351 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1836.7596,
+          "y": 867.29877
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1425,
+          "y": 1068
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 628.15173,
+          "y": -1081.149
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 655.52014,
+          "y": -878.99713
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 516.5193,
+          "y": -768.9972
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1425,
+          "y": 704
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2034.3215,
+          "y": -2286.4202
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2253.7415,
+          "y": -2311.654
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1835.5549,
+          "y": -2351.818
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 657.9184,
+          "y": -90.4133
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 917.1197,
+          "y": 327.12567
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2489.5593,
+          "y": -195.91647
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2421.3882,
+          "y": -410.85162
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2533.7698,
+          "y": -321.54767
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 554.0712,
+          "y": -2558.3835
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 462.23163,
+          "y": -2639.5671
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 116.88041,
+          "y": -1921.814
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -36.07606,
+          "y": -1784.3593
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 39.63728,
+          "y": -1861.1279
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -60.78879,
+          "y": -93.9344
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -331.78436,
+          "y": 321.60983
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2454.8696,
+          "y": 451.0105
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -157.8551,
+          "y": 908.238
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 244.42148,
+          "y": 911.2237
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 37.979916,
+          "y": -2744.8225
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 261.16998,
+          "y": -1944.9086
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -660.3485,
+          "y": -1657.7323
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2074.5127,
+          "y": -734.60565
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1820.8792,
+          "y": -1134.2472
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -548.0395,
+          "y": 1065.7587
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -864.26886,
+          "y": 734.34875
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1812.6993,
+          "y": -430.04047
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1765.1484,
+          "y": -238.2464
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1806.1869,
+          "y": -31.082367
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2876.5742,
+          "y": -3351.5305
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2861.2222,
+          "y": -3530.6443
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2810.962,
+          "y": -3203.9197
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1702.6167,
+          "y": -3201.2341
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1427.9407,
+          "y": -3233.7822
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1592.1821,
+          "y": -3283.1516
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1391.2964,
+          "y": -3163.69
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1148.5507,
+          "y": -3289.205
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1302.2434,
+          "y": -3203.4534
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 670.9676,
+          "y": -2736.2708
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 321.26996,
+          "y": -2634.3696
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 765.24493,
+          "y": -2470.7732
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -329.85416,
+          "y": -644.5314
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -202.10075,
+          "y": -815.86066
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -90.14666,
+          "y": -980.27435
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1315.3381,
+          "y": -2715.7751
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1604.5377,
+          "y": -2920.1248
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1391.1731,
+          "y": -2439.3052
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2533.5576,
+          "y": -163.37328
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2083.5432,
+          "y": 58.57332
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2322.8992,
+          "y": -33.93463
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2160.5935,
+          "y": -1266.2186
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2052.2996,
+          "y": -1161.647
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1931.0518,
+          "y": -1003.0067
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 835.0165,
+          "y": 499.31314
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1161.3829,
+          "y": 606.4741
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2345.375,
+          "y": 404.9491
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2411.1365,
+          "y": 726.37256
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2114.085,
+          "y": 1229.6931
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 775.865,
+          "y": -2595.9072
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 407.49484,
+          "y": -2734.6567
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1567.0924,
+          "y": -1215.4791
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2983.0054,
+          "y": -1145.9038
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1912.3944,
+          "y": 1326.0586
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2385.4417,
+          "y": 1057.1323
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1025.9974,
+          "y": -1598.584
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1584.653,
+          "y": -1532.0032
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2349.3057,
+          "y": 920.5577
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2481.1526,
+          "y": 1465.9363
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 881.77686,
+          "y": 628.47107
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -721.6014,
+          "y": 930.56824
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1009.4224,
+          "y": 1313.3347
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -667.5,
+          "y": -1002.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 887.5,
+          "y": -3011.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -906.25,
+          "y": -937.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1843,
+          "y": 2893
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1364.437,
+          "y": 2379.4026
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 2161.3826,
+          "y": 1256.846
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -2654.582,
+          "y": -1424.041
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1516.25,
+          "y": -2016.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 1932,
+          "y": -2175
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -2187.5,
+          "y": -1766.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -1978.7502,
+          "y": -3221.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 28.25,
+          "y": -2514.25
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -3162,
+          "y": -816
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -2774.4187,
+          "y": 1408.0769
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -2784.9568,
+          "y": 2574.974
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 1374,
+          "y": -2025
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 1684.8441,
+          "y": -313.97412
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 1480.9022,
+          "y": 861.1631
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 3063.356,
+          "y": -1096.127
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -778.1089,
+          "y": 1335.7949
+        }
+      }
+    }
   ]
 }
