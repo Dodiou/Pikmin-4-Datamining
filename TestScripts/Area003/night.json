@@ -25,7 +25,6 @@
       "link": "Cave014_F00",
       "disabledPikmin": {
         "red": true,
-        "blue": true,
         "yellow": true,
         "rock": true,
         "wing": true,
@@ -75,7 +74,6 @@
       "link": "CaveSP005_F00",
       "disabledPikmin": {
         "red": true,
-        "blue": true,
         "yellow": true,
         "rock": true,
         "wing": true,

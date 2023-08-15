@@ -33,6 +33,15 @@
     {
       "type": "caveLink",
       "link": "Cave022_F00",
+      "disabledPikmin": {
+        "blue": true,
+        "yellow": true,
+        "rock": true,
+        "wing": true,
+        "purple": true,
+        "white": true,
+        "ice": true
+      },
       "transform": {
         "translation": {
           "x": 2882.7532,

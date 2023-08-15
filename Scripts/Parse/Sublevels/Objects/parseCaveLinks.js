@@ -61,7 +61,8 @@ export function parseCaveLinkComp(comp, compsList) {
 
   const disabledPikmin = {};
   Object.entries(PikminColorFlags).forEach(([color, flag]) => {
-    if (PortalTrigger.Properties?.DisablePikminFlags & flag !== 0) {
+    const disabledPikminFlags = PortalTrigger.Properties?.DisablePikminFlags || 0;
+    if ((disabledPikminFlags & flag) !== 0) {
       disabledPikmin[color] = true;
     }
   });

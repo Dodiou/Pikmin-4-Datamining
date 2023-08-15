@@ -13,6 +13,15 @@
     {
       "type": "caveLink",
       "link": "Area010",
+      "disabledPikmin": {
+        "blue": true,
+        "yellow": true,
+        "rock": true,
+        "wing": true,
+        "purple": true,
+        "white": true,
+        "ice": true
+      },
       "transform": {
         "translation": {
           "x": 1.2141113,
