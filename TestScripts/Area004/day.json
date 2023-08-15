@@ -1436,7 +1436,8 @@
           "x": -2012.5327,
           "y": 2804.737
         }
-      }
+      },
+      "rebirthInterval": 3
     },
     {
       "type": "mound",
@@ -1453,7 +1454,8 @@
           "x": -2418,
           "y": 841
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -1470,7 +1472,8 @@
           "x": 828.3728,
           "y": -1962.2059
         }
-      }
+      },
+      "rebirthInterval": 3
     },
     {
       "type": "mound",
@@ -1487,7 +1490,8 @@
           "x": 1623,
           "y": -403
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -1504,7 +1508,8 @@
           "x": -2870,
           "y": -1965
         }
-      }
+      },
+      "rebirthInterval": 1
     }
   ],
   "treasure": [

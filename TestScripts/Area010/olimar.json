@@ -623,7 +623,8 @@
           "x": 2865,
           "y": -864
         }
-      }
+      },
+      "rebirthInterval": 2
     }
   ],
   "hydroJelly": [

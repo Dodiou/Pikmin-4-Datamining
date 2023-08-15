@@ -70,12 +70,12 @@ function parseCaveFiles(radarFolderId) {
   const tekiSublevels = sublevelsFolder + `/${radarFolderId}_Teki.json`;
 
   return [
-    ...parseMapObjects(objectSublevels, objectPlacements),
-    ...parseMapTekis(tekiSublevels, tekiPlacements)
+    ...parseMapObjects(objectSublevels, objectPlacements, true),
+    ...parseMapTekis(tekiSublevels, tekiPlacements, true)
   ];
 }
 
-function parseMapObjects(sublevelsFile, placementsFile) {
+function parseMapObjects(sublevelsFile, placementsFile, isCave) {
   if (!existsSync(placementsFile) || !existsSync(sublevelsFile)) {
     return [];
   }
@@ -84,10 +84,10 @@ function parseMapObjects(sublevelsFile, placementsFile) {
   const semiParsedObjects = parseSublevelsObjects(sublevelsJson);
 
   const placementsJson = JSON.parse(preprocessJSON(readFileSync(placementsFile).toString()));
-  return parseObjectLocations(placementsJson[0].Properties.ActorGeneratorList, semiParsedObjects);
+  return parseObjectLocations(placementsJson[0].Properties.ActorGeneratorList, semiParsedObjects, isCave);
 }
 
-function parseMapTekis(sublevelsFile, placementsFile) {
+function parseMapTekis(sublevelsFile, placementsFile, isCave) {
   if (!existsSync(placementsFile) || !existsSync(sublevelsFile)) {
     return [];
   }
@@ -96,5 +96,5 @@ function parseMapTekis(sublevelsFile, placementsFile) {
   const semiParsedTekis = parseSublevelsTekis(sublevelsJson);
 
   const placementsJson = JSON.parse(preprocessJSON(readFileSync(placementsFile).toString()));
-  return parseObjectLocations(placementsJson[0].Properties.ActorGeneratorList, semiParsedTekis);
+  return parseObjectLocations(placementsJson[0].Properties.ActorGeneratorList, semiParsedTekis, isCave);
 }

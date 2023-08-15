@@ -481,7 +481,8 @@
           "x": 1543,
           "y": 534
         }
-      }
+      },
+      "rebirthInterval": 3
     },
     {
       "type": "mound",
@@ -498,7 +499,8 @@
           "x": -2357.7422,
           "y": 1541.3086
         }
-      }
+      },
+      "rebirthInterval": 3
     },
     {
       "type": "mound",
@@ -515,7 +517,8 @@
           "x": -1415.1263,
           "y": 836.90137
         }
-      }
+      },
+      "rebirthInterval": 3
     }
   ],
   "materials": [

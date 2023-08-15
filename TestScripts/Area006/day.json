@@ -2653,7 +2653,8 @@
           "x": 710,
           "y": -2493
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -2670,7 +2671,8 @@
           "x": 2515,
           "y": 288
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -2687,7 +2689,8 @@
           "x": 1672,
           "y": 2823
         }
-      }
+      },
+      "rebirthInterval": 1
     }
   ],
   "castaway": [

@@ -602,7 +602,8 @@
           "x": -2701,
           "y": 3428
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -619,7 +620,8 @@
           "x": -4279,
           "y": -1910
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -636,7 +638,8 @@
           "x": -499.80573,
           "y": 846.1282
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -653,7 +656,8 @@
           "x": 1192.1943,
           "y": 1692.1282
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -670,7 +674,8 @@
           "x": 1825.1943,
           "y": -1396.8718
         }
-      }
+      },
+      "rebirthInterval": 1
     },
     {
       "type": "mound",
@@ -687,7 +692,8 @@
           "x": -2589.8057,
           "y": -1597.8718
         }
-      }
+      },
+      "rebirthInterval": 1
     }
   ],
   "castaway": [
