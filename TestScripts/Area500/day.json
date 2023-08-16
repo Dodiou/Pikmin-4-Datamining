@@ -61,6 +61,7 @@
   "caveLink": [
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave000_F00",
       "transform": {
         "translation": {
@@ -81,6 +82,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "challenge",
       "link": "CaveESP000_F00",
       "transform": {
         "translation": {

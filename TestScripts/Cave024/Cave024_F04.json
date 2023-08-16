@@ -2,6 +2,7 @@
   "caveLink": [
     {
       "type": "caveLink",
+      "variant": "exit",
       "link": "Area004",
       "transform": {
         "translation": {

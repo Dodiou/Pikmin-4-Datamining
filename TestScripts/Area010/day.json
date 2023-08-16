@@ -2,6 +2,7 @@
   "caveLink": [
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave021_F00",
       "transform": {
         "translation": {
@@ -12,6 +13,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave023_F00",
       "transform": {
         "translation": {
@@ -22,6 +24,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "challenge",
       "link": "CaveSP006_F00",
       "transform": {
         "translation": {
@@ -32,6 +35,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave022_F00",
       "disabledPikmin": {
         "blue": true,
@@ -61,6 +65,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "battle",
       "link": "CaveVS003_F00",
       "transform": {
         "translation": {

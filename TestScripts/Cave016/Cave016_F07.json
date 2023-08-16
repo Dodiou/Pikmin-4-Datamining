@@ -33,6 +33,7 @@
   "caveLink": [
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave016_F08",
       "transform": {
         "translation": {

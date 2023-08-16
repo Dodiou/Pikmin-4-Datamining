@@ -67,7 +67,7 @@ export function parseCaveLinkComp(comp, compsList) {
     }
   });
 
-  const variant = VariantMap[comp.type];
+  const variant = VariantMap[comp.Type];
   // Battles and Challenges are unlocked in order, and not at specific caves. Set those links to undefined.
   const link = variant === CaveLinkVariants.Cave || CaveLinkVariants.Exit
     ? PortalTrigger.Properties?.ToLevelName

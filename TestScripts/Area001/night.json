@@ -366,6 +366,7 @@
   "caveLink": [
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave001_F00",
       "transform": {
         "translation": {
@@ -376,6 +377,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave004_F00",
       "transform": {
         "translation": {
@@ -386,6 +388,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave002_F00",
       "transform": {
         "translation": {
@@ -396,6 +399,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave033_F00",
       "transform": {
         "translation": {
@@ -406,6 +410,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "cave",
       "link": "Cave005_F00",
       "transform": {
         "translation": {
@@ -416,6 +421,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "challenge",
       "link": "CaveSP001_F00",
       "transform": {
         "translation": {
@@ -426,6 +432,7 @@
     },
     {
       "type": "caveLink",
+      "variant": "battle",
       "link": "CaveVS000_F00",
       "transform": {
         "translation": {

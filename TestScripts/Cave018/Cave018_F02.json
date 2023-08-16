@@ -46,6 +46,7 @@
   "caveLink": [
     {
       "type": "caveLink",
+      "variant": "exit",
       "link": "Area006",
       "transform": {
         "translation": {
