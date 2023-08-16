@@ -178,7 +178,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 51,
@@ -191,7 +191,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,
@@ -249,7 +249,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Red",
+      "color": "red",
       "amount": 1,
       "replacementCondition": 6,
       "transform": {

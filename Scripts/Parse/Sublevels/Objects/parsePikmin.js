@@ -1,5 +1,17 @@
 import { ObjectTypes, PikminVariants } from "../../types.js";
-import { getObjectFromPath, removeUndefineds } from "../../util.js";
+import { getObjectFromPath, getPikminColor, removeUndefineds } from "../../util.js";
+
+function parseObfuscatedParams(params) {
+  if (!params.bMabikiEnable) {
+    return {
+      disappears: false,
+      pikminCapCandypop: !params.bDisableForcePongashi
+    };
+  }
+
+  const disappears = true;
+  const hasCandypop = !!params.bMabikiPongashi;
+}
 
 // The spawner code params is very poorly written, so some assertions to help find special cases if they arise:
 function assertSpawnerParams(params, hasSpawns) {
@@ -7,15 +19,19 @@ function assertSpawnerParams(params, hasSpawns) {
     throw new Error('This pikmin spawner has a spawnMax without a set number. What is the default?')
   }
   if (!params.bMabikiEnable && (hasSpawns || params.bMabikiPongashi)) {
+    // Challenge caves only: Cave028, Cave035_F05. Untestable
     throw new Error('This pikmin spawner has no spawnMax, but has replacements. What happens here?');
   }
-  if (params.bMabikiEnable && params.bDisableForcePongashi) {
+
+  // assume bMabikiEnable = true from now on
+  if (params.bMabikiPongashi && params.bDisableForcePongashi) {
     throw new Error('This pikmin spawner gets replaced by a candypop, but also gets no replacement. What happens here?');
   }
-  if (params.bMabikiEnable && hasSpawns) {
+  if (params.bMabikiPongashi && hasSpawns) {
+    // Challenge caves only: Cave035_F05. Untestable
     throw new Error('This pikmin spawner gets replaced by a candypop and objects. What happens here?');
   }
-  if (params.bMabikiEnable && params.PongashiChangeColorFollowNum === undefined && params.PongashiChangeColorFromFollow) {
+  if (params.bMabikiPongashi && params.PongashiChangeColorFollowNum === undefined && params.PongashiChangeColorFromFollow) {
     throw new Error('Candypop changes color, but after unknown amount of pikmin. What is the default?')
   }
   if (
@@ -28,13 +44,9 @@ function assertSpawnerParams(params, hasSpawns) {
       params.PongashiChangeColorFollowNum + 2 > params.MabikiNumFromFollow
     )
   ) {
+    // Cave012 (Subzero Sauna. PongashiColor is ignored b/c it disappears)
     throw new Error('The candypop color differs from the normal color before the ChangeColor is reached. What happens here?');
   }
-}
-
-function getPikminColor(enumStr) {
-  enumStr = enumStr || 'EPikminColor::Red';
-  return enumStr.substring(14);
 }
 
 // Some defaults for non-candypop pikmin spawners

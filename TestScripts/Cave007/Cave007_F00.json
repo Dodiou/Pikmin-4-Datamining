@@ -93,7 +93,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Blue",
+      "color": "blue",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,
@@ -106,7 +106,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Blue",
+      "color": "blue",
       "variant": "fighting",
       "amount": 3,
       "replacementCondition": 51,
@@ -119,7 +119,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Blue",
+      "color": "blue",
       "variant": "fighting",
       "amount": 2,
       "replacementCondition": 51,

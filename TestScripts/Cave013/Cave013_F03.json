@@ -217,7 +217,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {
@@ -229,7 +229,7 @@
     },
     {
       "type": "candypop",
-      "color": "Yellow",
+      "color": "yellow",
       "amount": 1,
       "replacementCondition": 6,
       "transform": {
@@ -241,7 +241,7 @@
     },
     {
       "type": "candypop",
-      "color": "Red",
+      "color": "red",
       "amount": 1,
       "replacementCondition": 6,
       "transform": {
@@ -255,7 +255,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "fighting",
       "amount": 2,
       "transform": {
@@ -267,7 +267,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "fighting",
       "amount": 3,
       "transform": {

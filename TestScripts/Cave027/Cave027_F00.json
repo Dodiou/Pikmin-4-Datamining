@@ -251,7 +251,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "transform": {
         "translation": {
@@ -262,7 +262,7 @@
     },
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "transform": {
         "translation": {
@@ -273,7 +273,7 @@
     },
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "transform": {
         "translation": {
@@ -284,7 +284,7 @@
     },
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "transform": {
         "translation": {
@@ -295,7 +295,7 @@
     },
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "transform": {
         "translation": {
@@ -306,7 +306,7 @@
     },
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "transform": {
         "translation": {

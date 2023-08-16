@@ -136,7 +136,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,
@@ -150,7 +150,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 51,
@@ -166,7 +166,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
@@ -179,7 +179,7 @@
     },
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",

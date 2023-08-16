@@ -2,7 +2,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "fighting",
       "amount": 5,
       "transform": {
@@ -14,7 +14,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "idle",
       "amount": 10,
       "transform": {
@@ -26,7 +26,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -38,7 +38,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -50,7 +50,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -62,7 +62,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "idle",
       "amount": 5,
       "transform": {
@@ -74,7 +74,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "fighting",
       "amount": 5,
       "transform": {

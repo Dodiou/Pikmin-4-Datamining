@@ -188,7 +188,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 10,
       "transform": {
@@ -200,7 +200,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "sprouts",
       "amount": 10,
       "transform": {
@@ -212,7 +212,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 10,
       "transform": {

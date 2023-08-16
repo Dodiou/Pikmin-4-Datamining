@@ -232,7 +232,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Wing",
+      "color": "wing",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",

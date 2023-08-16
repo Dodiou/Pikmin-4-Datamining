@@ -182,7 +182,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 51,

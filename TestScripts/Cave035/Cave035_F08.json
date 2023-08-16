@@ -15,7 +15,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -29,7 +29,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "transform": {
         "translation": {
@@ -40,7 +40,7 @@
     },
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "transform": {
         "translation": {
@@ -51,7 +51,7 @@
     },
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "transform": {
         "translation": {

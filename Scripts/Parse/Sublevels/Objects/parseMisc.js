@@ -1,5 +1,5 @@
 import { ObjectTypes } from "../../types.js";
-import { getObjectFromPath, removeUndefineds } from "../../util.js";
+import { getObjectFromPath, getPikminColor, removeUndefineds } from "../../util.js";
 import { parseCreatureDropList } from "../parseDrops.js";
 import { DefaultValveId } from "./parseStructure.js";
 
@@ -43,7 +43,7 @@ export function parseMiscComp(comp, compsList) {
   else if (comp.Properties.PelletAI) {
     const PelletAI = getObjectFromPath(comp.Properties.PelletAI, compsList);
     const seeds = parseInt(comp.Type.match(PELLET_SEEDS_REGEX)[1]);
-    const color = PelletAI.Properties?.AIParameter?.PelletColor || "EPikminColor::Red"
+    const color = getPikminColor(PelletAI.Properties?.AIParameter?.PelletColor || "EPikminColor::Red");
   
     return {
       type: ObjectTypes.Pellet,

@@ -2,7 +2,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "idle",
       "amount": 15,
       "transform": {
@@ -14,7 +14,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "idle",
       "amount": 15,
       "transform": {
@@ -26,7 +26,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "sprouts",
       "amount": 10,
       "transform": {
@@ -38,7 +38,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "idle",
       "amount": 5,
       "transform": {
@@ -50,7 +50,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "idle",
       "amount": 5,
       "transform": {
@@ -62,7 +62,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 0,
@@ -467,7 +467,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "transform": {
         "translation": {
@@ -478,7 +478,7 @@
     },
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "transform": {
         "translation": {

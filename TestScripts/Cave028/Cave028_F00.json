@@ -152,7 +152,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "idle",
       "amount": 5,
       "transform": {
@@ -164,7 +164,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "fighting",
       "amount": 5,
       "transform": {
@@ -176,7 +176,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "fighting",
       "amount": 5,
       "transform": {
@@ -188,7 +188,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "idle",
       "amount": 5,
       "transform": {
@@ -200,7 +200,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 0,

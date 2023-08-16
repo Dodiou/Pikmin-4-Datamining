@@ -160,7 +160,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 51,
@@ -173,7 +173,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,

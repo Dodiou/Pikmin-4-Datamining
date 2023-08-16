@@ -184,7 +184,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "idle",
       "amount": 5,
       "replacementCondition": 51,
@@ -197,7 +197,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "idle",
       "amount": 5,
       "replacementCondition": 51,
@@ -272,7 +272,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "White",
+      "color": "white",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {

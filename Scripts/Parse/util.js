@@ -1,3 +1,5 @@
+import { PikminColorEnumMap } from "./types.js";
+
 // assumes object is in the same file (haven't encountered otherwise yet)
 export function getObjectFromPath(component, allObjects) {
   const compIndex = parseInt(component.ObjectPath.split('.')[1]);
@@ -79,4 +81,13 @@ export function groupBy(array, property) {
   }
 
   return results;
+}
+
+export function getPikminColor(enumStr) {
+  enumStr = enumStr || 'EPikminColor::Red';
+  const color = PikminColorEnumMap[enumStr];
+  if (!color) {
+    throw new Error(`Unknown pikmin color ${enumStr}`);
+  }
+  return color;
 }

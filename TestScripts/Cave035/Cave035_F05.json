@@ -450,7 +450,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "sprouts",
       "amount": 5,
       "transform": {

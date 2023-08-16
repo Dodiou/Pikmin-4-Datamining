@@ -53,7 +53,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {
@@ -65,7 +65,7 @@
     },
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {
@@ -79,7 +79,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Blue",
+      "color": "blue",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,

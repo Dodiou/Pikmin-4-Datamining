@@ -277,7 +277,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
@@ -290,7 +290,7 @@
     },
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
@@ -318,7 +318,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "idle",
       "amount": 5,
       "replacementCondition": 6,
@@ -332,7 +332,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 6,

@@ -185,7 +185,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 51,
@@ -259,7 +259,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Rock",
+      "color": "rock",
       "amount": 1,
       "replacementCondition": 6,
       "transform": {
@@ -271,7 +271,7 @@
     },
     {
       "type": "candypop",
-      "color": "Red",
+      "color": "red",
       "amount": 1,
       "replacementCondition": 6,
       "transform": {

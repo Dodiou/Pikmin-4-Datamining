@@ -217,7 +217,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -229,7 +229,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -241,7 +241,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -253,7 +253,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -265,7 +265,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -277,7 +277,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -479,7 +479,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "transform": {
         "translation": {

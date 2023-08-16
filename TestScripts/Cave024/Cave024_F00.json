@@ -110,7 +110,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,

@@ -186,7 +186,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 6,

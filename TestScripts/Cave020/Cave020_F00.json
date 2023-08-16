@@ -147,7 +147,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -159,7 +159,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -171,7 +171,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -183,7 +183,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "idle",
       "amount": 5,
       "transform": {

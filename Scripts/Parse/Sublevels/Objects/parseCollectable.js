@@ -1,4 +1,4 @@
-import { ObjectTypes } from "../../types.js";
+import { ObjectTypes, PikminColor } from "../../types.js";
 import { getInternalId, removeLocalizationMetadata } from "../../util.js";
 import { default as TreasureData } from "../../../../Treasure Data/BaseData.json" assert { type: "json" };
 import { default as TreasureNames } from "../../../../Localization/OtakaraName/en-US/OtakaraName.json" assert { type: "json" };
@@ -6,14 +6,14 @@ import { default as TreasureNames } from "../../../../Localization/OtakaraName/e
 // NOTE: Onion spelled w/ onyomi keystrokes in game files
 const OnionColorMap = {
   'GOnyonCarryBoost_C': 'flarlic',
-  'GOnyonBootUpRed_C': 'red',
-  'GOnyonCarryWhite_C': 'white',
-  'GOnyonCarryPurple_C': 'purple',
-  'GOnyonCarryYellow_C': 'yellow',
-  'GOnyonCarryBlue_C': 'blue',
-  'GOnyonCarryIce_C': 'ice',
-  'GOnyonCarryStone_C': 'rock',
-  'GOnyonCarryPink_C': 'wing',
+  'GOnyonBootUpRed_C': PikminColor.Red,
+  'GOnyonCarryWhite_C': PikminColor.White,
+  'GOnyonCarryPurple_C': PikminColor.Purple,
+  'GOnyonCarryYellow_C': PikminColor.Yellow,
+  'GOnyonCarryBlue_C': PikminColor.Blue,
+  'GOnyonCarryIce_C': PikminColor.Ice,
+  'GOnyonCarryStone_C': PikminColor.Rock,
+  'GOnyonCarryPink_C': PikminColor.Wing,
 }
 const OnionWeightMap = {
   'flarlic': 5,

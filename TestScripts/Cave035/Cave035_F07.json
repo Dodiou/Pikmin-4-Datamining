@@ -505,7 +505,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "transform": {
         "translation": {
@@ -696,7 +696,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 5,
       "transform": {

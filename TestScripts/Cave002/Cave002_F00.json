@@ -15,7 +15,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,
@@ -29,7 +29,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "idle",
       "amount": 5,
       "replacementCondition": 51,

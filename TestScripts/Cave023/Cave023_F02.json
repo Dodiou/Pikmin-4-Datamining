@@ -28,7 +28,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,

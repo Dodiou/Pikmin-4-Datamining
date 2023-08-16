@@ -166,4 +166,5 @@ export const PikminColorEnumMap = {
   "EPikminColor::Wing": PikminColor.Wing,
   "EPikminColor::Ice": PikminColor.Ice,
   "EPikminColor::Photon": PikminColor.Glow,
+  "EPikminColor::Undef": 'unknown',
 }

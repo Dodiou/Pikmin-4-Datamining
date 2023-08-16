@@ -364,7 +364,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,
@@ -378,7 +378,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,
@@ -392,10 +392,10 @@
     },
     {
       "type": "pikmin",
-      "color": "Red",
+      "color": "red",
       "variant": "sprouts",
       "amount": 5,
-      "changeToColor": "Yellow",
+      "changeToColor": "yellow",
       "replacementCondition": 51,
       "replacement": "other",
       "transform": {

@@ -347,7 +347,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "White",
+      "color": "white",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {
@@ -359,7 +359,7 @@
     },
     {
       "type": "candypop",
-      "color": "White",
+      "color": "white",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {

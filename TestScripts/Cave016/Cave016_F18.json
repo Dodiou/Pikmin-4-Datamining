@@ -26,7 +26,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Red",
+      "color": "red",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
@@ -39,7 +39,7 @@
     },
     {
       "type": "candypop",
-      "color": "Yellow",
+      "color": "yellow",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
@@ -52,7 +52,7 @@
     },
     {
       "type": "candypop",
-      "color": "Blue",
+      "color": "blue",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
@@ -65,7 +65,7 @@
     },
     {
       "type": "candypop",
-      "color": "Ice",
+      "color": "ice",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
@@ -78,7 +78,7 @@
     },
     {
       "type": "candypop",
-      "color": "White",
+      "color": "white",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",

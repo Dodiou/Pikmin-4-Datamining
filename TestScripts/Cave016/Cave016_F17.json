@@ -28,7 +28,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Blue",
+      "color": "blue",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {
@@ -40,7 +40,7 @@
     },
     {
       "type": "candypop",
-      "color": "Blue",
+      "color": "blue",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {
@@ -52,7 +52,7 @@
     },
     {
       "type": "candypop",
-      "color": "Blue",
+      "color": "blue",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",

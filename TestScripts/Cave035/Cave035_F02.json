@@ -47,7 +47,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -59,7 +59,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -71,7 +71,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -83,7 +83,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 10,
       "transform": {
@@ -95,7 +95,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Yellow",
+      "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
       "transform": {
@@ -107,7 +107,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 5,
       "transform": {

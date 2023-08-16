@@ -423,7 +423,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "fighting",
       "amount": 3,
       "transform": {
@@ -435,7 +435,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "fighting",
       "amount": 4,
       "transform": {
@@ -447,7 +447,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "fighting",
       "amount": 3,
       "transform": {
@@ -459,7 +459,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "fighting",
       "amount": 4,
       "transform": {
@@ -471,7 +471,7 @@
     },
     {
       "type": "pikmin",
-      "color": "White",
+      "color": "white",
       "variant": "sprouts",
       "amount": 7,
       "replacement": "candypop",
@@ -484,7 +484,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Wing",
+      "color": "wing",
       "variant": "sprouts",
       "amount": 7,
       "transform": {
@@ -496,7 +496,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "sprouts",
       "amount": 7,
       "transform": {

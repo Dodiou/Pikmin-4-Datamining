@@ -143,7 +143,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Blue",
+      "color": "blue",
       "amount": 1,
       "replacementCondition": 51,
       "transform": {

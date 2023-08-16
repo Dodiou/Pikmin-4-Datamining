@@ -174,7 +174,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Ice",
+      "color": "ice",
       "variant": "sprouts",
       "amount": 5,
       "replacementCondition": 51,
@@ -207,7 +207,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "White",
+      "color": "white",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",

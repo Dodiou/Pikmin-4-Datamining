@@ -87,7 +87,7 @@
   "pikmin": [
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 51,
@@ -100,7 +100,7 @@
     },
     {
       "type": "pikmin",
-      "color": "Rock",
+      "color": "rock",
       "variant": "fighting",
       "amount": 5,
       "replacementCondition": 51,

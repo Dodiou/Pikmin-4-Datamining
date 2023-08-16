@@ -1110,7 +1110,7 @@
   "pellet": [
     {
       "type": "pellet",
-      "color": "EPikminColor::Yellow",
+      "color": "yellow",
       "seeds": 5,
       "transform": {
         "translation": {
@@ -1121,7 +1121,7 @@
     },
     {
       "type": "pellet",
-      "color": "EPikminColor::Red",
+      "color": "red",
       "seeds": 1,
       "transform": {
         "translation": {

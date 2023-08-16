@@ -254,7 +254,7 @@
   "candypop": [
     {
       "type": "candypop",
-      "color": "Purple",
+      "color": "purple",
       "amount": 1,
       "replacementCondition": 51,
       "replacement": "other",
