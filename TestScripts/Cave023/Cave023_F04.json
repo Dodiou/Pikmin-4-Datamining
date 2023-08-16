@@ -417,6 +417,20 @@
           "y": -266.989
         }
       }
+    },
+    {
+      "type": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -577.0748,
+          "y": -707.8728
+        }
+      }
     }
   ]
 }

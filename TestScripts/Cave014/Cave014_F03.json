@@ -553,6 +553,34 @@
     },
     {
       "type": "creature",
+      "creatureId": "GASOTAKARA",
+      "name": "Venom Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 570.5,
+          "y": -514
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "GASOTAKARA",
+      "name": "Venom Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -619.5,
+          "y": 724
+        }
+      }
+    },
+    {
+      "type": "creature",
       "creatureId": "BIKKURIKINOKO",
       "name": "Startle Spore",
       "carryMax": 20,

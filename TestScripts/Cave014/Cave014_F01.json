@@ -432,6 +432,20 @@
     },
     {
       "type": "creature",
+      "creatureId": "FIREOTAKARA",
+      "name": "Fiery Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 744.3202,
+          "y": 382.6478
+        }
+      }
+    },
+    {
+      "type": "creature",
       "creatureId": "YAMASHINJU",
       "name": "Pearly Clamclamp",
       "carryMax": 20,

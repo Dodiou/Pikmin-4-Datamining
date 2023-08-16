@@ -381,6 +381,15 @@
           "y": 77.5
         }
       }
+    },
+    {
+      "type": "icicle",
+      "transform": {
+        "translation": {
+          "x": -683.33875,
+          "y": 924.79407
+        }
+      }
     }
   ],
   "creature": [
@@ -423,6 +432,20 @@
         "translation": {
           "x": -267.14172,
           "y": -344.96112
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ICEOTAKARA",
+      "name": "Iceblown Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 228,
+          "y": -414
         }
       }
     },

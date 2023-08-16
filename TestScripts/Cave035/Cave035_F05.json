@@ -460,5 +460,21 @@
         }
       }
     }
+  ],
+  "creature": [
+    {
+      "type": "creature",
+      "creatureId": "BOMBOTAKARA",
+      "name": "Bomb Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 690,
+          "y": 685
+        }
+      }
+    }
   ]
 }

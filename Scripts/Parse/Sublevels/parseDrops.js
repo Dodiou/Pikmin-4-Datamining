@@ -1,3 +1,5 @@
+import { getTypeFromBlueprint } from "../util.js";
+
 const AllDropValues = [
   'GHoney_C',             'GPiecePick_C',        'GPikminIce_C',
   'GHotExtract_C',        'GPikminBlue_C',       'GOtaYoshiCookieB_C',
@@ -183,7 +185,7 @@ export function parseDropList(DropParameter, defaultDrop = undefined, dropAmount
     }
 
     const blueprintName = dropItem.SpawnMiniInfo.DropActor.ObjectName;
-    const internalItemName = blueprintName.substring(blueprintName.indexOf("'") + 1, blueprintName.length - 1);
+    const internalItemName = getTypeFromBlueprint(blueprintName);
     trackDropItem(internalItemName);
 
     return {

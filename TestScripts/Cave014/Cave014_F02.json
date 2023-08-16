@@ -433,6 +433,20 @@
     },
     {
       "type": "creature",
+      "creatureId": "ELECOTAKARA",
+      "name": "Anode Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 37.5,
+          "y": -375
+        }
+      }
+    },
+    {
+      "type": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,

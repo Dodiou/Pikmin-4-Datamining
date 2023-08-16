@@ -1620,6 +1620,20 @@
           "y": 470.7981
         }
       }
+    },
+    {
+      "type": "creature",
+      "creatureId": "WATEROTAKARA",
+      "name": "Hydro Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2843.2676,
+          "y": -3871.6118
+        }
+      }
     }
   ],
   "egg": [

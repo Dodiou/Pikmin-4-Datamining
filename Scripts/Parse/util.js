@@ -5,9 +5,13 @@ export function getObjectFromPath(component, allObjects) {
 }
 
 // Used for Treasures and Creatures
-export function getInternalId(component) {
+export function getInternalId(type) {
   // Remove starting 'G' and ending '_C' from Type to get the name. Force uppercase
-  return component.Type.substring(1, component.Type.length - 2).toUpperCase();
+  return type.substring(1, type.length - 2).toUpperCase();
+}
+
+export function getTypeFromBlueprint(blueprintName) {
+  return blueprintName.substring(blueprintName.indexOf("'") + 1, blueprintName.length - 1);
 }
 
 export function removeLocalizationMetadata(localeStr) {

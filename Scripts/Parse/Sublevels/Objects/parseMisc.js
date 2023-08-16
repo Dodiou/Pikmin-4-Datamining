@@ -3,6 +3,10 @@ import { getObjectFromPath, removeUndefineds } from "../../util.js";
 import { parseCreatureDropList } from "../parseDrops.js";
 import { DefaultValveId } from "./parseStructure.js";
 
+export const DefaultIcicleObject = {
+  type: ObjectTypes.Icicle
+};
+
 export function isMiscComp(comp) {
   return !!(
     comp.Properties.SprinklerAI ||
@@ -34,9 +38,7 @@ export function parseMiscComp(comp, compsList) {
     };
   }
   else if (comp.Properties.IcicleAI) {
-    return {
-      type: ObjectTypes.Icicle
-    };
+    return DefaultIcicleObject;
   }
   else if (comp.Properties.PelletAI) {
     const PelletAI = getObjectFromPath(comp.Properties.PelletAI, compsList);

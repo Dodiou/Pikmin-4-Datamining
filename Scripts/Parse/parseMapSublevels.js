@@ -20,6 +20,7 @@ import { isBreakObstacleComp, parseBreakObstacleComp } from './Sublevels/Objects
 import { isMiscComp, parseMiscComp } from './Sublevels/Objects/parseMisc.js';
 import { isPlatformComp, parsePlatformComp } from './Sublevels/Objects/parsePlatforms.js';
 import { isCreatureComp, parseCreatureComp } from './Sublevels/parseCreature.js';
+import { isActorSpawnerComp, parseActorSpawnerComp } from './Sublevels/Creatures/parseActorSpawner.js';
 
 /**
  * Finds root object components by DebugUniqueId
@@ -155,6 +156,9 @@ export function parseSublevelsTekis(tekiComps) {
     }
     else if (isEggComp(comp)) {
       return parseEggComp(comp, tekiComps);
+    }
+    else if (isActorSpawnerComp(comp)) {
+      return parseActorSpawnerComp(comp, tekiComps);
     }
     else if (isCreatureComp(comp)) {
       return parseCreatureComp(comp, tekiComps);

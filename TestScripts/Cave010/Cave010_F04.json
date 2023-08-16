@@ -227,6 +227,20 @@
       "seeds": 4,
       "transform": {
         "translation": {
+          "x": -326.61758,
+          "y": 920.4931
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "seeds": 4,
+      "transform": {
+        "translation": {
           "x": 360.66574,
           "y": 472.4532
         }

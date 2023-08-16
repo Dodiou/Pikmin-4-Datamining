@@ -51,7 +51,7 @@ function getTreasureName(treasureId) {
 
 const TreasureMap = TreasureData[0].Rows;
 function parseTreasureComp(comp) {
-  const treasureId = getInternalId(comp);
+  const treasureId = getInternalId(comp.Type);
   const treasure = TreasureMap[treasureId];
 
   if (!treasure) {

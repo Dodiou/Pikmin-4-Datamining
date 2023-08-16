@@ -271,6 +271,34 @@
       "seeds": 3,
       "transform": {
         "translation": {
+          "x": 704,
+          "y": -129.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ELECOTAKARA",
+      "name": "Anode Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -159,
+          "y": -250.5
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "creatureId": "ELECOTAKARA",
+      "name": "Anode Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "seeds": 3,
+      "transform": {
+        "translation": {
           "x": 1099.6106,
           "y": -149.08624
         }
