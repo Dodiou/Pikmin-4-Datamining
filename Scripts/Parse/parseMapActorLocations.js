@@ -3,6 +3,12 @@ import { Euler, Quaternion } from 'three';
 import { ObjectTypes, ShortcutVariants, StructureVariants } from "./types.js";
 import { removeUndefineds } from './util.js';
 
+function parseGenerateNum(actor) {
+  const spawnNum = actor.GenerateInfo.GenerateNum;
+  return spawnNum > 1 ? spawnNum : undefined;
+}
+
+// NOTE: some Material piles are set to 'RebirthLater', but never actually respawn
 const IgnoreRebirthInfo = [ObjectTypes.Materials];
 
 // Rebirth info:
@@ -90,7 +96,8 @@ export function parseObjectLocations(actorGeneratorList, parsedObjectDict, isCav
       // Cave rebirth is always RebirthFullExplore for tekis, NoRebirth for breakable objects
       rebirthInterval: isCave
         ? undefined
-        : parseObjectRebirthInfo(actor, parsedObject.type)
+        : parseObjectRebirthInfo(actor, parsedObject.type),
+      spawnNum: parseGenerateNum(actor)
     });
   });
 }

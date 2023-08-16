@@ -461,7 +461,8 @@
           "x": 691,
           "y": -423
         }
-      }
+      },
+      "spawnNum": 5
     },
     {
       "type": "creature",
