@@ -1,8 +1,8 @@
 import { ItemVariants, ObjectTypes } from "../../types.js";
 
 const ItemMap = {
-  'GIceBomb_C': ItemVariants.Bomb,
-  'GBomb_C': ItemVariants.IceBomb,
+  'GIceBomb_C': ItemVariants.IceBomb,
+  'GBomb_C': ItemVariants.Bomb,
 };
 
 export function isGroundItemComp(comp) {

@@ -290,7 +290,7 @@
   "item": [
     {
       "type": "item",
-      "variant": "iceBomb",
+      "variant": "bomb",
       "transform": {
         "translation": {
           "x": 426.1317,
@@ -300,7 +300,7 @@
     },
     {
       "type": "item",
-      "variant": "iceBomb",
+      "variant": "bomb",
       "transform": {
         "translation": {
           "x": 1095.585,

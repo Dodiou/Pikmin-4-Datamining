@@ -617,7 +617,7 @@
   "item": [
     {
       "type": "item",
-      "variant": "bomb",
+      "variant": "iceBomb",
       "transform": {
         "translation": {
           "x": 2865,
