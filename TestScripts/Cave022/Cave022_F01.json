@@ -127,7 +127,7 @@
       "color": "rock",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -21.291931,
@@ -140,7 +140,7 @@
       "color": "rock",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 594.87286,
@@ -316,8 +316,7 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -826.1025,

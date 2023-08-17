@@ -189,7 +189,7 @@
       "color": "ice",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -812.6569,

@@ -251,8 +251,8 @@
       "color": "ice",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 679,
@@ -392,8 +392,7 @@
     {
       "type": "candypop",
       "color": "blue",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -404.90198,

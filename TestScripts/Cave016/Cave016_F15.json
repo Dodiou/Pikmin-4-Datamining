@@ -51,9 +51,8 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 798.25256,
@@ -64,9 +63,8 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -827.2628,

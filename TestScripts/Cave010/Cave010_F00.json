@@ -181,7 +181,7 @@
       "color": "red",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -549.66486,
@@ -194,7 +194,7 @@
       "color": "red",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 555,
@@ -250,8 +250,7 @@
     {
       "type": "candypop",
       "color": "red",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -1120.3232,

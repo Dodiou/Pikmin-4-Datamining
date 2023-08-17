@@ -278,9 +278,8 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 693.5,
@@ -291,9 +290,8 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -784.2691,
@@ -321,8 +319,8 @@
       "color": "red",
       "variant": "idle",
       "amount": 5,
-      "replacementCondition": 6,
-      "replacement": "other",
+      "disappearsAt": 6,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -983.8428,
@@ -335,8 +333,8 @@
       "color": "red",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 6,
-      "replacement": "other",
+      "disappearsAt": 6,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -435,

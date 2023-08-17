@@ -208,7 +208,7 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -262.5,
@@ -221,7 +221,7 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 12.5,

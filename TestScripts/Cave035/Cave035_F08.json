@@ -30,7 +30,7 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 816,
@@ -41,7 +41,7 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -595,
@@ -52,7 +52,7 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 525,

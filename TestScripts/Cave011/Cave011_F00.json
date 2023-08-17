@@ -234,7 +234,7 @@
       "color": "blue",
       "variant": "idle",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 702,
@@ -247,8 +247,8 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -1140,
@@ -261,8 +261,8 @@
       "color": "ice",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -5.044983,

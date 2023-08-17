@@ -153,9 +153,8 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 140.6441,

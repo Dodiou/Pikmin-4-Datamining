@@ -208,8 +208,8 @@
       "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "candypop",
+      "disappearsAt": 51,
+      "replacedBy": "candypop",
       "candypopOffset": {
         "X": 266,
         "Y": 74,

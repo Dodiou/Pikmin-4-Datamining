@@ -43,10 +43,10 @@ export const ObjectTypes = {
 }
 
 export const RebirthTypes = {
-  NoRebirth: 'NoRebirth',
-  AlwaysRebirth: 'AlwaysRebirth',
-  RebirthFullExplore: 'RebirthFullExplore', // rebirth until cave is fully explored
-  RebirthLater: 'RebirthLater',
+  NoRebirth: 'ERebirthType::NoRebirth',
+  AlwaysRebirth: 'ERebirthType::AlwaysRebirth',
+  RebirthFullExplore: 'ERebirthType::RebirthFullExplore', // rebirth until cave is fully explored
+  RebirthLater: 'ERebirthType::RebirthLater',
 }
 
 export const BaseVariants = {
@@ -166,5 +166,125 @@ export const PikminColorEnumMap = {
   "EPikminColor::Wing": PikminColor.Wing,
   "EPikminColor::Ice": PikminColor.Ice,
   "EPikminColor::Photon": PikminColor.Glow,
-  "EPikminColor::Undef": 'unknown',
+  "EPikminColor::Undef": PikminColor.Red,
+  "EPikminColor::None": PikminColor.Red,
 }
+
+// Categories
+// const Collectable = {
+//   CollectableTreasure,
+//   CollectableCastaway,
+//   CollectableCreature,
+//   CollectableOnionRed,
+//   CollectableOnionYellow,
+//   CollectableOnionBlue,
+//   CollectableOnion,
+//   CollectableOnionRed,
+//   CollectableOnionRed,
+// }
+
+// const GateType = {
+//   GateBomb,
+//   GateCrystal,
+//   GateDirt,
+//   GateElectric,
+//   GateIce,
+//   GateNumbered,
+//   GateSquashbag
+// }
+
+// const ShortcutType = {
+//   ShortcutClipboardHigh,
+//   ShortcutClipboardShort,
+//   ShortcutGeyser,
+//   ShortcutPushbag,
+//   ShortcutRoot,
+//   ShortcutString,
+//   ShortcutZipline
+// }
+
+// const AccessType = {
+//   AccessPlatformBounce,
+//   AccessPlatformCharge,
+//   AccessPlatformMove,
+//   AccessTunnelAny,
+//   AccessTunnelCaptain,
+//   AccessTunnelOatchi
+// }
+
+// const HazardType = {
+//   HazardFloorFire,
+//   HazardFloorCharcoal,
+//   HazardFloorMushroom,
+//   HazardSpoutFire,
+//   HazardSpoutWater,
+//   HazardSpoutIce,
+//   HazardSpoutElectric,
+//   HazardSpoutBubble,
+//   HazardSpoutPoison
+// }
+
+// const SwitchType = {
+//   SwitchConveyor,
+//   SwitchFan,
+//   SwitchFenceIron,
+//   SwitchFenceNormal,
+//   SwitchSingle,
+//   SwitchDouble,
+// }
+
+// const LocationType = {
+//   BaseOnion,
+//   BaseBeagle,
+//   CaveEntrance,
+//   CaveExit,
+//   CaveChallenge,
+//   CaveBattle
+// }
+
+// const StructureType = {
+//   Materials,
+//   StructureBridge,
+//   StructureSlope,
+//   StructureValve,
+//   StructureWall,
+//   Sprinkler
+// }
+
+// const BreakableType = {
+//   Crystal,
+//   Hydrojelly,
+//   Icebox,
+//   Pot,
+//   Straw,
+//   MushroomLarge,
+//   MushroomSmall
+// }
+
+// const WorkType = {
+//   WorkMound,
+//   WorkPullrope,
+//   WorkStick,
+// }
+
+// const MiscType = {
+//   MiscIcicle,
+//   MiscHoney,
+//   MiscPellet,
+//   MiscEgg,
+//   MiscBomb,
+//   MiscIcebomb,
+//   MiscSpiderwort
+// }
+
+// const WaterType = {
+//   WaterWater,
+//   WaterSwamp,
+//   WaterDrain,
+// }
+
+// const NightType = {
+//   NightLumiknoll,
+//   NightTricknoll,
+//   NightGlowpellets
+// }

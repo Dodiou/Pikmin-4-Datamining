@@ -252,7 +252,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -289,
@@ -263,7 +263,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -413.33145,
@@ -274,7 +274,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 1077.25,
@@ -285,7 +285,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 1152.75,
@@ -296,7 +296,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 557,
@@ -307,7 +307,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 621,

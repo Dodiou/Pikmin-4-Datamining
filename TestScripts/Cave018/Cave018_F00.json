@@ -139,8 +139,8 @@
       "color": "wing",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 1277.1702,
@@ -153,8 +153,8 @@
       "color": "wing",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -916,
@@ -167,9 +167,8 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -460.59775,
@@ -180,9 +179,8 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -396.21286,

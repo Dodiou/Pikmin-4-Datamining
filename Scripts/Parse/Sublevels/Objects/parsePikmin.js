@@ -1,26 +1,88 @@
 import { ObjectTypes, PikminVariants } from "../../types.js";
-import { getObjectFromPath, getPikminColor, removeUndefineds } from "../../util.js";
+import { getObjectFromPath, getPikminColor, getTypeFromBlueprint, removeUndefineds } from "../../util.js";
 
-function parseObfuscatedParams(params) {
-  if (!params.bMabikiEnable) {
-    return {
-      disappears: false,
-      pikminCapCandypop: !params.bDisableForcePongashi
-    };
+// NOTE: Ignore "PongashiColor"; Differs from PikminColor in Cave012, Subzero Sauna, but does not get used.
+function parseCandypop(params) {
+  const color = getPikminColor(params.PikminColor);
+
+  // default is undefined
+  const changesAt = params.PongashiChangeColorFollowNum || undefined;
+  // undefined if no changesAt
+  const changesTo = changesAt && getPikminColor(params.PongashiChangeColorFromFollow);
+
+  // default is undefined
+  const disappearsAt = params.MabikiNumFromFollow + 1;
+  // Note: egg is the only replacement used.
+  const replacedBy = (disappearsAt && params.RandomActorSpawnList?.length)
+    ? getTypeFromBlueprint(params.RandomActorSpawnList[0].DropActor.ObjectName)
+    : undefined;
+
+  if (replacedBy && replacedBy !== 'GEgg_C') {
+    throw new Error('Found a candypop that is not replaced by egg');
   }
 
-  const disappears = true;
-  const hasCandypop = !!params.bMabikiPongashi;
+  return removeUndefineds({
+    type: ObjectTypes.Candypop,
+    color,
+    changesAt,
+    changesTo,
+    disappearsAt,
+    replacedBy
+  });
+}
+
+// NOTE: Ignored params
+//       - MabikiNumFromAll       - only occurs in Challenges/Trials. Does not get used
+//       - PongashiColor          - differs from PikminColor only in Sage Trials (untestable)
+//       - PongashiChangeColor*   - change color never differs from PikminColor for non-candypops
+function parsePikmin(params, variant) {
+  const color = getPikminColor(params.PikminColor);
+  // default is undefined
+  const disappearsAt = params.bMabikiEnable 
+    ? params.MabikiNumFromFollow + 1
+    : undefined;
+  // Note: egg is the only replacement used.
+  const otherReplacement = params.RandomActorSpawnList?.length
+    ? getTypeFromBlueprint(params.RandomActorSpawnList[0].DropActor.ObjectName)
+    : undefined;
+  const replacedBy = disappearsAt &&
+    (
+      params.bMabikiPongashi
+        ? 'candypop'
+        : otherReplacement
+    );
+
+  if (otherReplacement && otherReplacement !== 'GEgg_C') {
+    throw new Error('Found a candypop that is not replaced by egg');
+  }
+
+  return removeUndefineds({
+    type: ObjectTypes.Pikmin,
+    color,
+    variant,
+    amount: params.SpawnNum || 5,
+    disappearsAt,
+    replacedBy,
+    // XYZ offset of where to spawn the replacement candypop. E.g. enter Last-Frost Cavern w/ 51 ice pikmin
+    //   and a candypop will spawn 1000,-1000,0 from the icy blowhog (ends up near the onion location)
+    candypopOffset: replacedBy === 'candypop'
+      ? params.MabikiPongashiOffset
+      : undefined
+  });
 }
 
 // The spawner code params is very poorly written, so some assertions to help find special cases if they arise:
-function assertSpawnerParams(params, hasSpawns) {
+function assertSpawnerParams(params, isCandypop) {
+  const hasSpawns = !!params.RandomActorSpawnList?.length;
   if (params.bMabikiEnable && params.MabikiNumFromFollow === undefined) {
     throw new Error('This pikmin spawner has a spawnMax without a set number. What is the default?')
   }
   if (!params.bMabikiEnable && (hasSpawns || params.bMabikiPongashi)) {
     // Challenge caves only: Cave028, Cave035_F05. Untestable
-    throw new Error('This pikmin spawner has no spawnMax, but has replacements. What happens here?');
+    // throw new Error('This pikmin spawner has no spawnMax, but has replacements. What happens here?');
+  }
+  if (!params.bMabikiEnable && params.MabikiNumFromFollow !== undefined) {
+    throw new Error('This pikmin spawner doesn\'t disapper, but has a disappearance number.')
   }
 
   // assume bMabikiEnable = true from now on
@@ -29,7 +91,7 @@ function assertSpawnerParams(params, hasSpawns) {
   }
   if (params.bMabikiPongashi && hasSpawns) {
     // Challenge caves only: Cave035_F05. Untestable
-    throw new Error('This pikmin spawner gets replaced by a candypop and objects. What happens here?');
+    // throw new Error('This pikmin spawner gets replaced by a candypop and objects. What happens here?');
   }
   if (params.bMabikiPongashi && params.PongashiChangeColorFollowNum === undefined && params.PongashiChangeColorFromFollow) {
     throw new Error('Candypop changes color, but after unknown amount of pikmin. What is the default?')
@@ -37,73 +99,11 @@ function assertSpawnerParams(params, hasSpawns) {
   if (
     params.bMabikiPongashi &&
     params.PongashiColor &&
-    params.PongashiColor !== params.PikminColor &&
-    (
-      params.PongashiChangeColorFollowNum &&
-      params.MabikiNumFromFollow &&
-      params.PongashiChangeColorFollowNum + 2 > params.MabikiNumFromFollow
-    )
+    params.PongashiColor !== params.PikminColor
   ) {
-    // Cave012 (Subzero Sauna. PongashiColor is ignored b/c it disappears)
+    // Only occurs in Candypops (PongashiColor is ignore) and Sage Trials (untestable)
     throw new Error('The candypop color differs from the normal color before the ChangeColor is reached. What happens here?');
   }
-}
-
-// Some defaults for non-candypop pikmin spawners
-// const DEFAULT_NORA_SPAWNER_AI_PARAMS = {
-//   "PikminColor": "EPikminColor::Red",
-//   "bProWrestling": false,
-//   "NumSpawn": 5,
-//   "bMabikiPongashi": false,
-//   "MabikiPongashiOffset": {
-//     "X": 0,
-//     "Y": 0,
-//     "Z": 0,
-//   },
-// }
-function parsePikminSpawnerAIComp(spawnerType, NoraSpawnerAI) {
-  const params = NoraSpawnerAI.Properties.NoraSpawnerAIParam || {};
-
-  const isCandypop = spawnerType.includes('PongashiLock');
-  const isSprouts = spawnerType.includes('HeadLock');
-  const isFighting = params.bProWrestling === true;
-  const hasSpawns = params.RandomActorSpawnList && params.RandomActorSpawnList.length !== 0;
-
-  // uncomment to debug some of the weird spawner params:
-  // assertSpawnerParams(params, hasSpawns);
-  
-  // SpawnHeadLeaves probably not important, but determines leaf, flower, bud
-
-  const spawnerProps = {
-    type: isCandypop
-      ? ObjectTypes.Candypop
-      : ObjectTypes.Pikmin,
-    color: getPikminColor(params.PikminColor),
-    // What state the pikmin are in. candypop, fighting, sprouts, or idle (are there others?)
-    variant: isCandypop
-      ? undefined
-      : isSprouts
-        ? PikminVariants.Sprouts
-        : isFighting
-          ? PikminVariants.Fighting
-          : PikminVariants.Idle,
-    amount: params.SpawnNum || (isCandypop ? 1 : 5),
-    // unknown if these are candypop only.
-    changeToCondition: params.PongashiChangeColorFollowNum,
-    changeToColor: params.PongashiChangeColorFromFollow && getPikminColor(params.PongashiChangeColorFromFollow),
-    // Add 1 b/c of >check
-    // the spawner will not spawn if the player has >='replacementCondition' of the same pikmin color
-    replacementCondition: params.MabikiNumFromFollow && params.MabikiNumFromFollow + 1,
-    // some spawners have replacements if 'spawnMaxCondition' is met, (and only if it is met, not if "forced" by 100 pikmin limit)
-    // usually candypops of the same color, but sometimes eggs or candypops of a different color
-    // TODO: depends on bDisableForcePongashi?
-    replacement: params.bMabikiPongashi && !params.bDisableForcePongashi ? 'candypop' : hasSpawns ? 'other' : undefined,
-    // XYZ offset of where to spawn the replacement candypop. E.g. enter Last-Frost Cavern w/ 51 ice pikmin
-    //   and a candypop will spawn 1000,-1000,0 from the icy blowhog (ends up near the onion location)
-    candypopOffset: params.MabikiPongashiOffset
-  };
-
-  return removeUndefineds(spawnerProps);
 }
 
 export function isPikminSpawnerComp(comp) {
@@ -111,6 +111,21 @@ export function isPikminSpawnerComp(comp) {
 }
 
 export function parsePikminSpawnerComp(comp, compsList) {
-  const spawnerComp = getObjectFromPath(comp.Properties.NoraSpawnerAI, compsList);
-  return parsePikminSpawnerAIComp(comp.Type, spawnerComp);
+  const NoraSpawnerAI = getObjectFromPath(comp.Properties.NoraSpawnerAI, compsList);
+  const params = NoraSpawnerAI.Properties.NoraSpawnerAIParam || {};
+
+  if (comp.Type.includes('PongashiLock')) {
+    return parseCandypop(params);
+  };
+
+  const isSprouts = comp.Type.includes('HeadLock');
+  const isFighting = params.bProWrestling === true;
+  return parsePikmin(
+    params,
+    isSprouts
+      ? PikminVariants.Sprouts
+      : isFighting
+        ? PikminVariants.Fighting
+        : PikminVariants.Idle
+  );
 }

@@ -367,8 +367,8 @@
       "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -3.965332,
@@ -381,8 +381,8 @@
       "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -800,
@@ -395,9 +395,8 @@
       "color": "red",
       "variant": "sprouts",
       "amount": 5,
-      "changeToColor": "yellow",
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 1108.1799,

@@ -306,9 +306,8 @@
     {
       "type": "candypop",
       "color": "white",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -145.5,

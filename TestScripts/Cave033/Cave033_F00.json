@@ -210,8 +210,8 @@
       "color": "ice",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 433.54044,
@@ -224,7 +224,7 @@
       "color": "ice",
       "variant": "fighting",
       "amount": 3,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -675.5608,
@@ -237,7 +237,7 @@
       "color": "ice",
       "variant": "fighting",
       "amount": 2,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -244.56079,

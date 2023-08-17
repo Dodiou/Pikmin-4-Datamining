@@ -176,11 +176,9 @@
     {
       "type": "candypop",
       "color": "white",
-      "amount": 1,
-      "changeToCondition": 50,
-      "changeToColor": "ice",
-      "replacementCondition": 52,
-      "replacement": "candypop",
+      "changesAt": 50,
+      "changesTo": "ice",
+      "disappearsAt": 52,
       "transform": {
         "translation": {
           "x": 411.5829,
@@ -191,8 +189,7 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -58.999985,

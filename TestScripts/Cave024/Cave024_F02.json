@@ -94,8 +94,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -965.4527,
@@ -106,8 +105,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -1008.13495,

@@ -178,7 +178,7 @@ TsuyukusaAI? spicy berries?
 "Name": "WasurenagusaAI" forget-me-nots? This is Lumiknolls
 _00 = blue
 _01 = orange/red
-WasurenagusaMiniAI/NIGHTDECOY must be Trickknolls.
+WasurenagusaMiniAI/NIGHTDECOY must be Tricknolls.
 
 //Nearest object modifiers
 "Name": "ExcavationAI" buried object

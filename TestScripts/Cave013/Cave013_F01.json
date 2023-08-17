@@ -116,7 +116,7 @@
       "color": "yellow",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 155,

@@ -90,7 +90,7 @@
       "color": "rock",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -381.8414,
@@ -103,8 +103,8 @@
       "color": "rock",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "candypop",
+      "disappearsAt": 51,
+      "replacedBy": "candypop",
       "candypopOffset": {
         "X": 0,
         "Y": 155.56754,

@@ -96,7 +96,7 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -11.5,
@@ -109,7 +109,7 @@
       "color": "blue",
       "variant": "fighting",
       "amount": 3,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -909,
@@ -122,7 +122,7 @@
       "color": "blue",
       "variant": "fighting",
       "amount": 2,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -969.1668,

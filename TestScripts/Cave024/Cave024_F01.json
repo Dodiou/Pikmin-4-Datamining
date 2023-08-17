@@ -156,9 +156,8 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -686.5,
@@ -169,9 +168,8 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -551.48157,
@@ -182,10 +180,9 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "changeToCondition": 11,
-      "changeToColor": "white",
-      "replacementCondition": 51,
+      "changesAt": 11,
+      "changesTo": "white",
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 137.5,

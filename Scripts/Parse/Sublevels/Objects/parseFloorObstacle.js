@@ -3,6 +3,7 @@ import { getObjectFromPath, removeUndefineds } from "../../util.js";
 import { parseObjectDropList } from "../parseDrops.js";
 
 const FLOOR_RADIUS_REGEX = /G\w+Floor(\d+)uu_C/;
+// TODO I don't think this is correct... uu might not match to actual units 1:1
 function getFloorDiameter(compType) {
   const radiusMatch = compType.match(FLOOR_RADIUS_REGEX);
   if (!radiusMatch) {

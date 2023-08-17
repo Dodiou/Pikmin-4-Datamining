@@ -17,22 +17,21 @@ const OnionColorMap = {
 }
 const OnionWeightMap = {
   'flarlic': 5,
-  'red': 3,
-  'white': 10,
-  'purple': 100,
-  'yellow': 20,
-  'blue': 20,
-  'ice': 30,
-  'rock': 30,
-  'wing': 10,
+  [PikminColor.Red]: 3,
+  [PikminColor.Yellow]: 20,
+  [PikminColor.Blue]: 20,
+  [PikminColor.Purple]: 100,
+  [PikminColor.White]: 10,
+  [PikminColor.Rock]: 30,
+  [PikminColor.Wing]: 10,
+  [PikminColor.Ice]: 30,
 }
 function parseOnionComp(comp) {
   const color = OnionColorMap[comp.Type];
-  const weight = OnionWeightMap[color];
-
   if (!color) {
     throw new Error('Unknown onion color!');
   }
+  const weight = OnionWeightMap[color];
 
   return {
     type: ObjectTypes.Onion,

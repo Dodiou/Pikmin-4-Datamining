@@ -54,8 +54,7 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 587.5,
@@ -66,8 +65,7 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 550.5,
@@ -82,8 +80,8 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 1100,

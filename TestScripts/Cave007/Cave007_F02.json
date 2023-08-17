@@ -133,7 +133,7 @@
       "color": "blue",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 550,
@@ -209,9 +209,8 @@
     {
       "type": "candypop",
       "color": "yellow",
-      "amount": 1,
-      "replacementCondition": 6,
-      "replacement": "other",
+      "disappearsAt": 6,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -1059,

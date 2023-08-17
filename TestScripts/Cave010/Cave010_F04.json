@@ -58,8 +58,8 @@
       "color": "rock",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -291.18457,
@@ -72,7 +72,7 @@
       "color": "rock",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 320,
@@ -152,8 +152,7 @@
     {
       "type": "candypop",
       "color": "rock",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": 310.67462,

@@ -43,11 +43,9 @@
     {
       "type": "candypop",
       "color": "blue",
-      "amount": 1,
-      "changeToCondition": 41,
-      "changeToColor": "ice",
-      "replacementCondition": 51,
-      "replacement": "candypop",
+      "changesAt": 41,
+      "changesTo": "ice",
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -833,
@@ -58,11 +56,9 @@
     {
       "type": "candypop",
       "color": "blue",
-      "amount": 1,
-      "changeToCondition": 41,
-      "changeToColor": "ice",
-      "replacementCondition": 51,
-      "replacement": "candypop",
+      "changesAt": 41,
+      "changesTo": "ice",
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 284,
@@ -94,8 +90,8 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 1006.05286,
@@ -108,8 +104,8 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 1555.4996,
@@ -122,8 +118,8 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -692.77386,

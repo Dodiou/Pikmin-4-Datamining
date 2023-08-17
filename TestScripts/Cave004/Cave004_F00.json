@@ -118,8 +118,8 @@
       "color": "ice",
       "variant": "idle",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "candypop",
+      "disappearsAt": 51,
+      "replacedBy": "candypop",
       "candypopOffset": {
         "X": -685,
         "Y": 135,
@@ -177,8 +177,7 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
-      "replacementCondition": 11,
+      "disappearsAt": 11,
       "transform": {
         "translation": {
           "x": 839.6687,

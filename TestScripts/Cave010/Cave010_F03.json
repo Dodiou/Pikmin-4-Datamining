@@ -188,7 +188,7 @@
       "color": "rock",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 550,
@@ -260,8 +260,7 @@
     {
       "type": "candypop",
       "color": "rock",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -1198.4872,
@@ -272,8 +271,7 @@
     {
       "type": "candypop",
       "color": "red",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -825,

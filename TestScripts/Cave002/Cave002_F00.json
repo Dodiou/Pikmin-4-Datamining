@@ -18,8 +18,8 @@
       "color": "yellow",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": -1515,
@@ -32,8 +32,8 @@
       "color": "yellow",
       "variant": "idle",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "candypop",
+      "disappearsAt": 51,
+      "replacedBy": "candypop",
       "candypopOffset": {
         "X": 210,
         "Y": 50,

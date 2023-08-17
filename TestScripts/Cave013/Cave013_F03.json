@@ -218,8 +218,7 @@
     {
       "type": "candypop",
       "color": "wing",
-      "amount": 1,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": -900,
@@ -230,8 +229,7 @@
     {
       "type": "candypop",
       "color": "yellow",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -1159.0183,
@@ -242,8 +240,7 @@
     {
       "type": "candypop",
       "color": "red",
-      "amount": 1,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": -1322.8596,

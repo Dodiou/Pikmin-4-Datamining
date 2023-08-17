@@ -65,7 +65,6 @@
       "color": "ice",
       "variant": "fighting",
       "amount": 5,
-      "replacementCondition": 0,
       "transform": {
         "translation": {
           "x": 890.5,
@@ -468,7 +467,7 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -132.5,
@@ -479,7 +478,7 @@
     {
       "type": "candypop",
       "color": "purple",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -2040.5,

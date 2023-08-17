@@ -144,8 +144,7 @@
     {
       "type": "candypop",
       "color": "blue",
-      "amount": 1,
-      "replacementCondition": 51,
+      "disappearsAt": 51,
       "transform": {
         "translation": {
           "x": 77.07019,

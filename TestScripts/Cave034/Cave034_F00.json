@@ -80,7 +80,7 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -647.75,
@@ -91,7 +91,7 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -728.75,
@@ -102,7 +102,7 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
+      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 136.75,

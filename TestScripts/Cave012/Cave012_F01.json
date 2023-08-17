@@ -223,11 +223,9 @@
     {
       "type": "candypop",
       "color": "white",
-      "amount": 1,
-      "changeToCondition": 50,
-      "changeToColor": "ice",
-      "replacementCondition": 52,
-      "replacement": "candypop",
+      "changesAt": 50,
+      "changesTo": "ice",
+      "disappearsAt": 52,
       "transform": {
         "translation": {
           "x": -736,
@@ -238,8 +236,7 @@
     {
       "type": "candypop",
       "color": "ice",
-      "amount": 1,
-      "replacementCondition": 11,
+      "disappearsAt": 11,
       "transform": {
         "translation": {
           "x": 429.2568,
@@ -268,7 +265,7 @@
       "color": "blue",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 6,
+      "disappearsAt": 6,
       "transform": {
         "translation": {
           "x": 660.10986,
@@ -281,8 +278,8 @@
       "color": "ice",
       "variant": "sprouts",
       "amount": 5,
-      "replacementCondition": 51,
-      "replacement": "other",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
       "transform": {
         "translation": {
           "x": 670.10986,

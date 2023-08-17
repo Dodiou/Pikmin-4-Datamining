@@ -474,7 +474,6 @@
       "color": "white",
       "variant": "sprouts",
       "amount": 7,
-      "replacement": "candypop",
       "transform": {
         "translation": {
           "x": -820,

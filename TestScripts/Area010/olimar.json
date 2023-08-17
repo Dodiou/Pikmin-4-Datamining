@@ -1267,7 +1267,6 @@
       "color": "red",
       "variant": "idle",
       "amount": 3,
-      "replacementCondition": 31,
       "transform": {
         "translation": {
           "x": 2059,
@@ -1280,7 +1279,6 @@
       "color": "blue",
       "variant": "idle",
       "amount": 3,
-      "replacementCondition": 31,
       "transform": {
         "translation": {
           "x": 2080,
@@ -1293,7 +1291,6 @@
       "color": "yellow",
       "variant": "idle",
       "amount": 2,
-      "replacementCondition": 31,
       "transform": {
         "translation": {
           "x": 2090,
@@ -1306,7 +1303,6 @@
       "color": "yellow",
       "variant": "idle",
       "amount": 1,
-      "replacementCondition": 31,
       "transform": {
         "translation": {
           "x": 2228,
@@ -1319,7 +1315,6 @@
       "color": "yellow",
       "variant": "idle",
       "amount": 1,
-      "replacementCondition": 31,
       "transform": {
         "translation": {
           "x": 2222,
