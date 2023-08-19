@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave016_F05",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 910,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 550,
@@ -25,10 +24,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -38,9 +37,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 700,
       "drops": [
         {
@@ -64,9 +64,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {
@@ -99,6 +100,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
       "carryMax": 30,
@@ -113,6 +115,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
       "carryMax": 30,
@@ -127,6 +130,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
       "carryMax": 30,

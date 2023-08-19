@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave021_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -802.9045,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave021_F00_WaterBox00_D.png",
         "amountToFreeze": 15
@@ -29,8 +28,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave021_F00_WaterBox01_D.png",
         "amountToFreeze": 15
@@ -44,10 +43,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-bubble": [
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -560.58295,
@@ -56,8 +55,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -542.58185,
@@ -66,8 +65,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -386.68353,
@@ -76,9 +75,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminIce_C",
@@ -95,7 +95,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 5.880768,
@@ -104,10 +105,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-ice": [
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 107.57625,
@@ -117,9 +118,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -132,6 +134,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTALEMON",
       "name": "Face Wrinkler",
       "weight": 7,
@@ -146,6 +149,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASQUEEZER",
       "name": "Merciless Extractor",
       "weight": 7,
@@ -160,6 +164,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGRAPEFRUIT",
       "name": "Astringent Clump",
       "weight": 12,
@@ -173,10 +178,10 @@
       }
     }
   ],
-  "tunnel": [
+  "tunnel-any": [
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -186,8 +191,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -197,10 +202,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -213,6 +218,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
       "carryMax": 14,
@@ -235,6 +241,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AMEMBO",
       "name": "Skeeterskate",
       "carryMax": 4,
@@ -249,6 +256,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NISEZAKO",
       "name": "Gildemandwee",
       "carryMax": 10,
@@ -271,6 +279,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AMEMBO",
       "name": "Skeeterskate",
       "carryMax": 4,
@@ -284,9 +293,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -304,7 +314,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

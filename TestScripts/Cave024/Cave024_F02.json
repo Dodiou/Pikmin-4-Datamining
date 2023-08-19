@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave024_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1176.5107,
@@ -12,21 +11,23 @@
       }
     }
   ],
-  "floor": [
+  "ridable-movefloor": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -687.5001,
           "y": -136.14337
-        }
+        },
+        "rotation": -90
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -36,7 +37,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -46,10 +48,10 @@
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 681.1084,
@@ -58,20 +60,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": 139.97534,
-          "y": 1191.7571
-        },
-        "rotation": -180
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -493.01605,
@@ -80,8 +70,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 649.5724,
@@ -90,9 +80,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-wing": [
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "transform": {
@@ -103,7 +94,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "transform": {
@@ -114,10 +106,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -689,
@@ -127,8 +119,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 137,
@@ -138,10 +130,24 @@
       }
     }
   ],
-  "spout": [
+  "shortcut-pushbag": [
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 139.97534,
+          "y": 1191.7571
+        },
+        "rotation": -180
+      }
+    }
+  ],
+  "hazardspout-bubble": [
+    {
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -687.32965,
@@ -150,8 +156,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 168.75739,
@@ -160,10 +166,12 @@
       }
     }
   ],
-  "castaway": [
+  "castaway-leafling": [
     {
-      "type": "castaway",
+      "type": "castaway-leafling",
+      "infoType": "castaway",
       "isLeafling": true,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -177,6 +185,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL3",
       "name": "Sphere of Heart",
       "weight": 7,
@@ -191,6 +200,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAFRUITSPICKPNK",
       "name": "Heart Sword",
       "weight": 1,
@@ -205,6 +215,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAFRUITSPICKPNK",
       "name": "Heart Sword",
       "weight": 1,
@@ -218,10 +229,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -234,6 +245,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
       "carryMax": 1,
@@ -248,6 +260,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
       "carryMax": 1,
@@ -262,6 +275,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -276,6 +290,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -289,9 +304,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -321,7 +337,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

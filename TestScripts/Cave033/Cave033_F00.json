@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave033_F00_WaterBox00_D.png",
         "amountToFreeze": 10
@@ -16,9 +16,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -28,11 +29,10 @@
       }
     }
   ],
-  "mushroom": [
+  "breakable-spotcapnormal": [
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -49,9 +49,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 336,
@@ -60,9 +59,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 316,
@@ -71,28 +69,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 8,
-          "max": 8
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 298,
-          "y": 826
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -109,9 +87,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -128,10 +105,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-wall": [
     {
-      "type": "structure",
-      "variant": "wall",
+      "type": "structure-wall",
+      "infoType": "structure",
       "materialsNeeded": 14,
       "transform": {
         "translation": {
@@ -142,11 +119,10 @@
       }
     }
   ],
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave033_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -700,
@@ -155,10 +131,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -1071.0029,
@@ -168,9 +144,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GOtaMatDollLB_C",
@@ -187,7 +164,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminIce_C",
@@ -204,11 +182,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-ice": [
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -220,9 +199,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 3,
       "disappearsAt": 51,
       "transform": {
@@ -233,9 +213,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 2,
       "disappearsAt": 51,
       "transform": {
@@ -249,6 +230,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMATDOLLLA",
       "name": "Mama Doll Head",
       "weight": 10,
@@ -262,10 +244,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -275,9 +257,10 @@
       }
     }
   ],
-  "pot": [
+  "breakable-pot": [
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -676.5744,
@@ -286,7 +269,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -626.7634,
@@ -295,7 +279,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -740,
@@ -304,10 +289,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-pushbag": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -318,9 +303,30 @@
       }
     }
   ],
+  "breakable-kingcapnormal": [
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 8,
+          "max": 8
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 298,
+          "y": 826
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -335,6 +341,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -349,6 +356,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -371,6 +379,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -385,6 +394,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -398,9 +408,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 100,
       "transform": {
         "translation": {
@@ -410,9 +421,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -442,7 +454,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

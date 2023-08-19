@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave014_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -2864.0708,
@@ -12,9 +11,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave014_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1941.1282,
@@ -23,11 +21,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -38,9 +37,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -51,10 +51,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -2330.568,
@@ -64,8 +64,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -979.9054,
@@ -75,10 +75,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -89,8 +89,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -101,8 +101,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -113,24 +113,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 350.60553,
           "y": 865.09674
-        },
-        "rotation": 25
+        }
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave014_F01_WaterBox00_D.png",
         "amountToFreeze": 5
@@ -144,8 +143,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave014_F01_WaterBox01_D.png",
         "amountToFreeze": 5
@@ -159,10 +158,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -172,8 +171,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -183,11 +182,10 @@
       }
     }
   ],
-  "mushroom": [
+  "breakable-spotcapnormal": [
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 496,
@@ -196,9 +194,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 530.5724,
@@ -207,20 +204,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": 558,
-          "y": -361.06595
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 472.90314,
@@ -229,9 +214,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 601,
@@ -240,9 +224,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 635.9031,
@@ -251,9 +234,22 @@
       }
     }
   ],
+  "breakable-kingcapnormal": [
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 558,
+          "y": -361.06595
+        }
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
       "weight": 12,
@@ -267,10 +263,10 @@
       }
     }
   ],
-  "tunnel": [
+  "tunnel-oatchi": [
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -280,8 +276,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -294,6 +290,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -322,6 +319,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -336,6 +334,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -350,6 +349,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -364,6 +364,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -378,6 +379,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
       "carryMax": 4,
@@ -392,6 +394,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AMEBOZU",
       "name": "Waterwraith",
       "carryMax": 0,
@@ -406,6 +409,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -420,6 +424,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -434,6 +439,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
       "carryMax": 4,
@@ -448,6 +454,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YAMASHINJU",
       "name": "Pearly Clamclamp",
       "carryMax": 20,

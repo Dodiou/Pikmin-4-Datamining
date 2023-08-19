@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area002",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 664.0598,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 254,
@@ -25,10 +24,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-root": [
     {
-      "type": "shortcut",
-      "variant": "root",
+      "type": "shortcut-root",
+      "infoType": "shortcut",
       "transform": {
         "translation": {
           "x": 25,
@@ -38,10 +37,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -54,6 +53,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMASK",
       "name": "Expression Hider",
       "weight": 12,
@@ -70,6 +70,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MITSUMOCHI",
       "name": "Foolix",
       "carryMax": 10,
@@ -97,9 +98,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {

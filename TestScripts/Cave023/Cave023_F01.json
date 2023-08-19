@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave023_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 274,
@@ -15,6 +14,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTA3DMEGANE",
       "name": "Dimension Converter",
       "weight": 10,
@@ -29,6 +29,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 15,
@@ -44,6 +45,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAROBOBODY",
       "name": "Nexus Combobot",
       "weight": 12,
@@ -58,6 +60,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAROBOLEGR",
       "name": "Kick-Start Combobot",
       "weight": 10,
@@ -71,9 +74,10 @@
       }
     }
   ],
-  "fan": [
+  "switchable-fan": [
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -83,7 +87,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -93,10 +98,10 @@
       }
     }
   ],
-  "switch": [
+  "switchable-doubleswitch": [
     {
-      "type": "switch",
-      "variant": "double",
+      "type": "switchable-doubleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -107,9 +112,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -119,9 +125,10 @@
       }
     }
   ],
-  "crystal": [
+  "breakable-crystal": [
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -138,7 +145,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -155,7 +163,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -172,7 +181,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -189,7 +199,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -206,23 +217,25 @@
       }
     }
   ],
-  "floor": [
+  "ridable-movefloor": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 131.28809,
           "y": 527.4559
-        }
+        },
+        "rotation": 90
       }
     }
   ],
-  "pikmin": [
+  "pikmin-rock": [
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -234,9 +247,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -247,10 +261,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -260,10 +274,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-crystal": [
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "gate-crystal",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 683,
@@ -273,8 +287,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "gate-crystal",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -284,
@@ -287,6 +301,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -301,6 +316,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
@@ -323,6 +339,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -337,6 +354,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -351,6 +369,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
       "carryMax": 6,
@@ -373,6 +392,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
       "carryMax": 6,
@@ -395,6 +415,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
       "carryMax": 6,
@@ -416,9 +437,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -436,7 +458,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -466,7 +489,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

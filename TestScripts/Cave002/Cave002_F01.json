@@ -1,8 +1,10 @@
 {
-  "castaway": [
+  "castaway-normal": [
     {
-      "type": "castaway",
+      "type": "castaway-normal",
+      "infoType": "castaway",
       "isLeafling": false,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -13,10 +15,10 @@
       }
     }
   ],
-  "floor": [
+  "hazardradial-floorfire": [
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 525,
       "transform": {
         "translation": {
@@ -26,8 +28,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 175,
       "transform": {
         "translation": {
@@ -37,8 +39,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 175,
       "transform": {
         "translation": {
@@ -48,8 +50,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 350,
       "transform": {
         "translation": {
@@ -59,8 +61,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 175,
       "transform": {
         "translation": {
@@ -70,9 +72,10 @@
       }
     }
   ],
-  "charcoal": [
+  "hazardmisc-charcoal": [
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 633,
@@ -81,7 +84,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 536,
@@ -90,7 +94,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 388.49033,
@@ -99,7 +104,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 681,
@@ -108,7 +114,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -664,
@@ -117,7 +124,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -776,
@@ -126,7 +134,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -382,
@@ -135,7 +144,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 156.3301,
@@ -144,9 +154,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -156,7 +167,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -166,11 +178,10 @@
       }
     }
   ],
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area001",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 687,
@@ -179,10 +190,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -887.2465,
@@ -190,24 +201,14 @@
         },
         "rotation": -180
       }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": 0.80009854,
-          "y": -333
-        },
-        "rotation": -90
-      }
     }
   ],
-  "pikmin": [
+  "pikmin-yellow": [
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -219,12 +220,13 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
-      "replacedBy": "candypop",
+      "replacedBy": "candypop-yellow",
       "transform": {
         "translation": {
           "x": -452,
@@ -236,6 +238,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
       "weight": 12,
@@ -250,6 +253,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAYOSHICOOKIEA",
       "name": "Cookie of Nibbled Circles",
       "weight": 3,
@@ -264,6 +268,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMACARONC",
       "name": "S.S. Chocolate",
       "weight": 3,
@@ -277,10 +282,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -290,8 +295,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "guardedBy": [
         "YAKISENBEI"
@@ -304,9 +309,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-red": [
     {
-      "type": "candypop",
+      "type": "candypop-red",
+      "infoType": "candypop",
       "color": "red",
       "disappearsAt": 6,
       "transform": {
@@ -317,9 +323,23 @@
       }
     }
   ],
-  "egg": [
+  "gate-dirt": [
     {
-      "type": "egg",
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 0.80009854,
+          "y": -333
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "breakable-egg": [
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -349,7 +369,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -382,6 +403,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YAKISENBEI",
       "name": "Scorchcake",
       "carryMax": 14,
@@ -404,6 +426,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
@@ -438,6 +461,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
       "carryMax": 1,
@@ -452,6 +476,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
       "carryMax": 1,
@@ -466,6 +491,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
       "carryMax": 1,

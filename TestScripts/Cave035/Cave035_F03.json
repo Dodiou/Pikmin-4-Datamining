@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave035_F03_WaterBox00_D.png",
         "amountToFreeze": 100
@@ -16,10 +16,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -29,10 +29,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1433,
@@ -40,46 +40,14 @@
         },
         "rotation": 0
       }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": -1506.4708,
-          "y": -331.06418
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": -418.47083,
-          "y": 492.9358
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": 495.52313,
-          "y": 647.60156
-        },
-        "rotation": 0
-      }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 10,
       "transform": {
         "translation": {
@@ -89,9 +57,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -101,9 +70,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -113,21 +83,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "wing",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 17.908539,
-          "y": -38.40808
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -137,9 +96,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "transform": {
         "translation": {
@@ -147,36 +107,12 @@
           "y": 333.74988
         }
       }
-    },
-    {
-      "type": "pikmin",
-      "color": "wing",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -314.74454,
-          "y": -801.5262
-        }
-      }
-    },
-    {
-      "type": "pikmin",
-      "color": "wing",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 105.90857,
-          "y": 1385.5919
-        }
-      }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -100,
@@ -185,20 +121,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": 1099,
-          "y": -825
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -1108.0156,
@@ -207,8 +131,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -421.3502,
@@ -217,9 +141,45 @@
       }
     }
   ],
+  "gate-dirt": [
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -1506.4708,
+          "y": -331.06418
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -418.47083,
+          "y": 492.9358
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 495.52313,
+          "y": 647.60156
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHIEBI",
       "name": "Fish-Bed Snack",
       "weight": 5,
@@ -234,6 +194,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHIEBI",
       "name": "Fish-Bed Snack",
       "weight": 5,
@@ -248,6 +209,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHIMAGURO",
       "name": "Maestro of Flavor",
       "weight": 5,
@@ -262,6 +224,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHIMAGURO",
       "name": "Maestro of Flavor",
       "weight": 5,
@@ -276,6 +239,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHITAMAGO",
       "name": "Belted Delicacy",
       "weight": 5,
@@ -290,6 +254,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADRAGONFRUIT",
       "name": "Fire-Breathing Feast",
       "weight": 20,
@@ -304,6 +269,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASTARFRUIT",
       "name": "Stellar Extrusion",
       "weight": 5,
@@ -318,6 +284,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHITAMAGO",
       "name": "Belted Delicacy",
       "weight": 5,
@@ -332,6 +299,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAKIWI",
       "name": "Disguised Delicacy",
       "weight": 5,
@@ -346,6 +314,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGRAPE",
       "name": "Dusk Pustules",
       "weight": 15,
@@ -360,6 +329,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAAVOCADO",
       "name": "Scaly Custard",
       "weight": 10,
@@ -374,6 +344,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -388,6 +359,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -402,6 +374,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -416,6 +389,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMANGO",
       "name": "Heroine's Tear",
       "weight": 12,
@@ -429,9 +403,65 @@
       }
     }
   ],
+  "pikmin-wing": [
+    {
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
+      "color": "wing",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 17.908539,
+          "y": -38.40808
+        }
+      }
+    },
+    {
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
+      "color": "wing",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -314.74454,
+          "y": -801.5262
+        }
+      }
+    },
+    {
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
+      "color": "wing",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 105.90857,
+          "y": 1385.5919
+        }
+      }
+    }
+  ],
+  "shortcut-pushbag": [
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 1099,
+          "y": -825
+        },
+        "rotation": -90
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DEMEJAKO",
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
@@ -454,6 +484,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WATERTANK",
       "name": "Watery Blowhog",
       "carryMax": 10,
@@ -468,6 +499,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WATERTANK",
       "name": "Watery Blowhog",
       "carryMax": 10,
@@ -482,6 +514,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -496,6 +529,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -510,6 +544,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DEMEJAKO",
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
@@ -523,9 +558,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -543,7 +579,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -561,7 +598,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {
@@ -579,7 +617,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -597,7 +636,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

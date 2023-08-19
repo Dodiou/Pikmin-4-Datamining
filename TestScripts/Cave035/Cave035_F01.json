@@ -1,8 +1,8 @@
 {
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -12,10 +12,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-slope": [
     {
-      "type": "structure",
-      "variant": "slope",
+      "type": "structure-slope",
+      "infoType": "structure",
       "materialsNeeded": 45,
       "transform": {
         "translation": {
@@ -26,9 +26,10 @@
       }
     }
   ],
-  "firePit": [
+  "firepit-lit": [
     {
-      "type": "firePit",
+      "type": "firepit-lit",
+      "infoType": "firepit",
       "isLit": true,
       "transform": {
         "translation": {
@@ -36,62 +37,12 @@
           "y": 801
         }
       }
-    },
-    {
-      "type": "firePit",
-      "isLit": false,
-      "transform": {
-        "translation": {
-          "x": -190.98474,
-          "y": -385.96545
-        }
-      }
-    },
-    {
-      "type": "firePit",
-      "isLit": false,
-      "transform": {
-        "translation": {
-          "x": 262.01526,
-          "y": 285.03455
-        }
-      }
-    },
-    {
-      "type": "firePit",
-      "isLit": false,
-      "transform": {
-        "translation": {
-          "x": 825.01526,
-          "y": -979.96545
-        }
-      }
-    },
-    {
-      "type": "firePit",
-      "isLit": false,
-      "transform": {
-        "translation": {
-          "x": 1487.0153,
-          "y": 538.03455
-        }
-      }
-    },
-    {
-      "type": "firePit",
-      "isLit": false,
-      "transform": {
-        "translation": {
-          "x": -864.98474,
-          "y": -784.96545
-        }
-      }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -1100,
@@ -101,10 +52,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-ice": [
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1665,
@@ -114,8 +65,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 1252,
@@ -125,9 +76,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -137,7 +89,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -147,7 +100,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -157,7 +111,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 6,
       "transform": {
         "translation": {
@@ -167,7 +122,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 4,
       "transform": {
         "translation": {
@@ -177,7 +133,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -187,7 +144,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -197,10 +155,10 @@
       }
     }
   ],
-  "heatObstacle": [
+  "breakable-straw": [
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 440,
@@ -209,8 +167,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 439.99994,
@@ -219,8 +177,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 507,
@@ -229,8 +187,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1500.0001,
@@ -239,8 +197,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1499.9999,
@@ -249,8 +207,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 41.000183,
@@ -259,8 +217,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -39.999817,
@@ -269,8 +227,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -579.00006,
@@ -279,8 +237,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -579.00006,
@@ -289,8 +247,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
+      "type": "breakable-straw",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -649,
@@ -299,9 +257,67 @@
       }
     }
   ],
-  "hydroJelly": [
+  "firepit-unlit": [
     {
-      "type": "hydroJelly",
+      "type": "firepit-unlit",
+      "infoType": "firepit",
+      "isLit": false,
+      "transform": {
+        "translation": {
+          "x": -190.98474,
+          "y": -385.96545
+        }
+      }
+    },
+    {
+      "type": "firepit-unlit",
+      "infoType": "firepit",
+      "isLit": false,
+      "transform": {
+        "translation": {
+          "x": 262.01526,
+          "y": 285.03455
+        }
+      }
+    },
+    {
+      "type": "firepit-unlit",
+      "infoType": "firepit",
+      "isLit": false,
+      "transform": {
+        "translation": {
+          "x": 825.01526,
+          "y": -979.96545
+        }
+      }
+    },
+    {
+      "type": "firepit-unlit",
+      "infoType": "firepit",
+      "isLit": false,
+      "transform": {
+        "translation": {
+          "x": 1487.0153,
+          "y": 538.03455
+        }
+      }
+    },
+    {
+      "type": "firepit-unlit",
+      "infoType": "firepit",
+      "isLit": false,
+      "transform": {
+        "translation": {
+          "x": -864.98474,
+          "y": -784.96545
+        }
+      }
+    }
+  ],
+  "breakable-hydrojelly": [
+    {
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 161,
@@ -310,7 +326,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminRed_C",
@@ -327,7 +344,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 1116,
@@ -336,11 +354,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-red": [
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -350,9 +369,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -362,9 +382,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -374,9 +395,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -389,6 +411,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -403,6 +426,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -417,6 +441,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEMAR",
       "name": "Icy Blowhog",
       "carryMax": 1,
@@ -431,6 +456,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -445,6 +471,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -459,6 +486,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -473,6 +501,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
@@ -487,6 +516,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
@@ -501,6 +531,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
@@ -514,9 +545,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -534,7 +566,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

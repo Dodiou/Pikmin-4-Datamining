@@ -1,7 +1,8 @@
 {
-  "pot": [
+  "breakable-pot": [
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 438,
@@ -10,7 +11,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 439.41333,
@@ -19,11 +21,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-red": [
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -33,9 +36,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "transform": {
         "translation": {
@@ -45,9 +49,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "transform": {
         "translation": {
@@ -57,9 +62,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -69,9 +75,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "transform": {
         "translation": {
@@ -81,10 +88,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-stringup": [
     {
-      "type": "shortcut",
-      "variant": "string",
+      "type": "shortcut-stringup",
+      "infoType": "shortcut",
       "weight": 5,
       "transform": {
         "translation": {
@@ -93,22 +100,12 @@
         },
         "rotation": 180
       }
-    },
-    {
-      "type": "shortcut",
-      "variant": "root",
-      "transform": {
-        "translation": {
-          "x": -137.55737,
-          "y": -353
-        },
-        "rotation": 180
-      }
     }
   ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAAPRICOT",
       "name": "Searing Acidshock",
       "weight": 3,
@@ -123,6 +120,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 40,
@@ -138,6 +136,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -153,6 +152,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAJAMICHIGO",
       "name": "Condensed Sunshine",
       "weight": 12,
@@ -167,6 +167,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAYOSHICOOKIEC",
       "name": "Vanishing Cookie",
       "weight": 3,
@@ -181,6 +182,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAECLAIR",
       "name": "Sweet Torrent",
       "weight": 10,
@@ -195,6 +197,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAWAFFLE",
       "name": "Cushion Cake",
       "weight": 7,
@@ -208,10 +211,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -221,10 +224,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -357.4999,
@@ -234,9 +237,23 @@
       }
     }
   ],
-  "groupDropManager": [
+  "shortcut-root": [
     {
-      "type": "groupDropManager",
+      "type": "shortcut-root",
+      "infoType": "shortcut",
+      "transform": {
+        "translation": {
+          "x": -137.55737,
+          "y": -353
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "misc-groupdropmanager": [
+    {
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 13.486065,
       "drops": [
         {
@@ -257,6 +274,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
       "carryMax": 14,
@@ -271,6 +289,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -293,6 +312,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -307,6 +327,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -321,6 +342,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -335,6 +357,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -349,6 +372,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -362,9 +386,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -394,7 +419,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -424,7 +450,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -454,7 +481,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

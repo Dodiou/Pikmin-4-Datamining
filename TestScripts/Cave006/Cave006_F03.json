@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area002",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 240.87042,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 57.513428,
@@ -25,11 +24,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-ice": [
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -44,6 +44,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL2",
       "name": "Sphere of Family",
       "weight": 7,
@@ -57,10 +58,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -73,6 +74,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
       "carryMax": 1,
@@ -100,9 +102,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -132,7 +135,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

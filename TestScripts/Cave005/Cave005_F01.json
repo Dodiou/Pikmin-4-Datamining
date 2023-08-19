@@ -1,8 +1,8 @@
 {
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -13,30 +13,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": -391.55115,
-          "y": 1100.3926
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": 99.14102,
-          "y": -825.5183
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -47,42 +25,59 @@
       }
     }
   ],
-  "floor": [
+  "ridable-movefloor": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 549,
           "y": -574
-        }
+        },
+        "rotation": 0
       }
     },
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -136.20361,
           "y": -688.90247
-        }
+        },
+        "rotation": 90
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 893,
           "y": 6
         }
       }
-    },
+    }
+  ],
+  "pile-materials": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "pile-materials",
+      "infoType": "pile",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 810,
+          "y": -525
+        }
+      }
+    }
+  ],
+  "shortcut-pushbag": [
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -93,23 +88,10 @@
       }
     }
   ],
-  "materials": [
+  "cave-exit": [
     {
-      "type": "materials",
-      "amount": 15,
-      "transform": {
-        "translation": {
-          "x": 810,
-          "y": -525
-        }
-      }
-    }
-  ],
-  "caveLink": [
-    {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area001",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -837.89874,
@@ -118,10 +100,12 @@
       }
     }
   ],
-  "castaway": [
+  "castaway-normal": [
     {
-      "type": "castaway",
+      "type": "castaway-normal",
+      "infoType": "castaway",
       "isLeafling": false,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -132,23 +116,47 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 548.3081,
           "y": -1020.37366
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "pot": [
+  "switchable-fencenormal": [
     {
-      "type": "pot",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
+      "transform": {
+        "translation": {
+          "x": -391.55115,
+          "y": 1100.3926
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
+      "transform": {
+        "translation": {
+          "x": 99.14102,
+          "y": -825.5183
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "breakable-pot": [
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -399.80762,
@@ -157,7 +165,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 557.3148,
@@ -166,7 +175,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 482.11035,
@@ -175,7 +185,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -445,
@@ -184,7 +195,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 548.5178,
@@ -193,7 +205,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -413.7484,
@@ -202,19 +215,15 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-yellow": [
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
-      "replacedBy": "candypop",
-      "candypopOffset": {
-        "X": 266,
-        "Y": 74,
-        "Z": 0
-      },
+      "replacedBy": "candypop-yellow",
       "transform": {
         "translation": {
           "x": 553.7565,
@@ -223,10 +232,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -900.1731,
@@ -239,6 +248,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATRAINA",
       "name": "Unlimited Locomotive",
       "weight": 7,
@@ -253,6 +263,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTALOUPE",
       "name": "Detective's Truth Seeker",
       "weight": 15,
@@ -266,10 +277,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -279,8 +290,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -290,9 +301,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 130,
       "drops": [
         {
@@ -316,7 +328,8 @@
       }
     },
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 130,
       "drops": [
         {
@@ -337,6 +350,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -365,6 +379,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -393,6 +408,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,

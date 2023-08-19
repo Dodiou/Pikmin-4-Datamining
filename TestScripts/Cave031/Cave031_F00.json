@@ -1,9 +1,10 @@
 {
-  "pikmin": [
+  "pikmin-ice": [
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "idle",
+      "state": "idle",
       "amount": 15,
       "transform": {
         "translation": {
@@ -13,9 +14,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "idle",
+      "state": "idle",
       "amount": 15,
       "transform": {
         "translation": {
@@ -25,9 +27,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 10,
       "transform": {
         "translation": {
@@ -37,33 +40,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "yellow",
-      "variant": "idle",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -141.5,
-          "y": -571.5
-        }
-      }
-    },
-    {
-      "type": "pikmin",
-      "color": "yellow",
-      "variant": "idle",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 1740.9254,
-          "y": 178.63745
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "transform": {
         "translation": {
@@ -73,10 +53,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1803.114,
@@ -84,22 +64,12 @@
         },
         "rotation": 90
       }
-    },
-    {
-      "type": "gate",
-      "variant": "ice",
-      "transform": {
-        "translation": {
-          "x": -848.5,
-          "y": 337.5
-        },
-        "rotation": -90
-      }
     }
   ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -115,6 +85,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -130,6 +101,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOM",
       "name": "Love Nugget",
       "weight": 10,
@@ -144,6 +116,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAICHIJIKU",
       "name": "Delectable Bouquet",
       "weight": 10,
@@ -158,6 +131,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADRAGONFRUIT",
       "name": "Fire-Breathing Feast",
       "weight": 20,
@@ -172,6 +146,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAAPRICOT",
       "name": "Searing Acidshock",
       "weight": 3,
@@ -186,6 +161,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTANASHI",
       "name": "Crunchy Deluge",
       "weight": 12,
@@ -200,6 +176,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAWATERMELON",
       "name": "Crimson Banquet",
       "weight": 100,
@@ -214,6 +191,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPOTATO",
       "name": "Child of the Earth",
       "weight": 7,
@@ -228,6 +206,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMUSCAT",
       "name": "Dawn Pustules",
       "weight": 15,
@@ -242,6 +221,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGRAPE",
       "name": "Dusk Pustules",
       "weight": 15,
@@ -256,6 +236,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAAPRICOT",
       "name": "Searing Acidshock",
       "weight": 3,
@@ -270,6 +251,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABANANA",
       "name": "Slapstick Crescent",
       "weight": 15,
@@ -284,6 +266,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOM",
       "name": "Love Nugget",
       "weight": 10,
@@ -298,6 +281,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOS",
       "name": "Crush Nugget",
       "weight": 2,
@@ -312,6 +296,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
       "weight": 12,
@@ -326,6 +311,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
       "weight": 12,
@@ -340,6 +326,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTALEMON",
       "name": "Face Wrinkler",
       "weight": 7,
@@ -354,6 +341,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMIKAN",
       "name": "Citrus Lump",
       "weight": 7,
@@ -367,10 +355,38 @@
       }
     }
   ],
-  "spout": [
+  "pikmin-yellow": [
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
+      "color": "yellow",
+      "state": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -141.5,
+          "y": -571.5
+        }
+      }
+    },
+    {
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
+      "color": "yellow",
+      "state": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 1740.9254,
+          "y": 178.63745
+        }
+      }
+    }
+  ],
+  "hazardspout-electric": [
+    {
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -1237.5,
@@ -379,8 +395,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -1237.5,
@@ -389,10 +405,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-squashbag": [
     {
-      "type": "shortcut",
-      "variant": "squashbag",
+      "type": "shortcut-squashbag",
+      "infoType": "shortcut",
       "weight": 50,
       "transform": {
         "translation": {
@@ -403,24 +419,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 49.5,
           "y": 225.5
-        },
-        "rotation": -45
+        }
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -431,10 +446,23 @@
       }
     }
   ],
-  "water": [
+  "gate-ice": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "gate-ice",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -848.5,
+          "y": 337.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "water-water": [
+    {
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave031_F00_WaterBox00_D.png",
         "amountToFreeze": 15
@@ -448,8 +476,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave031_F00_WaterBox01_D.png",
         "amountToFreeze": 15
@@ -463,9 +491,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-purple": [
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": null,
       "transform": {
@@ -476,7 +505,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": null,
       "transform": {
@@ -487,10 +517,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -500,8 +530,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "guardedBy": [
         "IceKochappy"
@@ -514,9 +544,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1028.5,
@@ -525,7 +556,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1953.75,
@@ -537,6 +569,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -551,6 +584,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
       "carryMax": 10,
@@ -565,6 +599,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -579,6 +614,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
       "carryMax": 10,
@@ -593,6 +629,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
@@ -607,6 +644,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
@@ -621,6 +659,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -635,6 +674,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -648,9 +688,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -680,7 +721,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -710,7 +752,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

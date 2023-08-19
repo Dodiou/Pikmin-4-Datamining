@@ -1,20 +1,20 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave016_F12",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -127.841736,
           "y": -898.52
         }
       }
-    },
+    }
+  ],
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area006",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 325.41882,
@@ -23,9 +23,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-purple": [
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -37,7 +38,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": 51,
       "transform": {
@@ -48,10 +50,10 @@
       }
     }
   ],
-  "tunnel": [
+  "tunnel-any": [
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -61,8 +63,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -72,10 +74,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -88,6 +90,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAVENUS",
       "name": "Unfinished Statue",
       "weight": 30,
@@ -104,6 +107,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "REDSHIJIMI",
       "name": "Red Spectralids",
       "carryMax": 1,
@@ -126,6 +130,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -148,6 +153,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -170,6 +176,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "REDSHIJIMI",
       "name": "Red Spectralids",
       "carryMax": 1,
@@ -192,6 +199,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
       "carryMax": 1,
@@ -214,6 +222,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
       "carryMax": 1,
@@ -236,6 +245,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -258,6 +268,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "REDSHIJIMI",
       "name": "Red Spectralids",
       "carryMax": 1,
@@ -280,6 +291,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OOKOGANE",
       "name": "Iridescent Glint Beetle",
       "carryMax": 0,

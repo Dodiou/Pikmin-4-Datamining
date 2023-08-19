@@ -1,8 +1,8 @@
 {
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 434.0816,
@@ -12,11 +12,10 @@
       }
     }
   ],
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave016_F14",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 705.69525,
@@ -25,10 +24,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -41,6 +40,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHIADULT",
       "name": "Horned Cannon Beetle",
       "carryMax": 60,
@@ -69,6 +69,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -83,6 +84,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -97,6 +99,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -110,9 +113,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {

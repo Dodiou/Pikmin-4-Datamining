@@ -1,8 +1,10 @@
 {
-  "castaway": [
+  "castaway-normal": [
     {
-      "type": "castaway",
+      "type": "castaway-normal",
+      "infoType": "castaway",
       "isLeafling": false,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -13,11 +15,10 @@
       }
     }
   ],
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area003",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 834.5,
@@ -26,10 +27,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 630,
@@ -39,9 +40,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-blue": [
     {
-      "type": "candypop",
+      "type": "candypop-blue",
+      "infoType": "candypop",
       "color": "blue",
       "changesAt": 41,
       "changesTo": "ice",
@@ -54,7 +56,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-blue",
+      "infoType": "candypop",
       "color": "blue",
       "changesAt": 41,
       "changesTo": "ice",
@@ -67,10 +70,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave011_F03_WaterBox00_D.png",
         "amountToFreeze": 100
@@ -84,11 +87,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -100,9 +104,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -114,9 +119,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -128,9 +134,10 @@
       }
     }
   ],
-  "ropeFishing": [
+  "misc-pullrope": [
     {
-      "type": "ropeFishing",
+      "type": "misc-pullrope",
+      "infoType": "misc",
       "weight": 10,
       "transform": {
         "translation": {
@@ -141,10 +148,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -154,10 +161,10 @@
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -662,
@@ -169,6 +176,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGFROG",
       "name": "Masterhop",
       "carryMax": 30,

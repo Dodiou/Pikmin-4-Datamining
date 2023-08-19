@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave024_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 402.1853,
@@ -12,52 +11,70 @@
       }
     }
   ],
-  "floor": [
+  "ridable-movefloor": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -688.1644,
           "y": 33.072754
-        }
+        },
+        "rotation": 90
       }
     },
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 965.54956,
           "y": 14.357178
-        }
+        },
+        "rotation": 180
       }
     },
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 961.66284,
           "y": -276.0244
-        }
+        },
+        "rotation": 0
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -409.90845,
           "y": -353.66785
         }
       }
-    },
+    }
+  ],
+  "gate-dirt": [
     {
-      "type": "shortcut",
-      "variant": "clipboard",
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -9.710541,
+          "y": 492.7185
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "shortcut-clipboardlow": [
+    {
+      "type": "shortcut-clipboardlow",
+      "infoType": "shortcut",
       "weight": 20,
       "transform": {
         "translation": {
@@ -68,22 +85,10 @@
       }
     }
   ],
-  "gate": [
+  "pile-materials": [
     {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": -9.710541,
-          "y": 492.7185
-        },
-        "rotation": -90
-      }
-    }
-  ],
-  "materials": [
-    {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 21,
       "transform": {
         "translation": {
@@ -93,10 +98,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-bridge": [
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 27,
       "transform": {
         "translation": {
@@ -107,11 +112,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-wing": [
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -122,10 +128,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -138,6 +144,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL8",
       "name": "Sphere of Trust",
       "weight": 7,
@@ -152,6 +159,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADARTS",
       "name": "Relentless Spear",
       "weight": 7,
@@ -166,6 +174,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADICE12",
       "name": "Long-Shot Totem",
       "weight": 2,
@@ -182,6 +191,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
       "carryMax": 4,
@@ -196,6 +206,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
       "carryMax": 4,
@@ -210,6 +221,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
       "carryMax": 4,
@@ -224,6 +236,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
       "carryMax": 4,
@@ -237,9 +250,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -269,7 +283,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -299,7 +314,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

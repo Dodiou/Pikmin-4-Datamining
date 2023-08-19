@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave010_F04",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -816.4396,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-clipboardlow": [
     {
-      "type": "shortcut",
-      "variant": "clipboard",
+      "type": "shortcut-clipboardlow",
+      "infoType": "shortcut",
       "weight": 20,
       "transform": {
         "translation": {
@@ -26,10 +25,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave010_F03_WaterBox00_D.png",
         "amountToFreeze": 10
@@ -46,6 +45,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 20,
@@ -61,6 +61,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -74,10 +75,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -88,8 +89,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -100,8 +101,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -112,24 +113,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 825,
           "y": 700
-        },
-        "rotation": 90
+        }
       }
     }
   ],
-  "tunnel": [
+  "tunnel-oatchi": [
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -139,8 +139,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -150,10 +150,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-fire": [
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 811.0265,
@@ -162,8 +162,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 272.66656,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 824.0265,
@@ -182,11 +182,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-rock": [
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -197,10 +198,10 @@
       }
     }
   ],
-  "floor": [
+  "hazardradial-floorfire": [
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 175,
       "transform": {
         "translation": {
@@ -210,9 +211,10 @@
       }
     }
   ],
-  "charcoal": [
+  "hazardmisc-charcoal": [
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -863,
@@ -221,7 +223,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -783,
@@ -230,10 +233,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-crystal": [
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "gate-crystal",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 384,
@@ -243,10 +246,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -256,9 +259,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-rock": [
     {
-      "type": "candypop",
+      "type": "candypop-rock",
+      "infoType": "candypop",
       "color": "rock",
       "disappearsAt": 6,
       "transform": {
@@ -267,9 +271,12 @@
           "y": 277.1253
         }
       }
-    },
+    }
+  ],
+  "candypop-red": [
     {
-      "type": "candypop",
+      "type": "candypop-red",
+      "infoType": "candypop",
       "color": "red",
       "disappearsAt": 6,
       "transform": {
@@ -283,6 +290,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
@@ -305,6 +313,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -319,6 +328,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
@@ -347,6 +357,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -361,6 +372,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,

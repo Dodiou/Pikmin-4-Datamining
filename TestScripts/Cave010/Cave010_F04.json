@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave010_F05",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -647.5,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -26,23 +25,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -837.5,
           "y": 550
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -52,11 +51,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-rock": [
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -68,9 +68,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -84,6 +85,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAZUCCHINI",
       "name": "Crew-Cut Gourd",
       "weight": 10,
@@ -98,6 +100,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAYOSHICOOKIEB",
       "name": "Cookie of Prosperity",
       "weight": 3,
@@ -111,10 +114,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-crystal": [
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "gate-crystal",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -662,
@@ -124,8 +127,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "gate-crystal",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -49,
@@ -135,10 +138,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -148,9 +151,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-rock": [
     {
-      "type": "candypop",
+      "type": "candypop-rock",
+      "infoType": "candypop",
       "color": "rock",
       "disappearsAt": 6,
       "transform": {
@@ -164,6 +168,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -178,6 +183,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMACHAPPY",
       "name": "Spotty Bulbear",
       "carryMax": 24,
@@ -206,6 +212,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -220,6 +227,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -234,6 +242,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -248,6 +257,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -262,6 +272,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,

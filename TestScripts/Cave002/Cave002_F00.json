@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave002_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 689,
@@ -12,11 +11,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-yellow": [
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -28,17 +28,13 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "disappearsAt": 51,
-      "replacedBy": "candypop",
-      "candypopOffset": {
-        "X": 210,
-        "Y": 50,
-        "Z": -84
-      },
+      "replacedBy": "candypop-yellow",
       "transform": {
         "translation": {
           "x": -399,
@@ -47,10 +43,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-pushbag": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -64,6 +60,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABOARDERASER",
       "name": "Dusty Bed",
       "weight": 10,
@@ -78,6 +75,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPAINTSYEL",
       "name": "Illumination Goo",
       "weight": 3,
@@ -92,6 +90,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAISOBEYAKI",
       "name": "Deceptive Snack",
       "weight": 5,
@@ -105,9 +104,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -117,10 +117,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -130,10 +130,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 887.52673,
@@ -146,6 +146,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -168,6 +169,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -190,6 +192,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -212,6 +215,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
       "carryMax": 1,
@@ -226,6 +230,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
       "carryMax": 1,
@@ -240,6 +245,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
       "carryMax": 1,
@@ -254,6 +260,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
       "carryMax": 1,
@@ -267,9 +274,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -299,7 +307,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

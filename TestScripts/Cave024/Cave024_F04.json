@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area004",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1207.7421,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1213.5,
@@ -25,8 +24,21 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-numbered",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 388.5,
+          "y": 543.5
+        },
+        "rotation": -135
+      }
+    }
+  ],
+  "gate-dirt": [
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 277.071,
@@ -36,19 +48,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
-      "transform": {
-        "translation": {
-          "x": 388.5,
-          "y": 543.5
-        },
-        "rotation": -135
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1060,
@@ -58,8 +59,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -47.071014,
@@ -69,10 +70,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -85,6 +86,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGCCONWB",
       "name": "Winged Freedom Sculpture",
       "weight": 20,
@@ -101,6 +103,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DAMAGUMOCANNON",
       "name": "Man-at-Legs",
       "carryMax": 0,
@@ -128,9 +131,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {
@@ -160,7 +164,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -190,7 +195,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

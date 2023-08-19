@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area003",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 860,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 550,
@@ -25,10 +24,10 @@
       }
     }
   ],
-  "heatObstacle": [
+  "breakable-icebox": [
     {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 153.83325,
@@ -37,8 +36,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -481.64764,
@@ -47,8 +46,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 134.41089,
@@ -57,9 +56,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminIce_C",
@@ -76,7 +76,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminIce_C",
@@ -93,7 +94,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 860,
@@ -102,10 +104,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -118,6 +120,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARODAN",
       "name": "Contemplation Station",
       "weight": 50,
@@ -131,9 +134,10 @@
       }
     }
   ],
-  "icicle": [
+  "misc-icicle": [
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 146.41357,
@@ -142,7 +146,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 252.95215,
@@ -151,7 +156,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -303.04785,
@@ -160,7 +166,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -240.04785,
@@ -169,7 +176,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -449.58643,
@@ -178,7 +186,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 45.518433,
@@ -187,7 +196,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 59.941895,
@@ -196,7 +206,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 216.9419,
@@ -205,7 +216,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -481.58643,
@@ -214,7 +226,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 60.413574,
@@ -223,7 +236,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 201.41357,
@@ -232,7 +246,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 14.185791,
@@ -241,7 +256,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -538.04785,
@@ -250,7 +266,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -501.04785,
@@ -259,7 +276,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -387.04785,
@@ -268,7 +286,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -440.04785,
@@ -277,7 +296,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -402.04785,
@@ -286,7 +306,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -174.04785,
@@ -295,7 +316,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -196.58643,
@@ -304,7 +326,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -116.586426,
@@ -316,6 +339,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHIADULT",
       "name": "Arctic Cannon Beetle",
       "carryMax": 60,
@@ -343,9 +367,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {

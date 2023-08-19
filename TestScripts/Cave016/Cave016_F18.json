@@ -1,31 +1,20 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave016_F19",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 648,
           "y": 398
         }
       }
-    },
-    {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area006",
-      "transform": {
-        "translation": {
-          "x": -872.5625,
-          "y": 410.48254
-        }
-      }
     }
   ],
-  "candypop": [
+  "candypop-red": [
     {
-      "type": "candypop",
+      "type": "candypop-red",
+      "infoType": "candypop",
       "color": "red",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -35,9 +24,12 @@
           "y": 585.6966
         }
       }
-    },
+    }
+  ],
+  "candypop-yellow": [
     {
-      "type": "candypop",
+      "type": "candypop-yellow",
+      "infoType": "candypop",
       "color": "yellow",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -47,9 +39,12 @@
           "y": 747.3118
         }
       }
-    },
+    }
+  ],
+  "candypop-blue": [
     {
-      "type": "candypop",
+      "type": "candypop-blue",
+      "infoType": "candypop",
       "color": "blue",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -59,28 +54,16 @@
           "y": 680.2527
         }
       }
-    },
+    }
+  ],
+  "cave-exit": [
     {
-      "type": "candypop",
-      "color": "ice",
-      "disappearsAt": 51,
-      "replacedBy": "GEgg_C",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
-          "x": 27.961426,
-          "y": 675.7648
-        }
-      }
-    },
-    {
-      "type": "candypop",
-      "color": "white",
-      "disappearsAt": 51,
-      "replacedBy": "GEgg_C",
-      "transform": {
-        "translation": {
-          "x": -117.38025,
-          "y": 761.596
+          "x": -872.5625,
+          "y": 410.48254
         }
       }
     }
@@ -88,6 +71,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -102,6 +86,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -116,6 +101,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -130,6 +116,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAICHIGO",
       "name": "Sunseed Berry",
       "weight": 3,
@@ -144,6 +131,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAKIWIGLD",
       "name": "Blonde Impostor",
       "weight": 5,
@@ -158,6 +146,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARASPBERRY",
       "name": "Juicy Gaggle",
       "weight": 1,
@@ -172,6 +161,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTALIME",
       "name": "Zest Bomb",
       "weight": 7,
@@ -186,6 +176,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMANGO",
       "name": "Heroine's Tear",
       "weight": 12,
@@ -200,6 +191,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADEKOPON",
       "name": "Pocked Airhead",
       "weight": 12,
@@ -213,10 +205,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave016_F18_WaterBox00_D.png",
         "amountToFreeze": 10
@@ -230,10 +222,40 @@
       }
     }
   ],
-  "base": [
+  "candypop-ice": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "candypop-ice",
+      "infoType": "candypop",
+      "color": "ice",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
+      "transform": {
+        "translation": {
+          "x": 27.961426,
+          "y": 675.7648
+        }
+      }
+    }
+  ],
+  "candypop-white": [
+    {
+      "type": "candypop-white",
+      "infoType": "candypop",
+      "color": "white",
+      "disappearsAt": 51,
+      "replacedBy": "GEgg_C",
+      "transform": {
+        "translation": {
+          "x": -117.38025,
+          "y": 761.596
+        }
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -246,6 +268,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -274,6 +297,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -302,6 +326,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -330,6 +355,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -358,6 +384,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -386,6 +413,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -414,6 +442,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,

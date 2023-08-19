@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area010",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1430,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1255.4329,
@@ -23,22 +22,12 @@
         },
         "rotation": 90
       }
-    },
-    {
-      "type": "gate",
-      "variant": "crystal",
-      "transform": {
-        "translation": {
-          "x": -276,
-          "y": -433
-        },
-        "rotation": 180
-      }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -48,10 +37,12 @@
       }
     }
   ],
-  "castaway": [
+  "castaway-leafling": [
     {
-      "type": "castaway",
+      "type": "castaway-leafling",
+      "infoType": "castaway",
       "isLeafling": true,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -62,21 +53,23 @@
       }
     }
   ],
-  "floor": [
+  "ridable-movefloor": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -772.87415,
           "y": -19.894531
-        }
+        },
+        "rotation": 0
       }
     }
   ],
-  "onion": [
+  "onion-flarlic": [
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -87,10 +80,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-slope": [
     {
-      "type": "structure",
-      "variant": "slope",
+      "type": "structure-slope",
+      "infoType": "structure",
       "materialsNeeded": 22,
       "transform": {
         "translation": {
@@ -101,9 +94,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-purple": [
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -115,7 +109,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -127,10 +122,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -140,9 +135,23 @@
       }
     }
   ],
+  "gate-crystal": [
+    {
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -276,
+          "y": -433
+        },
+        "rotation": 180
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAYOSHICOOKIED",
       "name": "Love's Fortune Cookie",
       "weight": 3,
@@ -157,6 +166,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAECLAIR",
       "name": "Sweet Torrent",
       "weight": 10,
@@ -171,6 +181,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAYOSHICOOKIEE",
       "name": "Hearty Container",
       "weight": 3,
@@ -185,6 +196,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACANDYSTICK",
       "name": "Sweet Stumble-Not",
       "weight": 7,
@@ -199,6 +211,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABUTTONWOOD",
       "name": "Perforated Raft",
       "weight": 1,
@@ -213,6 +226,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAKIWI",
       "name": "Disguised Delicacy",
       "weight": 5,
@@ -229,6 +243,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OOPANMODOKI",
       "name": "Giant Breadbug",
       "carryMax": 24,
@@ -257,6 +272,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -271,6 +287,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -285,6 +302,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -299,6 +317,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMACHAPPY",
       "name": "Spotty Bulbear",
       "carryMax": 24,
@@ -321,6 +340,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -335,6 +355,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -349,6 +370,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -363,6 +385,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -377,6 +400,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -391,6 +415,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OOPANMODOKI",
       "name": "Giant Breadbug",
       "carryMax": 24,
@@ -419,6 +444,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
       "carryMax": 1,

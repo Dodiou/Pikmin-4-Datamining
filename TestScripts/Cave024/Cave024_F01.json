@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave024_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 961.3989,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -686.5621,
@@ -24,8 +23,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "hasCrystal": true,
       "transform": {
         "translation": {
@@ -35,8 +34,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 772.5,
@@ -45,8 +44,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -139.5,
@@ -55,10 +54,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -69,8 +68,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -81,19 +80,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": -687.5,
-          "y": 790
-        },
-        "rotation": 0
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -104,8 +92,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -116,9 +104,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -128,7 +117,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -138,23 +128,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 47.5,
           "y": 134
-        },
-        "rotation": 90
+        }
       }
     }
   ],
-  "candypop": [
+  "candypop-wing": [
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -166,7 +156,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -178,7 +169,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "changesAt": 11,
       "changesTo": "white",
@@ -191,9 +183,23 @@
       }
     }
   ],
+  "switchable-fencenormal": [
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
+      "transform": {
+        "translation": {
+          "x": -687.5,
+          "y": 790
+        },
+        "rotation": 0
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARAILWAYLINEB",
       "name": "Straight-and-Narrow Track",
       "weight": 7,
@@ -208,6 +214,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAJOYCONL",
       "name": "Telekinesis Detector",
       "weight": 10,
@@ -221,10 +228,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -234,9 +241,10 @@
       }
     }
   ],
-  "mound": [
+  "breakable-mound": [
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBomb_C",
@@ -253,9 +261,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -285,7 +294,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -318,6 +328,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WATERTANK",
       "name": "Watery Blowhog",
       "carryMax": 10,
@@ -340,6 +351,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HANACHIRASHI",
       "name": "Withering Blowhog",
       "carryMax": 1,
@@ -362,6 +374,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WATERTANK",
       "name": "Watery Blowhog",
       "carryMax": 10,
@@ -384,6 +397,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
@@ -398,6 +412,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
@@ -412,6 +427,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,

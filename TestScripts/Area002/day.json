@@ -1,8 +1,8 @@
 {
-  "structure": [
+  "structure-bridge": [
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 40,
       "transform": {
         "translation": {
@@ -13,20 +13,8 @@
       }
     },
     {
-      "type": "structure",
-      "variant": "wall",
-      "materialsNeeded": 11,
-      "transform": {
-        "translation": {
-          "x": -787.97473,
-          "y": -2574.395
-        },
-        "rotation": -14.256
-      }
-    },
-    {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 29,
       "transform": {
         "translation": {
@@ -37,20 +25,8 @@
       }
     },
     {
-      "valveId": "valve1",
-      "type": "structure",
-      "variant": "valve",
-      "materialsNeeded": 16,
-      "transform": {
-        "translation": {
-          "x": 672.36694,
-          "y": 2326.644
-        }
-      }
-    },
-    {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 33,
       "transform": {
         "translation": {
@@ -61,11 +37,10 @@
       }
     }
   ],
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave006_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -991.68604,
@@ -74,9 +49,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave010_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 986.211,
@@ -85,9 +59,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave007_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 1126.1545,
@@ -96,9 +69,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave009_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1938.659,
@@ -107,41 +79,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "battle",
-      "link": "CaveVS001_F00",
-      "transform": {
-        "translation": {
-          "x": 902.2632,
-          "y": 756.08405
-        }
-      }
-    },
-    {
-      "type": "caveLink",
-      "variant": "challenge",
-      "link": "CaveSP002_F00",
-      "transform": {
-        "translation": {
-          "x": -646.4329,
-          "y": -1527.8934
-        }
-      }
-    },
-    {
-      "type": "caveLink",
-      "variant": "challenge",
-      "link": "CaveSP003_F00",
-      "transform": {
-        "translation": {
-          "x": 3048.0674,
-          "y": -41.314827
-        }
-      }
-    },
-    {
-      "type": "caveLink",
-      "link": "Cave009_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -2192.869,
@@ -150,10 +89,24 @@
       }
     }
   ],
-  "shortcut": [
+  "structure-wall": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "structure-wall",
+      "infoType": "structure",
+      "materialsNeeded": 11,
+      "transform": {
+        "translation": {
+          "x": -787.97473,
+          "y": -2574.395
+        },
+        "rotation": -14.256
+      }
+    }
+  ],
+  "shortcut-pushbag": [
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -164,8 +117,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -176,48 +129,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "chargeShroom",
-      "transform": {
-        "translation": {
-          "x": -537.7697,
-          "y": -2569.7075
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "chargeShroom",
-      "transform": {
-        "translation": {
-          "x": -482.1119,
-          "y": -2723.8984
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "chargeShroom",
-      "transform": {
-        "translation": {
-          "x": -314.49823,
-          "y": -2975.1677
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "chargeShroom",
-      "transform": {
-        "translation": {
-          "x": -419.23035,
-          "y": -2876.1619
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -226,23 +139,12 @@
         },
         "rotation": -1.3
       }
-    },
-    {
-      "type": "shortcut",
-      "variant": "root",
-      "transform": {
-        "translation": {
-          "x": 2609.612,
-          "y": 421.46838
-        },
-        "rotation": 14.085
-      }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Area002_WaterBox00_D.png",
         "amountToFreeze": 30
@@ -256,10 +158,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 1405.9194,
@@ -269,8 +171,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -3016.044,
@@ -278,10 +180,38 @@
         },
         "rotation": 13.166
       }
-    },
+    }
+  ],
+  "cave-battle": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "cave-battle",
+      "infoType": "cave",
+      "transform": {
+        "translation": {
+          "x": 902.2632,
+          "y": 756.08405
+        }
+      }
+    }
+  ],
+  "structure-valve": [
+    {
+      "valveId": "valve1",
+      "type": "structure-valve",
+      "infoType": "structure",
+      "materialsNeeded": 16,
+      "transform": {
+        "translation": {
+          "x": 672.36694,
+          "y": 2326.644
+        }
+      }
+    }
+  ],
+  "gate-dirt": [
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 861.91327,
@@ -289,10 +219,246 @@
         },
         "rotation": -66.649
       }
+    }
+  ],
+  "breakable-pot": [
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1957.8165,
+          "y": -276.852
+        }
+      }
     },
     {
-      "type": "gate",
-      "variant": "bomb",
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1972.2007,
+          "y": -83.83916
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -2011.0884,
+          "y": -240.59004
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -872.5494,
+          "y": 2360
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -787.129,
+          "y": 2316.609
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -924.1758,
+          "y": 2322
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1908.2278,
+          "y": -76.83646
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -2030.8843,
+          "y": -123.385704
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -2049.9758,
+          "y": -184.03621
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1895.8824,
+          "y": -254.58145
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -841.8541,
+          "y": 2304.7212
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1860.686,
+          "y": -207.42699
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 1455.6288,
+          "y": 1853.6136
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 1541.8431,
+          "y": 1795.7787
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 1511.661,
+          "y": 1748.9453
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 1487.6288,
+          "y": 1799.0084
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1954.9868,
+          "y": -1587.2753
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1878.1569,
+          "y": -1570.2213
+        }
+      }
+    },
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1908.339,
+          "y": -1617.0547
+        }
+      }
+    }
+  ],
+  "platform-chargeshroom": [
+    {
+      "type": "platform-chargeshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -537.7697,
+          "y": -2569.7075
+        }
+      }
+    },
+    {
+      "type": "platform-chargeshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -482.1119,
+          "y": -2723.8984
+        }
+      }
+    },
+    {
+      "type": "platform-chargeshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -314.49823,
+          "y": -2975.1677
+        }
+      }
+    },
+    {
+      "type": "platform-chargeshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -419.23035,
+          "y": -2876.1619
+        }
+      }
+    }
+  ],
+  "gate-bomb": [
+    {
+      "type": "gate-bomb",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 2780,
@@ -300,10 +466,12 @@
         },
         "rotation": -5
       }
-    },
+    }
+  ],
+  "gate-ice": [
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 123.57311,
@@ -313,8 +481,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 15.031854,
@@ -324,183 +492,45 @@
       }
     }
   ],
-  "pot": [
+  "cave-challenge": [
     {
-      "type": "pot",
+      "type": "cave-challenge",
+      "infoType": "cave",
       "transform": {
         "translation": {
-          "x": -1957.8165,
-          "y": -276.852
+          "x": -646.4329,
+          "y": -1527.8934
         }
       }
     },
     {
-      "type": "pot",
+      "type": "cave-challenge",
+      "infoType": "cave",
       "transform": {
         "translation": {
-          "x": -1972.2007,
-          "y": -83.83916
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -2011.0884,
-          "y": -240.59004
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -872.5494,
-          "y": 2360
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -787.129,
-          "y": 2316.609
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -924.1758,
-          "y": 2322
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -1908.2278,
-          "y": -76.83646
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -2030.8843,
-          "y": -123.385704
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -2049.9758,
-          "y": -184.03621
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -1895.8824,
-          "y": -254.58145
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -841.8541,
-          "y": 2304.7212
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -1860.686,
-          "y": -207.42699
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": 1455.6288,
-          "y": 1853.6136
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": 1541.8431,
-          "y": 1795.7787
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": 1511.661,
-          "y": 1748.9453
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": 1487.6288,
-          "y": 1799.0084
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -1954.9868,
-          "y": -1587.2753
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -1878.1569,
-          "y": -1570.2213
-        }
-      }
-    },
-    {
-      "type": "pot",
-      "transform": {
-        "translation": {
-          "x": -1908.339,
-          "y": -1617.0547
+          "x": 3048.0674,
+          "y": -41.314827
         }
       }
     }
   ],
-  "base": [
+  "shortcut-root": [
     {
-      "type": "base",
-      "variant": "onion",
+      "type": "shortcut-root",
+      "infoType": "shortcut",
+      "transform": {
+        "translation": {
+          "x": 2609.612,
+          "y": 421.46838
+        },
+        "rotation": 14.085
+      }
+    }
+  ],
+  "base-beagle": [
+    {
+      "type": "base-beagle",
+      "infoType": "base",
       "baseId": 2,
       "transform": {
         "translation": {
@@ -510,19 +540,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
-      "baseId": 2,
-      "transform": {
-        "translation": {
-          "x": -1545.5916,
-          "y": -678.3218
-        }
-      }
-    },
-    {
-      "type": "base",
-      "variant": "onion",
+      "type": "base-beagle",
+      "infoType": "base",
       "baseId": 1,
       "guardedBy": [
         "BIKKURIGIKU"
@@ -535,8 +554,32 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-beagle",
+      "infoType": "base",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 991.65375,
+          "y": -154.36243
+        }
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": -1545.5916,
+          "y": -678.3218
+        }
+      }
+    },
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -546,19 +589,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "onion",
-      "baseId": 0,
-      "transform": {
-        "translation": {
-          "x": 991.65375,
-          "y": -154.36243
-        }
-      }
-    },
-    {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -568,9 +600,10 @@
       }
     }
   ],
-  "sprinkler": [
+  "hazardradial-sprinkler": [
     {
-      "type": "sprinkler",
+      "type": "hazardradial-sprinkler",
+      "infoType": "hazard",
       "valveId": "valve1",
       "radius": 345,
       "transform": {
@@ -581,9 +614,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -593,7 +627,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 24,
       "transform": {
         "translation": {
@@ -603,7 +638,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 30,
       "transform": {
         "translation": {
@@ -613,7 +649,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 30,
       "transform": {
         "translation": {
@@ -623,7 +660,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 30,
       "transform": {
         "translation": {
@@ -633,7 +671,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -643,7 +682,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 12,
       "transform": {
         "translation": {
@@ -656,6 +696,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABOAT",
       "name": "Unfloatable Boat",
       "weight": 12,
@@ -670,6 +711,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABIWA",
       "name": "Velvety Dreamdrop",
       "weight": 5,
@@ -684,6 +726,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -698,6 +741,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -712,6 +756,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -726,6 +771,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
       "weight": 2,
@@ -740,6 +786,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMATDOLLMA",
       "name": "Daughter Doll Head",
       "weight": 5,
@@ -754,6 +801,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMATDOLLMB",
       "name": "Mooching Vase",
       "weight": 5,
@@ -768,6 +816,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATENNISBALL",
       "name": "Sphere of Fuzzy Feelings",
       "weight": 7,
@@ -782,6 +831,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHAIRPIN",
       "name": "Floral Instigator",
       "weight": 1,
@@ -796,6 +846,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHARMONICA",
       "name": "Wind Detector",
       "weight": 7,
@@ -810,6 +861,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASTANETS",
       "name": "Harmonic Synthesizer",
       "weight": 7,
@@ -824,6 +876,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAAPRICOT",
       "name": "Searing Acidshock",
       "weight": 3,
@@ -838,6 +891,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMUSICBOXA",
       "name": "Mechanical Harp (Memory Song)",
       "weight": 7,
@@ -852,6 +906,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARINGPOP",
       "name": "Sticky Jewel",
       "weight": 3,
@@ -866,6 +921,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPAPERCRANEBLU",
       "name": "Sweat-Soaked Blue Bird",
       "weight": 3,
@@ -880,6 +936,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMELON",
       "name": "Wayward Moon",
       "weight": 50,
@@ -893,9 +950,10 @@
       }
     }
   ],
-  "mound": [
+  "breakable-mound": [
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -913,7 +971,8 @@
       "rebirthInterval": 1
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GOtaGolfBall_C",
@@ -930,7 +989,8 @@
       }
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBomb_C",
@@ -948,7 +1008,8 @@
       "rebirthInterval": 3
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBomb_C",
@@ -966,7 +1027,8 @@
       "rebirthInterval": 3
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBomb_C",
@@ -984,7 +1046,8 @@
       "rebirthInterval": 3
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -1002,7 +1065,8 @@
       "rebirthInterval": 1
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -1020,7 +1084,8 @@
       "rebirthInterval": 1
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -1038,9 +1103,10 @@
       "rebirthInterval": 1
     }
   ],
-  "onion": [
+  "onion-yellow": [
     {
-      "type": "onion",
+      "type": "onion-yellow",
+      "infoType": "onion",
       "color": "yellow",
       "weight": 20,
       "transform": {
@@ -1049,9 +1115,12 @@
           "y": -1728.2637
         }
       }
-    },
+    }
+  ],
+  "onion-flarlic": [
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -1062,10 +1131,12 @@
       }
     }
   ],
-  "castaway": [
+  "castaway-leafling": [
     {
-      "type": "castaway",
+      "type": "castaway-leafling",
+      "infoType": "castaway",
       "isLeafling": true,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -1076,8 +1147,10 @@
       }
     },
     {
-      "type": "castaway",
+      "type": "castaway-leafling",
+      "infoType": "castaway",
       "isLeafling": true,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -1088,8 +1161,10 @@
       }
     },
     {
-      "type": "castaway",
+      "type": "castaway-leafling",
+      "infoType": "castaway",
       "isLeafling": true,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -1103,6 +1178,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -1125,6 +1201,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
       "carryMax": 14,
@@ -1147,6 +1224,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
       "carryMax": 14,
@@ -1169,6 +1247,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,
@@ -1191,6 +1270,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,
@@ -1213,6 +1293,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIKKURIGIKU",
       "name": "Creeping Chrysanthemum",
       "carryMax": 20,
@@ -1235,6 +1316,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIKKURIGIKU",
       "name": "Creeping Chrysanthemum",
       "carryMax": 20,
@@ -1257,6 +1339,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -1271,6 +1354,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -1285,6 +1369,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -1299,6 +1384,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BILLY",
       "name": "Bearded Amprat",
       "carryMax": 14,
@@ -1321,6 +1407,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BILLY",
       "name": "Bearded Amprat",
       "carryMax": 14,
@@ -1343,6 +1430,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
       "carryMax": 30,
@@ -1365,6 +1453,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
       "carryMax": 14,
@@ -1387,6 +1476,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -1409,6 +1499,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
@@ -1443,6 +1534,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -1457,6 +1549,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
       "carryMax": 6,
@@ -1479,6 +1572,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MIULIN",
       "name": "Mamuta",
       "carryMax": 20,
@@ -1501,6 +1595,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
       "carryMax": 14,
@@ -1523,6 +1618,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,
@@ -1545,6 +1641,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -1559,6 +1656,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -1573,6 +1671,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,
@@ -1595,6 +1694,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -1617,6 +1717,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
       "carryMax": 6,
@@ -1639,6 +1740,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
       "carryMax": 1,
@@ -1661,6 +1763,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
       "carryMax": 1,
@@ -1683,6 +1786,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
       "carryMax": 1,
@@ -1705,6 +1809,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -1727,6 +1832,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -1749,6 +1855,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -1771,6 +1878,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -1793,6 +1901,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -1815,6 +1924,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -1829,6 +1939,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -1843,6 +1954,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -1857,6 +1969,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -1871,6 +1984,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -1885,6 +1999,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -1899,6 +2014,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -1921,6 +2037,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -1949,6 +2066,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -1977,6 +2095,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2005,6 +2124,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2033,6 +2153,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2061,6 +2182,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2089,6 +2211,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2117,6 +2240,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2145,6 +2269,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2173,6 +2298,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2201,6 +2327,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2223,6 +2350,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2245,6 +2373,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2267,6 +2396,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2289,6 +2419,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2311,6 +2442,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2333,6 +2465,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2355,6 +2488,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2377,6 +2511,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2399,6 +2534,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -2420,9 +2556,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -2452,7 +2589,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -2470,7 +2608,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -2500,7 +2639,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

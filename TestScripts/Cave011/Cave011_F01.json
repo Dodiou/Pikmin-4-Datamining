@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave011_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1454.5,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave011_F01_WaterBox00_D.png",
         "amountToFreeze": 100
@@ -29,10 +28,10 @@
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -966,
@@ -41,8 +40,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "hasCrystal": true,
       "transform": {
         "translation": {
@@ -52,8 +51,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -164,
@@ -62,19 +61,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "stick",
-      "transform": {
-        "translation": {
-          "x": 940,
-          "y": -960
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 327,
@@ -83,9 +71,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 30,
       "transform": {
         "translation": {
@@ -95,10 +84,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -109,8 +98,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -121,8 +110,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -133,8 +122,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -145,8 +134,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -157,9 +146,22 @@
       }
     }
   ],
-  "hydroJelly": [
+  "misc-stick": [
     {
-      "type": "hydroJelly",
+      "type": "misc-stick",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 940,
+          "y": -960
+        }
+      }
+    }
+  ],
+  "breakable-hydrojelly": [
+    {
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 698,
@@ -168,7 +170,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 700,
@@ -177,7 +180,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 939,
@@ -186,10 +190,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-ice": [
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -440,
@@ -199,10 +203,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-bubble": [
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -544,
@@ -211,8 +215,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 4,
@@ -221,8 +225,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -1136,
@@ -231,25 +235,25 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 735,
           "y": -973
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "pikmin": [
+  "pikmin-ice": [
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -261,10 +265,12 @@
       }
     }
   ],
-  "castaway": [
+  "castaway-normal": [
     {
-      "type": "castaway",
+      "type": "castaway-normal",
+      "infoType": "castaway",
       "isLeafling": false,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -275,10 +281,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -291,6 +297,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -305,6 +312,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -319,6 +327,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
       "weight": 2,
@@ -333,6 +342,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
       "weight": 2,
@@ -347,6 +357,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMANGOSTEEN",
       "name": "Dapper Blob",
       "weight": 5,
@@ -361,6 +372,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABUTTONMETAL",
       "name": "Trap Lid",
       "weight": 1,
@@ -375,6 +387,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
       "weight": 10,
@@ -388,9 +401,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-blue": [
     {
-      "type": "candypop",
+      "type": "candypop-blue",
+      "infoType": "candypop",
       "color": "blue",
       "disappearsAt": 6,
       "transform": {
@@ -404,6 +418,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OOKURAGE",
       "name": "Greater Spotted Jellyfloat",
       "carryMax": 0,
@@ -426,6 +441,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KANITAMA",
       "name": "Peckish Aristocrab",
       "carryMax": 14,
@@ -448,6 +464,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
       "carryMax": 4,
@@ -462,6 +479,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
       "carryMax": 4,
@@ -476,6 +494,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -498,6 +517,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -520,6 +540,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,

@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave015_F00_WaterBox00_D.png",
         "amountToFreeze": 100
@@ -16,8 +16,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave015_F00_WaterBox01_D.png",
         "amountToFreeze": 100
@@ -31,8 +31,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave015_F00_WaterBox02_D.png",
         "amountToFreeze": 100
@@ -46,8 +46,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave015_F00_WaterBox03_D.png",
         "amountToFreeze": 100
@@ -61,10 +61,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -265,
@@ -77,6 +77,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 26,
@@ -92,6 +93,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 46,
@@ -107,6 +109,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 20,
@@ -122,6 +125,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -136,6 +140,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -150,6 +155,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
       "weight": 10,
@@ -164,6 +170,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASPONGEC",
       "name": "Fishy Bed",
       "weight": 7,
@@ -178,6 +185,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASPONGEA",
       "name": "Doggy Bed",
       "weight": 7,
@@ -192,6 +200,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -206,6 +215,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABOAT",
       "name": "Unfloatable Boat",
       "weight": 12,
@@ -220,6 +230,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -234,6 +245,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKS",
       "name": "Stately Rubber Cutie",
       "weight": 3,
@@ -247,11 +259,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "idle",
+      "state": "idle",
       "amount": 10,
       "transform": {
         "translation": {
@@ -261,21 +274,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "rock",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 1762.8965,
-          "y": -806.9712
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -285,21 +287,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "rock",
-      "variant": "fighting",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 772.6633,
-          "y": 437.6454
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 10,
       "transform": {
         "translation": {
@@ -307,23 +298,12 @@
           "y": -514.3546
         }
       }
-    },
-    {
-      "type": "pikmin",
-      "color": "rock",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -997.1035,
-          "y": -28.971191
-        }
-      }
     }
   ],
-  "ropeFishing": [
+  "misc-pullrope": [
     {
-      "type": "ropeFishing",
+      "type": "misc-pullrope",
+      "infoType": "misc",
       "weight": 15,
       "transform": {
         "translation": {
@@ -334,9 +314,51 @@
       }
     }
   ],
-  "drain": [
+  "pikmin-rock": [
     {
-      "type": "drain",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
+      "color": "rock",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 1762.8965,
+          "y": -806.9712
+        }
+      }
+    },
+    {
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
+      "color": "rock",
+      "state": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 772.6633,
+          "y": 437.6454
+        }
+      }
+    },
+    {
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
+      "color": "rock",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -997.1035,
+          "y": -28.971191
+        }
+      }
+    }
+  ],
+  "switchable-drain": [
+    {
+      "type": "switchable-drain",
+      "infoType": "switchable",
       "switchId": "mizunuki",
       "transform": {
         "translation": {
@@ -346,7 +368,8 @@
       }
     },
     {
-      "type": "drain",
+      "type": "switchable-drain",
+      "infoType": "switchable",
       "switchId": "mizunuki",
       "transform": {
         "translation": {
@@ -356,10 +379,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -369,9 +392,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -401,7 +425,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -434,6 +459,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -448,6 +474,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -462,6 +489,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
       "carryMax": 6,
@@ -476,6 +504,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
       "carryMax": 6,
@@ -490,6 +519,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -504,6 +534,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -518,6 +549,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,

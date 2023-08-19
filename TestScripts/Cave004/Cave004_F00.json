@@ -1,31 +1,20 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave004_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 747,
           "y": -528.18207
         }
       }
-    },
-    {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area001",
-      "transform": {
-        "translation": {
-          "x": 595,
-          "y": 324.5
-        }
-      }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminIce_C",
@@ -42,7 +31,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 152.13037,
@@ -51,7 +41,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminIce_C",
@@ -68,10 +59,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave004_F00_WaterBox00_D.png",
         "amountToFreeze": 5
@@ -85,8 +76,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave004_F00_WaterBox01_D.png",
         "amountToFreeze": 10
@@ -100,9 +91,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -112,19 +104,27 @@
       }
     }
   ],
-  "pikmin": [
+  "cave-exit": [
     {
-      "type": "pikmin",
+      "type": "cave-exit",
+      "infoType": "cave",
+      "transform": {
+        "translation": {
+          "x": 595,
+          "y": 324.5
+        }
+      }
+    }
+  ],
+  "pikmin-ice": [
+    {
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "disappearsAt": 51,
-      "replacedBy": "candypop",
-      "candypopOffset": {
-        "X": -685,
-        "Y": 135,
-        "Z": 5
-      },
+      "replacedBy": "candypop-ice",
       "transform": {
         "translation": {
           "x": -297.93475,
@@ -133,10 +133,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -146,8 +146,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -160,6 +160,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHANAFUDAA",
       "name": "Talisman of Life (Crane)",
       "weight": 2,
@@ -173,9 +174,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-ice": [
     {
-      "type": "candypop",
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": 11,
       "transform": {

@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave022_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -550,
@@ -12,9 +11,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave022_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 521.2844,
@@ -23,9 +21,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 25,
       "transform": {
         "translation": {
@@ -35,10 +34,10 @@
       }
     }
   ],
-  "heatObstacle": [
+  "breakable-icebox": [
     {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -55,8 +54,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -73,38 +72,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": 501.38623,
-          "y": -10.4104
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": 597.4348,
-          "y": -8.855957
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": 551.0149,
-          "y": 40.234314
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -121,11 +90,44 @@
       }
     }
   ],
-  "pikmin": [
+  "breakable-straw": [
     {
-      "type": "pikmin",
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 501.38623,
+          "y": -10.4104
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 597.4348,
+          "y": -8.855957
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 551.0149,
+          "y": 40.234314
+        }
+      }
+    }
+  ],
+  "pikmin-rock": [
+    {
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -136,9 +138,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -152,6 +155,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARINGO",
       "name": "Insect Condo",
       "weight": 12,
@@ -166,6 +170,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOS",
       "name": "Crush Nugget",
       "weight": 2,
@@ -179,10 +184,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-ice": [
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -624.58374,
@@ -190,23 +195,12 @@
         },
         "rotation": 0
       }
-    },
-    {
-      "type": "gate",
-      "variant": "crystal",
-      "transform": {
-        "translation": {
-          "x": -919,
-          "y": -413
-        },
-        "rotation": 90
-      }
     }
   ],
-  "structure": [
+  "structure-slope": [
     {
-      "type": "structure",
-      "variant": "slope",
+      "type": "structure-slope",
+      "infoType": "structure",
       "materialsNeeded": 20,
       "transform": {
         "translation": {
@@ -217,10 +211,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-pushbag": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -231,10 +225,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-ice": [
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 823.0121,
@@ -243,10 +237,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 947.311,
@@ -256,10 +250,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -269,8 +263,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -280,9 +274,23 @@
       }
     }
   ],
-  "firePit": [
+  "gate-crystal": [
     {
-      "type": "firePit",
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -919,
+          "y": -413
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "firepit-lit": [
+    {
+      "type": "firepit-lit",
+      "infoType": "firepit",
       "isLit": true,
       "transform": {
         "translation": {
@@ -290,9 +298,12 @@
           "y": -660.7827
         }
       }
-    },
+    }
+  ],
+  "firepit-unlit": [
     {
-      "type": "firePit",
+      "type": "firepit-unlit",
+      "infoType": "firepit",
       "isLit": false,
       "transform": {
         "translation": {
@@ -302,7 +313,8 @@
       }
     },
     {
-      "type": "firePit",
+      "type": "firepit-unlit",
+      "infoType": "firepit",
       "isLit": false,
       "transform": {
         "translation": {
@@ -312,9 +324,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-ice": [
     {
-      "type": "candypop",
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": 6,
       "transform": {
@@ -328,6 +341,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
@@ -342,6 +356,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICECHAPPY",
       "name": "Frosty Bulborb",
       "carryMax": 20,
@@ -364,6 +379,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEMAR",
       "name": "Icy Blowhog",
       "carryMax": 1,
@@ -386,6 +402,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEFROG",
       "name": "Chillyhop",
       "carryMax": 10,

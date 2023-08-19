@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave016_F07",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -865,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -258,
@@ -25,10 +24,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -38,10 +37,10 @@
       }
     }
   ],
-  "shortcut": [
+  "platform-bounceshroom": [
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 962.5,
@@ -50,8 +49,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 962.5,
@@ -60,9 +59,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -92,7 +92,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -125,6 +126,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGICETANK",
       "name": "Blizzarding Blowhog",
       "carryMax": 30,
@@ -153,6 +155,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGFIRETANK",
       "name": "Titan Blowhog",
       "carryMax": 30,

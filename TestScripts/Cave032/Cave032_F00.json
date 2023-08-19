@@ -1,8 +1,8 @@
 {
-  "shortcut": [
+  "shortcut-clipboardlow": [
     {
-      "type": "shortcut",
-      "variant": "clipboard",
+      "type": "shortcut-clipboardlow",
+      "infoType": "shortcut",
       "weight": 20,
       "transform": {
         "translation": {
@@ -16,6 +16,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 47,
@@ -31,6 +32,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -46,6 +48,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -61,6 +64,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
       "weight": 12,
@@ -75,6 +79,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAEGGPLANT",
       "name": "Foolish Fruit",
       "weight": 5,
@@ -89,6 +94,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKENOKO",
       "name": "Anxious Sprout",
       "weight": 10,
@@ -103,6 +109,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAZUCCHINI",
       "name": "Crew-Cut Gourd",
       "weight": 10,
@@ -117,6 +124,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOM",
       "name": "Love Nugget",
       "weight": 10,
@@ -131,6 +139,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAEGGPLANT",
       "name": "Foolish Fruit",
       "weight": 5,
@@ -145,6 +154,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKENOKO",
       "name": "Anxious Sprout",
       "weight": 10,
@@ -159,6 +169,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOM",
       "name": "Love Nugget",
       "weight": 10,
@@ -173,6 +184,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKENOKO",
       "name": "Anxious Sprout",
       "weight": 10,
@@ -187,6 +199,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPUMPKIN",
       "name": "Mysterious Carriage",
       "weight": 30,
@@ -201,6 +214,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPOTATO",
       "name": "Child of the Earth",
       "weight": 7,
@@ -214,11 +228,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-wing": [
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -226,11 +241,14 @@
           "y": -368.44333
         }
       }
-    },
+    }
+  ],
+  "pikmin-white": [
     {
-      "type": "pikmin",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -240,9 +258,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -252,9 +271,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -264,9 +284,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -276,9 +297,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -288,10 +310,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave032_F00_WaterBox00_D.png",
         "amountToFreeze": 100
@@ -305,8 +327,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave032_F00_WaterBox01_D.png",
         "amountToFreeze": 100
@@ -320,10 +342,10 @@
       }
     }
   ],
-  "floor": [
+  "hazardradial-floormushroom": [
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -334,8 +356,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -346,8 +368,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -358,11 +380,10 @@
       }
     }
   ],
-  "mushroom": [
+  "breakable-spotcappoison": [
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 338,
@@ -371,9 +392,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 301,
@@ -382,9 +402,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 375,
@@ -393,9 +412,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 277,
@@ -404,9 +422,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 414,
@@ -415,9 +432,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 735,
@@ -426,9 +442,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 751,
@@ -437,9 +452,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -449,10 +465,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-wall": [
     {
-      "type": "structure",
-      "variant": "wall",
+      "type": "structure-wall",
+      "infoType": "structure",
       "materialsNeeded": 15,
       "transform": {
         "translation": {
@@ -463,10 +479,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -476,9 +492,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-purple": [
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": null,
       "transform": {
@@ -492,6 +509,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKAJIOKOSHI",
       "name": "Moldy Slooch",
       "carryMax": 6,
@@ -506,6 +524,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -520,6 +539,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -534,6 +554,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -548,6 +569,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -562,6 +584,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKAJIOKOSHI",
       "name": "Moldy Slooch",
       "carryMax": 6,
@@ -576,6 +599,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -590,6 +614,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -603,9 +628,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -635,7 +661,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -665,7 +692,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -695,7 +723,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

@@ -2,6 +2,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 50,
@@ -17,6 +18,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 39,
@@ -32,6 +34,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 50,
@@ -47,6 +50,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAWHISTLE",
       "name": "Emperor Whistle",
       "weight": 5,
@@ -61,6 +65,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAWHISTLE",
       "name": "Emperor Whistle",
       "weight": 5,
@@ -75,6 +80,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASMALLBELL",
       "name": "Spouse Alert",
       "weight": 2,
@@ -89,6 +95,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASMALLBELL",
       "name": "Spouse Alert",
       "weight": 2,
@@ -103,6 +110,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASMALLBELL",
       "name": "Spouse Alert",
       "weight": 2,
@@ -117,6 +125,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAOCARINABRN",
       "name": "Ambiguous Hostel",
       "weight": 10,
@@ -131,6 +140,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHANDBELL",
       "name": "Time Marker",
       "weight": 12,
@@ -145,6 +155,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHORNBELL",
       "name": "Path Creator",
       "weight": 5,
@@ -159,6 +170,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASTANETS",
       "name": "Harmonic Synthesizer",
       "weight": 7,
@@ -173,6 +185,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHARMONICA",
       "name": "Wind Detector",
       "weight": 7,
@@ -187,6 +200,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHORNBELL",
       "name": "Path Creator",
       "weight": 5,
@@ -201,6 +215,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAOCARINABRN",
       "name": "Ambiguous Hostel",
       "weight": 10,
@@ -214,10 +229,10 @@
       }
     }
   ],
-  "switch": [
+  "switchable-doubleswitch": [
     {
-      "type": "switch",
-      "variant": "double",
+      "type": "switchable-doubleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -228,10 +243,10 @@
       }
     }
   ],
-  "floor": [
+  "hazardradial-floormushroom": [
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": true,
       "radius": 100,
       "drops": [
@@ -250,8 +265,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": true,
       "radius": 100,
       "drops": [
@@ -270,8 +285,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 100,
       "transform": {
@@ -282,8 +297,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -294,11 +309,10 @@
       }
     }
   ],
-  "mushroom": [
+  "breakable-spotcappoison": [
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -668,
@@ -307,9 +321,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -511,
@@ -318,9 +331,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -627,
@@ -329,9 +341,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 1059,
@@ -340,9 +351,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 817,
@@ -351,97 +361,20 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 1003,
           "y": -128
         }
       }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 231,
-          "y": -1222
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 266,
-          "y": -1179
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 156,
-          "y": -940
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 40,
-          "y": -1104
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 75,
-          "y": -1211
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": -49,
-          "y": -1368
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": -106,
-          "y": -1360
-        }
-      }
     }
   ],
-  "crystal": [
+  "breakable-crystal": [
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 560,
@@ -450,7 +383,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 473,
@@ -459,10 +393,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -473,8 +407,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -485,8 +419,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -497,8 +431,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -509,8 +443,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -521,8 +455,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -533,9 +467,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-white": [
     {
-      "type": "candypop",
+      "type": "candypop-white",
+      "infoType": "candypop",
       "color": "white",
       "disappearsAt": null,
       "transform": {
@@ -546,7 +481,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-white",
+      "infoType": "candypop",
       "color": "white",
       "disappearsAt": null,
       "transform": {
@@ -557,10 +493,82 @@
       }
     }
   ],
-  "fence": [
+  "breakable-spotcapnormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 231,
+          "y": -1222
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 266,
+          "y": -1179
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 156,
+          "y": -940
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 40,
+          "y": -1104
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 75,
+          "y": -1211
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -49,
+          "y": -1368
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -106,
+          "y": -1360
+        }
+      }
+    }
+  ],
+  "switchable-fencenormal": [
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 546,
@@ -570,8 +578,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -961,
@@ -581,10 +589,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -597,6 +605,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
       "carryMax": 6,
@@ -611,6 +620,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKAJIOKOSHI",
       "name": "Moldy Slooch",
       "carryMax": 6,
@@ -625,6 +635,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
       "carryMax": 6,
@@ -639,6 +650,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -653,6 +665,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -667,6 +680,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -681,6 +695,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -694,9 +709,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -726,7 +742,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

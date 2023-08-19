@@ -1,20 +1,20 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave016_F06",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 137,
           "y": -925
         }
       }
-    },
+    }
+  ],
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area006",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -413.44995,
@@ -23,9 +23,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-ice": [
     {
-      "type": "candypop",
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": 51,
       "transform": {
@@ -36,7 +37,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": 51,
       "transform": {
@@ -47,9 +49,10 @@
       }
     }
   ],
-  "fan": [
+  "switchable-fan": [
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -59,7 +62,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -69,52 +73,56 @@
       }
     }
   ],
-  "floor": [
+  "ridable-movefloor": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 410.39227,
           "y": -410.1742
-        }
+        },
+        "rotation": 0
       }
     },
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -313.46094,
           "y": 171.71582
-        }
+        },
+        "rotation": 0
       }
     },
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 685,
           "y": 140
-        }
+        },
+        "rotation": 0
       }
     },
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 140,
           "y": 965
-        }
+        },
+        "rotation": 90
       }
     }
   ],
-  "shortcut": [
+  "shortcut-clipboardlow": [
     {
-      "type": "shortcut",
-      "variant": "clipboard",
+      "type": "shortcut-clipboardlow",
+      "infoType": "shortcut",
       "weight": 20,
       "transform": {
         "translation": {
@@ -125,10 +133,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -141,6 +149,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -154,9 +163,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 137,
@@ -168,6 +178,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,
@@ -196,6 +207,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
       "carryMax": 0,

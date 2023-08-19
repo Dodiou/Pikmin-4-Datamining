@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave023_F04",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -424.85754,
@@ -15,6 +14,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP1",
       "name": "Disk of Joyous Wisdom",
       "weight": 2,
@@ -29,6 +29,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP1",
       "name": "Disk of Joyous Wisdom",
       "weight": 2,
@@ -43,6 +44,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP1",
       "name": "Disk of Joyous Wisdom",
       "weight": 2,
@@ -57,6 +59,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -71,6 +74,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 20,
@@ -86,6 +90,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHANAFUDAD",
       "name": "Talisman of Life (Rain)",
       "weight": 2,
@@ -100,6 +105,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPUZZLEI",
       "name": "Memory Fragment (Bottom Left)",
       "weight": 2,
@@ -114,6 +120,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP50",
       "name": "Disk of Amusing Wisdom",
       "weight": 2,
@@ -128,6 +135,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP100",
       "name": "Disk of Surprising Wisdom",
       "weight": 2,
@@ -141,10 +149,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-stringup": [
     {
-      "type": "shortcut",
-      "variant": "string",
+      "type": "shortcut-stringup",
+      "infoType": "shortcut",
       "weight": 5,
       "transform": {
         "translation": {
@@ -155,8 +163,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "string",
+      "type": "shortcut-stringup",
+      "infoType": "shortcut",
       "weight": 5,
       "transform": {
         "translation": {
@@ -165,23 +173,12 @@
         },
         "rotation": -90
       }
-    },
-    {
-      "type": "shortcut",
-      "variant": "string",
-      "weight": 5,
-      "transform": {
-        "translation": {
-          "x": 251,
-          "y": 590
-        },
-        "rotation": -90
-      }
     }
   ],
-  "fan": [
+  "switchable-fan": [
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -191,7 +188,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -201,10 +199,10 @@
       }
     }
   ],
-  "switch": [
+  "switchable-doubleswitch": [
     {
-      "type": "switch",
-      "variant": "double",
+      "type": "switchable-doubleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -215,10 +213,24 @@
       }
     }
   ],
-  "base": [
+  "shortcut-stringdown": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "shortcut-stringdown",
+      "infoType": "shortcut",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": 251,
+          "y": 590
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -228,10 +240,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-crystal": [
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "gate-crystal",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -688,
@@ -244,6 +256,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "PANMODOKI",
       "name": "Breadbug",
       "carryMax": 6,
@@ -258,6 +271,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "PANMODOKI",
       "name": "Breadbug",
       "carryMax": 6,
@@ -272,6 +286,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "PANMODOKI",
       "name": "Breadbug",
       "carryMax": 6,
@@ -286,6 +301,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
       "carryMax": 14,
@@ -300,6 +316,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,
@@ -314,6 +331,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,
@@ -328,6 +346,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
       "carryMax": 14,
@@ -341,9 +360,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {

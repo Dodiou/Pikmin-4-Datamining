@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave018_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 93.444824,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "water": [
+  "water-swamp": [
     {
-      "type": "water",
-      "variant": "swamp",
+      "type": "water-swamp",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave018_F01_WaterBox00_D.png",
         "amountToFreeze": 100,
@@ -30,9 +29,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GOtaTomatoS_C",
@@ -49,7 +49,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 975.5394,
@@ -58,11 +59,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-wing": [
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -74,9 +76,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -87,9 +90,10 @@
       }
     }
   ],
-  "pot": [
+  "breakable-pot": [
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -463.19528,
@@ -98,7 +102,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -478.90277,
@@ -107,7 +112,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -455.91022,
@@ -116,7 +122,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -516.31866,
@@ -125,7 +132,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -741.44696,
@@ -134,7 +142,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminWing_C",
@@ -151,7 +160,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -870.62054,
@@ -160,7 +170,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GKinkaiPick_C",
@@ -177,7 +188,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -401.50668,
@@ -186,7 +198,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -747.62054,
@@ -195,9 +208,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-wing": [
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -209,9 +223,10 @@
       }
     }
   ],
-  "onion": [
+  "onion-flarlic": [
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -222,10 +237,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-bridge": [
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 34,
       "transform": {
         "translation": {
@@ -236,9 +251,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -248,10 +264,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -261,8 +277,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "guardedBy": [
         "NumaSuitori"
@@ -278,6 +294,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPAPERCRANEBLU",
       "name": "Sweat-Soaked Blue Bird",
       "weight": 3,
@@ -292,6 +309,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPAPERCRANERED",
       "name": "Skin of the Phoenix",
       "weight": 3,
@@ -308,6 +326,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NUMASUITORI",
       "name": "Bogswallow",
       "carryMax": 14,
@@ -330,6 +349,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NUMASUITORI",
       "name": "Bogswallow",
       "carryMax": 14,
@@ -344,6 +364,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
       "carryMax": 6,
@@ -358,6 +379,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
       "carryMax": 6,
@@ -372,6 +394,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGICETANK",
       "name": "Blizzarding Blowhog",
       "carryMax": 30,
@@ -400,6 +423,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
       "carryMax": 6,
@@ -414,6 +438,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
       "carryMax": 6,
@@ -428,6 +453,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DOROMBO",
       "name": "Muckerskate",
       "carryMax": 4,
@@ -442,6 +468,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DOROMBO",
       "name": "Muckerskate",
       "carryMax": 4,
@@ -456,6 +483,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DOROMBO",
       "name": "Muckerskate",
       "carryMax": 4,
@@ -470,6 +498,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DOROMBO",
       "name": "Muckerskate",
       "carryMax": 4,
@@ -483,9 +512,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {
@@ -515,9 +545,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 150,
       "drops": [
         {

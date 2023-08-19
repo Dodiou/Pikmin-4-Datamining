@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave019_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -547.5,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 368.88864,
@@ -25,8 +24,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -897.6121,
@@ -36,9 +35,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 30,
       "transform": {
         "translation": {
@@ -48,11 +48,10 @@
       }
     }
   ],
-  "mushroom": [
+  "breakable-spotcapnormal": [
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -105.58829,
@@ -61,9 +60,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -65.97156,
@@ -72,9 +70,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -41.23764,
@@ -83,9 +80,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -168.32822,
@@ -94,9 +90,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -164.59283,
@@ -105,9 +100,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -163.69765,
@@ -116,9 +110,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -146.2539,
@@ -127,9 +120,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -185.31369,
@@ -138,9 +130,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -146.5398,
@@ -149,9 +140,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -217.64682,
@@ -160,20 +150,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -335.94556,
-          "y": 122.99121
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -389.375,
@@ -182,9 +160,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -425.53613,
@@ -193,9 +170,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -401.3938,
@@ -204,9 +180,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -283.90784,
@@ -215,9 +190,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -229.08267,
@@ -226,9 +200,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -126.41669,
@@ -237,9 +210,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -160.2161,
@@ -248,9 +220,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -126.78644,
@@ -259,31 +230,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -185.03986,
-          "y": 31.817017
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -284.58063,
-          "y": -272.479
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -243.70439,
@@ -292,9 +240,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 654,
@@ -303,9 +250,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 559,
@@ -314,9 +260,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 646,
@@ -325,9 +270,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 578,
@@ -336,9 +280,42 @@
       }
     }
   ],
-  "candypop": [
+  "breakable-kingcapnormal": [
     {
-      "type": "candypop",
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -335.94556,
+          "y": 122.99121
+        }
+      }
+    },
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -185.03986,
+          "y": 31.817017
+        }
+      }
+    },
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -284.58063,
+          "y": -272.479
+        }
+      }
+    }
+  ],
+  "candypop-white": [
+    {
+      "type": "candypop-white",
+      "infoType": "candypop",
       "color": "white",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -350,10 +327,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -366,6 +343,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASMALLBELL",
       "name": "Spouse Alert",
       "weight": 2,
@@ -380,6 +358,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHITAMAGO",
       "name": "Belted Delicacy",
       "weight": 5,
@@ -394,6 +373,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHITAMAGO",
       "name": "Belted Delicacy",
       "weight": 5,
@@ -407,10 +387,10 @@
       }
     }
   ],
-  "floor": [
+  "hazardradial-floormushroom": [
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -421,8 +401,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -433,8 +413,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -445,8 +425,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -457,8 +437,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -469,9 +449,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {
@@ -504,6 +485,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -518,6 +500,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -532,6 +515,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -546,6 +530,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -561,6 +546,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -576,6 +562,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -590,6 +577,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -605,6 +593,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -619,6 +608,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -633,6 +623,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -647,6 +638,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -660,9 +652,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "ignoreIds": [
         "Nomi"
       ],
@@ -683,7 +676,8 @@
       }
     },
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "ignoreIds": [
         "Nomi"
       ],
@@ -704,7 +698,8 @@
       }
     },
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "ignoreIds": [
         "Nomi"
       ],
@@ -725,7 +720,8 @@
       }
     },
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "ignoreIds": [
         "Nomi"
       ],

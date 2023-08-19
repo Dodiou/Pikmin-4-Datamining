@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave022_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -824.1967,
@@ -12,9 +11,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave022_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -902.4725,
@@ -23,10 +21,10 @@
       }
     }
   ],
-  "heatObstacle": [
+  "breakable-icebox": [
     {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -776.3129,
@@ -35,88 +33,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": 253.29822,
-          "y": 274.75153
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": 311.66663,
-          "y": 322.38422
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": 312.74988,
-          "y": 229.80127
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": -639.6537,
-          "y": 633.79004
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": -719.6453,
-          "y": 470.56604
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": -537.38544,
-          "y": 552.7582
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": -565.9874,
-          "y": 488.5739
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": -627.17737,
-          "y": 459.8404
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GHoney_C",
@@ -133,18 +51,8 @@
       }
     },
     {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": -572.6537,
-          "y": 612.79004
-        }
-      }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "iceBox",
+      "type": "breakable-icebox",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -159,21 +67,12 @@
           "y": -741.47
         }
       }
-    },
-    {
-      "type": "heatObstacle",
-      "variant": "straw",
-      "transform": {
-        "translation": {
-          "x": -699.6537,
-          "y": 603.79004
-        }
-      }
     }
   ],
-  "firePit": [
+  "firepit-lit": [
     {
-      "type": "firePit",
+      "type": "firepit-lit",
+      "infoType": "firepit",
       "isLit": true,
       "transform": {
         "translation": {
@@ -181,26 +80,16 @@
           "y": -493.9641
         }
       }
-    },
-    {
-      "type": "firePit",
-      "isLit": false,
-      "transform": {
-        "translation": {
-          "x": 2.9789429,
-          "y": 419.77783
-        }
-      }
     }
   ],
-  "water": [
+  "water-water": [
     {
       "dynamic": {
         "image": "T_ui_Map_Cave022_F02_WaterBox00_ChangeDist_D.png",
         "amountToFreeze": 5
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave022_F02_WaterBox00_D.png",
         "amountToFreeze": 5
@@ -214,10 +103,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-ice": [
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 408.92078,
@@ -226,8 +115,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 409.2975,
@@ -236,8 +125,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -963.08954,
@@ -246,10 +135,112 @@
       }
     }
   ],
-  "fence": [
+  "breakable-straw": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 253.29822,
+          "y": 274.75153
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 311.66663,
+          "y": 322.38422
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 312.74988,
+          "y": 229.80127
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -639.6537,
+          "y": 633.79004
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -719.6453,
+          "y": 470.56604
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -537.38544,
+          "y": 552.7582
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -565.9874,
+          "y": 488.5739
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -627.17737,
+          "y": 459.8404
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -572.6537,
+          "y": 612.79004
+        }
+      }
+    },
+    {
+      "type": "breakable-straw",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -699.6537,
+          "y": 603.79004
+        }
+      }
+    }
+  ],
+  "switchable-fencenormal": [
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 795.07837,
@@ -259,8 +250,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 954.41736,
@@ -270,23 +261,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -824.4743,
           "y": -137.77463
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 413.5923,
@@ -295,7 +286,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 2.978943,
@@ -304,10 +296,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -321,6 +313,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPAPAYA",
       "name": "Seed Hive",
       "weight": 12,
@@ -335,6 +328,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMIKAN",
       "name": "Citrus Lump",
       "weight": 7,
@@ -348,10 +342,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -361,8 +355,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -372,9 +366,23 @@
       }
     }
   ],
-  "candypop": [
+  "firepit-unlit": [
     {
-      "type": "candypop",
+      "type": "firepit-unlit",
+      "infoType": "firepit",
+      "isLit": false,
+      "transform": {
+        "translation": {
+          "x": 2.9789429,
+          "y": 419.77783
+        }
+      }
+    }
+  ],
+  "candypop-ice": [
+    {
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": 6,
       "transform": {
@@ -383,9 +391,12 @@
           "y": 12.868717
         }
       }
-    },
+    }
+  ],
+  "candypop-red": [
     {
-      "type": "candypop",
+      "type": "candypop-red",
+      "infoType": "candypop",
       "color": "red",
       "disappearsAt": 6,
       "transform": {
@@ -399,6 +410,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
@@ -413,6 +425,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
@@ -427,6 +440,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICESENBEI",
       "name": "Freezecake",
       "carryMax": 14,
@@ -455,6 +469,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
       "carryMax": 10,

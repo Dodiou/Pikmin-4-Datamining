@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave021_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -135.94644,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave021_F02_WaterBox00_D.png",
         "amountToFreeze": 15
@@ -29,8 +28,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave021_F02_WaterBox01_D.png",
         "amountToFreeze": 10
@@ -44,10 +43,10 @@
       }
     }
   ],
-  "switch": [
+  "switchable-doubleswitch": [
     {
-      "type": "switch",
-      "variant": "double",
+      "type": "switchable-doubleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -56,23 +55,12 @@
         },
         "rotation": 90
       }
-    },
-    {
-      "type": "switch",
-      "variant": "single",
-      "switchId": "switch01",
-      "transform": {
-        "translation": {
-          "x": -411.4143,
-          "y": -1277.7727
-        },
-        "rotation": 90
-      }
     }
   ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -88,6 +76,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADEKOPON",
       "name": "Pocked Airhead",
       "weight": 12,
@@ -102,6 +91,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPUZZLEB",
       "name": "Memory Fragment (Top-ish)",
       "weight": 2,
@@ -116,6 +106,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGRAPE",
       "name": "Dusk Pustules",
       "weight": 15,
@@ -130,6 +121,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMIKAN",
       "name": "Citrus Lump",
       "weight": 7,
@@ -143,9 +135,10 @@
       }
     }
   ],
-  "conveyor": [
+  "switchable-conveyor": [
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -156,7 +149,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -167,7 +161,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -178,7 +173,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -189,7 +185,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -200,20 +197,143 @@
       }
     }
   ],
-  "floor": [
+  "ridable-movefloor": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 967.5,
           "y": -681
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
+      "transform": {
+        "translation": {
+          "x": -411.53122,
+          "y": 62.21985
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "pile-materials": [
+    {
+      "type": "pile-materials",
+      "infoType": "pile",
+      "amount": 15,
+      "transform": {
+        "translation": {
+          "x": 1421.5,
+          "y": -689
+        }
+      }
+    }
+  ],
+  "switchable-fan": [
+    {
+      "type": "switchable-fan",
+      "infoType": "switchable",
+      "switchId": "switch02",
+      "transform": {
+        "translation": {
+          "x": -413.9167,
+          "y": 1510.25
         }
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "switchable-fan",
+      "infoType": "switchable",
+      "switchId": "switch02",
+      "transform": {
+        "translation": {
+          "x": 1279.5,
+          "y": 139
+        }
+      }
+    }
+  ],
+  "hazardspout-bubble": [
+    {
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": 1249.5,
+          "y": -693
+        }
+      }
+    },
+    {
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": 423.2967,
+          "y": -690
+        }
+      }
+    },
+    {
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -1260
+        }
+      }
+    }
+  ],
+  "candypop-white": [
+    {
+      "type": "candypop-white",
+      "infoType": "candypop",
+      "color": "white",
+      "disappearsAt": 51,
+      "transform": {
+        "translation": {
+          "x": -1518.4641,
+          "y": 442.8996
+        }
+      }
+    },
+    {
+      "type": "candypop-white",
+      "infoType": "candypop",
+      "color": "white",
+      "disappearsAt": 51,
+      "transform": {
+        "translation": {
+          "x": 423.3993,
+          "y": -956.469
+        }
+      }
+    }
+  ],
+  "structure-wall": [
+    {
+      "type": "structure-wall",
+      "infoType": "structure",
+      "materialsNeeded": 15,
+      "transform": {
+        "translation": {
+          "x": -687.5984,
+          "y": 246.70215
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "hazardradial-floormushroom": [
+    {
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": true,
       "radius": 100,
       "transform": {
@@ -224,18 +344,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "movable",
-      "transform": {
-        "translation": {
-          "x": -411.53122,
-          "y": 62.21985
-        }
-      }
-    },
-    {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -246,8 +356,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "drops": [
@@ -266,8 +376,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -278,115 +388,10 @@
       }
     }
   ],
-  "materials": [
+  "breakable-spotcappoison": [
     {
-      "type": "materials",
-      "amount": 15,
-      "transform": {
-        "translation": {
-          "x": 1421.5,
-          "y": -689
-        }
-      }
-    }
-  ],
-  "fan": [
-    {
-      "type": "fan",
-      "switchId": "switch02",
-      "transform": {
-        "translation": {
-          "x": -413.9167,
-          "y": 1510.25
-        }
-      }
-    },
-    {
-      "type": "fan",
-      "switchId": "switch02",
-      "transform": {
-        "translation": {
-          "x": 1279.5,
-          "y": 139
-        }
-      }
-    }
-  ],
-  "spout": [
-    {
-      "type": "spout",
-      "variant": "bubble",
-      "transform": {
-        "translation": {
-          "x": 1249.5,
-          "y": -693
-        }
-      }
-    },
-    {
-      "type": "spout",
-      "variant": "bubble",
-      "transform": {
-        "translation": {
-          "x": 423.2967,
-          "y": -690
-        }
-      }
-    },
-    {
-      "type": "spout",
-      "variant": "bubble",
-      "transform": {
-        "translation": {
-          "x": 137.5,
-          "y": -1260
-        }
-      }
-    }
-  ],
-  "candypop": [
-    {
-      "type": "candypop",
-      "color": "white",
-      "disappearsAt": 51,
-      "transform": {
-        "translation": {
-          "x": -1518.4641,
-          "y": 442.8996
-        }
-      }
-    },
-    {
-      "type": "candypop",
-      "color": "white",
-      "disappearsAt": 51,
-      "transform": {
-        "translation": {
-          "x": 423.3993,
-          "y": -956.469
-        }
-      }
-    }
-  ],
-  "structure": [
-    {
-      "type": "structure",
-      "variant": "wall",
-      "materialsNeeded": 15,
-      "transform": {
-        "translation": {
-          "x": -687.5984,
-          "y": 246.70215
-        },
-        "rotation": 0
-      }
-    }
-  ],
-  "mushroom": [
-    {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1246.021,
@@ -395,9 +400,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1289.9703,
@@ -406,9 +410,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1009.6971,
@@ -417,9 +420,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1040.4448,
@@ -428,31 +430,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -253.06633,
-          "y": -468.42517
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -267.32324,
-          "y": -372.20398
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -223.10167,
@@ -461,87 +440,20 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -271.43427,
           "y": -422.61377
         }
       }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 474.6682,
-          "y": -916.0825
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 440.4275,
-          "y": -885.67004
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 380.61163,
-          "y": -991.44824
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 373.61163,
-          "y": -917.44824
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 361.61163,
-          "y": -938.44824
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
-      "transform": {
-        "translation": {
-          "x": 467.4275,
-          "y": -1005.67004
-        }
-      }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -552,8 +464,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -564,8 +476,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -576,9 +488,45 @@
       }
     }
   ],
-  "pot": [
+  "switchable-singleswitch": [
     {
-      "type": "pot",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -411.4143,
+          "y": -1277.7727
+        }
+      }
+    }
+  ],
+  "breakable-kingcappoison": [
+    {
+      "type": "breakable-kingcappoison",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -253.06633,
+          "y": -468.42517
+        }
+      }
+    },
+    {
+      "type": "breakable-kingcappoison",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -267.32324,
+          "y": -372.20398
+        }
+      }
+    }
+  ],
+  "breakable-pot": [
+    {
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1464.2828,
@@ -587,7 +535,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1559.8312,
@@ -596,7 +545,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1499.6086,
@@ -605,10 +555,72 @@
       }
     }
   ],
-  "base": [
+  "breakable-spotcapnormal": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 474.6682,
+          "y": -916.0825
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 440.4275,
+          "y": -885.67004
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 380.61163,
+          "y": -991.44824
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 373.61163,
+          "y": -917.44824
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 361.61163,
+          "y": -938.44824
+        }
+      }
+    },
+    {
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 467.4275,
+          "y": -1005.67004
+        }
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -618,8 +630,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "guardedBy": [
         "FUTAKUCHI"
@@ -635,6 +647,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,
@@ -657,6 +670,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,
@@ -679,6 +693,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -693,6 +708,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKAJIOKOSHI",
       "name": "Moldy Slooch",
       "carryMax": 6,
@@ -707,6 +723,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WATEROTAKARA",
       "name": "Hydro Dweevil",
       "carryMax": 4,
@@ -721,6 +738,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WATEROTAKARA",
       "name": "Hydro Dweevil",
       "carryMax": 4,
@@ -734,9 +752,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 140,
       "transform": {
         "translation": {

@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave024_F04",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 1304.663,
@@ -12,9 +11,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -24,9 +24,10 @@
       }
     }
   ],
-  "conveyor": [
+  "switchable-conveyor": [
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -37,7 +38,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -48,7 +50,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -59,7 +62,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -70,7 +74,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -81,7 +86,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -92,7 +98,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -103,7 +110,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -114,7 +122,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -125,7 +134,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -139,6 +149,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 15,
@@ -154,6 +165,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP100",
       "name": "Disk of Surprising Wisdom",
       "weight": 2,
@@ -168,6 +180,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPUZZLEH",
       "name": "Memory Fragment (Right Edge)",
       "weight": 2,
@@ -181,11 +194,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-wing": [
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -196,9 +210,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -209,10 +224,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-bridge": [
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 23,
       "transform": {
         "translation": {
@@ -223,10 +238,10 @@
       }
     }
   ],
-  "switch": [
+  "switchable-doubleswitch": [
     {
-      "type": "switch",
-      "variant": "double",
+      "type": "switchable-doubleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -237,10 +252,10 @@
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 277,
@@ -249,8 +264,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -275,
@@ -259,8 +274,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -1027,
@@ -269,9 +284,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-white": [
     {
-      "type": "candypop",
+      "type": "candypop-white",
+      "infoType": "candypop",
       "color": "white",
       "disappearsAt": 51,
       "transform": {
@@ -282,10 +298,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -298,6 +314,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
@@ -320,6 +337,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
@@ -342,6 +360,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
@@ -364,6 +383,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
       "carryMax": 4,
@@ -378,6 +398,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
       "carryMax": 4,
@@ -392,6 +413,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OOKURAGE",
       "name": "Greater Spotted Jellyfloat",
       "carryMax": 0,
@@ -413,9 +435,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -445,7 +468,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

@@ -1,8 +1,8 @@
 {
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -12,10 +12,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -24,22 +24,12 @@
         },
         "rotation": -90
       }
-    },
-    {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": -976,
-          "y": -274
-        },
-        "rotation": -90
-      }
     }
   ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL2",
       "name": "Sphere of Family",
       "weight": 7,
@@ -54,6 +44,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL3",
       "name": "Sphere of Heart",
       "weight": 7,
@@ -68,6 +59,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL4",
       "name": "Sphere of Beginnings",
       "weight": 7,
@@ -82,6 +74,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL1",
       "name": "Sphere of Desire",
       "weight": 7,
@@ -96,6 +89,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL5",
       "name": "Sphere of Vitality",
       "weight": 7,
@@ -110,6 +104,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL6",
       "name": "Sphere of Calm",
       "weight": 7,
@@ -124,6 +119,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL7",
       "name": "Sphere of Good Fortune",
       "weight": 7,
@@ -138,6 +134,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL8",
       "name": "Sphere of Trust",
       "weight": 7,
@@ -152,6 +149,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL9",
       "name": "Sphere of Support",
       "weight": 7,
@@ -165,137 +163,35 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 690,
           "y": -1637
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "shortcut": [
+  "misc-stick": [
     {
-      "type": "shortcut",
-      "variant": "stick",
+      "type": "misc-stick",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 849,
           "y": -1398
-        },
-        "rotation": 35
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": -792.5,
-          "y": 530
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": -655,
-          "y": 530
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": -340,
-          "y": 655
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": 550,
-          "y": 667.5
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": -825,
-          "y": 32
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": -825,
-          "y": -73
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": -625.5,
-          "y": -275
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": 529,
-          "y": -420
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": 529,
-          "y": -309
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": 529,
-          "y": 15
         }
       }
     }
   ],
-  "floor": [
+  "hazardradial-floormushroom": [
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "drops": [
@@ -314,8 +210,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 175,
       "transform": {
@@ -326,11 +222,10 @@
       }
     }
   ],
-  "mushroom": [
+  "breakable-spotcappoison": [
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 444,
@@ -339,9 +234,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 466,
@@ -350,9 +244,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 525,
@@ -361,9 +254,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -867,
@@ -372,9 +264,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -845,
@@ -383,9 +274,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": true,
-      "isLarge": false,
+      "type": "breakable-spotcappoison",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -786,
@@ -394,9 +284,10 @@
       }
     }
   ],
-  "onion": [
+  "onion-white": [
     {
-      "type": "onion",
+      "type": "onion-white",
+      "infoType": "onion",
       "color": "white",
       "weight": 10,
       "transform": {
@@ -407,10 +298,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1157.6339,
@@ -420,11 +311,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-wing": [
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 3,
       "transform": {
         "translation": {
@@ -434,9 +326,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 4,
       "transform": {
         "translation": {
@@ -446,9 +339,25 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
+      "color": "wing",
+      "state": "sprouts",
+      "amount": 7,
+      "transform": {
+        "translation": {
+          "x": -930,
+          "y": 1219
+        }
+      }
+    }
+  ],
+  "pikmin-white": [
+    {
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 3,
       "transform": {
         "translation": {
@@ -458,9 +367,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 4,
       "transform": {
         "translation": {
@@ -470,9 +380,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
       "color": "white",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 7,
       "transform": {
         "translation": {
@@ -480,23 +391,27 @@
           "y": -262
         }
       }
-    },
+    }
+  ],
+  "switchable-fencenormal": [
     {
-      "type": "pikmin",
-      "color": "wing",
-      "variant": "sprouts",
-      "amount": 7,
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
-          "x": -930,
-          "y": 1219
-        }
+          "x": -976,
+          "y": -274
+        },
+        "rotation": -90
       }
-    },
+    }
+  ],
+  "pikmin-rock": [
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 7,
       "transform": {
         "translation": {
@@ -506,9 +421,112 @@
       }
     }
   ],
-  "egg": [
+  "platform-bounceshroom": [
     {
-      "type": "egg",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -792.5,
+          "y": 530
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -655,
+          "y": 530
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -340,
+          "y": 655
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": 550,
+          "y": 667.5
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -825,
+          "y": 32
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -825,
+          "y": -73
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": -625.5,
+          "y": -275
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": 529,
+          "y": -420
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": 529,
+          "y": -309
+        }
+      }
+    },
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": 529,
+          "y": 15
+        }
+      }
+    }
+  ],
+  "breakable-egg": [
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -526,7 +544,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -544,7 +563,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -565,6 +585,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -579,6 +600,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
@@ -593,6 +615,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
@@ -607,6 +630,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPO",
       "name": "Mammoth Snootwhacker",
       "carryMax": 40,
@@ -629,6 +653,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
@@ -643,6 +668,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,

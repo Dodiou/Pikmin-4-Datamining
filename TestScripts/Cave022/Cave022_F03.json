@@ -1,32 +1,20 @@
 {
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area010",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 137.5,
           "y": -1162.5
         }
       }
-    },
-    {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave022_F02",
-      "transform": {
-        "translation": {
-          "x": 4.13855,
-          "y": 1118.7712
-        }
-      }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 57.51066,
@@ -36,10 +24,24 @@
       }
     }
   ],
-  "castaway": [
+  "cave-entrance": [
     {
-      "type": "castaway",
+      "type": "cave-entrance",
+      "infoType": "cave",
+      "transform": {
+        "translation": {
+          "x": 4.13855,
+          "y": 1118.7712
+        }
+      }
+    }
+  ],
+  "castaway-leafling": [
+    {
+      "type": "castaway-leafling",
+      "infoType": "castaway",
       "isLeafling": true,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -50,9 +52,10 @@
       }
     }
   ],
-  "firePit": [
+  "firepit-lit": [
     {
-      "type": "firePit",
+      "type": "firepit-lit",
+      "infoType": "firepit",
       "isLit": true,
       "transform": {
         "translation": {
@@ -60,9 +63,12 @@
           "y": 895.64136
         }
       }
-    },
+    }
+  ],
+  "firepit-unlit": [
     {
-      "type": "firePit",
+      "type": "firepit-unlit",
+      "infoType": "firepit",
       "isLit": false,
       "transform": {
         "translation": {
@@ -72,7 +78,8 @@
       }
     },
     {
-      "type": "firePit",
+      "type": "firepit-unlit",
+      "infoType": "firepit",
       "isLit": false,
       "transform": {
         "translation": {
@@ -82,9 +89,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -585,
@@ -93,10 +101,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -106,8 +114,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -117,9 +125,10 @@
       }
     }
   ],
-  "icicle": [
+  "misc-icicle": [
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 260.7101,
@@ -128,7 +137,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 225,
@@ -137,7 +147,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 232.04048,
@@ -146,7 +157,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 231.63593,
@@ -155,7 +167,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 303.70663,
@@ -164,7 +177,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 302,
@@ -173,7 +187,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 333.32758,
@@ -182,7 +197,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 330.59143,
@@ -191,7 +207,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 260.7101,
@@ -200,7 +217,8 @@
       }
     },
     {
-      "type": "icicle",
+      "type": "misc-icicle",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": 270,
@@ -212,6 +230,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YUKIMUSHI",
       "name": "Snowfake Fluttertail",
       "carryMax": 30,

@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave012_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -412.5,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-ice": [
     {
-      "type": "gate",
-      "variant": "ice",
+      "type": "gate-ice",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 61.930595,
@@ -25,9 +24,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -37,9 +37,10 @@
       }
     }
   ],
-  "hydroJelly": [
+  "breakable-hydrojelly": [
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GKinkaiPick_C",
@@ -56,7 +57,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -415,
@@ -65,7 +67,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 410.7143,
@@ -74,7 +77,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPikminIce_C",
@@ -91,7 +95,8 @@
       }
     },
     {
-      "type": "hydroJelly",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -539.2857,
@@ -100,10 +105,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-ice": [
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 809.5,
@@ -112,8 +117,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -238.5,
@@ -122,8 +127,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -412.5,
@@ -132,8 +137,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 355.80145,
@@ -142,8 +147,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 62.47766,
@@ -152,29 +157,20 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 292.5,
           "y": 705
         }
       }
-    },
-    {
-      "type": "spout",
-      "variant": "poison",
-      "transform": {
-        "translation": {
-          "x": 537,
-          "y": -137
-        }
-      }
     }
   ],
-  "candypop": [
+  "candypop-white": [
     {
-      "type": "candypop",
+      "type": "candypop-white",
+      "infoType": "candypop",
       "color": "white",
       "changesAt": 50,
       "changesTo": "ice",
@@ -185,23 +181,12 @@
           "y": 952.09924
         }
       }
-    },
-    {
-      "type": "candypop",
-      "color": "ice",
-      "disappearsAt": 6,
-      "transform": {
-        "translation": {
-          "x": -58.999985,
-          "y": 130.00005
-        }
-      }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -211,9 +196,22 @@
       }
     }
   ],
+  "hazardspout-poison": [
+    {
+      "type": "hazardspout-poison",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": 537,
+          "y": -137
+        }
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAKIWI",
       "name": "Disguised Delicacy",
       "weight": 5,
@@ -228,6 +226,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 10,
@@ -242,9 +241,24 @@
       }
     }
   ],
+  "candypop-ice": [
+    {
+      "type": "candypop-ice",
+      "infoType": "candypop",
+      "color": "ice",
+      "disappearsAt": 6,
+      "transform": {
+        "translation": {
+          "x": -58.999985,
+          "y": 130.00005
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
       "carryMax": 10,
@@ -267,6 +281,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
       "carryMax": 10,
@@ -289,6 +304,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEFROG",
       "name": "Chillyhop",
       "carryMax": 10,
@@ -310,9 +326,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -342,7 +359,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

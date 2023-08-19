@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Area001_WaterBox00_D.png",
         "amountToFreeze": 30
@@ -16,8 +16,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Area001_WaterBox01_D.png",
         "amountToFreeze": 20
@@ -31,10 +31,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -44,33 +44,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "onion",
-      "baseId": 1,
-      "guardedBy": [
-        "FIRETANK"
-      ],
-      "transform": {
-        "translation": {
-          "x": -439.86432,
-          "y": 1596.9305
-        }
-      }
-    },
-    {
-      "type": "base",
-      "variant": "onion",
-      "baseId": 0,
-      "transform": {
-        "translation": {
-          "x": 2067.2705,
-          "y": 2938.707
-        }
-      }
-    },
-    {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -80,23 +55,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "onion",
-      "baseId": 2,
-      "guardedBy": [
-        "Chappy",
-        "KOCHAPPY"
-      ],
-      "transform": {
-        "translation": {
-          "x": -2614.3838,
-          "y": 2513.1536
-        }
-      }
-    },
-    {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 2,
       "transform": {
         "translation": {
@@ -106,8 +66,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 3,
       "transform": {
         "translation": {
@@ -115,23 +75,12 @@
           "y": -1764.3406
         }
       }
-    },
-    {
-      "type": "base",
-      "variant": "onion",
-      "baseId": 3,
-      "transform": {
-        "translation": {
-          "x": -4634.859,
-          "y": -1560.2467
-        }
-      }
     }
   ],
-  "shortcut": [
+  "shortcut-squashbag": [
     {
-      "type": "shortcut",
-      "variant": "squashbag",
+      "type": "shortcut-squashbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -140,10 +89,12 @@
         },
         "rotation": 5.068
       }
-    },
+    }
+  ],
+  "shortcut-clipboardlow": [
     {
-      "type": "shortcut",
-      "variant": "clipboard",
+      "type": "shortcut-clipboardlow",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -152,81 +103,12 @@
         },
         "rotation": 45
       }
-    },
-    {
-      "type": "shortcut",
-      "variant": "clipboardYellow",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": -2780.8513,
-          "y": 3333.9656
-        },
-        "rotation": 45
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "root",
-      "transform": {
-        "translation": {
-          "x": 135.27502,
-          "y": -9.64061
-        },
-        "rotation": -120
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "geyser",
-      "transform": {
-        "translation": {
-          "x": -78.275955,
-          "y": 2800.512
-        }
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": -4621,
-          "y": -1259
-        },
-        "rotation": 5
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": -2100.439,
-          "y": 1829.0679
-        },
-        "rotation": 110
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": -1231,
-          "y": 1059
-        },
-        "rotation": -40
-      }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -2070.298,
@@ -234,33 +116,12 @@
         },
         "rotation": -66
       }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": 1571,
-          "y": 351
-        },
-        "rotation": 75
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": -608,
-          "y": -221.99997
-        },
-        "rotation": 0
-      }
     }
   ],
-  "pot": [
+  "breakable-pot": [
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 860.4356,
@@ -269,7 +130,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 901.1027,
@@ -278,7 +140,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 796.2613,
@@ -287,7 +150,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 797.0817,
@@ -296,7 +160,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -313,10 +178,24 @@
       }
     }
   ],
-  "structure": [
+  "shortcut-clipboardhigh": [
     {
-      "type": "structure",
-      "variant": "wall",
+      "type": "shortcut-clipboardhigh",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -2780.8513,
+          "y": 3333.9656
+        },
+        "rotation": 45
+      }
+    }
+  ],
+  "structure-wall": [
+    {
+      "type": "structure-wall",
+      "infoType": "structure",
       "materialsNeeded": 15,
       "transform": {
         "translation": {
@@ -325,10 +204,65 @@
         },
         "rotation": 0
       }
+    }
+  ],
+  "base-beagle": [
+    {
+      "type": "base-beagle",
+      "infoType": "base",
+      "baseId": 1,
+      "guardedBy": [
+        "FIRETANK"
+      ],
+      "transform": {
+        "translation": {
+          "x": -439.86432,
+          "y": 1596.9305
+        }
+      }
     },
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "base-beagle",
+      "infoType": "base",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": 2067.2705,
+          "y": 2938.707
+        }
+      }
+    },
+    {
+      "type": "base-beagle",
+      "infoType": "base",
+      "baseId": 2,
+      "guardedBy": [
+        "Chappy",
+        "KOCHAPPY"
+      ],
+      "transform": {
+        "translation": {
+          "x": -2614.3838,
+          "y": 2513.1536
+        }
+      }
+    },
+    {
+      "type": "base-beagle",
+      "infoType": "base",
+      "baseId": 3,
+      "transform": {
+        "translation": {
+          "x": -4634.859,
+          "y": -1560.2467
+        }
+      }
+    }
+  ],
+  "structure-bridge": [
+    {
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 23,
       "transform": {
         "translation": {
@@ -339,8 +273,8 @@
       }
     },
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 39,
       "transform": {
         "translation": {
@@ -351,8 +285,8 @@
       }
     },
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 22,
       "transform": {
         "translation": {
@@ -363,11 +297,10 @@
       }
     }
   ],
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave001_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 905.72064,
@@ -376,9 +309,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave004_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -5217.325,
@@ -387,9 +319,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave002_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1199.09,
@@ -398,9 +329,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave033_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 745.5682,
@@ -409,9 +339,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave005_F00",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 836.96124,
@@ -420,30 +349,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "challenge",
-      "link": "CaveSP001_F00",
-      "transform": {
-        "translation": {
-          "x": -3525.597,
-          "y": 352.59937
-        }
-      }
-    },
-    {
-      "type": "caveLink",
-      "variant": "battle",
-      "link": "CaveVS000_F00",
-      "transform": {
-        "translation": {
-          "x": -1370.8451,
-          "y": 3502.6174
-        }
-      }
-    },
-    {
-      "type": "caveLink",
-      "link": "Cave004_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -5151.27,
@@ -452,9 +359,121 @@
       }
     }
   ],
-  "glowPellets": [
+  "cave-challenge": [
     {
-      "type": "glowPellets",
+      "type": "cave-challenge",
+      "infoType": "cave",
+      "transform": {
+        "translation": {
+          "x": -3525.597,
+          "y": 352.59937
+        }
+      }
+    }
+  ],
+  "cave-battle": [
+    {
+      "type": "cave-battle",
+      "infoType": "cave",
+      "transform": {
+        "translation": {
+          "x": -1370.8451,
+          "y": 3502.6174
+        }
+      }
+    }
+  ],
+  "shortcut-root": [
+    {
+      "type": "shortcut-root",
+      "infoType": "shortcut",
+      "transform": {
+        "translation": {
+          "x": 135.27502,
+          "y": -9.64061
+        },
+        "rotation": -120
+      }
+    }
+  ],
+  "ridable-geyser": [
+    {
+      "type": "ridable-geyser",
+      "infoType": "ridable",
+      "transform": {
+        "translation": {
+          "x": -78.275955,
+          "y": 2800.512
+        }
+      }
+    }
+  ],
+  "gate-dirt": [
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 1571,
+          "y": 351
+        },
+        "rotation": 75
+      }
+    },
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -608,
+          "y": -221.99997
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut-pushbag": [
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -4621,
+          "y": -1259
+        },
+        "rotation": 5
+      }
+    },
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -2100.439,
+          "y": 1829.0679
+        },
+        "rotation": 110
+      }
+    },
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -1231,
+          "y": 1059
+        },
+        "rotation": -40
+      }
+    }
+  ],
+  "pile-glowpellets": [
+    {
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -464,7 +483,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -474,7 +494,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -484,7 +505,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -494,7 +516,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -504,7 +527,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -514,7 +538,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -524,7 +549,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -534,7 +560,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -544,7 +571,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -554,7 +582,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -564,7 +593,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "transform": {
         "translation": {
           "x": -4359.316,
@@ -573,7 +603,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 40,
       "transform": {
         "translation": {
@@ -583,7 +614,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -593,7 +625,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -603,7 +636,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -613,7 +647,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -623,7 +658,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -633,7 +669,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -643,7 +680,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -653,7 +691,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -663,7 +702,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -673,7 +713,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -683,7 +724,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -693,7 +735,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -703,7 +746,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -713,7 +757,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -723,7 +768,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -733,7 +779,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -743,7 +790,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -753,7 +801,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -763,7 +812,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -773,7 +823,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -783,7 +834,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -793,7 +845,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -803,7 +856,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -813,7 +867,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -823,7 +878,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -833,7 +889,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -843,7 +900,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -853,7 +911,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "transform": {
         "translation": {
           "x": 2160,
@@ -862,7 +921,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -872,7 +932,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -882,7 +943,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "transform": {
         "translation": {
           "x": 846,
@@ -891,7 +953,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -901,7 +964,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 40,
       "transform": {
         "translation": {
@@ -911,7 +975,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -921,7 +986,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 20,
       "transform": {
         "translation": {
@@ -931,7 +997,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -941,7 +1008,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -951,7 +1019,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -961,7 +1030,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -971,7 +1041,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -981,7 +1052,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -991,7 +1063,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -1001,7 +1074,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -1011,7 +1085,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -1021,7 +1096,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -1031,7 +1107,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -1041,7 +1118,8 @@
       }
     },
     {
-      "type": "glowPellets",
+      "type": "pile-glowpellets",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -1051,9 +1129,10 @@
       }
     }
   ],
-  "mound": [
+  "breakable-mound": [
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBaby_C",
@@ -1070,7 +1149,8 @@
       }
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBaby_C",
@@ -1087,7 +1167,8 @@
       }
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBaby_C",
@@ -1104,7 +1185,8 @@
       }
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBaby_C",
@@ -1124,6 +1206,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1138,6 +1221,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1152,6 +1236,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1166,6 +1251,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1180,6 +1266,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1194,6 +1281,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1208,6 +1296,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1222,6 +1311,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1236,6 +1326,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1250,6 +1341,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1264,6 +1356,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1278,6 +1371,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1292,6 +1386,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1306,6 +1401,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1320,6 +1416,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1334,6 +1431,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1348,6 +1446,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1362,6 +1461,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1376,6 +1476,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1390,6 +1491,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1404,6 +1506,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1418,6 +1521,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1432,6 +1536,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1446,6 +1551,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -1460,6 +1566,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -1474,6 +1581,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -1488,6 +1596,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -1502,6 +1611,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -1516,6 +1626,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -1530,6 +1641,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -1544,6 +1656,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -1558,6 +1671,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGCHAPPY_NIGHT",
       "name": "Jumbo Bulborb",
       "carryMax": 40,
@@ -1580,6 +1694,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGCHAPPY_NIGHT",
       "name": "Jumbo Bulborb",
       "carryMax": 40,

@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave030_F00_WaterBox00_D.png",
         "amountToFreeze": 100
@@ -19,6 +19,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 20,
@@ -34,6 +35,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -49,6 +51,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABOAT",
       "name": "Unfloatable Boat",
       "weight": 12,
@@ -63,6 +66,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -78,6 +82,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 35,
@@ -93,6 +98,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
       "weight": 10,
@@ -107,6 +113,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASPONGEB",
       "name": "Birdy Bed",
       "weight": 7,
@@ -121,6 +128,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -135,6 +143,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 20,
@@ -150,6 +159,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAFISHCRUET",
       "name": "Mystery Squish Fish",
       "weight": 2,
@@ -164,6 +174,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAFISHCRUET",
       "name": "Mystery Squish Fish",
       "weight": 2,
@@ -178,6 +189,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGOLDFISH",
       "name": "Faux Fishy",
       "weight": 20,
@@ -192,6 +204,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASPONGEC",
       "name": "Fishy Bed",
       "weight": 7,
@@ -206,6 +219,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -219,10 +233,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -115.99973,
@@ -232,11 +246,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-yellow": [
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -246,33 +261,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "blue",
-      "variant": "idle",
-      "amount": 10,
-      "transform": {
-        "translation": {
-          "x": -647.001,
-          "y": 306.27637
-        }
-      }
-    },
-    {
-      "type": "pikmin",
-      "color": "blue",
-      "variant": "idle",
-      "amount": 10,
-      "transform": {
-        "translation": {
-          "x": 1116.0173,
-          "y": 1210.7881
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -282,21 +274,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "blue",
-      "variant": "fighting",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -279.98096,
-          "y": -165.21167
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -306,9 +287,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -318,10 +300,51 @@
       }
     }
   ],
-  "shortcut": [
+  "pikmin-blue": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
+      "color": "blue",
+      "state": "idle",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": -647.001,
+          "y": 306.27637
+        }
+      }
+    },
+    {
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
+      "color": "blue",
+      "state": "idle",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 1116.0173,
+          "y": 1210.7881
+        }
+      }
+    },
+    {
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
+      "color": "blue",
+      "state": "fighting",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -279.98096,
+          "y": -165.21167
+        }
+      }
+    }
+  ],
+  "shortcut-pushbag": [
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -332,8 +355,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -342,10 +365,12 @@
         },
         "rotation": 90
       }
-    },
+    }
+  ],
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -111.5,
@@ -354,20 +379,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "clipboardYellow",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": 825,
-          "y": -886
-        },
-        "rotation": 0
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 275,
@@ -376,8 +389,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 966.5,
@@ -386,10 +399,24 @@
       }
     }
   ],
-  "fence": [
+  "shortcut-clipboardhigh": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "shortcut-clipboardhigh",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 825,
+          "y": -886
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "switchable-fencenormal": [
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -826,
@@ -399,10 +426,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -415,6 +442,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -429,6 +457,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -443,6 +472,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICEOTAKARA",
       "name": "Iceblown Dweevil",
       "carryMax": 4,
@@ -457,6 +487,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -471,6 +502,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
       "carryMax": 14,
@@ -485,6 +517,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KANITAMA",
       "name": "Peckish Aristocrab",
       "carryMax": 14,
@@ -498,9 +531,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -530,7 +564,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -560,7 +595,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -590,7 +626,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave011_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -134.53833,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave011_F00_WaterBox00_D.png",
         "amountToFreeze": 100
@@ -32,6 +31,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 15,
@@ -47,6 +47,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAOSHABURIBLU",
       "name": "False Lollipop",
       "weight": 5,
@@ -61,6 +62,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABOTTLE",
       "name": "Maternal Sculpture",
       "weight": 7,
@@ -75,6 +77,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAICHIGO",
       "name": "Sunseed Berry",
       "weight": 3,
@@ -89,6 +92,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHIMAGURO",
       "name": "Maestro of Flavor",
       "weight": 5,
@@ -103,6 +107,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASUSHIMAGURO",
       "name": "Maestro of Flavor",
       "weight": 5,
@@ -116,9 +121,10 @@
       }
     }
   ],
-  "onion": [
+  "onion-flarlic": [
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -129,9 +135,10 @@
       }
     }
   ],
-  "sprinkler": [
+  "hazardradial-sprinkler": [
     {
-      "type": "sprinkler",
+      "type": "hazardradial-sprinkler",
+      "infoType": "hazard",
       "valveId": "valve1",
       "radius": 225,
       "transform": {
@@ -142,7 +149,8 @@
       }
     },
     {
-      "type": "sprinkler",
+      "type": "hazardradial-sprinkler",
+      "infoType": "hazard",
       "valveId": "valve1",
       "radius": 330,
       "transform": {
@@ -153,10 +161,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-water": [
     {
-      "type": "spout",
-      "variant": "water",
+      "type": "hazardspout-water",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 364,
@@ -165,8 +173,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "water",
+      "type": "hazardspout-water",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 601,
@@ -175,11 +183,11 @@
       }
     }
   ],
-  "structure": [
+  "structure-valve": [
     {
       "valveId": "valve1",
-      "type": "structure",
-      "variant": "valve",
+      "type": "structure-valve",
+      "infoType": "structure",
       "materialsNeeded": 12,
       "transform": {
         "translation": {
@@ -189,10 +197,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -470,
@@ -202,9 +210,10 @@
       }
     }
   ],
-  "ropeFishing": [
+  "misc-pullrope": [
     {
-      "type": "ropeFishing",
+      "type": "misc-pullrope",
+      "infoType": "misc",
       "weight": 5,
       "transform": {
         "translation": {
@@ -215,10 +224,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 284,
@@ -228,11 +237,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -243,9 +253,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -255,11 +266,51 @@
           "y": 1089
         }
       }
-    },
+    }
+  ],
+  "breakable-hydrojelly": [
     {
-      "type": "pikmin",
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -429,
+          "y": 1123
+        }
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -545.93115,
+          "y": -600.1523
+        }
+      }
+    }
+  ],
+  "ridable-geyser": [
+    {
+      "type": "ridable-geyser",
+      "infoType": "ridable",
+      "transform": {
+        "translation": {
+          "x": -901,
+          "y": 577
+        }
+      }
+    }
+  ],
+  "pikmin-ice": [
+    {
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -271,45 +322,10 @@
       }
     }
   ],
-  "hydroJelly": [
-    {
-      "type": "hydroJelly",
-      "transform": {
-        "translation": {
-          "x": -429,
-          "y": 1123
-        }
-      }
-    }
-  ],
-  "base": [
-    {
-      "type": "base",
-      "variant": "beagle",
-      "baseId": 0,
-      "transform": {
-        "translation": {
-          "x": -545.93115,
-          "y": -600.1523
-        }
-      }
-    }
-  ],
-  "shortcut": [
-    {
-      "type": "shortcut",
-      "variant": "geyser",
-      "transform": {
-        "translation": {
-          "x": -901,
-          "y": 577
-        }
-      }
-    }
-  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
@@ -332,6 +348,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
@@ -354,6 +371,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -376,6 +394,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -398,6 +417,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,

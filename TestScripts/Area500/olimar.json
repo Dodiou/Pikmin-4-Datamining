@@ -1,8 +1,8 @@
 {
-  "base": [
+  "base-beagle": [
     {
-      "type": "base",
-      "variant": "onion",
+      "type": "base-beagle",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -10,10 +10,12 @@
           "y": -1118.3147
         }
       }
-    },
+    }
+  ],
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {

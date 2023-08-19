@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave014_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1249.5,
@@ -12,9 +11,8 @@
       }
     },
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave014_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 448.91187,
@@ -23,10 +21,10 @@
       }
     }
   ],
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave014_F02_WaterBox00_D.png",
         "amountToFreeze": 5
@@ -40,8 +38,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave014_F02_WaterBox01_D.png",
         "amountToFreeze": 5
@@ -55,10 +53,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-electric": [
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 752.5,
@@ -67,8 +65,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -825.5,
@@ -77,8 +75,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -576.5,
@@ -87,8 +85,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -172.5,
@@ -97,8 +95,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 275,
@@ -107,8 +105,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "electric",
+      "type": "hazardspout-electric",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 2.5,
@@ -117,10 +115,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -131,8 +129,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -143,8 +141,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -155,8 +153,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -167,10 +165,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 1043.5,
@@ -180,8 +178,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1042.5,
@@ -191,8 +189,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -926,
@@ -202,11 +200,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -217,9 +216,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -230,23 +230,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -1100,
           "y": -737.5
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -256,10 +256,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -269,8 +269,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 2,
       "guardedBy": [
         "Hanachirashi"
@@ -283,8 +283,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -297,6 +297,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPUZZLEK",
       "name": "Memory Fragment (Bottom...Probably?)",
       "weight": 2,
@@ -311,6 +312,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAAVOCADO",
       "name": "Scaly Custard",
       "weight": 10,
@@ -325,6 +327,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPOTATO",
       "name": "Child of the Earth",
       "weight": 7,
@@ -341,6 +344,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
       "carryMax": 4,
@@ -355,6 +359,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AMEBOZU",
       "name": "Waterwraith",
       "carryMax": 0,
@@ -369,6 +374,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -391,6 +397,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HANACHIRASHI",
       "name": "Withering Blowhog",
       "carryMax": 1,
@@ -413,6 +420,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -435,6 +443,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
       "carryMax": 4,
@@ -449,6 +458,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -470,9 +480,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -502,7 +513,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -532,7 +544,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -562,7 +575,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

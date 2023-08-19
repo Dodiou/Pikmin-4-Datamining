@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-exit": [
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area004",
+      "type": "cave-exit",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 504.02393,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 217.08594,
@@ -23,10 +22,12 @@
         },
         "rotation": 0
       }
-    },
+    }
+  ],
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -115.9693,
@@ -34,23 +35,14 @@
         },
         "rotation": -90
       }
-    },
-    {
-      "type": "gate",
-      "variant": "crystal",
-      "transform": {
-        "translation": {
-          "x": 128,
-          "y": -687
-        },
-        "rotation": -90
-      }
     }
   ],
-  "castaway": [
+  "castaway-normal": [
     {
-      "type": "castaway",
+      "type": "castaway-normal",
+      "infoType": "castaway",
       "isLeafling": false,
+      "isKoppaite": false,
       "weight": 3,
       "carryMax": 6,
       "transform": {
@@ -61,10 +53,23 @@
       }
     }
   ],
-  "base": [
+  "gate-crystal": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 128,
+          "y": -687
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -77,6 +82,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
       "carryMax": 0,
@@ -100,6 +106,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
       "carryMax": 0,
@@ -123,6 +130,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
       "carryMax": 0,
@@ -138,6 +146,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "QUEEN",
       "name": "Empress Bulblax",
       "carryMax": 40,

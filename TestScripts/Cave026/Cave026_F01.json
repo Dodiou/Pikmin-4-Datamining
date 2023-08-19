@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave026_F02",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -550,
@@ -12,9 +11,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -24,9 +24,10 @@
       }
     }
   ],
-  "crystal": [
+  "breakable-crystal": [
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 647.0821,
@@ -35,7 +36,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 715.3951,
@@ -44,7 +46,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 1068.4912,
@@ -53,7 +56,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 966.8667,
@@ -62,7 +66,8 @@
       }
     },
     {
-      "type": "crystal",
+      "type": "breakable-crystal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 1054.4299,
@@ -71,10 +76,10 @@
       }
     }
   ],
-  "tunnel": [
+  "tunnel-oatchi": [
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_1",
       "transform": {
         "translation": {
@@ -84,8 +89,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_1",
       "transform": {
         "translation": {
@@ -95,9 +100,10 @@
       }
     }
   ],
-  "pot": [
+  "breakable-pot": [
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 49.46338,
@@ -106,7 +112,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -50.11859,
@@ -115,7 +122,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -0.2078247,
@@ -124,7 +132,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 55.436607,
@@ -133,7 +142,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -0.2078247,
@@ -142,10 +152,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 825,
@@ -155,8 +165,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 882,
@@ -166,8 +176,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 275,
@@ -177,10 +187,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-slope": [
     {
-      "type": "structure",
-      "variant": "slope",
+      "type": "structure-slope",
+      "infoType": "structure",
       "materialsNeeded": 25,
       "transform": {
         "translation": {
@@ -191,10 +201,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-water": [
     {
-      "type": "spout",
-      "variant": "water",
+      "type": "hazardspout-water",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 139.57886,
@@ -203,8 +213,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "water",
+      "type": "hazardspout-water",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 70.572876,
@@ -213,11 +223,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-rock": [
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -228,9 +239,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -241,9 +253,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-purple": [
     {
-      "type": "candypop",
+      "type": "candypop-purple",
+      "infoType": "candypop",
       "color": "purple",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -258,6 +271,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASHINJITSU",
       "name": "Mouth of Lies",
       "weight": 15,
@@ -272,6 +286,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 20,
@@ -286,10 +301,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-pushbag": [
     {
-      "type": "shortcut",
-      "variant": "pushbag",
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
       "weight": 10,
       "transform": {
         "translation": {
@@ -300,10 +315,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -316,6 +331,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -338,6 +354,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
       "carryMax": 6,
@@ -353,6 +370,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -375,6 +393,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -389,6 +408,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
       "carryMax": 6,
@@ -403,6 +423,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HARI",
       "name": "Porquillion",
       "carryMax": 24,
@@ -431,6 +452,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
       "carryMax": 14,
@@ -444,9 +466,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 500,
       "drops": [
         {
@@ -464,7 +487,8 @@
       }
     },
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "ignoreIds": [
         "None"
       ],

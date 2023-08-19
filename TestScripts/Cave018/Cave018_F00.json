@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave018_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -1214.2207,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "water": [
+  "water-swamp": [
     {
-      "type": "water",
-      "variant": "swamp",
+      "type": "water-swamp",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave018_F00_WaterBox00_D.png",
         "amountToFreeze": 100,
@@ -33,6 +32,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 35,
@@ -48,6 +48,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL7",
       "name": "Sphere of Good Fortune",
       "weight": 7,
@@ -62,6 +63,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTALIGHTUPRINGRED",
       "name": "Hoop of Passion",
       "weight": 3,
@@ -75,10 +77,10 @@
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -740.4311,
@@ -87,8 +89,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "hasCrystal": true,
       "transform": {
         "translation": {
@@ -98,19 +100,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "zipline",
-      "transform": {
-        "translation": {
-          "x": -209.83972,
-          "y": 19.45462
-        },
-        "rotation": 0
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -1430.6075,
@@ -119,10 +110,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-wall": [
     {
-      "type": "structure",
-      "variant": "wall",
+      "type": "structure-wall",
+      "infoType": "structure",
       "materialsNeeded": 13,
       "transform": {
         "translation": {
@@ -133,11 +124,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-wing": [
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -149,9 +141,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-wing",
+      "infoType": "pikmin",
       "color": "wing",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -163,9 +156,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-wing": [
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -177,7 +171,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -189,10 +184,23 @@
       }
     }
   ],
-  "base": [
+  "ridable-zipline": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "ridable-zipline",
+      "infoType": "ridable",
+      "transform": {
+        "translation": {
+          "x": -209.83972,
+          "y": 19.45462
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -202,10 +210,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -726.1504,
@@ -215,11 +223,10 @@
       }
     }
   ],
-  "mushroom": [
+  "breakable-spotcapnormal": [
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -937.3247,
@@ -228,9 +235,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -967.9172,
@@ -239,9 +245,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -917.2796,
@@ -250,9 +255,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -903.74567,
@@ -261,9 +265,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -942.6451,
@@ -272,9 +275,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -912.1436,
@@ -283,9 +285,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1024.1007,
@@ -294,9 +295,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -918.8652,
@@ -305,9 +305,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -806.58386,
@@ -316,9 +315,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -780.8055,
@@ -327,9 +325,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -803.557,
@@ -338,9 +335,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -881.5174,
@@ -349,9 +345,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -951.5921,
@@ -360,20 +355,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -1271.0421,
-          "y": 809.9422
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 66.77594,
@@ -382,9 +365,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -62.63112,
@@ -393,20 +375,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -7.681122,
-          "y": -977.36707
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 36.9767,
@@ -415,43 +385,20 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1217.5323,
           "y": 861.1727
         }
       }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -1232.1205,
-          "y": 733.0076
-        }
-      }
-    },
-    {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
-      "transform": {
-        "translation": {
-          "x": -1218.4443,
-          "y": 914.2973
-        }
-      }
     }
   ],
-  "floor": [
+  "hazardradial-floormushroom": [
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 525,
       "drops": [
@@ -470,8 +417,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 525,
       "transform": {
@@ -482,10 +429,10 @@
       }
     }
   ],
-  "tunnel": [
+  "tunnel-any": [
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -495,8 +442,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -506,9 +453,52 @@
       }
     }
   ],
+  "breakable-kingcapnormal": [
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1271.0421,
+          "y": 809.9422
+        }
+      }
+    },
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -7.681122,
+          "y": -977.36707
+        }
+      }
+    },
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1232.1205,
+          "y": 733.0076
+        }
+      }
+    },
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": -1218.4443,
+          "y": 914.2973
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MIULIN",
       "name": "Mamuta",
       "carryMax": 20,
@@ -537,6 +527,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGUJINKO",
       "name": "Mama Sheargrub",
       "carryMax": 20,
@@ -551,6 +542,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -565,6 +557,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "REDSHIJIMI",
       "name": "Red Spectralids",
       "carryMax": 1,
@@ -587,6 +580,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -601,6 +595,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
@@ -615,6 +610,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
@@ -629,6 +625,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
@@ -643,6 +640,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
       "carryMax": 1,
@@ -666,6 +664,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -688,6 +687,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
       "carryMax": 1,
@@ -710,6 +710,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
       "carryMax": 1,
@@ -732,6 +733,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -760,6 +762,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -788,6 +791,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -816,6 +820,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -844,6 +849,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -872,6 +878,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -900,6 +907,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -928,6 +936,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -956,6 +965,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -984,6 +994,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
       "carryMax": 1,
@@ -1011,9 +1022,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 150,
       "drops": [
         {
@@ -1031,7 +1043,8 @@
       }
     },
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "ignoreIds": [
         "ShippoZako"
       ],
@@ -1052,7 +1065,8 @@
       }
     },
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "ignoreIds": [
         "StickyMush"
       ],

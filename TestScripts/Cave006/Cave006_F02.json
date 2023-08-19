@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave006_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -0.067230225,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "shortcut": [
+  "ridable-geyser": [
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "hasCrystal": true,
       "transform": {
         "translation": {
@@ -25,43 +24,20 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "geyser",
+      "type": "ridable-geyser",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": -547.71027,
           "y": 74.20691
         }
       }
-    },
-    {
-      "type": "shortcut",
-      "variant": "clipboard",
-      "weight": 20,
-      "transform": {
-        "translation": {
-          "x": -138,
-          "y": 1925
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "squashbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": -302.0426,
-          "y": 274.734
-        },
-        "rotation": 90
-      }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -71,7 +47,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -81,7 +58,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -91,10 +69,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-fire": [
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 823.45245,
@@ -103,8 +81,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -551.28937,
@@ -113,10 +91,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-bridge": [
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 29,
       "transform": {
         "translation": {
@@ -130,6 +108,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATRAINB",
       "name": "Middle-Management Tank Car",
       "weight": 7,
@@ -144,6 +123,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACOUNTER",
       "name": "Internal-Clock Measurer",
       "weight": 5,
@@ -157,11 +137,26 @@
       }
     }
   ],
-  "pikmin": [
+  "shortcut-clipboardlow": [
     {
-      "type": "pikmin",
+      "type": "shortcut-clipboardlow",
+      "infoType": "shortcut",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -138,
+          "y": 1925
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "pikmin-ice": [
+    {
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -172,9 +167,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -186,10 +182,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -199,8 +195,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "guardedBy": [
         "KABURI"
@@ -213,9 +209,24 @@
       }
     }
   ],
+  "shortcut-squashbag": [
+    {
+      "type": "shortcut-squashbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -302.0426,
+          "y": 274.734
+        },
+        "rotation": 90
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -238,6 +249,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -260,6 +272,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -281,9 +294,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -313,7 +327,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -343,7 +358,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

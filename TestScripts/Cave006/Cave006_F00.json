@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave006_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -688.5105,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -68.27936,
@@ -28,6 +27,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASMALLBELL",
       "name": "Spouse Alert",
       "weight": 2,
@@ -42,6 +42,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPUZZLEC",
       "name": "Memory Fragment (Top...Probably?)",
       "weight": 2,
@@ -56,6 +57,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTALIGHTUPRINGYEL",
       "name": "Hoop of Fortune",
       "weight": 3,
@@ -69,10 +71,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -85,6 +87,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -99,6 +102,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -113,6 +117,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,

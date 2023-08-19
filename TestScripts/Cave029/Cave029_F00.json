@@ -1,9 +1,10 @@
 {
-  "pikmin": [
+  "pikmin-rock": [
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "transform": {
         "translation": {
@@ -13,9 +14,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "idle",
+      "state": "idle",
       "amount": 10,
       "transform": {
         "translation": {
@@ -25,9 +27,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -37,33 +40,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "red",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -665,
-          "y": 1482
-        }
-      }
-    },
-    {
-      "type": "pikmin",
-      "color": "red",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 361.99976,
-          "y": -1241
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -71,24 +51,12 @@
           "y": -166.00098
         }
       }
-    },
-    {
-      "type": "pikmin",
-      "color": "red",
-      "variant": "fighting",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 191.0008,
-          "y": 520.999
-        }
-      }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -285.99997,
@@ -98,19 +66,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
-      "transform": {
-        "translation": {
-          "x": -630,
-          "y": -565
-        },
-        "rotation": 180
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 80,
@@ -118,45 +75,53 @@
         },
         "rotation": 0
       }
-    },
+    }
+  ],
+  "pikmin-red": [
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
+      "color": "red",
+      "state": "sprouts",
+      "amount": 5,
       "transform": {
         "translation": {
-          "x": 275,
-          "y": -169
-        },
-        "rotation": 90
+          "x": -665,
+          "y": 1482
+        }
       }
     },
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
+      "color": "red",
+      "state": "sprouts",
+      "amount": 5,
       "transform": {
         "translation": {
-          "x": -688,
-          "y": 242
-        },
-        "rotation": 0
+          "x": 361.99976,
+          "y": -1241
+        }
       }
     },
     {
-      "type": "gate",
-      "variant": "crystal",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
+      "color": "red",
+      "state": "fighting",
+      "amount": 5,
       "transform": {
         "translation": {
-          "x": 537,
-          "y": 656
-        },
-        "rotation": 90
+          "x": 191.0008,
+          "y": 520.999
+        }
       }
     }
   ],
-  "floor": [
+  "hazardradial-floorfire": [
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 350,
       "transform": {
         "translation": {
@@ -166,10 +131,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -550,
@@ -182,6 +147,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -197,6 +163,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 40,
@@ -212,6 +179,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 33,
@@ -227,6 +195,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 40,
@@ -242,6 +211,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOM",
       "name": "Love Nugget",
       "weight": 10,
@@ -256,6 +226,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAZUCCHINI",
       "name": "Crew-Cut Gourd",
       "weight": 10,
@@ -270,6 +241,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPOTATO",
       "name": "Child of the Earth",
       "weight": 7,
@@ -284,6 +256,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPOTATO",
       "name": "Child of the Earth",
       "weight": 7,
@@ -298,6 +271,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAEGGPLANT",
       "name": "Foolish Fruit",
       "weight": 5,
@@ -312,6 +286,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKENOKO",
       "name": "Anxious Sprout",
       "weight": 10,
@@ -326,6 +301,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOS",
       "name": "Crush Nugget",
       "weight": 2,
@@ -340,6 +316,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATOMATOS",
       "name": "Crush Nugget",
       "weight": 2,
@@ -353,10 +330,23 @@
       }
     }
   ],
-  "base": [
+  "gate-numbered": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "gate-numbered",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -630,
+          "y": -565
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -366,9 +356,45 @@
       }
     }
   ],
+  "gate-crystal": [
+    {
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 275,
+          "y": -169
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -688,
+          "y": 242
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 537,
+          "y": 656
+        },
+        "rotation": 90
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
@@ -383,6 +409,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
@@ -397,6 +424,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YAKISENBEI",
       "name": "Scorchcake",
       "carryMax": 14,
@@ -411,6 +439,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
@@ -445,6 +474,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YAKISENBEI",
       "name": "Scorchcake",
       "carryMax": 14,
@@ -467,6 +497,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -481,6 +512,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -495,6 +527,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
       "carryMax": 1,
@@ -509,6 +542,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,
@@ -523,6 +557,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
@@ -537,6 +572,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
       "carryMax": 14,

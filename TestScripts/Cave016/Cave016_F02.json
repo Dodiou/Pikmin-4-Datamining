@@ -1,8 +1,8 @@
 {
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -332.5,
@@ -12,11 +12,10 @@
       }
     }
   ],
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave016_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -277.5,
@@ -25,10 +24,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -38,9 +37,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -70,7 +70,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -103,6 +104,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
       "carryMax": 30,
@@ -117,6 +119,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
       "carryMax": 30,
@@ -131,6 +134,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
       "carryMax": 30,
@@ -144,9 +148,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "drops": [
         {
           "item": "GOtaHanafudaE_C",

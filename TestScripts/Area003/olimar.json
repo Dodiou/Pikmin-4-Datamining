@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox00_Hero_D.png",
         "amountToFreeze": 30
@@ -20,8 +20,8 @@
         "image": "T_ui_Map_HeroStory003_Hero_WaterBox01_ChangeDist_D.png",
         "amountToFreeze": 10
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox01_Hero_D.png",
         "amountToFreeze": 10
@@ -39,8 +39,8 @@
         "image": "T_ui_Map_HeroStory003_Hero_WaterBox02_ChangeDist_D.png",
         "amountToFreeze": 10
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox02_Hero_D.png",
         "amountToFreeze": 10
@@ -58,8 +58,8 @@
         "image": "T_ui_Map_HeroStory003_Hero_WaterBox03_ChangeDist_D.png",
         "amountToFreeze": 10
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox03_Hero_D.png",
         "amountToFreeze": 10
@@ -77,8 +77,8 @@
         "image": "T_ui_Map_HeroStory003_Hero_WaterBox04_ChangeDist_D.png",
         "amountToFreeze": 30
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox04_Hero_D.png",
         "amountToFreeze": 80
@@ -96,8 +96,8 @@
         "image": "T_ui_Map_HeroStory003_Hero_WaterBox05_ChangeDist_D.png",
         "amountToFreeze": 20
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox05_Hero_D.png",
         "amountToFreeze": 40
@@ -115,8 +115,8 @@
         "image": "T_ui_Map_HeroStory003_Hero_WaterBox06_ChangeDist_D.png",
         "amountToFreeze": 20
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox06_Hero_D.png",
         "amountToFreeze": 40
@@ -130,8 +130,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox07_Hero_D.png",
         "amountToFreeze": 40
@@ -149,8 +149,8 @@
         "image": "T_ui_Map_HeroStory003_Hero_WaterBox08_ChangeDist_D.png",
         "amountToFreeze": 80
       },
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_HeroStory003_WaterBox08_Hero_D.png",
         "amountToFreeze": 100
@@ -164,9 +164,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 11,
       "transform": {
         "translation": {
@@ -176,7 +177,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 6,
       "transform": {
         "translation": {
@@ -186,7 +188,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 5,
       "transform": {
         "translation": {
@@ -196,7 +199,8 @@
       }
     },
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 10,
       "transform": {
         "translation": {
@@ -206,9 +210,10 @@
       }
     }
   ],
-  "onion": [
+  "onion-flarlic": [
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -219,18 +224,8 @@
       }
     },
     {
-      "type": "onion",
-      "color": "blue",
-      "weight": 20,
-      "transform": {
-        "translation": {
-          "x": -101.42682,
-          "y": -1636.7523
-        }
-      }
-    },
-    {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -241,7 +236,8 @@
       }
     },
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -252,7 +248,8 @@
       }
     },
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -263,9 +260,24 @@
       }
     }
   ],
+  "onion-blue": [
+    {
+      "type": "onion-blue",
+      "infoType": "onion",
+      "color": "blue",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -101.42682,
+          "y": -1636.7523
+        }
+      }
+    }
+  ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHEROPARTSI",
       "name": "Bowsprit",
       "weight": 30,
@@ -280,6 +292,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHEROPARTSK",
       "name": "Repair-Type Bolt",
       "weight": 10,
@@ -294,6 +307,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHEROPARTSW",
       "name": "Automatic Gear",
       "weight": 15,
@@ -308,6 +322,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHEROPARTSX",
       "name": "Automatic Gear",
       "weight": 15,
@@ -321,10 +336,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -2193.071,
@@ -334,8 +349,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 11.026104,
@@ -345,10 +360,10 @@
       }
     }
   ],
-  "structure": [
+  "structure-bridge": [
     {
-      "type": "structure",
-      "variant": "bridge",
+      "type": "structure-bridge",
+      "infoType": "structure",
       "materialsNeeded": 21,
       "transform": {
         "translation": {
@@ -357,23 +372,12 @@
         },
         "rotation": 100
       }
-    },
-    {
-      "type": "structure",
-      "variant": "wall",
-      "materialsNeeded": 11,
-      "transform": {
-        "translation": {
-          "x": -2480.0605,
-          "y": -2780.3054
-        },
-        "rotation": -100
-      }
     }
   ],
-  "pot": [
+  "breakable-pot": [
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1992.9951,
@@ -382,7 +386,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -2002.4617,
@@ -391,7 +396,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1996.2539,
@@ -400,7 +406,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 114.62231,
@@ -409,7 +416,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 43.957924,
@@ -418,7 +426,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -6.8585415,
@@ -427,7 +436,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GHoney_C",
@@ -444,7 +454,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -2383,
@@ -453,7 +464,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GHotExtract_C",
@@ -470,7 +482,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -192,
@@ -479,7 +492,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1675.01,
@@ -488,7 +502,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1621.4214,
@@ -497,7 +512,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1691,
@@ -506,7 +522,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 54,
@@ -515,7 +532,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1632.3499,
@@ -524,7 +542,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 75,
@@ -533,7 +552,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -1745,
@@ -542,7 +562,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 37,
@@ -551,7 +572,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -2025.9033,
@@ -560,7 +582,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 87,
@@ -569,7 +592,8 @@
       }
     },
     {
-      "type": "pot",
+      "type": "breakable-pot",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 22,
@@ -578,10 +602,10 @@
       }
     }
   ],
-  "base": [
+  "base-beagle": [
     {
-      "type": "base",
-      "variant": "onion",
+      "type": "base-beagle",
+      "infoType": "base",
       "baseId": 2,
       "guardedBy": [
         "PATROLLER"
@@ -594,19 +618,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
-      "baseId": 2,
-      "transform": {
-        "translation": {
-          "x": 2186.9028,
-          "y": -2647.9963
-        }
-      }
-    },
-    {
-      "type": "base",
-      "variant": "onion",
+      "type": "base-beagle",
+      "infoType": "base",
       "baseId": 1,
       "guardedBy": [
         "BIGKINGCHAPPY"
@@ -619,8 +632,32 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-beagle",
+      "infoType": "base",
+      "baseId": 0,
+      "transform": {
+        "translation": {
+          "x": -305.98334,
+          "y": 1673.4087
+        }
+      }
+    }
+  ],
+  "base-onion": [
+    {
+      "type": "base-onion",
+      "infoType": "base",
+      "baseId": 2,
+      "transform": {
+        "translation": {
+          "x": 2186.9028,
+          "y": -2647.9963
+        }
+      }
+    },
+    {
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -630,19 +667,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "onion",
-      "baseId": 0,
-      "transform": {
-        "translation": {
-          "x": -305.98334,
-          "y": 1673.4087
-        }
-      }
-    },
-    {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -652,10 +678,10 @@
       }
     }
   ],
-  "shortcut": [
+  "shortcut-clipboardhigh": [
     {
-      "type": "shortcut",
-      "variant": "clipboardYellow",
+      "type": "shortcut-clipboardhigh",
+      "infoType": "shortcut",
       "weight": 20,
       "transform": {
         "translation": {
@@ -664,10 +690,12 @@
         },
         "rotation": 115
       }
-    },
+    }
+  ],
+  "shortcut-root": [
     {
-      "type": "shortcut",
-      "variant": "root",
+      "type": "shortcut-root",
+      "infoType": "shortcut",
       "transform": {
         "translation": {
           "x": 2517,
@@ -677,10 +705,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 406,
@@ -690,8 +718,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 887,
@@ -701,10 +729,24 @@
       }
     }
   ],
-  "spout": [
+  "structure-wall": [
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "structure-wall",
+      "infoType": "structure",
+      "materialsNeeded": 11,
+      "transform": {
+        "translation": {
+          "x": -2480.0605,
+          "y": -2780.3054
+        },
+        "rotation": -100
+      }
+    }
+  ],
+  "hazardspout-bubble": [
+    {
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 1782,
@@ -713,8 +755,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 1401,
@@ -723,8 +765,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 1706,
@@ -733,8 +775,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -3125,
@@ -743,8 +785,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -3321.25,
@@ -753,8 +795,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -2836,
@@ -763,8 +805,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "bubble",
+      "type": "hazardspout-bubble",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -3027,
@@ -776,6 +818,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
       "carryMax": 14,
@@ -790,6 +833,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "YAMASHINJU",
       "name": "Pearly Clamclamp",
       "carryMax": 20,
@@ -804,6 +848,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -818,6 +863,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -832,6 +878,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
       "carryMax": 14,
@@ -846,6 +893,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -860,6 +908,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGFROG",
       "name": "Masterhop",
       "carryMax": 30,
@@ -874,6 +923,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,
@@ -888,6 +938,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,
@@ -902,6 +953,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -916,6 +968,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "THROWEATER",
       "name": "Grubchucker",
       "carryMax": 24,
@@ -938,6 +991,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
       "carryMax": 1,
@@ -952,6 +1006,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
       "carryMax": 1,
@@ -966,6 +1021,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "THROWEATER",
       "name": "Grubchucker",
       "carryMax": 24,
@@ -980,6 +1036,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHAKO",
       "name": "Hermit Crawmad",
       "carryMax": 10,
@@ -994,6 +1051,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -1008,6 +1066,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -1022,6 +1081,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -1036,6 +1096,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "SHAKO",
       "name": "Hermit Crawmad",
       "carryMax": 10,
@@ -1050,6 +1111,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DEMEJAKO",
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
@@ -1072,6 +1134,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KANITAMA",
       "name": "Peckish Aristocrab",
       "carryMax": 14,
@@ -1086,6 +1149,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -1100,6 +1164,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
@@ -1114,6 +1179,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
@@ -1128,6 +1194,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1142,6 +1209,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1156,6 +1224,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1170,6 +1239,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1184,6 +1254,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1198,6 +1269,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
       "carryMax": 1,
@@ -1212,6 +1284,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1226,6 +1299,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1240,6 +1314,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1254,6 +1329,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KANITAMA",
       "name": "Peckish Aristocrab",
       "carryMax": 14,
@@ -1268,6 +1344,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -1282,6 +1359,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -1296,6 +1374,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -1310,6 +1389,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -1324,6 +1404,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1338,6 +1419,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
       "carryMax": 6,
@@ -1352,6 +1434,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,
@@ -1366,6 +1449,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,
@@ -1380,6 +1464,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,
@@ -1394,6 +1479,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
       "carryMax": 1,
@@ -1408,6 +1494,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
       "carryMax": 10,
@@ -1422,6 +1509,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DEMEJAKO",
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
@@ -1436,6 +1524,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "DEMEJAKO",
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
@@ -1450,6 +1539,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1464,6 +1554,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
       "carryMax": 1,
@@ -1478,6 +1569,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGKINGCHAPPY",
       "name": "Sovereign Bulblax",
       "carryMax": 60,
@@ -1499,9 +1591,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -1519,7 +1612,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -1537,9 +1631,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 100,
       "drops": [
         {

@@ -1,9 +1,10 @@
 {
-  "pikmin": [
+  "pikmin-red": [
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -13,9 +14,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -25,33 +27,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "ice",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 277,
-          "y": 968
-        }
-      }
-    },
-    {
-      "type": "pikmin",
-      "color": "ice",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -963,
-          "y": -822
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -61,10 +40,38 @@
       }
     }
   ],
-  "gate": [
+  "pikmin-ice": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
+      "color": "ice",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 277,
+          "y": 968
+        }
+      }
+    },
+    {
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
+      "color": "ice",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -963,
+          "y": -822
+        }
+      }
+    }
+  ],
+  "gate-dirt": [
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 355,
@@ -72,24 +79,12 @@
         },
         "rotation": 0
       }
-    },
-    {
-      "type": "gate",
-      "variant": "ice",
-      "transform": {
-        "translation": {
-          "x": -762,
-          "y": -378
-        },
-        "rotation": 0
-      }
     }
   ],
-  "mushroom": [
+  "breakable-spotcapnormal": [
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -820,
@@ -98,9 +93,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -820,
@@ -109,9 +103,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 188,
@@ -120,9 +113,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 338,
@@ -131,9 +123,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 218,
@@ -142,9 +133,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 272,
@@ -153,9 +143,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": 348,
@@ -164,10 +153,10 @@
       }
     }
   ],
-  "item": [
+  "miscitem-bomb": [
     {
-      "type": "item",
-      "variant": "bomb",
+      "type": "miscitem-bomb",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -988,
@@ -176,10 +165,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -413,
@@ -189,10 +178,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-fire": [
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 907.0011,
@@ -201,10 +190,23 @@
       }
     }
   ],
-  "floor": [
+  "gate-ice": [
     {
-      "type": "floor",
-      "variant": "mushroom",
+      "type": "gate-ice",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -762,
+          "y": -378
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "hazardradial-floormushroom": [
+    {
+      "type": "hazardradial-floormushroom",
+      "infoType": "hazard",
       "isPoison": false,
       "radius": 100,
       "transform": {
@@ -215,10 +217,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -228,10 +230,10 @@
       }
     }
   ],
-  "shortcut": [
+  "platform-bounceshroom": [
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 424,
@@ -243,6 +245,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -257,6 +260,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -271,6 +275,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -285,6 +290,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
@@ -299,6 +305,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ICECHAPPY",
       "name": "Frosty Bulborb",
       "carryMax": 20,
@@ -313,6 +320,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
       "carryMax": 24,
@@ -327,6 +335,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMACHAPPY",
       "name": "Spotty Bulbear",
       "carryMax": 24,
@@ -341,6 +350,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENTENCHAPPY",
       "name": "Orange Bulborb",
       "carryMax": 20,
@@ -355,6 +365,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -369,6 +380,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,
@@ -383,6 +395,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
       "carryMax": 6,

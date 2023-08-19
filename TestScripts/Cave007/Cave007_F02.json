@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave007_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -386.38928,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-water": [
     {
-      "type": "spout",
-      "variant": "water",
+      "type": "hazardspout-water",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 688.08594,
@@ -24,8 +23,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "water",
+      "type": "hazardspout-water",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 322,
@@ -34,8 +33,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "water",
+      "type": "hazardspout-water",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -462,
@@ -44,9 +43,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 15,
       "transform": {
         "translation": {
@@ -59,6 +59,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 15,
@@ -74,6 +75,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGRAPEFRUIT",
       "name": "Astringent Clump",
       "weight": 12,
@@ -88,6 +90,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAKIWIGLD",
       "name": "Blonde Impostor",
       "weight": 5,
@@ -101,9 +104,10 @@
       }
     }
   ],
-  "onion": [
+  "onion-flarlic": [
     {
-      "type": "onion",
+      "type": "onion-flarlic",
+      "infoType": "onion",
       "color": "flarlic",
       "weight": 5,
       "transform": {
@@ -114,10 +118,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-electric": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 226,
@@ -127,11 +131,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -142,10 +147,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 845,
@@ -155,8 +160,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -9,
@@ -166,9 +171,10 @@
       }
     }
   ],
-  "mound": [
+  "breakable-mound": [
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -185,9 +191,10 @@
       }
     }
   ],
-  "honey": [
+  "miscitem-honey": [
     {
-      "type": "honey",
+      "type": "miscitem-honey",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -391,
@@ -196,7 +203,8 @@
       }
     },
     {
-      "type": "honey",
+      "type": "miscitem-honey",
+      "infoType": "misc",
       "transform": {
         "translation": {
           "x": -578,
@@ -205,9 +213,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-yellow": [
     {
-      "type": "candypop",
+      "type": "candypop-yellow",
+      "infoType": "candypop",
       "color": "yellow",
       "disappearsAt": 6,
       "replacedBy": "GEgg_C",
@@ -219,10 +228,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -235,6 +244,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
@@ -249,6 +259,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
@@ -263,6 +274,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",
       "carryMax": 1,
@@ -277,6 +289,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
@@ -291,6 +304,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",
       "carryMax": 1,
@@ -305,6 +319,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",
       "carryMax": 1,
@@ -319,6 +334,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
@@ -333,6 +349,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
@@ -346,9 +363,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {
@@ -378,7 +396,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": true,
       "drops": [
         {

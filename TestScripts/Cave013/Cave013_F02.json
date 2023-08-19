@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave013_F03",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -135.081,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "switch": [
+  "switchable-doubleswitch": [
     {
-      "type": "switch",
-      "variant": "double",
+      "type": "switchable-doubleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -26,9 +25,10 @@
       }
     }
   ],
-  "fan": [
+  "switchable-fan": [
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -38,7 +38,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -48,7 +49,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -58,7 +60,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -68,7 +71,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -78,10 +82,10 @@
       }
     }
   ],
-  "shortcut": [
+  "platform-bounceshroom": [
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -275,
@@ -90,31 +94,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "zipline",
-      "transform": {
-        "translation": {
-          "x": -541.5639,
-          "y": -218.00455
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "pushbag",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": -230.5,
-          "y": 550
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 391,
@@ -123,8 +104,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 565,
@@ -133,8 +114,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 550,
@@ -143,8 +124,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -2,
@@ -153,8 +134,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -139,
@@ -163,9 +144,10 @@
       }
     }
   ],
-  "conveyor": [
+  "switchable-conveyor": [
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -176,7 +158,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -187,7 +170,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -201,6 +185,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 10,
@@ -216,6 +201,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARAILWAYLINEC",
       "name": "Turn-of-Events Track",
       "weight": 7,
@@ -229,9 +215,37 @@
       }
     }
   ],
-  "candypop": [
+  "ridable-zipline": [
     {
-      "type": "candypop",
+      "type": "ridable-zipline",
+      "infoType": "ridable",
+      "transform": {
+        "translation": {
+          "x": -541.5639,
+          "y": -218.00455
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "shortcut-pushbag": [
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": -230.5,
+          "y": 550
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "candypop-wing": [
+    {
+      "type": "candypop-wing",
+      "infoType": "candypop",
       "color": "wing",
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -243,10 +257,10 @@
       }
     }
   ],
-  "tunnel": [
+  "tunnel-any": [
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -256,8 +270,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "normal",
+      "type": "tunnel-any",
+      "infoType": "tunnel",
       "tunnelId": "TunnelID_0",
       "transform": {
         "translation": {
@@ -267,10 +281,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {

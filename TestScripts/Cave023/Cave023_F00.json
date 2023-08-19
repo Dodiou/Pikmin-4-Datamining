@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave023_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 837.84424,
@@ -12,9 +11,10 @@
       }
     }
   ],
-  "fan": [
+  "switchable-fan": [
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -24,10 +24,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -388,
@@ -40,6 +40,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP100",
       "name": "Disk of Surprising Wisdom",
       "weight": 2,
@@ -54,6 +55,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADICE12",
       "name": "Long-Shot Totem",
       "weight": 2,
@@ -68,6 +70,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASINOCHIP25",
       "name": "Disk of Sorrowful Wisdom",
       "weight": 2,
@@ -82,6 +85,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACARDDENTAKU",
       "name": "Solar-Powered Computing Machine",
       "weight": 5,
@@ -96,6 +100,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADICE20",
       "name": "Go-with-the-Flow Totem",
       "weight": 2,
@@ -110,6 +115,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADICE20",
       "name": "Go-with-the-Flow Totem",
       "weight": 2,
@@ -123,10 +129,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -139,6 +145,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "PANMODOKI",
       "name": "Breadbug",
       "carryMax": 6,
@@ -153,6 +160,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "PANMODOKI",
       "name": "Breadbug",
       "carryMax": 6,
@@ -167,6 +175,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -181,6 +190,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -195,6 +205,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -209,6 +220,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -223,6 +235,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BILLY",
       "name": "Bearded Amprat",
       "carryMax": 14,
@@ -245,6 +258,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BILLY",
       "name": "Bearded Amprat",
       "carryMax": 14,
@@ -267,6 +281,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -280,9 +295,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -312,7 +328,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

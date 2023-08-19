@@ -1,20 +1,221 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave014_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": 825,
           "y": -645
         }
       }
+    }
+  ],
+  "water-water": [
+    {
+      "type": "water-water",
+      "infoType": "water",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F00_WaterBox00_D.png",
+        "amountToFreeze": 5
+      },
+      "transform": {
+        "translation": {
+          "x": 555.5,
+          "y": 435.00015
+        },
+        "rotation": -90
+      }
     },
     {
-      "type": "caveLink",
-      "variant": "exit",
-      "link": "Area003",
+      "type": "water-water",
+      "infoType": "water",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F00_WaterBox01_D.png",
+        "amountToFreeze": 5
+      },
+      "transform": {
+        "translation": {
+          "x": 37.500275,
+          "y": 573
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "water-water",
+      "infoType": "water",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F00_WaterBox02_D.png",
+        "amountToFreeze": 5
+      },
+      "transform": {
+        "translation": {
+          "x": -702.5,
+          "y": -90
+        },
+        "rotation": 0
+      }
+    },
+    {
+      "type": "water-water",
+      "infoType": "water",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F00_WaterBox03_D.png",
+        "amountToFreeze": 5
+      },
+      "transform": {
+        "translation": {
+          "x": -295.5,
+          "y": -447.00122
+        },
+        "rotation": 180
+      }
+    },
+    {
+      "type": "water-water",
+      "infoType": "water",
+      "normal": {
+        "image": "T_ui_Map_Cave014_F00_WaterBox04_D.png",
+        "amountToFreeze": 5
+      },
+      "transform": {
+        "translation": {
+          "x": 257.5,
+          "y": -502
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "hazardspout-fire": [
+    {
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": 603.5,
+          "y": 823
+        }
+      }
+    },
+    {
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": -1045.8148,
+          "y": 102.02989
+        }
+      }
+    },
+    {
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": -275.49988,
+          "y": 277.5153
+        }
+      }
+    },
+    {
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": -286.93683,
+          "y": -788.0005
+        }
+      }
+    },
+    {
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": 549.5,
+          "y": -0.00048828125
+        }
+      }
+    },
+    {
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
+      "transform": {
+        "translation": {
+          "x": 261.5,
+          "y": -277.0005
+        }
+      }
+    }
+  ],
+  "gate-dirt": [
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -410.47974,
+          "y": -767.5
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate-dirt",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 882.5,
+          "y": -380
+        },
+        "rotation": 180
+      }
+    }
+  ],
+  "switchable-fenceiron": [
+    {
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": -112.5,
+          "y": 275
+        },
+        "rotation": -90
+      }
+    },
+    {
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 287.5,
+          "y": 0
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
+      "switchId": "switch01",
+      "transform": {
+        "translation": {
+          "x": 506.5,
+          "y": -825
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "cave-exit": [
+    {
+      "type": "cave-exit",
+      "infoType": "cave",
       "disabledPikmin": {
         "red": true,
         "yellow": true,
@@ -32,212 +233,12 @@
       }
     }
   ],
-  "water": [
+  "pikmin-blue": [
     {
-      "type": "water",
-      "variant": "water",
-      "normal": {
-        "image": "T_ui_Map_Cave014_F00_WaterBox00_D.png",
-        "amountToFreeze": 5
-      },
-      "transform": {
-        "translation": {
-          "x": 555.5,
-          "y": 435.00015
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "water",
-      "variant": "water",
-      "normal": {
-        "image": "T_ui_Map_Cave014_F00_WaterBox01_D.png",
-        "amountToFreeze": 5
-      },
-      "transform": {
-        "translation": {
-          "x": 37.500275,
-          "y": 573
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "water",
-      "variant": "water",
-      "normal": {
-        "image": "T_ui_Map_Cave014_F00_WaterBox02_D.png",
-        "amountToFreeze": 5
-      },
-      "transform": {
-        "translation": {
-          "x": -702.5,
-          "y": -90
-        },
-        "rotation": 0
-      }
-    },
-    {
-      "type": "water",
-      "variant": "water",
-      "normal": {
-        "image": "T_ui_Map_Cave014_F00_WaterBox03_D.png",
-        "amountToFreeze": 5
-      },
-      "transform": {
-        "translation": {
-          "x": -295.5,
-          "y": -447.00122
-        },
-        "rotation": 180
-      }
-    },
-    {
-      "type": "water",
-      "variant": "water",
-      "normal": {
-        "image": "T_ui_Map_Cave014_F00_WaterBox04_D.png",
-        "amountToFreeze": 5
-      },
-      "transform": {
-        "translation": {
-          "x": 257.5,
-          "y": -502
-        },
-        "rotation": 180
-      }
-    }
-  ],
-  "spout": [
-    {
-      "type": "spout",
-      "variant": "fire",
-      "transform": {
-        "translation": {
-          "x": 603.5,
-          "y": 823
-        }
-      }
-    },
-    {
-      "type": "spout",
-      "variant": "fire",
-      "transform": {
-        "translation": {
-          "x": -1045.8148,
-          "y": 102.02989
-        }
-      }
-    },
-    {
-      "type": "spout",
-      "variant": "fire",
-      "transform": {
-        "translation": {
-          "x": -275.49988,
-          "y": 277.5153
-        }
-      }
-    },
-    {
-      "type": "spout",
-      "variant": "fire",
-      "transform": {
-        "translation": {
-          "x": -286.93683,
-          "y": -788.0005
-        }
-      }
-    },
-    {
-      "type": "spout",
-      "variant": "fire",
-      "transform": {
-        "translation": {
-          "x": 549.5,
-          "y": -0.00048828125
-        }
-      }
-    },
-    {
-      "type": "spout",
-      "variant": "fire",
-      "transform": {
-        "translation": {
-          "x": 261.5,
-          "y": -277.0005
-        }
-      }
-    }
-  ],
-  "gate": [
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": -410.47974,
-          "y": -767.5
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "dirt",
-      "transform": {
-        "translation": {
-          "x": 882.5,
-          "y": -380
-        },
-        "rotation": 180
-      }
-    }
-  ],
-  "fence": [
-    {
-      "type": "fence",
-      "variant": "iron",
-      "switchId": "switch01",
-      "transform": {
-        "translation": {
-          "x": -112.5,
-          "y": 275
-        },
-        "rotation": -90
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "iron",
-      "switchId": "switch01",
-      "transform": {
-        "translation": {
-          "x": 287.5,
-          "y": 0
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "iron",
-      "switchId": "switch01",
-      "transform": {
-        "translation": {
-          "x": 506.5,
-          "y": -825
-        },
-        "rotation": 90
-      }
-    }
-  ],
-  "pikmin": [
-    {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "GEgg_C",
@@ -249,9 +250,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -262,23 +264,23 @@
       }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -572.5,
           "y": -826
-        },
-        "rotation": 0
+        }
       }
     }
   ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPADLOCK",
       "name": "Secured Satchel",
       "weight": 7,
@@ -293,6 +295,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAFRUITSPICKBLU",
       "name": "Ice Sword",
       "weight": 1,
@@ -307,6 +310,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARASPBERRY",
       "name": "Juicy Gaggle",
       "weight": 1,
@@ -321,6 +325,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTALIGHTUPRINGRED",
       "name": "Hoop of Passion",
       "weight": 3,
@@ -334,10 +339,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -347,8 +352,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -361,6 +366,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
       "carryMax": 24,
@@ -389,6 +395,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -411,6 +418,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AMEBOZU",
       "name": "Waterwraith",
       "carryMax": 0,
@@ -425,6 +433,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -439,6 +448,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
@@ -453,6 +463,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
@@ -466,9 +477,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -498,7 +510,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -528,7 +541,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -558,7 +572,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

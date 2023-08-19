@@ -2,6 +2,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 50,
@@ -17,6 +18,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 42,
@@ -32,6 +34,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 50,
@@ -47,6 +50,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHANDBELL",
       "name": "Time Marker",
       "weight": 12,
@@ -61,6 +65,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGARAGARA",
       "name": "Shake-a-Smile",
       "weight": 12,
@@ -75,6 +80,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAOCARINABRN",
       "name": "Ambiguous Hostel",
       "weight": 10,
@@ -89,6 +95,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAWHISTLE",
       "name": "Emperor Whistle",
       "weight": 5,
@@ -103,6 +110,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHORNBELL",
       "name": "Path Creator",
       "weight": 5,
@@ -117,6 +125,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACASTANETS",
       "name": "Harmonic Synthesizer",
       "weight": 7,
@@ -131,6 +140,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAHARMONICA",
       "name": "Wind Detector",
       "weight": 7,
@@ -144,11 +154,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-rock": [
     {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -158,21 +169,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "yellow",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -652,
-          "y": 242
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-rock",
+      "infoType": "pikmin",
       "color": "rock",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -180,24 +180,12 @@
           "y": 1125
         }
       }
-    },
-    {
-      "type": "pikmin",
-      "color": "yellow",
-      "variant": "idle",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": 390,
-          "y": 260
-        }
-      }
     }
   ],
-  "tunnel": [
+  "tunnel-oatchi": [
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -207,8 +195,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -218,10 +206,38 @@
       }
     }
   ],
-  "gate": [
+  "pikmin-yellow": [
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
+      "color": "yellow",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -652,
+          "y": 242
+        }
+      }
+    },
+    {
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
+      "color": "yellow",
+      "state": "idle",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": 390,
+          "y": 260
+        }
+      }
+    }
+  ],
+  "gate-electric": [
+    {
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -1,
@@ -231,8 +247,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "electric",
+      "type": "gate-electric",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -763,
@@ -240,34 +256,12 @@
         },
         "rotation": 0
       }
-    },
-    {
-      "type": "gate",
-      "variant": "crystal",
-      "transform": {
-        "translation": {
-          "x": 567,
-          "y": -825
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "crystal",
-      "transform": {
-        "translation": {
-          "x": -273,
-          "y": 0
-        },
-        "rotation": 90
-      }
     }
   ],
-  "shortcut": [
+  "shortcut-stringup": [
     {
-      "type": "shortcut",
-      "variant": "string",
+      "type": "shortcut-stringup",
+      "infoType": "shortcut",
       "weight": 15,
       "transform": {
         "translation": {
@@ -276,21 +270,12 @@
         },
         "rotation": -90
       }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
-      "transform": {
-        "translation": {
-          "x": 280,
-          "y": 826
-        }
-      }
     }
   ],
-  "mound": [
+  "breakable-mound": [
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBomb_C",
@@ -307,7 +292,8 @@
       }
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GBomb_C",
@@ -324,7 +310,8 @@
       }
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GHotExtract_C",
@@ -341,10 +328,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -354,10 +341,34 @@
       }
     }
   ],
-  "fence": [
+  "gate-crystal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 567,
+          "y": -825
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": -273,
+          "y": 0
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "switchable-fencenormal": [
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 636,
@@ -367,9 +378,22 @@
       }
     }
   ],
+  "platform-bounceshroom": [
+    {
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
+      "transform": {
+        "translation": {
+          "x": 280,
+          "y": 826
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENTENCHAPPY",
       "name": "Orange Bulborb",
       "carryMax": 20,
@@ -384,6 +408,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -398,6 +423,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -412,6 +438,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -426,6 +453,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -440,6 +468,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
@@ -454,6 +483,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGFROG",
       "name": "Masterhop",
       "carryMax": 30,
@@ -468,6 +498,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TENTENCHAPPY",
       "name": "Orange Bulborb",
       "carryMax": 20,
@@ -482,6 +513,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -496,6 +528,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
       "carryMax": 10,
@@ -509,9 +542,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -541,7 +575,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {

@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave034_F00_WaterBox00_D.png",
         "amountToFreeze": 5
@@ -16,8 +16,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave034_F00_WaterBox01_D.png",
         "amountToFreeze": 5
@@ -31,8 +31,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave034_F00_WaterBox02_D.png",
         "amountToFreeze": 5
@@ -44,10 +44,26 @@
         },
         "rotation": 0
       }
-    },
+    }
+  ],
+  "shortcut-clipboardlow": [
     {
-      "type": "water",
-      "variant": "swamp",
+      "type": "shortcut-clipboardlow",
+      "infoType": "shortcut",
+      "weight": 20,
+      "transform": {
+        "translation": {
+          "x": -25,
+          "y": -687.5
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "water-swamp": [
+    {
+      "type": "water-swamp",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave034_F00_WaterBox03_D.png",
         "amountToFreeze": 5,
@@ -62,23 +78,10 @@
       }
     }
   ],
-  "shortcut": [
+  "candypop-ice": [
     {
-      "type": "shortcut",
-      "variant": "clipboard",
-      "weight": 20,
-      "transform": {
-        "translation": {
-          "x": -25,
-          "y": -687.5
-        },
-        "rotation": -90
-      }
-    }
-  ],
-  "candypop": [
-    {
-      "type": "candypop",
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": null,
       "transform": {
@@ -89,7 +92,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": null,
       "transform": {
@@ -100,7 +104,8 @@
       }
     },
     {
-      "type": "candypop",
+      "type": "candypop-ice",
+      "infoType": "candypop",
       "color": "ice",
       "disappearsAt": null,
       "transform": {
@@ -114,6 +119,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 30,
@@ -129,6 +135,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 40,
@@ -144,6 +151,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
       "weight": 2,
@@ -158,6 +166,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
       "weight": 2,
@@ -172,6 +181,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
       "weight": 2,
@@ -186,6 +196,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAFISHCRUET",
       "name": "Mystery Squish Fish",
       "weight": 2,
@@ -200,6 +211,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAFISHCRUET",
       "name": "Mystery Squish Fish",
       "weight": 2,
@@ -214,6 +226,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -228,6 +241,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
       "weight": 10,
@@ -242,6 +256,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABOAT",
       "name": "Unfloatable Boat",
       "weight": 12,
@@ -256,6 +271,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASPONGEC",
       "name": "Fishy Bed",
       "weight": 7,
@@ -270,6 +286,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASPONGEB",
       "name": "Birdy Bed",
       "weight": 7,
@@ -284,6 +301,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTASPONGEA",
       "name": "Doggy Bed",
       "weight": 7,
@@ -298,6 +316,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABOAT",
       "name": "Unfloatable Boat",
       "weight": 12,
@@ -312,6 +331,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
       "weight": 10,
@@ -325,11 +345,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-blue": [
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -339,9 +360,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 10,
       "transform": {
         "translation": {
@@ -351,9 +373,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 10,
       "transform": {
         "translation": {
@@ -363,9 +386,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "transform": {
         "translation": {
@@ -375,9 +399,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-blue",
+      "infoType": "pikmin",
       "color": "blue",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -385,11 +410,14 @@
           "y": 635.5
         }
       }
-    },
+    }
+  ],
+  "pikmin-ice": [
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "idle",
+      "state": "idle",
       "amount": 5,
       "transform": {
         "translation": {
@@ -399,10 +427,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -412,9 +440,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -444,7 +473,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -474,7 +504,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -504,7 +535,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -537,6 +569,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -551,6 +584,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -565,6 +599,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -579,6 +614,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
       "carryMax": 14,
@@ -593,6 +629,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
       "carryMax": 6,
@@ -607,6 +644,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",
       "carryMax": 1,

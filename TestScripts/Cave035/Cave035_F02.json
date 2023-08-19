@@ -1,8 +1,8 @@
 {
-  "water": [
+  "water-water": [
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave035_F02_WaterBox00_D.png",
         "amountToFreeze": 10
@@ -16,8 +16,8 @@
       }
     },
     {
-      "type": "water",
-      "variant": "water",
+      "type": "water-water",
+      "infoType": "water",
       "normal": {
         "image": "T_ui_Map_Cave035_F02_WaterBox01_D.png",
         "amountToFreeze": 5
@@ -31,10 +31,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -44,11 +44,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-ice": [
     {
-      "type": "pikmin",
+      "type": "pikmin-ice",
+      "infoType": "pikmin",
       "color": "ice",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -56,11 +57,14 @@
           "y": -550
         }
       }
-    },
+    }
+  ],
+  "pikmin-yellow": [
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -70,9 +74,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -82,9 +87,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 10,
       "transform": {
         "translation": {
@@ -94,9 +100,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -104,23 +111,12 @@
           "y": 970
         }
       }
-    },
-    {
-      "type": "pikmin",
-      "color": "white",
-      "variant": "sprouts",
-      "amount": 5,
-      "transform": {
-        "translation": {
-          "x": -458,
-          "y": -758
-        }
-      }
     }
   ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAMELON",
       "name": "Wayward Moon",
       "weight": 50,
@@ -135,6 +131,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARINGPOP",
       "name": "Sticky Jewel",
       "weight": 3,
@@ -149,6 +146,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
       "weight": 10,
@@ -163,6 +161,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -177,6 +176,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
       "weight": 5,
@@ -191,6 +191,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTADICE12",
       "name": "Long-Shot Totem",
       "weight": 2,
@@ -205,6 +206,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACANDYSTICK",
       "name": "Sweet Stumble-Not",
       "weight": 7,
@@ -219,6 +221,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGRAPEFRUIT",
       "name": "Astringent Clump",
       "weight": 12,
@@ -233,6 +236,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTABIWA",
       "name": "Velvety Dreamdrop",
       "weight": 5,
@@ -247,6 +251,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
       "weight": 1,
@@ -261,6 +266,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAICHIJIKU",
       "name": "Delectable Bouquet",
       "weight": 10,
@@ -274,9 +280,25 @@
       }
     }
   ],
-  "mound": [
+  "pikmin-white": [
     {
-      "type": "mound",
+      "type": "pikmin-white",
+      "infoType": "pikmin",
+      "color": "white",
+      "state": "sprouts",
+      "amount": 5,
+      "transform": {
+        "translation": {
+          "x": -458,
+          "y": -758
+        }
+      }
+    }
+  ],
+  "breakable-mound": [
+    {
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GHoney_C",
@@ -293,7 +315,8 @@
       }
     },
     {
-      "type": "mound",
+      "type": "breakable-mound",
+      "infoType": "breakable",
       "drops": [
         {
           "item": "GOtaApricot_C",
@@ -310,10 +333,10 @@
       }
     }
   ],
-  "tunnel": [
+  "tunnel-captain": [
     {
-      "type": "tunnel",
-      "variant": "captain",
+      "type": "tunnel-captain",
+      "infoType": "tunnel",
       "tunnelId": "WarpCarryID_0",
       "transform": {
         "translation": {
@@ -323,8 +346,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "captain",
+      "type": "tunnel-captain",
+      "infoType": "tunnel",
       "tunnelId": "WarpCarryID_0",
       "transform": {
         "translation": {
@@ -337,6 +360,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HANACHIRASHI",
       "name": "Withering Blowhog",
       "carryMax": 1,
@@ -351,6 +375,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HANACHIRASHI",
       "name": "Withering Blowhog",
       "carryMax": 1,
@@ -365,6 +390,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "OOKOGANE",
       "name": "Iridescent Glint Beetle",
       "carryMax": 0,
@@ -399,6 +425,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIKKURIGIKU",
       "name": "Creeping Chrysanthemum",
       "carryMax": 20,
@@ -413,6 +440,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
       "carryMax": 14,

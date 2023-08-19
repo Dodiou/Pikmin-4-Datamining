@@ -1,9 +1,8 @@
 {
-  "caveLink": [
+  "cave-entrance": [
     {
-      "type": "caveLink",
-      "variant": "cave",
-      "link": "Cave010_F01",
+      "type": "cave-entrance",
+      "infoType": "cave",
       "transform": {
         "translation": {
           "x": -545.5485,
@@ -12,10 +11,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-fire": [
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -275.84192,
@@ -24,8 +23,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -0.8497925,
@@ -34,8 +33,8 @@
       }
     },
     {
-      "type": "spout",
-      "variant": "fire",
+      "type": "hazardspout-fire",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -633.9919,
@@ -44,10 +43,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -474.89346,
@@ -57,8 +56,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": -472.60052,
@@ -68,9 +67,10 @@
       }
     }
   ],
-  "materials": [
+  "pile-materials": [
     {
-      "type": "materials",
+      "type": "pile-materials",
+      "infoType": "pile",
       "amount": 12,
       "transform": {
         "translation": {
@@ -80,10 +80,10 @@
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": -730.02716,
@@ -93,10 +93,10 @@
       }
     }
   ],
-  "floor": [
+  "hazardradial-floorfire": [
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 175,
       "transform": {
         "translation": {
@@ -106,8 +106,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 175,
       "transform": {
         "translation": {
@@ -117,8 +117,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 350,
       "transform": {
         "translation": {
@@ -128,9 +128,10 @@
       }
     }
   ],
-  "charcoal": [
+  "hazardmisc-charcoal": [
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": -825.78424,
@@ -139,7 +140,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 506.8219,
@@ -148,7 +150,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 177.46751,
@@ -157,7 +160,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 177.46751,
@@ -166,7 +170,8 @@
       }
     },
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 53.538513,
@@ -175,11 +180,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-red": [
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "fighting",
+      "state": "fighting",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -190,9 +196,10 @@
       }
     },
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "disappearsAt": 51,
       "transform": {
@@ -203,10 +210,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -219,6 +226,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTACROISSANT",
       "name": "Flaky Temptation",
       "weight": 7,
@@ -233,6 +241,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPUZZLEL",
       "name": "Memory Fragment (Bottom Right)",
       "weight": 2,
@@ -246,9 +255,10 @@
       }
     }
   ],
-  "candypop": [
+  "candypop-red": [
     {
-      "type": "candypop",
+      "type": "candypop-red",
+      "infoType": "candypop",
       "color": "red",
       "disappearsAt": 6,
       "transform": {
@@ -262,6 +272,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -284,6 +295,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,

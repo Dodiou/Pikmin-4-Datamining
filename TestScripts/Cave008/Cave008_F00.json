@@ -1,8 +1,8 @@
 {
-  "fence": [
+  "switchable-fenceiron": [
     {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -13,41 +13,8 @@
       }
     },
     {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": 798.2707,
-          "y": 70.19017
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": 797.09955,
-          "y": 229.22618
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": 797.09955,
-          "y": 388.21304
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "fence",
-      "variant": "iron",
+      "type": "switchable-fenceiron",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -56,22 +23,12 @@
         },
         "rotation": 0
       }
-    },
-    {
-      "type": "fence",
-      "variant": "normal",
-      "transform": {
-        "translation": {
-          "x": 796,
-          "y": 548
-        },
-        "rotation": -90
-      }
     }
   ],
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 25,
@@ -87,6 +44,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "KINKAISTATION",
       "name": "Gold Nugget",
       "amount": 50,
@@ -102,6 +60,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAECLAIR",
       "name": "Sweet Torrent",
       "weight": 10,
@@ -116,6 +75,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAWAFFLE",
       "name": "Cushion Cake",
       "weight": 7,
@@ -130,6 +90,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAISOBEYAKI",
       "name": "Deceptive Snack",
       "weight": 5,
@@ -144,6 +105,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTARINGPOP",
       "name": "Sticky Jewel",
       "weight": 3,
@@ -158,6 +120,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAPRETZEL",
       "name": "Puzzle Snack",
       "weight": 7,
@@ -172,6 +135,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAJAMICHIGO",
       "name": "Condensed Sunshine",
       "weight": 12,
@@ -185,11 +149,12 @@
       }
     }
   ],
-  "pikmin": [
+  "pikmin-yellow": [
     {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 10,
       "transform": {
         "translation": {
@@ -199,21 +164,10 @@
       }
     },
     {
-      "type": "pikmin",
-      "color": "red",
-      "variant": "sprouts",
-      "amount": 10,
-      "transform": {
-        "translation": {
-          "x": 1306.4185,
-          "y": 275.40952
-        }
-      }
-    },
-    {
-      "type": "pikmin",
+      "type": "pikmin-yellow",
+      "infoType": "pikmin",
       "color": "yellow",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 10,
       "transform": {
         "translation": {
@@ -223,22 +177,37 @@
       }
     }
   ],
-  "mushroom": [
+  "pikmin-red": [
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": true,
+      "type": "pikmin-red",
+      "infoType": "pikmin",
+      "color": "red",
+      "state": "sprouts",
+      "amount": 10,
+      "transform": {
+        "translation": {
+          "x": 1306.4185,
+          "y": 275.40952
+        }
+      }
+    }
+  ],
+  "breakable-kingcapnormal": [
+    {
+      "type": "breakable-kingcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -560.17145,
           "y": -813.16565
         }
       }
-    },
+    }
+  ],
+  "breakable-spotcapnormal": [
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -515.3441,
@@ -247,9 +216,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -495.06982,
@@ -258,9 +226,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -583.89514,
@@ -269,9 +236,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -605.9894,
@@ -280,9 +246,8 @@
       }
     },
     {
-      "type": "mushroom",
-      "isPoison": false,
-      "isLarge": false,
+      "type": "breakable-spotcapnormal",
+      "infoType": "breakable",
       "transform": {
         "translation": {
           "x": -512.0828,
@@ -291,10 +256,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-dirt": [
     {
-      "type": "gate",
-      "variant": "dirt",
+      "type": "gate-dirt",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 131.84131,
@@ -302,48 +267,25 @@
         },
         "rotation": -90
       }
-    },
-    {
-      "type": "gate",
-      "variant": "electric",
-      "transform": {
-        "translation": {
-          "x": 835.0142,
-          "y": -1014.14105
-        },
-        "rotation": -67
-      }
-    },
-    {
-      "type": "gate",
-      "variant": "numbered",
-      "transform": {
-        "translation": {
-          "x": 913,
-          "y": -42
-        },
-        "rotation": 0
-      }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": -175.36987,
           "y": -1377.5145
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "floor": [
+  "hazardradial-floorfire": [
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 350,
       "transform": {
         "translation": {
@@ -353,8 +295,8 @@
       }
     },
     {
-      "type": "floor",
-      "variant": "fire",
+      "type": "hazardradial-floorfire",
+      "infoType": "hazard",
       "radius": 350,
       "transform": {
         "translation": {
@@ -364,9 +306,10 @@
       }
     }
   ],
-  "charcoal": [
+  "hazardmisc-charcoal": [
     {
-      "type": "charcoal",
+      "type": "hazardmisc-charcoal",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 669.49023,
@@ -375,10 +318,23 @@
       }
     }
   ],
-  "shortcut": [
+  "gate-electric": [
     {
-      "type": "shortcut",
-      "variant": "root",
+      "type": "gate-electric",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 835.0142,
+          "y": -1014.14105
+        },
+        "rotation": -67
+      }
+    }
+  ],
+  "shortcut-root": [
+    {
+      "type": "shortcut-root",
+      "infoType": "shortcut",
       "transform": {
         "translation": {
           "x": 180.21373,
@@ -388,10 +344,69 @@
       }
     }
   ],
-  "tunnel": [
+  "switchable-fencenormal": [
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
+      "transform": {
+        "translation": {
+          "x": 798.2707,
+          "y": 70.19017
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
+      "transform": {
+        "translation": {
+          "x": 797.09955,
+          "y": 229.22618
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
+      "transform": {
+        "translation": {
+          "x": 797.09955,
+          "y": 388.21304
+        },
+        "rotation": 90
+      }
+    },
+    {
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
+      "transform": {
+        "translation": {
+          "x": 796,
+          "y": 548
+        },
+        "rotation": -90
+      }
+    }
+  ],
+  "gate-numbered": [
+    {
+      "type": "gate-numbered",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 913,
+          "y": -42
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "tunnel-oatchi": [
+    {
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -401,8 +416,8 @@
       }
     },
     {
-      "type": "tunnel",
-      "variant": "pup",
+      "type": "tunnel-oatchi",
+      "infoType": "tunnel",
       "tunnelId": "HappyDoorID_0",
       "transform": {
         "translation": {
@@ -412,10 +427,10 @@
       }
     }
   ],
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -428,6 +443,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
       "carryMax": 20,
@@ -450,6 +466,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
@@ -464,6 +481,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ELECMUSHI",
       "name": "Anode Beetle",
       "carryMax": 6,
@@ -478,6 +496,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -492,6 +511,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
       "carryMax": 10,
@@ -506,6 +526,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
       "carryMax": 6,
@@ -520,6 +541,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -534,6 +556,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -548,6 +571,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ELECMUSHI",
       "name": "Anode Beetle",
       "carryMax": 6,
@@ -562,6 +586,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "ELECMUSHI",
       "name": "Anode Beetle",
       "carryMax": 6,
@@ -576,6 +601,7 @@
     },
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
       "carryMax": 1,
@@ -589,9 +615,10 @@
       }
     }
   ],
-  "egg": [
+  "breakable-egg": [
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -621,7 +648,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -651,7 +679,8 @@
       }
     },
     {
-      "type": "egg",
+      "type": "breakable-egg",
+      "infoType": "breakable",
       "isBig": false,
       "drops": [
         {
@@ -681,9 +710,10 @@
       }
     }
   ],
-  "groupDropManager": [
+  "misc-groupdropmanager": [
     {
-      "type": "groupDropManager",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
       "radius": 60,
       "drops": [
         {

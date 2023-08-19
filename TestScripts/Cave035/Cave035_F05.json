@@ -1,8 +1,8 @@
 {
-  "base": [
+  "base-onion": [
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 0,
       "transform": {
         "translation": {
@@ -12,8 +12,8 @@
       }
     },
     {
-      "type": "base",
-      "variant": "beagle",
+      "type": "base-onion",
+      "infoType": "base",
       "baseId": 1,
       "transform": {
         "translation": {
@@ -23,10 +23,10 @@
       }
     }
   ],
-  "gate": [
+  "gate-numbered": [
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch01",
       "transform": {
         "translation": {
@@ -37,8 +37,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "transform": {
         "translation": {
           "x": 766.8694,
@@ -48,8 +48,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch05",
       "transform": {
         "translation": {
@@ -60,8 +60,8 @@
       }
     },
     {
-      "type": "gate",
-      "variant": "numbered",
+      "type": "gate-numbered",
+      "infoType": "gate",
       "switchId": "switch04",
       "transform": {
         "translation": {
@@ -70,73 +70,47 @@
         },
         "rotation": 0
       }
-    },
-    {
-      "type": "gate",
-      "variant": "crystal",
-      "transform": {
-        "translation": {
-          "x": 430,
-          "y": 825
-        },
-        "rotation": 90
-      }
     }
   ],
-  "switch": [
+  "switchable-singleswitch": [
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch01",
       "transform": {
         "translation": {
           "x": 551,
           "y": -547.2453
-        },
-        "rotation": 0
+        }
       }
     },
     {
-      "type": "switch",
-      "variant": "double",
-      "switchId": "switch03",
-      "transform": {
-        "translation": {
-          "x": -568,
-          "y": 1133.9253
-        },
-        "rotation": 0
-      }
-    },
-    {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch05",
       "transform": {
         "translation": {
           "x": -827,
           "y": 238
-        },
-        "rotation": 0
+        }
       }
     },
     {
-      "type": "switch",
-      "variant": "single",
+      "type": "switchable-singleswitch",
+      "infoType": "switchable",
       "switchId": "switch04",
       "transform": {
         "translation": {
           "x": -829,
           "y": 589
-        },
-        "rotation": 0
+        }
       }
     }
   ],
-  "fence": [
+  "switchable-fencenormal": [
     {
-      "type": "fence",
-      "variant": "normal",
+      "type": "switchable-fencenormal",
+      "infoType": "switchable",
       "transform": {
         "translation": {
           "x": 1100,
@@ -146,10 +120,10 @@
       }
     }
   ],
-  "spout": [
+  "hazardspout-ice": [
     {
-      "type": "spout",
-      "variant": "ice",
+      "type": "hazardspout-ice",
+      "infoType": "hazard",
       "transform": {
         "translation": {
           "x": 909.50024,
@@ -161,6 +135,7 @@
   "treasure": [
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGOLFBALL",
       "name": "Orbital Communication Sphere",
       "weight": 5,
@@ -175,6 +150,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGOLFBALL",
       "name": "Orbital Communication Sphere",
       "weight": 5,
@@ -189,6 +165,7 @@
     },
     {
       "type": "treasure",
+      "infoType": "treasure",
       "treasureId": "OTAGOLFBALL",
       "name": "Orbital Communication Sphere",
       "weight": 5,
@@ -202,9 +179,10 @@
       }
     }
   ],
-  "conveyor": [
+  "switchable-conveyor": [
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch03",
       "transform": {
         "translation": {
@@ -215,7 +193,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch03",
       "transform": {
         "translation": {
@@ -226,7 +205,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch03",
       "transform": {
         "translation": {
@@ -237,7 +217,8 @@
       }
     },
     {
-      "type": "conveyor",
+      "type": "switchable-conveyor",
+      "infoType": "switchable",
       "switchId": "switch03",
       "transform": {
         "translation": {
@@ -248,9 +229,10 @@
       }
     }
   ],
-  "fan": [
+  "switchable-fan": [
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch001",
       "transform": {
         "translation": {
@@ -260,7 +242,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch001",
       "transform": {
         "translation": {
@@ -270,7 +253,8 @@
       }
     },
     {
-      "type": "fan",
+      "type": "switchable-fan",
+      "infoType": "switchable",
       "switchId": "switch001",
       "transform": {
         "translation": {
@@ -280,10 +264,10 @@
       }
     }
   ],
-  "shortcut": [
+  "platform-bounceshroom": [
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -950,
@@ -292,8 +276,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -1247.5,
@@ -302,19 +286,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "zipline",
-      "transform": {
-        "translation": {
-          "x": -822.5639,
-          "y": 479.53046
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 825.5,
@@ -323,8 +296,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 825.5,
@@ -333,8 +306,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 240.5,
@@ -343,8 +316,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -784.4998,
@@ -353,8 +326,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -524.5,
@@ -363,8 +336,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 825.5,
@@ -373,8 +346,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 336.49988,
@@ -383,8 +356,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -73.50012,
@@ -393,8 +366,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 125.5,
@@ -403,20 +376,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "string",
-      "weight": 5,
-      "transform": {
-        "translation": {
-          "x": -275,
-          "y": -385
-        },
-        "rotation": 0
-      }
-    },
-    {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": 5.5,
@@ -425,8 +386,8 @@
       }
     },
     {
-      "type": "shortcut",
-      "variant": "bounceShroom",
+      "type": "platform-bounceshroom",
+      "infoType": "platform",
       "transform": {
         "translation": {
           "x": -950,
@@ -435,23 +396,79 @@
       }
     }
   ],
-  "floor": [
+  "ridable-zipline": [
     {
-      "type": "floor",
-      "variant": "movable",
+      "type": "ridable-zipline",
+      "infoType": "ridable",
+      "transform": {
+        "translation": {
+          "x": -822.5639,
+          "y": 479.53046
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "switchable-doubleswitch": [
+    {
+      "type": "switchable-doubleswitch",
+      "infoType": "switchable",
+      "switchId": "switch03",
+      "transform": {
+        "translation": {
+          "x": -568,
+          "y": 1133.9253
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut-stringup": [
+    {
+      "type": "shortcut-stringup",
+      "infoType": "shortcut",
+      "weight": 5,
+      "transform": {
+        "translation": {
+          "x": -275,
+          "y": -385
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "gate-crystal": [
+    {
+      "type": "gate-crystal",
+      "infoType": "gate",
+      "transform": {
+        "translation": {
+          "x": 430,
+          "y": 825
+        },
+        "rotation": 90
+      }
+    }
+  ],
+  "ridable-movefloor": [
+    {
+      "type": "ridable-movefloor",
+      "infoType": "ridable",
       "transform": {
         "translation": {
           "x": 545,
           "y": -828
-        }
+        },
+        "rotation": 0
       }
     }
   ],
-  "pikmin": [
+  "pikmin-red": [
     {
-      "type": "pikmin",
+      "type": "pikmin-red",
+      "infoType": "pikmin",
       "color": "red",
-      "variant": "sprouts",
+      "state": "sprouts",
       "amount": 5,
       "transform": {
         "translation": {
@@ -464,6 +481,7 @@
   "creature": [
     {
       "type": "creature",
+      "infoType": "creature",
       "creatureId": "BOMBOTAKARA",
       "name": "Bomb Dweevil",
       "carryMax": 4,
