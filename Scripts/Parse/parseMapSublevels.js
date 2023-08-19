@@ -57,7 +57,7 @@ function parseSublevelsComponents(compsList, propsFinderFunc) {
 /*
  * Note: Some props seem to have redundancy in the "ActorPlacementInfo" JSON and the
  *       "Sublevels" JSON.
- *       E.g., AI.Static[0] = NoraSpawnerAI.NoraSpawnerAIParam.NumSpawn
+ *       E.g., AI.Static[0] = NoraSpawnerAI.NoraSpawnerAIParam.SpawnNum
  *             AI.Static[12] = NoraSpawnerAI.NoraSpawnerAIParam.PikminColor (converted from enum to int)
  *             AI.Dynamic[36] = PieceStationAI.Properties.PieceNum
  *       These "AI" props are hard to figure out meaning though. It's easier to read

@@ -20,7 +20,7 @@ The `NeedColumnNum` property is the amount of rows the wall has. `PiecePutNum` i
 See `Area001_Objects.json` for the water wall in Sun-Speckled Terrace.
 
 ## From ActorPlacementInfo File
-Amount is in AI.Dynamic[36]
+Piece pile Amount is in AI.Dynamic[36]
 
 # Misc. Notes
 
