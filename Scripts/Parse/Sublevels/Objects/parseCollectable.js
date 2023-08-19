@@ -1,4 +1,4 @@
-import { ObjectTypes, PikminColor } from "../../types.js";
+import { InfoType, MarkerType, PikminColor } from "../../types.js";
 import { getInternalId, removeLocalizationMetadata } from "../../util.js";
 import { default as TreasureData } from "../../../../Treasure Data/BaseData.json" assert { type: "json" };
 import { default as TreasureNames } from "../../../../Localization/OtakaraName/en-US/OtakaraName.json" assert { type: "json" };
@@ -31,10 +31,12 @@ function parseOnionComp(comp) {
   if (!color) {
     throw new Error('Unknown onion color!');
   }
+  const type = `${InfoType.Onion}-${color}`
   const weight = OnionWeightMap[color];
 
   return {
-    type: ObjectTypes.Onion,
+    type,
+    infoType: InfoType.Onion,
     color,
     weight
   };
@@ -58,7 +60,8 @@ function parseTreasureComp(comp) {
   }
 
   return {
-    type: ObjectTypes.Treasure,
+    type: MarkerType.Treasure,
+    infoType: InfoType.Treasure,
     treasureId: treasureId,
     name: getTreasureName(treasureId),
     weight: treasure.CarryWeightMin,
@@ -78,8 +81,10 @@ function parseCastaway(comp) {
   const isKoppaite = comp.Type.startsWith('GSurvivorKoppai');
 
   return {
-    type: ObjectTypes.Castaway,
+    type: isLeafling ? MarkerType.CastawayLeafling : MarkerType.CastawayNormal,
+    infoType: InfoType.Castaway,
     isLeafling,
+    isKoppaite,
     weight: 3,
     carryMax: 6
   }

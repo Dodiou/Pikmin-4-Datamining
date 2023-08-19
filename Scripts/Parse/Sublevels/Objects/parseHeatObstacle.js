@@ -1,4 +1,4 @@
-import { HeatObstacleVariants, ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 import { parseObjectDropList } from "../parseDrops.js";
 
@@ -17,8 +17,8 @@ export function parseHeatObstacleComp(comp, compsList) {
     // No idea what ColdBoxEventRadius does
     const BurningAI = getObjectFromPath(comp.Properties.BurningAI, compsList);
     return removeUndefineds({
-      type: ObjectTypes.HeatObstacle,
-      variant: HeatObstacleVariants.Straw,
+      type: MarkerType.BreakableStraw,
+      infoType: InfoType.Breakable,
       drops: parseObjectDropList(BurningAI)
     });
   }
@@ -30,15 +30,16 @@ export function parseHeatObstacleComp(comp, compsList) {
       !TanebiStationAI.Properties?.TanebiStationAIParameter?.bInitOff;
 
     return {
-      type: ObjectTypes.FirePit,
+      type: isLit ? MarkerType.FirepitLit : MarkerType.FirepitUnlit,
+      infoType: InfoType.Firepit,
       isLit
     };
   }
   else if (comp.Properties.ColdBoxAI) {
     const ColdBox = getObjectFromPath(comp.Properties.ColdBoxAI, compsList);
     return removeUndefineds({
-      type: ObjectTypes.HeatObstacle,
-      variant: HeatObstacleVariants.IceBox,
+      type: MarkerType.BreakableIcebox,
+      infoType: InfoType.Breakable,
       drops: parseObjectDropList(ColdBox)
     });
   }

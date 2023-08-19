@@ -1,8 +1,8 @@
-import { ItemVariants, ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 
 const ItemMap = {
-  'GIceBomb_C': ItemVariants.IceBomb,
-  'GBomb_C': ItemVariants.Bomb,
+  'GIceBomb_C': MarkerType.MiscIcebomb,
+  'GBomb_C': MarkerType.MiscBomb,
 };
 
 export function isGroundItemComp(comp) {
@@ -10,13 +10,13 @@ export function isGroundItemComp(comp) {
 }
 
 export function parseGroundItemComp(comp) {
-  const variant = ItemMap[comp.Type];
-  if (!variant) {
+  const type = ItemMap[comp.Type];
+  if (!type) {
     throw new Error("Unknown item type!");
   }
 
   return {
-    type: ObjectTypes.Item,
-    variant
+    type,
+    infoType: InfoType.Misc
   };
 }

@@ -1,4 +1,4 @@
-import { ObjectTypes, TunnelVariants } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath } from "../../util.js";
 
 export function isTunnelComp(comp) {
@@ -21,8 +21,8 @@ export function parseTunnelComp(comp, compsList) {
     const tunnelId = AIComponent.Properties?.WarpCarryAIParameter?.WarpCarryID || defaultTunnelId;
 
     return {
-      type: ObjectTypes.Tunnel,
-      variant: isCaptainOnly ? TunnelVariants.Captain : TunnelVariants.Normal,
+      type: isCaptainOnly ? MarkerType.TunnelCaptain : MarkerType.TunnelAny,
+      infoType: InfoType.Tunnel,
       tunnelId
     };
   }
@@ -31,8 +31,8 @@ export function parseTunnelComp(comp, compsList) {
     const tunnelId = AIComponent.Properties?.HappyDoorAIParameter?.HappyDoorID || DefaultPupTunnelId;
 
     return {
-      type: ObjectTypes.Tunnel,
-      variant: TunnelVariants.Oatchi,
+      type: MarkerType.TunnelOatchi,
+      infoType: InfoType.Tunnel,
       tunnelId
     }
   }

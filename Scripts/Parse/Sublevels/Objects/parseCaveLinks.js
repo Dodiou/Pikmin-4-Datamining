@@ -1,4 +1,4 @@
-import { CaveLinkVariants, ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 
 // Madori = cave
@@ -22,16 +22,18 @@ import { getObjectFromPath, removeUndefineds } from "../../util.js";
 // Naming conventions:
 // GMadori
 //   Ruins = cave
+//   MadoriRuinsForExit = cave 2nd exit
 //   Poko = challenge
 //   Arena = battle
 // GDownPortal = next subfloor
 // GDungeonExit = exit cave
-const VariantMap = {
-  'GMadoriRuins_C': CaveLinkVariants.Cave,
-  'GMadoriPoko_C': CaveLinkVariants.Challenge,
-  'GMadoriArena_C': CaveLinkVariants.Battle,
-  'GDungeonExit_C': CaveLinkVariants.Exit,
-  'GDownPortal_C': CaveLinkVariants.Cave,
+const MarkerTypeMap = {
+  'GMadoriRuins_C': MarkerType.CaveEntrance,
+  'GMadoriRuinsForExit_C': MarkerType.CaveEntrance,
+  'GMadoriPoko_C': MarkerType.CaveChallenge,
+  'GMadoriArena_C': MarkerType.CaveBattle,
+  'GDungeonExit_C': MarkerType.CaveExit,
+  'GDownPortal_C': MarkerType.CaveEntrance,
 }
 
 // See GMadoriRuins3, GMadoriRuins9, GMadoriPoko3
@@ -67,15 +69,15 @@ export function parseCaveLinkComp(comp, compsList) {
     }
   });
 
-  const variant = VariantMap[comp.Type];
+  const type = MarkerTypeMap[comp.Type];
   // Battles and Challenges are unlocked in order, and not at specific caves. Set those links to undefined.
-  const link = variant === CaveLinkVariants.Cave || CaveLinkVariants.Exit
+  const link = type === MarkerTypeMap.CaveEntrance || MarkerTypeMap.CaveExit
     ? PortalTrigger.Properties?.ToLevelName
     : undefined;
 
   return removeUndefineds({
-    type: ObjectTypes.CaveLink,
-    variant,
+    type,
+    infoType: InfoType.Cave,
     link,
     disabledPikmin,
   });

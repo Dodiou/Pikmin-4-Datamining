@@ -21,6 +21,7 @@ import { isMiscComp, parseMiscComp } from './Sublevels/Objects/parseMisc.js';
 import { isPlatformComp, parsePlatformComp } from './Sublevels/Objects/parsePlatforms.js';
 import { isCreatureComp, parseCreatureComp } from './Sublevels/parseCreature.js';
 import { isActorSpawnerComp, parseActorSpawnerComp } from './Sublevels/Creatures/parseActorSpawner.js';
+import { assertDynamicallyBuiltMarkerType } from './util.js';
 
 /**
  * Finds root object components by DebugUniqueId
@@ -41,9 +42,12 @@ function parseSublevelsComponents(compsList, propsFinderFunc) {
       continue;
     }
 
-    if (componentProps.type === undefined) {
-      throw new Error('Programmer error in parsing code. Sorry!');
+    // some assertions to make sure I didn't mess up parsing types
+    if (componentProps.type === undefined || componentProps.infoType === undefined) {
+      throw new Error(`Programmer error in parsing code. type: ${componentProps.type}, infoType: ${componentProps.infoType}`);
     }
+    assertDynamicallyBuiltMarkerType(componentProps.type);
+
     componentPropsDict[comp.Properties.GenerateInfo.DebugUniqueId] = componentProps;
   }
 

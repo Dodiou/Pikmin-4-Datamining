@@ -1,4 +1,4 @@
-import { PikminColorEnumMap } from "./types.js";
+import { MarkerType, PikminColorEnumMap } from "./types.js";
 
 // assumes object is in the same file (haven't encountered otherwise yet)
 export function getObjectFromPath(component, allObjects) {
@@ -90,4 +90,11 @@ export function getPikminColor(enumStr) {
     throw new Error(`Unknown pikmin color ${enumStr}`);
   }
   return color;
+}
+
+
+export function assertDynamicallyBuiltMarkerType(type) {
+  if (!Object.values(MarkerType).includes(type)) {
+    throw new Error(`Dynamically built marker type is not an actual type: ${type}`);
+  }
 }

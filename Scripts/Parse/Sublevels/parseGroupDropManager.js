@@ -1,4 +1,4 @@
-import { ObjectTypes } from "../types.js";
+import { InfoType, MarkerType } from "../types.js";
 import { getObjectFromPath, removeUndefineds } from "../util.js";
 import { parseDropList } from "./parseDrops.js";
 
@@ -24,7 +24,8 @@ export function parseGroupDropManagerComp(comp, compsList) {
   }
 
   return removeUndefineds({
-    type: ObjectTypes.GroupDropManager,
+    type: MarkerType.MiscGroupdropmanager,
+    infoType: InfoType.Misc,
     ignoreIds,
     radius,
     drops

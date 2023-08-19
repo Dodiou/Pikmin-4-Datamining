@@ -1,147 +1,8 @@
-export const ObjectTypes = {
-  Base: 'base',
-  Berry: 'berry',
-  Candypop: 'candypop',
-  Castaway: 'castaway',
-  CaveLink: 'caveLink',
-  Charcoal: 'charcoal',
-  Conveyor: 'conveyor',
-  Creature: 'creature',
-  Crystal: 'crystal',
-  Drain: 'drain',
-  Egg: 'egg',
-  Fan: 'fan',
-  Fence: 'fence',
-  FirePit: 'firePit',
-  FloorObstacle: 'floor',
-  Gate: 'gate',
-  GlowPellets: 'glowPellets',
-  GroupDropManager: 'groupDropManager',
-  HeatObstacle: 'heatObstacle',
-  Honey: 'honey',
-  HydroJelly: 'hydroJelly',
-  Icicle: 'icicle',
-  Item: 'item',
-  Materials: 'materials',
-  Mound: 'mound',
-  Mushroom: 'mushroom',
-  Onion: 'onion',
-  Pellet: 'pellet',
-  Pikmin: 'pikmin',
-  Pot: 'pot',
-  RopeFishing: 'ropeFishing',
-  Shortcut: 'shortcut',
-  Spout: 'spout',
-  Sprinkler: 'sprinkler',
-  Straw: 'straw',
-  Structure: 'structure',
-  Switch: 'switch',
-  Treasure: 'treasure',
-  Tunnel: 'tunnel',
-  Water: 'water',
-  Unknown: '__unknown'
-}
-
 export const RebirthTypes = {
   NoRebirth: 'ERebirthType::NoRebirth',
   AlwaysRebirth: 'ERebirthType::AlwaysRebirth',
   RebirthFullExplore: 'ERebirthType::RebirthFullExplore', // rebirth until cave is fully explored
   RebirthLater: 'ERebirthType::RebirthLater',
-}
-
-export const BaseVariants = {
-  Onion: 'onion',
-  Beagle: 'beagle'
-}
-
-export const ItemVariants = {
-  Bomb: 'bomb',
-  IceBomb: 'iceBomb'
-  // Don't think any other items appear anywhere
-}
-
-export const HeatObstacleVariants = {
-  IceBox: 'iceBox',
-  Straw: 'straw'
-}
-
-export const FloorObstacleVariants = {
-  Mushroom: 'mushroom',
-  Fire: 'fire',
-  Movable: 'movable'
-}
-
-export const GateVariants = {
-  Bomb: 'bomb',
-  Crystal: 'crystal',
-  Dirt: 'dirt',
-  Electric: 'electric',
-  Ice: 'ice',
-  Numbered: 'numbered',
-}
-
-export const PikminVariants = {
-  Fighting: 'fighting',
-  Idle: 'idle',
-  Sprouts: 'sprouts'
-}
-
-export const StructureVariants = {
-  Bridge: 'bridge',
-  Slope: 'slope',
-  Valve: 'valve',
-  Wall: 'wall',
-}
-
-export const WaterVariants = {
-  Water: 'water',
-  Swamp: 'swamp',
-}
-
-export const ShortcutVariants = {
-  BounceShroom: 'bounceShroom',
-  ClipboardAny: 'clipboard',
-  ClipboardYellow: 'clipboardYellow',
-  ChargeShroom: 'chargeShroom',
-  Geyser: 'geyser',
-  PushBag: 'pushbag',
-  Root: 'root',
-  SquashBag: 'squashbag',
-  Stick: 'stick',
-  String: 'string',
-  Zipline: 'zipline'
-}
-
-export const SpoutVariants = {
-  Bubble: 'bubble',
-  Electric: 'electric',
-  Fire: 'fire',
-  Ice: 'ice',
-  Poison: 'poison',
-  Water: 'water'
-}
-
-export const SwitchVariants = {
-  DoubleSwitch: 'double',
-  SingleSwitch: 'single',
-}
-
-export const TunnelVariants = {
-  Captain: 'captain',
-  Normal: 'normal',
-  Oatchi: 'pup'
-}
-
-export const FenceVariant = {
-  Iron: 'iron',
-  Normal: 'normal'
-}
-
-export const CaveLinkVariants = {
-  Battle: 'battle',
-  Cave: 'cave',
-  Challenge: 'challenge',
-  Exit: 'exit'
 }
 
 export const PikminColor = {
@@ -154,6 +15,12 @@ export const PikminColor = {
   Wing: 'wing',
   Ice: 'ice',
   Glow: 'glow',
+}
+
+export const PikminSpawnState = {
+  Sprouts: 'sprouts',
+  Fighting: 'fighting',
+  Idle: 'idle',
 }
 
 export const PikminColorEnumMap = {
@@ -169,7 +36,6 @@ export const PikminColorEnumMap = {
   "EPikminColor::Undef": PikminColor.Red,
   "EPikminColor::None": PikminColor.Red,
 }
-
 
 export const MarkerType = {
   // collectibles
@@ -213,16 +79,19 @@ export const MarkerType = {
   // breakables
   BreakableHydrojelly: 'breakable-hydrojelly',
   BreakablePot: 'breakable-pot',
-  MushroomLarge: 'mushroom-large',
-  MushroomSmall: 'mushroom-small',
+  BreakableKingcapnormal: 'breakable-kingcapnormal',
+  BreakableSpotcapnormal: 'breakable-spotcapnormal',
+  BreakableKingcappoison: 'breakable-kingcappoison',
+  BreakableSpotcappoison: 'breakable-spotcappoison',
+  MiscGroupdropmanager: 'misc-groupdropmanager',
   BreakableStraw: 'breakable-straw',
   BreakableIcebox: 'breakable-icebox',
   FirepitLit: 'firepit-lit',
   FirepitUnlit: 'firepit-unlit',
   BreakableCrystal: 'breakable-crystal',
   // items
-  WorkableMound: 'breakable-mound',
-  MiscEgg: 'misc-egg',
+  BreakableMound: 'breakable-mound',
+  BreakableEgg: 'breakable-egg',
   MiscBomb: 'miscitem-bomb',
   MiscIcebomb: 'miscitem-icebomb',
   MiscSpicy: 'miscitem-spicy', // not an actual map marker, but is a drop marker
@@ -242,7 +111,8 @@ export const MarkerType = {
   ShortcutClipboardlow: 'shortcut-clipboardlow',
   ShortcutPushbag: 'shortcut-pushbag',
   ShortcutRoot: 'shortcut-root',
-  ShortcutString: 'shortcut-string',
+  ShortcutStringup: 'shortcut-stringup',
+  ShortcutStringdown: 'shortcut-stringdown',
   RidableGeyser: 'ridable-geyser',
   RidableZipline: 'ridable-zipline',
   TunnelAny: 'tunnel-any',
@@ -258,12 +128,12 @@ export const MarkerType = {
   GateElectric: 'gate-electric',
   GateIce: 'gate-ice',
   GateNumbered: 'gate-numbered',
-  GateSquashbag: 'gate-squashbag',
+  ShortcutSquashbag: 'shortcut-squashbag',
   // switchables
   SwitchConveyor: 'switchable-conveyor',
   SwitchFan: 'switchable-fan',
-  SwitchFenceIron: 'switchable-fenceiron',
-  SwitchFenceNormal: 'switchable-fencenormal',
+  SwitchFenceiron: 'switchable-fenceiron',
+  SwitchFencenormal: 'switchable-fencenormal',
   SwitchSingle: 'switchable-singleswitch',
   SwitchDouble: 'switchable-doubleswitch',
   // locations
@@ -286,19 +156,19 @@ export const MarkerType = {
   // night
   NightLumiknoll: 'night-lumiknoll',
   NightTricknoll: 'night-tricknoll',
-  NightGlowpellets: 'pile-glowpellets',
+  PileGlowpellets: 'pile-glowpellets',
 }
 
 export const InfoType = {
   Treasure: 'treasure',
   Castaway: 'castaway',
+  Creature: 'creature',
   Onion: 'onion',
   Pikmin: 'pikmin',
   Candypop: 'candypop',
   Structure: 'structure',
   Pile: 'pile',
   Breakable: 'breakable',
-  Mushroom: 'mushroom',
   Firepit: 'firepit',
   Hazard: 'hazard',
   Shortcut: 'shortcut',

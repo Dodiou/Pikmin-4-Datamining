@@ -1,4 +1,4 @@
-import { BaseVariants, ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath } from "../../util.js";
 
 
@@ -16,8 +16,8 @@ export function parseBaseComp(comp, compsList) {
   const baseId = AreaBaseCamp.Properties?.BaseCampId || 0;
 
   return {
-    type: ObjectTypes.Base,
-    variant: isBeagle ? BaseVariants.Beagle : BaseVariants.Onion,
+    type: isBeagle ? MarkerType.BaseBeagle : MarkerType.BaseOnion,
+    infoType: InfoType.Base,
     baseId,
     guardedBy,
   }

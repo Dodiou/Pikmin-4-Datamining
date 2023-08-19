@@ -1,6 +1,6 @@
 import { Euler, Quaternion } from 'three';
 
-import { ObjectTypes, ShortcutVariants, StructureVariants } from "./types.js";
+import { MarkerType } from "./types.js";
 import { removeUndefineds } from './util.js';
 
 function parseGenerateNum(actor) {
@@ -9,7 +9,7 @@ function parseGenerateNum(actor) {
 }
 
 // NOTE: some Material piles are set to 'RebirthLater', but never actually respawn
-const IgnoreRebirthInfo = [ObjectTypes.Materials];
+const IgnoreRebirthInfo = [MarkerType.PileMaterials];
 
 // Rebirth info:
 // ERebirthInterval::NoRebirth            Never respawns
@@ -29,28 +29,42 @@ function parseObjectRebirthInfo(actor, actorType) {
 }
 
 const ImportantRotations = [
-  ObjectTypes.Conveyor,
-  ObjectTypes.Fence,
-  ObjectTypes.Gate,
-  ObjectTypes.RopeFishing,
-  ObjectTypes.Shortcut,
-  ObjectTypes.Structure,
-  ObjectTypes.Switch,
-  ObjectTypes.Water
-];
-const RotationVariantExceptions = [
-  StructureVariants.Valve,
-  ShortcutVariants.Geyser,
-  ShortcutVariants.BounceShroom,
-  ShortcutVariants.ChargeShroom
+  // no rotation adjustment:
+  MarkerType.SwitchConveyor,
+  MarkerType.ShortcutPushbag,
+  MarkerType.SwitchDouble,
+  MarkerType.WaterWater,
+  MarkerType.WaterSwamp,
+  // 90 deg. rotation adjustment
+  MarkerType.SwitchFenceiron,
+  MarkerType.SwitchFencenormal,
+  MarkerType.GateBomb,
+  MarkerType.GateCrystal,
+  MarkerType.GateDirt,
+  MarkerType.GateElectric,
+  MarkerType.GateIce,
+  MarkerType.GateNumbered,
+  MarkerType.ShortcutSquashbag,
+  MarkerType.ShortcutClipboardhigh,
+  MarkerType.ShortcutClipboardlow,
+  MarkerType.ShortcutRoot,
+  MarkerType.ShortcutStringup,
+  MarkerType.ShortcutStringdown,
+  MarkerType.RidableZipline,
+  MarkerType.MiscPullrope,
+  MarkerType.RidableMovefloor, // maybe?
+  // 180 deg. rotation adjustment
+  MarkerType.StructureBridge,
+  // -90 deg. rotation
+  MarkerType.StructureWall,
+  MarkerType.StructureSlope
 ];
 
 const ImportantScales = [];
-const ScaleVariantExceptions = [];
 
 function parseTransformation(actor, parsedObject) {
-  const needsRotation = ImportantRotations.includes(parsedObject.type) && !RotationVariantExceptions.includes(parsedObject.variant);
-  const needsScale = ImportantScales.includes(parsedObject.type) && !ScaleVariantExceptions.includes(parsedObject.variant);
+  const needsRotation = ImportantRotations.includes(parsedObject.type);
+  const needsScale = ImportantScales.includes(parsedObject.type);
 
   const transform = {
     translation: { 

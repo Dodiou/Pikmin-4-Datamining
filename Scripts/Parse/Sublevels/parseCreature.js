@@ -1,6 +1,6 @@
 import { default as EnemyData } from '../../../Enemy Data/BaseData.json' assert { type: 'json' };
 import { default as EnemyNames } from '../../../Localization/GenseiName/en-US/GenseiName.json' assert { type: 'json' };
-import { ObjectTypes } from '../types.js';
+import { InfoType, MarkerType } from '../types.js';
 import { getInternalId, getObjectFromPath, removeLocalizationMetadata, removeUndefineds } from "../util.js";
 import { parseCreatureDropList, parseFlintBeetleDropList } from './parseDrops.js';
 
@@ -35,7 +35,8 @@ export function getCreatureFromType(type) {
   const creatureName = removeLocalizationMetadata(CreatureNamesMap[creatureId]);
 
   return {
-    type: ObjectTypes.Creature,
+    type: MarkerType.Creature,
+    infoType: InfoType.Castaway,
     creatureId,
     name: creatureName,
     weight: creature.CarryWeighMin,

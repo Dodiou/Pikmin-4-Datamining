@@ -1,4 +1,4 @@
-import { ObjectTypes, WaterVariants } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 
 
@@ -6,8 +6,8 @@ function parseWaterTriggersComp(WaterCarrotTrigger, texture) {
   const isSwamp = WaterCarrotTrigger.Type.includes('Swamp');
 
   const waterProps = {
-    type: ObjectTypes.Water,
-    variant: isSwamp ? WaterVariants.Swamp : WaterVariants.Water,
+    type: isSwamp ? MarkerType.WaterSwamp : MarkerType.WaterWater,
+    infoType: InfoType.Water,
     // separate water into two parts: normal and dynamic (e.g. for Serene Shores)
     normal: removeUndefineds({
       image: texture,

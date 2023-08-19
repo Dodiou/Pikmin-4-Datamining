@@ -1,4 +1,4 @@
-import { ObjectTypes, ShortcutVariants } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 
 export function isPlatformComp(comp) {
   return !!(
@@ -10,14 +10,14 @@ export function isPlatformComp(comp) {
 export function parsePlatformComp(comp) {
   if (comp.Properties.TrampolineAI) {
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.BounceShroom
+      type: MarkerType.PlatformBounce,
+      infoType: InfoType.Platform
     };
   }
   else if (comp.Properties.OoAshibaKinokoAI) {
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.ChargeShroom
+      type: MarkerType.PlatformCharge,
+      infoType: InfoType.Platform
     };
   }
 

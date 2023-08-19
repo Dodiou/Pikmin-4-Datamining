@@ -36,6 +36,17 @@ const AllDropValues = [
   'GHikariStation_C'
 ];
 
+// All non-creature, non-pikmin, non-treasure drops
+const ItemDrops = [
+  'GHoney_C',
+  'GPiecePick_C',
+  'GHotExtract_C',
+  'GIceBomb_C',
+  'GBomb_C',
+  'GPellet1_C',
+  'GPellet5_C'
+];
+
 // This drop appears in non-night areas. might just be a copy/paste thing from night enemies.
 const DropsToExclude = ['GHikariStation_C'];
 
@@ -198,4 +209,17 @@ export function parseDropList(DropParameter, defaultDrop = undefined, dropAmount
 
   // filter out the undefineds and DropsToExclude
   return dropsWithUndefineds.filter(dropItem => dropItem && !DropsToExclude.includes(dropItem.item));
+}
+
+
+export const parseDropInternalName = (internalName) => {
+  if (internalName.startsWith('GOta') || internalName === 'GKinkaiPick_C') {
+    // treasure
+  }
+
+  if (internalName.startsWith('GPikmin')) {
+    // pikmin
+  }
+
+
 }

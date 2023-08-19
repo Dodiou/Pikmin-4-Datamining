@@ -1,4 +1,4 @@
-import { GateVariants, ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 import { parseObjectDropList } from "../parseDrops.js";
 import { DefaultSwitchID } from "./parseSwitchables.js";
@@ -15,30 +15,31 @@ function parseNumberedGate(comp, compsList) {
     : triggerComp.Properties?.TriggerDoorAIParameter?.SwitchID || DefaultSwitchID
 
   return removeUndefineds({
-    type: ObjectTypes.Gate,
-    variant: GateVariants.Numbered,
+    type: MarkerType.GateNumbered,
+    // TODO: might need a different info type
+    infoType: InfoType.Gate,
     switchId
   });
 }
 
-const VariantMap = {
-  'Denki': GateVariants.Electric,
-  'Soft': GateVariants.Dirt,
-  'Ice': GateVariants.Ice,
-  'Rock': GateVariants.Crystal,
-  'Bomb': GateVariants.Bomb,
-  'Trigger': GateVariants.Numbered,
+const MarkerTypeMap = {
+  'Denki': MarkerType.GateElectric,
+  'Soft': MarkerType.GateDirt,
+  'Ice': MarkerType.GateIce,
+  'Rock': MarkerType.GateCrystal,
+  'Bomb': MarkerType.GateBomb,
+  'Trigger': MarkerType.GateNumbered,
 }
-const VariantMatchRegex = '(' + Object.keys(VariantMap).join('|') + ')';
+const MarkerMatchRegex = '(' + Object.keys(MarkerTypeMap).join('|') + ')';
 function parseNonNumberedGate(comp, compsList) {
-  const variantMatch = comp.Type.match(VariantMatchRegex)[1];
-  const variant = VariantMap[variantMatch];
+  const markerMatch = comp.Type.match(MarkerMatchRegex)[1];
+  const type = MarkerTypeMap[markerMatch];
 
   const VarGateAI = getObjectFromPath(comp.Properties.VarGateAI, compsList);
 
   return removeUndefineds({
-    type: ObjectTypes.Gate,
-    variant,
+    type,
+    infoType: InfoType.Gate,
     drops: parseObjectDropList(VarGateAI)
   });
 }

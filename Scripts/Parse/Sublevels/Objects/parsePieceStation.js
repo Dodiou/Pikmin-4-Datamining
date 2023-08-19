@@ -1,4 +1,4 @@
-import { ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath } from "../../util.js";
 
 // "PieceStations" are piles that pikmin will run back and forth to. Includes Materials, Gold Nuggets, and "Star Bits"/glow pellets
@@ -7,7 +7,8 @@ function parsePieceStationAIComp(stationType, PieceStationAI) {
   const amount = PieceStationAI.Properties.PieceNum;
   if (isGoldNugget) {
     return {
-      type: ObjectTypes.Treasure,
+      type: MarkerType.Treasure,
+      infoType: InfoType.Treasure,
       treasureId: 'KINKAISTATION',
       name: 'Gold Nugget',
       amount,
@@ -26,8 +27,9 @@ function parsePieceStationAIComp(stationType, PieceStationAI) {
 
   return {
     type: isMaterials
-      ? ObjectTypes.Materials
-      : ObjectTypes.GlowPellets,
+      ? MarkerType.PileMaterials
+      : MarkerType.PileGlowpellets,
+    infoType: InfoType.Pile,
     amount
   };
 }

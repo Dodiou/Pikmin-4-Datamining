@@ -1,10 +1,10 @@
-import { ObjectTypes, StructureVariants } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath } from "../../util.js";
 
 function parseStructureProps(structureParams) {
   return {
-    type: ObjectTypes.Structure,
-    variant: structureParams._variant,
+    type: structureParams._type,
+    infoType: InfoType.Structure,
     materialsNeeded:
       (structureParams.NeedColumnNum * structureParams._panelsPerRow * structureParams.PiecePerPanel) - structureParams.PiecePutNum
   }
@@ -12,7 +12,7 @@ function parseStructureProps(structureParams) {
 
 const BridgeParamDefaults = {
   _panelsPerRow: 6, // custom prop by me
-  _variant: StructureVariants.Bridge,
+  _type: MarkerType.StructureBridge,
   // number of pieces per panel.
   PiecePerPanel: 1,
   // number of pieces already placed (not panels)
@@ -27,7 +27,7 @@ function parseStructureBridgeComp(BridgeFlexibleAI) {
 
 const ClimbingWallDefaults = {
   _panelsPerRow: 4,
-  _variant: StructureVariants.Wall,
+  _type: MarkerType.StructureWall,
   PiecePerPanel: 2, // See all, except Area002_Hero_Objects
   PiecePutNum: 0, // TODO: unknown, no files are missing this prop
   NeedColumnNum: 2, // TODO: unknown, no files are missing this prop
@@ -42,7 +42,7 @@ export const DefaultValveId = 'valve1';
 // All Defaults = 16 (All other valves)
 const ValveParamDefaults = {
   _panelsPerRow: 1, // not really rows on this thing
-  _variant: StructureVariants.Valve,
+  _type: MarkerType.StructureValve,
   PiecePerPanel: 2, // kinda guessing here. Structure is 1 piece, then 4 panels, then 1 piece, then 4 panels, then 1 panel (total 10 full panels)
   PiecePutNum: 4, // (first placed piece is underneath all others, flat and in the center. next 4 are first layer)
   NeedColumnNum: 10, 
@@ -69,7 +69,7 @@ function parseStructureValveComp(ValveAI) {
 // PiecePutNum(8)  = 38 (GH)         = 46 pieces = SideCut80uu
 const SlopeParamDefaults = {
   _panelsPerRow: 1, // not really rows on this thing
-  _variant: StructureVariants.Slope,
+  _type: MarkerType.StructureSlope,
   PiecePerPanel: 1,
   PiecePutNum: 4, // See Engulfed Castle floor 4, Hero's Hideaway
   NeedColumnNum: 25, 

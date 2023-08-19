@@ -1,9 +1,10 @@
-import { ObjectTypes } from "../types.js";
+import { InfoType, MarkerType } from "../types.js";
 import { getObjectFromPath, removeUndefineds } from "../util.js";
 import { parseCreatureDropList } from "./parseDrops.js";
 
 export const DefaultEggObject = {
-  type: ObjectTypes.Egg,
+  type: MarkerType.BreakableEgg,
+  infoType: InfoType.Breakable,
   isBig: false,
   // TODO: unknown if these are the true default drops.
   drops: [
@@ -38,7 +39,8 @@ export function parseEggComp(comp, compsList) {
   const drops = parseCreatureDropList(EggAI);
 
   return removeUndefineds({
-    type: ObjectTypes.Egg,
+    type: MarkerType.BreakableEgg,
+    infoType: InfoType.Breakable,
     isBig: comp.Type === 'GBigEgg_C',
     drops
   });

@@ -1,4 +1,4 @@
-import { ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 import { parseCreatureDropList, parseObjectDropList } from "../parseDrops.js";
 
@@ -6,15 +6,18 @@ function parseMushroomComp(comp, compsList) {
   const AIComponent = getObjectFromPath(comp.Properties.KomushAI || comp.Properties.PoisonMushAI, compsList);
   const isPoison = comp.Type.includes('Poison');
   // So many combinations: Full type regex below (I think)
-  //   G(Sticky|Poison)?(Kom|M)ush(L|S)?_C
+  //   G(Sticky|Poison)?(Kom|M)ush(Poison)?(L|S)?_C
   // "Ko" means child/small. Hopefully no Kingcaps use 'Komush'.
   // "Sticky" mushrooms appear on StickyFloor's. These are never large
   const isLarge = !comp.Type.includes('Komush') && !comp.Type.includes('Sticky');
 
+  const type =
+    `${InfoType.Breakable}-${isLarge ? 'kingcap' : 'spotcap'}${isPoison ? 'poison' : 'normal'}`;
+
+
   return removeUndefineds({
-    type: ObjectTypes.Mushroom,
-    isPoison,
-    isLarge,
+    type,
+    infoType: InfoType.Breakable,
     // NOTE: even though these only appear in Objects files, they use Teki/Creature AI params
     drops: parseCreatureDropList(AIComponent)
   });
@@ -38,7 +41,8 @@ export function parseBreakObstacleComp(comp, compsList) {
   else if (comp.Properties.CrackPotAI) {
     const crackPotComp = getObjectFromPath(comp.Properties.CrackPotAI, compsList);
     return removeUndefineds({
-      type: ObjectTypes.Pot,
+      type: MarkerType.BreakablePot,
+      infoType: InfoType.Breakable,
       drops: parseObjectDropList(crackPotComp)
     });
   }
@@ -46,7 +50,8 @@ export function parseBreakObstacleComp(comp, compsList) {
     const crushJellyComp = getObjectFromPath(comp.Properties.CrushJellyAI, compsList);
     // TODO CrushJellyAIParameter.SearchCIDList for the object this contains
     return removeUndefineds({
-      type: ObjectTypes.HydroJelly,
+      type: MarkerType.BreakableHydrojelly,
+      infoType: InfoType.Breakable,
       drops: parseObjectDropList(crushJellyComp)
     });
   }

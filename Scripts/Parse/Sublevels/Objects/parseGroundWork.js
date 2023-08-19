@@ -1,4 +1,4 @@
-import { ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 import { DefaultLarvaDrop, parseObjectDropList } from "../parseDrops.js";
 
@@ -19,7 +19,8 @@ export function parseMoundComp(comp, compsList) {
   // TODO parse RebirthInterval?
   const moundAIComp = getObjectFromPath(comp.Properties.TateanaAI, compsList);
   return removeUndefineds({
-    type: ObjectTypes.Mound,
+    type: MarkerType.BreakableMound,
+    infoType: InfoType.Breakable,
     // default drop is to spawn BABY teki (bulborb larva)
     drops: parseObjectDropList(moundAIComp, DefaultLarvaDrop)
   });
@@ -30,7 +31,8 @@ export function parseFishingComp(comp, compsList) {
 
   // TODO: find how to attach treasures to this
   return removeUndefineds({
-    type: ObjectTypes.RopeFishing,
+    type: MarkerType.MiscPullrope,
+    infoType: InfoType.Misc,
     // NOTE: default is whatever the attached treasure is (See CfaK11 or TotSL8)
     weight: RopeFishing.Properties?.RopeFishingAIParameter?.ManualWorkNum,
     // One 'drops' a Gold Flintbeetle.
@@ -41,7 +43,8 @@ export function parseFishingComp(comp, compsList) {
 export function parseDrainComponent(comp, compsList) {
   const Mizunuki = getObjectFromPath(comp.Properties.MizunukiAI, compsList);
   return {
-    type: ObjectTypes.Drain,
+    type: MarkerType.SwitchDrain,
+    infoType: InfoType.Switchable,
     switchId: Mizunuki.Properties?.WaterBoxID || 'mizunuki'
   };
 }

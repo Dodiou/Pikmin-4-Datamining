@@ -1,4 +1,4 @@
-import { ObjectTypes, ShortcutVariants } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath } from "../../util.js";
 
 export function isShortcutComp(comp) {
@@ -20,63 +20,64 @@ export function parseShortcutComp(comp, compsList) {
     const handleBoardComp = getObjectFromPath(comp.Properties.HandleBoardAI, compsList);
 
     return {
-      type: ObjectTypes.Shortcut,
-      variant: isYellow ? ShortcutVariants.ClipboardYellow : ShortcutVariants.ClipboardAny,
+      type: isYellow ? MarkerType.ShortcutClipboardhigh : MarkerType.ShortcutClipboardlow,
+      infoType: InfoType.Shortcut,
       weight: handleBoardComp.Properties?.HandleBoardAIParameter?.WorkNum || 20 // TODO: double check it isn't based on component
     };
   }
   else if (comp.Properties.DownFloorAI) {
     const rideAffordanceComp = comp.Properties.RideAffordance && getObjectFromPath(comp.Properties.RideAffordance, compsList);
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.SquashBag,
+      type: MarkerType.ShortcutSquashbag,
+      infoType: InfoType.Shortcut,
       weight: rideAffordanceComp?.Properties?.NeedWeight || 10 // See squash bag to Yellow Onion in SST
     };
   }
   else if (comp.Properties.StringAI) {
     const pushAffordanceComp = comp.Properties.PushAffordance && getObjectFromPath(comp.Properties.PushAffordance, compsList);
     const stringComp = getObjectFromPath(comp.Properties.StringAI, compsList);
+    // some strings start in the "down" position
+    const isDown = stringComp.Properties?.StringAIParameter?.bFalled;
+
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.String,
+      type: isDown ? MarkerType.ShortcutStringdown : MarkerType.ShortcutStringup,
+      infoType: InfoType.Shortcut,
       weight: pushAffordanceComp?.Properties?.WorkNum || 5, // See any StringAI, other than Cave20
-      // unknown what bFalled is
-      //   completed: stringComp.Properties?.bFalled
     };
     // TODO: what is WorkNumGensei?
   }
   else if (comp.Properties.PushGimmickAI) {
     const pushAffordanceComp = comp.Properties.PushAffordance && getObjectFromPath(comp.Properties.PushAffordance, compsList);
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.PushBag,
+      type: MarkerType.ShortcutPushbag,
+      infoType: InfoType.Shortcut,
       weight: pushAffordanceComp?.Properties?.WorkNum || 10, // See any push box. TODO: double check not component based?
     };
   }
   else if (comp.Properties.PullNekkoAI) {
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.Root
+      type: MarkerType.ShortcutRoot,
+      infoType: InfoType.Shortcut
     }
   }
   else if (comp.Properties.BranchAI) {
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.Stick
+      type: MarkerType.MiscStick,
+      infoType: InfoType.Misc,
     }
   }
   else if (comp.Properties.ZiplineAI) {
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.Zipline
+      type: MarkerType.RidableZipline,
+      infoType: InfoType.Ridable,
     }
   }
   else if (comp.Properties.GeyserAI) {
     // TODO: read spline for end locations?
     const Geyser = getObjectFromPath(comp.Properties.GeyserAI, compsList);
     return {
-      type: ObjectTypes.Shortcut,
-      variant: ShortcutVariants.Geyser,
+      type: MarkerType.RidableGeyser,
+      infoType: InfoType.Ridable,
       hasCrystal: Geyser.Properties?.GeyserAIParameter?.bSetCrystal
     };
   }

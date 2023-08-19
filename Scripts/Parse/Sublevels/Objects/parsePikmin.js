@@ -1,4 +1,4 @@
-import { ObjectTypes, PikminVariants } from "../../types.js";
+import { InfoType, PikminSpawnState } from "../../types.js";
 import { getObjectFromPath, getPikminColor, getTypeFromBlueprint, removeUndefineds } from "../../util.js";
 
 // NOTE: Ignore "PongashiColor"; Differs from PikminColor in Cave012, Subzero Sauna, but does not get used.
@@ -21,8 +21,11 @@ function parseCandypop(params) {
     throw new Error('Found a candypop that is not replaced by egg');
   }
 
+
+  const type = `${InfoType.Candypop}-${color}`;
   return removeUndefineds({
-    type: ObjectTypes.Candypop,
+    type,
+    infoType: InfoType.Candypop,
     color,
     changesAt,
     changesTo,
@@ -35,7 +38,7 @@ function parseCandypop(params) {
 //       - MabikiNumFromAll       - only occurs in Challenges/Trials. Does not get used
 //       - PongashiColor          - differs from PikminColor only in Sage Trials (untestable)
 //       - PongashiChangeColor*   - change color never differs from PikminColor for non-candypops
-function parsePikmin(params, variant) {
+function parsePikmin(params, pikminState) {
   const color = getPikminColor(params.PikminColor);
   // default is undefined
   const disappearsAt = params.bMabikiEnable 
@@ -45,10 +48,12 @@ function parsePikmin(params, variant) {
   const otherReplacement = params.RandomActorSpawnList?.length
     ? getTypeFromBlueprint(params.RandomActorSpawnList[0].DropActor.ObjectName)
     : undefined;
+
+  // Note: candypop color never changes from pikmin color
   const replacedBy = disappearsAt &&
     (
       params.bMabikiPongashi
-        ? 'candypop'
+        ? `${InfoType.Candypop}-${color}`
         : otherReplacement
     );
 
@@ -56,10 +61,13 @@ function parsePikmin(params, variant) {
     throw new Error('Found a candypop that is not replaced by egg');
   }
 
+
+  const type = `${InfoType.Pikmin}-${color}`;
   return removeUndefineds({
-    type: ObjectTypes.Pikmin,
+    type,
+    infoType: InfoType.Pikmin,
     color,
-    variant,
+    state: pikminState,
     amount: params.SpawnNum || 5,
     disappearsAt,
     replacedBy,
@@ -123,9 +131,9 @@ export function parsePikminSpawnerComp(comp, compsList) {
   return parsePikmin(
     params,
     isSprouts
-      ? PikminVariants.Sprouts
+      ? PikminSpawnState.Sprouts
       : isFighting
-        ? PikminVariants.Fighting
-        : PikminVariants.Idle
+        ? PikminSpawnState.Fighting
+        : PikminSpawnState.Idle
   );
 }

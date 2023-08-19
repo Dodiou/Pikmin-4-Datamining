@@ -1,4 +1,4 @@
-import { ObjectTypes } from "../types.js";
+import { InfoType, MarkerType } from "../types.js";
 
 // Dynamically spawned objects are any Drops and ActorSpawners.
 // List of dynamically spawned objects
@@ -6,7 +6,8 @@ import { ObjectTypes } from "../types.js";
 const SpawnedObjectMap = {
   // misc
   'GPellet1_C': {
-    type: ObjectTypes.Pellet,
+    type: MarkerType.MiscPellet,
+    infoType: InfoType.Misc
   },
   'GPellet5_C': '',
   'GEgg_C': '',

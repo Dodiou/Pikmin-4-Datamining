@@ -1,15 +1,14 @@
-import { ObjectTypes } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, getPikminColor, removeUndefineds } from "../../util.js";
 import { parseCreatureDropList } from "../parseDrops.js";
-import { DefaultValveId } from "./parseStructure.js";
 
 export const DefaultIcicleObject = {
-  type: ObjectTypes.Icicle
+  type: MarkerType.MiscIcicle,
+  infoType: InfoType.Misc
 };
 
 export function isMiscComp(comp) {
   return !!(
-    comp.Properties.SprinklerAI ||
     comp.Properties.CharcoalAI ||
     comp.Properties.IcicleAI ||
     comp.Properties.PelletAI ||
@@ -20,24 +19,14 @@ export function isMiscComp(comp) {
 
 const PELLET_SEEDS_REGEX = /GPellet(\d+)_C/;
 export function parseMiscComp(comp, compsList) {
-  if (comp.Properties.SprinklerAI) {
-    const SprinklerAI = getObjectFromPath(comp.Properties.SprinklerAI, compsList);
-    // TODO unknown default
-    const radius = SprinklerAI.Properties?.SprinklerAIParameter?.WaterRange || 300;
-    const valveId = SprinklerAI.Properties?.ValveID || DefaultValveId;
-
+  if (comp.Properties.CharcoalAI) {
     return {
-      type: ObjectTypes.Sprinkler,
-      valveId,
-      radius
-    };
-  }
-  else if (comp.Properties.CharcoalAI) {
-    return {
-      type: ObjectTypes.Charcoal
+      type: MarkerType.HazardCharcoal,
+      infoType: InfoType.Hazard
     };
   }
   else if (comp.Properties.IcicleAI) {
+    // todo isFelled or isDropped or something
     return DefaultIcicleObject;
   }
   else if (comp.Properties.PelletAI) {
@@ -46,37 +35,26 @@ export function parseMiscComp(comp, compsList) {
     const color = getPikminColor(PelletAI.Properties?.AIParameter?.PelletColor || "EPikminColor::Red");
   
     return {
-      type: ObjectTypes.Pellet,
+      type: MarkerType.MiscPellet,
+      infoType: InfoType.Misc,
       color,
       seeds
     };
   }
   else if (comp.Properties.HoneyAI) {
     return {
-      type: ObjectTypes.Honey
+      type: MarkerType.MiscHoney,
+      infoType: InfoType.Misc
     };
   }
   else if (comp.Properties.IwakkoCrystalAI) {
     const IwakkoCrystalAI = getObjectFromPath(comp.Properties.IwakkoCrystalAI, compsList);
     return removeUndefineds({
-      type: ObjectTypes.Crystal,
+      type: MarkerType.BreakableCrystal,
+      infoType: InfoType.Breakable,
       // NOTE: Even though this is in Objects, it uses Teki/Creature drops
       drops: parseCreatureDropList(IwakkoCrystalAI)
     });
   }
   throw new Error(`Unknown misc. component ${comp.Type}`);
 }
-
-/*
-if (comp.Properties.PelletAI) {
-  const PelletAI = getObjectFromPath(comp.Properties.PelletAI, compsList);
-  const seeds = parseInt(comp.Type.match(/GPellet(\d+)_C/)[1]);
-  const color = PelletAI.Properties?.AIParameter?.PelletColor || "EPikminColor::Red"
-
-  return {
-    type: ObjectTypes.Pellet,
-    color,
-    seeds
-  }
-}
-*/

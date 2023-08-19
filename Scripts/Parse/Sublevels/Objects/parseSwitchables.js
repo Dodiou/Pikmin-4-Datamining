@@ -1,4 +1,4 @@
-import { FenceVariant, ObjectTypes, SwitchVariants } from "../../types.js";
+import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 
 // See Cave012_F01. Fences have this ID, but SingleSwitch does not.
@@ -6,7 +6,8 @@ export const DefaultSwitchID = 'switch01';
 
 function parseFan(CirculatorAI) {
   return {
-    type: ObjectTypes.Fan,
+    type: MarkerType.SwitchFan,
+    infoType: InfoType.Switchable,
     switchId: CirculatorAI.Properties.CirculatorAIParameter?.SwitchID || DefaultSwitchID
   };
 }
@@ -19,8 +20,8 @@ function parseFence(fenceType, FenceFallAI) {
     ? FenceFallAI.Properties.FenceFallAIParameter?.SwitchID || DefaultSwitchID
     : undefined;
   return removeUndefineds({
-    type: ObjectTypes.Fence,
-    variant: isIron ? FenceVariant.Iron : FenceVariant.Normal,
+    type: isIron ? MarkerType.SwitchFenceiron : MarkerType.SwitchFencenormal,
+    infoType: InfoType.Switchable,
     switchId
   });
 }
@@ -28,7 +29,8 @@ function parseFence(fenceType, FenceFallAI) {
 // TODO: ConveyorNavAI? Properties.ConveyorNavAIParameter.SwitchID
 function parseConveyor(ConveyorAAI) {
   return {
-    type: ObjectTypes.Conveyor,
+    type: MarkerType.SwitchConveyor,
+    infoType: InfoType.Switchable,
     switchId: ConveyorAAI.Properties.ConveyorBaseAIParameter?.SwitchID || DefaultSwitchID
   }
 }
@@ -36,8 +38,8 @@ function parseConveyor(ConveyorAAI) {
 function parseSwitch(SingleOrTwinSwitchAI) {
   const isSingleSwitch = SingleOrTwinSwitchAI.Type.includes('Single');
   return {
-    type: ObjectTypes.Switch,
-    variant: isSingleSwitch ? SwitchVariants.SingleSwitch : SwitchVariants.DoubleSwitch,
+    type: isSingleSwitch ? MarkerType.SwitchSingle : MarkerType.SwitchDouble,
+    infoType: InfoType.Switchable,
     switchId: SingleOrTwinSwitchAI.Properties.SwitchBaseAIParameter?.SwitchID || DefaultSwitchID
   };
 }
