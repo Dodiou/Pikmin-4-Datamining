@@ -43,7 +43,11 @@ function parseSublevelsComponents(compsList, propsFinderFunc) {
     }
 
     // some assertions to make sure I didn't mess up parsing types
-    if (componentProps.type === undefined || componentProps.infoType === undefined) {
+    if (
+      componentProps.type === undefined ||
+      componentProps.infoType === undefined ||
+      !componentProps.type.startsWith(componentProps.infoType)
+    ) {
       throw new Error(`Programmer error in parsing code. type: ${componentProps.type}, infoType: ${componentProps.infoType}`);
     }
     assertDynamicallyBuiltMarkerType(componentProps.type);
