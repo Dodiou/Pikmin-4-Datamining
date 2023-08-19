@@ -158,6 +158,7 @@
       "name": "Waterwraith",
       "carryMax": 0,
       "value": 0,
+      "health": 1800,
       "seeds": 0,
       "drops": [
         {

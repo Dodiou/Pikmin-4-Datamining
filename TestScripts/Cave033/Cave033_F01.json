@@ -221,6 +221,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {

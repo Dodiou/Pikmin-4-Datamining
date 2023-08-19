@@ -137,6 +137,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -203.40521,
@@ -497,6 +498,7 @@
       "name": "Grubchucker",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 15,
       "drops": [
         {
@@ -520,6 +522,7 @@
       "name": "Grubchucker",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 15,
       "drops": [
         {

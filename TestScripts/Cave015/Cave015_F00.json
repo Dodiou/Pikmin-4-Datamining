@@ -65,6 +65,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -265,
@@ -464,6 +465,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -479,6 +481,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -494,6 +497,7 @@
       "name": "Water Dumple",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -509,6 +513,7 @@
       "name": "Water Dumple",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -524,6 +529,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -539,6 +545,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -554,6 +561,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {

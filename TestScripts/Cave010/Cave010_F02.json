@@ -92,6 +92,7 @@
       "name": "Empress Bulblax",
       "carryMax": 40,
       "value": 20,
+      "health": 5000,
       "seeds": 50,
       "drops": [
         {

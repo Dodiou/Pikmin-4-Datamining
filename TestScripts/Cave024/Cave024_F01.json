@@ -333,6 +333,7 @@
       "name": "Watery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -356,6 +357,7 @@
       "name": "Withering Blowhog",
       "carryMax": 1,
       "value": 5,
+      "health": 1800,
       "seeds": 4,
       "drops": [
         {
@@ -379,6 +381,7 @@
       "name": "Watery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -402,6 +405,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -417,6 +421,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -432,6 +437,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {

@@ -57,6 +57,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -1803.114,
@@ -450,6 +451,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -848.5,
@@ -574,6 +576,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -589,6 +592,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -604,6 +608,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -619,6 +624,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -634,6 +640,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -649,6 +656,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -664,6 +672,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -679,6 +688,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {

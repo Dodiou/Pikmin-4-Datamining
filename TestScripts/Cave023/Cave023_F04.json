@@ -139,6 +139,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -276,
@@ -248,6 +249,7 @@
       "name": "Giant Breadbug",
       "carryMax": 24,
       "value": 15,
+      "health": 2000,
       "seeds": 15,
       "drops": [
         {
@@ -277,6 +279,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -292,6 +295,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -307,6 +311,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -322,6 +327,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -345,6 +351,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -360,6 +367,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -375,6 +383,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -390,6 +399,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -405,6 +415,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -420,6 +431,7 @@
       "name": "Giant Breadbug",
       "carryMax": 24,
       "value": 15,
+      "health": 2000,
       "seeds": 15,
       "drops": [
         {
@@ -449,6 +461,7 @@
       "name": "Puffy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {

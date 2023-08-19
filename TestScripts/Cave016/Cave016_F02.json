@@ -109,6 +109,7 @@
       "name": "Burrowing Snagret",
       "carryMax": 30,
       "value": 15,
+      "health": 2500,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -124,6 +125,7 @@
       "name": "Burrowing Snagret",
       "carryMax": 30,
       "value": 15,
+      "health": 2500,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -139,6 +141,7 @@
       "name": "Burrowing Snagret",
       "carryMax": 30,
       "value": 15,
+      "health": 2500,
       "seeds": 20,
       "transform": {
         "translation": {

@@ -591,6 +591,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -2682,
@@ -3075,6 +3076,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -3090,6 +3092,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -3105,6 +3108,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -3120,6 +3124,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -3135,6 +3140,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -3150,6 +3156,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -3165,6 +3172,7 @@
       "name": "Grubchucker",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -3180,6 +3188,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -3195,6 +3204,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -3210,6 +3220,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -3225,6 +3236,7 @@
       "name": "Sovereign Bulblax",
       "carryMax": 60,
       "value": 20,
+      "health": 8000,
       "seeds": 50,
       "transform": {
         "translation": {
@@ -3240,6 +3252,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -3255,6 +3268,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -3270,6 +3284,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -3285,6 +3300,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -3300,6 +3316,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -3315,6 +3332,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3330,6 +3348,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3345,6 +3364,7 @@
       "name": "Startle Spore",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3360,6 +3380,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -3375,6 +3396,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3390,6 +3412,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3405,6 +3428,7 @@
       "name": "Startle Spore",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3420,6 +3444,7 @@
       "name": "Startle Spore",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3435,6 +3460,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3450,6 +3476,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3465,6 +3492,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3480,6 +3508,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3495,6 +3524,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3510,6 +3540,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3525,6 +3556,7 @@
       "name": "Porquillion",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -3540,6 +3572,7 @@
       "name": "Grubchucker",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -3555,6 +3588,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3570,6 +3604,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -3585,6 +3620,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3600,6 +3636,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3615,6 +3652,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3630,6 +3668,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3645,6 +3684,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3660,6 +3700,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3675,6 +3716,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3690,6 +3732,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -3713,6 +3756,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -3736,6 +3780,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -3759,6 +3804,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3774,6 +3820,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3789,6 +3836,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -3812,6 +3860,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -3827,6 +3876,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3842,6 +3892,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -3857,6 +3908,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3872,6 +3924,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3887,6 +3940,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -3902,6 +3956,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3917,6 +3972,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -3932,6 +3988,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3947,6 +4004,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3962,6 +4020,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -3977,6 +4036,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -3992,6 +4052,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -4007,6 +4068,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -4022,6 +4084,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -4037,6 +4100,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4052,6 +4116,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4067,6 +4132,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4082,6 +4148,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4097,6 +4164,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4112,6 +4180,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -4127,6 +4196,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4142,6 +4212,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4157,6 +4228,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4172,6 +4244,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4187,6 +4260,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4202,6 +4276,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -4217,6 +4292,7 @@
       "name": "Baldy Long Legs",
       "carryMax": 0,
       "value": 0,
+      "health": 3700,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -4232,6 +4308,7 @@
       "name": "Baldy Long Legs",
       "carryMax": 0,
       "value": 0,
+      "health": 3700,
       "seeds": 0,
       "transform": {
         "translation": {

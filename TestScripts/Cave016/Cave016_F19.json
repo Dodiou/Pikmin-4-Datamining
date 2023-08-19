@@ -32,6 +32,7 @@
       "name": "Ancient Sirehound",
       "carryMax": 0,
       "value": 0,
+      "health": 9000,
       "seeds": 0,
       "drops": [
         {

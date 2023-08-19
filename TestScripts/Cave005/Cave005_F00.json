@@ -15,6 +15,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 469.61084,

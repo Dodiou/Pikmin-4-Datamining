@@ -278,6 +278,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": 683,
@@ -289,6 +290,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -284,
@@ -306,6 +308,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -321,6 +324,7 @@
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1300,
       "seeds": 12,
       "drops": [
         {
@@ -344,6 +348,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -359,6 +364,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -374,6 +380,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -397,6 +404,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -420,6 +428,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {

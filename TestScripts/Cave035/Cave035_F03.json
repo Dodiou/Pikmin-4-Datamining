@@ -145,6 +145,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -1506.4708,
@@ -156,6 +157,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -418.47083,
@@ -167,6 +169,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 495.52313,
@@ -466,6 +469,7 @@
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
       "value": 20,
+      "health": 2000,
       "seeds": 20,
       "drops": [
         {
@@ -489,6 +493,7 @@
       "name": "Watery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -504,6 +509,7 @@
       "name": "Watery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -519,6 +525,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -534,6 +541,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -549,6 +557,7 @@
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
       "value": 20,
+      "health": 2000,
       "seeds": 20,
       "transform": {
         "translation": {

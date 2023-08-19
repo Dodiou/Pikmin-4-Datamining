@@ -415,6 +415,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -430,6 +431,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -445,6 +447,7 @@
       "name": "Freezecake",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 10,
       "drops": [
         {
@@ -474,6 +477,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {

@@ -418,6 +418,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -433,6 +434,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -448,6 +450,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -463,6 +466,7 @@
       "name": "Iceblown Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -478,6 +482,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -493,6 +498,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {

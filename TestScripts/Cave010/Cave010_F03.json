@@ -237,6 +237,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": 384,
@@ -295,6 +296,7 @@
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1300,
       "seeds": 12,
       "drops": [
         {
@@ -318,6 +320,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -333,6 +336,7 @@
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1300,
       "seeds": 12,
       "drops": [
         {
@@ -362,6 +366,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -377,6 +382,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {

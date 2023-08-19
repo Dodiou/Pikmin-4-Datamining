@@ -39,6 +39,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 70000,
       "transform": {
         "translation": {
           "x": 277.071,
@@ -50,6 +51,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 35000,
       "transform": {
         "translation": {
           "x": -1060,
@@ -61,6 +63,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 35000,
       "transform": {
         "translation": {
           "x": -47.071014,
@@ -108,6 +111,7 @@
       "name": "Man-at-Legs",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "drops": [
         {

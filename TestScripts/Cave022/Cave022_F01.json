@@ -188,6 +188,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -624.58374,
@@ -278,6 +279,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -919,
@@ -346,6 +348,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -361,6 +364,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "drops": [
         {
@@ -384,6 +388,7 @@
       "name": "Icy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "drops": [
         {
@@ -407,6 +412,7 @@
       "name": "Chillyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "drops": [
         {

@@ -237,6 +237,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -115.99973,
@@ -447,6 +448,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -462,6 +464,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -477,6 +480,7 @@
       "name": "Iceblown Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -492,6 +496,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -507,6 +512,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -522,6 +528,7 @@
       "name": "Peckish Aristocrab",
       "carryMax": 14,
       "value": 12,
+      "health": 1500,
       "seeds": 12,
       "transform": {
         "translation": {

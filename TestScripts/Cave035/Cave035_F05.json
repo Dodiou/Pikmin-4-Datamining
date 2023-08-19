@@ -441,6 +441,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": 430,
@@ -486,6 +487,7 @@
       "name": "Bomb Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {

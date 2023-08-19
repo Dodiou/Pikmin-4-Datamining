@@ -201,6 +201,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -470,
@@ -330,6 +331,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "drops": [
         {
@@ -353,6 +355,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "drops": [
         {
@@ -376,6 +379,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -399,6 +403,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -422,6 +427,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "drops": [
         {

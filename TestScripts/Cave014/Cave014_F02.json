@@ -169,6 +169,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 1043.5,
@@ -180,6 +181,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -1042.5,
@@ -191,6 +193,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -926,
@@ -349,6 +352,7 @@
       "name": "Anode Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -364,6 +368,7 @@
       "name": "Waterwraith",
       "carryMax": 0,
       "value": 0,
+      "health": 1800,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -379,6 +384,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "drops": [
         {
@@ -402,6 +408,7 @@
       "name": "Withering Blowhog",
       "carryMax": 1,
       "value": 5,
+      "health": 1800,
       "seeds": 4,
       "drops": [
         {
@@ -425,6 +432,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "drops": [
         {
@@ -448,6 +456,7 @@
       "name": "Anode Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -463,6 +472,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "drops": [
         {

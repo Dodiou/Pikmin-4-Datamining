@@ -1264,6 +1264,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1279,6 +1280,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1294,6 +1296,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1309,6 +1312,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1324,6 +1328,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1339,6 +1344,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1354,6 +1360,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1369,6 +1376,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1384,6 +1392,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1399,6 +1408,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1414,6 +1424,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1429,6 +1440,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1444,6 +1456,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1459,6 +1472,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1474,6 +1488,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1489,6 +1504,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1504,6 +1520,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1519,6 +1536,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1534,6 +1552,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1549,6 +1568,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1564,6 +1584,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1579,6 +1600,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1594,6 +1616,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1609,6 +1632,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1624,6 +1648,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1639,6 +1664,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1654,6 +1680,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1669,6 +1696,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1684,6 +1712,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1699,6 +1728,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1714,6 +1744,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1729,6 +1760,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1744,6 +1776,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1759,6 +1792,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1774,6 +1808,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1789,6 +1824,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1804,6 +1840,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1819,6 +1856,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1834,6 +1872,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1849,6 +1888,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1864,6 +1904,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -1879,6 +1920,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1894,6 +1936,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1909,6 +1952,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1924,6 +1968,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1939,6 +1984,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1954,6 +2000,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1969,6 +2016,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1984,6 +2032,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1999,6 +2048,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2014,6 +2064,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -2029,6 +2080,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -2044,6 +2096,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -2059,6 +2112,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -2074,6 +2128,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -2089,6 +2144,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2104,6 +2160,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -2119,6 +2176,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -2134,6 +2192,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -2149,6 +2208,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -2164,6 +2224,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -2179,6 +2240,7 @@
       "name": "Jumbo Bulborb",
       "carryMax": 40,
       "value": 15,
+      "health": 2500,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -2194,6 +2256,7 @@
       "name": "Jumbo Bulborb",
       "carryMax": 40,
       "value": 15,
+      "health": 2500,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -2209,6 +2272,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2224,6 +2288,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2239,6 +2304,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2254,6 +2320,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2269,6 +2336,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2284,6 +2352,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2299,6 +2368,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2314,6 +2384,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2329,6 +2400,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2344,6 +2416,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2359,6 +2432,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2374,6 +2448,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2389,6 +2464,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2404,6 +2480,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2419,6 +2496,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2434,6 +2512,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2449,6 +2528,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2464,6 +2544,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2479,6 +2560,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -2494,6 +2576,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -2509,6 +2592,7 @@
       "name": "Smoky Progg",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "transform": {
         "translation": {

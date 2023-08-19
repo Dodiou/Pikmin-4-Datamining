@@ -121,6 +121,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -670,
@@ -132,6 +133,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -550,
@@ -143,6 +145,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": 273,
@@ -173,6 +176,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "drops": [
         {
@@ -196,6 +200,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -211,6 +216,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -226,6 +232,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -241,6 +248,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -256,6 +264,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -279,6 +288,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -302,6 +312,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -325,6 +336,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -348,6 +360,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -371,6 +384,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -394,6 +408,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -417,6 +432,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -440,6 +456,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -463,6 +480,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {

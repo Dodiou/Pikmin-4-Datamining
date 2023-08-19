@@ -40,6 +40,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 114,
@@ -263,6 +264,7 @@
       "name": "Anode Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -278,6 +280,7 @@
       "name": "Anode Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -293,6 +296,7 @@
       "name": "Anode Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -308,6 +312,7 @@
       "name": "Anode Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -323,6 +328,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {
@@ -346,6 +352,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {

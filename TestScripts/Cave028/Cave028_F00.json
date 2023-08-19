@@ -195,6 +195,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -655,
@@ -206,6 +207,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -75,
@@ -371,6 +373,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "drops": [
         {
@@ -394,6 +397,7 @@
       "name": "Freezecake",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -409,6 +413,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -424,6 +429,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -439,6 +445,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -454,6 +461,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -469,6 +477,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {

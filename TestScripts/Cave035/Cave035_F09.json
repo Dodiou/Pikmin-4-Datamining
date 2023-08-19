@@ -262,6 +262,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -935,
@@ -275,6 +276,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -1157,
@@ -288,6 +290,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 750,
@@ -359,6 +362,7 @@
       "name": "Waterwraith",
       "carryMax": 0,
       "value": 0,
+      "health": 1800,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -374,6 +378,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -389,6 +394,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -404,6 +410,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -419,6 +426,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -434,6 +442,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -449,6 +458,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -464,6 +474,7 @@
       "name": "Startle Spore",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -479,6 +490,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -495,6 +507,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -510,6 +523,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {

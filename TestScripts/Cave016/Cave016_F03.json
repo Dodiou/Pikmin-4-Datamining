@@ -232,6 +232,7 @@
       "name": "Arctic Cannon Beetle",
       "carryMax": 60,
       "value": 20,
+      "health": 4500,
       "seeds": 50,
       "drops": [
         {
@@ -261,6 +262,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -276,6 +278,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -291,6 +294,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -306,6 +310,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -321,6 +326,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -336,6 +342,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {

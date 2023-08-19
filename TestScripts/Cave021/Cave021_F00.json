@@ -109,6 +109,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 107.57625,
@@ -223,6 +224,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "drops": [
         {
@@ -246,6 +248,7 @@
       "name": "Skeeterskate",
       "carryMax": 4,
       "value": 2,
+      "health": 45,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -261,6 +264,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -284,6 +288,7 @@
       "name": "Skeeterskate",
       "carryMax": 4,
       "value": 2,
+      "health": 45,
       "seeds": 3,
       "transform": {
         "translation": {

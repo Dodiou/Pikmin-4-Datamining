@@ -110,6 +110,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 904.3483,
@@ -121,6 +122,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 80.62039,
@@ -188,6 +190,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -211,6 +214,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {

@@ -1689,6 +1689,7 @@
       "name": "Porquillion",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 20,
       "drops": [
         {
@@ -1712,6 +1713,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -1735,6 +1737,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -1758,6 +1761,7 @@
       "name": "Bearded Amprat",
       "carryMax": 14,
       "value": 7,
+      "health": 750,
       "seeds": 6,
       "drops": [
         {
@@ -1781,6 +1785,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1796,6 +1801,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1812,6 +1818,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1827,6 +1834,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1842,6 +1850,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1857,6 +1866,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1872,6 +1882,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1887,6 +1898,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1902,6 +1914,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -1925,6 +1938,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1940,6 +1954,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "drops": [
         {
@@ -1963,6 +1978,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1978,6 +1994,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -2001,6 +2018,7 @@
       "name": "Bearded Amprat",
       "carryMax": 14,
       "value": 7,
+      "health": 750,
       "seeds": 6,
       "drops": [
         {
@@ -2024,6 +2042,7 @@
       "name": "Horned Cannon Beetle",
       "carryMax": 60,
       "value": 20,
+      "health": 5000,
       "seeds": 50,
       "drops": [
         {
@@ -2047,6 +2066,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -2062,6 +2082,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -2085,6 +2106,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -2108,6 +2130,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2123,6 +2146,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2138,6 +2162,7 @@
       "name": "Moss",
       "carryMax": 0,
       "value": 0,
+      "health": 7000,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -2153,6 +2178,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -2168,6 +2194,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -2191,6 +2218,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -2206,6 +2234,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2221,6 +2250,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -2236,6 +2266,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2251,6 +2282,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2266,6 +2298,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -2295,6 +2328,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -2324,6 +2358,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -2353,6 +2388,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -2382,6 +2418,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2397,6 +2434,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2412,6 +2450,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2427,6 +2466,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2442,6 +2482,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2457,6 +2498,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2472,6 +2514,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2487,6 +2530,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2502,6 +2546,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2517,6 +2562,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2532,6 +2578,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2547,6 +2594,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2562,6 +2610,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2577,6 +2626,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2592,6 +2642,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2607,6 +2658,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -2630,6 +2682,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "drops": [
         {
@@ -2653,6 +2706,7 @@
       "name": "Icy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -2668,6 +2722,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2683,6 +2738,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2698,6 +2754,7 @@
       "name": "Iceblown Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2713,6 +2770,7 @@
       "name": "Iceblown Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2728,6 +2786,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2743,6 +2802,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2758,6 +2818,7 @@
       "name": "Iceblown Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2773,6 +2834,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2788,6 +2850,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2803,6 +2866,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2818,6 +2882,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2833,6 +2898,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2848,6 +2914,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2863,6 +2930,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2878,6 +2946,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -2893,6 +2962,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {

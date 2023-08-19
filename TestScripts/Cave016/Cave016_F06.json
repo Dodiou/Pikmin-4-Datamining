@@ -131,6 +131,7 @@
       "name": "Blizzarding Blowhog",
       "carryMax": 30,
       "value": 15,
+      "health": 2000,
       "seeds": 15,
       "drops": [
         {
@@ -160,6 +161,7 @@
       "name": "Titan Blowhog",
       "carryMax": 30,
       "value": 15,
+      "health": 2000,
       "seeds": 15,
       "drops": [
         {

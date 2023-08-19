@@ -120,6 +120,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -607.5,
@@ -322,6 +323,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -337,6 +339,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {
@@ -366,6 +369,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -381,6 +385,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -404,6 +409,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -427,6 +433,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -456,6 +463,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {

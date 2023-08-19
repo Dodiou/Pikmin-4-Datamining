@@ -162,6 +162,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 1405.9194,
@@ -173,6 +174,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -3016.044,
@@ -212,6 +214,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 861.91327,
@@ -429,6 +432,7 @@
     {
       "type": "gate-bomb",
       "infoType": "gate",
+      "health": 30000,
       "transform": {
         "translation": {
           "x": 2780,
@@ -442,6 +446,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 123.57311,
@@ -453,6 +458,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 15.031854,
@@ -1312,6 +1318,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1327,6 +1334,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1342,6 +1350,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1357,6 +1366,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1372,6 +1382,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1387,6 +1398,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1402,6 +1414,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1417,6 +1430,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1432,6 +1446,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1447,6 +1462,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1462,6 +1478,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1477,6 +1494,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1492,6 +1510,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1507,6 +1526,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1522,6 +1542,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1537,6 +1558,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1552,6 +1574,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1567,6 +1590,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1582,6 +1606,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1597,6 +1622,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1612,6 +1638,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1627,6 +1654,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1642,6 +1670,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1657,6 +1686,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1672,6 +1702,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1687,6 +1718,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1702,6 +1734,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1717,6 +1750,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1732,6 +1766,7 @@
       "name": "Puffy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -1747,6 +1782,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1762,6 +1798,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1777,6 +1814,7 @@
       "name": "Puffy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -1792,6 +1830,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1807,6 +1846,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1822,6 +1862,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1837,6 +1878,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1852,6 +1894,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1867,6 +1910,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1882,6 +1926,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1897,6 +1942,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1912,6 +1958,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1927,6 +1974,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1942,6 +1990,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1957,6 +2006,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1972,6 +2022,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1987,6 +2038,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {

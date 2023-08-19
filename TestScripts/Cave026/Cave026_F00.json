@@ -313,6 +313,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 630,
@@ -375,6 +376,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "drops": [
         {
@@ -398,6 +400,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "drops": [
         {
@@ -421,6 +424,7 @@
       "name": "Fiery Bulblax",
       "carryMax": 24,
       "value": 12,
+      "health": 2000,
       "seeds": 15,
       "drops": [
         {
@@ -450,6 +454,7 @@
       "name": "Scorchcake",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 10,
       "drops": [
         {
@@ -473,6 +478,7 @@
       "name": "Puffy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "drops": [
         {

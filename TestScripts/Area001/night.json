@@ -109,6 +109,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -2070.298,
@@ -412,6 +413,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 1571,
@@ -423,6 +425,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -608,
@@ -1211,6 +1214,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1226,6 +1230,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1241,6 +1246,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1256,6 +1262,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1271,6 +1278,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1286,6 +1294,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1301,6 +1310,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1316,6 +1326,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1331,6 +1342,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1346,6 +1358,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1361,6 +1374,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1376,6 +1390,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1391,6 +1406,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1406,6 +1422,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1421,6 +1438,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1436,6 +1454,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1451,6 +1470,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1466,6 +1486,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1481,6 +1502,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1496,6 +1518,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1511,6 +1534,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1526,6 +1550,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1541,6 +1566,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1556,6 +1582,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1571,6 +1598,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1586,6 +1614,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1601,6 +1630,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1616,6 +1646,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1631,6 +1662,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1646,6 +1678,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1661,6 +1694,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1676,6 +1710,7 @@
       "name": "Jumbo Bulborb",
       "carryMax": 40,
       "value": 15,
+      "health": 2500,
       "seeds": 15,
       "drops": [
         {
@@ -1699,6 +1734,7 @@
       "name": "Jumbo Bulborb",
       "carryMax": 40,
       "value": 15,
+      "health": 2500,
       "seeds": 15,
       "drops": [
         {

@@ -354,6 +354,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -58,
@@ -365,6 +366,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -58,
@@ -408,6 +410,7 @@
       "name": "Lesser Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 1500,
       "seeds": 0,
       "drops": [
         {
@@ -431,6 +434,7 @@
       "name": "Peckish Aristocrab",
       "carryMax": 14,
       "value": 12,
+      "health": 1500,
       "seeds": 12,
       "drops": [
         {
@@ -454,6 +458,7 @@
       "name": "Greater Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 2500,
       "seeds": 0,
       "drops": [
         {
@@ -477,6 +482,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "drops": [
         {
@@ -500,6 +506,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "drops": [
         {
@@ -523,6 +530,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "drops": [
         {
@@ -546,6 +554,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {

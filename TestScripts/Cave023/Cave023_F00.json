@@ -28,6 +28,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -388,
@@ -150,6 +151,7 @@
       "name": "Breadbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -165,6 +167,7 @@
       "name": "Breadbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -180,6 +183,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -195,6 +199,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -210,6 +215,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -225,6 +231,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -240,6 +247,7 @@
       "name": "Bearded Amprat",
       "carryMax": 14,
       "value": 7,
+      "health": 750,
       "seeds": 6,
       "drops": [
         {
@@ -263,6 +271,7 @@
       "name": "Bearded Amprat",
       "carryMax": 14,
       "value": 7,
+      "health": 750,
       "seeds": 6,
       "drops": [
         {
@@ -286,6 +295,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {

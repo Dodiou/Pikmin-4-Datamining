@@ -72,6 +72,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 355,
@@ -194,6 +195,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -762,
@@ -250,6 +252,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -265,6 +268,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -280,6 +284,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -295,6 +300,7 @@
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1300,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -310,6 +316,7 @@
       "name": "Frosty Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -325,6 +332,7 @@
       "name": "Fiery Bulblax",
       "carryMax": 24,
       "value": 12,
+      "health": 2000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -340,6 +348,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -355,6 +364,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -370,6 +380,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -385,6 +396,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -400,6 +412,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {

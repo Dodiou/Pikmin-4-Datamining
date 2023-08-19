@@ -194,6 +194,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -440,
@@ -423,6 +424,7 @@
       "name": "Greater Spotted Jellyfloat",
       "carryMax": 0,
       "value": 0,
+      "health": 2500,
       "seeds": 0,
       "drops": [
         {
@@ -446,6 +448,7 @@
       "name": "Peckish Aristocrab",
       "carryMax": 14,
       "value": 12,
+      "health": 1500,
       "seeds": 12,
       "drops": [
         {
@@ -469,6 +472,7 @@
       "name": "Fiery Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -484,6 +488,7 @@
       "name": "Fiery Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -499,6 +504,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -522,6 +528,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -545,6 +552,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {

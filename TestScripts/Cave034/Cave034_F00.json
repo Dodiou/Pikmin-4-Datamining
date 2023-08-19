@@ -574,6 +574,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -589,6 +590,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -604,6 +606,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -619,6 +622,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -634,6 +638,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -649,6 +654,7 @@
       "name": "Sunsquish",
       "carryMax": 1,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {

@@ -390,6 +390,7 @@
       "name": "Fiery Bulblax",
       "carryMax": 24,
       "value": 12,
+      "health": 2000,
       "seeds": 15,
       "drops": [
         {
@@ -413,6 +414,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "drops": [
         {
@@ -436,6 +438,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -451,6 +454,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -466,6 +470,7 @@
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
       "value": 0,
+      "health": 200,
       "seeds": 0,
       "drops": [
         {

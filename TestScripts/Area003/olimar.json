@@ -709,6 +709,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 406,
@@ -720,6 +721,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 887,
@@ -823,6 +825,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -838,6 +841,7 @@
       "name": "Pearly Clamclamp",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -853,6 +857,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -868,6 +873,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -883,6 +889,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -898,6 +905,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -913,6 +921,7 @@
       "name": "Masterhop",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -928,6 +937,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -943,6 +953,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -958,6 +969,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -973,6 +985,7 @@
       "name": "Grubchucker",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 15,
       "drops": [
         {
@@ -996,6 +1009,7 @@
       "name": "Wolpole",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1011,6 +1025,7 @@
       "name": "Wolpole",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1026,6 +1041,7 @@
       "name": "Grubchucker",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -1041,6 +1057,7 @@
       "name": "Hermit Crawmad",
       "carryMax": 10,
       "value": 5,
+      "health": 750,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -1056,6 +1073,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1071,6 +1089,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1086,6 +1105,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1101,6 +1121,7 @@
       "name": "Hermit Crawmad",
       "carryMax": 10,
       "value": 5,
+      "health": 750,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -1116,6 +1137,7 @@
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
       "value": 20,
+      "health": 2000,
       "seeds": 20,
       "drops": [
         {
@@ -1139,6 +1161,7 @@
       "name": "Peckish Aristocrab",
       "carryMax": 14,
       "value": 12,
+      "health": 1500,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -1154,6 +1177,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1169,6 +1193,7 @@
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1300,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -1184,6 +1209,7 @@
       "name": "Whiptongue Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1300,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -1199,6 +1225,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1214,6 +1241,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1229,6 +1257,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1244,6 +1273,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1259,6 +1289,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1274,6 +1305,7 @@
       "name": "Wolpole",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1289,6 +1321,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1304,6 +1337,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1319,6 +1353,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1334,6 +1369,7 @@
       "name": "Peckish Aristocrab",
       "carryMax": 14,
       "value": 12,
+      "health": 1500,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -1349,6 +1385,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1364,6 +1401,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1379,6 +1417,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1394,6 +1433,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1409,6 +1449,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1424,6 +1465,7 @@
       "name": "Aristocrab Offspring",
       "carryMax": 6,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1439,6 +1481,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1454,6 +1497,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1469,6 +1513,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1484,6 +1529,7 @@
       "name": "Wolpole",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1499,6 +1545,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1514,6 +1561,7 @@
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
       "value": 20,
+      "health": 2000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -1529,6 +1577,7 @@
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
       "value": 20,
+      "health": 2000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -1544,6 +1593,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1559,6 +1609,7 @@
       "name": "Puckering Blinnow",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -1574,6 +1625,7 @@
       "name": "Sovereign Bulblax",
       "carryMax": 60,
       "value": 20,
+      "health": 8000,
       "seeds": 50,
       "drops": [
         {

@@ -57,6 +57,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -285.99997,
@@ -68,6 +69,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 80,
@@ -360,6 +362,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": 275,
@@ -371,6 +374,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -688,
@@ -382,6 +386,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": 537,
@@ -399,6 +404,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -414,6 +420,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -429,6 +436,7 @@
       "name": "Scorchcake",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -444,6 +452,7 @@
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
       "value": 0,
+      "health": 200,
       "seeds": 0,
       "drops": [
         {
@@ -479,6 +488,7 @@
       "name": "Scorchcake",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 10,
       "drops": [
         {
@@ -502,6 +512,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -517,6 +528,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -532,6 +544,7 @@
       "name": "Shearflea",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -547,6 +560,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -562,6 +576,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -577,6 +592,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {

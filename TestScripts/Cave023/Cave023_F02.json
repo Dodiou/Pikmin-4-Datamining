@@ -157,6 +157,7 @@
       "name": "Porquillion",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 20,
       "drops": [
         {

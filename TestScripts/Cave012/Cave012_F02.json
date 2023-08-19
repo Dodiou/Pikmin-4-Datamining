@@ -344,6 +344,7 @@
       "name": "Arctic Cannon Beetle",
       "carryMax": 60,
       "value": 20,
+      "health": 4500,
       "seeds": 50,
       "drops": [
         {

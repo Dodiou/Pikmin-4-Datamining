@@ -236,6 +236,7 @@
       "name": "Sovereign Bulblax",
       "carryMax": 60,
       "value": 20,
+      "health": 8000,
       "seeds": 50,
       "drops": [
         {

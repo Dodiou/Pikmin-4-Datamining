@@ -610,6 +610,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -625,6 +626,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -640,6 +642,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -655,6 +658,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -670,6 +674,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -685,6 +690,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -700,6 +706,7 @@
       "name": "Armored Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {

@@ -105,6 +105,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -120,6 +121,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -135,6 +137,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {

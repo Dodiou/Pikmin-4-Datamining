@@ -210,6 +210,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -225,6 +226,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -240,6 +242,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -255,6 +258,7 @@
       "name": "Wolpole",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -270,6 +274,7 @@
       "name": "Wolpole",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -285,6 +290,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -300,6 +306,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -315,6 +322,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -330,6 +338,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -345,6 +354,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -360,6 +370,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -375,6 +386,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -390,6 +402,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -405,6 +418,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {

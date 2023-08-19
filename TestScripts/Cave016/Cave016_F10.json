@@ -212,6 +212,7 @@
       "name": "Bloomcap Bloyster",
       "carryMax": 14,
       "value": 5,
+      "health": 3000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -227,6 +228,7 @@
       "name": "Bloomcap Bloyster",
       "carryMax": 14,
       "value": 5,
+      "health": 3000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -242,6 +244,7 @@
       "name": "Bloomcap Bloyster",
       "carryMax": 14,
       "value": 5,
+      "health": 3000,
       "seeds": 15,
       "transform": {
         "translation": {

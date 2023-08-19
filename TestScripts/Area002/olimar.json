@@ -580,6 +580,7 @@
     {
       "type": "gate-bomb",
       "infoType": "gate",
+      "health": 30000,
       "transform": {
         "translation": {
           "x": 1404.5051,
@@ -907,6 +908,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 1575.3053,
@@ -1040,6 +1042,7 @@
       "name": "Burrowing Snagret",
       "carryMax": 30,
       "value": 15,
+      "health": 2500,
       "seeds": 20,
       "drops": [
         {
@@ -1063,6 +1066,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -1092,6 +1096,7 @@
       "name": "Creeping Chrysanthemum",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -1107,6 +1112,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1122,6 +1128,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1137,6 +1144,7 @@
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
       "value": 0,
+      "health": 200,
       "seeds": 0,
       "drops": [
         {
@@ -1172,6 +1180,7 @@
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
       "value": 0,
+      "health": 200,
       "seeds": 0,
       "drops": [
         {
@@ -1207,6 +1216,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1222,6 +1232,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1237,6 +1248,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1252,6 +1264,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1267,6 +1280,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -1282,6 +1296,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1297,6 +1312,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1312,6 +1328,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1327,6 +1344,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1342,6 +1360,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1357,6 +1376,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1372,6 +1392,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1387,6 +1408,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1402,6 +1424,7 @@
       "name": "Creeping Chrysanthemum",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -1417,6 +1440,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1432,6 +1456,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1447,6 +1472,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1462,6 +1488,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1477,6 +1504,7 @@
       "name": "Baldy Long Legs",
       "carryMax": 0,
       "value": 0,
+      "health": 3700,
       "seeds": 0,
       "drops": [
         {
@@ -1506,6 +1534,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1521,6 +1550,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1536,6 +1566,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1551,6 +1582,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1566,6 +1598,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -1581,6 +1614,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1604,6 +1638,7 @@
       "name": "Red Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1627,6 +1662,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1650,6 +1686,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {

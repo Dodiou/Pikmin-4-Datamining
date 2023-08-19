@@ -36,10 +36,12 @@ function parseNonNumberedGate(comp, compsList) {
   const type = MarkerTypeMap[markerMatch];
 
   const VarGateAI = getObjectFromPath(comp.Properties.VarGateAI, compsList);
+  const LifeComponent = getObjectFromPath(comp.Properties.LifeComponent, compsList);
 
   return removeUndefineds({
     type,
     infoType: InfoType.Gate,
+    health: LifeComponent.Properties?.Life,
     drops: parseObjectDropList(VarGateAI)
   });
 }

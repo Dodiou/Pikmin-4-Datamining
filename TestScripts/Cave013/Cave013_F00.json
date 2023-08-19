@@ -128,6 +128,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -143,6 +144,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -158,6 +160,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -173,6 +176,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -202,6 +206,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {

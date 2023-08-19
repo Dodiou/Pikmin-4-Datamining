@@ -162,6 +162,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 1405.9194,
@@ -173,6 +174,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -3016.044,
@@ -212,6 +214,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 861.91327,
@@ -459,6 +462,7 @@
     {
       "type": "gate-bomb",
       "infoType": "gate",
+      "health": 30000,
       "transform": {
         "translation": {
           "x": 2780,
@@ -472,6 +476,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 123.57311,
@@ -483,6 +488,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 15.031854,
@@ -1183,6 +1189,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "drops": [
         {
@@ -1206,6 +1213,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "drops": [
         {
@@ -1229,6 +1237,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "drops": [
         {
@@ -1252,6 +1261,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {
@@ -1275,6 +1285,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {
@@ -1298,6 +1309,7 @@
       "name": "Creeping Chrysanthemum",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "drops": [
         {
@@ -1321,6 +1333,7 @@
       "name": "Creeping Chrysanthemum",
       "carryMax": 20,
       "value": 12,
+      "health": 2000,
       "seeds": 12,
       "drops": [
         {
@@ -1344,6 +1357,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1359,6 +1373,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1374,6 +1389,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1389,6 +1405,7 @@
       "name": "Bearded Amprat",
       "carryMax": 14,
       "value": 7,
+      "health": 750,
       "seeds": 6,
       "drops": [
         {
@@ -1412,6 +1429,7 @@
       "name": "Bearded Amprat",
       "carryMax": 14,
       "value": 7,
+      "health": 750,
       "seeds": 6,
       "drops": [
         {
@@ -1435,6 +1453,7 @@
       "name": "Burrowing Snagret",
       "carryMax": 30,
       "value": 15,
+      "health": 2500,
       "seeds": 20,
       "drops": [
         {
@@ -1458,6 +1477,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "drops": [
         {
@@ -1481,6 +1501,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "drops": [
         {
@@ -1504,6 +1525,7 @@
       "name": "Iridescent Flint Beetle",
       "carryMax": 0,
       "value": 0,
+      "health": 200,
       "seeds": 0,
       "drops": [
         {
@@ -1539,6 +1561,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1554,6 +1577,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "drops": [
         {
@@ -1577,6 +1601,7 @@
       "name": "Mamuta",
       "carryMax": 20,
       "value": 10,
+      "health": 1800,
       "seeds": 12,
       "drops": [
         {
@@ -1600,6 +1625,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "drops": [
         {
@@ -1623,6 +1649,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {
@@ -1646,6 +1673,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1661,6 +1689,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -1676,6 +1705,7 @@
       "name": "Yellow Wollyhop",
       "carryMax": 10,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "drops": [
         {
@@ -1699,6 +1729,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "drops": [
         {
@@ -1722,6 +1753,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "drops": [
         {
@@ -1745,6 +1777,7 @@
       "name": "White Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1768,6 +1801,7 @@
       "name": "White Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1791,6 +1825,7 @@
       "name": "White Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1814,6 +1849,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1837,6 +1873,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1860,6 +1897,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1883,6 +1921,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1906,6 +1945,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -1929,6 +1969,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1944,6 +1985,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1959,6 +2001,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1974,6 +2017,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -1989,6 +2033,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -2004,6 +2049,7 @@
       "name": "Downy Snagret",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2019,6 +2065,7 @@
       "name": "Yellow Spectralids",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 1,
       "drops": [
         {
@@ -2042,6 +2089,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2071,6 +2119,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2100,6 +2149,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2129,6 +2179,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2158,6 +2209,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2187,6 +2239,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2216,6 +2269,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2245,6 +2299,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2274,6 +2329,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2303,6 +2359,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2332,6 +2389,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2355,6 +2413,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2378,6 +2437,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2401,6 +2461,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2424,6 +2485,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2447,6 +2509,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2470,6 +2533,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2493,6 +2557,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2516,6 +2581,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -2539,6 +2605,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {

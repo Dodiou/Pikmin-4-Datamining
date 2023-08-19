@@ -15,6 +15,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 61.930595,
@@ -263,6 +264,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -286,6 +288,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -309,6 +312,7 @@
       "name": "Chillyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "drops": [
         {

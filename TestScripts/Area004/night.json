@@ -85,6 +85,7 @@
     {
       "type": "gate-bomb",
       "infoType": "gate",
+      "health": 30000,
       "transform": {
         "translation": {
           "x": -3162.65,
@@ -1278,6 +1279,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -2886,
@@ -2089,6 +2091,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2104,6 +2107,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2119,6 +2123,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2134,6 +2139,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2149,6 +2155,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2164,6 +2171,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2179,6 +2187,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2194,6 +2203,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2209,6 +2219,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2224,6 +2235,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2239,6 +2251,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2254,6 +2267,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2269,6 +2283,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2284,6 +2299,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2299,6 +2315,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2314,6 +2331,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2329,6 +2347,7 @@
       "name": "Dwarf Bulbear",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2344,6 +2363,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2359,6 +2379,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2374,6 +2395,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2389,6 +2411,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2404,6 +2427,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2419,6 +2443,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2434,6 +2459,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2449,6 +2475,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2464,6 +2491,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2479,6 +2507,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2494,6 +2523,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2509,6 +2539,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2524,6 +2555,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2539,6 +2571,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2554,6 +2587,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2569,6 +2603,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2584,6 +2619,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2599,6 +2635,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2614,6 +2651,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -2629,6 +2667,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2644,6 +2683,7 @@
       "name": "Desiccated Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -2659,6 +2699,7 @@
       "name": "Fiery Bulblax",
       "carryMax": 24,
       "value": 12,
+      "health": 2000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -2674,6 +2715,7 @@
       "name": "Fiery Bulblax",
       "carryMax": 24,
       "value": 12,
+      "health": 2000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -2689,6 +2731,7 @@
       "name": "Fiery Bulblax",
       "carryMax": 24,
       "value": 12,
+      "health": 2000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -2704,6 +2747,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -2727,6 +2771,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -2750,6 +2795,7 @@
       "name": "Spotty Bulbear",
       "carryMax": 24,
       "value": 12,
+      "health": 1800,
       "seeds": 15,
       "drops": [
         {
@@ -2773,6 +2819,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -2788,6 +2835,7 @@
       "name": "Emperor Bulblax",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -2803,6 +2851,7 @@
       "name": "Baldy Long Legs",
       "carryMax": 0,
       "value": 0,
+      "health": 3700,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -2818,6 +2867,7 @@
       "name": "Baldy Long Legs",
       "carryMax": 0,
       "value": 0,
+      "health": 3700,
       "seeds": 0,
       "transform": {
         "translation": {

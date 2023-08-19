@@ -238,6 +238,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -1,
@@ -249,6 +250,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -763,
@@ -345,6 +347,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": 567,
@@ -356,6 +359,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -273,
@@ -398,6 +402,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -413,6 +418,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -428,6 +434,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -443,6 +450,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -458,6 +466,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -473,6 +482,7 @@
       "name": "Dwarf Orange Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -488,6 +498,7 @@
       "name": "Masterhop",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 15,
       "transform": {
         "translation": {
@@ -503,6 +514,7 @@
       "name": "Orange Bulborb",
       "carryMax": 20,
       "value": 12,
+      "health": 1800,
       "seeds": 12,
       "transform": {
         "translation": {
@@ -518,6 +530,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -533,6 +546,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "transform": {
         "translation": {

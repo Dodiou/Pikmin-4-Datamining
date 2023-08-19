@@ -56,6 +56,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": -1665,
@@ -67,6 +68,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "health": 4000,
       "transform": {
         "translation": {
           "x": 1252,
@@ -416,6 +418,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -431,6 +434,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -446,6 +450,7 @@
       "name": "Icy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -461,6 +466,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -476,6 +482,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -491,6 +498,7 @@
       "name": "Dwarf Frosty Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -506,6 +514,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -521,6 +530,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -536,6 +546,7 @@
       "name": "Arctic Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {

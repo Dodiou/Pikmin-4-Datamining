@@ -181,6 +181,7 @@
       "name": "Masterhop",
       "carryMax": 30,
       "value": 15,
+      "health": 3000,
       "seeds": 15,
       "drops": [
         {

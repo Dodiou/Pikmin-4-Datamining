@@ -28,6 +28,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 1205.5997,
@@ -377,6 +378,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "drops": [
         {
@@ -400,6 +402,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "drops": [
         {
@@ -423,6 +426,7 @@
       "name": "Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 450,
       "seeds": 6,
       "drops": [
         {
@@ -446,6 +450,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "drops": [
         {
@@ -469,6 +474,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "drops": [
         {
@@ -493,6 +499,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -509,6 +516,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "drops": [
         {
@@ -532,6 +540,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "drops": [
         {
@@ -555,6 +564,7 @@
       "name": "Doodlebug",
       "carryMax": 0,
       "value": 0,
+      "health": 400,
       "seeds": 0,
       "drops": [
         {
@@ -596,6 +606,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -625,6 +636,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -654,6 +666,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -683,6 +696,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -712,6 +726,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -741,6 +756,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -770,6 +786,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -799,6 +816,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -828,6 +846,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -857,6 +876,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {

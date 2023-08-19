@@ -75,6 +75,7 @@
       "name": "Foolix",
       "carryMax": 10,
       "value": 20,
+      "health": 12000,
       "seeds": 30,
       "drops": [
         {

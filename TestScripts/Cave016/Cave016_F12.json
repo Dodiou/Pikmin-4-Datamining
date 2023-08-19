@@ -328,6 +328,7 @@
       "name": "Gildemander",
       "carryMax": 40,
       "value": 20,
+      "health": 6000,
       "seeds": 30,
       "drops": [
         {

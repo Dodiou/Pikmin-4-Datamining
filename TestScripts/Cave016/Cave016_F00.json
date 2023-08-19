@@ -127,6 +127,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -142,6 +143,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -157,6 +159,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -172,6 +175,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -187,6 +191,7 @@
       "name": "Toxstool",
       "carryMax": 24,
       "value": 20,
+      "health": 15000,
       "seeds": 20,
       "drops": [
         {
@@ -216,6 +221,7 @@
       "name": "Moldy Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -231,6 +237,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {

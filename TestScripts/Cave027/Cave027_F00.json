@@ -640,6 +640,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -655,6 +656,7 @@
       "name": "Puffy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -670,6 +672,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -685,6 +688,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -700,6 +704,7 @@
       "name": "Swooping Snitchbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -715,6 +720,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -730,6 +736,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -745,6 +752,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -760,6 +768,7 @@
       "name": "Shearwig",
       "carryMax": 1,
       "value": 1,
+      "health": 74,
       "seeds": 3,
       "transform": {
         "translation": {

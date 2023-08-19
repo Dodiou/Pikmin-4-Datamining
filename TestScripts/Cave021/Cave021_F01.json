@@ -290,6 +290,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -313,6 +314,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -336,6 +338,7 @@
       "name": "Pricklepuff",
       "carryMax": 14,
       "value": 5,
+      "health": 300,
       "seeds": 8,
       "drops": [
         {
@@ -359,6 +362,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -374,6 +378,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -389,6 +394,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -418,6 +424,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -447,6 +454,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -476,6 +484,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -505,6 +514,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -534,6 +544,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -563,6 +574,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -592,6 +604,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -621,6 +634,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {
@@ -650,6 +664,7 @@
       "name": "Mitite",
       "carryMax": 1,
       "value": 1,
+      "health": 1,
       "seeds": 2,
       "drops": [
         {

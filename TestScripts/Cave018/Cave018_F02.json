@@ -144,6 +144,7 @@
       "name": "Hermit Crawmad",
       "carryMax": 10,
       "value": 5,
+      "health": 750,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -159,6 +160,7 @@
       "name": "Hermit Crawmad",
       "carryMax": 10,
       "value": 5,
+      "health": 750,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -174,6 +176,7 @@
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
       "value": 20,
+      "health": 2000,
       "seeds": 20,
       "drops": [
         {
@@ -203,6 +206,7 @@
       "name": "Bug-Eyed Crawmad",
       "carryMax": 30,
       "value": 20,
+      "health": 2000,
       "seeds": 20,
       "transform": {
         "translation": {

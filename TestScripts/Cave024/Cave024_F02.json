@@ -250,6 +250,7 @@
       "name": "Puffy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -265,6 +266,7 @@
       "name": "Puffy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -280,6 +282,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -295,6 +298,7 @@
       "name": "Waddlepus",
       "carryMax": 14,
       "value": 5,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {

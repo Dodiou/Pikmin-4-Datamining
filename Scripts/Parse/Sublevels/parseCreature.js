@@ -42,6 +42,7 @@ export function getCreatureFromType(type) {
     weight: creature.CarryWeighMin,
     carryMax: creature.CarryWeightMax,
     value: creature.Kira,
+    health: creature.MaxLife,
     seeds: creature.CarryIncPikmins
   }
 };

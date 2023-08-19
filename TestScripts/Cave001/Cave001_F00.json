@@ -276,6 +276,7 @@
       "name": "Female Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -292,6 +293,7 @@
       "name": "Male Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 2,
       "transform": {
         "translation": {
@@ -308,6 +310,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -331,6 +334,7 @@
       "name": "Female Sheargrub",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {

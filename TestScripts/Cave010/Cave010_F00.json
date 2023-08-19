@@ -47,6 +47,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -474.89346,
@@ -58,6 +59,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -472.60052,
@@ -277,6 +279,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "drops": [
         {
@@ -300,6 +303,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "drops": [
         {

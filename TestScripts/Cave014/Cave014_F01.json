@@ -55,6 +55,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -2330.568,
@@ -66,6 +67,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -979.9054,
@@ -295,6 +297,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "drops": [
         {
@@ -324,6 +327,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -339,6 +343,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -354,6 +359,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -369,6 +375,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -384,6 +391,7 @@
       "name": "Fiery Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -399,6 +407,7 @@
       "name": "Waterwraith",
       "carryMax": 0,
       "value": 0,
+      "health": 1800,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -414,6 +423,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -429,6 +439,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -444,6 +455,7 @@
       "name": "Fiery Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -459,6 +471,7 @@
       "name": "Pearly Clamclamp",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 15,
       "transform": {
         "translation": {

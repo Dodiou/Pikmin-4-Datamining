@@ -336,6 +336,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "drops": [
         {
@@ -359,6 +360,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -375,6 +377,7 @@
       "name": "Wollyhop",
       "carryMax": 10,
       "value": 7,
+      "health": 1300,
       "seeds": 8,
       "drops": [
         {
@@ -398,6 +401,7 @@
       "name": "Armored Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -413,6 +417,7 @@
       "name": "Skutterchuck",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -428,6 +433,7 @@
       "name": "Porquillion",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 20,
       "drops": [
         {
@@ -457,6 +463,7 @@
       "name": "Armored Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {

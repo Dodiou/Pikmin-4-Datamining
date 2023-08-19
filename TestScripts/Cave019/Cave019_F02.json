@@ -310,6 +310,7 @@
       "name": "Horned Cannon Beetle",
       "carryMax": 60,
       "value": 20,
+      "health": 5000,
       "seeds": 50,
       "drops": [
         {

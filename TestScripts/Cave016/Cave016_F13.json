@@ -45,6 +45,7 @@
       "name": "Horned Cannon Beetle",
       "carryMax": 60,
       "value": 20,
+      "health": 5000,
       "seeds": 50,
       "drops": [
         {
@@ -74,6 +75,7 @@
       "name": "Armored Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -89,6 +91,7 @@
       "name": "Armored Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -104,6 +107,7 @@
       "name": "Armored Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {

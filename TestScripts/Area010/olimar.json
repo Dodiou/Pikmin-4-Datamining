@@ -584,6 +584,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 2548,
@@ -1439,6 +1440,7 @@
       "name": "Icy Blowhog",
       "carryMax": 1,
       "value": 7,
+      "health": 3000,
       "seeds": 5,
       "drops": [
         {
@@ -1462,6 +1464,7 @@
       "name": "Porquillion",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -1477,6 +1480,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1492,6 +1496,7 @@
       "name": "Tusked Blowhog",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1507,6 +1512,7 @@
       "name": "Honeywisp",
       "carryMax": 0,
       "value": 0,
+      "health": 1,
       "seeds": 0,
       "drops": [
         {
@@ -1536,6 +1542,7 @@
       "name": "Gildemander",
       "carryMax": 40,
       "value": 20,
+      "health": 6000,
       "seeds": 30,
       "drops": [
         {
@@ -1559,6 +1566,7 @@
       "name": "Porquillion",
       "carryMax": 24,
       "value": 12,
+      "health": 5000,
       "seeds": 20,
       "transform": {
         "translation": {
@@ -1574,6 +1582,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1589,6 +1598,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -1612,6 +1622,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -1635,6 +1646,7 @@
       "name": "Bearded Amprat",
       "carryMax": 14,
       "value": 7,
+      "health": 750,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1650,6 +1662,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -1665,6 +1678,7 @@
       "name": "Man-at-Legs",
       "carryMax": 0,
       "value": 0,
+      "health": 5000,
       "seeds": 0,
       "drops": [
         {
@@ -1688,6 +1702,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1703,6 +1718,7 @@
       "name": "Snowy Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -1718,6 +1734,7 @@
       "name": "Toady Bloyster",
       "carryMax": 6,
       "value": 7,
+      "health": 1500,
       "seeds": 10,
       "transform": {
         "translation": {
@@ -1733,6 +1750,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -1748,6 +1766,7 @@
       "name": "Hydro Dweevil",
       "carryMax": 4,
       "value": 2,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {

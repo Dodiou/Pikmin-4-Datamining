@@ -590,6 +590,7 @@
       "name": "Armored Cannon Larva",
       "carryMax": 14,
       "value": 7,
+      "health": 900,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -605,6 +606,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -620,6 +622,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -635,6 +638,7 @@
       "name": "Mammoth Snootwhacker",
       "carryMax": 40,
       "value": 20,
+      "health": 7000,
       "seeds": 20,
       "drops": [
         {
@@ -658,6 +662,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -673,6 +678,7 @@
       "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 150,
       "seeds": 3,
       "transform": {
         "translation": {

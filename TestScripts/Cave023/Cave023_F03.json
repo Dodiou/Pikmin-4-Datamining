@@ -244,6 +244,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "health": 1120,
       "transform": {
         "translation": {
           "x": -688,
@@ -261,6 +262,7 @@
       "name": "Breadbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -276,6 +278,7 @@
       "name": "Breadbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -291,6 +294,7 @@
       "name": "Breadbug",
       "carryMax": 6,
       "value": 3,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -306,6 +310,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -321,6 +326,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -336,6 +342,7 @@
       "name": "Flighty Joustmite",
       "carryMax": 14,
       "value": 5,
+      "health": 600,
       "seeds": 8,
       "transform": {
         "translation": {
@@ -351,6 +358,7 @@
       "name": "Waddlequaff",
       "carryMax": 14,
       "value": 7,
+      "health": 1000,
       "seeds": 8,
       "transform": {
         "translation": {

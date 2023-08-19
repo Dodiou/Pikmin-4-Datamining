@@ -154,6 +154,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": -410.47974,
@@ -165,6 +166,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 882.5,
@@ -371,6 +373,7 @@
       "name": "Fiery Bulblax",
       "carryMax": 24,
       "value": 12,
+      "health": 2000,
       "seeds": 15,
       "drops": [
         {
@@ -400,6 +403,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "drops": [
         {
@@ -423,6 +427,7 @@
       "name": "Waterwraith",
       "carryMax": 0,
       "value": 0,
+      "health": 1800,
       "seeds": 0,
       "transform": {
         "translation": {
@@ -438,6 +443,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -453,6 +459,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -468,6 +475,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {

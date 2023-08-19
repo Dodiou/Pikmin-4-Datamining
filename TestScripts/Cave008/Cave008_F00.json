@@ -260,6 +260,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 131.84131,
@@ -322,6 +323,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "health": 8000,
       "transform": {
         "translation": {
           "x": 835.0142,
@@ -448,6 +450,7 @@
       "name": "Bulborb",
       "carryMax": 20,
       "value": 10,
+      "health": 1000,
       "seeds": 10,
       "drops": [
         {
@@ -471,6 +474,7 @@
       "name": "Pyroclasmic Slooch",
       "carryMax": 6,
       "value": 3,
+      "health": 300,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -486,6 +490,7 @@
       "name": "Anode Beetle",
       "carryMax": 6,
       "value": 3,
+      "health": 350,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -501,6 +506,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -516,6 +522,7 @@
       "name": "Fiery Blowhog",
       "carryMax": 10,
       "value": 5,
+      "health": 1000,
       "seeds": 5,
       "transform": {
         "translation": {
@@ -531,6 +538,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -546,6 +554,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -561,6 +570,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {
@@ -576,6 +586,7 @@
       "name": "Anode Beetle",
       "carryMax": 6,
       "value": 3,
+      "health": 350,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -591,6 +602,7 @@
       "name": "Anode Beetle",
       "carryMax": 6,
       "value": 3,
+      "health": 350,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -606,6 +618,7 @@
       "name": "Skitter Leaf",
       "carryMax": 1,
       "value": 1,
+      "health": 45,
       "seeds": 1,
       "transform": {
         "translation": {

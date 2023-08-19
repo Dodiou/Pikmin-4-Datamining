@@ -235,6 +235,7 @@
       "name": "Snowfake Fluttertail",
       "carryMax": 30,
       "value": 20,
+      "health": 6000,
       "seeds": 20,
       "drops": [
         {

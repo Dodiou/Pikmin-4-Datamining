@@ -650,6 +650,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -665,6 +666,7 @@
       "name": "Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
+      "health": 100,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -680,6 +682,7 @@
       "name": "Sunsquish",
       "carryMax": 1,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -695,6 +698,7 @@
       "name": "Sunsquish",
       "carryMax": 1,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -710,6 +714,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -725,6 +730,7 @@
       "name": "Sunsquish",
       "carryMax": 1,
       "value": 3,
+      "health": 450,
       "seeds": 4,
       "transform": {
         "translation": {
@@ -740,6 +746,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -763,6 +770,7 @@
       "name": "Gildemandwee",
       "carryMax": 10,
       "value": 5,
+      "health": 500,
       "seeds": 6,
       "drops": [
         {
@@ -786,6 +794,7 @@
       "name": "Jumbo Bulborb",
       "carryMax": 40,
       "value": 15,
+      "health": 2500,
       "seeds": 15,
       "drops": [
         {
@@ -815,6 +824,7 @@
       "name": "Miniature Snootwhacker",
       "carryMax": 14,
       "value": 7,
+      "health": 500,
       "seeds": 6,
       "transform": {
         "translation": {
@@ -830,6 +840,7 @@
       "name": "Mammoth Snootwhacker",
       "carryMax": 40,
       "value": 20,
+      "health": 7000,
       "seeds": 20,
       "drops": [
         {
