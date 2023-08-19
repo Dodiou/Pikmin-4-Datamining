@@ -170,121 +170,146 @@ export const PikminColorEnumMap = {
   "EPikminColor::None": PikminColor.Red,
 }
 
-// Categories
-// const Collectable = {
-//   CollectableTreasure,
-//   CollectableCastaway,
-//   CollectableCreature,
-//   CollectableOnionRed,
-//   CollectableOnionYellow,
-//   CollectableOnionBlue,
-//   CollectableOnion,
-//   CollectableOnionRed,
-//   CollectableOnionRed,
-// }
 
-// const GateType = {
-//   GateBomb,
-//   GateCrystal,
-//   GateDirt,
-//   GateElectric,
-//   GateIce,
-//   GateNumbered,
-//   GateSquashbag
-// }
+export const MarkerType = {
+  // collectibles
+  Treasure: 'treasure',
+  CastawayNormal: 'castaway-normal',
+  CastawayLeafling: 'castaway-leafling',
+  Creature: 'creature',
+  OnionFlarlic: 'onion-flarlic',
+  OnionRed: 'onion-red',
+  OnionYellow: 'onion-yellow',
+  OnionBlue: 'onion-blue',
+  OnionPurple: 'onion-purple',
+  OnionWhite: 'onion-white',
+  OnionRock: 'onion-rock',
+  OnionWing: 'onion-wing',
+  OnionIce: 'onion-ice',
+  // pikmin
+  PikminRed: 'pikmin-red',
+  PikminYellow: 'pikmin-yellow',
+  PikminBlue: 'pikmin-blue',
+  PikminPurple: 'pikmin-purple',
+  PikminWhite: 'pikmin-white',
+  PikminRock: 'pikmin-rock',
+  PikminWing: 'pikmin-wing',
+  PikminIce: 'pikmin-ice',
+  CandypopRed: 'candypop-red',
+  CandypopYellow: 'candypop-yellow',
+  CandypopBlue: 'candypop-blue',
+  CandypopPurple: 'candypop-purple',
+  CandypopWhite: 'candypop-white',
+  CandypopRock: 'candypop-rock',
+  CandypopWing: 'candypop-wing',
+  CandypopIce: 'candypop-ice',
+  // structures
+  PileMaterials: 'pile-materials',
+  StructureBridge: 'structure-bridge',
+  StructureSlope: 'structure-slope',
+  StructureValve: 'structure-valve',
+  StructureWall: 'structure-wall',
+  HazardSprinkler: 'hazardradial-sprinkler',
+  // breakables
+  BreakableHydrojelly: 'breakable-hydrojelly',
+  BreakablePot: 'breakable-pot',
+  MushroomLarge: 'mushroom-large',
+  MushroomSmall: 'mushroom-small',
+  BreakableStraw: 'breakable-straw',
+  BreakableIcebox: 'breakable-icebox',
+  FirepitLit: 'firepit-lit',
+  FirepitUnlit: 'firepit-unlit',
+  BreakableCrystal: 'breakable-crystal',
+  // items
+  WorkableMound: 'breakable-mound',
+  MiscEgg: 'misc-egg',
+  MiscBomb: 'miscitem-bomb',
+  MiscIcebomb: 'miscitem-icebomb',
+  MiscSpicy: 'miscitem-spicy', // not an actual map marker, but is a drop marker
+  MiscSpiderwort: 'misc-spiderwort',
+  // hazards
+  HazardSpoutFire: 'hazardspout-fire',
+  HazardSpoutElectric: 'hazardspout-electric',
+  HazardSpoutWater: 'hazardspout-water',
+  HazardSpoutPoison: 'hazardspout-poison',
+  HazardSpoutIce: 'hazardspout-ice',
+  HazardSpoutBubble: 'hazardspout-bubble',
+  HazardFloorfire: 'hazardradial-floorfire',
+  HazardCharcoal: 'hazardmisc-charcoal',
+  HazardFloormushroom: 'hazardradial-floormushroom',
+  // shortcuts
+  ShortcutClipboardhigh: 'shortcut-clipboardhigh',
+  ShortcutClipboardlow: 'shortcut-clipboardlow',
+  ShortcutPushbag: 'shortcut-pushbag',
+  ShortcutRoot: 'shortcut-root',
+  ShortcutString: 'shortcut-string',
+  RidableGeyser: 'ridable-geyser',
+  RidableZipline: 'ridable-zipline',
+  TunnelAny: 'tunnel-any',
+  TunnelCaptain: 'tunnel-captain',
+  TunnelOatchi: 'tunnel-oatchi',
+  PlatformBounce: 'platform-bounceshroom',
+  PlatformCharge: 'platform-chargeshroom',
+  RidableMovefloor: 'ridable-movefloor',
+  // gates
+  GateBomb: 'gate-bomb',
+  GateCrystal: 'gate-crystal',
+  GateDirt: 'gate-dirt',
+  GateElectric: 'gate-electric',
+  GateIce: 'gate-ice',
+  GateNumbered: 'gate-numbered',
+  GateSquashbag: 'gate-squashbag',
+  // switchables
+  SwitchConveyor: 'switchable-conveyor',
+  SwitchFan: 'switchable-fan',
+  SwitchFenceIron: 'switchable-fenceiron',
+  SwitchFenceNormal: 'switchable-fencenormal',
+  SwitchSingle: 'switchable-singleswitch',
+  SwitchDouble: 'switchable-doubleswitch',
+  // locations
+  BaseOnion: 'base-beagle',
+  BaseBeagle: 'base-onion',
+  CaveEntrance: 'cave-entrance',
+  CaveExit: 'cave-exit',
+  CaveChallenge: 'cave-challenge',
+  CaveBattle: 'cave-battle',
+  // water
+  WaterWater: 'water-water',
+  WaterSwamp: 'water-swamp',
+  SwitchDrain: 'switchable-drain',
+  // misc
+  MiscPullrope: 'misc-pullrope',
+  MiscStick: 'misc-stick',
+  MiscIcicle: 'misc-icicle',
+  MiscHoney: 'miscitem-honey',
+  MiscPellet: 'misc-pellet',
+  // night
+  NightLumiknoll: 'night-lumiknoll',
+  NightTricknoll: 'night-tricknoll',
+  NightGlowpellets: 'pile-glowpellets',
+}
 
-// const ShortcutType = {
-//   ShortcutClipboardHigh,
-//   ShortcutClipboardShort,
-//   ShortcutGeyser,
-//   ShortcutPushbag,
-//   ShortcutRoot,
-//   ShortcutString,
-//   ShortcutZipline
-// }
-
-// const AccessType = {
-//   AccessPlatformBounce,
-//   AccessPlatformCharge,
-//   AccessPlatformMove,
-//   AccessTunnelAny,
-//   AccessTunnelCaptain,
-//   AccessTunnelOatchi
-// }
-
-// const HazardType = {
-//   HazardFloorFire,
-//   HazardFloorCharcoal,
-//   HazardFloorMushroom,
-//   HazardSpoutFire,
-//   HazardSpoutWater,
-//   HazardSpoutIce,
-//   HazardSpoutElectric,
-//   HazardSpoutBubble,
-//   HazardSpoutPoison
-// }
-
-// const SwitchType = {
-//   SwitchConveyor,
-//   SwitchFan,
-//   SwitchFenceIron,
-//   SwitchFenceNormal,
-//   SwitchSingle,
-//   SwitchDouble,
-// }
-
-// const LocationType = {
-//   BaseOnion,
-//   BaseBeagle,
-//   CaveEntrance,
-//   CaveExit,
-//   CaveChallenge,
-//   CaveBattle
-// }
-
-// const StructureType = {
-//   Materials,
-//   StructureBridge,
-//   StructureSlope,
-//   StructureValve,
-//   StructureWall,
-//   Sprinkler
-// }
-
-// const BreakableType = {
-//   Crystal,
-//   Hydrojelly,
-//   Icebox,
-//   Pot,
-//   Straw,
-//   MushroomLarge,
-//   MushroomSmall
-// }
-
-// const WorkType = {
-//   WorkMound,
-//   WorkPullrope,
-//   WorkStick,
-// }
-
-// const MiscType = {
-//   MiscIcicle,
-//   MiscHoney,
-//   MiscPellet,
-//   MiscEgg,
-//   MiscBomb,
-//   MiscIcebomb,
-//   MiscSpiderwort
-// }
-
-// const WaterType = {
-//   WaterWater,
-//   WaterSwamp,
-//   WaterDrain,
-// }
-
-// const NightType = {
-//   NightLumiknoll,
-//   NightTricknoll,
-//   NightGlowpellets
-// }
+export const InfoType = {
+  Treasure: 'treasure',
+  Castaway: 'castaway',
+  Onion: 'onion',
+  Pikmin: 'pikmin',
+  Candypop: 'candypop',
+  Structure: 'structure',
+  Pile: 'pile',
+  Breakable: 'breakable',
+  Mushroom: 'mushroom',
+  Firepit: 'firepit',
+  Hazard: 'hazard',
+  Shortcut: 'shortcut',
+  Ridable: 'ridable',
+  Platform: 'platform',
+  Tunnel: 'tunnel',
+  Gate: 'gate',
+  Switchable: 'switchable',
+  Base: 'base',
+  Cave: 'cave',
+  Water: 'water',
+  Misc: 'misc',
+  Night: 'night',
+}

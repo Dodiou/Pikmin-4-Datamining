@@ -6,7 +6,7 @@ function parseMushroomComp(comp, compsList) {
   const AIComponent = getObjectFromPath(comp.Properties.KomushAI || comp.Properties.PoisonMushAI, compsList);
   const isPoison = comp.Type.includes('Poison');
   // So many combinations: Full type regex below (I think)
-  //   G(Sticky|Poison)?(Kom|M)ush(Poison)?(L|S)?_C
+  //   G(Sticky|Poison)?(Kom|M)ush(L|S)?_C
   // "Ko" means child/small. Hopefully no Kingcaps use 'Komush'.
   // "Sticky" mushrooms appear on StickyFloor's. These are never large
   const isLarge = !comp.Type.includes('Komush') && !comp.Type.includes('Sticky');
