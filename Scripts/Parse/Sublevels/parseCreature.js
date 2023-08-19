@@ -36,7 +36,7 @@ export function getCreatureFromType(type) {
 
   return {
     type: MarkerType.Creature,
-    infoType: InfoType.Castaway,
+    infoType: InfoType.Creature,
     creatureId,
     name: creatureName,
     weight: creature.CarryWeighMin,
