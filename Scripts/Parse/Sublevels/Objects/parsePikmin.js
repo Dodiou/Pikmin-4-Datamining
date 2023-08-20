@@ -73,7 +73,7 @@ function parsePikmin(params, pikminState) {
     replacedBy,
     // XYZ offset of where to spawn the replacement candypop. E.g. enter Last-Frost Cavern w/ 51 ice pikmin
     //   and a candypop will spawn 1000,-1000,0 from the icy blowhog (ends up near the onion location)
-    candypopOffset: replacedBy === 'candypop'
+    candypopOffset: replacedBy && replacedBy.startsWith('candypop')
       ? params.MabikiPongashiOffset
       : undefined
   });

@@ -310,6 +310,11 @@
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "candypop-blue",
+      "candypopOffset": {
+        "X": -760,
+        "Y": 345,
+        "Z": 115
+      },
       "transform": {
         "translation": {
           "x": -353,
@@ -325,6 +330,11 @@
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "candypop-blue",
+      "candypopOffset": {
+        "X": -177,
+        "Y": 389.50687,
+        "Z": 125
+      },
       "transform": {
         "translation": {
           "x": 288.1897,

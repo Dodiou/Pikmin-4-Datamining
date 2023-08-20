@@ -109,6 +109,11 @@
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "candypop-rock",
+      "candypopOffset": {
+        "X": 0,
+        "Y": 155.56754,
+        "Z": 0
+      },
       "transform": {
         "translation": {
           "x": -136.8414,

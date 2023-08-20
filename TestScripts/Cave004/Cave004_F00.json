@@ -125,6 +125,11 @@
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "candypop-ice",
+      "candypopOffset": {
+        "X": -685,
+        "Y": 135,
+        "Z": 5
+      },
       "transform": {
         "translation": {
           "x": -297.93475,

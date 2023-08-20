@@ -35,6 +35,11 @@
       "amount": 5,
       "disappearsAt": 51,
       "replacedBy": "candypop-yellow",
+      "candypopOffset": {
+        "X": 210,
+        "Y": 50,
+        "Z": -84
+      },
       "transform": {
         "translation": {
           "x": -399,
