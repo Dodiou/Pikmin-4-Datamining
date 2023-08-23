@@ -110,6 +110,8 @@ export const MarkerType = {
   ShortcutClipboardhigh: 'shortcut-clipboardhigh',
   ShortcutClipboardlow: 'shortcut-clipboardlow',
   ShortcutPushbag: 'shortcut-pushbag',
+  //ShortcutPushboxcardboard: 'shortcut-pushboxcardboard',
+  //ShortcutPushboxmetal: 'shortcut-pushboxmetal',
   ShortcutRoot: 'shortcut-root',
   ShortcutStringup: 'shortcut-stringup',
   ShortcutStringdown: 'shortcut-stringdown',
