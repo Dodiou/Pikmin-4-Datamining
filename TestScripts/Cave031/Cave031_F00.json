@@ -57,7 +57,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 2667,
       "transform": {
         "translation": {
           "x": -1803.114,
@@ -451,7 +451,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
-      "health": 4000,
+      "health": 1333,
       "transform": {
         "translation": {
           "x": -848.5,

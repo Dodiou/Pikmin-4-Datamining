@@ -592,6 +592,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -2682,
@@ -633,9 +641,9 @@
       }
     }
   ],
-  "shortcut-pushbag": [
+  "shortcut-pushboxmetal": [
     {
-      "type": "shortcut-pushbag",
+      "type": "shortcut-pushboxmetal",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {

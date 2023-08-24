@@ -904,6 +904,18 @@
       }
     }
   ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 2021.7275,
+          "y": -1797.8944
+        }
+      }
+    }
+  ],
   "gate-electric": [
     {
       "type": "gate-electric",

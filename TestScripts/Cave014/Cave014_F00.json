@@ -154,7 +154,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 4,
+          "max": 4
+        }
+      ],
       "transform": {
         "translation": {
           "x": -410.47974,
@@ -166,7 +174,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 2667,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
       "transform": {
         "translation": {
           "x": 882.5,

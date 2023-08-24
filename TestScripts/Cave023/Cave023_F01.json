@@ -278,7 +278,15 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
-      "health": 1120,
+      "health": 747,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 683,
@@ -290,7 +298,15 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
-      "health": 1120,
+      "health": 747,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -284,

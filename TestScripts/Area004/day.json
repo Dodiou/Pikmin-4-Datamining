@@ -62,18 +62,6 @@
       "weight": 10,
       "transform": {
         "translation": {
-          "x": 888,
-          "y": -3276
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "shortcut-pushbag",
-      "infoType": "shortcut",
-      "weight": 10,
-      "transform": {
-        "translation": {
           "x": -967,
           "y": -868
         },
@@ -86,12 +74,34 @@
       "type": "gate-bomb",
       "infoType": "gate",
       "health": 30000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -3162.65,
           "y": -1606.6504
         },
         "rotation": 129.29
+      }
+    }
+  ],
+  "shortcut-pushboxmetal": [
+    {
+      "type": "shortcut-pushboxmetal",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 888,
+          "y": -3276
+        },
+        "rotation": 90
       }
     }
   ],
@@ -1370,6 +1380,14 @@
       "type": "gate-crystal",
       "infoType": "gate",
       "health": 1120,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -2886,
@@ -1914,6 +1932,28 @@
         "translation": {
           "x": -4446.7324,
           "y": 1543.579
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -2341.9365,
+          "y": 1262.7888
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -1976.9363,
+          "y": 1226.7888
         }
       }
     }

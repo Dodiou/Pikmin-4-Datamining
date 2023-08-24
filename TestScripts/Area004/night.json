@@ -62,18 +62,6 @@
       "weight": 10,
       "transform": {
         "translation": {
-          "x": 888,
-          "y": -3276
-        },
-        "rotation": 90
-      }
-    },
-    {
-      "type": "shortcut-pushbag",
-      "infoType": "shortcut",
-      "weight": 10,
-      "transform": {
-        "translation": {
           "x": -967,
           "y": -868
         },
@@ -86,12 +74,34 @@
       "type": "gate-bomb",
       "infoType": "gate",
       "health": 30000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -3162.65,
           "y": -1606.6504
         },
         "rotation": 129.29
+      }
+    }
+  ],
+  "shortcut-pushboxmetal": [
+    {
+      "type": "shortcut-pushboxmetal",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 888,
+          "y": -3276
+        },
+        "rotation": 90
       }
     }
   ],
@@ -1280,6 +1290,14 @@
       "type": "gate-crystal",
       "infoType": "gate",
       "health": 1120,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -2886,

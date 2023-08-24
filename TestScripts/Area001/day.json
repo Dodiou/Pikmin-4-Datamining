@@ -109,7 +109,15 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 4,
+          "max": 4
+        }
+      ],
       "transform": {
         "translation": {
           "x": -2070.298,
@@ -487,7 +495,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 4,
+          "max": 4
+        }
+      ],
       "transform": {
         "translation": {
           "x": 1571,
@@ -500,6 +516,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -608,
@@ -962,6 +986,28 @@
         "translation": {
           "x": -946,
           "y": 3535
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -327,
+          "y": 2860
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 59,
+          "y": 3571
         }
       }
     }

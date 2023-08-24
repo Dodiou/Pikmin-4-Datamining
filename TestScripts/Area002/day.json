@@ -163,6 +163,14 @@
       "type": "gate-electric",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 1405.9194,
@@ -175,6 +183,14 @@
       "type": "gate-electric",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -3016.044,
@@ -215,6 +231,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 861.91327,
@@ -463,6 +487,14 @@
       "type": "gate-bomb",
       "infoType": "gate",
       "health": 30000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 2780,
@@ -477,6 +509,14 @@
       "type": "gate-ice",
       "infoType": "gate",
       "health": 4000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 123.57311,
@@ -489,6 +529,14 @@
       "type": "gate-ice",
       "infoType": "gate",
       "health": 4000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 15.031854,
@@ -1177,6 +1225,28 @@
         "translation": {
           "x": -665.82324,
           "y": -1689.1804
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 81.431854,
+          "y": 2007.7034
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -236,
+          "y": 2372
         }
       }
     }

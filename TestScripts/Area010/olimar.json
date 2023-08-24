@@ -584,7 +584,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
       "transform": {
         "translation": {
           "x": 2548,

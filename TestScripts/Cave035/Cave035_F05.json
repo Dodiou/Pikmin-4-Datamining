@@ -441,7 +441,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
-      "health": 1120,
+      "health": 373,
       "transform": {
         "translation": {
           "x": 430,

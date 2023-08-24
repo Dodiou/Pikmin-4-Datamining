@@ -122,7 +122,15 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 4,
+          "max": 4
+        }
+      ],
       "transform": {
         "translation": {
           "x": 226,

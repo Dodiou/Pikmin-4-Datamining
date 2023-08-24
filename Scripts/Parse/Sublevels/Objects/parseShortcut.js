@@ -14,6 +14,16 @@ export function isShortcutComp(comp) {
   );
 }
 
+function getPushbagType(compType) {
+  // Differentiate between push bags and push boxes, and further separate boxes to cardboard/metal. XBox is used for
+  // boxes that don't fall after being pushed, YBox is for bags/boxes that do; that difference doesn't matter for this
+  const isBox = compType.includes("XBox") || compType.includes("Cube");
+  if (!isBox) {
+    return MarkerType.ShortcutPushbag;
+  }
+  return compType.includes("Can") ? MarkerType.ShortcutPushboxcardboard : MarkerType.ShortcutPushboxmetal;
+}
+
 export function parseShortcutComp(comp, compsList) {
   if (comp.Properties.HandleBoardAI) {
     const isYellow = comp.Type.includes("Yellow");
@@ -48,17 +58,9 @@ export function parseShortcutComp(comp, compsList) {
   }
   else if (comp.Properties.PushGimmickAI) {
     const pushAffordanceComp = comp.Properties.PushAffordance && getObjectFromPath(comp.Properties.PushAffordance, compsList);
-    // Differentiate between push bags and push boxes, and further separate boxes to cardboard/metal (use different icons)
-    // XBox is used for boxes that don't fall after being pushed, YBox is for bags/boxes that do; that difference doesn't matter for this
-    // This whole thing can almost certainly be written way more elegantly using regex, feel free to rewrite it
-    //const isBox = comp.Type.includes("XBox") || comp.Type.includes("Cube");
-    //if (isBox) {
-    //  const boxType = comp.Type.includes("Can") ? MarkerType.Pushboxcardboard : MarkerType.Pushboxmetal;
-    //};
     
     return {
-      //type: isBox ? boxType : MarkerType.ShortcutPushbag,
-      type: MarkerType.ShortcutPushbag,
+      type: getPushbagType(comp.Type),
       infoType: InfoType.Shortcut,
       weight: pushAffordanceComp?.Properties?.WorkNum || 10, // See any push box. TODO: double check not component based?
     };

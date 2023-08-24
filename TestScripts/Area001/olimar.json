@@ -627,7 +627,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
       "transform": {
         "translation": {
           "x": -1982,
@@ -856,6 +856,18 @@
         "translation": {
           "x": -2832.8074,
           "y": 2427.502
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -734.0623,
+          "y": 3019.742
         }
       }
     }

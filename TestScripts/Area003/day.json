@@ -191,6 +191,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 999.48267,
@@ -203,6 +211,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 145,
@@ -214,7 +230,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 4,
+          "max": 4
+        }
+      ],
       "transform": {
         "translation": {
           "x": 2671.7703,
@@ -227,6 +251,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -3063.788,
@@ -1409,6 +1441,28 @@
         "translation": {
           "x": -3537.1636,
           "y": 1659.2542
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -1364,
+          "y": 2564
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -1129,
+          "y": 2349
         }
       }
     }

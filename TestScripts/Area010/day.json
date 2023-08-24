@@ -319,9 +319,9 @@
       }
     }
   ],
-  "shortcut-pushbag": [
+  "shortcut-pushboxmetal": [
     {
-      "type": "shortcut-pushbag",
+      "type": "shortcut-pushboxmetal",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {
@@ -330,18 +330,6 @@
           "y": -1551
         },
         "rotation": 180
-      }
-    },
-    {
-      "type": "shortcut-pushbag",
-      "infoType": "shortcut",
-      "weight": 10,
-      "transform": {
-        "translation": {
-          "x": 93,
-          "y": -1218
-        },
-        "rotation": 0
       }
     }
   ],
@@ -470,6 +458,20 @@
         "translation": {
           "x": -482.4806,
           "y": -973.82715
+        },
+        "rotation": 0
+      }
+    }
+  ],
+  "shortcut-pushbag": [
+    {
+      "type": "shortcut-pushbag",
+      "infoType": "shortcut",
+      "weight": 10,
+      "transform": {
+        "translation": {
+          "x": 93,
+          "y": -1218
         },
         "rotation": 0
       }
@@ -1463,6 +1465,28 @@
         "translation": {
           "x": 2747,
           "y": -2592
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 3384.462,
+          "y": 1748.5924
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 3940.4883,
+          "y": 1573.2502
         }
       }
     }

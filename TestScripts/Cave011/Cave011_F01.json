@@ -195,6 +195,14 @@
       "type": "gate-ice",
       "infoType": "gate",
       "health": 4000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -440,

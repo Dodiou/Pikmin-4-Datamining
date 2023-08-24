@@ -39,7 +39,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 70000,
+      "health": 46667,
       "transform": {
         "translation": {
           "x": 277.071,
@@ -51,7 +51,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 35000,
+      "health": 23333,
       "transform": {
         "translation": {
           "x": -1060,
@@ -63,7 +63,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 35000,
+      "health": 11667,
       "transform": {
         "translation": {
           "x": -47.071014,

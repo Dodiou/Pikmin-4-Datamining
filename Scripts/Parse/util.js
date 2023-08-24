@@ -98,3 +98,8 @@ export function assertDynamicallyBuiltMarkerType(type) {
     throw new Error(`Dynamically built marker type is not an actual type: ${type}`);
   }
 }
+
+export function round(num, toDecimals = 0) {
+  const multiplier = 10 ** toDecimals;
+  return Math.round(num * multiplier) / multiplier;
+}

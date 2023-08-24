@@ -55,7 +55,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 4,
+          "max": 4
+        }
+      ],
       "transform": {
         "translation": {
           "x": -2330.568,
@@ -67,7 +75,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 2667,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
       "transform": {
         "translation": {
           "x": -979.9054,
@@ -323,11 +339,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -339,11 +355,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -355,11 +371,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -371,11 +387,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -419,11 +435,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -435,11 +451,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {

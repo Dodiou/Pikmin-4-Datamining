@@ -1,7 +1,7 @@
 import { Euler, Quaternion } from 'three';
 
 import { MarkerType } from "./types.js";
-import { removeUndefineds } from './util.js';
+import { removeUndefineds, round } from './util.js';
 
 function parseGenerateNum(actor) {
   const spawnNum = actor.GenerateInfo.GenerateNum;
@@ -32,6 +32,8 @@ const ImportantRotations = [
   // no rotation adjustment:
   MarkerType.SwitchConveyor,
   MarkerType.ShortcutPushbag,
+  MarkerType.ShortcutPushboxcardboard,
+  MarkerType.ShortcutPushboxmetal,
   MarkerType.SwitchDouble,
   MarkerType.WaterWater,
   MarkerType.WaterSwamp,
@@ -81,7 +83,7 @@ function parseTransformation(actor, parsedObject) {
     // Radar only cares about rotations along about the Z axis.
     // convert to degrees
     // Round to nearest one-thousandth
-    transform.rotation = Math.round(eulerAngle.z * 180 * 1000 / Math.PI) / 1000;
+    transform.rotation = round(eulerAngle.z * 180 / Math.PI, 3);
   }
   if (needsScale) {
     transform.scale = {

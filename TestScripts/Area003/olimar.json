@@ -817,6 +817,18 @@
       }
     }
   ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 1044.8705,
+          "y": -674.7278
+        }
+      }
+    }
+  ],
   "creature": [
     {
       "type": "creature",
@@ -1551,38 +1563,6 @@
         "translation": {
           "x": 3352,
           "y": -1343
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DEMEJAKO",
-      "name": "Bug-Eyed Crawmad",
-      "carryMax": 30,
-      "value": 20,
-      "health": 2000,
-      "seeds": 20,
-      "transform": {
-        "translation": {
-          "x": -3258.7617,
-          "y": 2661.3025
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DEMEJAKO",
-      "name": "Bug-Eyed Crawmad",
-      "carryMax": 30,
-      "value": 20,
-      "health": 2000,
-      "seeds": 20,
-      "transform": {
-        "translation": {
-          "x": -2787.004,
-          "y": 2545.4324
         }
       }
     },

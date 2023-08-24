@@ -198,22 +198,6 @@
           "y": -147.83374
         }
       }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DEMEJAKO",
-      "name": "Bug-Eyed Crawmad",
-      "carryMax": 30,
-      "value": 20,
-      "health": 2000,
-      "seeds": 20,
-      "transform": {
-        "translation": {
-          "x": 82.3819,
-          "y": -149.95592
-        }
-      }
     }
   ]
 }

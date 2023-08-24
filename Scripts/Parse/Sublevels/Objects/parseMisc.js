@@ -13,6 +13,7 @@ export function isMiscComp(comp) {
     comp.Properties.IcicleAI ||
     comp.Properties.PelletAI ||
     comp.Properties.HoneyAI ||
+    comp.Properties.TsuyukusaAI ||
     comp.Properties.IwakkoCrystalAI
   );
 }
@@ -46,6 +47,12 @@ export function parseMiscComp(comp, compsList) {
       type: MarkerType.MiscHoney,
       infoType: InfoType.Misc
     };
+  }
+  else if (comp.Properties.TsuyukusaAI) {
+    return {
+      type: MarkerType.MiscSpiderwort,
+      infoType: InfoType.Misc
+    }
   }
   else if (comp.Properties.IwakkoCrystalAI) {
     const IwakkoCrystalAI = getObjectFromPath(comp.Properties.IwakkoCrystalAI, compsList);

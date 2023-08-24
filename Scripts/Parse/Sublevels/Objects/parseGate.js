@@ -1,5 +1,5 @@
 import { InfoType, MarkerType } from "../../types.js";
-import { getObjectFromPath, removeUndefineds } from "../../util.js";
+import { getObjectFromPath, removeUndefineds, round } from "../../util.js";
 import { parseObjectDropList } from "../parseDrops.js";
 import { DefaultSwitchID } from "./parseSwitchables.js";
 
@@ -23,20 +23,37 @@ function parseNumberedGate(comp, compsList) {
   });
 }
 
-// mostly copied from parseFloorObstacle.js
-/*
+// TODO: find actual units per wall num
+const WIDTH_PER_WALL_NUM = 100;
 const ROCKGATE_WIDTH_REGEX = /GGateRock(\d+)uu_C/;
 // TODO I don't think this is correct... uu might not match to actual units 1:1
-function getGateWidth(compType) {
-  const radiusMatch = compType.match(ROCKGATE_WIDTH_REGEX);
-  if (!radiusMatch) {
+function getGateWidth(comp) {
+  if (type !== MarkerType.GateCrystal) {
+    return (comp.Properties.AddWallNum || 0) * WIDTH_PER_WALL_NUM;
+  }
+
+  const widthMatch = compType.match(ROCKGATE_WIDTH_REGEX);
+  if (!widthMatch) {
     // TODO find default
     return 100;
   }
 
-  return parseInt(radiusMatch[1]);
+  return parseInt(widthMatch[1]);
 }
-*/
+
+function getDefaultGateDrop(type, undamagedStages) {
+  const materialAmount = type === MarkerType.GateCrystal
+    // all crystal gates drop 6 materials upon fully destroyed (See KoB)
+    ? 6
+    // all other gets drop 2 materials per destroyed stage
+    : undamagedStages * 2
+  return {
+    item: 'GPiecePick_C',
+    chance: 1,
+    min: materialAmount,
+    max: materialAmount,
+  };
+}
 
 const MarkerTypeMap = {
   'Denki': MarkerType.GateElectric,
@@ -54,18 +71,23 @@ function parseNonNumberedGate(comp, compsList) {
   const VarGateAI = getObjectFromPath(comp.Properties.VarGateAI, compsList);
   const LifeComponent = getObjectFromPath(comp.Properties.LifeComponent, compsList);
 
+  const undamagedStages = VarGateAI.Properties?.StartValidWallIndex || 3;
+  // TODO: is there a default for this?
+  const maxHealth = LifeComponent.Properties?.Life || 8000;
+  if (!LifeComponent.Properties?.Life) {
+    throw new Error('No default max health on gate.');
+  }
+  // See Cave002_F01 (Crackling Cauldron). Both gates start at 1/3 damaged (or 2/3 of full health)
+  const health = round(maxHealth * undamagedStages / 3);
+
   return removeUndefineds({
     type,
     infoType: InfoType.Gate,
-    //width: type == MarkerType.GateCrystal ? 
-      //getGateWidth(comp.Type) : 
-      // This seems to correlate with gate width for all other gates, unsure exactly how though
-      //getObjectFromPath(comp.Properties.AddWallNum, compsList),
-    health: LifeComponent.Properties?.Life,
-    // undefined = undamaged (likely default = 0), 1 = 1/3 damaged, 2 = 2/3 damaged. Starting health is health * (3 - stage) / 3
-    //stage: VarGateAI.Properties?.StartValidWallIndex,
-    // Default drops = 2 mats per remaining wall stage--where/how to implement this?
-    drops: parseObjectDropList(VarGateAI)
+    // width: getGateWidth(comp),
+    health,
+    // NOTE: pretty sure drop lists are always empty for walls, and are just used to clear the
+    //       default drop values
+    drops: parseObjectDropList(VarGateAI, getDefaultGateDrop(type, undamagedStages))
   });
 }
 

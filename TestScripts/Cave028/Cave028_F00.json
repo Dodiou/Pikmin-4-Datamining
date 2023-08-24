@@ -195,7 +195,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
-      "health": 4000,
+      "health": 1333,
       "transform": {
         "translation": {
           "x": -655,
@@ -207,7 +207,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
-      "health": 4000,
+      "health": 1333,
       "transform": {
         "translation": {
           "x": -75,

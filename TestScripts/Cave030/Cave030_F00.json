@@ -237,7 +237,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 2667,
       "transform": {
         "translation": {
           "x": -115.99973,
@@ -342,9 +342,9 @@
       }
     }
   ],
-  "shortcut-pushbag": [
+  "shortcut-pushboxcardboard": [
     {
-      "type": "shortcut-pushbag",
+      "type": "shortcut-pushboxcardboard",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {
@@ -356,7 +356,7 @@
       }
     },
     {
-      "type": "shortcut-pushbag",
+      "type": "shortcut-pushboxcardboard",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {

@@ -664,6 +664,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -2682,
@@ -705,9 +713,9 @@
       }
     }
   ],
-  "shortcut-pushbag": [
+  "shortcut-pushboxmetal": [
     {
-      "type": "shortcut-pushbag",
+      "type": "shortcut-pushboxmetal",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {
@@ -2635,6 +2643,48 @@
         "translation": {
           "x": -1066.7356,
           "y": 1573.1038
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": -444.02197,
+          "y": -721.0719
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 93.70929,
+          "y": 176.68799
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 2623.6538,
+          "y": 3349.344
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 2595.482,
+          "y": 2996.1445
         }
       }
     }

@@ -238,6 +238,14 @@
       "type": "gate-crystal",
       "infoType": "gate",
       "health": 1120,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": 384,
@@ -316,11 +324,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -362,11 +370,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {
@@ -378,11 +386,11 @@
     {
       "type": "creature",
       "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 100,
+      "health": 200,
       "seeds": 3,
       "transform": {
         "translation": {

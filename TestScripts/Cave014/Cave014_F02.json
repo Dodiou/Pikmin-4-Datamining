@@ -169,7 +169,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 2667,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
       "transform": {
         "translation": {
           "x": 1043.5,
@@ -182,6 +190,14 @@
       "type": "gate-dirt",
       "infoType": "gate",
       "health": 8000,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 6,
+          "max": 6
+        }
+      ],
       "transform": {
         "translation": {
           "x": -1042.5,
@@ -193,7 +209,15 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 4,
+          "max": 4
+        }
+      ],
       "transform": {
         "translation": {
           "x": -926,

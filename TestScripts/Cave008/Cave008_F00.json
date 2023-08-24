@@ -260,7 +260,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
       "transform": {
         "translation": {
           "x": 131.84131,
@@ -323,7 +323,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 2667,
       "transform": {
         "translation": {
           "x": 835.0142,

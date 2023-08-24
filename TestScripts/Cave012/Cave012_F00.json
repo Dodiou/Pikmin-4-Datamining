@@ -15,7 +15,15 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
-      "health": 4000,
+      "health": 1333,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
       "transform": {
         "translation": {
           "x": 61.930595,

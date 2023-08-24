@@ -238,7 +238,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
       "transform": {
         "translation": {
           "x": -1,
@@ -250,7 +250,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
-      "health": 8000,
+      "health": 2667,
       "transform": {
         "translation": {
           "x": -763,

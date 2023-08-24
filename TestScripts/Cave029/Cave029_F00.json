@@ -69,7 +69,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
       "transform": {
         "translation": {
           "x": 80,

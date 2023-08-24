@@ -145,7 +145,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
-      "health": 8000,
+      "health": 5333,
       "transform": {
         "translation": {
           "x": -1506.4708,
@@ -447,9 +447,9 @@
       }
     }
   ],
-  "shortcut-pushbag": [
+  "shortcut-pushboxcardboard": [
     {
-      "type": "shortcut-pushbag",
+      "type": "shortcut-pushboxcardboard",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {
@@ -547,22 +547,6 @@
         "translation": {
           "x": 855.58527,
           "y": 1374.5936
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DEMEJAKO",
-      "name": "Bug-Eyed Crawmad",
-      "carryMax": 30,
-      "value": 20,
-      "health": 2000,
-      "seeds": 20,
-      "transform": {
-        "translation": {
-          "x": 690,
-          "y": -412
         }
       }
     }

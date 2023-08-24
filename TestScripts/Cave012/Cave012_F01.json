@@ -171,9 +171,9 @@
       }
     }
   ],
-  "shortcut-pushbag": [
+  "shortcut-pushboxmetal": [
     {
-      "type": "shortcut-pushbag",
+      "type": "shortcut-pushboxmetal",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {

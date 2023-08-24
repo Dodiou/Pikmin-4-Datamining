@@ -4,23 +4,31 @@ import { InfoType, MarkerType } from '../types.js';
 import { getInternalId, getObjectFromPath, removeLocalizationMetadata, removeUndefineds } from "../util.js";
 import { parseCreatureDropList, parseFlintBeetleDropList } from './parseDrops.js';
 
-const CreatureIdMap = {
-  'BIGCHAPPY': 'BIGCHAPPY_NIGHT',
-  'DODOROEGG': 'DODORO',
-  'BOSSINU2': 'BOSSINU',
-  'BURROWDEMEJAKO': 'DEMEJAKO',
-  'BURROWDEMEJAKOCLOSE': 'DEMEJAKO',
-}
-function getCreatureId(type) {
-  const internalId = getInternalId(type);
-  if (internalId.startsWith('NIGHT')) {
-    return internalId.substring('NIGHT'.length);
-  }
-  return CreatureIdMap[internalId] || internalId;
-}
 
 const CreatureMap = EnemyData[0].Rows;
 const CreatureNamesMap = EnemyNames.GenseiName;
+// some special cases
+const CreatureIdMap = {
+  'DODOROEGG': 'DODORO',
+  'BOSSINU2': 'BOSSINU',
+  // These names differ slightly from internal IDs
+  'BIGCHAPPY': 'BIGCHAPPY_NIGHT',
+  'NIGHTKOCHAPPY': 'KOCHAPPY_NIGHT',
+  // NOTE: NIGHTCHAPPY (or CHAPPY_NIGHT in BaseData.json) is not used. A normal Bulborb is used instead
+}
+function getCreatureId(type) {
+  const internalId = getInternalId(type);
+  // If ID can be mapped, return immediately (E.g. NIGHTCHAPPY is valid, but NIGHTTOBINKO is not)
+  if (CreatureIdMap[internalId]) {
+    return CreatureIdMap[internalId];
+  }
+  // Night specific instances of enemies. NOTE: these appear in non-night files too
+  if (internalId.startsWith('NIGHT')) {
+    return internalId.substring('NIGHT'.length);
+  }
+  return internalId;
+}
+
 export function getCreatureFromType(type) {
   const creatureId = getCreatureId(type);
 
@@ -49,8 +57,9 @@ export function getCreatureFromType(type) {
 
 export function isCreatureComp(comp) {
   return !comp.Properties.EggAI &&
-    // These are the other holes Bug-Eyed Crawmad can burrow out of
-    !comp.Properties.BurrowAI &&
+    // These are the other holes Crawmads can burrow out of
+    !comp.Properties.BurrowAI && // hermit crawmad holes
+    !comp.Properties.DemejakoBurrowAI && // bug-eyed crawmad holes
     // These are Arachnode webs, for some reason do not use the internal name 'Marigumo'
     !comp.Properties.TamagumoNetAI &&
     Object.keys(comp.Properties).some(key => key.endsWith('AI'));
