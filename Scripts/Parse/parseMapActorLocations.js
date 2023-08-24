@@ -71,7 +71,8 @@ function parseTransformation(actor, parsedObject) {
   const transform = {
     translation: { 
       x: actor.InitTransform.Translation.X,
-      y: actor.InitTransform.Translation.Y
+      y: actor.InitTransform.Translation.Y,
+      z: actor.InitTransform.Translation.Z
     },
   }
   if (needsRotation) {
