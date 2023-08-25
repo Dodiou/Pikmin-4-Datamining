@@ -41,9 +41,10 @@ export function getCreatureFromType(type) {
     throw new Error(`Unknown creature name ${creatureId}`);
   }
   const creatureName = removeLocalizationMetadata(CreatureNamesMap[creatureId]);
-
+  
+  const markerType = `${InfoType.Creature}-${creatureId.toLowerCase()}`;
   return {
-    type: MarkerType.Creature,
+    type: markerType,
     infoType: InfoType.Creature,
     creatureId,
     name: creatureName,

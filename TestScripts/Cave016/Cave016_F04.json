@@ -102,9 +102,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kingchappy": [
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
@@ -121,7 +121,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
@@ -138,7 +138,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",

@@ -327,9 +327,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaduckm": [
     {
-      "type": "treasure",
+      "type": "treasure-otaduckm",
       "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
@@ -345,7 +345,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otaduckm",
       "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
@@ -359,9 +359,11 @@
           "z": 26.989937
         }
       }
-    },
+    }
+  ],
+  "treasure-otatakowiener": [
     {
-      "type": "treasure",
+      "type": "treasure-otatakowiener",
       "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
@@ -377,7 +379,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otatakowiener",
       "infoType": "treasure",
       "treasureId": "OTATAKOWIENER",
       "name": "Octoplus",
@@ -391,9 +393,11 @@
           "z": 52.079834
         }
       }
-    },
+    }
+  ],
+  "treasure-otamangosteen": [
     {
-      "type": "treasure",
+      "type": "treasure-otamangosteen",
       "infoType": "treasure",
       "treasureId": "OTAMANGOSTEEN",
       "name": "Dapper Blob",
@@ -407,9 +411,11 @@
           "z": 16.663322
         }
       }
-    },
+    }
+  ],
+  "treasure-otabuttonmetal": [
     {
-      "type": "treasure",
+      "type": "treasure-otabuttonmetal",
       "infoType": "treasure",
       "treasureId": "OTABUTTONMETAL",
       "name": "Trap Lid",
@@ -423,9 +429,11 @@
           "z": -47.286083
         }
       }
-    },
+    }
+  ],
+  "treasure-otaduckl": [
     {
-      "type": "treasure",
+      "type": "treasure-otaduckl",
       "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
@@ -456,9 +464,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-ookurage": [
     {
-      "type": "creature",
+      "type": "creature-ookurage",
       "infoType": "creature",
       "creatureId": "OOKURAGE",
       "name": "Greater Spotted Jellyfloat",
@@ -481,9 +489,11 @@
           "z": 32
         }
       }
-    },
+    }
+  ],
+  "creature-kanitama": [
     {
-      "type": "creature",
+      "type": "creature-kanitama",
       "infoType": "creature",
       "creatureId": "KANITAMA",
       "name": "Peckish Aristocrab",
@@ -506,9 +516,11 @@
           "z": 50
         }
       }
-    },
+    }
+  ],
+  "creature-fireotakara": [
     {
-      "type": "creature",
+      "type": "creature-fireotakara",
       "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
@@ -525,7 +537,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-fireotakara",
       "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
@@ -540,9 +552,11 @@
           "z": 23.999996
         }
       }
-    },
+    }
+  ],
+  "creature-firetank": [
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -567,7 +581,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -592,7 +606,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",

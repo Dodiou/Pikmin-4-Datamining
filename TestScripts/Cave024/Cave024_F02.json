@@ -197,9 +197,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otabilliardball3": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball3",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL3",
       "name": "Sphere of Heart",
@@ -211,38 +211,6 @@
           "x": 115.80286,
           "y": 1736.2228,
           "z": 77.03884
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFRUITSPICKPNK",
-      "name": "Heart Sword",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": -799,
-          "y": -843,
-          "z": 89.132034
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFRUITSPICKPNK",
-      "name": "Heart Sword",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": -840,
-          "y": -891,
-          "z": 89.13203
         }
       }
     }
@@ -261,9 +229,43 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otafruitspickpnk": [
     {
-      "type": "creature",
+      "type": "treasure-otafruitspickpnk",
+      "infoType": "treasure",
+      "treasureId": "OTAFRUITSPICKPNK",
+      "name": "Heart Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -799,
+          "y": -843,
+          "z": 89.132034
+        }
+      }
+    },
+    {
+      "type": "treasure-otafruitspickpnk",
+      "infoType": "treasure",
+      "treasureId": "OTAFRUITSPICKPNK",
+      "name": "Heart Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -840,
+          "y": -891,
+          "z": 89.13203
+        }
+      }
+    }
+  ],
+  "creature-mar": [
+    {
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
@@ -288,7 +290,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
@@ -311,9 +313,11 @@
           "z": 37.15882
         }
       }
-    },
+    }
+  ],
+  "creature-awadako": [
     {
-      "type": "creature",
+      "type": "creature-awadako",
       "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",
@@ -330,7 +334,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-awadako",
       "infoType": "creature",
       "creatureId": "AWADAKO",
       "name": "Waddlepus",

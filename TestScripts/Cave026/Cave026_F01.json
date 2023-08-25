@@ -291,9 +291,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otashinjitsu": [
     {
-      "type": "treasure",
+      "type": "treasure-otashinjitsu",
       "infoType": "treasure",
       "treasureId": "OTASHINJITSU",
       "name": "Mouth of Lies",
@@ -305,23 +305,6 @@
           "x": 987.08594,
           "y": 645.4481,
           "z": 120
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "KINKAISTATION",
-      "name": "Gold Nugget",
-      "amount": 20,
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": -1085,
-          "y": -504.2558,
-          "z": 50.00004
         }
       }
     }
@@ -355,9 +338,28 @@
       }
     }
   ],
-  "creature": [
+  "treasure": [
     {
-      "type": "creature",
+      "type": "treasure",
+      "infoType": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -1085,
+          "y": -504.2558,
+          "z": 50.00004
+        }
+      }
+    }
+  ],
+  "creature-marofrog": [
+    {
+      "type": "creature-marofrog",
       "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
@@ -382,25 +384,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 923.974,
-          "y": 359.6291,
-          "z": -28.4628
-        }
-      },
-      "spawnNum": 2
-    },
-    {
-      "type": "creature",
+      "type": "creature-marofrog",
       "infoType": "creature",
       "creatureId": "MAROFROG",
       "name": "Wollyhop",
@@ -423,9 +407,48 @@
           "z": 20.099426
         }
       }
+    }
+  ],
+  "creature-iwakko": [
+    {
+      "type": "creature-iwakko",
+      "infoType": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 923.974,
+          "y": 359.6291,
+          "z": -28.4628
+        }
+      },
+      "spawnNum": 2
     },
     {
-      "type": "creature",
+      "type": "creature-iwakko",
+      "infoType": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 574.34375,
+          "y": 719.127,
+          "z": 20
+        }
+      }
+    }
+  ],
+  "creature-futakuchi": [
+    {
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -442,55 +465,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 574.34375,
-          "y": 719.127,
-          "z": 20
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "HARI",
-      "name": "Porquillion",
-      "carryMax": 24,
-      "value": 12,
-      "health": 5000,
-      "seeds": 20,
-      "drops": [
-        {
-          "item": "GOtaHam_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 10,
-          "max": 10
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -730.51904,
-          "y": -413.80884,
-          "z": 103.99988
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -548,6 +523,39 @@
           "x": -1.7545776,
           "y": -150.1958,
           "z": 0.000091552734
+        }
+      }
+    }
+  ],
+  "creature-hari": [
+    {
+      "type": "creature-hari",
+      "infoType": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "health": 5000,
+      "seeds": 20,
+      "drops": [
+        {
+          "item": "GOtaHam_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -730.51904,
+          "y": -413.80884,
+          "z": 103.99988
         }
       }
     }

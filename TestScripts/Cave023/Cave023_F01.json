@@ -12,9 +12,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-ota3dmegane": [
     {
-      "type": "treasure",
+      "type": "treasure-ota3dmegane",
       "infoType": "treasure",
       "treasureId": "OTA3DMEGANE",
       "name": "Dimension Converter",
@@ -26,55 +26,6 @@
           "x": -482.23804,
           "y": 80.5343,
           "z": 230
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "KINKAISTATION",
-      "name": "Gold Nugget",
-      "amount": 15,
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": 513,
-          "y": 907,
-          "z": 0.0001
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAROBOBODY",
-      "name": "Nexus Combobot",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": 127.88751,
-          "y": 542.2842,
-          "z": 178.5118
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAROBOLEGR",
-      "name": "Kick-Start Combobot",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": 806.7803,
-          "y": -829.4511,
-          "z": 155.1401
         }
       }
     }
@@ -292,6 +243,25 @@
       }
     }
   ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "infoType": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 15,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 513,
+          "y": 907,
+          "z": 0.0001
+        }
+      }
+    }
+  ],
   "gate-crystal": [
     {
       "type": "gate-crystal",
@@ -336,9 +306,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otarobobody": [
     {
-      "type": "creature",
+      "type": "treasure-otarobobody",
+      "infoType": "treasure",
+      "treasureId": "OTAROBOBODY",
+      "name": "Nexus Combobot",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 127.88751,
+          "y": 542.2842,
+          "z": 178.5118
+        }
+      }
+    }
+  ],
+  "treasure-otarobolegr": [
+    {
+      "type": "treasure-otarobolegr",
+      "infoType": "treasure",
+      "treasureId": "OTAROBOLEGR",
+      "name": "Kick-Start Combobot",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 806.7803,
+          "y": -829.4511,
+          "z": 155.1401
+        }
+      }
+    }
+  ],
+  "creature-babycrow": [
+    {
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
@@ -355,7 +361,43 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-babycrow",
+      "infoType": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -625.2196,
+          "y": 867.95514,
+          "z": 74.999725
+        }
+      }
+    },
+    {
+      "type": "creature-babycrow",
+      "infoType": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -483.27118,
+          "y": 701.85144,
+          "z": 75.00061
+        }
+      }
+    }
+  ],
+  "creature-arikui": [
+    {
+      "type": "creature-arikui",
       "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
@@ -376,115 +418,6 @@
           "x": 881.6907,
           "y": 873.15497,
           "z": 45.000183
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BABYCROW",
-      "name": "Downy Snagret",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -625.2196,
-          "y": 867.95514,
-          "z": 74.999725
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BABYCROW",
-      "name": "Downy Snagret",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -483.27118,
-          "y": 701.85144,
-          "z": 75.00061
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -574.79517,
-          "y": -876.62524,
-          "z": 20.000061
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -808.4175,
-          "y": -659.68274,
-          "z": 19.999939
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -739.25055,
-          "y": -469.69983,
-          "z": 19.999878
         }
       }
     }
@@ -571,6 +504,83 @@
           "x": 998.0552,
           "y": -598.1537,
           "z": 15
+        }
+      }
+    }
+  ],
+  "creature-iwakko": [
+    {
+      "type": "creature-iwakko",
+      "infoType": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -574.79517,
+          "y": -876.62524,
+          "z": 20.000061
+        }
+      }
+    },
+    {
+      "type": "creature-iwakko",
+      "infoType": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -808.4175,
+          "y": -659.68274,
+          "z": 19.999939
+        }
+      }
+    },
+    {
+      "type": "creature-iwakko",
+      "infoType": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -739.25055,
+          "y": -469.69983,
+          "z": 19.999878
         }
       }
     }

@@ -33,70 +33,6 @@
           "z": 26.0001
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKENOKO",
-      "name": "Anxious Sprout",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -754.39355,
-          "y": -816.29285,
-          "z": 71.160095
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASWEETPOTATO",
-      "name": "Daughter of the Earth",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -277.36673,
-          "y": -555.8097,
-          "z": 58.525505
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASWEETPOTATO",
-      "name": "Daughter of the Earth",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -791.2814,
-          "y": 237.58098,
-          "z": 129.48692
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPOTATO",
-      "name": "Child of the Earth",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": -2.75,
-          "y": -1097.25,
-          "z": 62.714127
-        }
-      }
     }
   ],
   "firepit-lit": [
@@ -391,9 +327,79 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otatakenoko": [
     {
-      "type": "creature",
+      "type": "treasure-otatakenoko",
+      "infoType": "treasure",
+      "treasureId": "OTATAKENOKO",
+      "name": "Anxious Sprout",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -754.39355,
+          "y": -816.29285,
+          "z": 71.160095
+        }
+      }
+    }
+  ],
+  "treasure-otasweetpotato": [
+    {
+      "type": "treasure-otasweetpotato",
+      "infoType": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -277.36673,
+          "y": -555.8097,
+          "z": 58.525505
+        }
+      }
+    },
+    {
+      "type": "treasure-otasweetpotato",
+      "infoType": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -791.2814,
+          "y": 237.58098,
+          "z": 129.48692
+        }
+      }
+    }
+  ],
+  "treasure-otapotato": [
+    {
+      "type": "treasure-otapotato",
+      "infoType": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -2.75,
+          "y": -1097.25,
+          "z": 62.714127
+        }
+      }
+    }
+  ],
+  "creature-icechappy": [
+    {
+      "type": "creature-icechappy",
       "infoType": "creature",
       "creatureId": "ICECHAPPY",
       "name": "Frosty Bulborb",
@@ -416,9 +422,11 @@
           "z": 115
         }
       }
-    },
+    }
+  ],
+  "creature-icesenbei": [
     {
-      "type": "creature",
+      "type": "creature-icesenbei",
       "infoType": "creature",
       "creatureId": "ICESENBEI",
       "name": "Freezecake",
@@ -433,9 +441,11 @@
           "z": 72
         }
       }
-    },
+    }
+  ],
+  "creature-icekochappy": [
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -452,7 +462,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -469,7 +479,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -484,9 +494,11 @@
           "z": 87
         }
       }
-    },
+    }
+  ],
+  "creature-kurage": [
     {
-      "type": "creature",
+      "type": "creature-kurage",
       "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
@@ -501,9 +513,11 @@
           "z": 319.6601
         }
       }
-    },
+    }
+  ],
+  "creature-icetank": [
     {
-      "type": "creature",
+      "type": "creature-icetank",
       "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",

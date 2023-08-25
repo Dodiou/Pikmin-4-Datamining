@@ -230,9 +230,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapaintsaqu": [
     {
-      "type": "treasure",
+      "type": "treasure-otapaintsaqu",
       "infoType": "treasure",
       "treasureId": "OTAPAINTSAQU",
       "name": "Refreshing Goo",
@@ -246,9 +246,11 @@
           "z": 58.542595
         }
       }
-    },
+    }
+  ],
+  "treasure-otacompass": [
     {
-      "type": "treasure",
+      "type": "treasure-otacompass",
       "infoType": "treasure",
       "treasureId": "OTACOMPASS",
       "name": "Director of Destiny",
@@ -293,9 +295,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-ujinkoa": [
     {
-      "type": "creature",
+      "type": "creature-ujinkoa",
       "infoType": "creature",
       "creatureId": "UJINKOA",
       "name": "Female Sheargrub",
@@ -313,50 +315,7 @@
       "spawnNum": 3
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 379.3936,
-          "y": 48.23298,
-          "z": 57.25
-        }
-      },
-      "spawnNum": 2
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "ICETANK",
-      "name": "Snowy Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -121.5,
-          "y": 996.5,
-          "z": 74
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-ujinkoa",
       "infoType": "creature",
       "creatureId": "UJINKOA",
       "name": "Female Sheargrub",
@@ -445,6 +404,53 @@
           "x": -600.3122,
           "y": 416.39087,
           "z": 0.000102996826
+        }
+      }
+    }
+  ],
+  "creature-ujinkob": [
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 379.3936,
+          "y": 48.23298,
+          "z": 57.25
+        }
+      },
+      "spawnNum": 2
+    }
+  ],
+  "creature-icetank": [
+    {
+      "type": "creature-icetank",
+      "infoType": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -121.5,
+          "y": 996.5,
+          "z": 74
         }
       }
     }

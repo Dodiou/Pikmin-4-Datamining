@@ -163,9 +163,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaringo": [
     {
-      "type": "treasure",
+      "type": "treasure-otaringo",
       "infoType": "treasure",
       "treasureId": "OTARINGO",
       "name": "Insect Condo",
@@ -177,22 +177,6 @@
           "x": -1041.2334,
           "y": -419.04846,
           "z": 48.2351
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOMATOS",
-      "name": "Crush Nugget",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": -767.93835,
-          "y": 852.15656,
-          "z": -24.352009
         }
       }
     }
@@ -366,6 +350,24 @@
       }
     }
   ],
+  "treasure-otatomatos": [
+    {
+      "type": "treasure-otatomatos",
+      "infoType": "treasure",
+      "treasureId": "OTATOMATOS",
+      "name": "Crush Nugget",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -767.93835,
+          "y": 852.15656,
+          "z": -24.352009
+        }
+      }
+    }
+  ],
   "candypop-ice": [
     {
       "type": "candypop-ice",
@@ -381,9 +383,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-icekochappy": [
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -398,9 +400,11 @@
           "z": 13
         }
       }
-    },
+    }
+  ],
+  "creature-icechappy": [
     {
-      "type": "creature",
+      "type": "creature-icechappy",
       "infoType": "creature",
       "creatureId": "ICECHAPPY",
       "name": "Frosty Bulborb",
@@ -423,9 +427,11 @@
           "z": 40.00006
         }
       }
-    },
+    }
+  ],
+  "creature-icemar": [
     {
-      "type": "creature",
+      "type": "creature-icemar",
       "infoType": "creature",
       "creatureId": "ICEMAR",
       "name": "Icy Blowhog",
@@ -454,9 +460,11 @@
           "z": -16.840145
         }
       }
-    },
+    }
+  ],
+  "creature-icefrog": [
     {
-      "type": "creature",
+      "type": "creature-icefrog",
       "infoType": "creature",
       "creatureId": "ICEFROG",
       "name": "Chillyhop",

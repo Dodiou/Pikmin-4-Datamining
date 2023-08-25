@@ -133,9 +133,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-bigkingchappy": [
     {
-      "type": "creature",
+      "type": "creature-bigkingchappy",
       "infoType": "creature",
       "creatureId": "BIGKINGCHAPPY",
       "name": "Sovereign Bulblax",

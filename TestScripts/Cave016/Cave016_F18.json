@@ -73,9 +73,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otacherry": [
     {
-      "type": "treasure",
+      "type": "treasure-otacherry",
       "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
@@ -91,7 +91,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otacherry",
       "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otacherry",
       "infoType": "treasure",
       "treasureId": "OTACHERRY",
       "name": "Cupid's Grenade",
@@ -119,102 +119,6 @@
           "x": -245.62854,
           "y": -125.86633,
           "z": 25.392145
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAICHIGO",
-      "name": "Sunseed Berry",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": 472.2061,
-          "y": 576.40576,
-          "z": 44.1077
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAKIWIGLD",
-      "name": "Blonde Impostor",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 387.81213,
-          "y": 53.96753,
-          "z": 39.46685
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARASPBERRY",
-      "name": "Juicy Gaggle",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 418.48315,
-          "y": 538.8856,
-          "z": 38.026627
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTALIME",
-      "name": "Zest Bomb",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": 310.58557,
-          "y": -202.19775,
-          "z": 40.627983
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMANGO",
-      "name": "Heroine's Tear",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -128.33704,
-          "y": 267.86438,
-          "z": 140.59447
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADEKOPON",
-      "name": "Pocked Airhead",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -781.8859,
-          "y": -167.55664,
-          "z": 54.20024
         }
       }
     }
@@ -269,6 +173,78 @@
       }
     }
   ],
+  "treasure-otaichigo": [
+    {
+      "type": "treasure-otaichigo",
+      "infoType": "treasure",
+      "treasureId": "OTAICHIGO",
+      "name": "Sunseed Berry",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": 472.2061,
+          "y": 576.40576,
+          "z": 44.1077
+        }
+      }
+    }
+  ],
+  "treasure-otakiwigld": [
+    {
+      "type": "treasure-otakiwigld",
+      "infoType": "treasure",
+      "treasureId": "OTAKIWIGLD",
+      "name": "Blonde Impostor",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 387.81213,
+          "y": 53.96753,
+          "z": 39.46685
+        }
+      }
+    }
+  ],
+  "treasure-otaraspberry": [
+    {
+      "type": "treasure-otaraspberry",
+      "infoType": "treasure",
+      "treasureId": "OTARASPBERRY",
+      "name": "Juicy Gaggle",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 418.48315,
+          "y": 538.8856,
+          "z": 38.026627
+        }
+      }
+    }
+  ],
+  "treasure-otalime": [
+    {
+      "type": "treasure-otalime",
+      "infoType": "treasure",
+      "treasureId": "OTALIME",
+      "name": "Zest Bomb",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 310.58557,
+          "y": -202.19775,
+          "z": 40.627983
+        }
+      }
+    }
+  ],
   "base-onion": [
     {
       "type": "base-onion",
@@ -283,9 +259,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otamango": [
     {
-      "type": "creature",
+      "type": "treasure-otamango",
+      "infoType": "treasure",
+      "treasureId": "OTAMANGO",
+      "name": "Heroine's Tear",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -128.33704,
+          "y": 267.86438,
+          "z": 140.59447
+        }
+      }
+    }
+  ],
+  "treasure-otadekopon": [
+    {
+      "type": "treasure-otadekopon",
+      "infoType": "treasure",
+      "treasureId": "OTADEKOPON",
+      "name": "Pocked Airhead",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -781.8859,
+          "y": -167.55664,
+          "z": 54.20024
+        }
+      }
+    }
+  ],
+  "creature-kurione": [
+    {
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -316,7 +328,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -347,7 +359,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -378,7 +390,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -409,7 +421,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -440,7 +452,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -471,7 +483,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",

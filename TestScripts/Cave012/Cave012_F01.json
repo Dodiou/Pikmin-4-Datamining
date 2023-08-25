@@ -291,9 +291,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapuzzlee": [
     {
-      "type": "treasure",
+      "type": "treasure-otapuzzlee",
       "infoType": "treasure",
       "treasureId": "OTAPUZZLEE",
       "name": "Memory Fragment (Left Edge)",
@@ -307,9 +307,11 @@
           "z": -17.213999
         }
       }
-    },
+    }
+  ],
+  "treasure-otapaintswht": [
     {
-      "type": "treasure",
+      "type": "treasure-otapaintswht",
       "infoType": "treasure",
       "treasureId": "OTAPAINTSWHT",
       "name": "True Goo",
@@ -441,9 +443,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-tobiuo": [
     {
-      "type": "creature",
+      "type": "creature-tobiuo",
       "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
@@ -460,7 +462,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tobiuo",
       "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
@@ -477,7 +479,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tobiuo",
       "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
@@ -492,9 +494,11 @@
           "z": 8.035103
         }
       }
-    },
+    }
+  ],
+  "creature-iceotakara": [
     {
-      "type": "creature",
+      "type": "creature-iceotakara",
       "infoType": "creature",
       "creatureId": "ICEOTAKARA",
       "name": "Iceblown Dweevil",
@@ -509,9 +513,11 @@
           "z": 1.000107
         }
       }
-    },
+    }
+  ],
+  "creature-yukifutakuchi": [
     {
-      "type": "creature",
+      "type": "creature-yukifutakuchi",
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
@@ -528,7 +534,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-yukifutakuchi",
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",

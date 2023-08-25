@@ -26,9 +26,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-bossinu": [
     {
-      "type": "creature",
+      "type": "creature-bossinu",
       "infoType": "creature",
       "creatureId": "BOSSINU",
       "name": "Ancient Sirehound",

@@ -168,9 +168,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otayoshicookied": [
     {
-      "type": "treasure",
+      "type": "treasure-otayoshicookied",
       "infoType": "treasure",
       "treasureId": "OTAYOSHICOOKIED",
       "name": "Love's Fortune Cookie",
@@ -184,9 +184,11 @@
           "z": 57.0351
         }
       }
-    },
+    }
+  ],
+  "treasure-otaeclair": [
     {
-      "type": "treasure",
+      "type": "treasure-otaeclair",
       "infoType": "treasure",
       "treasureId": "OTAECLAIR",
       "name": "Sweet Torrent",
@@ -200,9 +202,11 @@
           "z": 426.1697
         }
       }
-    },
+    }
+  ],
+  "treasure-otayoshicookiee": [
     {
-      "type": "treasure",
+      "type": "treasure-otayoshicookiee",
       "infoType": "treasure",
       "treasureId": "OTAYOSHICOOKIEE",
       "name": "Hearty Container",
@@ -216,9 +220,11 @@
           "z": 55.527588
         }
       }
-    },
+    }
+  ],
+  "treasure-otacandystick": [
     {
-      "type": "treasure",
+      "type": "treasure-otacandystick",
       "infoType": "treasure",
       "treasureId": "OTACANDYSTICK",
       "name": "Sweet Stumble-Not",
@@ -232,9 +238,11 @@
           "z": 81.2001
         }
       }
-    },
+    }
+  ],
+  "treasure-otabuttonwood": [
     {
-      "type": "treasure",
+      "type": "treasure-otabuttonwood",
       "infoType": "treasure",
       "treasureId": "OTABUTTONWOOD",
       "name": "Perforated Raft",
@@ -248,9 +256,11 @@
           "z": 10.512695
         }
       }
-    },
+    }
+  ],
+  "treasure-otakiwi": [
     {
-      "type": "treasure",
+      "type": "treasure-otakiwi",
       "infoType": "treasure",
       "treasureId": "OTAKIWI",
       "name": "Disguised Delicacy",
@@ -266,9 +276,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-oopanmodoki": [
     {
-      "type": "creature",
+      "type": "creature-oopanmodoki",
       "infoType": "creature",
       "creatureId": "OOPANMODOKI",
       "name": "Giant Breadbug",
@@ -299,168 +309,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 797.2788,
-          "y": 539.3115,
-          "z": 14.998901
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 154.3703,
-          "y": 520.2635,
-          "z": 15.000977
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 99.47241,
-          "y": 377.5017,
-          "z": 15.000243
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMACHAPPY",
-      "name": "Spotty Bulbear",
-      "carryMax": 24,
-      "value": 12,
-      "health": 1800,
-      "seeds": 15,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -69.44122,
-          "y": 1088.7499,
-          "z": 45.00006
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -580.91565,
-          "y": -571.47876,
-          "z": 15.000793
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -836.86273,
-          "y": -616.714,
-          "z": 15.000793
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -834.94055,
-          "y": 999.3203,
-          "z": 14.9991455
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -980.39105,
-          "y": 862.5299,
-          "z": 14.99939
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -972.0292,
-          "y": 1081.9099,
-          "z": 15.000732
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-oopanmodoki",
       "infoType": "creature",
       "creatureId": "OOPANMODOKI",
       "name": "Giant Breadbug",
@@ -489,9 +338,176 @@
           "z": 93.99985
         }
       }
+    }
+  ],
+  "creature-kumakochappy": [
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 797.2788,
+          "y": 539.3115,
+          "z": 14.998901
+        }
+      }
     },
     {
-      "type": "creature",
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 154.3703,
+          "y": 520.2635,
+          "z": 15.000977
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 99.47241,
+          "y": 377.5017,
+          "z": 15.000243
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -580.91565,
+          "y": -571.47876,
+          "z": 15.000793
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -836.86273,
+          "y": -616.714,
+          "z": 15.000793
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -834.94055,
+          "y": 999.3203,
+          "z": 14.9991455
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -980.39105,
+          "y": 862.5299,
+          "z": 14.99939
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -972.0292,
+          "y": 1081.9099,
+          "z": 15.000732
+        }
+      }
+    }
+  ],
+  "creature-kumachappy": [
+    {
+      "type": "creature-kumachappy",
+      "infoType": "creature",
+      "creatureId": "KUMACHAPPY",
+      "name": "Spotty Bulbear",
+      "carryMax": 24,
+      "value": 12,
+      "health": 1800,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -69.44122,
+          "y": 1088.7499,
+          "z": 45.00006
+        }
+      }
+    }
+  ],
+  "creature-mar": [
+    {
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",

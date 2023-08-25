@@ -185,9 +185,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-bigfrog": [
     {
-      "type": "creature",
+      "type": "creature-bigfrog",
       "infoType": "creature",
       "creatureId": "BIGFROG",
       "name": "Masterhop",

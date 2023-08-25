@@ -65,182 +65,6 @@
           "z": 135.97461
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASWEETPOTATO",
-      "name": "Daughter of the Earth",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 940.1278,
-          "y": -532.2044,
-          "z": 96.43532
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAEGGPLANT",
-      "name": "Foolish Fruit",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -460.3208,
-          "y": -724.2775,
-          "z": 165.72865
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKENOKO",
-      "name": "Anxious Sprout",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 3.5,
-          "y": 273,
-          "z": -6.999901
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAZUCCHINI",
-      "name": "Crew-Cut Gourd",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 981.56384,
-          "y": -20.00012,
-          "z": 60.02294
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOMATOM",
-      "name": "Love Nugget",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 1030,
-          "y": 908,
-          "z": 104.69513
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAEGGPLANT",
-      "name": "Foolish Fruit",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -988.17633,
-          "y": 575.3185,
-          "z": 103.13296
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKENOKO",
-      "name": "Anxious Sprout",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 586,
-          "y": 395,
-          "z": 218.25551
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOMATOM",
-      "name": "Love Nugget",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 775,
-          "y": 433,
-          "z": 212.51065
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKENOKO",
-      "name": "Anxious Sprout",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 1013,
-          "y": -1001,
-          "z": 109.647865
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUMPKIN",
-      "name": "Mysterious Carriage",
-      "weight": 30,
-      "carryMax": 60,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -256,
-          "y": -644,
-          "z": 254.81598
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPOTATO",
-      "name": "Child of the Earth",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": 801,
-          "y": -805,
-          "z": 181.71413
-        }
-      }
     }
   ],
   "pikmin-wing": [
@@ -528,6 +352,196 @@
       }
     }
   ],
+  "treasure-otasweetpotato": [
+    {
+      "type": "treasure-otasweetpotato",
+      "infoType": "treasure",
+      "treasureId": "OTASWEETPOTATO",
+      "name": "Daughter of the Earth",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 940.1278,
+          "y": -532.2044,
+          "z": 96.43532
+        }
+      }
+    }
+  ],
+  "treasure-otaeggplant": [
+    {
+      "type": "treasure-otaeggplant",
+      "infoType": "treasure",
+      "treasureId": "OTAEGGPLANT",
+      "name": "Foolish Fruit",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -460.3208,
+          "y": -724.2775,
+          "z": 165.72865
+        }
+      }
+    },
+    {
+      "type": "treasure-otaeggplant",
+      "infoType": "treasure",
+      "treasureId": "OTAEGGPLANT",
+      "name": "Foolish Fruit",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -988.17633,
+          "y": 575.3185,
+          "z": 103.13296
+        }
+      }
+    }
+  ],
+  "treasure-otatakenoko": [
+    {
+      "type": "treasure-otatakenoko",
+      "infoType": "treasure",
+      "treasureId": "OTATAKENOKO",
+      "name": "Anxious Sprout",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 3.5,
+          "y": 273,
+          "z": -6.999901
+        }
+      }
+    },
+    {
+      "type": "treasure-otatakenoko",
+      "infoType": "treasure",
+      "treasureId": "OTATAKENOKO",
+      "name": "Anxious Sprout",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 586,
+          "y": 395,
+          "z": 218.25551
+        }
+      }
+    },
+    {
+      "type": "treasure-otatakenoko",
+      "infoType": "treasure",
+      "treasureId": "OTATAKENOKO",
+      "name": "Anxious Sprout",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 1013,
+          "y": -1001,
+          "z": 109.647865
+        }
+      }
+    }
+  ],
+  "treasure-otazucchini": [
+    {
+      "type": "treasure-otazucchini",
+      "infoType": "treasure",
+      "treasureId": "OTAZUCCHINI",
+      "name": "Crew-Cut Gourd",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 981.56384,
+          "y": -20.00012,
+          "z": 60.02294
+        }
+      }
+    }
+  ],
+  "treasure-otatomatom": [
+    {
+      "type": "treasure-otatomatom",
+      "infoType": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 1030,
+          "y": 908,
+          "z": 104.69513
+        }
+      }
+    },
+    {
+      "type": "treasure-otatomatom",
+      "infoType": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 775,
+          "y": 433,
+          "z": 212.51065
+        }
+      }
+    }
+  ],
+  "treasure-otapumpkin": [
+    {
+      "type": "treasure-otapumpkin",
+      "infoType": "treasure",
+      "treasureId": "OTAPUMPKIN",
+      "name": "Mysterious Carriage",
+      "weight": 30,
+      "carryMax": 60,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -256,
+          "y": -644,
+          "z": 254.81598
+        }
+      }
+    }
+  ],
+  "treasure-otapotato": [
+    {
+      "type": "treasure-otapotato",
+      "infoType": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 801,
+          "y": -805,
+          "z": 181.71413
+        }
+      }
+    }
+  ],
   "candypop-purple": [
     {
       "type": "candypop-purple",
@@ -543,9 +557,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kinokajiokoshi": [
     {
-      "type": "creature",
+      "type": "creature-kinokajiokoshi",
       "infoType": "creature",
       "creatureId": "KINOKAJIOKOSHI",
       "name": "Moldy Slooch",
@@ -562,7 +576,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -909,
+          "y": -592.75,
+          "z": 80.49562
+        }
+      }
+    }
+  ],
+  "creature-kinokochappy": [
+    {
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -579,7 +612,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -596,7 +629,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -613,7 +646,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -630,24 +663,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -909,
-          "y": -592.75,
-          "z": 80.49562
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -664,7 +680,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",

@@ -220,9 +220,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otafingerboard": [
     {
-      "type": "treasure",
+      "type": "treasure-otafingerboard",
       "infoType": "treasure",
       "treasureId": "OTAFINGERBOARD",
       "name": "Personal-Injury Plank",
@@ -234,22 +234,6 @@
           "x": 867,
           "y": -134,
           "z": 181.0302
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUZZLED",
-      "name": "Memory Fragment (Top Right)",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": -984.7115,
-          "y": 92.24266,
-          "z": 27.713596
         }
       }
     }
@@ -264,6 +248,24 @@
           "x": 682.41235,
           "y": 538.15356,
           "z": 20.99061
+        }
+      }
+    }
+  ],
+  "treasure-otapuzzled": [
+    {
+      "type": "treasure-otapuzzled",
+      "infoType": "treasure",
+      "treasureId": "OTAPUZZLED",
+      "name": "Memory Fragment (Top Right)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -984.7115,
+          "y": 92.24266,
+          "z": 27.713596
         }
       }
     }

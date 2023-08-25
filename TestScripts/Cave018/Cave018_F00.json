@@ -48,38 +48,6 @@
           "z": 100.00006
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABILLIARDBALL7",
-      "name": "Sphere of Good Fortune",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 229,
-          "y": 965,
-          "z": 81.15521
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTALIGHTUPRINGRED",
-      "name": "Hoop of Passion",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 130,
-      "transform": {
-        "translation": {
-          "x": 336,
-          "y": 125,
-          "z": 3.512634
-        }
-      }
     }
   ],
   "ridable-geyser": [
@@ -536,9 +504,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otabilliardball7": [
     {
-      "type": "creature",
+      "type": "treasure-otabilliardball7",
+      "infoType": "treasure",
+      "treasureId": "OTABILLIARDBALL7",
+      "name": "Sphere of Good Fortune",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 229,
+          "y": 965,
+          "z": 81.15521
+        }
+      }
+    }
+  ],
+  "treasure-otalightupringred": [
+    {
+      "type": "treasure-otalightupringred",
+      "infoType": "treasure",
+      "treasureId": "OTALIGHTUPRINGRED",
+      "name": "Hoop of Passion",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": 336,
+          "y": 125,
+          "z": 3.512634
+        }
+      }
+    }
+  ],
+  "creature-miulin": [
+    {
+      "type": "creature-miulin",
       "infoType": "creature",
       "creatureId": "MIULIN",
       "name": "Mamuta",
@@ -567,9 +571,11 @@
           "z": 55
         }
       }
-    },
+    }
+  ],
+  "creature-bigujinko": [
     {
-      "type": "creature",
+      "type": "creature-bigujinko",
       "infoType": "creature",
       "creatureId": "BIGUJINKO",
       "name": "Mama Sheargrub",
@@ -582,527 +588,6 @@
           "x": -914.42444,
           "y": 809.64056,
           "z": 54.71959
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -415.02783,
-          "y": -699.0486,
-          "z": 50.12509
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "REDSHIJIMI",
-      "name": "Red Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1398.3759,
-          "y": 635.44104,
-          "z": 37.42805
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -977.02783,
-          "y": -1100.0486,
-          "z": 125.12513
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPOZAKO",
-      "name": "Miniature Snootwhacker",
-      "carryMax": 14,
-      "value": 7,
-      "health": 500,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 709.32196,
-          "y": -1047.3057,
-          "z": 31.000008
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPOZAKO",
-      "name": "Miniature Snootwhacker",
-      "carryMax": 14,
-      "value": 7,
-      "health": 500,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 404.6499,
-          "y": -998.38763,
-          "z": 31.000015
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPOZAKO",
-      "name": "Miniature Snootwhacker",
-      "carryMax": 14,
-      "value": 7,
-      "health": 500,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 141.05742,
-          "y": 829.2423,
-          "z": 70.10019
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1304,
-          "y": 609,
-          "z": 36.19191
-        }
-      },
-      "spawnNum": 2
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YELLOWSHIJIMI",
-      "name": "Yellow Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1306,
-          "y": 614,
-          "z": 36.19191
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YELLOWSHIJIMI",
-      "name": "Yellow Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1010,
-          "y": 452,
-          "z": 35.045696
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1034,
-          "y": 515,
-          "z": 37.81835
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1032,
-          "y": 699,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -994,
-          "y": 758,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -988,
-          "y": 885,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -862,
-          "y": 666,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -773,
-          "y": 860,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -828,
-          "y": 924,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -797,
-          "y": 701,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -880,
-          "y": 731,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1035,
-          "y": 959,
-          "z": 35.05022
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1090,
-          "y": 821,
-          "z": 35.05022
         }
       }
     }
@@ -1171,6 +656,539 @@
           "x": -1232.5262,
           "y": 852.283,
           "z": 24.9954
+        }
+      }
+    }
+  ],
+  "creature-kogani": [
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -415.02783,
+          "y": -699.0486,
+          "z": 50.12509
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -977.02783,
+          "y": -1100.0486,
+          "z": 125.12513
+        }
+      }
+    }
+  ],
+  "creature-redshijimi": [
+    {
+      "type": "creature-redshijimi",
+      "infoType": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1398.3759,
+          "y": 635.44104,
+          "z": 37.42805
+        }
+      }
+    }
+  ],
+  "creature-shippozako": [
+    {
+      "type": "creature-shippozako",
+      "infoType": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "health": 500,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 709.32196,
+          "y": -1047.3057,
+          "z": 31.000008
+        }
+      }
+    },
+    {
+      "type": "creature-shippozako",
+      "infoType": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "health": 500,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 404.6499,
+          "y": -998.38763,
+          "z": 31.000015
+        }
+      }
+    },
+    {
+      "type": "creature-shippozako",
+      "infoType": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "health": 500,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 141.05742,
+          "y": 829.2423,
+          "z": 70.10019
+        }
+      }
+    }
+  ],
+  "creature-whiteshijimi": [
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1304,
+          "y": 609,
+          "z": 36.19191
+        }
+      },
+      "spawnNum": 2
+    },
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1034,
+          "y": 515,
+          "z": 37.81835
+        }
+      }
+    }
+  ],
+  "creature-yellowshijimi": [
+    {
+      "type": "creature-yellowshijimi",
+      "infoType": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1306,
+          "y": 614,
+          "z": 36.19191
+        }
+      }
+    },
+    {
+      "type": "creature-yellowshijimi",
+      "infoType": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1010,
+          "y": 452,
+          "z": 35.045696
+        }
+      }
+    }
+  ],
+  "creature-tamagomushi": [
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1032,
+          "y": 699,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -994,
+          "y": 758,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -988,
+          "y": 885,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -862,
+          "y": 666,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -773,
+          "y": 860,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -828,
+          "y": 924,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -797,
+          "y": 701,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -880,
+          "y": 731,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1035,
+          "y": 959,
+          "z": 35.05022
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1090,
+          "y": 821,
+          "z": 35.05022
         }
       }
     }

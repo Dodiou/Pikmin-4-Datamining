@@ -54,9 +54,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otamask": [
     {
-      "type": "treasure",
+      "type": "treasure-otamask",
       "infoType": "treasure",
       "treasureId": "OTAMASK",
       "name": "Expression Hider",
@@ -72,9 +72,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-mitsumochi": [
     {
-      "type": "creature",
+      "type": "creature-mitsumochi",
       "infoType": "creature",
       "creatureId": "MITSUMOCHI",
       "name": "Foolix",

@@ -103,9 +103,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otahornbell": [
     {
-      "type": "treasure",
+      "type": "treasure-otahornbell",
       "infoType": "treasure",
       "treasureId": "OTAHORNBELL",
       "name": "Path Creator",
@@ -119,9 +119,11 @@
           "z": 329.134
         }
       }
-    },
+    }
+  ],
+  "treasure-otahimefork": [
     {
-      "type": "treasure",
+      "type": "treasure-otahimefork",
       "infoType": "treasure",
       "treasureId": "OTAHIMEFORK",
       "name": "Noble Bident",
@@ -133,22 +135,6 @@
           "x": 938.81165,
           "y": -1270.2954,
           "z": 306.64877
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGBASP",
-      "name": "Stone of Advancement",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": 169.47473,
-          "y": -1992.6018,
-          "z": 394.04263
         }
       }
     }
@@ -164,6 +150,24 @@
           "z": 300.00034
         },
         "rotation": 60
+      }
+    }
+  ],
+  "treasure-otagbasp": [
+    {
+      "type": "treasure-otagbasp",
+      "infoType": "treasure",
+      "treasureId": "OTAGBASP",
+      "name": "Stone of Advancement",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 169.47473,
+          "y": -1992.6018,
+          "z": 394.04263
+        }
       }
     }
   ]

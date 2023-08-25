@@ -273,9 +273,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapapercranered": [
     {
-      "type": "treasure",
+      "type": "treasure-otapapercranered",
       "infoType": "treasure",
       "treasureId": "OTAPAPERCRANERED",
       "name": "Skin of the Phoenix",
@@ -289,7 +289,9 @@
           "z": 140
         }
       }
-    },
+    }
+  ],
+  "treasure": [
     {
       "type": "treasure",
       "infoType": "treasure",
@@ -306,9 +308,11 @@
           "z": 50.00019
         }
       }
-    },
+    }
+  ],
+  "treasure-otapuzzlea": [
     {
-      "type": "treasure",
+      "type": "treasure-otapuzzlea",
       "infoType": "treasure",
       "treasureId": "OTAPUZZLEA",
       "name": "Memory Fragment (Top Left)",

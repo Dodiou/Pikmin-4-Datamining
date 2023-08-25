@@ -150,9 +150,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otalemon": [
     {
-      "type": "treasure",
+      "type": "treasure-otalemon",
       "infoType": "treasure",
       "treasureId": "OTALEMON",
       "name": "Face Wrinkler",
@@ -166,9 +166,11 @@
           "z": 81.81038
         }
       }
-    },
+    }
+  ],
+  "treasure-otasqueezer": [
     {
-      "type": "treasure",
+      "type": "treasure-otasqueezer",
       "infoType": "treasure",
       "treasureId": "OTASQUEEZER",
       "name": "Merciless Extractor",
@@ -180,22 +182,6 @@
           "x": -326.72708,
           "y": 824.8695,
           "z": 47
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGRAPEFRUIT",
-      "name": "Astringent Clump",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -226.58105,
-          "y": -60.45775,
-          "z": 23.06847
         }
       }
     }
@@ -240,9 +226,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otagrapefruit": [
     {
-      "type": "creature",
+      "type": "treasure-otagrapefruit",
+      "infoType": "treasure",
+      "treasureId": "OTAGRAPEFRUIT",
+      "name": "Astringent Clump",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -226.58105,
+          "y": -60.45775,
+          "z": 23.06847
+        }
+      }
+    }
+  ],
+  "creature-hariuo": [
+    {
+      "type": "creature-hariuo",
       "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
@@ -265,9 +269,11 @@
           "z": 3
         }
       }
-    },
+    }
+  ],
+  "creature-amembo": [
     {
-      "type": "creature",
+      "type": "creature-amembo",
       "infoType": "creature",
       "creatureId": "AMEMBO",
       "name": "Skeeterskate",
@@ -284,32 +290,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NISEZAKO",
-      "name": "Gildemandwee",
-      "carryMax": 10,
-      "value": 5,
-      "health": 500,
-      "seeds": 6,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 452.76685,
-          "y": 1017.0463,
-          "z": 49
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-amembo",
       "infoType": "creature",
       "creatureId": "AMEMBO",
       "name": "Skeeterskate",
@@ -376,6 +357,33 @@
           "x": 254.5402,
           "y": 1118.4739,
           "z": 40
+        }
+      }
+    }
+  ],
+  "creature-nisezako": [
+    {
+      "type": "creature-nisezako",
+      "infoType": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "health": 500,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 452.76685,
+          "y": 1017.0463,
+          "z": 49
         }
       }
     }

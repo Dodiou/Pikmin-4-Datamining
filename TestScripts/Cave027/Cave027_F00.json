@@ -81,118 +81,6 @@
           "z": 0.00010681152
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHANDBELL",
-      "name": "Time Marker",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": 1296.5,
-          "y": -552,
-          "z": 157.20012
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARAPPA",
-      "name": "Mega Horn",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 250,
-      "transform": {
-        "translation": {
-          "x": 164,
-          "y": -969,
-          "z": 32.1501
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTACASTANETS",
-      "name": "Harmonic Synthesizer",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -826,
-          "y": -1016,
-          "z": 18.090096
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHARMONICA",
-      "name": "Wind Detector",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -1003.5233,
-          "y": 686.96576,
-          "z": 9.045175
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGARAGARA",
-      "name": "Shake-a-Smile",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": -974,
-          "y": 963,
-          "z": 23.6176
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAOCARINABRN",
-      "name": "Ambiguous Hostel",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": 301,
-          "y": 1263,
-          "z": 18.021454
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAWHISTLE",
-      "name": "Emperor Whistle",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": 1031.531,
-          "y": 1031.3997,
-          "z": 41.0551
-        }
-      }
     }
   ],
   "switchable-conveyor": [
@@ -393,6 +281,132 @@
           "x": -96.209015,
           "y": 337.10822,
           "z": 0.00009894371
+        }
+      }
+    }
+  ],
+  "treasure-otahandbell": [
+    {
+      "type": "treasure-otahandbell",
+      "infoType": "treasure",
+      "treasureId": "OTAHANDBELL",
+      "name": "Time Marker",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": 1296.5,
+          "y": -552,
+          "z": 157.20012
+        }
+      }
+    }
+  ],
+  "treasure-otarappa": [
+    {
+      "type": "treasure-otarappa",
+      "infoType": "treasure",
+      "treasureId": "OTARAPPA",
+      "name": "Mega Horn",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 250,
+      "transform": {
+        "translation": {
+          "x": 164,
+          "y": -969,
+          "z": 32.1501
+        }
+      }
+    }
+  ],
+  "treasure-otacastanets": [
+    {
+      "type": "treasure-otacastanets",
+      "infoType": "treasure",
+      "treasureId": "OTACASTANETS",
+      "name": "Harmonic Synthesizer",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -826,
+          "y": -1016,
+          "z": 18.090096
+        }
+      }
+    }
+  ],
+  "treasure-otaharmonica": [
+    {
+      "type": "treasure-otaharmonica",
+      "infoType": "treasure",
+      "treasureId": "OTAHARMONICA",
+      "name": "Wind Detector",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -1003.5233,
+          "y": 686.96576,
+          "z": 9.045175
+        }
+      }
+    }
+  ],
+  "treasure-otagaragara": [
+    {
+      "type": "treasure-otagaragara",
+      "infoType": "treasure",
+      "treasureId": "OTAGARAGARA",
+      "name": "Shake-a-Smile",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": -974,
+          "y": 963,
+          "z": 23.6176
+        }
+      }
+    }
+  ],
+  "treasure-otaocarinabrn": [
+    {
+      "type": "treasure-otaocarinabrn",
+      "infoType": "treasure",
+      "treasureId": "OTAOCARINABRN",
+      "name": "Ambiguous Hostel",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 301,
+          "y": 1263,
+          "z": 18.021454
+        }
+      }
+    }
+  ],
+  "treasure-otawhistle": [
+    {
+      "type": "treasure-otawhistle",
+      "infoType": "treasure",
+      "treasureId": "OTAWHISTLE",
+      "name": "Emperor Whistle",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 1031.531,
+          "y": 1031.3997,
+          "z": 41.0551
         }
       }
     }
@@ -685,9 +699,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-tobikaburi": [
     {
-      "type": "creature",
+      "type": "creature-tobikaburi",
       "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
@@ -702,9 +716,11 @@
           "z": 28.140106
         }
       }
-    },
+    }
+  ],
+  "creature-mar": [
     {
-      "type": "creature",
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
@@ -719,9 +735,11 @@
           "z": 14.660099
         }
       }
-    },
+    }
+  ],
+  "creature-sarai": [
     {
-      "type": "creature",
+      "type": "creature-sarai",
       "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
@@ -738,7 +756,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-sarai",
       "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
@@ -755,7 +773,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-sarai",
       "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
@@ -768,74 +786,6 @@
           "x": 964.5,
           "y": 558.5,
           "z": 12.060101
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -204.5,
-          "y": -758.5,
-          "z": 7.722397
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -111.5,
-          "y": -835.5,
-          "z": 7.722397
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -83.5,
-          "y": -719.5,
-          "z": 7.722397
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -188.31601,
-          "y": -884.4686,
-          "z": 7.722397
         }
       }
     }
@@ -922,6 +872,76 @@
           "x": -367,
           "y": 687,
           "z": 15
+        }
+      }
+    }
+  ],
+  "creature-tobinko": [
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -204.5,
+          "y": -758.5,
+          "z": 7.722397
+        }
+      }
+    },
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -111.5,
+          "y": -835.5,
+          "z": 7.722397
+        }
+      }
+    },
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -83.5,
+          "y": -719.5,
+          "z": 7.722397
+        }
+      }
+    },
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -188.31601,
+          "y": -884.4686,
+          "z": 7.722397
         }
       }
     }

@@ -129,9 +129,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kinokochappy": [
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -165,7 +165,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -182,7 +182,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -192.12408,
+          "y": -391.4187,
+          "z": 11.985752
+        }
+      }
+    }
+  ],
+  "creature-kinokajiokoshi": [
+    {
+      "type": "creature-kinokajiokoshi",
       "infoType": "creature",
       "creatureId": "KINOKAJIOKOSHI",
       "name": "Moldy Slooch",
@@ -199,7 +218,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -205.82486,
+          "y": 65.97888,
+          "z": 26
+        }
+      }
+    }
+  ],
+  "creature-dokunameko": [
+    {
+      "type": "creature-dokunameko",
       "infoType": "creature",
       "creatureId": "DOKUNAMEKO",
       "name": "Toxstool",
@@ -226,40 +264,6 @@
           "x": 0.0579834,
           "y": -121.34778,
           "z": 71.76372
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -205.82486,
-          "y": 65.97888,
-          "z": 26
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -192.12408,
-          "y": -391.4187,
-          "z": 11.985752
         }
       }
     }

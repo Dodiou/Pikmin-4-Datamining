@@ -61,102 +61,6 @@
           "z": 49.831573
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAECLAIR",
-      "name": "Sweet Torrent",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": 1073.765,
-          "y": 546.83704,
-          "z": 44.59407
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAWAFFLE",
-      "name": "Cushion Cake",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 987,
-          "y": -617,
-          "z": 124.68932
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAISOBEYAKI",
-      "name": "Deceptive Snack",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -1326,
-          "y": -565,
-          "z": 95
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARINGPOP",
-      "name": "Sticky Jewel",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": -893,
-          "y": -281,
-          "z": 63
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPRETZEL",
-      "name": "Puzzle Snack",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 645,
-          "y": 1303,
-          "z": 43.07019
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAJAMICHIGO",
-      "name": "Condensed Sunshine",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": 802,
-          "y": -1109,
-          "z": 156.22633
-        }
-      }
     }
   ],
   "pikmin-yellow": [
@@ -476,9 +380,117 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otaeclair": [
     {
-      "type": "creature",
+      "type": "treasure-otaeclair",
+      "infoType": "treasure",
+      "treasureId": "OTAECLAIR",
+      "name": "Sweet Torrent",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 1073.765,
+          "y": 546.83704,
+          "z": 44.59407
+        }
+      }
+    }
+  ],
+  "treasure-otawaffle": [
+    {
+      "type": "treasure-otawaffle",
+      "infoType": "treasure",
+      "treasureId": "OTAWAFFLE",
+      "name": "Cushion Cake",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 987,
+          "y": -617,
+          "z": 124.68932
+        }
+      }
+    }
+  ],
+  "treasure-otaisobeyaki": [
+    {
+      "type": "treasure-otaisobeyaki",
+      "infoType": "treasure",
+      "treasureId": "OTAISOBEYAKI",
+      "name": "Deceptive Snack",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1326,
+          "y": -565,
+          "z": 95
+        }
+      }
+    }
+  ],
+  "treasure-otaringpop": [
+    {
+      "type": "treasure-otaringpop",
+      "infoType": "treasure",
+      "treasureId": "OTARINGPOP",
+      "name": "Sticky Jewel",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -893,
+          "y": -281,
+          "z": 63
+        }
+      }
+    }
+  ],
+  "treasure-otapretzel": [
+    {
+      "type": "treasure-otapretzel",
+      "infoType": "treasure",
+      "treasureId": "OTAPRETZEL",
+      "name": "Puzzle Snack",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 645,
+          "y": 1303,
+          "z": 43.07019
+        }
+      }
+    }
+  ],
+  "treasure-otajamichigo": [
+    {
+      "type": "treasure-otajamichigo",
+      "infoType": "treasure",
+      "treasureId": "OTAJAMICHIGO",
+      "name": "Condensed Sunshine",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": 802,
+          "y": -1109,
+          "z": 156.22633
+        }
+      }
+    }
+  ],
+  "creature-chappy": [
+    {
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -501,9 +513,11 @@
           "z": 90
         }
       }
-    },
+    }
+  ],
+  "creature-kajiokoshi": [
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -518,9 +532,11 @@
           "z": 55.00009
         }
       }
-    },
+    }
+  ],
+  "creature-elecmushi": [
     {
-      "type": "creature",
+      "type": "creature-elecmushi",
       "infoType": "creature",
       "creatureId": "ELECMUSHI",
       "name": "Anode Beetle",
@@ -537,92 +553,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -260.81726,
-          "y": 868.79346,
-          "z": 37
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FIRETANK",
-      "name": "Fiery Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": 760.5,
-          "y": -704,
-          "z": 49
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -105.38391,
-          "y": 1153.7935,
-          "z": 37
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "HAMBO",
-      "name": "Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": -977.5,
-          "y": -677,
-          "z": 66
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "HAMBO",
-      "name": "Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": -874.5,
-          "y": -13,
-          "z": 66
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-elecmushi",
       "infoType": "creature",
       "creatureId": "ELECMUSHI",
       "name": "Anode Beetle",
@@ -639,7 +570,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-elecmushi",
       "infoType": "creature",
       "creatureId": "ELECMUSHI",
       "name": "Anode Beetle",
@@ -654,9 +585,100 @@
           "z": 37
         }
       }
+    }
+  ],
+  "creature-kochappy": [
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -260.81726,
+          "y": 868.79346,
+          "z": 37
+        }
+      }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -105.38391,
+          "y": 1153.7935,
+          "z": 37
+        }
+      }
+    }
+  ],
+  "creature-firetank": [
+    {
+      "type": "creature-firetank",
+      "infoType": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 760.5,
+          "y": -704,
+          "z": 49
+        }
+      }
+    }
+  ],
+  "creature-hambo": [
+    {
+      "type": "creature-hambo",
+      "infoType": "creature",
+      "creatureId": "HAMBO",
+      "name": "Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -977.5,
+          "y": -677,
+          "z": 66
+        }
+      }
+    },
+    {
+      "type": "creature-hambo",
+      "infoType": "creature",
+      "creatureId": "HAMBO",
+      "name": "Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -874.5,
+          "y": -13,
+          "z": 66
+        }
+      }
+    },
+    {
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",

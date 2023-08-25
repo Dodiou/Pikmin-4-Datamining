@@ -13,9 +13,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-nomi": [
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -32,7 +32,145 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -384.45172,
+          "y": -356.65482,
+          "z": 62.06009
+        }
+      }
+    },
+    {
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -209.56076,
+          "y": -505.38617,
+          "z": 62.058624
+        }
+      }
+    },
+    {
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -396.3563,
+          "y": -655.3283,
+          "z": 62.06009
+        }
+      }
+    },
+    {
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -654.04236,
+          "y": -571.01965,
+          "z": 62.06009
+        }
+      }
+    },
+    {
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -293.47577,
+          "y": -61.355057,
+          "z": 62.06009
+        }
+      }
+    },
+    {
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -192.41223,
+          "y": -298.0145,
+          "z": 62.06009
+        }
+      }
+    },
+    {
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -661.5526,
+          "y": -133.70186,
+          "z": 62.06009
+        }
+      }
+    },
+    {
+      "type": "creature-nomi",
+      "infoType": "creature",
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -743.874,
+          "y": -348.04266,
+          "z": 62.06009
+        }
+      }
+    }
+  ],
+  "creature-baby": [
+    {
+      "type": "creature-baby",
       "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
@@ -50,143 +188,7 @@
       "spawnNum": 18
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -384.45172,
-          "y": -356.65482,
-          "z": 62.06009
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -209.56076,
-          "y": -505.38617,
-          "z": 62.058624
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -396.3563,
-          "y": -655.3283,
-          "z": 62.06009
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -654.04236,
-          "y": -571.01965,
-          "z": 62.06009
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -293.47577,
-          "y": -61.355057,
-          "z": 62.06009
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -192.41223,
-          "y": -298.0145,
-          "z": 62.06009
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -661.5526,
-          "y": -133.70186,
-          "z": 62.06009
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -743.874,
-          "y": -348.04266,
-          "z": 62.06009
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-baby",
       "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
@@ -204,7 +206,7 @@
       "spawnNum": 18
     },
     {
-      "type": "creature",
+      "type": "creature-baby",
       "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
@@ -222,7 +224,7 @@
       "spawnNum": 27
     },
     {
-      "type": "creature",
+      "type": "creature-baby",
       "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",

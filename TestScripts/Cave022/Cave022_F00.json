@@ -266,9 +266,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaisobeyaki": [
     {
-      "type": "treasure",
+      "type": "treasure-otaisobeyaki",
       "infoType": "treasure",
       "treasureId": "OTAISOBEYAKI",
       "name": "Deceptive Snack",
@@ -280,70 +280,6 @@
           "x": 409.77893,
           "y": -833.3529,
           "z": -43.00006
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPRETZEL",
-      "name": "Puzzle Snack",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 958.6723,
-          "y": 46.806274,
-          "z": 38.070114
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAWAFFLE",
-      "name": "Cushion Cake",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -346.95007,
-          "y": -388.14856,
-          "z": 63.517593
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKOWIENER",
-      "name": "Octoplus",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -1009,
-          "y": 33,
-          "z": -27.917969
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFRUITSPICKORN",
-      "name": "Heroic Sword",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": -968,
-          "y": 1,
-          "z": -45.86828
         }
       }
     }
@@ -370,6 +306,24 @@
           "x": -410.40613,
           "y": 643.794,
           "z": -74.9999
+        }
+      }
+    }
+  ],
+  "treasure-otapretzel": [
+    {
+      "type": "treasure-otapretzel",
+      "infoType": "treasure",
+      "treasureId": "OTAPRETZEL",
+      "name": "Puzzle Snack",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 958.6723,
+          "y": 46.806274,
+          "z": 38.070114
         }
       }
     }
@@ -414,9 +368,63 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otawaffle": [
     {
-      "type": "creature",
+      "type": "treasure-otawaffle",
+      "infoType": "treasure",
+      "treasureId": "OTAWAFFLE",
+      "name": "Cushion Cake",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -346.95007,
+          "y": -388.14856,
+          "z": 63.517593
+        }
+      }
+    }
+  ],
+  "treasure-otatakowiener": [
+    {
+      "type": "treasure-otatakowiener",
+      "infoType": "treasure",
+      "treasureId": "OTATAKOWIENER",
+      "name": "Octoplus",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1009,
+          "y": 33,
+          "z": -27.917969
+        }
+      }
+    }
+  ],
+  "treasure-otafruitspickorn": [
+    {
+      "type": "treasure-otafruitspickorn",
+      "infoType": "treasure",
+      "treasureId": "OTAFRUITSPICKORN",
+      "name": "Heroic Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -968,
+          "y": 1,
+          "z": -45.86828
+        }
+      }
+    }
+  ],
+  "creature-firechappy": [
+    {
+      "type": "creature-firechappy",
       "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
@@ -439,9 +447,11 @@
           "z": -32.301613
         }
       }
-    },
+    }
+  ],
+  "creature-tobikaburi": [
     {
-      "type": "creature",
+      "type": "creature-tobikaburi",
       "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
@@ -462,77 +472,6 @@
           "x": -114.217896,
           "y": -284.28333,
           "z": -21.859905
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -426.78632,
-          "y": -280.37994,
-          "z": -21.30112
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -520.6166,
-          "y": -465.16663,
-          "z": -21.30112
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANE",
-      "name": "Iridescent Flint Beetle",
-      "carryMax": 0,
-      "value": 0,
-      "health": 200,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 3,
-          "max": 3
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 7,
-          "max": 7
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 10,
-          "max": 10
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -414,
-          "y": -761,
-          "z": -32
         }
       }
     }
@@ -599,6 +538,81 @@
           "x": 657.63306,
           "y": 571.7182,
           "z": -60
+        }
+      }
+    }
+  ],
+  "creature-kajiokoshi": [
+    {
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -426.78632,
+          "y": -280.37994,
+          "z": -21.30112
+        }
+      }
+    },
+    {
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -520.6166,
+          "y": -465.16663,
+          "z": -21.30112
+        }
+      }
+    }
+  ],
+  "creature-kogane": [
+    {
+      "type": "creature-kogane",
+      "infoType": "creature",
+      "creatureId": "KOGANE",
+      "name": "Iridescent Flint Beetle",
+      "carryMax": 0,
+      "value": 0,
+      "health": 200,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 7,
+          "max": 7
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -414,
+          "y": -761,
+          "z": -32
         }
       }
     }

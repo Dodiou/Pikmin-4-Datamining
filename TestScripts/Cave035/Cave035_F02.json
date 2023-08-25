@@ -121,9 +121,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otamelon": [
     {
-      "type": "treasure",
+      "type": "treasure-otamelon",
       "infoType": "treasure",
       "treasureId": "OTAMELON",
       "name": "Wayward Moon",
@@ -137,9 +137,11 @@
           "z": 182.59966
         }
       }
-    },
+    }
+  ],
+  "treasure-otaringpop": [
     {
-      "type": "treasure",
+      "type": "treasure-otaringpop",
       "infoType": "treasure",
       "treasureId": "OTARINGPOP",
       "name": "Sticky Jewel",
@@ -153,9 +155,11 @@
           "z": 161.45923
         }
       }
-    },
+    }
+  ],
+  "treasure-otaduckl": [
     {
-      "type": "treasure",
+      "type": "treasure-otaduckl",
       "infoType": "treasure",
       "treasureId": "OTADUCKL",
       "name": "Universal Rubber Cutie",
@@ -169,9 +173,11 @@
           "z": 88
         }
       }
-    },
+    }
+  ],
+  "treasure-otaduckm": [
     {
-      "type": "treasure",
+      "type": "treasure-otaduckm",
       "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
@@ -187,7 +193,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otaduckm",
       "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
@@ -201,9 +207,11 @@
           "z": 78.46694
         }
       }
-    },
+    }
+  ],
+  "treasure-otadice12": [
     {
-      "type": "treasure",
+      "type": "treasure-otadice12",
       "infoType": "treasure",
       "treasureId": "OTADICE12",
       "name": "Long-Shot Totem",
@@ -215,86 +223,6 @@
           "x": -248.93262,
           "y": -336.12946,
           "z": 45.44377
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTACANDYSTICK",
-      "name": "Sweet Stumble-Not",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": -267,
-          "y": -643,
-          "z": 188.00246
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGRAPEFRUIT",
-      "name": "Astringent Clump",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -4,
-          "y": 268,
-          "z": 50.926178
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABIWA",
-      "name": "Velvety Dreamdrop",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -1012,
-          "y": 247,
-          "z": 47.81627
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTACHERRY",
-      "name": "Cupid's Grenade",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 892.9365,
-          "y": 26.139664,
-          "z": 75.64051
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAICHIJIKU",
-      "name": "Delectable Bouquet",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": -795,
-          "y": 776,
-          "z": 26.757454
         }
       }
     }
@@ -311,6 +239,96 @@
           "x": -458,
           "y": -758,
           "z": 144.54317
+        }
+      }
+    }
+  ],
+  "treasure-otacandystick": [
+    {
+      "type": "treasure-otacandystick",
+      "infoType": "treasure",
+      "treasureId": "OTACANDYSTICK",
+      "name": "Sweet Stumble-Not",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -267,
+          "y": -643,
+          "z": 188.00246
+        }
+      }
+    }
+  ],
+  "treasure-otagrapefruit": [
+    {
+      "type": "treasure-otagrapefruit",
+      "infoType": "treasure",
+      "treasureId": "OTAGRAPEFRUIT",
+      "name": "Astringent Clump",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -4,
+          "y": 268,
+          "z": 50.926178
+        }
+      }
+    }
+  ],
+  "treasure-otabiwa": [
+    {
+      "type": "treasure-otabiwa",
+      "infoType": "treasure",
+      "treasureId": "OTABIWA",
+      "name": "Velvety Dreamdrop",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1012,
+          "y": 247,
+          "z": 47.81627
+        }
+      }
+    }
+  ],
+  "treasure-otacherry": [
+    {
+      "type": "treasure-otacherry",
+      "infoType": "treasure",
+      "treasureId": "OTACHERRY",
+      "name": "Cupid's Grenade",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 892.9365,
+          "y": 26.139664,
+          "z": 75.64051
+        }
+      }
+    }
+  ],
+  "treasure-otaichijiku": [
+    {
+      "type": "treasure-otaichijiku",
+      "infoType": "treasure",
+      "treasureId": "OTAICHIJIKU",
+      "name": "Delectable Bouquet",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -795,
+          "y": 776,
+          "z": 26.757454
         }
       }
     }
@@ -381,9 +399,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-hanachirashi": [
     {
-      "type": "creature",
+      "type": "creature-hanachirashi",
       "infoType": "creature",
       "creatureId": "HANACHIRASHI",
       "name": "Withering Blowhog",
@@ -400,7 +418,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hanachirashi",
       "infoType": "creature",
       "creatureId": "HANACHIRASHI",
       "name": "Withering Blowhog",
@@ -415,9 +433,11 @@
           "z": 96.280624
         }
       }
-    },
+    }
+  ],
+  "creature-ookogane": [
     {
-      "type": "creature",
+      "type": "creature-ookogane",
       "infoType": "creature",
       "creatureId": "OOKOGANE",
       "name": "Iridescent Glint Beetle",
@@ -452,9 +472,11 @@
           "z": 67.60289
         }
       }
-    },
+    }
+  ],
+  "creature-bikkurigiku": [
     {
-      "type": "creature",
+      "type": "creature-bikkurigiku",
       "infoType": "creature",
       "creatureId": "BIKKURIGIKU",
       "name": "Creeping Chrysanthemum",
@@ -469,9 +491,11 @@
           "z": 68.45227
         }
       }
-    },
+    }
+  ],
+  "creature-tobikaburi": [
     {
-      "type": "creature",
+      "type": "creature-tobikaburi",
       "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",

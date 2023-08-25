@@ -126,9 +126,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otarodan": [
     {
-      "type": "treasure",
+      "type": "treasure-otarodan",
       "infoType": "treasure",
       "treasureId": "OTARODAN",
       "name": "Contemplation Station",
@@ -366,9 +366,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-yukifutakuchiadult": [
     {
-      "type": "creature",
+      "type": "creature-yukifutakuchiadult",
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHIADULT",
       "name": "Arctic Cannon Beetle",

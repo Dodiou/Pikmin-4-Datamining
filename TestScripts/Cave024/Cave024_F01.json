@@ -212,9 +212,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otarailwaylineb": [
     {
-      "type": "treasure",
+      "type": "treasure-otarailwaylineb",
       "infoType": "treasure",
       "treasureId": "OTARAILWAYLINEB",
       "name": "Straight-and-Narrow Track",
@@ -226,22 +226,6 @@
           "x": 138.46194,
           "y": -1112.7306,
           "z": -15.730614
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAJOYCONL",
-      "name": "Telekinesis Detector",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -687.0642,
-          "y": 900.6808,
-          "z": 110.415695
         }
       }
     }
@@ -256,6 +240,24 @@
           "x": -1241.278,
           "y": -197.20587,
           "z": 0.0001001358
+        }
+      }
+    }
+  ],
+  "treasure-otajoyconl": [
+    {
+      "type": "treasure-otajoyconl",
+      "infoType": "treasure",
+      "treasureId": "OTAJOYCONL",
+      "name": "Telekinesis Detector",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -687.0642,
+          "y": 900.6808,
+          "z": 110.415695
         }
       }
     }
@@ -347,9 +349,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-watertank": [
     {
-      "type": "creature",
+      "type": "creature-watertank",
       "infoType": "creature",
       "creatureId": "WATERTANK",
       "name": "Watery Blowhog",
@@ -374,32 +376,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "HANACHIRASHI",
-      "name": "Withering Blowhog",
-      "carryMax": 1,
-      "value": 5,
-      "health": 1800,
-      "seeds": 4,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -821.2053,
-          "y": 541.3043,
-          "z": 27.135094
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-watertank",
       "infoType": "creature",
       "creatureId": "WATERTANK",
       "name": "Watery Blowhog",
@@ -422,9 +399,38 @@
           "z": 48.280052
         }
       }
-    },
+    }
+  ],
+  "creature-hanachirashi": [
     {
-      "type": "creature",
+      "type": "creature-hanachirashi",
+      "infoType": "creature",
+      "creatureId": "HANACHIRASHI",
+      "name": "Withering Blowhog",
+      "carryMax": 1,
+      "value": 5,
+      "health": 1800,
+      "seeds": 4,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -821.2053,
+          "y": 541.3043,
+          "z": 27.135094
+        }
+      }
+    }
+  ],
+  "creature-shippozako": [
+    {
+      "type": "creature-shippozako",
       "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
@@ -441,7 +447,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-shippozako",
       "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
@@ -458,7 +464,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-shippozako",
       "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",

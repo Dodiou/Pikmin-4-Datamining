@@ -316,9 +316,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapadlock": [
     {
-      "type": "treasure",
+      "type": "treasure-otapadlock",
       "infoType": "treasure",
       "treasureId": "OTAPADLOCK",
       "name": "Secured Satchel",
@@ -330,54 +330,6 @@
           "x": 486,
           "y": -825,
           "z": 63.60357
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFRUITSPICKBLU",
-      "name": "Ice Sword",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": -609.7221,
-          "y": -57.76017,
-          "z": -48.94845
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARASPBERRY",
-      "name": "Juicy Gaggle",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": -591.7221,
-          "y": -85.76016,
-          "z": -39.8928
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTALIGHTUPRINGRED",
-      "name": "Hoop of Passion",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 130,
-      "transform": {
-        "translation": {
-          "x": 169.37735,
-          "y": 1.28846,
-          "z": 23.492908
         }
       }
     }
@@ -408,9 +360,63 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otafruitspickblu": [
     {
-      "type": "creature",
+      "type": "treasure-otafruitspickblu",
+      "infoType": "treasure",
+      "treasureId": "OTAFRUITSPICKBLU",
+      "name": "Ice Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -609.7221,
+          "y": -57.76017,
+          "z": -48.94845
+        }
+      }
+    }
+  ],
+  "treasure-otaraspberry": [
+    {
+      "type": "treasure-otaraspberry",
+      "infoType": "treasure",
+      "treasureId": "OTARASPBERRY",
+      "name": "Juicy Gaggle",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -591.7221,
+          "y": -85.76016,
+          "z": -39.8928
+        }
+      }
+    }
+  ],
+  "treasure-otalightupringred": [
+    {
+      "type": "treasure-otalightupringred",
+      "infoType": "treasure",
+      "treasureId": "OTALIGHTUPRINGRED",
+      "name": "Hoop of Passion",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": 169.37735,
+          "y": 1.28846,
+          "z": 23.492908
+        }
+      }
+    }
+  ],
+  "creature-firechappy": [
+    {
+      "type": "creature-firechappy",
       "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
@@ -439,9 +445,11 @@
           "z": 65
         }
       }
-    },
+    }
+  ],
+  "creature-firetank": [
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -466,24 +474,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "AMEBOZU",
-      "name": "Waterwraith",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1800,
-      "seeds": 0,
-      "transform": {
-        "translation": {
-          "x": -659.70953,
-          "y": 280.53757,
-          "z": 35
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -498,38 +489,23 @@
           "z": -26.299911
         }
       }
-    },
+    }
+  ],
+  "creature-amebozu": [
     {
-      "type": "creature",
+      "type": "creature-amebozu",
       "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1800,
+      "seeds": 0,
       "transform": {
         "translation": {
-          "x": 324.60086,
-          "y": 484,
-          "z": 26
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -982.4202,
-          "y": -55.777676,
-          "z": -0.29999924
+          "x": -659.70953,
+          "y": 280.53757,
+          "z": 35
         }
       }
     }
@@ -660,6 +636,42 @@
           "x": -698.5,
           "y": 409,
           "z": -10
+        }
+      }
+    }
+  ],
+  "creature-kajiokoshi": [
+    {
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 324.60086,
+          "y": 484,
+          "z": 26
+        }
+      }
+    },
+    {
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -982.4202,
+          "y": -55.777676,
+          "z": -0.29999924
         }
       }
     }

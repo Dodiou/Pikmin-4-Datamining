@@ -379,9 +379,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-amebozu": [
     {
-      "type": "creature",
+      "type": "creature-amebozu",
       "infoType": "creature",
       "creatureId": "AMEBOZU",
       "name": "Waterwraith",
@@ -396,9 +396,11 @@
           "z": 135
         }
       }
-    },
+    }
+  ],
+  "creature-kumakochappy": [
     {
-      "type": "creature",
+      "type": "creature-kumakochappy",
       "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
@@ -415,7 +417,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kumakochappy",
       "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
@@ -432,24 +434,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KURAGE",
-      "name": "Lesser Spotted Jellyfloat",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1500,
-      "seeds": 0,
-      "transform": {
-        "translation": {
-          "x": -990,
-          "y": 718,
-          "z": 107.1601
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kumakochappy",
       "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
@@ -466,7 +451,45 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -414.5279,
+          "y": -139.99365,
+          "z": 75.0001
+        }
+      }
+    }
+  ],
+  "creature-kurage": [
+    {
+      "type": "creature-kurage",
+      "infoType": "creature",
+      "creatureId": "KURAGE",
+      "name": "Lesser Spotted Jellyfloat",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1500,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -990,
+          "y": 718,
+          "z": 107.1601
+        }
+      }
+    }
+  ],
+  "creature-firetank": [
+    {
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -481,9 +504,11 @@
           "z": 74
         }
       }
-    },
+    }
+  ],
+  "creature-icetank": [
     {
-      "type": "creature",
+      "type": "creature-icetank",
       "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
@@ -498,9 +523,11 @@
           "z": 74
         }
       }
-    },
+    }
+  ],
+  "creature-bikkurikinoko": [
     {
-      "type": "creature",
+      "type": "creature-bikkurikinoko",
       "infoType": "creature",
       "creatureId": "BIKKURIKINOKO",
       "name": "Startle Spore",
@@ -515,9 +542,11 @@
           "z": 57
         }
       }
-    },
+    }
+  ],
+  "creature-karehambo": [
     {
-      "type": "creature",
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -533,26 +562,11 @@
         }
       },
       "spawnNum": 5
-    },
+    }
+  ],
+  "creature-yukifutakuchi": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -414.5279,
-          "y": -139.99365,
-          "z": 75.0001
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-yukifutakuchi",
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",

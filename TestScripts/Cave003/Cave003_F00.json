@@ -110,9 +110,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaapricot": [
     {
-      "type": "treasure",
+      "type": "treasure-otaapricot",
       "infoType": "treasure",
       "treasureId": "OTAAPRICOT",
       "name": "Searing Acidshock",
@@ -126,7 +126,9 @@
           "z": 195.1002
         }
       }
-    },
+    }
+  ],
+  "treasure": [
     {
       "type": "treasure",
       "infoType": "treasure",
@@ -158,70 +160,6 @@
           "x": 208,
           "y": 721,
           "z": 150.0001
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAJAMICHIGO",
-      "name": "Condensed Sunshine",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": 703,
-          "y": -683,
-          "z": 57.2001
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAYOSHICOOKIEC",
-      "name": "Vanishing Cookie",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": -862,
-          "y": 450,
-          "z": 5.5276003
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAECLAIR",
-      "name": "Sweet Torrent",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -988.8123,
-          "y": -143.49847,
-          "z": 19.59407
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAWAFFLE",
-      "name": "Cushion Cake",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -436,
-          "y": 840.30273,
-          "z": 30.593142
         }
       }
     }
@@ -269,6 +207,78 @@
       }
     }
   ],
+  "treasure-otajamichigo": [
+    {
+      "type": "treasure-otajamichigo",
+      "infoType": "treasure",
+      "treasureId": "OTAJAMICHIGO",
+      "name": "Condensed Sunshine",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": 703,
+          "y": -683,
+          "z": 57.2001
+        }
+      }
+    }
+  ],
+  "treasure-otayoshicookiec": [
+    {
+      "type": "treasure-otayoshicookiec",
+      "infoType": "treasure",
+      "treasureId": "OTAYOSHICOOKIEC",
+      "name": "Vanishing Cookie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -862,
+          "y": 450,
+          "z": 5.5276003
+        }
+      }
+    }
+  ],
+  "treasure-otaeclair": [
+    {
+      "type": "treasure-otaeclair",
+      "infoType": "treasure",
+      "treasureId": "OTAECLAIR",
+      "name": "Sweet Torrent",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -988.8123,
+          "y": -143.49847,
+          "z": 19.59407
+        }
+      }
+    }
+  ],
+  "treasure-otawaffle": [
+    {
+      "type": "treasure-otawaffle",
+      "infoType": "treasure",
+      "treasureId": "OTAWAFFLE",
+      "name": "Cushion Cake",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -436,
+          "y": 840.30273,
+          "z": 30.593142
+        }
+      }
+    }
+  ],
   "misc-groupdropmanager": [
     {
       "type": "misc-groupdropmanager",
@@ -291,9 +301,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-rusher": [
     {
-      "type": "creature",
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
@@ -308,9 +318,11 @@
           "z": 21
         }
       }
-    },
+    }
+  ],
+  "creature-chappy": [
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -331,91 +343,6 @@
           "x": -106.5,
           "y": -655.5,
           "z": 90
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 618,
-          "y": -71,
-          "z": 12
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -481,
-          "y": -679,
-          "z": 62
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -268,
-          "y": 543,
-          "z": 12
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -260,
-          "y": 707,
-          "z": 12
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -495,
-          "y": -460,
-          "z": 62
         }
       }
     }
@@ -546,6 +473,93 @@
           "x": 766.5319,
           "y": 919.8118,
           "z": 164
+        }
+      }
+    }
+  ],
+  "creature-kochappy": [
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 618,
+          "y": -71,
+          "z": 12
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -481,
+          "y": -679,
+          "z": 62
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -268,
+          "y": 543,
+          "z": 12
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -260,
+          "y": 707,
+          "z": 12
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -495,
+          "y": -460,
+          "z": 62
         }
       }
     }

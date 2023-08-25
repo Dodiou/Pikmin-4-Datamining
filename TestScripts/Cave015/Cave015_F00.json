@@ -131,150 +131,6 @@
           "z": 1.0000954
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKM",
-      "name": "Planetary Rubber Cutie",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 127.08574,
-          "y": 185.98132,
-          "z": -24.953377
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKM",
-      "name": "Planetary Rubber Cutie",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 225,
-          "y": 294,
-          "z": -24.264603
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKL",
-      "name": "Universal Rubber Cutie",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 1524,
-          "y": -356.4996,
-          "z": -48.504898
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASPONGEC",
-      "name": "Fishy Bed",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 1309,
-          "y": -839,
-          "z": 19.592598
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASPONGEA",
-      "name": "Doggy Bed",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -980.7683,
-          "y": 308.4351,
-          "z": 8.001802
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKM",
-      "name": "Planetary Rubber Cutie",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -962.9498,
-          "y": 743.09576,
-          "z": 9.990129
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABOAT",
-      "name": "Unfloatable Boat",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": -1512,
-          "y": -839,
-          "z": 25.120098
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKM",
-      "name": "Planetary Rubber Cutie",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -1163.783,
-          "y": -626.11224,
-          "z": -24.199484
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKS",
-      "name": "Stately Rubber Cutie",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": -1255,
-          "y": -673,
-          "z": -43.194885
-        }
-      }
     }
   ],
   "pikmin-blue": [
@@ -420,6 +276,162 @@
       }
     }
   ],
+  "treasure-otaduckm": [
+    {
+      "type": "treasure-otaduckm",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 127.08574,
+          "y": 185.98132,
+          "z": -24.953377
+        }
+      }
+    },
+    {
+      "type": "treasure-otaduckm",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 225,
+          "y": 294,
+          "z": -24.264603
+        }
+      }
+    },
+    {
+      "type": "treasure-otaduckm",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -962.9498,
+          "y": 743.09576,
+          "z": 9.990129
+        }
+      }
+    },
+    {
+      "type": "treasure-otaduckm",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1163.783,
+          "y": -626.11224,
+          "z": -24.199484
+        }
+      }
+    }
+  ],
+  "treasure-otaduckl": [
+    {
+      "type": "treasure-otaduckl",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKL",
+      "name": "Universal Rubber Cutie",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 1524,
+          "y": -356.4996,
+          "z": -48.504898
+        }
+      }
+    }
+  ],
+  "treasure-otaspongec": [
+    {
+      "type": "treasure-otaspongec",
+      "infoType": "treasure",
+      "treasureId": "OTASPONGEC",
+      "name": "Fishy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 1309,
+          "y": -839,
+          "z": 19.592598
+        }
+      }
+    }
+  ],
+  "treasure-otaspongea": [
+    {
+      "type": "treasure-otaspongea",
+      "infoType": "treasure",
+      "treasureId": "OTASPONGEA",
+      "name": "Doggy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -980.7683,
+          "y": 308.4351,
+          "z": 8.001802
+        }
+      }
+    }
+  ],
+  "treasure-otaboat": [
+    {
+      "type": "treasure-otaboat",
+      "infoType": "treasure",
+      "treasureId": "OTABOAT",
+      "name": "Unfloatable Boat",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": -1512,
+          "y": -839,
+          "z": 25.120098
+        }
+      }
+    }
+  ],
+  "treasure-otaducks": [
+    {
+      "type": "treasure-otaducks",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKS",
+      "name": "Stately Rubber Cutie",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -1255,
+          "y": -673,
+          "z": -43.194885
+        }
+      }
+    }
+  ],
   "breakable-egg": [
     {
       "type": "breakable-egg",
@@ -486,9 +498,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-tobiuo": [
     {
-      "type": "creature",
+      "type": "creature-tobiuo",
       "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
@@ -505,7 +517,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tobiuo",
       "infoType": "creature",
       "creatureId": "TOBIUO",
       "name": "Puckering Blinnow",
@@ -520,9 +532,11 @@
           "z": -42.9649
         }
       }
-    },
+    }
+  ],
+  "creature-namazu": [
     {
-      "type": "creature",
+      "type": "creature-namazu",
       "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
@@ -539,7 +553,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-namazu",
       "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
@@ -554,9 +568,11 @@
           "z": 21
         }
       }
-    },
+    }
+  ],
+  "creature-kogani": [
     {
-      "type": "creature",
+      "type": "creature-kogani",
       "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
@@ -573,7 +589,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kogani",
       "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",
@@ -588,9 +604,11 @@
           "z": 27.1251
         }
       }
-    },
+    }
+  ],
+  "creature-frog": [
     {
-      "type": "creature",
+      "type": "creature-frog",
       "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",

@@ -181,9 +181,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otakendamab": [
     {
-      "type": "treasure",
+      "type": "treasure-otakendamab",
       "infoType": "treasure",
       "treasureId": "OTAKENDAMAB",
       "name": "Aspiration-Ritual Pole",
@@ -230,9 +230,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-rusher": [
     {
-      "type": "creature",
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",

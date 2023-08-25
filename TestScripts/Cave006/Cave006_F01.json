@@ -64,54 +64,6 @@
           "z": -75.00091
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARAILWAYLINED",
-      "name": "Back-at-the-Beginning Track",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -966.079,
-          "y": 549.313,
-          "z": 84.430145
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABILLIARDBALL9",
-      "name": "Sphere of Support",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 856.1014,
-          "y": -403.55624,
-          "z": 40.60751
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGRIPPER",
-      "name": "Tandem Trainer",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -329,
-          "y": 754,
-          "z": -32.939903
-        }
-      }
     }
   ],
   "gate-dirt": [
@@ -182,6 +134,24 @@
       }
     }
   ],
+  "treasure-otarailwaylined": [
+    {
+      "type": "treasure-otarailwaylined",
+      "infoType": "treasure",
+      "treasureId": "OTARAILWAYLINED",
+      "name": "Back-at-the-Beginning Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -966.079,
+          "y": 549.313,
+          "z": 84.430145
+        }
+      }
+    }
+  ],
   "candypop-ice": [
     {
       "type": "candypop-ice",
@@ -212,9 +182,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otabilliardball9": [
     {
-      "type": "creature",
+      "type": "treasure-otabilliardball9",
+      "infoType": "treasure",
+      "treasureId": "OTABILLIARDBALL9",
+      "name": "Sphere of Support",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 856.1014,
+          "y": -403.55624,
+          "z": 40.60751
+        }
+      }
+    }
+  ],
+  "treasure-otagripper": [
+    {
+      "type": "treasure-otagripper",
+      "infoType": "treasure",
+      "treasureId": "OTAGRIPPER",
+      "name": "Tandem Trainer",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -329,
+          "y": 754,
+          "z": -32.939903
+        }
+      }
+    }
+  ],
+  "creature-firetank": [
+    {
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -239,7 +245,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",

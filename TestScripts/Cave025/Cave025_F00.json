@@ -221,182 +221,6 @@
           "z": 0.000100000005
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABANKCARDBLANK",
-      "name": "Deity's Portrait",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 250.1875,
-          "y": 1396.2273,
-          "z": 5.0251007
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHANDSPINNER",
-      "name": "Space Spinner",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -422.31677,
-          "y": 121.45154,
-          "z": 80.630066
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATRAINC",
-      "name": "Leisure Car",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -1080.2877,
-          "y": 1356.2539,
-          "z": 82
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPAINTSPNK",
-      "name": "Captivation Goo",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -1308.9535,
-          "y": 772.74536,
-          "z": 194
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPINBADGEA",
-      "name": "Blast Shield",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 888,
-          "y": 1372,
-          "z": 125
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABANKCARDD",
-      "name": "Love Emblem",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 870,
-          "y": 1370,
-          "z": 100
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABANKCARDE",
-      "name": "Money Emblem",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": -1010.625,
-          "y": 952.2815,
-          "z": 155.0251
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABANKCARDF",
-      "name": "Work Emblem",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 705.75256,
-          "y": -413.9436,
-          "z": 55.0251
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPAPERBALLOON",
-      "name": "Divine Balloon",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -1370,
-          "y": -1383,
-          "z": 185.3001
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABANKCARDBLANK2",
-      "name": "Devil's Portrait",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 335.6194,
-          "y": -1163.9039,
-          "z": 103.7751
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUDDING",
-      "name": "Jiggle-Jiggle",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -218,
-          "y": 929,
-          "z": 69.81809
-        }
-      }
     }
   ],
   "candypop-wing": [
@@ -455,6 +279,24 @@
       }
     }
   ],
+  "treasure-otabankcardblank": [
+    {
+      "type": "treasure-otabankcardblank",
+      "infoType": "treasure",
+      "treasureId": "OTABANKCARDBLANK",
+      "name": "Deity's Portrait",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 250.1875,
+          "y": 1396.2273,
+          "z": 5.0251007
+        }
+      }
+    }
+  ],
   "tunnel-captain": [
     {
       "type": "tunnel-captain",
@@ -477,6 +319,42 @@
           "x": -552.2742,
           "y": 754.55493,
           "z": 70.1001
+        }
+      }
+    }
+  ],
+  "treasure-otahandspinner": [
+    {
+      "type": "treasure-otahandspinner",
+      "infoType": "treasure",
+      "treasureId": "OTAHANDSPINNER",
+      "name": "Space Spinner",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -422.31677,
+          "y": 121.45154,
+          "z": 80.630066
+        }
+      }
+    }
+  ],
+  "treasure-otatrainc": [
+    {
+      "type": "treasure-otatrainc",
+      "infoType": "treasure",
+      "treasureId": "OTATRAINC",
+      "name": "Leisure Car",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -1080.2877,
+          "y": 1356.2539,
+          "z": 82
         }
       }
     }
@@ -638,6 +516,42 @@
       }
     }
   ],
+  "treasure-otapaintspnk": [
+    {
+      "type": "treasure-otapaintspnk",
+      "infoType": "treasure",
+      "treasureId": "OTAPAINTSPNK",
+      "name": "Captivation Goo",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -1308.9535,
+          "y": 772.74536,
+          "z": 194
+        }
+      }
+    }
+  ],
+  "treasure-otapinbadgea": [
+    {
+      "type": "treasure-otapinbadgea",
+      "infoType": "treasure",
+      "treasureId": "OTAPINBADGEA",
+      "name": "Blast Shield",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 888,
+          "y": 1372,
+          "z": 125
+        }
+      }
+    }
+  ],
   "candypop-purple": [
     {
       "type": "candypop-purple",
@@ -650,6 +564,78 @@
           "x": -1579.728,
           "y": -337.68573,
           "z": 50.0001
+        }
+      }
+    }
+  ],
+  "treasure-otabankcardd": [
+    {
+      "type": "treasure-otabankcardd",
+      "infoType": "treasure",
+      "treasureId": "OTABANKCARDD",
+      "name": "Love Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 870,
+          "y": 1370,
+          "z": 100
+        }
+      }
+    }
+  ],
+  "treasure-otabankcarde": [
+    {
+      "type": "treasure-otabankcarde",
+      "infoType": "treasure",
+      "treasureId": "OTABANKCARDE",
+      "name": "Money Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": -1010.625,
+          "y": 952.2815,
+          "z": 155.0251
+        }
+      }
+    }
+  ],
+  "treasure-otabankcardf": [
+    {
+      "type": "treasure-otabankcardf",
+      "infoType": "treasure",
+      "treasureId": "OTABANKCARDF",
+      "name": "Work Emblem",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 705.75256,
+          "y": -413.9436,
+          "z": 55.0251
+        }
+      }
+    }
+  ],
+  "treasure-otapaperballoon": [
+    {
+      "type": "treasure-otapaperballoon",
+      "infoType": "treasure",
+      "treasureId": "OTAPAPERBALLOON",
+      "name": "Divine Balloon",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -1370,
+          "y": -1383,
+          "z": 185.3001
         }
       }
     }
@@ -680,6 +666,42 @@
       }
     }
   ],
+  "treasure-otabankcardblank2": [
+    {
+      "type": "treasure-otabankcardblank2",
+      "infoType": "treasure",
+      "treasureId": "OTABANKCARDBLANK2",
+      "name": "Devil's Portrait",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 335.6194,
+          "y": -1163.9039,
+          "z": 103.7751
+        }
+      }
+    }
+  ],
+  "treasure-otapudding": [
+    {
+      "type": "treasure-otapudding",
+      "infoType": "treasure",
+      "treasureId": "OTAPUDDING",
+      "name": "Jiggle-Jiggle",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -218,
+          "y": 929,
+          "z": 69.81809
+        }
+      }
+    }
+  ],
   "base-onion": [
     {
       "type": "base-onion",
@@ -694,9 +716,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kochappy": [
     {
-      "type": "creature",
+      "type": "creature-kochappy",
       "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
@@ -713,7 +735,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy",
       "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
@@ -728,9 +750,11 @@
           "z": 11.997681
         }
       }
-    },
+    }
+  ],
+  "creature-minimochi": [
     {
-      "type": "creature",
+      "type": "creature-minimochi",
       "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",
@@ -747,7 +771,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-minimochi",
       "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",
@@ -764,24 +788,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPOZAKO",
-      "name": "Miniature Snootwhacker",
-      "carryMax": 14,
-      "value": 7,
-      "health": 500,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": -897.3953,
-          "y": -1029.9814,
-          "z": 120
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-minimochi",
       "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",
@@ -794,135 +801,6 @@
           "x": -1206.7338,
           "y": -1084.2585,
           "z": 116.00018
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NISEZAKO",
-      "name": "Gildemandwee",
-      "carryMax": 10,
-      "value": 5,
-      "health": 500,
-      "seeds": 6,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1378.9268,
-          "y": -453.899,
-          "z": 24.000427
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NISEZAKO",
-      "name": "Gildemandwee",
-      "carryMax": 10,
-      "value": 5,
-      "health": 500,
-      "seeds": 6,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 922.1714,
-          "y": 101.73279,
-          "z": 73.99957
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BIGCHAPPY_NIGHT",
-      "name": "Jumbo Bulborb",
-      "carryMax": 40,
-      "value": 15,
-      "health": 2500,
-      "seeds": 15,
-      "drops": [
-        {
-          "item": "GOtaJamIchigo_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 10,
-          "max": 10
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -214.71765,
-          "y": -554.1386,
-          "z": 40.00116
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPOZAKO",
-      "name": "Miniature Snootwhacker",
-      "carryMax": 14,
-      "value": 7,
-      "health": 500,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": -9.395325,
-          "y": -994.98145,
-          "z": 120
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPO",
-      "name": "Mammoth Snootwhacker",
-      "carryMax": 40,
-      "value": 20,
-      "health": 7000,
-      "seeds": 20,
-      "drops": [
-        {
-          "item": "GSurvivorA_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 5,
-          "max": 5
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 889,
-          "y": 907,
-          "z": 50.25022
         }
       }
     }
@@ -975,6 +853,42 @@
       }
     }
   ],
+  "creature-shippozako": [
+    {
+      "type": "creature-shippozako",
+      "infoType": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "health": 500,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -897.3953,
+          "y": -1029.9814,
+          "z": 120
+        }
+      }
+    },
+    {
+      "type": "creature-shippozako",
+      "infoType": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "health": 500,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -9.395325,
+          "y": -994.98145,
+          "z": 120
+        }
+      }
+    }
+  ],
   "breakable-egg": [
     {
       "type": "breakable-egg",
@@ -1005,6 +919,124 @@
           "x": 1022.6333,
           "y": -1033.3098,
           "z": 53.3
+        }
+      }
+    }
+  ],
+  "creature-nisezako": [
+    {
+      "type": "creature-nisezako",
+      "infoType": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "health": 500,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1378.9268,
+          "y": -453.899,
+          "z": 24.000427
+        }
+      }
+    },
+    {
+      "type": "creature-nisezako",
+      "infoType": "creature",
+      "creatureId": "NISEZAKO",
+      "name": "Gildemandwee",
+      "carryMax": 10,
+      "value": 5,
+      "health": 500,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 922.1714,
+          "y": 101.73279,
+          "z": 73.99957
+        }
+      }
+    }
+  ],
+  "creature-bigchappy_night": [
+    {
+      "type": "creature-bigchappy_night",
+      "infoType": "creature",
+      "creatureId": "BIGCHAPPY_NIGHT",
+      "name": "Jumbo Bulborb",
+      "carryMax": 40,
+      "value": 15,
+      "health": 2500,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaJamIchigo_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -214.71765,
+          "y": -554.1386,
+          "z": 40.00116
+        }
+      }
+    }
+  ],
+  "creature-shippo": [
+    {
+      "type": "creature-shippo",
+      "infoType": "creature",
+      "creatureId": "SHIPPO",
+      "name": "Mammoth Snootwhacker",
+      "carryMax": 40,
+      "value": 20,
+      "health": 7000,
+      "seeds": 20,
+      "drops": [
+        {
+          "item": "GSurvivorA_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 889,
+          "y": 907,
+          "z": 50.25022
         }
       }
     }

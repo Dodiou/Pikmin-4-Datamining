@@ -2484,9 +2484,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otakaki": [
     {
-      "type": "treasure",
+      "type": "treasure-otakaki",
       "infoType": "treasure",
       "treasureId": "OTAKAKI",
       "name": "Portable Sunset",
@@ -2498,198 +2498,6 @@
           "x": 1150,
           "y": 338,
           "z": 285
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFEEDDISH",
-      "name": "Bathing Pool",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": 1993.699,
-          "y": 3920.2075,
-          "z": 253.499
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPINBADGED",
-      "name": "Heroic Shield",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -2010,
-          "y": -2340,
-          "z": 228.43777
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAAVOCADO",
-      "name": "Scaly Custard",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": -3788.9087,
-          "y": -2605.9941,
-          "z": 195.17514
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGRAPE",
-      "name": "Dusk Pustules",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 120,
-      "transform": {
-        "translation": {
-          "x": 3078,
-          "y": -1491,
-          "z": 435
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTANASHI",
-      "name": "Crunchy Deluge",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 1132.5981,
-          "y": 2342.304,
-          "z": 91.74648
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABUTTONPLASTIC",
-      "name": "Fastening Item",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 10,
-      "transform": {
-        "translation": {
-          "x": 2706,
-          "y": 38,
-          "z": 159.0803
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABUTTONPLASTIC",
-      "name": "Fastening Item",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 10,
-      "transform": {
-        "translation": {
-          "x": 2770.2915,
-          "y": 61.9559,
-          "z": 158.8254
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGOLDBAR",
-      "name": "Golden Vaulting Table",
-      "weight": 1000,
-      "carryMax": 1000,
-      "value": 1000,
-      "transform": {
-        "translation": {
-          "x": -471.23404,
-          "y": 568.086,
-          "z": 355.78714
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPEACH",
-      "name": "Mock Bottom",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -3937.5083,
-          "y": -108.16513,
-          "z": 169.6976
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGOLDFISH",
-      "name": "Faux Fishy",
-      "weight": 20,
-      "carryMax": 40,
-      "value": 300,
-      "transform": {
-        "translation": {
-          "x": 3212.4124,
-          "y": -323.5785,
-          "z": 117.32486
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAICHIJIKU",
-      "name": "Delectable Bouquet",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": -1260,
-          "y": 3494,
-          "z": 97.213715
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMANEKINEKO",
-      "name": "Beckoning Mannequin",
-      "weight": 20,
-      "carryMax": 40,
-      "value": 250,
-      "transform": {
-        "translation": {
-          "x": -4316,
-          "y": 876,
-          "z": 100.18804
         }
       }
     }
@@ -2860,6 +2668,220 @@
       "rebirthInterval": 1
     }
   ],
+  "treasure-otafeeddish": [
+    {
+      "type": "treasure-otafeeddish",
+      "infoType": "treasure",
+      "treasureId": "OTAFEEDDISH",
+      "name": "Bathing Pool",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": 1993.699,
+          "y": 3920.2075,
+          "z": 253.499
+        }
+      }
+    }
+  ],
+  "treasure-otapinbadged": [
+    {
+      "type": "treasure-otapinbadged",
+      "infoType": "treasure",
+      "treasureId": "OTAPINBADGED",
+      "name": "Heroic Shield",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -2010,
+          "y": -2340,
+          "z": 228.43777
+        }
+      }
+    }
+  ],
+  "treasure-otaavocado": [
+    {
+      "type": "treasure-otaavocado",
+      "infoType": "treasure",
+      "treasureId": "OTAAVOCADO",
+      "name": "Scaly Custard",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -3788.9087,
+          "y": -2605.9941,
+          "z": 195.17514
+        }
+      }
+    }
+  ],
+  "treasure-otagrape": [
+    {
+      "type": "treasure-otagrape",
+      "infoType": "treasure",
+      "treasureId": "OTAGRAPE",
+      "name": "Dusk Pustules",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": 3078,
+          "y": -1491,
+          "z": 435
+        }
+      }
+    }
+  ],
+  "treasure-otanashi": [
+    {
+      "type": "treasure-otanashi",
+      "infoType": "treasure",
+      "treasureId": "OTANASHI",
+      "name": "Crunchy Deluge",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 1132.5981,
+          "y": 2342.304,
+          "z": 91.74648
+        }
+      }
+    }
+  ],
+  "treasure-otabuttonplastic": [
+    {
+      "type": "treasure-otabuttonplastic",
+      "infoType": "treasure",
+      "treasureId": "OTABUTTONPLASTIC",
+      "name": "Fastening Item",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 10,
+      "transform": {
+        "translation": {
+          "x": 2706,
+          "y": 38,
+          "z": 159.0803
+        }
+      }
+    },
+    {
+      "type": "treasure-otabuttonplastic",
+      "infoType": "treasure",
+      "treasureId": "OTABUTTONPLASTIC",
+      "name": "Fastening Item",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 10,
+      "transform": {
+        "translation": {
+          "x": 2770.2915,
+          "y": 61.9559,
+          "z": 158.8254
+        }
+      }
+    }
+  ],
+  "treasure-otagoldbar": [
+    {
+      "type": "treasure-otagoldbar",
+      "infoType": "treasure",
+      "treasureId": "OTAGOLDBAR",
+      "name": "Golden Vaulting Table",
+      "weight": 1000,
+      "carryMax": 1000,
+      "value": 1000,
+      "transform": {
+        "translation": {
+          "x": -471.23404,
+          "y": 568.086,
+          "z": 355.78714
+        }
+      }
+    }
+  ],
+  "treasure-otapeach": [
+    {
+      "type": "treasure-otapeach",
+      "infoType": "treasure",
+      "treasureId": "OTAPEACH",
+      "name": "Mock Bottom",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -3937.5083,
+          "y": -108.16513,
+          "z": 169.6976
+        }
+      }
+    }
+  ],
+  "treasure-otagoldfish": [
+    {
+      "type": "treasure-otagoldfish",
+      "infoType": "treasure",
+      "treasureId": "OTAGOLDFISH",
+      "name": "Faux Fishy",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 300,
+      "transform": {
+        "translation": {
+          "x": 3212.4124,
+          "y": -323.5785,
+          "z": 117.32486
+        }
+      }
+    }
+  ],
+  "treasure-otaichijiku": [
+    {
+      "type": "treasure-otaichijiku",
+      "infoType": "treasure",
+      "treasureId": "OTAICHIJIKU",
+      "name": "Delectable Bouquet",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -1260,
+          "y": 3494,
+          "z": 97.213715
+        }
+      }
+    }
+  ],
+  "treasure-otamanekineko": [
+    {
+      "type": "treasure-otamanekineko",
+      "infoType": "treasure",
+      "treasureId": "OTAMANEKINEKO",
+      "name": "Beckoning Mannequin",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 250,
+      "transform": {
+        "translation": {
+          "x": -4316,
+          "y": 876,
+          "z": 100.18804
+        }
+      }
+    }
+  ],
   "castaway-normal": [
     {
       "type": "castaway-normal",
@@ -2970,9 +2992,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-bikkurikinoko": [
     {
-      "type": "creature",
+      "type": "creature-bikkurikinoko",
       "infoType": "creature",
       "creatureId": "BIKKURIKINOKO",
       "name": "Startle Spore",
@@ -2997,83 +3019,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -661.30347,
-          "y": 2461.3752,
-          "z": 116.88835
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -626.8286,
-          "y": 2581.7686,
-          "z": 113.685
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2199.2258,
-          "y": 801.2934,
-          "z": 239.54625
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1284.1216,
-          "y": -2433.1414,
-          "z": 440
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-bikkurikinoko",
       "infoType": "creature",
       "creatureId": "BIKKURIKINOKO",
       "name": "Startle Spore",
@@ -3098,41 +3044,85 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-bikkurikinoko",
       "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
+      "creatureId": "BIKKURIKINOKO",
+      "name": "Startle Spore",
+      "carryMax": 20,
+      "value": 12,
+      "health": 2000,
+      "seeds": 12,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
-          "x": -156.87004,
-          "y": 1813.3632,
-          "z": 76.062805
+          "x": -894,
+          "y": -280,
+          "z": 322.2601
+        }
+      }
+    }
+  ],
+  "creature-kinokochappy": [
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -661.30347,
+          "y": 2461.3752,
+          "z": 116.88835
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
       "carryMax": 6,
       "value": 3,
-      "health": 300,
-      "seeds": 4,
+      "health": 150,
+      "seeds": 3,
       "transform": {
         "translation": {
-          "x": -82.86179,
-          "y": 2036.9868,
-          "z": 76.12334
+          "x": -626.8286,
+          "y": 2581.7686,
+          "z": 113.685
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1284.1216,
+          "y": -2433.1414,
+          "z": 440
+        }
+      }
+    },
+    {
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -3149,7 +3139,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -3166,7 +3156,292 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2476.4006,
+          "y": 1632.9796,
+          "z": 172
+        }
+      }
+    },
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2320.4602,
+          "y": 1598.0421,
+          "z": 171.99998
+        }
+      }
+    },
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1416.1504,
+          "y": -2606.138,
+          "z": 443.29932
+        }
+      }
+    }
+  ],
+  "creature-tobikaburi": [
+    {
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2199.2258,
+          "y": 801.2934,
+          "z": 239.54625
+        }
+      }
+    },
+    {
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2480.2256,
+          "y": -2487.3394,
+          "z": 368.15543
+        }
+      }
+    },
+    {
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1879.2258,
+          "y": -551.7066,
+          "z": 108.37741
+        }
+      }
+    },
+    {
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 1961,
+          "y": -813,
+          "z": 108.14032
+        }
+      }
+    }
+  ],
+  "creature-kinokajiokoshi": [
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -156.87004,
+          "y": 1813.3632,
+          "z": 76.062805
+        }
+      }
+    },
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -82.86179,
+          "y": 2036.9868,
+          "z": 76.12334
+        }
+      }
+    },
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -3713,
+          "y": -1862,
+          "z": 75.997116
+        }
+      }
+    },
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -3702,
+          "y": -1514,
+          "z": 75.99443
+        }
+      }
+    },
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2777,
+          "y": 1655,
+          "z": 76.1737
+        }
+      }
+    },
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2836,
+          "y": 1842,
+          "z": 75.77547
+        }
+      }
+    },
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 311,
+          "y": -1376,
+          "z": 76.008835
+        }
+      }
+    },
+    {
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 581,
+          "y": -908,
+          "z": 76.01535
+        }
+      }
+    }
+  ],
+  "creature-gaskogane": [
+    {
+      "type": "creature-gaskogane",
       "infoType": "creature",
       "creatureId": "GASKOGANE",
       "name": "Doodlebug",
@@ -3209,49 +3484,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BIKKURIKINOKO",
-      "name": "Startle Spore",
-      "carryMax": 20,
-      "value": 12,
-      "health": 2000,
-      "seeds": 12,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -894,
-          "y": -280,
-          "z": 322.2601
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -3713,
-          "y": -1862,
-          "z": 75.997116
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-gaskogane",
       "infoType": "creature",
       "creatureId": "GASKOGANE",
       "name": "Doodlebug",
@@ -3292,136 +3525,11 @@
           "z": 68.048065
         }
       }
-    },
+    }
+  ],
+  "creature-throweater": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 2476.4006,
-          "y": 1632.9796,
-          "z": 172
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 2320.4602,
-          "y": 1598.0421,
-          "z": 171.99998
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1416.1504,
-          "y": -2606.138,
-          "z": 443.29932
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -3702,
-          "y": -1514,
-          "z": 75.99443
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2480.2256,
-          "y": -2487.3394,
-          "z": 368.15543
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -2777,
-          "y": 1655,
-          "z": 76.1737
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -2836,
-          "y": 1842,
-          "z": 75.77547
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-throweater",
       "infoType": "creature",
       "creatureId": "THROWEATER",
       "name": "Grubchucker",
@@ -3446,297 +3554,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1822.8052,
-          "y": -720.24146,
-          "z": 92.22398
-        }
-      },
-      "spawnNum": 5
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -19.28646,
-          "y": -484.86176,
-          "z": 192.08357
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NUMASUITORI",
-      "name": "Bogswallow",
-      "carryMax": 14,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": -3673,
-          "y": 613,
-          "z": 35.877895
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1830,
-          "y": -237,
-          "z": 56.000076
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -3225,
-          "y": -1322,
-          "z": 49.00769
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NOMI",
-      "name": "Shearflea",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -2502.2866,
-          "y": 327.13824,
-          "z": 62
-        }
-      },
-      "spawnNum": 5
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NUMASUITORI",
-      "name": "Bogswallow",
-      "carryMax": 14,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": 2928,
-          "y": -416,
-          "z": 65.620346
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BOKENAMEKO",
-      "name": "Puffstool",
-      "carryMax": 24,
-      "value": 20,
-      "health": 15000,
-      "seeds": 20,
-      "drops": [
-        {
-          "item": "GOtaLaFrance_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 529,
-          "y": -1213,
-          "z": 121.779175
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 311,
-          "y": -1376,
-          "z": 76.008835
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 581,
-          "y": -908,
-          "z": 76.01535
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NUMASUITORI",
-      "name": "Bogswallow",
-      "carryMax": 14,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": 2181,
-          "y": 3131,
-          "z": 150.00008
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -3872,
-          "y": 948,
-          "z": 19.951706
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -3692,
-          "y": 362,
-          "z": 18.992237
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1879.2258,
-          "y": -551.7066,
-          "z": 108.37741
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NUMASUITORI",
-      "name": "Bogswallow",
-      "carryMax": 14,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": 2194,
-          "y": 3523,
-          "z": 150.00006
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 1961,
-          "y": -813,
-          "z": 108.14032
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-throweater",
       "infoType": "creature",
       "creatureId": "THROWEATER",
       "name": "Grubchucker",
@@ -3759,212 +3577,64 @@
           "z": 102
         }
       }
-    },
+    }
+  ],
+  "creature-nomi": [
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
-      "creatureId": "HAGEDAMAGUMO",
-      "name": "Baldy Long Legs",
-      "carryMax": 0,
-      "value": 0,
-      "health": 3700,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GOtaApricot_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -2335.2412,
-          "y": -1362.6292,
-          "z": 100.73813
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
       "health": 45,
-      "seeds": 3,
+      "seeds": 2,
       "transform": {
         "translation": {
-          "x": -3930,
-          "y": 649,
-          "z": 19.957928
+          "x": 1822.8052,
+          "y": -720.24146,
+          "z": 92.22398
         }
-      }
+      },
+      "spawnNum": 5
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
-      "creatureId": "OOKOGANE",
-      "name": "Iridescent Glint Beetle",
-      "carryMax": 0,
-      "value": 0,
-      "health": 600,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 2,
-          "max": 2
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 3,
-          "max": 3
-        }
-      ],
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
       "transform": {
         "translation": {
-          "x": -1365,
-          "y": 1055,
-          "z": 75.41821
+          "x": -19.28646,
+          "y": -484.86176,
+          "z": 192.08357
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
-      "creatureId": "KURIONE",
-      "name": "Honeywisp",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "NOMI",
+      "name": "Shearflea",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
       "transform": {
         "translation": {
-          "x": -2041,
-          "y": -2138,
-          "z": 158
+          "x": -2502.2866,
+          "y": 327.13824,
+          "z": 62
         }
-      }
+      },
+      "spawnNum": 5
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KURIONE",
-      "name": "Honeywisp",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 18,
-          "y": 421,
-          "z": 355.9673
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KURIONE",
-      "name": "Honeywisp",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -258,
-          "y": 85,
-          "z": 356.79712
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KURIONE",
-      "name": "Honeywisp",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -348,
-          "y": 479,
-          "z": 355.9673
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -3981,7 +3651,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -3996,219 +3666,178 @@
           "z": 192.07979
         }
       }
-    },
+    }
+  ],
+  "creature-numasuitori": [
     {
-      "type": "creature",
+      "type": "creature-numasuitori",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "NUMASUITORI",
+      "name": "Bogswallow",
+      "carryMax": 14,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
       "transform": {
         "translation": {
-          "x": -2220,
-          "y": -3021,
-          "z": 111.77526
+          "x": -3673,
+          "y": 613,
+          "z": 35.877895
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-numasuitori",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "NUMASUITORI",
+      "name": "Bogswallow",
+      "carryMax": 14,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
       "transform": {
         "translation": {
-          "x": -2051,
-          "y": -2905,
-          "z": 111.77526
+          "x": 2928,
+          "y": -416,
+          "z": 65.620346
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-numasuitori",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "NUMASUITORI",
+      "name": "Bogswallow",
+      "carryMax": 14,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
       "transform": {
         "translation": {
-          "x": -2137,
-          "y": -2777,
-          "z": 111.77526
+          "x": 2181,
+          "y": 3131,
+          "z": 150.00008
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-numasuitori",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "NUMASUITORI",
+      "name": "Bogswallow",
+      "carryMax": 14,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
       "transform": {
         "translation": {
-          "x": -2184,
-          "y": -2722,
-          "z": 111.77526
+          "x": 2194,
+          "y": 3523,
+          "z": 150.00006
+        }
+      }
+    }
+  ],
+  "creature-dorombo": [
+    {
+      "type": "creature-dorombo",
+      "infoType": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1830,
+          "y": -237,
+          "z": 56.000076
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-dorombo",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
       "transform": {
         "translation": {
-          "x": -2238,
-          "y": -2852,
-          "z": 111.77526
+          "x": -3225,
+          "y": -1322,
+          "z": 49.00769
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-dorombo",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
       "transform": {
         "translation": {
-          "x": -2314,
-          "y": -2852,
-          "z": 111.77526
+          "x": -3872,
+          "y": 948,
+          "z": 19.951706
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-dorombo",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
       "transform": {
         "translation": {
-          "x": -2320,
-          "y": -2950,
-          "z": 111.77526
+          "x": -3692,
+          "y": 362,
+          "z": 18.992237
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-dorombo",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
       "transform": {
         "translation": {
-          "x": -2094,
-          "y": -2999,
-          "z": 111.77526
+          "x": -3930,
+          "y": 649,
+          "z": 19.957928
         }
       }
-    },
+    }
+  ],
+  "creature-bokenameko": [
     {
-      "type": "creature",
+      "type": "creature-bokenameko",
       "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
+      "creatureId": "BOKENAMEKO",
+      "name": "Puffstool",
+      "carryMax": 24,
+      "value": 20,
+      "health": 15000,
+      "seeds": 20,
       "drops": [
         {
-          "item": "GHoney_C",
+          "item": "GOtaLaFrance_C",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4216,109 +3845,9 @@
       ],
       "transform": {
         "translation": {
-          "x": -2130,
-          "y": -2873,
-          "z": 111.77526
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -2077,
-          "y": -2809,
-          "z": 111.77526
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "REDSHIJIMI",
-      "name": "Red Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1005,
-          "y": 852,
-          "z": 60.115784
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "REDSHIJIMI",
-      "name": "Red Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1005,
-          "y": 1006,
-          "z": 60.115784
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "REDSHIJIMI",
-      "name": "Red Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1036,
-          "y": -576,
-          "z": 300.15015
+          "x": 529,
+          "y": -1213,
+          "z": 121.779175
         }
       }
     }
@@ -4523,6 +4052,527 @@
           "x": 766.0985,
           "y": 2793.0144,
           "z": 119.54433
+        }
+      }
+    }
+  ],
+  "creature-hagedamagumo": [
+    {
+      "type": "creature-hagedamagumo",
+      "infoType": "creature",
+      "creatureId": "HAGEDAMAGUMO",
+      "name": "Baldy Long Legs",
+      "carryMax": 0,
+      "value": 0,
+      "health": 3700,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GOtaApricot_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2335.2412,
+          "y": -1362.6292,
+          "z": 100.73813
+        }
+      }
+    }
+  ],
+  "creature-ookogane": [
+    {
+      "type": "creature-ookogane",
+      "infoType": "creature",
+      "creatureId": "OOKOGANE",
+      "name": "Iridescent Glint Beetle",
+      "carryMax": 0,
+      "value": 0,
+      "health": 600,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1365,
+          "y": 1055,
+          "z": 75.41821
+        }
+      }
+    }
+  ],
+  "creature-kurione": [
+    {
+      "type": "creature-kurione",
+      "infoType": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2041,
+          "y": -2138,
+          "z": 158
+        }
+      }
+    },
+    {
+      "type": "creature-kurione",
+      "infoType": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 18,
+          "y": 421,
+          "z": 355.9673
+        }
+      }
+    },
+    {
+      "type": "creature-kurione",
+      "infoType": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -258,
+          "y": 85,
+          "z": 356.79712
+        }
+      }
+    },
+    {
+      "type": "creature-kurione",
+      "infoType": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -348,
+          "y": 479,
+          "z": 355.9673
+        }
+      }
+    }
+  ],
+  "creature-tamagomushi": [
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2220,
+          "y": -3021,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2051,
+          "y": -2905,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2137,
+          "y": -2777,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2184,
+          "y": -2722,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2238,
+          "y": -2852,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2314,
+          "y": -2852,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2320,
+          "y": -2950,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2094,
+          "y": -2999,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2130,
+          "y": -2873,
+          "z": 111.77526
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2077,
+          "y": -2809,
+          "z": 111.77526
+        }
+      }
+    }
+  ],
+  "creature-redshijimi": [
+    {
+      "type": "creature-redshijimi",
+      "infoType": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1005,
+          "y": 852,
+          "z": 60.115784
+        }
+      }
+    },
+    {
+      "type": "creature-redshijimi",
+      "infoType": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1005,
+          "y": 1006,
+          "z": 60.115784
+        }
+      }
+    },
+    {
+      "type": "creature-redshijimi",
+      "infoType": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1036,
+          "y": -576,
+          "z": 300.15015
         }
       }
     }

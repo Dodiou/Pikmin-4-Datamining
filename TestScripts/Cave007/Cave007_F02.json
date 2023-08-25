@@ -78,38 +78,6 @@
           "z": -70.335075
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGRAPEFRUIT",
-      "name": "Astringent Clump",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 692.84204,
-          "y": 554.65625,
-          "z": 73
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAKIWIGLD",
-      "name": "Blonde Impostor",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -134.16878,
-          "y": -1160.4698,
-          "z": 145
-        }
-      }
     }
   ],
   "onion-flarlic": [
@@ -123,6 +91,24 @@
           "x": -101.00001,
           "y": -675.5,
           "z": 121.30762
+        }
+      }
+    }
+  ],
+  "treasure-otagrapefruit": [
+    {
+      "type": "treasure-otagrapefruit",
+      "infoType": "treasure",
+      "treasureId": "OTAGRAPEFRUIT",
+      "name": "Astringent Clump",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 692.84204,
+          "y": 554.65625,
+          "z": 73
         }
       }
     }
@@ -268,9 +254,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otakiwigld": [
     {
-      "type": "creature",
+      "type": "treasure-otakiwigld",
+      "infoType": "treasure",
+      "treasureId": "OTAKIWIGLD",
+      "name": "Blonde Impostor",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -134.16878,
+          "y": -1160.4698,
+          "z": 145
+        }
+      }
+    }
+  ],
+  "creature-karehambo": [
+    {
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -287,7 +291,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -304,24 +308,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MINIMOCHI",
-      "name": "Sunsquish",
-      "carryMax": 1,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 627,
-          "y": 1003.5,
-          "z": -59
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -338,41 +325,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MINIMOCHI",
-      "name": "Sunsquish",
-      "carryMax": 1,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 633.26764,
-          "y": 208.38806,
-          "z": 0.00013
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MINIMOCHI",
-      "name": "Sunsquish",
-      "carryMax": 1,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -352,
-          "y": -893.5,
-          "z": 23.40979
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -389,7 +342,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -456,6 +409,59 @@
           "x": 203,
           "y": 567.5,
           "z": -46.699997
+        }
+      }
+    }
+  ],
+  "creature-minimochi": [
+    {
+      "type": "creature-minimochi",
+      "infoType": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 627,
+          "y": 1003.5,
+          "z": -59
+        }
+      }
+    },
+    {
+      "type": "creature-minimochi",
+      "infoType": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 633.26764,
+          "y": 208.38806,
+          "z": 0.00013
+        }
+      }
+    },
+    {
+      "type": "creature-minimochi",
+      "infoType": "creature",
+      "creatureId": "MINIMOCHI",
+      "name": "Sunsquish",
+      "carryMax": 1,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -352,
+          "y": -893.5,
+          "z": 23.40979
         }
       }
     }

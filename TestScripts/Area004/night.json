@@ -2287,9 +2287,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kajiokoshi": [
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2306,7 +2306,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2323,7 +2323,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2340,7 +2340,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2357,7 +2357,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2374,7 +2374,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2391,7 +2391,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2408,7 +2408,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2425,7 +2425,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2442,7 +2442,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2459,7 +2459,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2476,109 +2476,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -711,
-          "y": 3173,
-          "z": 117.43225
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -483.14795,
-          "y": -156.91754,
-          "z": 214.99998
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -717,
-          "y": 1248,
-          "z": 104.948975
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -491,
-          "y": -476,
-          "z": 215
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -876.12524,
-          "y": 1404.9532,
-          "z": 113.90642
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KUMAKOCHAPPY",
-      "name": "Dwarf Bulbear",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -850,
-          "y": 3119,
-          "z": 115
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2595,24 +2493,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 2128.84,
-          "y": -656.14233,
-          "z": 36
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2629,7 +2510,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2646,7 +2527,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2663,126 +2544,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 2152.4187,
-          "y": -1154.7458,
-          "z": 36
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 812.14746,
-          "y": -828.44806,
-          "z": 116
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1279.1843,
-          "y": -804.23157,
-          "z": 149.36798
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1200.5829,
-          "y": -1107.1567,
-          "z": 115.9989
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1366.7843,
-          "y": 1422.8315,
-          "z": 116
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1388.7301,
-          "y": 1606.8088,
-          "z": 116
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1587.1765,
-          "y": 1671.4102,
-          "z": 116
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2799,7 +2561,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2816,7 +2578,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2833,7 +2595,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2850,7 +2612,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2867,7 +2629,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2884,7 +2646,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -2899,9 +2661,251 @@
           "z": 126
         }
       }
+    }
+  ],
+  "creature-kumakochappy": [
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -711,
+          "y": 3173,
+          "z": 117.43225
+        }
+      }
     },
     {
-      "type": "creature",
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -483.14795,
+          "y": -156.91754,
+          "z": 214.99998
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -717,
+          "y": 1248,
+          "z": 104.948975
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -491,
+          "y": -476,
+          "z": 215
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -876.12524,
+          "y": 1404.9532,
+          "z": 113.90642
+        }
+      }
+    },
+    {
+      "type": "creature-kumakochappy",
+      "infoType": "creature",
+      "creatureId": "KUMAKOCHAPPY",
+      "name": "Dwarf Bulbear",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -850,
+          "y": 3119,
+          "z": 115
+        }
+      }
+    }
+  ],
+  "creature-karehambo": [
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2128.84,
+          "y": -656.14233,
+          "z": 36
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2152.4187,
+          "y": -1154.7458,
+          "z": 36
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 812.14746,
+          "y": -828.44806,
+          "z": 116
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1279.1843,
+          "y": -804.23157,
+          "z": 149.36798
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1200.5829,
+          "y": -1107.1567,
+          "z": 115.9989
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1366.7843,
+          "y": 1422.8315,
+          "z": 116
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1388.7301,
+          "y": 1606.8088,
+          "z": 116
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1587.1765,
+          "y": 1671.4102,
+          "z": 116
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -2918,7 +2922,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -2933,9 +2937,11 @@
           "z": 116
         }
       }
-    },
+    }
+  ],
+  "creature-firechappy": [
     {
-      "type": "creature",
+      "type": "creature-firechappy",
       "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
@@ -2952,7 +2958,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firechappy",
       "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
@@ -2969,7 +2975,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firechappy",
       "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
@@ -2984,9 +2990,11 @@
           "z": 239.1734
         }
       }
-    },
+    }
+  ],
+  "creature-kumachappy": [
     {
-      "type": "creature",
+      "type": "creature-kumachappy",
       "infoType": "creature",
       "creatureId": "KUMACHAPPY",
       "name": "Spotty Bulbear",
@@ -3011,7 +3019,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kumachappy",
       "infoType": "creature",
       "creatureId": "KUMACHAPPY",
       "name": "Spotty Bulbear",
@@ -3036,7 +3044,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kumachappy",
       "infoType": "creature",
       "creatureId": "KUMACHAPPY",
       "name": "Spotty Bulbear",
@@ -3059,9 +3067,11 @@
           "z": 139.90695
         }
       }
-    },
+    }
+  ],
+  "creature-kingchappy": [
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
@@ -3078,7 +3088,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
@@ -3093,9 +3103,11 @@
           "z": 260
         }
       }
-    },
+    }
+  ],
+  "creature-hagedamagumo": [
     {
-      "type": "creature",
+      "type": "creature-hagedamagumo",
       "infoType": "creature",
       "creatureId": "HAGEDAMAGUMO",
       "name": "Baldy Long Legs",
@@ -3112,7 +3124,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hagedamagumo",
       "infoType": "creature",
       "creatureId": "HAGEDAMAGUMO",
       "name": "Baldy Long Legs",

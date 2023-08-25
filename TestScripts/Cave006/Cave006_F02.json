@@ -114,9 +114,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otatrainb": [
     {
-      "type": "treasure",
+      "type": "treasure-otatrainb",
       "infoType": "treasure",
       "treasureId": "OTATRAINB",
       "name": "Middle-Management Tank Car",
@@ -130,9 +130,11 @@
           "z": 226.6326
         }
       }
-    },
+    }
+  ],
+  "treasure-otacounter": [
     {
-      "type": "treasure",
+      "type": "treasure-otacounter",
       "infoType": "treasure",
       "treasureId": "OTACOUNTER",
       "name": "Internal-Clock Measurer",
@@ -240,9 +242,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-firetank": [
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -263,56 +265,6 @@
           "x": 551.96497,
           "y": 1260.099,
           "z": 99.822464
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KABURI",
-      "name": "Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 450,
-      "seeds": 6,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 559.48206,
-          "y": 427.64032,
-          "z": 103
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KABURI",
-      "name": "Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 450,
-      "seeds": 6,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -408.3764,
-          "y": 1505.9269,
-          "z": 153.0001
         }
       }
     }
@@ -411,6 +363,58 @@
           "x": 871,
           "y": 1374,
           "z": 75.0001
+        }
+      }
+    }
+  ],
+  "creature-kaburi": [
+    {
+      "type": "creature-kaburi",
+      "infoType": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 450,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 559.48206,
+          "y": 427.64032,
+          "z": 103
+        }
+      }
+    },
+    {
+      "type": "creature-kaburi",
+      "infoType": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 450,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -408.3764,
+          "y": 1505.9269,
+          "z": 153.0001
         }
       }
     }

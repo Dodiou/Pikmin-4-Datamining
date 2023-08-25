@@ -94,9 +94,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otavenus": [
     {
-      "type": "treasure",
+      "type": "treasure-otavenus",
       "infoType": "treasure",
       "treasureId": "OTAVENUS",
       "name": "Unfinished Statue",
@@ -112,9 +112,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-redshijimi": [
     {
-      "type": "creature",
+      "type": "creature-redshijimi",
       "infoType": "creature",
       "creatureId": "REDSHIJIMI",
       "name": "Red Spectralids",
@@ -139,57 +139,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YELLOWSHIJIMI",
-      "name": "Yellow Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 366.74573,
-          "y": 1.3125763,
-          "z": 16.52974
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YELLOWSHIJIMI",
-      "name": "Yellow Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -140,
-          "y": 450,
-          "z": 14.2612
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-redshijimi",
       "infoType": "creature",
       "creatureId": "REDSHIJIMI",
       "name": "Red Spectralids",
@@ -214,7 +164,111 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-redshijimi",
+      "infoType": "creature",
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHotExtract_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 84.65723,
+          "y": 271.56897,
+          "z": 15.583977
+        }
+      }
+    }
+  ],
+  "creature-yellowshijimi": [
+    {
+      "type": "creature-yellowshijimi",
+      "infoType": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 366.74573,
+          "y": 1.3125763,
+          "z": 16.52974
+        }
+      }
+    },
+    {
+      "type": "creature-yellowshijimi",
+      "infoType": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -140,
+          "y": 450,
+          "z": 14.2612
+        }
+      }
+    },
+    {
+      "type": "creature-yellowshijimi",
+      "infoType": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 413.3089,
+          "y": -26.388092,
+          "z": 23.344696
+        }
+      }
+    }
+  ],
+  "creature-whiteshijimi": [
+    {
+      "type": "creature-whiteshijimi",
       "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
@@ -239,7 +293,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-whiteshijimi",
       "infoType": "creature",
       "creatureId": "WHITESHIJIMI",
       "name": "White Spectralids",
@@ -262,59 +316,11 @@
           "z": 15.170952
         }
       }
-    },
+    }
+  ],
+  "creature-ookogane": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YELLOWSHIJIMI",
-      "name": "Yellow Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 413.3089,
-          "y": -26.388092,
-          "z": 23.344696
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "REDSHIJIMI",
-      "name": "Red Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 84.65723,
-          "y": 271.56897,
-          "z": 15.583977
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-ookogane",
       "infoType": "creature",
       "creatureId": "OOKOGANE",
       "name": "Iridescent Glint Beetle",

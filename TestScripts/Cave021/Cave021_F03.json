@@ -185,9 +185,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-niseboss": [
     {
-      "type": "creature",
+      "type": "creature-niseboss",
       "infoType": "creature",
       "creatureId": "NISEBOSS",
       "name": "Gildemander",

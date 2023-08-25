@@ -50,198 +50,6 @@
           "z": -0.160789
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAWHISTLE",
-      "name": "Emperor Whistle",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": 722,
-          "y": -1204,
-          "z": 36.2402
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAWHISTLE",
-      "name": "Emperor Whistle",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": 639,
-          "y": -1170,
-          "z": 36.240204
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASMALLBELL",
-      "name": "Spouse Alert",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": -975,
-          "y": -464,
-          "z": 17.280201
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASMALLBELL",
-      "name": "Spouse Alert",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": -813,
-          "y": -316,
-          "z": 17.085098
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASMALLBELL",
-      "name": "Spouse Alert",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": -860,
-          "y": -516,
-          "z": 17.085098
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAOCARINABRN",
-      "name": "Ambiguous Hostel",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -539,
-          "y": 832,
-          "z": 10.021754
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHANDBELL",
-      "name": "Time Marker",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": -412,
-          "y": 1055,
-          "z": 82.400215
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHORNBELL",
-      "name": "Path Creator",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 100,
-      "transform": {
-        "translation": {
-          "x": 945,
-          "y": -1080,
-          "z": 48.84543
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTACASTANETS",
-      "name": "Harmonic Synthesizer",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -826.81775,
-          "y": 109.78015,
-          "z": 0.0906883
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHARMONICA",
-      "name": "Wind Detector",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 1324.5155,
-          "y": -275.18372,
-          "z": 34.045097
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHORNBELL",
-      "name": "Path Creator",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 100,
-      "transform": {
-        "translation": {
-          "x": 446,
-          "y": -909,
-          "z": 23.902763
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAOCARINABRN",
-      "name": "Ambiguous Hostel",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": 374.72345,
-          "y": -822.6375,
-          "z": 18.51294
-        }
-      }
     }
   ],
   "switchable-doubleswitch": [
@@ -648,9 +456,215 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otawhistle": [
     {
-      "type": "creature",
+      "type": "treasure-otawhistle",
+      "infoType": "treasure",
+      "treasureId": "OTAWHISTLE",
+      "name": "Emperor Whistle",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 722,
+          "y": -1204,
+          "z": 36.2402
+        }
+      }
+    },
+    {
+      "type": "treasure-otawhistle",
+      "infoType": "treasure",
+      "treasureId": "OTAWHISTLE",
+      "name": "Emperor Whistle",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 639,
+          "y": -1170,
+          "z": 36.240204
+        }
+      }
+    }
+  ],
+  "treasure-otasmallbell": [
+    {
+      "type": "treasure-otasmallbell",
+      "infoType": "treasure",
+      "treasureId": "OTASMALLBELL",
+      "name": "Spouse Alert",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -975,
+          "y": -464,
+          "z": 17.280201
+        }
+      }
+    },
+    {
+      "type": "treasure-otasmallbell",
+      "infoType": "treasure",
+      "treasureId": "OTASMALLBELL",
+      "name": "Spouse Alert",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -813,
+          "y": -316,
+          "z": 17.085098
+        }
+      }
+    },
+    {
+      "type": "treasure-otasmallbell",
+      "infoType": "treasure",
+      "treasureId": "OTASMALLBELL",
+      "name": "Spouse Alert",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -860,
+          "y": -516,
+          "z": 17.085098
+        }
+      }
+    }
+  ],
+  "treasure-otaocarinabrn": [
+    {
+      "type": "treasure-otaocarinabrn",
+      "infoType": "treasure",
+      "treasureId": "OTAOCARINABRN",
+      "name": "Ambiguous Hostel",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -539,
+          "y": 832,
+          "z": 10.021754
+        }
+      }
+    },
+    {
+      "type": "treasure-otaocarinabrn",
+      "infoType": "treasure",
+      "treasureId": "OTAOCARINABRN",
+      "name": "Ambiguous Hostel",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 374.72345,
+          "y": -822.6375,
+          "z": 18.51294
+        }
+      }
+    }
+  ],
+  "treasure-otahandbell": [
+    {
+      "type": "treasure-otahandbell",
+      "infoType": "treasure",
+      "treasureId": "OTAHANDBELL",
+      "name": "Time Marker",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": -412,
+          "y": 1055,
+          "z": 82.400215
+        }
+      }
+    }
+  ],
+  "treasure-otahornbell": [
+    {
+      "type": "treasure-otahornbell",
+      "infoType": "treasure",
+      "treasureId": "OTAHORNBELL",
+      "name": "Path Creator",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 100,
+      "transform": {
+        "translation": {
+          "x": 945,
+          "y": -1080,
+          "z": 48.84543
+        }
+      }
+    },
+    {
+      "type": "treasure-otahornbell",
+      "infoType": "treasure",
+      "treasureId": "OTAHORNBELL",
+      "name": "Path Creator",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 100,
+      "transform": {
+        "translation": {
+          "x": 446,
+          "y": -909,
+          "z": 23.902763
+        }
+      }
+    }
+  ],
+  "treasure-otacastanets": [
+    {
+      "type": "treasure-otacastanets",
+      "infoType": "treasure",
+      "treasureId": "OTACASTANETS",
+      "name": "Harmonic Synthesizer",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -826.81775,
+          "y": 109.78015,
+          "z": 0.0906883
+        }
+      }
+    }
+  ],
+  "treasure-otaharmonica": [
+    {
+      "type": "treasure-otaharmonica",
+      "infoType": "treasure",
+      "treasureId": "OTAHARMONICA",
+      "name": "Wind Detector",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 1324.5155,
+          "y": -275.18372,
+          "z": 34.045097
+        }
+      }
+    }
+  ],
+  "creature-iwakko": [
+    {
+      "type": "creature-iwakko",
       "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
@@ -667,24 +681,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKAJIOKOSHI",
-      "name": "Moldy Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -497,
-          "y": 670,
-          "z": 26
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-iwakko",
       "infoType": "creature",
       "creatureId": "IWAKKO",
       "name": "Skutterchuck",
@@ -699,9 +696,30 @@
           "z": 20
         }
       }
-    },
+    }
+  ],
+  "creature-kinokajiokoshi": [
     {
-      "type": "creature",
+      "type": "creature-kinokajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KINOKAJIOKOSHI",
+      "name": "Moldy Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -497,
+          "y": 670,
+          "z": 26
+        }
+      }
+    }
+  ],
+  "creature-kaburi": [
+    {
+      "type": "creature-kaburi",
       "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
@@ -716,9 +734,11 @@
           "z": 28
         }
       }
-    },
+    }
+  ],
+  "creature-kinokochappy": [
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -735,7 +755,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -748,23 +768,6 @@
           "x": 952,
           "y": -333,
           "z": 37
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FUTAKUCHI",
-      "name": "Armored Cannon Larva",
-      "carryMax": 14,
-      "value": 7,
-      "health": 900,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 141,
-          "y": -1441,
-          "z": 12
         }
       }
     }
@@ -831,6 +834,25 @@
           "x": -1084,
           "y": -297,
           "z": 14.600099
+        }
+      }
+    }
+  ],
+  "creature-futakuchi": [
+    {
+      "type": "creature-futakuchi",
+      "infoType": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "health": 900,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 141,
+          "y": -1441,
+          "z": 12
         }
       }
     }

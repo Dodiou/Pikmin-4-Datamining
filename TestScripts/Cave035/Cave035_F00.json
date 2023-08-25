@@ -264,9 +264,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-chappy": [
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -281,9 +281,11 @@
           "z": 40.000854
         }
       }
-    },
+    }
+  ],
+  "creature-kochappy": [
     {
-      "type": "creature",
+      "type": "creature-kochappy",
       "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
@@ -300,7 +302,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy",
       "infoType": "creature",
       "creatureId": "KOCHAPPY",
       "name": "Dwarf Bulborb",
@@ -315,9 +317,11 @@
           "z": 11.999756
         }
       }
-    },
+    }
+  ],
+  "creature-arikui": [
     {
-      "type": "creature",
+      "type": "creature-arikui",
       "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
@@ -332,9 +336,11 @@
           "z": 45.000244
         }
       }
-    },
+    }
+  ],
+  "creature-icechappy": [
     {
-      "type": "creature",
+      "type": "creature-icechappy",
       "infoType": "creature",
       "creatureId": "ICECHAPPY",
       "name": "Frosty Bulborb",
@@ -349,9 +355,11 @@
           "z": 190
         }
       }
-    },
+    }
+  ],
+  "creature-firechappy": [
     {
-      "type": "creature",
+      "type": "creature-firechappy",
       "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
@@ -366,9 +374,11 @@
           "z": 40
         }
       }
-    },
+    }
+  ],
+  "creature-kumachappy": [
     {
-      "type": "creature",
+      "type": "creature-kumachappy",
       "infoType": "creature",
       "creatureId": "KUMACHAPPY",
       "name": "Spotty Bulbear",
@@ -383,9 +393,11 @@
           "z": 45
         }
       }
-    },
+    }
+  ],
+  "creature-tentenchappy": [
     {
-      "type": "creature",
+      "type": "creature-tentenchappy",
       "infoType": "creature",
       "creatureId": "TENTENCHAPPY",
       "name": "Orange Bulborb",
@@ -400,9 +412,11 @@
           "z": 190
         }
       }
-    },
+    }
+  ],
+  "creature-tenkochappy": [
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -417,9 +431,11 @@
           "z": 162
         }
       }
-    },
+    }
+  ],
+  "creature-kumakochappy": [
     {
-      "type": "creature",
+      "type": "creature-kumakochappy",
       "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",
@@ -436,7 +452,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kumakochappy",
       "infoType": "creature",
       "creatureId": "KUMAKOCHAPPY",
       "name": "Dwarf Bulbear",

@@ -64,9 +64,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-queen": [
     {
-      "type": "creature",
+      "type": "creature-queen",
       "infoType": "creature",
       "creatureId": "QUEEN",
       "name": "Empress Bulblax",

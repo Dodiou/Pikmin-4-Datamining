@@ -106,9 +106,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-baby": [
     {
-      "type": "creature",
+      "type": "creature-baby",
       "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-baby",
       "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-baby",
       "infoType": "creature",
       "creatureId": "BABY",
       "name": "Bulborb Larva",

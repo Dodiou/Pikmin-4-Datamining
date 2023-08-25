@@ -101,9 +101,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otadoguhead": [
     {
-      "type": "treasure",
+      "type": "treasure-otadoguhead",
       "infoType": "treasure",
       "treasureId": "OTADOGUHEAD",
       "name": "Ancient Statue Head",
@@ -231,9 +231,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kingchappy": [
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
@@ -250,7 +250,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",

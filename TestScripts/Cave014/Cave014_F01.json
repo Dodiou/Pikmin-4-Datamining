@@ -284,9 +284,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otasweetpotato": [
     {
-      "type": "treasure",
+      "type": "treasure-otasweetpotato",
       "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
@@ -328,9 +328,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-chappy": [
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -359,9 +359,11 @@
           "z": -101.48682
         }
       }
-    },
+    }
+  ],
+  "creature-kochappy_night": [
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -378,7 +380,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -395,7 +397,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -412,7 +414,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -429,41 +431,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FIREOTAKARA",
-      "name": "Fiery Dweevil",
-      "carryMax": 4,
-      "value": 2,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 221.4748,
-          "y": 904.3469,
-          "z": 24.000114
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "AMEBOZU",
-      "name": "Waterwraith",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1800,
-      "seeds": 0,
-      "transform": {
-        "translation": {
-          "x": -1556.9304,
-          "y": 1238.2146,
-          "z": 58.700005
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -480,7 +448,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -495,9 +463,28 @@
           "z": 12
         }
       }
+    }
+  ],
+  "creature-fireotakara": [
+    {
+      "type": "creature-fireotakara",
+      "infoType": "creature",
+      "creatureId": "FIREOTAKARA",
+      "name": "Fiery Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "health": 300,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 221.4748,
+          "y": 904.3469,
+          "z": 24.000114
+        }
+      }
     },
     {
-      "type": "creature",
+      "type": "creature-fireotakara",
       "infoType": "creature",
       "creatureId": "FIREOTAKARA",
       "name": "Fiery Dweevil",
@@ -512,9 +499,30 @@
           "z": -164.99994
         }
       }
-    },
+    }
+  ],
+  "creature-amebozu": [
     {
-      "type": "creature",
+      "type": "creature-amebozu",
+      "infoType": "creature",
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1800,
+      "seeds": 0,
+      "transform": {
+        "translation": {
+          "x": -1556.9304,
+          "y": 1238.2146,
+          "z": 58.700005
+        }
+      }
+    }
+  ],
+  "creature-yamashinju": [
+    {
+      "type": "creature-yamashinju",
       "infoType": "creature",
       "creatureId": "YAMASHINJU",
       "name": "Pearly Clamclamp",

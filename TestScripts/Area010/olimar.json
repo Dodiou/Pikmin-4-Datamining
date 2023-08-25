@@ -1,7 +1,7 @@
 {
-  "treasure": [
+  "treasure-otaheropartsad": [
     {
-      "type": "treasure",
+      "type": "treasure-otaheropartsad",
       "infoType": "treasure",
       "treasureId": "OTAHEROPARTSAD",
       "name": "Pilot's Seat",
@@ -15,9 +15,11 @@
           "z": 440.59283
         }
       }
-    },
+    }
+  ],
+  "treasure-otaheropartsm": [
     {
-      "type": "treasure",
+      "type": "treasure-otaheropartsm",
       "infoType": "treasure",
       "treasureId": "OTAHEROPARTSM",
       "name": "Repair-Type Bolt",
@@ -29,70 +31,6 @@
           "x": 2957.2126,
           "y": -2165.8884,
           "z": 609.89343
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSP",
-      "name": "Interstellar Radio",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 868.693,
-          "y": 2184.611,
-          "z": 283.24136
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSY",
-      "name": "Automatic Gear",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -698,
-          "y": 506,
-          "z": 408.91458
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSH",
-      "name": "Geiger Counter",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 1842,
-          "y": -925,
-          "z": 711.9752
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSQ",
-      "name": "Extraordinary Bolt",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 2623.3455,
-          "y": -3968.861,
-          "z": 766.26965
         }
       }
     }
@@ -569,6 +507,60 @@
           "x": -1131.7291,
           "y": 2002.4454,
           "z": 295.26083
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsp": [
+    {
+      "type": "treasure-otaheropartsp",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSP",
+      "name": "Interstellar Radio",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 868.693,
+          "y": 2184.611,
+          "z": 283.24136
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsy": [
+    {
+      "type": "treasure-otaheropartsy",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSY",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -698,
+          "y": 506,
+          "z": 408.91458
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsh": [
+    {
+      "type": "treasure-otaheropartsh",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSH",
+      "name": "Geiger Counter",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 1842,
+          "y": -925,
+          "z": 711.9752
         }
       }
     }
@@ -1545,9 +1537,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otaheropartsq": [
     {
-      "type": "creature",
+      "type": "treasure-otaheropartsq",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSQ",
+      "name": "Extraordinary Bolt",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 2623.3455,
+          "y": -3968.861,
+          "z": 766.26965
+        }
+      }
+    }
+  ],
+  "creature-icemar": [
+    {
+      "type": "creature-icemar",
       "infoType": "creature",
       "creatureId": "ICEMAR",
       "name": "Icy Blowhog",
@@ -1570,9 +1580,11 @@
           "z": 136.6765
         }
       }
-    },
+    }
+  ],
+  "creature-hari": [
     {
-      "type": "creature",
+      "type": "creature-hari",
       "infoType": "creature",
       "creatureId": "HARI",
       "name": "Porquillion",
@@ -1589,7 +1601,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hari",
+      "infoType": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "health": 5000,
+      "seeds": 20,
+      "transform": {
+        "translation": {
+          "x": 717.139,
+          "y": 2229.5293,
+          "z": 305.08127
+        }
+      }
+    }
+  ],
+  "creature-rusher": [
+    {
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
@@ -1606,7 +1637,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
@@ -1621,9 +1652,11 @@
           "z": 120.99997
         }
       }
-    },
+    }
+  ],
+  "creature-kurione": [
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -1652,9 +1685,11 @@
           "z": 16
         }
       }
-    },
+    }
+  ],
+  "creature-niseboss": [
     {
-      "type": "creature",
+      "type": "creature-niseboss",
       "infoType": "creature",
       "creatureId": "NISEBOSS",
       "name": "Gildemander",
@@ -1677,26 +1712,11 @@
           "z": 95.35748
         }
       }
-    },
+    }
+  ],
+  "creature-shippozako": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "HARI",
-      "name": "Porquillion",
-      "carryMax": 24,
-      "value": 12,
-      "health": 5000,
-      "seeds": 20,
-      "transform": {
-        "translation": {
-          "x": 717.139,
-          "y": 2229.5293,
-          "z": 305.08127
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-shippozako",
       "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
@@ -1713,7 +1733,43 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-shippozako",
+      "infoType": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "health": 500,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 3420.2585,
+          "y": -1685.2019,
+          "z": 830
+        }
+      }
+    },
+    {
+      "type": "creature-shippozako",
+      "infoType": "creature",
+      "creatureId": "SHIPPOZAKO",
+      "name": "Miniature Snootwhacker",
+      "carryMax": 14,
+      "value": 7,
+      "health": 500,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 3013.2585,
+          "y": 470.7981,
+          "z": 430.30002
+        }
+      }
+    }
+  ],
+  "creature-nisezako": [
+    {
+      "type": "creature-nisezako",
       "infoType": "creature",
       "creatureId": "NISEZAKO",
       "name": "Gildemandwee",
@@ -1738,7 +1794,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nisezako",
       "infoType": "creature",
       "creatureId": "NISEZAKO",
       "name": "Gildemandwee",
@@ -1761,9 +1817,11 @@
           "z": 123.99997
         }
       }
-    },
+    }
+  ],
+  "creature-billy": [
     {
-      "type": "creature",
+      "type": "creature-billy",
       "infoType": "creature",
       "creatureId": "BILLY",
       "name": "Bearded Amprat",
@@ -1778,9 +1836,11 @@
           "z": 712
         }
       }
-    },
+    }
+  ],
+  "creature-icetank": [
     {
-      "type": "creature",
+      "type": "creature-icetank",
       "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
@@ -1797,7 +1857,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-icetank",
+      "infoType": "creature",
+      "creatureId": "ICETANK",
+      "name": "Snowy Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 597,
+          "y": -3981,
+          "z": 123.99997
+        }
+      }
+    }
+  ],
+  "creature-damagumocannon": [
+    {
+      "type": "creature-damagumocannon",
       "infoType": "creature",
       "creatureId": "DAMAGUMOCANNON",
       "name": "Man-at-Legs",
@@ -1818,91 +1897,6 @@
           "x": 721,
           "y": -1923,
           "z": 700.40344
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPOZAKO",
-      "name": "Miniature Snootwhacker",
-      "carryMax": 14,
-      "value": 7,
-      "health": 500,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 3420.2585,
-          "y": -1685.2019,
-          "z": 830
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "ICETANK",
-      "name": "Snowy Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": 597,
-          "y": -3981,
-          "z": 123.99997
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KEMEKUJI",
-      "name": "Toady Bloyster",
-      "carryMax": 6,
-      "value": 7,
-      "health": 1500,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": 2891,
-          "y": -1998,
-          "z": 620.3863
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHIPPOZAKO",
-      "name": "Miniature Snootwhacker",
-      "carryMax": 14,
-      "value": 7,
-      "health": 500,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 3013.2585,
-          "y": 470.7981,
-          "z": 430.30002
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WATEROTAKARA",
-      "name": "Hydro Dweevil",
-      "carryMax": 4,
-      "value": 2,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 2843.2676,
-          "y": -3871.6118,
-          "z": 740.0001
         }
       }
     }
@@ -1945,6 +1939,44 @@
           "x": 3113,
           "y": -941,
           "z": 733
+        }
+      }
+    }
+  ],
+  "creature-kemekuji": [
+    {
+      "type": "creature-kemekuji",
+      "infoType": "creature",
+      "creatureId": "KEMEKUJI",
+      "name": "Toady Bloyster",
+      "carryMax": 6,
+      "value": 7,
+      "health": 1500,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 2891,
+          "y": -1998,
+          "z": 620.3863
+        }
+      }
+    }
+  ],
+  "creature-waterotakara": [
+    {
+      "type": "creature-waterotakara",
+      "infoType": "creature",
+      "creatureId": "WATEROTAKARA",
+      "name": "Hydro Dweevil",
+      "carryMax": 4,
+      "value": 2,
+      "health": 300,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2843.2676,
+          "y": -3871.6118,
+          "z": 740.0001
         }
       }
     }

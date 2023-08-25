@@ -313,9 +313,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapapercraneblu": [
     {
-      "type": "treasure",
+      "type": "treasure-otapapercraneblu",
       "infoType": "treasure",
       "treasureId": "OTAPAPERCRANEBLU",
       "name": "Sweat-Soaked Blue Bird",
@@ -329,9 +329,11 @@
           "z": 21.756676
         }
       }
-    },
+    }
+  ],
+  "treasure-otapapercranered": [
     {
-      "type": "treasure",
+      "type": "treasure-otapapercranered",
       "infoType": "treasure",
       "treasureId": "OTAPAPERCRANERED",
       "name": "Skin of the Phoenix",
@@ -347,9 +349,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-numasuitori": [
     {
-      "type": "creature",
+      "type": "creature-numasuitori",
       "infoType": "creature",
       "creatureId": "NUMASUITORI",
       "name": "Bogswallow",
@@ -374,7 +376,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-numasuitori",
       "infoType": "creature",
       "creatureId": "NUMASUITORI",
       "name": "Bogswallow",
@@ -389,9 +391,11 @@
           "z": 20
         }
       }
-    },
+    }
+  ],
+  "creature-namazu": [
     {
-      "type": "creature",
+      "type": "creature-namazu",
       "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
@@ -408,7 +412,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-namazu",
       "infoType": "creature",
       "creatureId": "NAMAZU",
       "name": "Water Dumple",
@@ -425,7 +429,43 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-namazu",
+      "infoType": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "health": 200,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 746.2056,
+          "y": -707.32947,
+          "z": 21.153217
+        }
+      }
+    },
+    {
+      "type": "creature-namazu",
+      "infoType": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "health": 200,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1038.422,
+          "y": -647.8437,
+          "z": 20.73468
+        }
+      }
+    }
+  ],
+  "creature-bigicetank": [
+    {
+      "type": "creature-bigicetank",
       "infoType": "creature",
       "creatureId": "BIGICETANK",
       "name": "Blizzarding Blowhog",
@@ -452,108 +492,6 @@
           "x": 825.6333,
           "y": 467.05222,
           "z": 69.32025
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NAMAZU",
-      "name": "Water Dumple",
-      "carryMax": 6,
-      "value": 3,
-      "health": 200,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 746.2056,
-          "y": -707.32947,
-          "z": 21.153217
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NAMAZU",
-      "name": "Water Dumple",
-      "carryMax": 6,
-      "value": 3,
-      "health": 200,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 1038.422,
-          "y": -647.8437,
-          "z": 20.73468
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 799.4926,
-          "y": -75.86787,
-          "z": -2
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1234,
-          "y": -343,
-          "z": 14
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -723,
-          "y": -70,
-          "z": 14.120384
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DOROMBO",
-      "name": "Muckerskate",
-      "carryMax": 4,
-      "value": 2,
-      "health": 45,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 324,
-          "y": -592,
-          "z": 14.120247
         }
       }
     }
@@ -610,6 +548,76 @@
           "x": -453.50595,
           "y": 1040.7258,
           "z": 6.3299828
+        }
+      }
+    }
+  ],
+  "creature-dorombo": [
+    {
+      "type": "creature-dorombo",
+      "infoType": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 799.4926,
+          "y": -75.86787,
+          "z": -2
+        }
+      }
+    },
+    {
+      "type": "creature-dorombo",
+      "infoType": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1234,
+          "y": -343,
+          "z": 14
+        }
+      }
+    },
+    {
+      "type": "creature-dorombo",
+      "infoType": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -723,
+          "y": -70,
+          "z": 14.120384
+        }
+      }
+    },
+    {
+      "type": "creature-dorombo",
+      "infoType": "creature",
+      "creatureId": "DOROMBO",
+      "name": "Muckerskate",
+      "carryMax": 4,
+      "value": 2,
+      "health": 45,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 324,
+          "y": -592,
+          "z": 14.120247
         }
       }
     }

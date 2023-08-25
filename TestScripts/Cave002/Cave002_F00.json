@@ -66,9 +66,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaboarderaser": [
     {
-      "type": "treasure",
+      "type": "treasure-otaboarderaser",
       "infoType": "treasure",
       "treasureId": "OTABOARDERASER",
       "name": "Dusty Bed",
@@ -82,9 +82,11 @@
           "z": 175
         }
       }
-    },
+    }
+  ],
+  "treasure-otapaintsyel": [
     {
-      "type": "treasure",
+      "type": "treasure-otapaintsyel",
       "infoType": "treasure",
       "treasureId": "OTAPAINTSYEL",
       "name": "Illumination Goo",
@@ -96,22 +98,6 @@
           "x": -861,
           "y": -508,
           "z": 70.43594
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAISOBEYAKI",
-      "name": "Deceptive Snack",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -965,
-          "y": 64,
-          "z": 6.5326004
         }
       }
     }
@@ -144,6 +130,24 @@
       }
     }
   ],
+  "treasure-otaisobeyaki": [
+    {
+      "type": "treasure-otaisobeyaki",
+      "infoType": "treasure",
+      "treasureId": "OTAISOBEYAKI",
+      "name": "Deceptive Snack",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -965,
+          "y": 64,
+          "z": 6.5326004
+        }
+      }
+    }
+  ],
   "gate-electric": [
     {
       "type": "gate-electric",
@@ -167,9 +171,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-firetank": [
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -194,7 +198,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -219,7 +223,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -240,74 +244,6 @@
           "x": -5.1253357,
           "y": 521.97925,
           "z": -26
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 110,
-          "y": -855,
-          "z": 56.422363
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 252,
-          "y": -649,
-          "z": 56.422363
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1149,
-          "y": -435,
-          "z": 7.7223816
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBINKO",
-      "name": "Shearwig",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -979,
-          "y": -245,
-          "z": 7.7223816
         }
       }
     }
@@ -374,6 +310,76 @@
           "x": 1183.2908,
           "y": 399.2838,
           "z": 15
+        }
+      }
+    }
+  ],
+  "creature-tobinko": [
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 110,
+          "y": -855,
+          "z": 56.422363
+        }
+      }
+    },
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 252,
+          "y": -649,
+          "z": 56.422363
+        }
+      }
+    },
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1149,
+          "y": -435,
+          "z": 7.7223816
+        }
+      }
+    },
+    {
+      "type": "creature-tobinko",
+      "infoType": "creature",
+      "creatureId": "TOBINKO",
+      "name": "Shearwig",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -979,
+          "y": -245,
+          "z": 7.7223816
         }
       }
     }

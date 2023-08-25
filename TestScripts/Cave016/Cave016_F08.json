@@ -238,9 +238,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-damagumocannon": [
     {
-      "type": "creature",
+      "type": "creature-damagumocannon",
       "infoType": "creature",
       "creatureId": "DAMAGUMOCANNON",
       "name": "Man-at-Legs",

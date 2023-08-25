@@ -128,9 +128,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapaintsppl": [
     {
-      "type": "treasure",
+      "type": "treasure-otapaintsppl",
       "infoType": "treasure",
       "treasureId": "OTAPAINTSPPL",
       "name": "Noble Goo",
@@ -161,9 +161,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-amebozu": [
     {
-      "type": "creature",
+      "type": "creature-amebozu",
       "infoType": "creature",
       "creatureId": "AMEBOZU",
       "name": "Waterwraith",

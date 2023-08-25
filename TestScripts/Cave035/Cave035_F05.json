@@ -143,9 +143,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otagolfball": [
     {
-      "type": "treasure",
+      "type": "treasure-otagolfball",
       "infoType": "treasure",
       "treasureId": "OTAGOLFBALL",
       "name": "Orbital Communication Sphere",
@@ -161,7 +161,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otagolfball",
       "infoType": "treasure",
       "treasureId": "OTAGOLFBALL",
       "name": "Orbital Communication Sphere",
@@ -177,7 +177,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otagolfball",
       "infoType": "treasure",
       "treasureId": "OTAGOLFBALL",
       "name": "Orbital Communication Sphere",
@@ -519,9 +519,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-fireotakara": [
     {
-      "type": "creature",
+      "type": "creature-fireotakara",
       "infoType": "creature",
       "creatureId": "BOMBOTAKARA",
       "name": "Bomb Dweevil",

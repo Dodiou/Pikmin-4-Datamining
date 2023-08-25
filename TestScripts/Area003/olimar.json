@@ -292,9 +292,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaheropartsi": [
     {
-      "type": "treasure",
+      "type": "treasure-otaheropartsi",
       "infoType": "treasure",
       "treasureId": "OTAHEROPARTSI",
       "name": "Bowsprit",
@@ -306,54 +306,6 @@
           "x": -4526.7188,
           "y": 985.073,
           "z": 25.357292
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSK",
-      "name": "Repair-Type Bolt",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -1660.1023,
-          "y": 831.05164,
-          "z": 46.365887
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSW",
-      "name": "Automatic Gear",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 1803.1182,
-          "y": 1684.1729,
-          "z": 35
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSX",
-      "name": "Automatic Gear",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -3446.985,
-          "y": -3478.3435,
-          "z": 538.88074
         }
       }
     }
@@ -381,6 +333,42 @@
           "z": 309.4016
         },
         "rotation": 0
+      }
+    }
+  ],
+  "treasure-otaheropartsk": [
+    {
+      "type": "treasure-otaheropartsk",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSK",
+      "name": "Repair-Type Bolt",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -1660.1023,
+          "y": 831.05164,
+          "z": 46.365887
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsw": [
+    {
+      "type": "treasure-otaheropartsw",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSW",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 1803.1182,
+          "y": 1684.1729,
+          "z": 35
+        }
       }
     }
   ],
@@ -881,6 +869,24 @@
       }
     }
   ],
+  "treasure-otaheropartsx": [
+    {
+      "type": "treasure-otaheropartsx",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSX",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -3446.985,
+          "y": -3478.3435,
+          "z": 538.88074
+        }
+      }
+    }
+  ],
   "misc-spiderwort": [
     {
       "type": "misc-spiderwort",
@@ -894,9 +900,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-hariuo": [
     {
-      "type": "creature",
+      "type": "creature-hariuo",
       "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
@@ -913,58 +919,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YAMASHINJU",
-      "name": "Pearly Clamclamp",
-      "carryMax": 20,
-      "value": 10,
-      "health": 1000,
-      "seeds": 15,
-      "transform": {
-        "translation": {
-          "x": 1515.2971,
-          "y": -631.3163,
-          "z": 78.4996
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -3929.2788,
-          "y": 969.8667,
-          "z": -205.60007
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -3850.83,
-          "y": 1104.3855,
-          "z": -191.29231
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-hariuo",
       "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
@@ -979,759 +934,23 @@
           "z": -70.449394
         }
       }
-    },
+    }
+  ],
+  "creature-yamashinju": [
     {
-      "type": "creature",
+      "type": "creature-yamashinju",
       "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -822.7481,
-          "y": 1155.0295,
-          "z": 25.000076
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BIGFROG",
-      "name": "Masterhop",
-      "carryMax": 30,
-      "value": 15,
-      "health": 3000,
-      "seeds": 15,
-      "transform": {
-        "translation": {
-          "x": 2229,
-          "y": 1442,
-          "z": 60
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FROG",
-      "name": "Yellow Wollyhop",
-      "carryMax": 10,
-      "value": 5,
-      "health": 900,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 2285,
-          "y": 540,
-          "z": 25.54904
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FROG",
-      "name": "Yellow Wollyhop",
-      "carryMax": 10,
-      "value": 5,
-      "health": 900,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 1417,
-          "y": 1255,
-          "z": 116.26745
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "AWADAKO",
-      "name": "Waddlepus",
-      "carryMax": 14,
-      "value": 5,
-      "health": 900,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 1858.3939,
-          "y": -534.0691,
-          "z": -47.450207
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "THROWEATER",
-      "name": "Grubchucker",
-      "carryMax": 24,
-      "value": 12,
-      "health": 5000,
-      "seeds": 15,
-      "drops": [
-        {
-          "item": "GOtaHeroPartsS_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1045.9612,
-          "y": 3456.69,
-          "z": 69.159195
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "OTAMA",
-      "name": "Wolpole",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1863,
-          "y": 277,
-          "z": -12.85828
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "OTAMA",
-      "name": "Wolpole",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1789,
-          "y": 274,
-          "z": -16.886143
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "THROWEATER",
-      "name": "Grubchucker",
-      "carryMax": 24,
-      "value": 12,
-      "health": 5000,
-      "seeds": 15,
-      "transform": {
-        "translation": {
-          "x": -2850.9612,
-          "y": 1348.69,
-          "z": 34.99999
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHAKO",
-      "name": "Hermit Crawmad",
-      "carryMax": 10,
-      "value": 5,
-      "health": 750,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": -1963.5,
-          "y": 39.5,
-          "z": -37.99962
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 250,
-          "y": 2429,
-          "z": 56.998543
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -1255.7748,
-          "y": 2016.7429,
-          "z": 25
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "AWADAKO",
-      "name": "Waddlepus",
-      "carryMax": 14,
-      "value": 5,
-      "health": 900,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 1667.3939,
-          "y": -1253.0691,
-          "z": -2.627533
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SHAKO",
-      "name": "Hermit Crawmad",
-      "carryMax": 10,
-      "value": 5,
-      "health": 750,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": -1730.1998,
-          "y": 1456.7395,
-          "z": -37.979134
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "DEMEJAKO",
-      "name": "Bug-Eyed Crawmad",
-      "carryMax": 30,
-      "value": 20,
-      "health": 2000,
-      "seeds": 20,
-      "drops": [
-        {
-          "item": "GOtaHeroPartsZ_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -2915,
-          "y": 2594,
-          "z": 45
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KANITAMA",
-      "name": "Peckish Aristocrab",
-      "carryMax": 14,
-      "value": 12,
-      "health": 1500,
-      "seeds": 12,
-      "transform": {
-        "translation": {
-          "x": 310,
-          "y": 94,
-          "z": -0.074875
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 841,
-          "y": 233,
-          "z": 25
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "ARIKUI",
-      "name": "Whiptongue Bulborb",
+      "creatureId": "YAMASHINJU",
+      "name": "Pearly Clamclamp",
       "carryMax": 20,
-      "value": 12,
-      "health": 1300,
-      "seeds": 12,
+      "value": 10,
+      "health": 1000,
+      "seeds": 15,
       "transform": {
         "translation": {
-          "x": 2066.4348,
-          "y": -1968.5071,
-          "z": 45.13269
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "ARIKUI",
-      "name": "Whiptongue Bulborb",
-      "carryMax": 20,
-      "value": 12,
-      "health": 1300,
-      "seeds": 12,
-      "transform": {
-        "translation": {
-          "x": 1478,
-          "y": -2071,
-          "z": 45.829727
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -265.08008,
-          "y": 153.6355,
-          "z": -80.647
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -254.08008,
-          "y": 71.6355,
-          "z": -80.82317
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -219.08008,
-          "y": 114.6355,
-          "z": -82.77327
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 253.91992,
-          "y": -432.3645,
-          "z": -43.285675
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -219.08008,
-          "y": 55.635498,
-          "z": -82.978935
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "OTAMA",
-      "name": "Wolpole",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1274,
-          "y": 153,
-          "z": -16.886143
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1991.9199,
-          "y": -1081.3645,
-          "z": -31.34097
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 2012.9199,
-          "y": -985.3645,
-          "z": -44.266598
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 2050.92,
-          "y": -567.3645,
-          "z": -72.509224
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KANITAMA",
-      "name": "Peckish Aristocrab",
-      "carryMax": 14,
-      "value": 12,
-      "health": 1500,
-      "seeds": 12,
-      "transform": {
-        "translation": {
-          "x": -19,
-          "y": -1881,
-          "z": 360
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -3216.606,
-          "y": -3079.0405,
-          "z": 555.2483
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -3309.485,
-          "y": -3340.8435,
-          "z": 553.76
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -981,
-          "y": -984,
-          "z": 195.08643
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "AWADAKO",
-      "name": "Waddlepus",
-      "carryMax": 14,
-      "value": 5,
-      "health": 900,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": -3876,
-          "y": 821,
-          "z": -184.33565
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -3780.83,
-          "y": 821.8667,
-          "z": -199.80803
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANI",
-      "name": "Aristocrab Offspring",
-      "carryMax": 6,
-      "value": 3,
-      "health": 450,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -2597,
-          "y": -1443,
-          "z": 224.96527
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": -45,
-          "y": -799,
-          "z": 48.1401
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": -2192,
-          "y": -1754,
-          "z": 351.98227
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 611.5928,
-          "y": -2687.6091,
-          "z": 174.60985
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "OTAMA",
-      "name": "Wolpole",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 3360.3005,
-          "y": -1362.076,
-          "z": 11.480202
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FROG",
-      "name": "Yellow Wollyhop",
-      "carryMax": 10,
-      "value": 5,
-      "health": 900,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 3352,
-          "y": -1343,
-          "z": 24.99218
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -3305.5288,
-          "y": 346.1167,
-          "z": -112.62359
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIUO",
-      "name": "Puckering Blinnow",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -3217.5288,
-          "y": 316.1167,
-          "z": -103.57138
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BIGKINGCHAPPY",
-      "name": "Sovereign Bulblax",
-      "carryMax": 60,
-      "value": 20,
-      "health": 8000,
-      "seeds": 50,
-      "drops": [
-        {
-          "item": "GOtaHeroPartsAC_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1174,
-          "y": -2269,
-          "z": 600.5001
+          "x": 1515.2971,
+          "y": -631.3163,
+          "z": 78.4996
         }
       }
     }
@@ -1778,6 +997,606 @@
       }
     }
   ],
+  "creature-tobiuo": [
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -3929.2788,
+          "y": 969.8667,
+          "z": -205.60007
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -3850.83,
+          "y": 1104.3855,
+          "z": -191.29231
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -265.08008,
+          "y": 153.6355,
+          "z": -80.647
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -254.08008,
+          "y": 71.6355,
+          "z": -80.82317
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -219.08008,
+          "y": 114.6355,
+          "z": -82.77327
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 253.91992,
+          "y": -432.3645,
+          "z": -43.285675
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -219.08008,
+          "y": 55.635498,
+          "z": -82.978935
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1991.9199,
+          "y": -1081.3645,
+          "z": -31.34097
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 2012.9199,
+          "y": -985.3645,
+          "z": -44.266598
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 2050.92,
+          "y": -567.3645,
+          "z": -72.509224
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -3780.83,
+          "y": 821.8667,
+          "z": -199.80803
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -3305.5288,
+          "y": 346.1167,
+          "z": -112.62359
+        }
+      }
+    },
+    {
+      "type": "creature-tobiuo",
+      "infoType": "creature",
+      "creatureId": "TOBIUO",
+      "name": "Puckering Blinnow",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -3217.5288,
+          "y": 316.1167,
+          "z": -103.57138
+        }
+      }
+    }
+  ],
+  "creature-kogani": [
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -822.7481,
+          "y": 1155.0295,
+          "z": 25.000076
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 250,
+          "y": 2429,
+          "z": 56.998543
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -1255.7748,
+          "y": 2016.7429,
+          "z": 25
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 841,
+          "y": 233,
+          "z": 25
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -3216.606,
+          "y": -3079.0405,
+          "z": 555.2483
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -3309.485,
+          "y": -3340.8435,
+          "z": 553.76
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -981,
+          "y": -984,
+          "z": 195.08643
+        }
+      }
+    },
+    {
+      "type": "creature-kogani",
+      "infoType": "creature",
+      "creatureId": "KOGANI",
+      "name": "Aristocrab Offspring",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -2597,
+          "y": -1443,
+          "z": 224.96527
+        }
+      }
+    }
+  ],
+  "creature-bigfrog": [
+    {
+      "type": "creature-bigfrog",
+      "infoType": "creature",
+      "creatureId": "BIGFROG",
+      "name": "Masterhop",
+      "carryMax": 30,
+      "value": 15,
+      "health": 3000,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": 2229,
+          "y": 1442,
+          "z": 60
+        }
+      }
+    }
+  ],
+  "creature-frog": [
+    {
+      "type": "creature-frog",
+      "infoType": "creature",
+      "creatureId": "FROG",
+      "name": "Yellow Wollyhop",
+      "carryMax": 10,
+      "value": 5,
+      "health": 900,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 2285,
+          "y": 540,
+          "z": 25.54904
+        }
+      }
+    },
+    {
+      "type": "creature-frog",
+      "infoType": "creature",
+      "creatureId": "FROG",
+      "name": "Yellow Wollyhop",
+      "carryMax": 10,
+      "value": 5,
+      "health": 900,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 1417,
+          "y": 1255,
+          "z": 116.26745
+        }
+      }
+    },
+    {
+      "type": "creature-frog",
+      "infoType": "creature",
+      "creatureId": "FROG",
+      "name": "Yellow Wollyhop",
+      "carryMax": 10,
+      "value": 5,
+      "health": 900,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 3352,
+          "y": -1343,
+          "z": 24.99218
+        }
+      }
+    }
+  ],
+  "creature-awadako": [
+    {
+      "type": "creature-awadako",
+      "infoType": "creature",
+      "creatureId": "AWADAKO",
+      "name": "Waddlepus",
+      "carryMax": 14,
+      "value": 5,
+      "health": 900,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 1858.3939,
+          "y": -534.0691,
+          "z": -47.450207
+        }
+      }
+    },
+    {
+      "type": "creature-awadako",
+      "infoType": "creature",
+      "creatureId": "AWADAKO",
+      "name": "Waddlepus",
+      "carryMax": 14,
+      "value": 5,
+      "health": 900,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 1667.3939,
+          "y": -1253.0691,
+          "z": -2.627533
+        }
+      }
+    },
+    {
+      "type": "creature-awadako",
+      "infoType": "creature",
+      "creatureId": "AWADAKO",
+      "name": "Waddlepus",
+      "carryMax": 14,
+      "value": 5,
+      "health": 900,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -3876,
+          "y": 821,
+          "z": -184.33565
+        }
+      }
+    }
+  ],
+  "creature-throweater": [
+    {
+      "type": "creature-throweater",
+      "infoType": "creature",
+      "creatureId": "THROWEATER",
+      "name": "Grubchucker",
+      "carryMax": 24,
+      "value": 12,
+      "health": 5000,
+      "seeds": 15,
+      "drops": [
+        {
+          "item": "GOtaHeroPartsS_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1045.9612,
+          "y": 3456.69,
+          "z": 69.159195
+        }
+      }
+    },
+    {
+      "type": "creature-throweater",
+      "infoType": "creature",
+      "creatureId": "THROWEATER",
+      "name": "Grubchucker",
+      "carryMax": 24,
+      "value": 12,
+      "health": 5000,
+      "seeds": 15,
+      "transform": {
+        "translation": {
+          "x": -2850.9612,
+          "y": 1348.69,
+          "z": 34.99999
+        }
+      }
+    }
+  ],
+  "creature-otama": [
+    {
+      "type": "creature-otama",
+      "infoType": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1863,
+          "y": 277,
+          "z": -12.85828
+        }
+      }
+    },
+    {
+      "type": "creature-otama",
+      "infoType": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1789,
+          "y": 274,
+          "z": -16.886143
+        }
+      }
+    },
+    {
+      "type": "creature-otama",
+      "infoType": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1274,
+          "y": 153,
+          "z": -16.886143
+        }
+      }
+    },
+    {
+      "type": "creature-otama",
+      "infoType": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 3360.3005,
+          "y": -1362.076,
+          "z": 11.480202
+        }
+      }
+    }
+  ],
   "misc-groupdropmanager": [
     {
       "type": "misc-groupdropmanager",
@@ -1796,6 +1615,221 @@
           "x": 62,
           "y": -2776,
           "z": 310.0001
+        }
+      }
+    }
+  ],
+  "creature-shako": [
+    {
+      "type": "creature-shako",
+      "infoType": "creature",
+      "creatureId": "SHAKO",
+      "name": "Hermit Crawmad",
+      "carryMax": 10,
+      "value": 5,
+      "health": 750,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -1963.5,
+          "y": 39.5,
+          "z": -37.99962
+        }
+      }
+    },
+    {
+      "type": "creature-shako",
+      "infoType": "creature",
+      "creatureId": "SHAKO",
+      "name": "Hermit Crawmad",
+      "carryMax": 10,
+      "value": 5,
+      "health": 750,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -1730.1998,
+          "y": 1456.7395,
+          "z": -37.979134
+        }
+      }
+    }
+  ],
+  "creature-demejako": [
+    {
+      "type": "creature-demejako",
+      "infoType": "creature",
+      "creatureId": "DEMEJAKO",
+      "name": "Bug-Eyed Crawmad",
+      "carryMax": 30,
+      "value": 20,
+      "health": 2000,
+      "seeds": 20,
+      "drops": [
+        {
+          "item": "GOtaHeroPartsZ_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2915,
+          "y": 2594,
+          "z": 45
+        }
+      }
+    }
+  ],
+  "creature-kanitama": [
+    {
+      "type": "creature-kanitama",
+      "infoType": "creature",
+      "creatureId": "KANITAMA",
+      "name": "Peckish Aristocrab",
+      "carryMax": 14,
+      "value": 12,
+      "health": 1500,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 310,
+          "y": 94,
+          "z": -0.074875
+        }
+      }
+    },
+    {
+      "type": "creature-kanitama",
+      "infoType": "creature",
+      "creatureId": "KANITAMA",
+      "name": "Peckish Aristocrab",
+      "carryMax": 14,
+      "value": 12,
+      "health": 1500,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -19,
+          "y": -1881,
+          "z": 360
+        }
+      }
+    }
+  ],
+  "creature-arikui": [
+    {
+      "type": "creature-arikui",
+      "infoType": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "health": 1300,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 2066.4348,
+          "y": -1968.5071,
+          "z": 45.13269
+        }
+      }
+    },
+    {
+      "type": "creature-arikui",
+      "infoType": "creature",
+      "creatureId": "ARIKUI",
+      "name": "Whiptongue Bulborb",
+      "carryMax": 20,
+      "value": 12,
+      "health": 1300,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": 1478,
+          "y": -2071,
+          "z": 45.829727
+        }
+      }
+    }
+  ],
+  "creature-tobikaburi": [
+    {
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -45,
+          "y": -799,
+          "z": 48.1401
+        }
+      }
+    },
+    {
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -2192,
+          "y": -1754,
+          "z": 351.98227
+        }
+      }
+    },
+    {
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 611.5928,
+          "y": -2687.6091,
+          "z": 174.60985
+        }
+      }
+    }
+  ],
+  "creature-bigkingchappy": [
+    {
+      "type": "creature-bigkingchappy",
+      "infoType": "creature",
+      "creatureId": "BIGKINGCHAPPY",
+      "name": "Sovereign Bulblax",
+      "carryMax": 60,
+      "value": 20,
+      "health": 8000,
+      "seeds": 50,
+      "drops": [
+        {
+          "item": "GOtaHeroPartsAC_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1174,
+          "y": -2269,
+          "z": 600.5001
         }
       }
     }

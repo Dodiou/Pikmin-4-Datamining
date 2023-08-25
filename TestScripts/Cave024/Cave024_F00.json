@@ -161,9 +161,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otabilliardball8": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball8",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL8",
       "name": "Sphere of Trust",
@@ -177,9 +177,11 @@
           "z": -22.854391
         }
       }
-    },
+    }
+  ],
+  "treasure-otadarts": [
     {
-      "type": "treasure",
+      "type": "treasure-otadarts",
       "infoType": "treasure",
       "treasureId": "OTADARTS",
       "name": "Relentless Spear",
@@ -193,9 +195,11 @@
           "z": 153.4096
         }
       }
-    },
+    }
+  ],
+  "treasure-otadice12": [
     {
-      "type": "treasure",
+      "type": "treasure-otadice12",
       "infoType": "treasure",
       "treasureId": "OTADICE12",
       "name": "Long-Shot Totem",
@@ -211,9 +215,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-gasotakara": [
     {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
@@ -230,7 +234,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
@@ -247,7 +251,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
@@ -264,7 +268,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",

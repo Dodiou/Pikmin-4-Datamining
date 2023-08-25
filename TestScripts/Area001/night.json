@@ -1332,9 +1332,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kochappy_night": [
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1351,7 +1351,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1368,7 +1368,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1385,7 +1385,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1402,7 +1402,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1419,7 +1419,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1436,7 +1436,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1453,7 +1453,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1470,7 +1470,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1487,7 +1487,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1504,7 +1504,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1521,7 +1521,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1538,7 +1538,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1555,7 +1555,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1572,7 +1572,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1589,7 +1589,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1606,7 +1606,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1623,7 +1623,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1640,7 +1640,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1657,7 +1657,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1674,7 +1674,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1691,7 +1691,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1708,7 +1708,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1725,7 +1725,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -1740,9 +1740,11 @@
           "z": 212
         }
       }
-    },
+    }
+  ],
+  "creature-chappy": [
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1759,7 +1761,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1776,7 +1778,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1793,7 +1795,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1810,7 +1812,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1827,7 +1829,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1844,7 +1846,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1859,9 +1861,11 @@
           "z": 198.04495
         }
       }
-    },
+    }
+  ],
+  "creature-bigchappy_night": [
     {
-      "type": "creature",
+      "type": "creature-bigchappy_night",
       "infoType": "creature",
       "creatureId": "BIGCHAPPY_NIGHT",
       "name": "Jumbo Bulborb",
@@ -1886,7 +1890,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-bigchappy_night",
       "infoType": "creature",
       "creatureId": "BIGCHAPPY_NIGHT",
       "name": "Jumbo Bulborb",

@@ -345,9 +345,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapuzzlek": [
     {
-      "type": "treasure",
+      "type": "treasure-otapuzzlek",
       "infoType": "treasure",
       "treasureId": "OTAPUZZLEK",
       "name": "Memory Fragment (Bottom...Probably?)",
@@ -361,9 +361,11 @@
           "z": 77.7136
         }
       }
-    },
+    }
+  ],
+  "treasure-otaavocado": [
     {
-      "type": "treasure",
+      "type": "treasure-otaavocado",
       "infoType": "treasure",
       "treasureId": "OTAAVOCADO",
       "name": "Scaly Custard",
@@ -377,9 +379,11 @@
           "z": 159
         }
       }
-    },
+    }
+  ],
+  "treasure-otapotato": [
     {
-      "type": "treasure",
+      "type": "treasure-otapotato",
       "infoType": "treasure",
       "treasureId": "OTAPOTATO",
       "name": "Child of the Earth",
@@ -395,9 +399,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-elecotakara": [
     {
-      "type": "creature",
+      "type": "creature-elecotakara",
       "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
@@ -414,99 +418,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "AMEBOZU",
-      "name": "Waterwraith",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1800,
-      "seeds": 0,
-      "transform": {
-        "translation": {
-          "x": -551.5,
-          "y": -815.5,
-          "z": 74.85354
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MAROFROG",
-      "name": "Wollyhop",
-      "carryMax": 10,
-      "value": 7,
-      "health": 1300,
-      "seeds": 8,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -550,
-          "y": 600,
-          "z": 45
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "HANACHIRASHI",
-      "name": "Withering Blowhog",
-      "carryMax": 1,
-      "value": 5,
-      "health": 1800,
-      "seeds": 4,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 137.5,
-          "y": -275,
-          "z": 58
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MAROFROG",
-      "name": "Wollyhop",
-      "carryMax": 10,
-      "value": 7,
-      "health": 1300,
-      "seeds": 8,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 0,
-          "y": -1024.5,
-          "z": 20
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-elecotakara",
       "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
@@ -521,29 +433,23 @@
           "z": 25.000092
         }
       }
-    },
+    }
+  ],
+  "creature-amebozu": [
     {
-      "type": "creature",
+      "type": "creature-amebozu",
       "infoType": "creature",
-      "creatureId": "KABURI",
-      "name": "Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 450,
-      "seeds": 6,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
+      "creatureId": "AMEBOZU",
+      "name": "Waterwraith",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1800,
+      "seeds": 0,
       "transform": {
         "translation": {
-          "x": -1053.5,
-          "y": -252.5,
-          "z": 53
+          "x": -551.5,
+          "y": -815.5,
+          "z": 74.85354
         }
       }
     }
@@ -674,6 +580,112 @@
           "x": 1382.5,
           "y": 528.5,
           "z": 43
+        }
+      }
+    }
+  ],
+  "creature-marofrog": [
+    {
+      "type": "creature-marofrog",
+      "infoType": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "health": 1300,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -550,
+          "y": 600,
+          "z": 45
+        }
+      }
+    },
+    {
+      "type": "creature-marofrog",
+      "infoType": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "health": 1300,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 0,
+          "y": -1024.5,
+          "z": 20
+        }
+      }
+    }
+  ],
+  "creature-hanachirashi": [
+    {
+      "type": "creature-hanachirashi",
+      "infoType": "creature",
+      "creatureId": "HANACHIRASHI",
+      "name": "Withering Blowhog",
+      "carryMax": 1,
+      "value": 5,
+      "health": 1800,
+      "seeds": 4,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 137.5,
+          "y": -275,
+          "z": 58
+        }
+      }
+    }
+  ],
+  "creature-kaburi": [
+    {
+      "type": "creature-kaburi",
+      "infoType": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 450,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1053.5,
+          "y": -252.5,
+          "z": 53
         }
       }
     }

@@ -93,9 +93,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otagcconwb": [
     {
-      "type": "treasure",
+      "type": "treasure-otagcconwb",
       "infoType": "treasure",
       "treasureId": "OTAGCCONWB",
       "name": "Winged Freedom Sculpture",
@@ -111,9 +111,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-damagumocannon": [
     {
-      "type": "creature",
+      "type": "creature-damagumocannon",
       "infoType": "creature",
       "creatureId": "DAMAGUMOCANNON",
       "name": "Man-at-Legs",

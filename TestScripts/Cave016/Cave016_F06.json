@@ -130,9 +130,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-bigicetank": [
     {
-      "type": "creature",
+      "type": "creature-bigicetank",
       "infoType": "creature",
       "creatureId": "BIGICETANK",
       "name": "Blizzarding Blowhog",
@@ -161,9 +161,11 @@
           "z": 88.99999
         }
       }
-    },
+    }
+  ],
+  "creature-bigfiretank": [
     {
-      "type": "creature",
+      "type": "creature-bigfiretank",
       "infoType": "creature",
       "creatureId": "BIGFIRETANK",
       "name": "Titan Blowhog",

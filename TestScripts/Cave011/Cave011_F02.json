@@ -179,134 +179,6 @@
           "z": 75.0001
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFRUITSPICKGRN",
-      "name": "Spirit Sword",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": 546.3018,
-          "y": -594.4991,
-          "z": -43.88233
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFRUITSPICKGRN",
-      "name": "Spirit Sword",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": 567.29126,
-          "y": -515.7877,
-          "z": -43.38453
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFRUITSPICKGRN",
-      "name": "Spirit Sword",
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": 492.56577,
-          "y": -530.474,
-          "z": -43.944405
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFISHCRUET",
-      "name": "Mystery Squish Fish",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 175.08276,
-          "y": 136.3362,
-          "z": -41.98093
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFISHCRUET",
-      "name": "Mystery Squish Fish",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 102.873856,
-          "y": 119.75608,
-          "z": -41.979958
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFISHCRUET",
-      "name": "Mystery Squish Fish",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -512.1991,
-          "y": -73.152336,
-          "z": -27.999878
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABRUSHB",
-      "name": "Brush of Foolishness",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": 1171.1262,
-          "y": 716.56696,
-          "z": 111.0501
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOOTHMODEL",
-      "name": "Monster Teeth",
-      "weight": 20,
-      "carryMax": 40,
-      "value": 300,
-      "transform": {
-        "translation": {
-          "x": -1372.2953,
-          "y": -933.9447,
-          "z": 142.32352
-        }
-      }
     }
   ],
   "structure-bridge": [
@@ -364,6 +236,106 @@
           "x": 288.1897,
           "y": 248.90234,
           "z": -45.69356
+        }
+      }
+    }
+  ],
+  "treasure-otafruitspickgrn": [
+    {
+      "type": "treasure-otafruitspickgrn",
+      "infoType": "treasure",
+      "treasureId": "OTAFRUITSPICKGRN",
+      "name": "Spirit Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 546.3018,
+          "y": -594.4991,
+          "z": -43.88233
+        }
+      }
+    },
+    {
+      "type": "treasure-otafruitspickgrn",
+      "infoType": "treasure",
+      "treasureId": "OTAFRUITSPICKGRN",
+      "name": "Spirit Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 567.29126,
+          "y": -515.7877,
+          "z": -43.38453
+        }
+      }
+    },
+    {
+      "type": "treasure-otafruitspickgrn",
+      "infoType": "treasure",
+      "treasureId": "OTAFRUITSPICKGRN",
+      "name": "Spirit Sword",
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 492.56577,
+          "y": -530.474,
+          "z": -43.944405
+        }
+      }
+    }
+  ],
+  "treasure-otafishcruet": [
+    {
+      "type": "treasure-otafishcruet",
+      "infoType": "treasure",
+      "treasureId": "OTAFISHCRUET",
+      "name": "Mystery Squish Fish",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 175.08276,
+          "y": 136.3362,
+          "z": -41.98093
+        }
+      }
+    },
+    {
+      "type": "treasure-otafishcruet",
+      "infoType": "treasure",
+      "treasureId": "OTAFISHCRUET",
+      "name": "Mystery Squish Fish",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 102.873856,
+          "y": 119.75608,
+          "z": -41.979958
+        }
+      }
+    },
+    {
+      "type": "treasure-otafishcruet",
+      "infoType": "treasure",
+      "treasureId": "OTAFISHCRUET",
+      "name": "Mystery Squish Fish",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -512.1991,
+          "y": -73.152336,
+          "z": -27.999878
         }
       }
     }
@@ -430,6 +402,24 @@
       }
     }
   ],
+  "treasure-otabrushb": [
+    {
+      "type": "treasure-otabrushb",
+      "infoType": "treasure",
+      "treasureId": "OTABRUSHB",
+      "name": "Brush of Foolishness",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 1171.1262,
+          "y": 716.56696,
+          "z": 111.0501
+        }
+      }
+    }
+  ],
   "switchable-singleswitch": [
     {
       "type": "switchable-singleswitch",
@@ -458,9 +448,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otatoothmodel": [
     {
-      "type": "creature",
+      "type": "treasure-otatoothmodel",
+      "infoType": "treasure",
+      "treasureId": "OTATOOTHMODEL",
+      "name": "Monster Teeth",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 300,
+      "transform": {
+        "translation": {
+          "x": -1372.2953,
+          "y": -933.9447,
+          "z": 142.32352
+        }
+      }
+    }
+  ],
+  "creature-kurage": [
+    {
+      "type": "creature-kurage",
       "infoType": "creature",
       "creatureId": "KURAGE",
       "name": "Lesser Spotted Jellyfloat",
@@ -483,9 +491,11 @@
           "z": 107.160095
         }
       }
-    },
+    }
+  ],
+  "creature-kanitama": [
     {
-      "type": "creature",
+      "type": "creature-kanitama",
       "infoType": "creature",
       "creatureId": "KANITAMA",
       "name": "Peckish Aristocrab",
@@ -508,9 +518,11 @@
           "z": 99.99998
         }
       }
-    },
+    }
+  ],
+  "creature-ookurage": [
     {
-      "type": "creature",
+      "type": "creature-ookurage",
       "infoType": "creature",
       "creatureId": "OOKURAGE",
       "name": "Greater Spotted Jellyfloat",
@@ -533,9 +545,11 @@
           "z": 107
         }
       }
-    },
+    }
+  ],
+  "creature-hariuo": [
     {
-      "type": "creature",
+      "type": "creature-hariuo",
       "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
@@ -560,7 +574,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hariuo",
       "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
@@ -585,7 +599,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hariuo",
       "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
@@ -608,9 +622,11 @@
           "z": -18
         }
       }
-    },
+    }
+  ],
+  "creature-kogani": [
     {
-      "type": "creature",
+      "type": "creature-kogani",
       "infoType": "creature",
       "creatureId": "KOGANI",
       "name": "Aristocrab Offspring",

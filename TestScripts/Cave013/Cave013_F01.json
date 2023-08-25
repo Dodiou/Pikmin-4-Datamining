@@ -209,9 +209,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaeffectsunit": [
     {
-      "type": "treasure",
+      "type": "treasure-otaeffectsunit",
       "infoType": "treasure",
       "treasureId": "OTAEFFECTSUNIT",
       "name": "Soul Reverberator",
@@ -225,9 +225,11 @@
           "z": -97.86489
         }
       }
-    },
+    }
+  ],
+  "treasure-otacandle": [
     {
-      "type": "treasure",
+      "type": "treasure-otacandle",
       "infoType": "treasure",
       "treasureId": "OTACANDLE",
       "name": "Olfactory Sculpture",
@@ -243,9 +245,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-billy": [
     {
-      "type": "creature",
+      "type": "creature-billy",
       "infoType": "creature",
       "creatureId": "BILLY",
       "name": "Bearded Amprat",
@@ -270,7 +272,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-billy",
       "infoType": "creature",
       "creatureId": "BILLY",
       "name": "Bearded Amprat",
@@ -293,9 +295,11 @@
           "z": 6.0001106
         }
       }
-    },
+    }
+  ],
+  "creature-nomi": [
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -312,7 +316,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -327,9 +331,11 @@
           "z": -113
         }
       }
-    },
+    }
+  ],
+  "creature-kurione": [
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",

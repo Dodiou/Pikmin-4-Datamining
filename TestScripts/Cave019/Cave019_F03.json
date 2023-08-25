@@ -134,38 +134,6 @@
           "z": 0.00013051758
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUZZLEF",
-      "name": "Memory Fragment (Center Left)",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": -938,
-          "y": 71,
-          "z": 58.7136
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARAPPA",
-      "name": "Mega Horn",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 250,
-      "transform": {
-        "translation": {
-          "x": -132,
-          "y": 480,
-          "z": 82.1601
-        }
-      }
     }
   ],
   "hazardradial-floormushroom": [
@@ -407,9 +375,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otapuzzlef": [
     {
-      "type": "creature",
+      "type": "treasure-otapuzzlef",
+      "infoType": "treasure",
+      "treasureId": "OTAPUZZLEF",
+      "name": "Memory Fragment (Center Left)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -938,
+          "y": 71,
+          "z": 58.7136
+        }
+      }
+    }
+  ],
+  "treasure-otarappa": [
+    {
+      "type": "treasure-otarappa",
+      "infoType": "treasure",
+      "treasureId": "OTARAPPA",
+      "name": "Mega Horn",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 250,
+      "transform": {
+        "translation": {
+          "x": -132,
+          "y": 480,
+          "z": 82.1601
+        }
+      }
+    }
+  ],
+  "creature-sarai": [
+    {
+      "type": "creature-sarai",
       "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
@@ -434,7 +438,34 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-sarai",
+      "infoType": "creature",
+      "creatureId": "SARAI",
+      "name": "Swooping Snitchbug",
+      "carryMax": 6,
+      "value": 3,
+      "health": 1000,
+      "seeds": 4,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1387.8856,
+          "y": -601.8782,
+          "z": 12.060394
+        }
+      }
+    }
+  ],
+  "creature-tobikaburi": [
+    {
+      "type": "creature-tobikaburi",
       "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
@@ -459,32 +490,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KABURI",
-      "name": "Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 450,
-      "seeds": 6,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1325.1005,
-          "y": -670.42596,
-          "z": 28
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-tobikaburi",
       "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
@@ -509,7 +515,61 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tobikaburi",
+      "infoType": "creature",
+      "creatureId": "TOBIKABURI",
+      "name": "Flighty Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 600,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -41.643757,
+          "y": 76.95065,
+          "z": 78.95197
+        }
+      }
+    }
+  ],
+  "creature-kaburi": [
+    {
+      "type": "creature-kaburi",
+      "infoType": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 450,
+      "seeds": 6,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1325.1005,
+          "y": -670.42596,
+          "z": 28
+        }
+      }
+    }
+  ],
+  "creature-tobinko": [
+    {
+      "type": "creature-tobinko",
       "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
@@ -535,7 +595,7 @@
       "spawnNum": 4
     },
     {
-      "type": "creature",
+      "type": "creature-tobinko",
       "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
@@ -551,59 +611,11 @@
         }
       },
       "spawnNum": 4
-    },
+    }
+  ],
+  "creature-gaskogane": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TOBIKABURI",
-      "name": "Flighty Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 600,
-      "seeds": 8,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -41.643757,
-          "y": 76.95065,
-          "z": 78.95197
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SARAI",
-      "name": "Swooping Snitchbug",
-      "carryMax": 6,
-      "value": 3,
-      "health": 1000,
-      "seeds": 4,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1387.8856,
-          "y": -601.8782,
-          "z": 12.060394
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-gaskogane",
       "infoType": "creature",
       "creatureId": "GASKOGANE",
       "name": "Doodlebug",
@@ -644,9 +656,11 @@
           "z": 18
         }
       }
-    },
+    }
+  ],
+  "creature-tamagomushi": [
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -677,7 +691,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -708,7 +722,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -739,7 +753,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -770,7 +784,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -801,7 +815,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -832,7 +846,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -863,7 +877,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -894,7 +908,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -925,7 +939,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",

@@ -40,9 +40,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otacasinochip1": [
     {
-      "type": "treasure",
+      "type": "treasure-otacasinochip1",
       "infoType": "treasure",
       "treasureId": "OTACASINOCHIP1",
       "name": "Disk of Joyous Wisdom",
@@ -58,7 +58,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otacasinochip1",
       "infoType": "treasure",
       "treasureId": "OTACASINOCHIP1",
       "name": "Disk of Joyous Wisdom",
@@ -74,7 +74,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otacasinochip1",
       "infoType": "treasure",
       "treasureId": "OTACASINOCHIP1",
       "name": "Disk of Joyous Wisdom",
@@ -90,9 +90,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-queen": [
     {
-      "type": "creature",
+      "type": "creature-queen",
       "infoType": "creature",
       "creatureId": "QUEEN",
       "name": "Empress Bulblax",

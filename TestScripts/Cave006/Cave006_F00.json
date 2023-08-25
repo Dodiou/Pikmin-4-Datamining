@@ -35,9 +35,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otasmallbell": [
     {
-      "type": "treasure",
+      "type": "treasure-otasmallbell",
       "infoType": "treasure",
       "treasureId": "OTASMALLBELL",
       "name": "Spouse Alert",
@@ -49,38 +49,6 @@
           "x": -324.79755,
           "y": -511.79077,
           "z": 193.08972
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUZZLEC",
-      "name": "Memory Fragment (Top...Probably?)",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": 605,
-          "y": 550,
-          "z": 77.71361
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTALIGHTUPRINGYEL",
-      "name": "Hoop of Fortune",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 130,
-      "transform": {
-        "translation": {
-          "x": -487,
-          "y": 74,
-          "z": -20.98566
         }
       }
     }
@@ -99,9 +67,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otapuzzlec": [
     {
-      "type": "creature",
+      "type": "treasure-otapuzzlec",
+      "infoType": "treasure",
+      "treasureId": "OTAPUZZLEC",
+      "name": "Memory Fragment (Top...Probably?)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 605,
+          "y": 550,
+          "z": 77.71361
+        }
+      }
+    }
+  ],
+  "treasure-otalightupringyel": [
+    {
+      "type": "treasure-otalightupringyel",
+      "infoType": "treasure",
+      "treasureId": "OTALIGHTUPRINGYEL",
+      "name": "Hoop of Fortune",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": -487,
+          "y": 74,
+          "z": -20.98566
+        }
+      }
+    }
+  ],
+  "creature-babycrow": [
+    {
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
@@ -118,7 +122,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
@@ -135,7 +139,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",

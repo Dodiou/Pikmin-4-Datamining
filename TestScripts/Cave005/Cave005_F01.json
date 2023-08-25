@@ -279,9 +279,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otatraina": [
     {
-      "type": "treasure",
+      "type": "treasure-otatraina",
       "infoType": "treasure",
       "treasureId": "OTATRAINA",
       "name": "Unlimited Locomotive",
@@ -293,22 +293,6 @@
           "x": -814.1361,
           "y": -1103.7922,
           "z": 84.11525
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTALOUPE",
-      "name": "Detective's Truth Seeker",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 230,
-      "transform": {
-        "translation": {
-          "x": -802.0913,
-          "y": 1059.3326,
-          "z": 9.045105
         }
       }
     }
@@ -335,6 +319,24 @@
           "x": -658.33936,
           "y": -952.72656,
           "z": 50.00009
+        }
+      }
+    }
+  ],
+  "treasure-otaloupe": [
+    {
+      "type": "treasure-otaloupe",
+      "infoType": "treasure",
+      "treasureId": "OTALOUPE",
+      "name": "Detective's Truth Seeker",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 230,
+      "transform": {
+        "translation": {
+          "x": -802.0913,
+          "y": 1059.3326,
+          "z": 9.045105
         }
       }
     }
@@ -387,9 +389,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kurione": [
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -420,7 +422,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -451,7 +453,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",

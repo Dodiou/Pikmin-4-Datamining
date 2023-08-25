@@ -141,9 +141,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-hagedamagumo": [
     {
-      "type": "creature",
+      "type": "creature-hagedamagumo",
       "infoType": "creature",
       "creatureId": "HAGEDAMAGUMO",
       "name": "Baldy Long Legs",

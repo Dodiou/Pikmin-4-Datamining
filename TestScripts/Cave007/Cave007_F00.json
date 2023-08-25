@@ -139,9 +139,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapaintsblu": [
     {
-      "type": "treasure",
+      "type": "treasure-otapaintsblu",
       "infoType": "treasure",
       "treasureId": "OTAPAINTSBLU",
       "name": "Decorative Goo",
@@ -153,38 +153,6 @@
           "x": 828.70575,
           "y": 618.4569,
           "z": 158.5426
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKL",
-      "name": "Universal Rubber Cutie",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -1325.3049,
-          "y": 378.95618,
-          "z": 151.17769
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMIKAN",
-      "name": "Citrus Lump",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": 33,
-          "y": -140.22769,
-          "z": 166
         }
       }
     }
@@ -217,9 +185,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otaduckl": [
     {
-      "type": "creature",
+      "type": "treasure-otaduckl",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKL",
+      "name": "Universal Rubber Cutie",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -1325.3049,
+          "y": 378.95618,
+          "z": 151.17769
+        }
+      }
+    }
+  ],
+  "treasure-otamikan": [
+    {
+      "type": "treasure-otamikan",
+      "infoType": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 33,
+          "y": -140.22769,
+          "z": 166
+        }
+      }
+    }
+  ],
+  "creature-hambo": [
+    {
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -236,7 +240,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -253,7 +257,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -270,41 +274,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "OTAMA",
-      "name": "Wolpole",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -969,
-          "y": -97,
-          "z": 36.5
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "OTAMA",
-      "name": "Wolpole",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -948,
-          "y": -195,
-          "z": 36.5
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -321,7 +291,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -338,7 +308,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -355,7 +325,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -372,7 +342,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -389,7 +359,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -406,7 +376,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -423,7 +393,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -440,7 +410,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -556,6 +526,42 @@
           "x": -144.70566,
           "y": -152.56854,
           "z": 50.0001
+        }
+      }
+    }
+  ],
+  "creature-otama": [
+    {
+      "type": "creature-otama",
+      "infoType": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -969,
+          "y": -97,
+          "z": 36.5
+        }
+      }
+    },
+    {
+      "type": "creature-otama",
+      "infoType": "creature",
+      "creatureId": "OTAMA",
+      "name": "Wolpole",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -948,
+          "y": -195,
+          "z": 36.5
         }
       }
     }

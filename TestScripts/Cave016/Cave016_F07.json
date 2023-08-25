@@ -59,9 +59,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-sakadachi": [
     {
-      "type": "creature",
+      "type": "creature-sakadachi",
       "infoType": "creature",
       "creatureId": "SAKADACHI",
       "name": "Crusted Rumpup",

@@ -123,9 +123,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-discodamagumo": [
     {
-      "type": "creature",
+      "type": "creature-discodamagumo",
       "infoType": "creature",
       "creatureId": "DISCODAMAGUMO",
       "name": "Groovy Long Legs",

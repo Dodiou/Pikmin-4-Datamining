@@ -289,9 +289,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otarailwaylined": [
     {
-      "type": "treasure",
+      "type": "treasure-otarailwaylined",
       "infoType": "treasure",
       "treasureId": "OTARAILWAYLINED",
       "name": "Back-at-the-Beginning Track",
@@ -324,9 +324,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-futakuchiadult": [
     {
-      "type": "creature",
+      "type": "creature-futakuchiadult",
       "infoType": "creature",
       "creatureId": "FUTAKUCHIADULT",
       "name": "Horned Cannon Beetle",

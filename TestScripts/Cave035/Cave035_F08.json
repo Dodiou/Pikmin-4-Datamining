@@ -133,9 +133,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-mitsumochi": [
     {
-      "type": "creature",
+      "type": "creature-mitsumochi",
       "infoType": "creature",
       "creatureId": "MITSUMOCHI",
       "name": "Foolix",
@@ -150,9 +150,11 @@
           "z": 91.31885
         }
       }
-    },
+    }
+  ],
+  "creature-bigujinko": [
     {
-      "type": "creature",
+      "type": "creature-bigujinko",
       "infoType": "creature",
       "creatureId": "BIGUJINKO",
       "name": "Mama Sheargrub",
@@ -169,7 +171,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-bigujinko",
       "infoType": "creature",
       "creatureId": "BIGUJINKO",
       "name": "Mama Sheargrub",
@@ -184,9 +186,11 @@
           "z": 30
         }
       }
-    },
+    }
+  ],
+  "creature-kingchappy": [
     {
-      "type": "creature",
+      "type": "creature-kingchappy",
       "infoType": "creature",
       "creatureId": "KINGCHAPPY",
       "name": "Emperor Bulblax",
@@ -201,9 +205,11 @@
           "z": 60.30017
         }
       }
-    },
+    }
+  ],
+  "creature-snakecrow": [
     {
-      "type": "creature",
+      "type": "creature-snakecrow",
       "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
@@ -218,9 +224,11 @@
           "z": 109
         }
       }
-    },
+    }
+  ],
+  "creature-hari": [
     {
-      "type": "creature",
+      "type": "creature-hari",
       "infoType": "creature",
       "creatureId": "HARI",
       "name": "Porquillion",

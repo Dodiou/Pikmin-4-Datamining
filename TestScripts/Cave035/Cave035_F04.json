@@ -28,9 +28,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otabilliardball2": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball2",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL2",
       "name": "Sphere of Family",
@@ -44,9 +44,11 @@
           "z": 39.931854
         }
       }
-    },
+    }
+  ],
+  "treasure-otabilliardball3": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball3",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL3",
       "name": "Sphere of Heart",
@@ -60,9 +62,11 @@
           "z": 250
         }
       }
-    },
+    }
+  ],
+  "treasure-otabilliardball4": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball4",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL4",
       "name": "Sphere of Beginnings",
@@ -76,9 +80,11 @@
           "z": 4.563057
         }
       }
-    },
+    }
+  ],
+  "treasure-otabilliardball1": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball1",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL1",
       "name": "Sphere of Desire",
@@ -92,9 +98,11 @@
           "z": 196.15564
         }
       }
-    },
+    }
+  ],
+  "treasure-otabilliardball5": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball5",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL5",
       "name": "Sphere of Vitality",
@@ -108,9 +116,11 @@
           "z": 104.74822
         }
       }
-    },
+    }
+  ],
+  "treasure-otabilliardball6": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball6",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL6",
       "name": "Sphere of Calm",
@@ -122,54 +132,6 @@
           "x": -693,
           "y": 275,
           "z": 100
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABILLIARDBALL7",
-      "name": "Sphere of Good Fortune",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 840,
-          "y": -415,
-          "z": 145
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABILLIARDBALL8",
-      "name": "Sphere of Trust",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 900,
-          "y": 851,
-          "z": 67.2481
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABILLIARDBALL9",
-      "name": "Sphere of Support",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -716,
-          "y": 1306.0002,
-          "z": 45.420525
         }
       }
     }
@@ -197,6 +159,42 @@
           "x": 849,
           "y": -1398,
           "z": 15.999992
+        }
+      }
+    }
+  ],
+  "treasure-otabilliardball7": [
+    {
+      "type": "treasure-otabilliardball7",
+      "infoType": "treasure",
+      "treasureId": "OTABILLIARDBALL7",
+      "name": "Sphere of Good Fortune",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 840,
+          "y": -415,
+          "z": 145
+        }
+      }
+    }
+  ],
+  "treasure-otabilliardball8": [
+    {
+      "type": "treasure-otabilliardball8",
+      "infoType": "treasure",
+      "treasureId": "OTABILLIARDBALL8",
+      "name": "Sphere of Trust",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 900,
+          "y": 851,
+          "z": 67.2481
         }
       }
     }
@@ -331,6 +329,24 @@
           "z": 0.00009536743
         },
         "rotation": 0
+      }
+    }
+  ],
+  "treasure-otabilliardball9": [
+    {
+      "type": "treasure-otabilliardball9",
+      "infoType": "treasure",
+      "treasureId": "OTABILLIARDBALL9",
+      "name": "Sphere of Support",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -716,
+          "y": 1306.0002,
+          "z": 45.420525
+        }
       }
     }
   ],
@@ -626,9 +642,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-futakuchi": [
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -643,9 +659,11 @@
           "z": 77
         }
       }
-    },
+    }
+  ],
+  "creature-shippozako": [
     {
-      "type": "creature",
+      "type": "creature-shippozako",
       "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
@@ -662,7 +680,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-shippozako",
       "infoType": "creature",
       "creatureId": "SHIPPOZAKO",
       "name": "Miniature Snootwhacker",
@@ -677,9 +695,11 @@
           "z": 19.999992
         }
       }
-    },
+    }
+  ],
+  "creature-shippo": [
     {
-      "type": "creature",
+      "type": "creature-shippo",
       "infoType": "creature",
       "creatureId": "SHIPPO",
       "name": "Mammoth Snootwhacker",
@@ -702,9 +722,11 @@
           "z": 50
         }
       }
-    },
+    }
+  ],
+  "creature-kinokochappy": [
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",
@@ -721,7 +743,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
       "infoType": "creature",
       "creatureId": "KINOKOCHAPPY",
       "name": "Moldy Dwarf Bulborb",

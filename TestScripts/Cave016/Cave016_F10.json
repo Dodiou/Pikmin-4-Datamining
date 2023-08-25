@@ -60,9 +60,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otacasinochip50": [
     {
-      "type": "treasure",
+      "type": "treasure-otacasinochip50",
       "infoType": "treasure",
       "treasureId": "OTACASINOCHIP50",
       "name": "Disk of Amusing Wisdom",
@@ -76,9 +76,11 @@
           "z": -23.492401
         }
       }
-    },
+    }
+  ],
+  "treasure-otacasinochip25": [
     {
-      "type": "treasure",
+      "type": "treasure-otacasinochip25",
       "infoType": "treasure",
       "treasureId": "OTACASINOCHIP25",
       "name": "Disk of Sorrowful Wisdom",
@@ -90,38 +92,6 @@
           "x": 201.03845,
           "y": 70.475525,
           "z": -23.492401
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPAINTSGRN",
-      "name": "Neon Goo",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -654.4603,
-          "y": 45.662476,
-          "z": 8.059913
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABILLIARDBALL1",
-      "name": "Sphere of Desire",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 827.0813,
-          "y": -1090.5537,
-          "z": -55
         }
       }
     }
@@ -183,6 +153,42 @@
       }
     }
   ],
+  "treasure-otapaintsgrn": [
+    {
+      "type": "treasure-otapaintsgrn",
+      "infoType": "treasure",
+      "treasureId": "OTAPAINTSGRN",
+      "name": "Neon Goo",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -654.4603,
+          "y": 45.662476,
+          "z": 8.059913
+        }
+      }
+    }
+  ],
+  "treasure-otabilliardball1": [
+    {
+      "type": "treasure-otabilliardball1",
+      "infoType": "treasure",
+      "treasureId": "OTABILLIARDBALL1",
+      "name": "Sphere of Desire",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 827.0813,
+          "y": -1090.5537,
+          "z": -55
+        }
+      }
+    }
+  ],
   "breakable-egg": [
     {
       "type": "breakable-egg",
@@ -217,9 +223,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-patroller": [
     {
-      "type": "creature",
+      "type": "creature-patroller",
       "infoType": "creature",
       "creatureId": "PATROLLER",
       "name": "Bloomcap Bloyster",
@@ -236,7 +242,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-patroller",
       "infoType": "creature",
       "creatureId": "PATROLLER",
       "name": "Bloomcap Bloyster",
@@ -253,7 +259,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-patroller",
       "infoType": "creature",
       "creatureId": "PATROLLER",
       "name": "Bloomcap Bloyster",

@@ -80,9 +80,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otabilliardballcue": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardballcue",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALLCUE",
       "name": "Sphere of Truth",
@@ -94,22 +94,6 @@
           "x": 68,
           "y": -550,
           "z": 161
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARAILWAYLINEE",
-      "name": "Thrill-Ride Track",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -319.09198,
-          "y": 531.4716,
-          "z": 79.212364
         }
       }
     }
@@ -128,9 +112,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otarailwaylinee": [
     {
-      "type": "creature",
+      "type": "treasure-otarailwaylinee",
+      "infoType": "treasure",
+      "treasureId": "OTARAILWAYLINEE",
+      "name": "Thrill-Ride Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -319.09198,
+          "y": 531.4716,
+          "z": 79.212364
+        }
+      }
+    }
+  ],
+  "creature-rusher": [
+    {
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
@@ -147,7 +149,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
@@ -164,7 +166,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
@@ -179,9 +181,11 @@
           "z": 21.000004
         }
       }
-    },
+    }
+  ],
+  "creature-kurione": [
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -212,7 +216,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",

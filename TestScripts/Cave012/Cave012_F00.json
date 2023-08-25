@@ -234,9 +234,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otakiwi": [
     {
-      "type": "treasure",
+      "type": "treasure-otakiwi",
       "infoType": "treasure",
       "treasureId": "OTAKIWI",
       "name": "Disguised Delicacy",
@@ -250,7 +250,9 @@
           "z": 87
         }
       }
-    },
+    }
+  ],
+  "treasure": [
     {
       "type": "treasure",
       "infoType": "treasure",
@@ -284,9 +286,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-icetank": [
     {
-      "type": "creature",
+      "type": "creature-icetank",
       "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
@@ -311,7 +313,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-icetank",
       "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",
@@ -332,31 +334,6 @@
           "x": -609.2218,
           "y": -344.47522,
           "z": 24.999634
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "ICEFROG",
-      "name": "Chillyhop",
-      "carryMax": 10,
-      "value": 7,
-      "health": 900,
-      "seeds": 8,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 263.5166,
-          "y": 517.4073,
-          "z": -23
         }
       }
     }
@@ -423,6 +400,33 @@
           "x": -910,
           "y": -870,
           "z": 20.7
+        }
+      }
+    }
+  ],
+  "creature-icefrog": [
+    {
+      "type": "creature-icefrog",
+      "infoType": "creature",
+      "creatureId": "ICEFROG",
+      "name": "Chillyhop",
+      "carryMax": 10,
+      "value": 7,
+      "health": 900,
+      "seeds": 8,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 263.5166,
+          "y": 517.4073,
+          "z": -23
         }
       }
     }

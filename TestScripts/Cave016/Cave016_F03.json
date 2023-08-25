@@ -240,9 +240,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-yukifutakuchiadult": [
     {
-      "type": "creature",
+      "type": "creature-yukifutakuchiadult",
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHIADULT",
       "name": "Arctic Cannon Beetle",
@@ -271,9 +271,11 @@
           "z": 197
         }
       }
-    },
+    }
+  ],
+  "creature-tenkochappy": [
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -290,7 +292,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -307,7 +309,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -324,7 +326,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -341,7 +343,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -358,7 +360,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",

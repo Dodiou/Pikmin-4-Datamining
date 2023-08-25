@@ -193,9 +193,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otasushiebi": [
     {
-      "type": "treasure",
+      "type": "treasure-otasushiebi",
       "infoType": "treasure",
       "treasureId": "OTASUSHIEBI",
       "name": "Fish-Bed Snack",
@@ -211,7 +211,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otasushiebi",
       "infoType": "treasure",
       "treasureId": "OTASUSHIEBI",
       "name": "Fish-Bed Snack",
@@ -225,9 +225,11 @@
           "z": 114.3716
         }
       }
-    },
+    }
+  ],
+  "treasure-otasushimaguro": [
     {
-      "type": "treasure",
+      "type": "treasure-otasushimaguro",
       "infoType": "treasure",
       "treasureId": "OTASUSHIMAGURO",
       "name": "Maestro of Flavor",
@@ -243,7 +245,7 @@
       }
     },
     {
-      "type": "treasure",
+      "type": "treasure-otasushimaguro",
       "infoType": "treasure",
       "treasureId": "OTASUSHIMAGURO",
       "name": "Maestro of Flavor",
@@ -257,9 +259,11 @@
           "z": 116.00472
         }
       }
-    },
+    }
+  ],
+  "treasure-otasushitamago": [
     {
-      "type": "treasure",
+      "type": "treasure-otasushitamago",
       "infoType": "treasure",
       "treasureId": "OTASUSHITAMAGO",
       "name": "Belted Delicacy",
@@ -275,39 +279,7 @@
       }
     },
     {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADRAGONFRUIT",
-      "name": "Fire-Breathing Feast",
-      "weight": 20,
-      "carryMax": 40,
-      "value": 170,
-      "transform": {
-        "translation": {
-          "x": -1121.6559,
-          "y": -568.48413,
-          "z": 122.862976
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASTARFRUIT",
-      "name": "Stellar Extrusion",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 1443.6167,
-          "y": 1226.4137,
-          "z": 33.887238
-        }
-      }
-    },
-    {
-      "type": "treasure",
+      "type": "treasure-otasushitamago",
       "infoType": "treasure",
       "treasureId": "OTASUSHITAMAGO",
       "name": "Belted Delicacy",
@@ -321,116 +293,22 @@
           "z": 114.5726
         }
       }
-    },
+    }
+  ],
+  "treasure-otadragonfruit": [
     {
-      "type": "treasure",
+      "type": "treasure-otadragonfruit",
       "infoType": "treasure",
-      "treasureId": "OTAKIWI",
-      "name": "Disguised Delicacy",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
+      "treasureId": "OTADRAGONFRUIT",
+      "name": "Fire-Breathing Feast",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 170,
       "transform": {
         "translation": {
-          "x": -788.6231,
-          "y": 484.56366,
-          "z": 99.66132
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGRAPE",
-      "name": "Dusk Pustules",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 120,
-      "transform": {
-        "translation": {
-          "x": 1005.4206,
-          "y": 283.71808,
-          "z": 91.40079
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAAVOCADO",
-      "name": "Scaly Custard",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": -370,
-          "y": -115,
-          "z": 35.17533
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTACHERRY",
-      "name": "Cupid's Grenade",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 200,
-          "y": 1710,
-          "z": 63.434734
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTACHERRY",
-      "name": "Cupid's Grenade",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 160,
-          "y": 1775,
-          "z": 63.401703
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTACHERRY",
-      "name": "Cupid's Grenade",
-      "weight": 1,
-      "carryMax": 2,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 105,
-          "y": 1700,
-          "z": 63.434734
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMANGO",
-      "name": "Heroine's Tear",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -305,
-          "y": 45,
-          "z": 36.202667
+          "x": -1121.6559,
+          "y": -568.48413,
+          "z": 122.862976
         }
       }
     }
@@ -494,9 +372,149 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otastarfruit": [
     {
-      "type": "creature",
+      "type": "treasure-otastarfruit",
+      "infoType": "treasure",
+      "treasureId": "OTASTARFRUIT",
+      "name": "Stellar Extrusion",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1443.6167,
+          "y": 1226.4137,
+          "z": 33.887238
+        }
+      }
+    }
+  ],
+  "treasure-otakiwi": [
+    {
+      "type": "treasure-otakiwi",
+      "infoType": "treasure",
+      "treasureId": "OTAKIWI",
+      "name": "Disguised Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -788.6231,
+          "y": 484.56366,
+          "z": 99.66132
+        }
+      }
+    }
+  ],
+  "treasure-otagrape": [
+    {
+      "type": "treasure-otagrape",
+      "infoType": "treasure",
+      "treasureId": "OTAGRAPE",
+      "name": "Dusk Pustules",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": 1005.4206,
+          "y": 283.71808,
+          "z": 91.40079
+        }
+      }
+    }
+  ],
+  "treasure-otaavocado": [
+    {
+      "type": "treasure-otaavocado",
+      "infoType": "treasure",
+      "treasureId": "OTAAVOCADO",
+      "name": "Scaly Custard",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": -370,
+          "y": -115,
+          "z": 35.17533
+        }
+      }
+    }
+  ],
+  "treasure-otacherry": [
+    {
+      "type": "treasure-otacherry",
+      "infoType": "treasure",
+      "treasureId": "OTACHERRY",
+      "name": "Cupid's Grenade",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 200,
+          "y": 1710,
+          "z": 63.434734
+        }
+      }
+    },
+    {
+      "type": "treasure-otacherry",
+      "infoType": "treasure",
+      "treasureId": "OTACHERRY",
+      "name": "Cupid's Grenade",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 160,
+          "y": 1775,
+          "z": 63.401703
+        }
+      }
+    },
+    {
+      "type": "treasure-otacherry",
+      "infoType": "treasure",
+      "treasureId": "OTACHERRY",
+      "name": "Cupid's Grenade",
+      "weight": 1,
+      "carryMax": 2,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 105,
+          "y": 1700,
+          "z": 63.434734
+        }
+      }
+    }
+  ],
+  "treasure-otamango": [
+    {
+      "type": "treasure-otamango",
+      "infoType": "treasure",
+      "treasureId": "OTAMANGO",
+      "name": "Heroine's Tear",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -305,
+          "y": 45,
+          "z": 36.202667
+        }
+      }
+    }
+  ],
+  "creature-demejako": [
+    {
+      "type": "creature-demejako",
       "infoType": "creature",
       "creatureId": "DEMEJAKO",
       "name": "Bug-Eyed Crawmad",
@@ -517,74 +535,6 @@
           "x": 682,
           "y": -411,
           "z": 132.38226
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WATERTANK",
-      "name": "Watery Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": 390.70493,
-          "y": 139.435,
-          "z": 117.820435
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WATERTANK",
-      "name": "Watery Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": -1245.295,
-          "y": 397.435,
-          "z": 99
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MAROFROG",
-      "name": "Wollyhop",
-      "carryMax": 10,
-      "value": 7,
-      "health": 1300,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 247.3623,
-          "y": 439.79935,
-          "z": 94.999344
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MAROFROG",
-      "name": "Wollyhop",
-      "carryMax": 10,
-      "value": 7,
-      "health": 1300,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 855.58527,
-          "y": 1374.5936,
-          "z": 69.89697
         }
       }
     }
@@ -687,6 +637,78 @@
           "x": 600,
           "y": -1150,
           "z": 115
+        }
+      }
+    }
+  ],
+  "creature-watertank": [
+    {
+      "type": "creature-watertank",
+      "infoType": "creature",
+      "creatureId": "WATERTANK",
+      "name": "Watery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 390.70493,
+          "y": 139.435,
+          "z": 117.820435
+        }
+      }
+    },
+    {
+      "type": "creature-watertank",
+      "infoType": "creature",
+      "creatureId": "WATERTANK",
+      "name": "Watery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": -1245.295,
+          "y": 397.435,
+          "z": 99
+        }
+      }
+    }
+  ],
+  "creature-marofrog": [
+    {
+      "type": "creature-marofrog",
+      "infoType": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "health": 1300,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 247.3623,
+          "y": 439.79935,
+          "z": 94.999344
+        }
+      }
+    },
+    {
+      "type": "creature-marofrog",
+      "infoType": "creature",
+      "creatureId": "MAROFROG",
+      "name": "Wollyhop",
+      "carryMax": 10,
+      "value": 7,
+      "health": 1300,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 855.58527,
+          "y": 1374.5936,
+          "z": 69.89697
         }
       }
     }

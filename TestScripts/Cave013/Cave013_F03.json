@@ -44,22 +44,6 @@
           "z": -49.999905
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABILLIARDBALL4",
-      "name": "Sphere of Beginnings",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 886.7781,
-          "y": 413.32922,
-          "z": -134.99957
-        }
-      }
     }
   ],
   "hazardspout-bubble": [
@@ -229,6 +213,24 @@
       }
     }
   ],
+  "treasure-otabilliardball4": [
+    {
+      "type": "treasure-otabilliardball4",
+      "infoType": "treasure",
+      "treasureId": "OTABILLIARDBALL4",
+      "name": "Sphere of Beginnings",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 886.7781,
+          "y": 413.32922,
+          "z": -134.99957
+        }
+      }
+    }
+  ],
   "ridable-geyser": [
     {
       "type": "ridable-geyser",
@@ -347,9 +349,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kajiokoshi": [
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -366,7 +368,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 446.77185,
+          "y": -616.64215,
+          "z": -19.999908
+        }
+      }
+    }
+  ],
+  "creature-rusher": [
+    {
+      "type": "creature-rusher",
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
@@ -395,26 +416,11 @@
           "z": 21.414452
         }
       }
-    },
+    }
+  ],
+  "creature-firetank": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 446.77185,
-          "y": -616.64215,
-          "z": -19.999908
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -439,7 +445,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -462,9 +468,11 @@
           "z": -96.9999
         }
       }
-    },
+    }
+  ],
+  "creature-kurione": [
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -495,7 +503,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",

@@ -247,9 +247,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-yukimushi": [
     {
-      "type": "creature",
+      "type": "creature-yukimushi",
       "infoType": "creature",
       "creatureId": "YUKIMUSHI",
       "name": "Snowfake Fluttertail",

@@ -58,9 +58,10 @@ function parseTreasureComp(comp) {
   if (!treasure) {
     throw new Error(`Unknown treasure ${treasureId}`);
   }
-
+  
+  const type = `${InfoType.Treasure}-${treasureId.toLowerCase()}`;
   return {
-    type: MarkerType.Treasure,
+    type,
     infoType: InfoType.Treasure,
     treasureId: treasureId,
     name: getTreasureName(treasureId),

@@ -158,9 +158,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaduckm": [
     {
-      "type": "treasure",
+      "type": "treasure-otaduckm",
       "infoType": "treasure",
       "treasureId": "OTADUCKM",
       "name": "Planetary Rubber Cutie",
@@ -189,9 +189,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-kurione": [
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -222,7 +222,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",

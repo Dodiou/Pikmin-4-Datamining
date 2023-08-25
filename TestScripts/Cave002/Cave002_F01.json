@@ -264,9 +264,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otasweetpotato": [
     {
-      "type": "treasure",
+      "type": "treasure-otasweetpotato",
       "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
@@ -278,38 +278,6 @@
           "x": 544.53815,
           "y": 843.5971,
           "z": -14.446818
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAYOSHICOOKIEA",
-      "name": "Cookie of Nibbled Circles",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": 360.55463,
-          "y": -115.34644,
-          "z": 85.527534
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMACARONC",
-      "name": "S.S. Chocolate",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 336.60385,
-          "y": -26.5,
-          "z": 96.07998
         }
       }
     }
@@ -339,6 +307,42 @@
           "x": 754.76733,
           "y": -214.79065,
           "z": 0.000099658966
+        }
+      }
+    }
+  ],
+  "treasure-otayoshicookiea": [
+    {
+      "type": "treasure-otayoshicookiea",
+      "infoType": "treasure",
+      "treasureId": "OTAYOSHICOOKIEA",
+      "name": "Cookie of Nibbled Circles",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 360.55463,
+          "y": -115.34644,
+          "z": 85.527534
+        }
+      }
+    }
+  ],
+  "treasure-otamacaronc": [
+    {
+      "type": "treasure-otamacaronc",
+      "infoType": "treasure",
+      "treasureId": "OTAMACARONC",
+      "name": "S.S. Chocolate",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 336.60385,
+          "y": -26.5,
+          "z": 96.07998
         }
       }
     }
@@ -447,9 +451,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-yakisenbei": [
     {
-      "type": "creature",
+      "type": "creature-yakisenbei",
       "infoType": "creature",
       "creatureId": "YAKISENBEI",
       "name": "Scorchcake",
@@ -472,9 +476,11 @@
           "z": 45.0039
         }
       }
-    },
+    }
+  ],
+  "creature-kogane": [
     {
-      "type": "creature",
+      "type": "creature-kogane",
       "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
@@ -509,9 +515,11 @@
           "z": 20.01674
         }
       }
-    },
+    }
+  ],
+  "creature-tobinko": [
     {
-      "type": "creature",
+      "type": "creature-tobinko",
       "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
@@ -528,7 +536,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tobinko",
       "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",
@@ -545,7 +553,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tobinko",
       "infoType": "creature",
       "creatureId": "TOBINKO",
       "name": "Shearwig",

@@ -225,134 +225,6 @@
           "z": -49.999905
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOMATOM",
-      "name": "Love Nugget",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -668,
-          "y": 869,
-          "z": 67.1851
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAZUCCHINI",
-      "name": "Crew-Cut Gourd",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -917.2305,
-          "y": 883,
-          "z": -18.5593
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPOTATO",
-      "name": "Child of the Earth",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": -675,
-          "y": -193,
-          "z": -12.999599
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPOTATO",
-      "name": "Child of the Earth",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": -1176.9999,
-          "y": -996,
-          "z": -13.285674
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAEGGPLANT",
-      "name": "Foolish Fruit",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": 636,
-          "y": 656,
-          "z": -22.864902
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKENOKO",
-      "name": "Anxious Sprout",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -224.44055,
-          "y": 380,
-          "z": -40.96402
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOMATOS",
-      "name": "Crush Nugget",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 500,
-          "y": -374,
-          "z": 50.6026
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOMATOS",
-      "name": "Crush Nugget",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 20,
-      "transform": {
-        "translation": {
-          "x": 420,
-          "y": -386,
-          "z": 50.6026
-        }
-      }
     }
   ],
   "gate-numbered": [
@@ -379,6 +251,112 @@
           "x": 0,
           "y": -175,
           "z": -49.9999
+        }
+      }
+    }
+  ],
+  "treasure-otatomatom": [
+    {
+      "type": "treasure-otatomatom",
+      "infoType": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -668,
+          "y": 869,
+          "z": 67.1851
+        }
+      }
+    }
+  ],
+  "treasure-otazucchini": [
+    {
+      "type": "treasure-otazucchini",
+      "infoType": "treasure",
+      "treasureId": "OTAZUCCHINI",
+      "name": "Crew-Cut Gourd",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -917.2305,
+          "y": 883,
+          "z": -18.5593
+        }
+      }
+    }
+  ],
+  "treasure-otapotato": [
+    {
+      "type": "treasure-otapotato",
+      "infoType": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -675,
+          "y": -193,
+          "z": -12.999599
+        }
+      }
+    },
+    {
+      "type": "treasure-otapotato",
+      "infoType": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -1176.9999,
+          "y": -996,
+          "z": -13.285674
+        }
+      }
+    }
+  ],
+  "treasure-otaeggplant": [
+    {
+      "type": "treasure-otaeggplant",
+      "infoType": "treasure",
+      "treasureId": "OTAEGGPLANT",
+      "name": "Foolish Fruit",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": 636,
+          "y": 656,
+          "z": -22.864902
+        }
+      }
+    }
+  ],
+  "treasure-otatakenoko": [
+    {
+      "type": "treasure-otatakenoko",
+      "infoType": "treasure",
+      "treasureId": "OTATAKENOKO",
+      "name": "Anxious Sprout",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -224.44055,
+          "y": 380,
+          "z": -40.96402
         }
       }
     }
@@ -424,9 +402,43 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otatomatos": [
     {
-      "type": "creature",
+      "type": "treasure-otatomatos",
+      "infoType": "treasure",
+      "treasureId": "OTATOMATOS",
+      "name": "Crush Nugget",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 500,
+          "y": -374,
+          "z": 50.6026
+        }
+      }
+    },
+    {
+      "type": "treasure-otatomatos",
+      "infoType": "treasure",
+      "treasureId": "OTATOMATOS",
+      "name": "Crush Nugget",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 20,
+      "transform": {
+        "translation": {
+          "x": 420,
+          "y": -386,
+          "z": 50.6026
+        }
+      }
+    }
+  ],
+  "creature-kajiokoshi": [
+    {
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -443,7 +455,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -460,7 +472,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 191,
+          "y": 512,
+          "z": -23.869904
+        }
+      }
+    }
+  ],
+  "creature-yakisenbei": [
+    {
+      "type": "creature-yakisenbei",
       "infoType": "creature",
       "creatureId": "YAKISENBEI",
       "name": "Scorchcake",
@@ -477,7 +508,34 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-yakisenbei",
+      "infoType": "creature",
+      "creatureId": "YAKISENBEI",
+      "name": "Scorchcake",
+      "carryMax": 14,
+      "value": 7,
+      "health": 1000,
+      "seeds": 10,
+      "drops": [
+        {
+          "item": "GOtaTomatoS_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -844,
+          "y": -1184,
+          "z": -4.7749023
+        }
+      }
+    }
+  ],
+  "creature-kogane": [
+    {
+      "type": "creature-kogane",
       "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
@@ -512,34 +570,11 @@
           "z": -32
         }
       }
-    },
+    }
+  ],
+  "creature-nomi": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YAKISENBEI",
-      "name": "Scorchcake",
-      "carryMax": 14,
-      "value": 7,
-      "health": 1000,
-      "seeds": 10,
-      "drops": [
-        {
-          "item": "GOtaTomatoS_C",
-          "chance": 1,
-          "min": 2,
-          "max": 2
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -844,
-          "y": -1184,
-          "z": -4.7749023
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -556,7 +591,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -573,7 +608,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -588,9 +623,11 @@
           "z": -37.939903
         }
       }
-    },
+    }
+  ],
+  "creature-kaburi": [
     {
-      "type": "creature",
+      "type": "creature-kaburi",
       "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",
@@ -607,24 +644,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 191,
-          "y": 512,
-          "z": -23.869904
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kaburi",
       "infoType": "creature",
       "creatureId": "KABURI",
       "name": "Joustmite",

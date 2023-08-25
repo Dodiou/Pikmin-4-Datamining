@@ -88,9 +88,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaheropartsf": [
     {
-      "type": "treasure",
+      "type": "treasure-otaheropartsf",
       "infoType": "treasure",
       "treasureId": "OTAHEROPARTSF",
       "name": "Libra",
@@ -104,9 +104,11 @@
           "z": 209.74867
         }
       }
-    },
+    }
+  ],
+  "treasure-otaheropartsa": [
     {
-      "type": "treasure",
+      "type": "treasure-otaheropartsa",
       "infoType": "treasure",
       "treasureId": "OTAHEROPARTSA",
       "name": "Whimsical Radar",
@@ -118,70 +120,6 @@
           "x": 2250.6477,
           "y": -107.97095,
           "z": 226.29918
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSL",
-      "name": "Repair-Type Bolt",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 946.5487,
-          "y": 3783.325,
-          "z": 251.10777
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSV",
-      "name": "Extraordinary Bolt",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -391.59244,
-          "y": -1481.9832,
-          "z": 319.19632
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSAA",
-      "name": "Automatic Gear",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -1495.3934,
-          "y": -76.39349,
-          "z": 188.8226
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSO",
-      "name": "Nova Blaster",
-      "weight": 20,
-      "carryMax": 40,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -11.111801,
-          "y": 3316.007,
-          "z": 370
         }
       }
     }
@@ -559,6 +497,60 @@
       }
     }
   ],
+  "treasure-otaheropartsl": [
+    {
+      "type": "treasure-otaheropartsl",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSL",
+      "name": "Repair-Type Bolt",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 946.5487,
+          "y": 3783.325,
+          "z": 251.10777
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsv": [
+    {
+      "type": "treasure-otaheropartsv",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSV",
+      "name": "Extraordinary Bolt",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -391.59244,
+          "y": -1481.9832,
+          "z": 319.19632
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsaa": [
+    {
+      "type": "treasure-otaheropartsaa",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSAA",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -1495.3934,
+          "y": -76.39349,
+          "z": 188.8226
+        }
+      }
+    }
+  ],
   "pile-materials": [
     {
       "type": "pile-materials",
@@ -653,6 +645,24 @@
           "x": -2912.0615,
           "y": 3284.4885,
           "z": 344.24637
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartso": [
+    {
+      "type": "treasure-otaheropartso",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSO",
+      "name": "Nova Blaster",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -11.111801,
+          "y": 3316.007,
+          "z": 370
         }
       }
     }
@@ -1019,9 +1029,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-bigfiretank": [
     {
-      "type": "creature",
+      "type": "creature-bigfiretank",
       "infoType": "creature",
       "creatureId": "BIGFIRETANK",
       "name": "Titan Blowhog",
@@ -1044,9 +1054,11 @@
           "z": 264.23978
         }
       }
-    },
+    }
+  ],
+  "creature-mar": [
     {
-      "type": "creature",
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
@@ -1071,458 +1083,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MIULIN",
-      "name": "Mamuta",
-      "carryMax": 20,
-      "value": 10,
-      "health": 1800,
-      "seeds": 12,
-      "transform": {
-        "translation": {
-          "x": -1821.6592,
-          "y": 2441.426,
-          "z": 327.36407
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1843.6345,
-          "y": 357.31473,
-          "z": 112.4203
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 2117.343,
-          "y": 611.55707,
-          "z": 108.04544
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 2187.2488,
-          "y": 928.5744,
-          "z": 106.20618
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KABURI",
-      "name": "Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 450,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": -2351.7095,
-          "y": 855.41064,
-          "z": 229.23895
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOGANE",
-      "name": "Iridescent Flint Beetle",
-      "carryMax": 0,
-      "value": 0,
-      "health": 200,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GPellet1_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GPellet1_C",
-          "chance": 1,
-          "min": 3,
-          "max": 3
-        },
-        {
-          "item": "GPellet5_C",
-          "chance": 1,
-          "min": 2,
-          "max": 2
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -2717.616,
-          "y": 3442.288,
-          "z": 168.26347
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FUTAKUCHIADULT",
-      "name": "Horned Cannon Beetle",
-      "carryMax": 60,
-      "value": 20,
-      "health": 5000,
-      "seeds": 50,
-      "transform": {
-        "translation": {
-          "x": -2625.4631,
-          "y": 2512.341,
-          "z": 222.4357
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KABURI",
-      "name": "Joustmite",
-      "carryMax": 14,
-      "value": 5,
-      "health": 450,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": -2249,
-          "y": 1814,
-          "z": 178
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BIGUJINKO",
-      "name": "Mama Sheargrub",
-      "carryMax": 20,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": 1886.6246,
-          "y": 2078.9473,
-          "z": 162.69276
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BIGUJINKO",
-      "name": "Mama Sheargrub",
-      "carryMax": 20,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": 1269,
-          "y": 3526,
-          "z": 168.60138
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1246,
-          "y": 3325,
-          "z": 145.55878
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOA",
-      "name": "Female Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": 1414,
-          "y": 3456,
-          "z": 142.84428
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YELLOWSHIJIMI",
-      "name": "Yellow Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1823,
-          "y": 2227,
-          "z": 312.74118
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1868,
-          "y": 2523,
-          "z": 321.93735
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1667,
-          "y": 2491,
-          "z": 311.93735
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1095,
-          "y": 3182,
-          "z": 146.27602
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YELLOWSHIJIMI",
-      "name": "Yellow Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1322,
-          "y": -1286,
-          "z": 110.67282
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1557,
-          "y": -1223,
-          "z": 110.22495
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1776,
-          "y": 2265,
-          "z": 146.16151
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOA",
-      "name": "Female Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": 1634,
-          "y": 2245,
-          "z": 138.80219
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1891,
-          "y": 1136,
-          "z": 110.706924
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1888,
-          "y": 1427,
-          "z": 105.5375
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1597,
-          "y": 1556,
-          "z": 106.6333
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
@@ -1547,216 +1108,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WATERTANK",
-      "name": "Watery Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": 41,
-          "y": -884,
-          "z": 224
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "CHAPPY",
-      "name": "Bulborb",
-      "carryMax": 20,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "transform": {
-        "translation": {
-          "x": -1789.4972,
-          "y": 1300.8652,
-          "z": 138.76831
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1307.3694,
-          "y": 1398.6388,
-          "z": 202.13153
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1379,
-          "y": -969,
-          "z": 117.40964
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WATERTANK",
-      "name": "Watery Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": 1063,
-          "y": 29,
-          "z": 127.28642
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FUTAKUCHI",
-      "name": "Armored Cannon Larva",
-      "carryMax": 14,
-      "value": 7,
-      "health": 900,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 2315.747,
-          "y": -360.60486,
-          "z": 211.34088
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FUTAKUCHI",
-      "name": "Armored Cannon Larva",
-      "carryMax": 14,
-      "value": 7,
-      "health": 900,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": -1920,
-          "y": 3495,
-          "z": 311.9085
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -671.6306,
-          "y": -1363.3612,
-          "z": 190.1622
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -417.6306,
-          "y": -1090.3612,
-          "z": 216.61765
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KURIONE",
-      "name": "Honeywisp",
-      "carryMax": 0,
-      "value": 0,
-      "health": 1,
-      "seeds": 0,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -32,
-          "y": -157,
-          "z": 116
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": 1887,
-          "y": 1901,
-          "z": 139.94278
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
@@ -1777,6 +1129,25 @@
           "x": -3536.4465,
           "y": 515.4378,
           "z": 287.6808
+        }
+      }
+    }
+  ],
+  "creature-miulin": [
+    {
+      "type": "creature-miulin",
+      "infoType": "creature",
+      "creatureId": "MIULIN",
+      "name": "Mamuta",
+      "carryMax": 20,
+      "value": 10,
+      "health": 1800,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -1821.6592,
+          "y": 2441.426,
+          "z": 327.36407
         }
       }
     }
@@ -1822,6 +1193,675 @@
           "x": 1987.2949,
           "y": 438.35815,
           "z": 99.42794
+        }
+      }
+    }
+  ],
+  "creature-kochappy": [
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1843.6345,
+          "y": 357.31473,
+          "z": 112.4203
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2117.343,
+          "y": 611.55707,
+          "z": 108.04544
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2187.2488,
+          "y": 928.5744,
+          "z": 106.20618
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1891,
+          "y": 1136,
+          "z": 110.706924
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1888,
+          "y": 1427,
+          "z": 105.5375
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1597,
+          "y": 1556,
+          "z": 106.6333
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1307.3694,
+          "y": 1398.6388,
+          "z": 202.13153
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -671.6306,
+          "y": -1363.3612,
+          "z": 190.1622
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -417.6306,
+          "y": -1090.3612,
+          "z": 216.61765
+        }
+      }
+    }
+  ],
+  "creature-kaburi": [
+    {
+      "type": "creature-kaburi",
+      "infoType": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 450,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2351.7095,
+          "y": 855.41064,
+          "z": 229.23895
+        }
+      }
+    },
+    {
+      "type": "creature-kaburi",
+      "infoType": "creature",
+      "creatureId": "KABURI",
+      "name": "Joustmite",
+      "carryMax": 14,
+      "value": 5,
+      "health": 450,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": -2249,
+          "y": 1814,
+          "z": 178
+        }
+      }
+    }
+  ],
+  "creature-kogane": [
+    {
+      "type": "creature-kogane",
+      "infoType": "creature",
+      "creatureId": "KOGANE",
+      "name": "Iridescent Flint Beetle",
+      "carryMax": 0,
+      "value": 0,
+      "health": 200,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GPellet1_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GPellet1_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 2,
+          "max": 2
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2717.616,
+          "y": 3442.288,
+          "z": 168.26347
+        }
+      }
+    }
+  ],
+  "creature-futakuchiadult": [
+    {
+      "type": "creature-futakuchiadult",
+      "infoType": "creature",
+      "creatureId": "FUTAKUCHIADULT",
+      "name": "Horned Cannon Beetle",
+      "carryMax": 60,
+      "value": 20,
+      "health": 5000,
+      "seeds": 50,
+      "transform": {
+        "translation": {
+          "x": -2625.4631,
+          "y": 2512.341,
+          "z": 222.4357
+        }
+      }
+    }
+  ],
+  "creature-bigujinko": [
+    {
+      "type": "creature-bigujinko",
+      "infoType": "creature",
+      "creatureId": "BIGUJINKO",
+      "name": "Mama Sheargrub",
+      "carryMax": 20,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 1886.6246,
+          "y": 2078.9473,
+          "z": 162.69276
+        }
+      }
+    },
+    {
+      "type": "creature-bigujinko",
+      "infoType": "creature",
+      "creatureId": "BIGUJINKO",
+      "name": "Mama Sheargrub",
+      "carryMax": 20,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": 1269,
+          "y": 3526,
+          "z": 168.60138
+        }
+      }
+    }
+  ],
+  "creature-ujinkob": [
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1246,
+          "y": 3325,
+          "z": 145.55878
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1095,
+          "y": 3182,
+          "z": 146.27602
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1776,
+          "y": 2265,
+          "z": 146.16151
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": 1887,
+          "y": 1901,
+          "z": 139.94278
+        }
+      }
+    }
+  ],
+  "creature-ujinkoa": [
+    {
+      "type": "creature-ujinkoa",
+      "infoType": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": 1414,
+          "y": 3456,
+          "z": 142.84428
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkoa",
+      "infoType": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": 1634,
+          "y": 2245,
+          "z": 138.80219
+        }
+      }
+    }
+  ],
+  "creature-yellowshijimi": [
+    {
+      "type": "creature-yellowshijimi",
+      "infoType": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1823,
+          "y": 2227,
+          "z": 312.74118
+        }
+      }
+    },
+    {
+      "type": "creature-yellowshijimi",
+      "infoType": "creature",
+      "creatureId": "YELLOWSHIJIMI",
+      "name": "Yellow Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1322,
+          "y": -1286,
+          "z": 110.67282
+        }
+      }
+    }
+  ],
+  "creature-whiteshijimi": [
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1868,
+          "y": 2523,
+          "z": 321.93735
+        }
+      }
+    },
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1667,
+          "y": 2491,
+          "z": 311.93735
+        }
+      }
+    },
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1557,
+          "y": -1223,
+          "z": 110.22495
+        }
+      }
+    },
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1379,
+          "y": -969,
+          "z": 117.40964
+        }
+      }
+    }
+  ],
+  "creature-watertank": [
+    {
+      "type": "creature-watertank",
+      "infoType": "creature",
+      "creatureId": "WATERTANK",
+      "name": "Watery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 41,
+          "y": -884,
+          "z": 224
+        }
+      }
+    },
+    {
+      "type": "creature-watertank",
+      "infoType": "creature",
+      "creatureId": "WATERTANK",
+      "name": "Watery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "transform": {
+        "translation": {
+          "x": 1063,
+          "y": 29,
+          "z": 127.28642
+        }
+      }
+    }
+  ],
+  "creature-chappy": [
+    {
+      "type": "creature-chappy",
+      "infoType": "creature",
+      "creatureId": "CHAPPY",
+      "name": "Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
+      "transform": {
+        "translation": {
+          "x": -1789.4972,
+          "y": 1300.8652,
+          "z": 138.76831
+        }
+      }
+    }
+  ],
+  "creature-futakuchi": [
+    {
+      "type": "creature-futakuchi",
+      "infoType": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "health": 900,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 2315.747,
+          "y": -360.60486,
+          "z": 211.34088
+        }
+      }
+    },
+    {
+      "type": "creature-futakuchi",
+      "infoType": "creature",
+      "creatureId": "FUTAKUCHI",
+      "name": "Armored Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "health": 900,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -1920,
+          "y": 3495,
+          "z": 311.9085
+        }
+      }
+    }
+  ],
+  "creature-kurione": [
+    {
+      "type": "creature-kurione",
+      "infoType": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -32,
+          "y": -157,
+          "z": 116
         }
       }
     }

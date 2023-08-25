@@ -59,9 +59,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-dodoro": [
     {
-      "type": "creature",
+      "type": "creature-dodoro",
       "infoType": "creature",
       "creatureId": "DODORO",
       "name": "Smoky Progg",

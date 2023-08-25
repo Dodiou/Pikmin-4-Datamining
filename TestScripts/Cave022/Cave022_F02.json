@@ -336,9 +336,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapapaya": [
     {
-      "type": "treasure",
+      "type": "treasure-otapapaya",
       "infoType": "treasure",
       "treasureId": "OTAPAPAYA",
       "name": "Seed Hive",
@@ -350,22 +350,6 @@
           "x": -140,
           "y": -61,
           "z": -32.7949
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMIKAN",
-      "name": "Citrus Lump",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": -622.7742,
-          "y": 548.6064,
-          "z": 3.710655
         }
       }
     }
@@ -440,9 +424,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otamikan": [
     {
-      "type": "creature",
+      "type": "treasure-otamikan",
+      "infoType": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -622.7742,
+          "y": 548.6064,
+          "z": 3.710655
+        }
+      }
+    }
+  ],
+  "creature-yukifutakuchi": [
+    {
+      "type": "creature-yukifutakuchi",
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
@@ -459,7 +461,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-yukifutakuchi",
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHI",
       "name": "Arctic Cannon Larva",
@@ -474,9 +476,11 @@
           "z": -55.441463
         }
       }
-    },
+    }
+  ],
+  "creature-icesenbei": [
     {
-      "type": "creature",
+      "type": "creature-icesenbei",
       "infoType": "creature",
       "creatureId": "ICESENBEI",
       "name": "Freezecake",
@@ -505,9 +509,11 @@
           "z": -53
         }
       }
-    },
+    }
+  ],
+  "creature-icetank": [
     {
-      "type": "creature",
+      "type": "creature-icetank",
       "infoType": "creature",
       "creatureId": "ICETANK",
       "name": "Snowy Blowhog",

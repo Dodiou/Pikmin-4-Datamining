@@ -45,9 +45,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otatakenoko": [
     {
-      "type": "treasure",
+      "type": "treasure-otatakenoko",
       "infoType": "treasure",
       "treasureId": "OTATAKENOKO",
       "name": "Anxious Sprout",
@@ -59,22 +59,6 @@
           "x": 1059.6627,
           "y": -7.9061966,
           "z": -97
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPAINTSBLK",
-      "name": "Ambiguous Goo",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -566.6908,
-          "y": -820.99976,
-          "z": 8.542603
         }
       }
     }
@@ -209,9 +193,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otapaintsblk": [
     {
-      "type": "creature",
+      "type": "treasure-otapaintsblk",
+      "infoType": "treasure",
+      "treasureId": "OTAPAINTSBLK",
+      "name": "Ambiguous Goo",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -566.6908,
+          "y": -820.99976,
+          "z": 8.542603
+        }
+      }
+    }
+  ],
+  "creature-tentenchappy": [
+    {
+      "type": "creature-tentenchappy",
       "infoType": "creature",
       "creatureId": "TENTENCHAPPY",
       "name": "Orange Bulborb",
@@ -234,9 +236,11 @@
           "z": 15
         }
       }
-    },
+    }
+  ],
+  "creature-tenkochappy": [
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -253,7 +257,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -270,7 +274,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -287,7 +291,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tenkochappy",
       "infoType": "creature",
       "creatureId": "TENKOCHAPPY",
       "name": "Dwarf Orange Bulborb",
@@ -302,9 +306,11 @@
           "z": 12
         }
       }
-    },
+    }
+  ],
+  "creature-tamagomushi": [
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -329,7 +335,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -354,7 +360,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -379,7 +385,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -404,7 +410,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -429,7 +435,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -454,7 +460,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -479,7 +485,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -504,7 +510,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -529,7 +535,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",

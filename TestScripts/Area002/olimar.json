@@ -231,9 +231,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otaheropartsc": [
     {
-      "type": "treasure",
+      "type": "treasure-otaheropartsc",
       "infoType": "treasure",
       "treasureId": "OTAHEROPARTSC",
       "name": "Ionium Jet",
@@ -245,86 +245,6 @@
           "x": -3365.131,
           "y": -876.052,
           "z": 242.36139
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSAB",
-      "name": "Automatic Gear",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -732.1941,
-          "y": -1152.184,
-          "z": 111.35282
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSN",
-      "name": "Repair-Type Bolt",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 311.989,
-          "y": -1994.39,
-          "z": 187.69087
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSJ",
-      "name": "Omega Stabilizer",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 449.4581,
-          "y": -610.1775,
-          "z": 284.22452
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSU",
-      "name": "Extraordinary Bolt",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": -3242.2368,
-          "y": 1359.6681,
-          "z": 26.691889
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHEROPARTSR",
-      "name": "Extraordinary Bolt",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 0,
-      "transform": {
-        "translation": {
-          "x": 5,
-          "y": 2340,
-          "z": 388.71652
         }
       }
     }
@@ -637,6 +557,42 @@
       }
     }
   ],
+  "treasure-otaheropartsab": [
+    {
+      "type": "treasure-otaheropartsab",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSAB",
+      "name": "Automatic Gear",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -732.1941,
+          "y": -1152.184,
+          "z": 111.35282
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsn": [
+    {
+      "type": "treasure-otaheropartsn",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSN",
+      "name": "Repair-Type Bolt",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 311.989,
+          "y": -1994.39,
+          "z": 187.69087
+        }
+      }
+    }
+  ],
   "switchable-fencenormal": [
     {
       "type": "switchable-fencenormal",
@@ -660,6 +616,24 @@
           "z": 296.64246
         },
         "rotation": 14
+      }
+    }
+  ],
+  "treasure-otaheropartsj": [
+    {
+      "type": "treasure-otaheropartsj",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSJ",
+      "name": "Omega Stabilizer",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 449.4581,
+          "y": -610.1775,
+          "z": 284.22452
+        }
       }
     }
   ],
@@ -735,6 +709,24 @@
           "x": 1160.8732,
           "y": 8.148453,
           "z": 100.0001
+        }
+      }
+    }
+  ],
+  "treasure-otaheropartsu": [
+    {
+      "type": "treasure-otaheropartsu",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSU",
+      "name": "Extraordinary Bolt",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": -3242.2368,
+          "y": 1359.6681,
+          "z": 26.691889
         }
       }
     }
@@ -990,6 +982,24 @@
       }
     }
   ],
+  "treasure-otaheropartsr": [
+    {
+      "type": "treasure-otaheropartsr",
+      "infoType": "treasure",
+      "treasureId": "OTAHEROPARTSR",
+      "name": "Extraordinary Bolt",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 0,
+      "transform": {
+        "translation": {
+          "x": 5,
+          "y": 2340,
+          "z": 388.71652
+        }
+      }
+    }
+  ],
   "gate-electric": [
     {
       "type": "gate-electric",
@@ -1127,9 +1137,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-snakecrow": [
     {
-      "type": "creature",
+      "type": "creature-snakecrow",
       "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
@@ -1152,9 +1162,11 @@
           "z": 223.71695
         }
       }
-    },
+    }
+  ],
+  "creature-kurione": [
     {
-      "type": "creature",
+      "type": "creature-kurione",
       "infoType": "creature",
       "creatureId": "KURIONE",
       "name": "Honeywisp",
@@ -1185,7 +1197,40 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kurione",
+      "infoType": "creature",
+      "creatureId": "KURIONE",
+      "name": "Honeywisp",
+      "carryMax": 0,
+      "value": 0,
+      "health": 1,
+      "seeds": 0,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -664.8013,
+          "y": 1189.4275,
+          "z": 364.47156
+        }
+      }
+    }
+  ],
+  "creature-bikkurigiku": [
+    {
+      "type": "creature-bikkurigiku",
       "infoType": "creature",
       "creatureId": "BIKKURIGIKU",
       "name": "Creeping Chrysanthemum",
@@ -1202,7 +1247,26 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-bikkurigiku",
+      "infoType": "creature",
+      "creatureId": "BIKKURIGIKU",
+      "name": "Creeping Chrysanthemum",
+      "carryMax": 20,
+      "value": 12,
+      "health": 2000,
+      "seeds": 12,
+      "transform": {
+        "translation": {
+          "x": -2725.607,
+          "y": -533.6199,
+          "z": 34.774048
+        }
+      }
+    }
+  ],
+  "creature-karehambo": [
+    {
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -1219,7 +1283,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-karehambo",
       "infoType": "creature",
       "creatureId": "KAREHAMBO",
       "name": "Desiccated Skitter Leaf",
@@ -1236,7 +1300,77 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2167,
+          "y": 1335,
+          "z": 409.42715
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2629,
+          "y": 1484,
+          "z": 408.7666
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 2532,
+          "y": 1795,
+          "z": 410.76843
+        }
+      }
+    },
+    {
+      "type": "creature-karehambo",
+      "infoType": "creature",
+      "creatureId": "KAREHAMBO",
+      "name": "Desiccated Skitter Leaf",
+      "carryMax": 1,
+      "value": 1,
+      "health": 74,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1882,
+          "y": 1658,
+          "z": 401.05945
+        }
+      }
+    }
+  ],
+  "creature-kogane": [
+    {
+      "type": "creature-kogane",
       "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
@@ -1273,7 +1407,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kogane",
       "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
@@ -1308,9 +1442,11 @@
           "z": 66.8069
         }
       }
-    },
+    }
+  ],
+  "creature-sarai": [
     {
-      "type": "creature",
+      "type": "creature-sarai",
       "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
@@ -1327,177 +1463,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SUITORI",
-      "name": "Waddlequaff",
-      "carryMax": 14,
-      "value": 7,
-      "health": 1000,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 667.33453,
-          "y": 1735.1262,
-          "z": 275.4391
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SUITORI",
-      "name": "Waddlequaff",
-      "carryMax": 14,
-      "value": 7,
-      "health": 1000,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": -3017.364,
-          "y": 59.61444,
-          "z": 20.932983
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "BABYCROW",
-      "name": "Downy Snagret",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 3009.436,
-          "y": -895.64087,
-          "z": 298.34842
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "SUITORI",
-      "name": "Waddlequaff",
-      "carryMax": 14,
-      "value": 7,
-      "health": 1000,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 613.7475,
-          "y": 657.93207,
-          "z": 310.68906
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 1123.4984,
-          "y": -1329.3972,
-          "z": 223.82715
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 748.6333,
-          "y": -1258.939,
-          "z": 210.01941
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1998.353,
-          "y": 1632.7456,
-          "z": 69.82512
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1611.0449,
-          "y": 1923.2603,
-          "z": 69.93972
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1612.0449,
-          "y": 1662.2603,
-          "z": 81.462296
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "IWAKKO",
-      "name": "Skutterchuck",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -2034.0449,
-          "y": 1886.2603,
-          "z": 70.508224
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-sarai",
       "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
@@ -1514,7 +1480,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-sarai",
       "infoType": "creature",
       "creatureId": "SARAI",
       "name": "Swooping Snitchbug",
@@ -1529,94 +1495,206 @@
           "z": 206.87173
         }
       }
-    },
+    }
+  ],
+  "creature-suitori": [
     {
-      "type": "creature",
+      "type": "creature-suitori",
       "infoType": "creature",
-      "creatureId": "BIKKURIGIKU",
-      "name": "Creeping Chrysanthemum",
-      "carryMax": 20,
-      "value": 12,
-      "health": 2000,
-      "seeds": 12,
+      "creatureId": "SUITORI",
+      "name": "Waddlequaff",
+      "carryMax": 14,
+      "value": 7,
+      "health": 1000,
+      "seeds": 8,
       "transform": {
         "translation": {
-          "x": -2725.607,
-          "y": -533.6199,
-          "z": 34.774048
+          "x": 667.33453,
+          "y": 1735.1262,
+          "z": 275.4391
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-suitori",
       "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
+      "creatureId": "SUITORI",
+      "name": "Waddlequaff",
+      "carryMax": 14,
+      "value": 7,
+      "health": 1000,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -3017.364,
+          "y": 59.61444,
+          "z": 20.932983
+        }
+      }
+    },
+    {
+      "type": "creature-suitori",
+      "infoType": "creature",
+      "creatureId": "SUITORI",
+      "name": "Waddlequaff",
+      "carryMax": 14,
+      "value": 7,
+      "health": 1000,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 613.7475,
+          "y": 657.93207,
+          "z": 310.68906
+        }
+      }
+    }
+  ],
+  "creature-babycrow": [
+    {
+      "type": "creature-babycrow",
+      "infoType": "creature",
+      "creatureId": "BABYCROW",
+      "name": "Downy Snagret",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
-          "x": 2167,
-          "y": 1335,
-          "z": 409.42715
+          "x": 3009.436,
+          "y": -895.64087,
+          "z": 298.34842
+        }
+      }
+    }
+  ],
+  "creature-kajiokoshi": [
+    {
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1123.4984,
+          "y": -1329.3972,
+          "z": 223.82715
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 748.6333,
+          "y": -1258.939,
+          "z": 210.01941
+        }
+      }
+    },
+    {
+      "type": "creature-kajiokoshi",
+      "infoType": "creature",
+      "creatureId": "KAJIOKOSHI",
+      "name": "Pyroclasmic Slooch",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1079.4984,
+          "y": -1824.3972,
+          "z": 252.97626
+        }
+      }
+    }
+  ],
+  "creature-iwakko": [
+    {
+      "type": "creature-iwakko",
+      "infoType": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
-          "x": 2629,
-          "y": 1484,
-          "z": 408.7666
+          "x": -1998.353,
+          "y": 1632.7456,
+          "z": 69.82512
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-iwakko",
       "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
-          "x": 2532,
-          "y": 1795,
-          "z": 410.76843
+          "x": -1611.0449,
+          "y": 1923.2603,
+          "z": 69.93972
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-iwakko",
       "infoType": "creature",
-      "creatureId": "KAREHAMBO",
-      "name": "Desiccated Skitter Leaf",
-      "carryMax": 1,
-      "value": 1,
-      "health": 74,
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
       "seeds": 3,
       "transform": {
         "translation": {
-          "x": 1882,
-          "y": 1658,
-          "z": 401.05945
+          "x": -1612.0449,
+          "y": 1662.2603,
+          "z": 81.462296
         }
       }
     },
     {
-      "type": "creature",
+      "type": "creature-iwakko",
+      "infoType": "creature",
+      "creatureId": "IWAKKO",
+      "name": "Skutterchuck",
+      "carryMax": 6,
+      "value": 3,
+      "health": 300,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2034.0449,
+          "y": 1886.2603,
+          "z": 70.508224
+        }
+      }
+    }
+  ],
+  "creature-hagedamagumo": [
+    {
+      "type": "creature-hagedamagumo",
       "infoType": "creature",
       "creatureId": "HAGEDAMAGUMO",
       "name": "Baldy Long Legs",
@@ -1645,9 +1723,11 @@
           "z": 163.65778
         }
       }
-    },
+    }
+  ],
+  "creature-hambo": [
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -1664,7 +1744,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -1681,7 +1761,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -1698,7 +1778,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-hambo",
       "infoType": "creature",
       "creatureId": "HAMBO",
       "name": "Skitter Leaf",
@@ -1713,26 +1793,11 @@
           "z": 69.86339
         }
       }
-    },
+    }
+  ],
+  "creature-yellowshijimi": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KAJIOKOSHI",
-      "name": "Pyroclasmic Slooch",
-      "carryMax": 6,
-      "value": 3,
-      "health": 300,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 1079.4984,
-          "y": -1824.3972,
-          "z": 252.97626
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-yellowshijimi",
       "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
@@ -1757,32 +1822,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "REDSHIJIMI",
-      "name": "Red Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GHotExtract_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 366,
-          "y": -1906,
-          "z": 243.941
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-yellowshijimi",
       "infoType": "creature",
       "creatureId": "YELLOWSHIJIMI",
       "name": "Yellow Spectralids",
@@ -1805,35 +1845,31 @@
           "z": 243.79515
         }
       }
-    },
+    }
+  ],
+  "creature-redshijimi": [
     {
-      "type": "creature",
+      "type": "creature-redshijimi",
       "infoType": "creature",
-      "creatureId": "KURIONE",
-      "name": "Honeywisp",
-      "carryMax": 0,
-      "value": 0,
+      "creatureId": "REDSHIJIMI",
+      "name": "Red Spectralids",
+      "carryMax": 1,
+      "value": 1,
       "health": 1,
-      "seeds": 0,
+      "seeds": 1,
       "drops": [
         {
-          "item": "GHoney_C",
-          "chance": 0.5,
-          "min": 1,
-          "max": 1
-        },
-        {
           "item": "GHotExtract_C",
-          "chance": 0.5,
+          "chance": 1,
           "min": 1,
           "max": 1
         }
       ],
       "transform": {
         "translation": {
-          "x": -664.8013,
-          "y": 1189.4275,
-          "z": 364.47156
+          "x": 366,
+          "y": -1906,
+          "z": 243.941
         }
       }
     }

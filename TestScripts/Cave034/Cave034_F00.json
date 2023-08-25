@@ -158,214 +158,6 @@
           "z": 100.00006
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKOWIENER",
-      "name": "Octoplus",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 997.0168,
-          "y": -163,
-          "z": 116.06961
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKOWIENER",
-      "name": "Octoplus",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 1049.5,
-          "y": -71,
-          "z": 116.076996
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATAKOWIENER",
-      "name": "Octoplus",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 1049.5,
-          "y": -254,
-          "z": 116.08011
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFISHCRUET",
-      "name": "Mystery Squish Fish",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 640.25,
-          "y": -943.25,
-          "z": 104.02008
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFISHCRUET",
-      "name": "Mystery Squish Fish",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 735.75,
-          "y": -1029.75,
-          "z": 104.02008
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKM",
-      "name": "Planetary Rubber Cutie",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -688,
-          "y": 153,
-          "z": 46
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKL",
-      "name": "Universal Rubber Cutie",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 985,
-          "y": 992,
-          "z": 92.32344
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABOAT",
-      "name": "Unfloatable Boat",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": 690.5,
-          "y": 688,
-          "z": 29.486588
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASPONGEC",
-      "name": "Fishy Bed",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": 146,
-          "y": 136,
-          "z": 18.592598
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASPONGEB",
-      "name": "Birdy Bed",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -963,
-          "y": -961,
-          "z": 118.59259
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASPONGEA",
-      "name": "Doggy Bed",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -687,
-          "y": -963,
-          "z": 93.5926
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTABOAT",
-      "name": "Unfloatable Boat",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": 965.55286,
-          "y": -679.9861,
-          "z": 24.120098
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKL",
-      "name": "Universal Rubber Cutie",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 136.75443,
-          "y": -413.7642,
-          "z": 92.32344
-        }
-      }
     }
   ],
   "pikmin-blue": [
@@ -456,6 +248,90 @@
       }
     }
   ],
+  "treasure-otatakowiener": [
+    {
+      "type": "treasure-otatakowiener",
+      "infoType": "treasure",
+      "treasureId": "OTATAKOWIENER",
+      "name": "Octoplus",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 997.0168,
+          "y": -163,
+          "z": 116.06961
+        }
+      }
+    },
+    {
+      "type": "treasure-otatakowiener",
+      "infoType": "treasure",
+      "treasureId": "OTATAKOWIENER",
+      "name": "Octoplus",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1049.5,
+          "y": -71,
+          "z": 116.076996
+        }
+      }
+    },
+    {
+      "type": "treasure-otatakowiener",
+      "infoType": "treasure",
+      "treasureId": "OTATAKOWIENER",
+      "name": "Octoplus",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1049.5,
+          "y": -254,
+          "z": 116.08011
+        }
+      }
+    }
+  ],
+  "treasure-otafishcruet": [
+    {
+      "type": "treasure-otafishcruet",
+      "infoType": "treasure",
+      "treasureId": "OTAFISHCRUET",
+      "name": "Mystery Squish Fish",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 640.25,
+          "y": -943.25,
+          "z": 104.02008
+        }
+      }
+    },
+    {
+      "type": "treasure-otafishcruet",
+      "infoType": "treasure",
+      "treasureId": "OTAFISHCRUET",
+      "name": "Mystery Squish Fish",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 735.75,
+          "y": -1029.75,
+          "z": 104.02008
+        }
+      }
+    }
+  ],
   "base-onion": [
     {
       "type": "base-onion",
@@ -466,6 +342,146 @@
           "x": -343.75,
           "y": 343.75,
           "z": 51.203312
+        }
+      }
+    }
+  ],
+  "treasure-otaduckm": [
+    {
+      "type": "treasure-otaduckm",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -688,
+          "y": 153,
+          "z": 46
+        }
+      }
+    }
+  ],
+  "treasure-otaduckl": [
+    {
+      "type": "treasure-otaduckl",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKL",
+      "name": "Universal Rubber Cutie",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 985,
+          "y": 992,
+          "z": 92.32344
+        }
+      }
+    },
+    {
+      "type": "treasure-otaduckl",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKL",
+      "name": "Universal Rubber Cutie",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 136.75443,
+          "y": -413.7642,
+          "z": 92.32344
+        }
+      }
+    }
+  ],
+  "treasure-otaboat": [
+    {
+      "type": "treasure-otaboat",
+      "infoType": "treasure",
+      "treasureId": "OTABOAT",
+      "name": "Unfloatable Boat",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": 690.5,
+          "y": 688,
+          "z": 29.486588
+        }
+      }
+    },
+    {
+      "type": "treasure-otaboat",
+      "infoType": "treasure",
+      "treasureId": "OTABOAT",
+      "name": "Unfloatable Boat",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": 965.55286,
+          "y": -679.9861,
+          "z": 24.120098
+        }
+      }
+    }
+  ],
+  "treasure-otaspongec": [
+    {
+      "type": "treasure-otaspongec",
+      "infoType": "treasure",
+      "treasureId": "OTASPONGEC",
+      "name": "Fishy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": 146,
+          "y": 136,
+          "z": 18.592598
+        }
+      }
+    }
+  ],
+  "treasure-otaspongeb": [
+    {
+      "type": "treasure-otaspongeb",
+      "infoType": "treasure",
+      "treasureId": "OTASPONGEB",
+      "name": "Birdy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -963,
+          "y": -961,
+          "z": 118.59259
+        }
+      }
+    }
+  ],
+  "treasure-otaspongea": [
+    {
+      "type": "treasure-otaspongea",
+      "infoType": "treasure",
+      "treasureId": "OTASPONGEA",
+      "name": "Doggy Bed",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -687,
+          "y": -963,
+          "z": 93.5926
         }
       }
     }
@@ -600,9 +616,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-babycrow": [
     {
-      "type": "creature",
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
@@ -619,7 +635,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
@@ -636,7 +652,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
@@ -653,24 +669,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "AWADAKO",
-      "name": "Waddlepus",
-      "carryMax": 14,
-      "value": 5,
-      "health": 900,
-      "seeds": 6,
-      "transform": {
-        "translation": {
-          "x": 273.5,
-          "y": 977.5,
-          "z": 129.33826
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-babycrow",
       "infoType": "creature",
       "creatureId": "BABYCROW",
       "name": "Downy Snagret",
@@ -685,9 +684,30 @@
           "z": 75
         }
       }
-    },
+    }
+  ],
+  "creature-awadako": [
     {
-      "type": "creature",
+      "type": "creature-awadako",
+      "infoType": "creature",
+      "creatureId": "AWADAKO",
+      "name": "Waddlepus",
+      "carryMax": 14,
+      "value": 5,
+      "health": 900,
+      "seeds": 6,
+      "transform": {
+        "translation": {
+          "x": 273.5,
+          "y": 977.5,
+          "z": 129.33826
+        }
+      }
+    }
+  ],
+  "creature-minimochi": [
+    {
+      "type": "creature-minimochi",
       "infoType": "creature",
       "creatureId": "MINIMOCHI",
       "name": "Sunsquish",

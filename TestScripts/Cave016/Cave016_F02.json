@@ -106,9 +106,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-snakecrow": [
     {
-      "type": "creature",
+      "type": "creature-snakecrow",
       "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-snakecrow",
       "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",
@@ -142,7 +142,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-snakecrow",
       "infoType": "creature",
       "creatureId": "SNAKECROW",
       "name": "Burrowing Snagret",

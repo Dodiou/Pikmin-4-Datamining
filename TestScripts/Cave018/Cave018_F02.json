@@ -59,9 +59,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otarailwaylinea": [
     {
-      "type": "treasure",
+      "type": "treasure-otarailwaylinea",
       "infoType": "treasure",
       "treasureId": "OTARAILWAYLINEA",
       "name": "Life Station",
@@ -143,9 +143,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-shako": [
     {
-      "type": "creature",
+      "type": "creature-shako",
       "infoType": "creature",
       "creatureId": "SHAKO",
       "name": "Hermit Crawmad",
@@ -162,7 +162,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-shako",
       "infoType": "creature",
       "creatureId": "SHAKO",
       "name": "Hermit Crawmad",
@@ -177,9 +177,11 @@
           "z": 12.060097
         }
       }
-    },
+    }
+  ],
+  "creature-demejako": [
     {
-      "type": "creature",
+      "type": "creature-demejako",
       "infoType": "creature",
       "creatureId": "DEMEJAKO",
       "name": "Bug-Eyed Crawmad",

@@ -150,9 +150,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otahandbell": [
     {
-      "type": "treasure",
+      "type": "treasure-otahandbell",
       "infoType": "treasure",
       "treasureId": "OTAHANDBELL",
       "name": "Time Marker",
@@ -164,38 +164,6 @@
           "x": 341.5158,
           "y": -188.00488,
           "z": 182.2001
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHANAFUDAB",
-      "name": "Talisman of Life (Cherry Blossom)",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -414,
-          "y": -1246.5,
-          "z": 170.70361
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAKIWI",
-      "name": "Disguised Delicacy",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -154,
-          "y": -389,
-          "z": 125.46272
         }
       }
     }
@@ -210,6 +178,42 @@
           "x": -874.17053,
           "y": -133.24341,
           "z": 7.560418
+        }
+      }
+    }
+  ],
+  "treasure-otahanafudab": [
+    {
+      "type": "treasure-otahanafudab",
+      "infoType": "treasure",
+      "treasureId": "OTAHANAFUDAB",
+      "name": "Talisman of Life (Cherry Blossom)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -414,
+          "y": -1246.5,
+          "z": 170.70361
+        }
+      }
+    }
+  ],
+  "treasure-otakiwi": [
+    {
+      "type": "treasure-otakiwi",
+      "infoType": "treasure",
+      "treasureId": "OTAKIWI",
+      "name": "Disguised Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -154,
+          "y": -389,
+          "z": 125.46272
         }
       }
     }
@@ -280,9 +284,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-elecotakara": [
     {
-      "type": "creature",
+      "type": "creature-elecotakara",
       "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
@@ -299,7 +303,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-elecotakara",
       "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
@@ -316,7 +320,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-elecotakara",
       "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
@@ -333,7 +337,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-elecotakara",
       "infoType": "creature",
       "creatureId": "ELECOTAKARA",
       "name": "Anode Dweevil",
@@ -348,9 +352,11 @@
           "z": 145.46724
         }
       }
-    },
+    }
+  ],
+  "creature-frog": [
     {
-      "type": "creature",
+      "type": "creature-frog",
       "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",
@@ -375,7 +381,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-frog",
       "infoType": "creature",
       "creatureId": "FROG",
       "name": "Yellow Wollyhop",

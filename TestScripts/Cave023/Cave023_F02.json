@@ -156,9 +156,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-hari": [
     {
-      "type": "creature",
+      "type": "creature-hari",
       "infoType": "creature",
       "creatureId": "HARI",
       "name": "Porquillion",

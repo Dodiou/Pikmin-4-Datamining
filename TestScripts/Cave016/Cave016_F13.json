@@ -40,9 +40,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-futakuchiadult": [
     {
-      "type": "creature",
+      "type": "creature-futakuchiadult",
       "infoType": "creature",
       "creatureId": "FUTAKUCHIADULT",
       "name": "Horned Cannon Beetle",
@@ -71,9 +71,11 @@
           "z": 71.99951
         }
       }
-    },
+    }
+  ],
+  "creature-futakuchi": [
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -90,7 +92,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -107,7 +109,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",

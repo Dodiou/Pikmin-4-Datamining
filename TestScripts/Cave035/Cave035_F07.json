@@ -249,9 +249,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otapumpkin": [
     {
-      "type": "treasure",
+      "type": "treasure-otapumpkin",
       "infoType": "treasure",
       "treasureId": "OTAPUMPKIN",
       "name": "Mysterious Carriage",
@@ -265,9 +265,11 @@
           "z": -10.803698
         }
       }
-    },
+    }
+  ],
+  "treasure-otatakenoko": [
     {
-      "type": "treasure",
+      "type": "treasure-otatakenoko",
       "infoType": "treasure",
       "treasureId": "OTATAKENOKO",
       "name": "Anxious Sprout",
@@ -281,9 +283,11 @@
           "z": -3.0843008
         }
       }
-    },
+    }
+  ],
+  "treasure-otasweetpotato": [
     {
-      "type": "treasure",
+      "type": "treasure-otasweetpotato",
       "infoType": "treasure",
       "treasureId": "OTASWEETPOTATO",
       "name": "Daughter of the Earth",
@@ -295,169 +299,6 @@
           "x": 825,
           "y": -730,
           "z": -90.28587
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMIKAN",
-      "name": "Citrus Lump",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": 543,
-          "y": 165,
-          "z": 67.1851
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMIKAN",
-      "name": "Citrus Lump",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": 658,
-          "y": 133,
-          "z": 67.1851
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAEGGPLANT",
-      "name": "Foolish Fruit",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -5,
-          "y": 605,
-          "z": -22.864902
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATOMATOM",
-      "name": "Love Nugget",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 518,
-          "y": -697,
-          "z": -10.804897
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADRAGONFRUIT",
-      "name": "Fire-Breathing Feast",
-      "weight": 20,
-      "carryMax": 40,
-      "value": 170,
-      "transform": {
-        "translation": {
-          "x": -599,
-          "y": -678,
-          "z": -2.113411
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAZUCCHINI",
-      "name": "Crew-Cut Gourd",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": 704,
-          "y": 606,
-          "z": -23.507656
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARINGO",
-      "name": "Insect Condo",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -1021,
-          "y": -436,
-          "z": -3.5554912
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "KINKAISTATION",
-      "name": "Gold Nugget",
-      "amount": 20,
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": -419,
-          "y": 272,
-          "z": -49.99991
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "KINKAISTATION",
-      "name": "Gold Nugget",
-      "amount": 40,
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": 480,
-          "y": -195,
-          "z": -49.99991
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "KINKAISTATION",
-      "name": "Gold Nugget",
-      "amount": 30,
-      "weight": 1,
-      "carryMax": 1,
-      "value": 5,
-      "transform": {
-        "translation": {
-          "x": -775,
-          "y": -228,
-          "z": -49.99991
         }
       }
     }
@@ -666,6 +507,94 @@
       }
     }
   ],
+  "treasure-otamikan": [
+    {
+      "type": "treasure-otamikan",
+      "infoType": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 543,
+          "y": 165,
+          "z": 67.1851
+        }
+      }
+    },
+    {
+      "type": "treasure-otamikan",
+      "infoType": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 658,
+          "y": 133,
+          "z": 67.1851
+        }
+      }
+    }
+  ],
+  "treasure-otaeggplant": [
+    {
+      "type": "treasure-otaeggplant",
+      "infoType": "treasure",
+      "treasureId": "OTAEGGPLANT",
+      "name": "Foolish Fruit",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -5,
+          "y": 605,
+          "z": -22.864902
+        }
+      }
+    }
+  ],
+  "treasure-otatomatom": [
+    {
+      "type": "treasure-otatomatom",
+      "infoType": "treasure",
+      "treasureId": "OTATOMATOM",
+      "name": "Love Nugget",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 518,
+          "y": -697,
+          "z": -10.804897
+        }
+      }
+    }
+  ],
+  "treasure-otadragonfruit": [
+    {
+      "type": "treasure-otadragonfruit",
+      "infoType": "treasure",
+      "treasureId": "OTADRAGONFRUIT",
+      "name": "Fire-Breathing Feast",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 170,
+      "transform": {
+        "translation": {
+          "x": -599,
+          "y": -678,
+          "z": -2.113411
+        }
+      }
+    }
+  ],
   "pikmin-white": [
     {
       "type": "pikmin-white",
@@ -678,6 +607,42 @@
           "x": 81.00189,
           "y": -276.8144,
           "z": -49.999905
+        }
+      }
+    }
+  ],
+  "treasure-otazucchini": [
+    {
+      "type": "treasure-otazucchini",
+      "infoType": "treasure",
+      "treasureId": "OTAZUCCHINI",
+      "name": "Crew-Cut Gourd",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": 704,
+          "y": 606,
+          "z": -23.507656
+        }
+      }
+    }
+  ],
+  "treasure-otaringo": [
+    {
+      "type": "treasure-otaringo",
+      "infoType": "treasure",
+      "treasureId": "OTARINGO",
+      "name": "Insect Condo",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -1021,
+          "y": -436,
+          "z": -3.5554912
         }
       }
     }
@@ -820,6 +785,59 @@
           "x": -184,
           "y": 373,
           "z": -32
+        }
+      }
+    }
+  ],
+  "treasure": [
+    {
+      "type": "treasure",
+      "infoType": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 20,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -419,
+          "y": 272,
+          "z": -49.99991
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "infoType": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 40,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": 480,
+          "y": -195,
+          "z": -49.99991
+        }
+      }
+    },
+    {
+      "type": "treasure",
+      "infoType": "treasure",
+      "treasureId": "KINKAISTATION",
+      "name": "Gold Nugget",
+      "amount": 30,
+      "weight": 1,
+      "carryMax": 1,
+      "value": 5,
+      "transform": {
+        "translation": {
+          "x": -775,
+          "y": -228,
+          "z": -49.99991
         }
       }
     }

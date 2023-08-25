@@ -62,22 +62,6 @@
           "z": -49.9999
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADUCKM",
-      "name": "Planetary Rubber Cutie",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": 1125.1864,
-          "y": 270.65158,
-          "z": 26.989944
-        }
-      }
     }
   ],
   "switchable-fenceiron": [
@@ -288,6 +272,24 @@
       }
     }
   ],
+  "treasure-otaduckm": [
+    {
+      "type": "treasure-otaduckm",
+      "infoType": "treasure",
+      "treasureId": "OTADUCKM",
+      "name": "Planetary Rubber Cutie",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": 1125.1864,
+          "y": 270.65158,
+          "z": 26.989944
+        }
+      }
+    }
+  ],
   "candypop-rock": [
     {
       "type": "candypop-rock",
@@ -318,9 +320,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-arikui": [
     {
-      "type": "creature",
+      "type": "creature-arikui",
       "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
@@ -345,24 +347,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY_NIGHT",
-      "name": "Albino Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 200,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -757.39233,
-          "y": 343.13376,
-          "z": 12.060097
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-arikui",
       "infoType": "creature",
       "creatureId": "ARIKUI",
       "name": "Whiptongue Bulborb",
@@ -391,9 +376,28 @@
           "z": 43.944836
         }
       }
+    }
+  ],
+  "creature-kochappy_night": [
+    {
+      "type": "creature-kochappy_night",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY_NIGHT",
+      "name": "Albino Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 200,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -757.39233,
+          "y": 343.13376,
+          "z": 12.060097
+        }
+      }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",
@@ -410,7 +414,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kochappy_night",
       "infoType": "creature",
       "creatureId": "KOCHAPPY_NIGHT",
       "name": "Albino Dwarf Bulborb",

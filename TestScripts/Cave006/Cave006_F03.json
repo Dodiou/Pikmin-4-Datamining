@@ -44,9 +44,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otabilliardball2": [
     {
-      "type": "treasure",
+      "type": "treasure-otabilliardball2",
       "infoType": "treasure",
       "treasureId": "OTABILLIARDBALL2",
       "name": "Sphere of Family",
@@ -76,9 +76,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-mar": [
     {
-      "type": "creature",
+      "type": "creature-mar",
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",

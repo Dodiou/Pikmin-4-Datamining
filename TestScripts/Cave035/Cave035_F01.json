@@ -445,9 +445,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-icekochappy": [
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -464,7 +464,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -481,24 +481,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "ICEMAR",
-      "name": "Icy Blowhog",
-      "carryMax": 1,
-      "value": 7,
-      "health": 3000,
-      "seeds": 5,
-      "transform": {
-        "translation": {
-          "x": -4,
-          "y": -572,
-          "z": 58.160095
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -515,7 +498,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -532,7 +515,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-icekochappy",
       "infoType": "creature",
       "creatureId": "ICEKOCHAPPY",
       "name": "Dwarf Frosty Bulborb",
@@ -547,55 +530,23 @@
           "z": 38
         }
       }
-    },
+    }
+  ],
+  "creature-icemar": [
     {
-      "type": "creature",
+      "type": "creature-icemar",
       "infoType": "creature",
-      "creatureId": "YUKIFUTAKUCHI",
-      "name": "Arctic Cannon Larva",
-      "carryMax": 14,
+      "creatureId": "ICEMAR",
+      "name": "Icy Blowhog",
+      "carryMax": 1,
       "value": 7,
-      "health": 900,
-      "seeds": 8,
+      "health": 3000,
+      "seeds": 5,
       "transform": {
         "translation": {
-          "x": 2024.6376,
-          "y": 527.81775,
-          "z": 93.659195
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YUKIFUTAKUCHI",
-      "name": "Arctic Cannon Larva",
-      "carryMax": 14,
-      "value": 7,
-      "health": 900,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": 637.86975,
-          "y": -543.90466,
-          "z": 43.662857
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "YUKIFUTAKUCHI",
-      "name": "Arctic Cannon Larva",
-      "carryMax": 14,
-      "value": 7,
-      "health": 900,
-      "seeds": 8,
-      "transform": {
-        "translation": {
-          "x": -1095,
-          "y": -1070,
-          "z": 68.67517
+          "x": -4,
+          "y": -572,
+          "z": 58.160095
         }
       }
     }
@@ -638,6 +589,59 @@
           "x": -1713,
           "y": -347,
           "z": 65.599976
+        }
+      }
+    }
+  ],
+  "creature-yukifutakuchi": [
+    {
+      "type": "creature-yukifutakuchi",
+      "infoType": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "health": 900,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 2024.6376,
+          "y": 527.81775,
+          "z": 93.659195
+        }
+      }
+    },
+    {
+      "type": "creature-yukifutakuchi",
+      "infoType": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "health": 900,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": 637.86975,
+          "y": -543.90466,
+          "z": 43.662857
+        }
+      }
+    },
+    {
+      "type": "creature-yukifutakuchi",
+      "infoType": "creature",
+      "creatureId": "YUKIFUTAKUCHI",
+      "name": "Arctic Cannon Larva",
+      "carryMax": 14,
+      "value": 7,
+      "health": 900,
+      "seeds": 8,
+      "transform": {
+        "translation": {
+          "x": -1095,
+          "y": -1070,
+          "z": 68.67517
         }
       }
     }

@@ -26,9 +26,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otacandystick": [
     {
-      "type": "treasure",
+      "type": "treasure-otacandystick",
       "infoType": "treasure",
       "treasureId": "OTACANDYSTICK",
       "name": "Sweet Stumble-Not",
@@ -240,9 +240,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-bigkingchappy": [
     {
-      "type": "creature",
+      "type": "creature-bigkingchappy",
       "infoType": "creature",
       "creatureId": "BIGKINGCHAPPY",
       "name": "Sovereign Bulblax",

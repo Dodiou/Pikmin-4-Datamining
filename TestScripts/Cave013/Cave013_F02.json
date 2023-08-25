@@ -215,22 +215,6 @@
           "z": 23.316387
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTARAILWAYLINEC",
-      "name": "Turn-of-Events Track",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -563.04083,
-          "y": 846.9457,
-          "z": 105.02509
-        }
-      }
     }
   ],
   "ridable-zipline": [
@@ -300,6 +284,24 @@
           "x": 854,
           "y": 539,
           "z": 178
+        }
+      }
+    }
+  ],
+  "treasure-otarailwaylinec": [
+    {
+      "type": "treasure-otarailwaylinec",
+      "infoType": "treasure",
+      "treasureId": "OTARAILWAYLINEC",
+      "name": "Turn-of-Events Track",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -563.04083,
+          "y": 846.9457,
+          "z": 105.02509
         }
       }
     }

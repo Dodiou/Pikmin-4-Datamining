@@ -854,9 +854,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otakendamaa": [
     {
-      "type": "treasure",
+      "type": "treasure-otakendamaa",
       "infoType": "treasure",
       "treasureId": "OTAKENDAMAA",
       "name": "Aspiration-Ritual Ball",
@@ -868,150 +868,6 @@
           "x": 2497.9216,
           "y": -367.6993,
           "z": 313.96646
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPOTATO",
-      "name": "Child of the Earth",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": -1894.9204,
-          "y": -1366,
-          "z": 257.1621
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAHARDBALL",
-      "name": "Orb of Destruction",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": 952,
-          "y": 3663,
-          "z": 261.69904
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPINBADGEC",
-      "name": "Satellite Shield",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 40,
-      "transform": {
-        "translation": {
-          "x": -2357,
-          "y": 1536,
-          "z": 257
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPOCKETWATCH",
-      "name": "Temporal Mechanism",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -614,
-          "y": -419.32507,
-          "z": 360.09695
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPEANUT",
-      "name": "Snack Bean",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 30,
-      "transform": {
-        "translation": {
-          "x": -2357.6184,
-          "y": -1198.8738,
-          "z": 515.8451
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADRAGONFRUIT",
-      "name": "Fire-Breathing Feast",
-      "weight": 20,
-      "carryMax": 40,
-      "value": 170,
-      "transform": {
-        "translation": {
-          "x": -3919,
-          "y": -1003,
-          "z": 805.7026
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUMPKIN",
-      "name": "Mysterious Carriage",
-      "weight": 30,
-      "carryMax": 60,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -3040.659,
-          "y": 3065.5002,
-          "z": 390.2574
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAICHIGO",
-      "name": "Sunseed Berry",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 70,
-      "transform": {
-        "translation": {
-          "x": 1223.3364,
-          "y": 977.02673,
-          "z": 276.6057
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAFIELDGLASS",
-      "name": "Double Dragon-Eyed Scope",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 180,
-      "transform": {
-        "translation": {
-          "x": -1428.0077,
-          "y": 838.71674,
-          "z": 245.42723
         }
       }
     }
@@ -1027,6 +883,78 @@
           "x": -367,
           "y": -1451,
           "z": 325.06042
+        }
+      }
+    }
+  ],
+  "treasure-otapotato": [
+    {
+      "type": "treasure-otapotato",
+      "infoType": "treasure",
+      "treasureId": "OTAPOTATO",
+      "name": "Child of the Earth",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -1894.9204,
+          "y": -1366,
+          "z": 257.1621
+        }
+      }
+    }
+  ],
+  "treasure-otahardball": [
+    {
+      "type": "treasure-otahardball",
+      "infoType": "treasure",
+      "treasureId": "OTAHARDBALL",
+      "name": "Orb of Destruction",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": 952,
+          "y": 3663,
+          "z": 261.69904
+        }
+      }
+    }
+  ],
+  "treasure-otapinbadgec": [
+    {
+      "type": "treasure-otapinbadgec",
+      "infoType": "treasure",
+      "treasureId": "OTAPINBADGEC",
+      "name": "Satellite Shield",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 40,
+      "transform": {
+        "translation": {
+          "x": -2357,
+          "y": 1536,
+          "z": 257
+        }
+      }
+    }
+  ],
+  "treasure-otapocketwatch": [
+    {
+      "type": "treasure-otapocketwatch",
+      "infoType": "treasure",
+      "treasureId": "OTAPOCKETWATCH",
+      "name": "Temporal Mechanism",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -614,
+          "y": -419.32507,
+          "z": 360.09695
         }
       }
     }
@@ -1061,6 +989,78 @@
       }
     }
   ],
+  "treasure-otapeanut": [
+    {
+      "type": "treasure-otapeanut",
+      "infoType": "treasure",
+      "treasureId": "OTAPEANUT",
+      "name": "Snack Bean",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 30,
+      "transform": {
+        "translation": {
+          "x": -2357.6184,
+          "y": -1198.8738,
+          "z": 515.8451
+        }
+      }
+    }
+  ],
+  "treasure-otadragonfruit": [
+    {
+      "type": "treasure-otadragonfruit",
+      "infoType": "treasure",
+      "treasureId": "OTADRAGONFRUIT",
+      "name": "Fire-Breathing Feast",
+      "weight": 20,
+      "carryMax": 40,
+      "value": 170,
+      "transform": {
+        "translation": {
+          "x": -3919,
+          "y": -1003,
+          "z": 805.7026
+        }
+      }
+    }
+  ],
+  "treasure-otapumpkin": [
+    {
+      "type": "treasure-otapumpkin",
+      "infoType": "treasure",
+      "treasureId": "OTAPUMPKIN",
+      "name": "Mysterious Carriage",
+      "weight": 30,
+      "carryMax": 60,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -3040.659,
+          "y": 3065.5002,
+          "z": 390.2574
+        }
+      }
+    }
+  ],
+  "treasure-otaichigo": [
+    {
+      "type": "treasure-otaichigo",
+      "infoType": "treasure",
+      "treasureId": "OTAICHIGO",
+      "name": "Sunseed Berry",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 70,
+      "transform": {
+        "translation": {
+          "x": 1223.3364,
+          "y": 977.02673,
+          "z": 276.6057
+        }
+      }
+    }
+  ],
   "misc-spiderwort": [
     {
       "type": "misc-spiderwort",
@@ -1085,9 +1085,27 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otafieldglass": [
     {
-      "type": "creature",
+      "type": "treasure-otafieldglass",
+      "infoType": "treasure",
+      "treasureId": "OTAFIELDGLASS",
+      "name": "Double Dragon-Eyed Scope",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 180,
+      "transform": {
+        "translation": {
+          "x": -1428.0077,
+          "y": 838.71674,
+          "z": 245.42723
+        }
+      }
+    }
+  ],
+  "creature-otama": [
+    {
+      "type": "creature-otama",
       "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
@@ -1104,7 +1122,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-otama",
       "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
@@ -1121,7 +1139,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-otama",
       "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
@@ -1138,7 +1156,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-otama",
       "infoType": "creature",
       "creatureId": "OTAMA",
       "name": "Wolpole",
@@ -1153,9 +1171,11 @@
           "z": 86.5
         }
       }
-    },
+    }
+  ],
+  "creature-chappy": [
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1180,7 +1200,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1205,7 +1225,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -1230,7 +1250,34 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
+      "infoType": "creature",
+      "creatureId": "CHAPPY",
+      "name": "Bulborb",
+      "carryMax": 20,
+      "value": 10,
+      "health": 1000,
+      "seeds": 10,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -1819,
+          "y": 2397,
+          "z": 337.41748
+        }
+      }
+    }
+  ],
+  "creature-firetank": [
+    {
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -1255,253 +1302,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOA",
-      "name": "Female Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": -1433.3169,
-          "y": 2769.0898,
-          "z": 224.64044
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOA",
-      "name": "Female Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": -1414.8938,
-          "y": 2630.3872,
-          "z": 241.02908
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -812,
-          "y": -1413,
-          "z": 174.93155
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -810,
-          "y": -669,
-          "z": 309.25433
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -952,
-          "y": -1467,
-          "z": 174.93202
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -2805,
-          "y": 2392,
-          "z": 161.99266
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1281,
-          "y": -895,
-          "z": 110.33266
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1733,
-          "y": 76,
-          "z": 112.98721
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1527,
-          "y": 145,
-          "z": 112
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1691.1306,
-          "y": 2160.7686,
-          "z": 144.69276
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -1299.4648,
-          "y": 2656.982,
-          "z": 240.95935
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "HARI",
-      "name": "Porquillion",
-      "carryMax": 24,
-      "value": 12,
-      "health": 5000,
-      "seeds": 20,
-      "drops": [
-        {
-          "item": "GOtaHanafudaC_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -3397,
-          "y": -1856,
-          "z": 744.4433
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -3018.0002,
-          "y": -425.00037,
-          "z": 348.11343
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -2782.9995,
-          "y": -268.0004,
-          "z": 348.94836
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-firetank",
       "infoType": "creature",
       "creatureId": "FIRETANK",
       "name": "Fiery Blowhog",
@@ -1526,7 +1327,441 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-firetank",
+      "infoType": "creature",
+      "creatureId": "FIRETANK",
+      "name": "Fiery Blowhog",
+      "carryMax": 10,
+      "value": 5,
+      "health": 1000,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -374.93,
+          "y": 1463.4314,
+          "z": 124.12009
+        }
+      }
+    }
+  ],
+  "creature-ujinkoa": [
+    {
+      "type": "creature-ujinkoa",
+      "infoType": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -1433.3169,
+          "y": 2769.0898,
+          "z": 224.64044
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkoa",
+      "infoType": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": -1414.8938,
+          "y": 2630.3872,
+          "z": 241.02908
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkoa",
+      "infoType": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": 901,
+          "y": -1137,
+          "z": 211.01945
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkoa",
+      "infoType": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": 879,
+          "y": -1055,
+          "z": 207.69319
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkoa",
+      "infoType": "creature",
+      "creatureId": "UJINKOA",
+      "name": "Female Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 1,
+      "transform": {
+        "translation": {
+          "x": 930,
+          "y": -1071,
+          "z": 214.54872
+        }
+      }
+    }
+  ],
+  "creature-ujinkob": [
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -812,
+          "y": -1413,
+          "z": 174.93155
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -810,
+          "y": -669,
+          "z": 309.25433
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -952,
+          "y": -1467,
+          "z": 174.93202
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -1299.4648,
+          "y": 2656.982,
+          "z": 240.95935
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -848,
+          "y": -700,
+          "z": 309.9685
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -1296.4648,
+          "y": 2753.982,
+          "z": 230.60054
+        }
+      }
+    },
+    {
+      "type": "creature-ujinkob",
+      "infoType": "creature",
+      "creatureId": "UJINKOB",
+      "name": "Male Sheargrub",
+      "carryMax": 1,
+      "value": 1,
+      "health": 45,
+      "seeds": 2,
+      "transform": {
+        "translation": {
+          "x": -787,
+          "y": -773,
+          "z": 310.54483
+        }
+      }
+    }
+  ],
+  "creature-kochappy": [
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2805,
+          "y": 2392,
+          "z": 161.99266
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1281,
+          "y": -895,
+          "z": 110.33266
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1733,
+          "y": 76,
+          "z": 112.98721
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1527,
+          "y": 145,
+          "z": 112
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1691.1306,
+          "y": 2160.7686,
+          "z": 144.69276
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -3018.0002,
+          "y": -425.00037,
+          "z": 348.11343
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2782.9995,
+          "y": -268.0004,
+          "z": 348.94836
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -2219.9995,
+          "y": -721.00037,
+          "z": 315.4318
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1319,
+          "y": -1257,
+          "z": 111.3418
+        }
+      }
+    },
+    {
+      "type": "creature-kochappy",
+      "infoType": "creature",
+      "creatureId": "KOCHAPPY",
+      "name": "Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 100,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 1768,
+          "y": 150,
+          "z": 114.42406
+        }
+      }
+    }
+  ],
+  "creature-hari": [
+    {
+      "type": "creature-hari",
+      "infoType": "creature",
+      "creatureId": "HARI",
+      "name": "Porquillion",
+      "carryMax": 24,
+      "value": 12,
+      "health": 5000,
+      "seeds": 20,
+      "drops": [
+        {
+          "item": "GOtaHanafudaC_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -3397,
+          "y": -1856,
+          "z": 744.4433
+        }
+      }
+    }
+  ],
+  "creature-kogane": [
+    {
+      "type": "creature-kogane",
       "infoType": "creature",
       "creatureId": "KOGANE",
       "name": "Iridescent Flint Beetle",
@@ -1559,259 +1794,6 @@
           "x": -2884.554,
           "y": 1501.0127,
           "z": 217.6802
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -848,
-          "y": -700,
-          "z": 309.9685
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -1296.4648,
-          "y": 2753.982,
-          "z": 230.60054
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -2219.9995,
-          "y": -721.00037,
-          "z": 315.4318
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "CHAPPY",
-      "name": "Bulborb",
-      "carryMax": 20,
-      "value": 10,
-      "health": 1000,
-      "seeds": 10,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -1819,
-          "y": 2397,
-          "z": 337.41748
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOA",
-      "name": "Female Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": 901,
-          "y": -1137,
-          "z": 211.01945
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOA",
-      "name": "Female Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": 879,
-          "y": -1055,
-          "z": 207.69319
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1319,
-          "y": -1257,
-          "z": 111.3418
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOA",
-      "name": "Female Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 1,
-      "transform": {
-        "translation": {
-          "x": 930,
-          "y": -1071,
-          "z": 214.54872
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "UJINKOB",
-      "name": "Male Sheargrub",
-      "carryMax": 1,
-      "value": 1,
-      "health": 45,
-      "seeds": 2,
-      "transform": {
-        "translation": {
-          "x": -787,
-          "y": -773,
-          "z": 310.54483
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -2453,
-          "y": 2304,
-          "z": 160.04222
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "WHITESHIJIMI",
-      "name": "White Spectralids",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 1,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 0,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -2501,
-          "y": 2203,
-          "z": 160.48586
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KOCHAPPY",
-      "name": "Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 100,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 1768,
-          "y": 150,
-          "z": 114.42406
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "FIRETANK",
-      "name": "Fiery Blowhog",
-      "carryMax": 10,
-      "value": 5,
-      "health": 1000,
-      "seeds": 5,
-      "drops": [
-        {
-          "item": "GPiecePick_C",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": -374.93,
-          "y": 1463.4314,
-          "z": 124.12009
         }
       }
     }
@@ -1878,6 +1860,58 @@
           "x": 1499.2756,
           "y": -341.25073,
           "z": 117.2432
+        }
+      }
+    }
+  ],
+  "creature-whiteshijimi": [
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2453,
+          "y": 2304,
+          "z": 160.04222
+        }
+      }
+    },
+    {
+      "type": "creature-whiteshijimi",
+      "infoType": "creature",
+      "creatureId": "WHITESHIJIMI",
+      "name": "White Spectralids",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 1,
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": -2501,
+          "y": 2203,
+          "z": 160.48586
         }
       }
     }

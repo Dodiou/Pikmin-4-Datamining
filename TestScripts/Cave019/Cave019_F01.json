@@ -374,9 +374,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otasmallbell": [
     {
-      "type": "treasure",
+      "type": "treasure-otasmallbell",
       "infoType": "treasure",
       "treasureId": "OTASMALLBELL",
       "name": "Spouse Alert",
@@ -388,38 +388,6 @@
           "x": 806.42834,
           "y": 92.60034,
           "z": 192.66292
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASUSHITAMAGO",
-      "name": "Belted Delicacy",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -503.25766,
-          "y": 9.634312,
-          "z": 84.5726
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTASUSHITAMAGO",
-      "name": "Belted Delicacy",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 80,
-      "transform": {
-        "translation": {
-          "x": -554.694,
-          "y": 22.89046,
-          "z": 84.5726
         }
       }
     }
@@ -491,6 +459,40 @@
       }
     }
   ],
+  "treasure-otasushitamago": [
+    {
+      "type": "treasure-otasushitamago",
+      "infoType": "treasure",
+      "treasureId": "OTASUSHITAMAGO",
+      "name": "Belted Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -503.25766,
+          "y": 9.634312,
+          "z": 84.5726
+        }
+      }
+    },
+    {
+      "type": "treasure-otasushitamago",
+      "infoType": "treasure",
+      "treasureId": "OTASUSHITAMAGO",
+      "name": "Belted Delicacy",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 80,
+      "transform": {
+        "translation": {
+          "x": -554.694,
+          "y": 22.89046,
+          "z": 84.5726
+        }
+      }
+    }
+  ],
   "breakable-egg": [
     {
       "type": "breakable-egg",
@@ -525,9 +527,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-futakuchi": [
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -544,7 +546,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -561,7 +563,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -576,9 +578,11 @@
           "z": 12.002852
         }
       }
-    },
+    }
+  ],
+  "creature-nomi": [
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -596,7 +600,7 @@
       "spawnNum": 3
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -614,7 +618,7 @@
       "spawnNum": 3
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -631,7 +635,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -649,7 +653,7 @@
       "spawnNum": 2
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -666,7 +670,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -683,7 +687,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",
@@ -700,7 +704,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nomi",
       "infoType": "creature",
       "creatureId": "NOMI",
       "name": "Shearflea",

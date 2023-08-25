@@ -419,9 +419,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otadice4sided": [
     {
-      "type": "treasure",
+      "type": "treasure-otadice4sided",
       "infoType": "treasure",
       "treasureId": "OTADICE4SIDED",
       "name": "Difficult-Choice Totem",
@@ -435,9 +435,11 @@
           "z": -10.482231
         }
       }
-    },
+    }
+  ],
+  "treasure-otabiwa": [
     {
-      "type": "treasure",
+      "type": "treasure-otabiwa",
       "infoType": "treasure",
       "treasureId": "OTABIWA",
       "name": "Velvety Dreamdrop",
@@ -451,9 +453,11 @@
           "z": 4.5314603
         }
       }
-    },
+    }
+  ],
+  "treasure-otarailwaylinec": [
     {
-      "type": "treasure",
+      "type": "treasure-otarailwaylinec",
       "infoType": "treasure",
       "treasureId": "OTARAILWAYLINEC",
       "name": "Turn-of-Events Track",
@@ -509,9 +513,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-gasotakara": [
     {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
@@ -528,7 +532,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
@@ -545,75 +549,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -328.5,
-          "y": -687.5,
-          "z": -63
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 709,
-          "y": -507.5,
-          "z": -63
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1100,
-          "y": 3.5,
-          "z": 10.699997
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -1100,
-          "y": -355.5,
-          "z": 10.699997
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
@@ -630,7 +566,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-gasotakara",
       "infoType": "creature",
       "creatureId": "GASOTAKARA",
       "name": "Venom Dweevil",
@@ -645,9 +581,81 @@
           "z": -26.299927
         }
       }
+    }
+  ],
+  "creature-kinokochappy": [
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -328.5,
+          "y": -687.5,
+          "z": -63
+        }
+      }
     },
     {
-      "type": "creature",
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 709,
+          "y": -507.5,
+          "z": -63
+        }
+      }
+    },
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1100,
+          "y": 3.5,
+          "z": 10.699997
+        }
+      }
+    },
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -1100,
+          "y": -355.5,
+          "z": 10.699997
+        }
+      }
+    }
+  ],
+  "creature-bikkurikinoko": [
+    {
+      "type": "creature-bikkurikinoko",
       "infoType": "creature",
       "creatureId": "BIKKURIKINOKO",
       "name": "Startle Spore",
@@ -676,9 +684,11 @@
           "z": 7
         }
       }
-    },
+    }
+  ],
+  "creature-amebozu": [
     {
-      "type": "creature",
+      "type": "creature-amebozu",
       "infoType": "creature",
       "creatureId": "AMEBOZU",
       "name": "Waterwraith",

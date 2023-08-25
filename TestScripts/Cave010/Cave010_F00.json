@@ -260,9 +260,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otacroissant": [
     {
-      "type": "treasure",
+      "type": "treasure-otacroissant",
       "infoType": "treasure",
       "treasureId": "OTACROISSANT",
       "name": "Flaky Temptation",
@@ -276,9 +276,11 @@
           "z": -27.885292
         }
       }
-    },
+    }
+  ],
+  "treasure-otapuzzlel": [
     {
-      "type": "treasure",
+      "type": "treasure-otapuzzlel",
       "infoType": "treasure",
       "treasureId": "OTAPUZZLEL",
       "name": "Memory Fragment (Bottom Right)",
@@ -309,9 +311,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-chappy": [
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",
@@ -336,7 +338,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-chappy",
       "infoType": "creature",
       "creatureId": "CHAPPY",
       "name": "Bulborb",

@@ -495,9 +495,9 @@
       }
     }
   ],
-  "treasure": [
+  "treasure-otagbmicrofc": [
     {
-      "type": "treasure",
+      "type": "treasure-otagbmicrofc",
       "infoType": "treasure",
       "treasureId": "OTAGBMICROFC",
       "name": "Micromanagement Station",
@@ -509,54 +509,6 @@
           "x": 1375.7887,
           "y": 1110,
           "z": 62.236385
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTATHERMOMETER",
-      "name": "Heat Sensor",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 120,
-      "transform": {
-        "translation": {
-          "x": -1041.9089,
-          "y": -1286.4292,
-          "z": -175
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTALIGHTUPRINGBLU",
-      "name": "Hoop of Healing",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 130,
-      "transform": {
-        "translation": {
-          "x": 1653,
-          "y": -1488,
-          "z": 27.5126
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGBAROMYEL",
-      "name": "Masterpiece Plank",
-      "weight": 5,
-      "carryMax": 10,
-      "value": 110,
-      "transform": {
-        "translation": {
-          "x": -552,
-          "y": 1830,
-          "z": 105.02509
         }
       }
     }
@@ -635,6 +587,60 @@
           "x": -160,
           "y": 0,
           "z": 25
+        }
+      }
+    }
+  ],
+  "treasure-otathermometer": [
+    {
+      "type": "treasure-otathermometer",
+      "infoType": "treasure",
+      "treasureId": "OTATHERMOMETER",
+      "name": "Heat Sensor",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": -1041.9089,
+          "y": -1286.4292,
+          "z": -175
+        }
+      }
+    }
+  ],
+  "treasure-otalightupringblu": [
+    {
+      "type": "treasure-otalightupringblu",
+      "infoType": "treasure",
+      "treasureId": "OTALIGHTUPRINGBLU",
+      "name": "Hoop of Healing",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 130,
+      "transform": {
+        "translation": {
+          "x": 1653,
+          "y": -1488,
+          "z": 27.5126
+        }
+      }
+    }
+  ],
+  "treasure-otagbaromyel": [
+    {
+      "type": "treasure-otagbaromyel",
+      "infoType": "treasure",
+      "treasureId": "OTAGBAROMYEL",
+      "name": "Masterpiece Plank",
+      "weight": 5,
+      "carryMax": 10,
+      "value": 110,
+      "transform": {
+        "translation": {
+          "x": -552,
+          "y": 1830,
+          "z": 105.02509
         }
       }
     }
@@ -731,9 +737,9 @@
       }
     }
   ],
-  "creature": [
+  "creature-elecmushi": [
     {
-      "type": "creature",
+      "type": "creature-elecmushi",
       "infoType": "creature",
       "creatureId": "ELECMUSHI",
       "name": "Anode Beetle",
@@ -749,9 +755,11 @@
         }
       },
       "spawnNum": 4
-    },
+    }
+  ],
+  "creature-kajiokoshi": [
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -768,24 +776,7 @@
       }
     },
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NAMAZU",
-      "name": "Water Dumple",
-      "carryMax": 6,
-      "value": 3,
-      "health": 200,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": 442.2754,
-          "y": 926.50165,
-          "z": 45.101303
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -802,7 +793,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-kajiokoshi",
       "infoType": "creature",
       "creatureId": "KAJIOKOSHI",
       "name": "Pyroclasmic Slooch",
@@ -817,9 +808,47 @@
           "z": -19.869804
         }
       }
+    }
+  ],
+  "creature-namazu": [
+    {
+      "type": "creature-namazu",
+      "infoType": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "health": 200,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 442.2754,
+          "y": 926.50165,
+          "z": 45.101303
+        }
+      }
     },
     {
-      "type": "creature",
+      "type": "creature-namazu",
+      "infoType": "creature",
+      "creatureId": "NAMAZU",
+      "name": "Water Dumple",
+      "carryMax": 6,
+      "value": 3,
+      "health": 200,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -453.0227,
+          "y": 1179.412,
+          "z": 45.10083
+        }
+      }
+    }
+  ],
+  "creature-elecsenbei": [
+    {
+      "type": "creature-elecsenbei",
       "infoType": "creature",
       "creatureId": "ELECSENBEI",
       "name": "Shockcake",
@@ -842,26 +871,11 @@
           "z": -5
         }
       }
-    },
+    }
+  ],
+  "creature-tamagomushi": [
     {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "NAMAZU",
-      "name": "Water Dumple",
-      "carryMax": 6,
-      "value": 3,
-      "health": 200,
-      "seeds": 4,
-      "transform": {
-        "translation": {
-          "x": -453.0227,
-          "y": 1179.412,
-          "z": 45.10083
-        }
-      }
-    },
-    {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -886,7 +900,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -911,7 +925,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -936,7 +950,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -961,7 +975,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -986,7 +1000,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -1011,7 +1025,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -1036,7 +1050,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -1061,7 +1075,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",
@@ -1086,7 +1100,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tamagomushi",
       "infoType": "creature",
       "creatureId": "TAMAGOMUSHI",
       "name": "Mitite",

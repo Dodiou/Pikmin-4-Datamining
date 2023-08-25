@@ -177,38 +177,6 @@
           "z": 50.000103
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUZZLEJ",
-      "name": "Memory Fragment (Bottom-ish)",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": -801.5176,
-          "y": 507.4382,
-          "z": 27.7136
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMIKAN",
-      "name": "Citrus Lump",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": 1246.0986,
-          "y": 687.17834,
-          "z": 88.1901
-        }
-      }
     }
   ],
   "firepit-lit": [
@@ -406,9 +374,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otapuzzlej": [
     {
-      "type": "creature",
+      "type": "treasure-otapuzzlej",
+      "infoType": "treasure",
+      "treasureId": "OTAPUZZLEJ",
+      "name": "Memory Fragment (Bottom-ish)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -801.5176,
+          "y": 507.4382,
+          "z": 27.7136
+        }
+      }
+    }
+  ],
+  "treasure-otamikan": [
+    {
+      "type": "treasure-otamikan",
+      "infoType": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": 1246.0986,
+          "y": 687.17834,
+          "z": 88.1901
+        }
+      }
+    }
+  ],
+  "creature-suitori": [
+    {
+      "type": "creature-suitori",
       "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
@@ -433,7 +437,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-suitori",
       "infoType": "creature",
       "creatureId": "SUITORI",
       "name": "Waddlequaff",
@@ -456,9 +460,11 @@
           "z": 49
         }
       }
-    },
+    }
+  ],
+  "creature-firechappy": [
     {
-      "type": "creature",
+      "type": "creature-firechappy",
       "infoType": "creature",
       "creatureId": "FIRECHAPPY",
       "name": "Fiery Bulblax",
@@ -487,9 +493,11 @@
           "z": 40
         }
       }
-    },
+    }
+  ],
+  "creature-yakisenbei": [
     {
-      "type": "creature",
+      "type": "creature-yakisenbei",
       "infoType": "creature",
       "creatureId": "YAKISENBEI",
       "name": "Scorchcake",
@@ -510,31 +518,6 @@
           "x": 590.7449,
           "y": 603.60516,
           "z": 95
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "MAR",
-      "name": "Puffy Blowhog",
-      "carryMax": 1,
-      "value": 7,
-      "health": 3000,
-      "seeds": 5,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 1,
-          "min": 3,
-          "max": 3
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 742.3109,
-          "y": 729.6951,
-          "z": 85.692856
         }
       }
     }
@@ -560,6 +543,33 @@
           "x": 338.5,
           "y": 694.5,
           "z": 47.24526
+        }
+      }
+    }
+  ],
+  "creature-mar": [
+    {
+      "type": "creature-mar",
+      "infoType": "creature",
+      "creatureId": "MAR",
+      "name": "Puffy Blowhog",
+      "carryMax": 1,
+      "value": 7,
+      "health": 3000,
+      "seeds": 5,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 742.3109,
+          "y": 729.6951,
+          "z": 85.692856
         }
       }
     }

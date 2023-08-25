@@ -137,54 +137,6 @@
           "z": 1.0000992
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMATDOLLSA",
-      "name": "Granddaughter Doll Head",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": -961.60925,
-          "y": -2.5,
-          "z": 64.55444
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTANESCLASSICMINI",
-      "name": "Life Controller",
-      "weight": 10,
-      "carryMax": 20,
-      "value": 150,
-      "transform": {
-        "translation": {
-          "x": -885,
-          "y": 290.5,
-          "z": 150
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMATDOLLSB",
-      "name": "Gifting Vase",
-      "weight": 3,
-      "carryMax": 6,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": 1160,
-          "y": -827.5,
-          "z": 14.554458
-        }
-      }
     }
   ],
   "pikmin-ice": [
@@ -303,9 +255,63 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otamatdollsa": [
     {
-      "type": "creature",
+      "type": "treasure-otamatdollsa",
+      "infoType": "treasure",
+      "treasureId": "OTAMATDOLLSA",
+      "name": "Granddaughter Doll Head",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -961.60925,
+          "y": -2.5,
+          "z": 64.55444
+        }
+      }
+    }
+  ],
+  "treasure-otanesclassicmini": [
+    {
+      "type": "treasure-otanesclassicmini",
+      "infoType": "treasure",
+      "treasureId": "OTANESCLASSICMINI",
+      "name": "Life Controller",
+      "weight": 10,
+      "carryMax": 20,
+      "value": 150,
+      "transform": {
+        "translation": {
+          "x": -885,
+          "y": 290.5,
+          "z": 150
+        }
+      }
+    }
+  ],
+  "treasure-otamatdollsb": [
+    {
+      "type": "treasure-otamatdollsb",
+      "infoType": "treasure",
+      "treasureId": "OTAMATDOLLSB",
+      "name": "Gifting Vase",
+      "weight": 3,
+      "carryMax": 6,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": 1160,
+          "y": -827.5,
+          "z": 14.554458
+        }
+      }
+    }
+  ],
+  "creature-nisezako": [
+    {
+      "type": "creature-nisezako",
       "infoType": "creature",
       "creatureId": "NISEZAKO",
       "name": "Gildemandwee",
@@ -330,7 +336,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-nisezako",
       "infoType": "creature",
       "creatureId": "NISEZAKO",
       "name": "Gildemandwee",
@@ -353,9 +359,11 @@
           "z": 25.759315
         }
       }
-    },
+    }
+  ],
+  "creature-hariuo": [
     {
-      "type": "creature",
+      "type": "creature-hariuo",
       "infoType": "creature",
       "creatureId": "HARIUO",
       "name": "Pricklepuff",
@@ -376,350 +384,6 @@
           "x": -537.8726,
           "y": -733.67236,
           "z": -25.613358
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": 716.0419,
-          "y": -817.5925,
-          "z": 12.060101
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "KINOKOCHAPPY",
-      "name": "Moldy Dwarf Bulborb",
-      "carryMax": 6,
-      "value": 3,
-      "health": 150,
-      "seeds": 3,
-      "transform": {
-        "translation": {
-          "x": -814.57385,
-          "y": 280.38336,
-          "z": 87
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1100,
-          "y": -825,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1110,
-          "y": -810,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1125,
-          "y": -795,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1140,
-          "y": -790,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1155,
-          "y": -800,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1165,
-          "y": -820,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1160,
-          "y": -845,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1145,
-          "y": -860,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1130,
-          "y": -855,
-          "z": 10
-        }
-      }
-    },
-    {
-      "type": "creature",
-      "infoType": "creature",
-      "creatureId": "TAMAGOMUSHI",
-      "name": "Mitite",
-      "carryMax": 1,
-      "value": 1,
-      "health": 1,
-      "seeds": 2,
-      "drops": [
-        {
-          "item": "GHoney_C",
-          "chance": 0.8,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "GHotExtract_C",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1115,
-          "y": -845,
-          "z": 10
         }
       }
     }
@@ -754,6 +418,354 @@
           "x": 922.6178,
           "y": 274.5,
           "z": 17
+        }
+      }
+    }
+  ],
+  "creature-kinokochappy": [
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": 716.0419,
+          "y": -817.5925,
+          "z": 12.060101
+        }
+      }
+    },
+    {
+      "type": "creature-kinokochappy",
+      "infoType": "creature",
+      "creatureId": "KINOKOCHAPPY",
+      "name": "Moldy Dwarf Bulborb",
+      "carryMax": 6,
+      "value": 3,
+      "health": 150,
+      "seeds": 3,
+      "transform": {
+        "translation": {
+          "x": -814.57385,
+          "y": 280.38336,
+          "z": 87
+        }
+      }
+    }
+  ],
+  "creature-tamagomushi": [
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1100,
+          "y": -825,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1110,
+          "y": -810,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1125,
+          "y": -795,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1140,
+          "y": -790,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1155,
+          "y": -800,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1165,
+          "y": -820,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1160,
+          "y": -845,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1145,
+          "y": -860,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1130,
+          "y": -855,
+          "z": 10
+        }
+      }
+    },
+    {
+      "type": "creature-tamagomushi",
+      "infoType": "creature",
+      "creatureId": "TAMAGOMUSHI",
+      "name": "Mitite",
+      "carryMax": 1,
+      "value": 1,
+      "health": 1,
+      "seeds": 2,
+      "drops": [
+        {
+          "item": "GHoney_C",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "GHotExtract_C",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1115,
+          "y": -845,
+          "z": 10
         }
       }
     }

@@ -78,70 +78,6 @@
           "z": 50.00007
         }
       }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTADEKOPON",
-      "name": "Pocked Airhead",
-      "weight": 12,
-      "carryMax": 24,
-      "value": 90,
-      "transform": {
-        "translation": {
-          "x": -410.6623,
-          "y": 67.09445,
-          "z": 219.55559
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAPUZZLEB",
-      "name": "Memory Fragment (Top-ish)",
-      "weight": 2,
-      "carryMax": 4,
-      "value": 50,
-      "transform": {
-        "translation": {
-          "x": -169.79044,
-          "y": 1356.1296,
-          "z": 127.71359
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAGRAPE",
-      "name": "Dusk Pustules",
-      "weight": 15,
-      "carryMax": 30,
-      "value": 120,
-      "transform": {
-        "translation": {
-          "x": 970,
-          "y": -855,
-          "z": 260
-        }
-      }
-    },
-    {
-      "type": "treasure",
-      "infoType": "treasure",
-      "treasureId": "OTAMIKAN",
-      "name": "Citrus Lump",
-      "weight": 7,
-      "carryMax": 14,
-      "value": 60,
-      "transform": {
-        "translation": {
-          "x": -1223,
-          "y": -1512,
-          "z": 138.19011
-        }
-      }
     }
   ],
   "switchable-conveyor": [
@@ -599,6 +535,42 @@
       }
     }
   ],
+  "treasure-otadekopon": [
+    {
+      "type": "treasure-otadekopon",
+      "infoType": "treasure",
+      "treasureId": "OTADEKOPON",
+      "name": "Pocked Airhead",
+      "weight": 12,
+      "carryMax": 24,
+      "value": 90,
+      "transform": {
+        "translation": {
+          "x": -410.6623,
+          "y": 67.09445,
+          "z": 219.55559
+        }
+      }
+    }
+  ],
+  "treasure-otapuzzleb": [
+    {
+      "type": "treasure-otapuzzleb",
+      "infoType": "treasure",
+      "treasureId": "OTAPUZZLEB",
+      "name": "Memory Fragment (Top-ish)",
+      "weight": 2,
+      "carryMax": 4,
+      "value": 50,
+      "transform": {
+        "translation": {
+          "x": -169.79044,
+          "y": 1356.1296,
+          "z": 127.71359
+        }
+      }
+    }
+  ],
   "breakable-spotcapnormal": [
     {
       "type": "breakable-spotcapnormal",
@@ -696,9 +668,45 @@
       }
     }
   ],
-  "creature": [
+  "treasure-otagrape": [
     {
-      "type": "creature",
+      "type": "treasure-otagrape",
+      "infoType": "treasure",
+      "treasureId": "OTAGRAPE",
+      "name": "Dusk Pustules",
+      "weight": 15,
+      "carryMax": 30,
+      "value": 120,
+      "transform": {
+        "translation": {
+          "x": 970,
+          "y": -855,
+          "z": 260
+        }
+      }
+    }
+  ],
+  "treasure-otamikan": [
+    {
+      "type": "treasure-otamikan",
+      "infoType": "treasure",
+      "treasureId": "OTAMIKAN",
+      "name": "Citrus Lump",
+      "weight": 7,
+      "carryMax": 14,
+      "value": 60,
+      "transform": {
+        "translation": {
+          "x": -1223,
+          "y": -1512,
+          "z": 138.19011
+        }
+      }
+    }
+  ],
+  "creature-tobikaburi": [
+    {
+      "type": "creature-tobikaburi",
       "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
@@ -723,7 +731,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-tobikaburi",
       "infoType": "creature",
       "creatureId": "TOBIKABURI",
       "name": "Flighty Joustmite",
@@ -746,9 +754,11 @@
           "z": 78.1401
         }
       }
-    },
+    }
+  ],
+  "creature-futakuchi": [
     {
-      "type": "creature",
+      "type": "creature-futakuchi",
       "infoType": "creature",
       "creatureId": "FUTAKUCHI",
       "name": "Armored Cannon Larva",
@@ -763,9 +773,11 @@
           "z": 78.5001
         }
       }
-    },
+    }
+  ],
+  "creature-kinokajiokoshi": [
     {
-      "type": "creature",
+      "type": "creature-kinokajiokoshi",
       "infoType": "creature",
       "creatureId": "KINOKAJIOKOSHI",
       "name": "Moldy Slooch",
@@ -780,9 +792,25 @@
           "z": 76.00012
         }
       }
-    },
+    }
+  ],
+  "misc-groupdropmanager": [
     {
-      "type": "creature",
+      "type": "misc-groupdropmanager",
+      "infoType": "misc",
+      "radius": 140,
+      "transform": {
+        "translation": {
+          "x": -1511.9696,
+          "y": 175.05737,
+          "z": 50.0001
+        }
+      }
+    }
+  ],
+  "creature-waterotakara": [
+    {
+      "type": "creature-waterotakara",
       "infoType": "creature",
       "creatureId": "WATEROTAKARA",
       "name": "Hydro Dweevil",
@@ -799,7 +827,7 @@
       }
     },
     {
-      "type": "creature",
+      "type": "creature-waterotakara",
       "infoType": "creature",
       "creatureId": "WATEROTAKARA",
       "name": "Hydro Dweevil",
@@ -812,20 +840,6 @@
           "x": 972,
           "y": -196,
           "z": 33.12027
-        }
-      }
-    }
-  ],
-  "misc-groupdropmanager": [
-    {
-      "type": "misc-groupdropmanager",
-      "infoType": "misc",
-      "radius": 140,
-      "transform": {
-        "translation": {
-          "x": -1511.9696,
-          "y": 175.05737,
-          "z": 50.0001
         }
       }
     }
