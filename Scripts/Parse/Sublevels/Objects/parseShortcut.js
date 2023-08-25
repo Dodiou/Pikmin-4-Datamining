@@ -21,7 +21,7 @@ function getPushbagType(compType) {
   if (!isBox) {
     return MarkerType.ShortcutPushbag;
   }
-  return compType.includes("Can") ? MarkerType.ShortcutPushboxcardboard : MarkerType.ShortcutPushboxmetal;
+  return compType.includes("Can") ? MarkerType.ShortcutPushboxmetal : MarkerType.ShortcutPushboxcardboard;
 }
 
 export function parseShortcutComp(comp, compsList) {

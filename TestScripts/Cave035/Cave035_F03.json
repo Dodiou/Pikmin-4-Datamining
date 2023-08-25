@@ -479,9 +479,9 @@
       }
     }
   ],
-  "shortcut-pushboxcardboard": [
+  "shortcut-pushboxmetal": [
     {
-      "type": "shortcut-pushboxcardboard",
+      "type": "shortcut-pushboxmetal",
       "infoType": "shortcut",
       "weight": 10,
       "transform": {
