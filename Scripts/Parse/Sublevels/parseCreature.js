@@ -29,8 +29,8 @@ function getCreatureId(type) {
   return internalId;
 }
 
-export function getCreatureFromType(type) {
-  const creatureId = getCreatureId(type);
+export function getCreatureFromType(creatureType) {
+  const creatureId = getCreatureId(creatureType);
 
   const creature = CreatureMap[creatureId];
   if (!creature) {
@@ -42,9 +42,9 @@ export function getCreatureFromType(type) {
   }
   const creatureName = removeLocalizationMetadata(CreatureNamesMap[creatureId]);
   
-  const markerType = `${InfoType.Creature}-${creatureId.toLowerCase()}`;
+  const type = `${InfoType.Creature}-${creatureId.toLowerCase()}`;
   return {
-    type: markerType,
+    type,
     infoType: InfoType.Creature,
     creatureId,
     name: creatureName,
