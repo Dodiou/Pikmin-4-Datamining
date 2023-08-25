@@ -281,6 +281,12 @@
           "chance": 1,
           "min": 3,
           "max": 3
+        },
+        {
+          "item": "GTamagoMushi_C",
+          "chance": 1,
+          "min": 10,
+          "max": 10
         }
       ],
       "transform": {

@@ -3075,6 +3075,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
       "transform": {
         "translation": {
           "x": 1684.8441,
@@ -3092,6 +3100,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
       "transform": {
         "translation": {
           "x": 1480.9022,
@@ -3109,6 +3125,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
       "transform": {
         "translation": {
           "x": 3063.356,
@@ -3126,6 +3150,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
       "transform": {
         "translation": {
           "x": -778.1089,

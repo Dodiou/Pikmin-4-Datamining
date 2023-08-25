@@ -402,6 +402,14 @@
     {
       "type": "breakable-pot",
       "infoType": "breakable",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
           "x": 1455.6288,
@@ -435,6 +443,14 @@
     {
       "type": "breakable-pot",
       "infoType": "breakable",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
           "x": 1487.6288,
@@ -446,6 +462,14 @@
     {
       "type": "breakable-pot",
       "infoType": "breakable",
+      "drops": [
+        {
+          "item": "GPiecePick_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
           "x": -1954.9868,
@@ -1971,7 +1995,7 @@
       "drops": [
         {
           "item": "GPiecePick_C",
-          "chance": 0.51,
+          "chance": 1,
           "min": 0,
           "max": 1
         }
@@ -1996,7 +2020,7 @@
       "drops": [
         {
           "item": "GPiecePick_C",
-          "chance": 0.51,
+          "chance": 1,
           "min": 0,
           "max": 1
         }
@@ -2021,7 +2045,7 @@
       "drops": [
         {
           "item": "GPiecePick_C",
-          "chance": 0.51,
+          "chance": 1,
           "min": 0,
           "max": 1
         }

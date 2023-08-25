@@ -1744,7 +1744,7 @@
       "drops": [
         {
           "item": "GHoney_C",
-          "chance": 0.75,
+          "chance": 1,
           "min": 1,
           "max": 1
         }

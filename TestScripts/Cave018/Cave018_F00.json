@@ -707,7 +707,7 @@
       "drops": [
         {
           "item": "GPiecePick_C",
-          "chance": 0.51,
+          "chance": 1,
           "min": 0,
           "max": 1
         }
@@ -783,7 +783,7 @@
       "drops": [
         {
           "item": "GPiecePick_C",
-          "chance": 0.51,
+          "chance": 1,
           "min": 0,
           "max": 1
         }

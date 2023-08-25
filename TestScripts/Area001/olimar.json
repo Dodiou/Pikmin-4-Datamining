@@ -965,7 +965,7 @@
       "drops": [
         {
           "item": "GHoney_C",
-          "chance": 0.75,
+          "chance": 1,
           "min": 1,
           "max": 1
         }
@@ -985,7 +985,7 @@
       "drops": [
         {
           "item": "GHoney_C",
-          "chance": 0.75,
+          "chance": 1,
           "min": 1,
           "max": 1
         }
@@ -1005,7 +1005,7 @@
       "drops": [
         {
           "item": "GHoney_C",
-          "chance": 0.75,
+          "chance": 1,
           "min": 1,
           "max": 1
         }
@@ -1054,6 +1054,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
       "transform": {
         "translation": {
           "x": -1346.287,
@@ -1522,6 +1530,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
       "transform": {
         "translation": {
           "x": -319.97775,
@@ -1748,6 +1764,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GOtaHeroPartsB_C",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
           "x": -3536.4465,

@@ -56,6 +56,27 @@ function trackDropItem(item) {
   TrackedDropValues[item] = true;
 }
 
+function adjustDropRatios(dropList) {
+  if (!dropList.length) {
+    return dropList;
+  }
+  const totalRatio = dropList.reduce((total, item) => total + item.chance, 0);
+
+  if (totalRatio >= 1.0) {
+    return dropList;
+  }
+
+  // Some eggs only drop honey w/ a ratio of 0.75. Seems to drop 100%
+  // White butterflies drop materials w/ a ratio of 0.51 (but have a min: 0, max: 1). Seems to drop 50/50.
+  return dropList.map(drop => {
+    return {
+      ...drop,
+      chance: drop.chance / totalRatio
+    };
+  });
+}
+
+
 export function debugDropItems() {
   console.log(Object.keys(TrackedDropValues));
 }
@@ -188,7 +209,12 @@ export function parseFlintBeetleDropList(aiComp) {
 export function parseDropList(DropParameter, defaultDrop = undefined, dropAmountMultiplier = 1) {
   // TODO: a few have "null" DropActor's. What are the default drops?
   const dropsWithUndefineds = DropParameter.DropItemParameter.map((dropItem) => {
-    if (dropItem.DropRatio <= 0.0 || dropItem.MaxNum <= 0) {
+    // See any item with "DropRatio": 0.0. They all drop 100% of the time.
+    if (dropItem.DropRatio <= 0.0) {
+      dropItem.DropRatio = 1.0;
+    }
+
+    if (dropItem.MaxNum <= 0) {
       return undefined;
     }
     if (!dropItem.SpawnMiniInfo?.DropActor?.ObjectName) {
@@ -208,7 +234,9 @@ export function parseDropList(DropParameter, defaultDrop = undefined, dropAmount
   });
 
   // filter out the undefineds and DropsToExclude
-  return dropsWithUndefineds.filter(dropItem => dropItem && !DropsToExclude.includes(dropItem.item));
+  const filtered = dropsWithUndefineds.filter(dropItem => dropItem && !DropsToExclude.includes(dropItem.item));
+  // very few have drop ratios that need to be adjusted
+  return adjustDropRatios(filtered);
 }
 
 

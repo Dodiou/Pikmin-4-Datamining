@@ -2903,6 +2903,14 @@
       "value": 7,
       "health": 3000,
       "seeds": 5,
+      "drops": [
+        {
+          "item": "GPellet5_C",
+          "chance": 1,
+          "min": 3,
+          "max": 3
+        }
+      ],
       "transform": {
         "translation": {
           "x": 6,
