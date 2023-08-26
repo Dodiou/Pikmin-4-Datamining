@@ -15,6 +15,9 @@ const CreatureIdMap = {
   'BIGCHAPPY': 'BIGCHAPPY_NIGHT',
   'NIGHTKOCHAPPY': 'KOCHAPPY_NIGHT',
   // NOTE: NIGHTCHAPPY (or CHAPPY_NIGHT in BaseData.json) is not used. A normal Bulborb is used instead
+  // These are Arachnode webs, they spawn the arachnodes
+  'MARIGUMONET': 'MARIGUMO',
+  'MARIGUMONET_LOW': 'MARIGUMO',
 }
 function getCreatureId(type) {
   const internalId = getInternalId(type);
@@ -60,8 +63,6 @@ export function isCreatureComp(comp) {
     // These are the other holes Crawmads can burrow out of
     !comp.Properties.BurrowAI && // hermit crawmad holes
     !comp.Properties.DemejakoBurrowAI && // bug-eyed crawmad holes
-    // These are Arachnode webs, for some reason do not use the internal name 'Marigumo'
-    !comp.Properties.TamagumoNetAI &&
     Object.keys(comp.Properties).some(key => key.endsWith('AI'));
 }
 

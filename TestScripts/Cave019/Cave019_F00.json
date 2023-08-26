@@ -543,6 +543,23 @@
     {
       "type": "creature",
       "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -473.74042,
+          "y": 550.7873,
+          "z": 32
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
       "creatureId": "THROWEATER",
       "name": "Grubchucker",
       "carryMax": 24,
@@ -587,6 +604,40 @@
           "x": 414.0415,
           "y": -755.4457,
           "z": 114.3201
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -154.1095,
+          "y": -266.02563,
+          "z": 29
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 640,
+          "y": 319,
+          "z": 31.5
         }
       }
     }

@@ -290,6 +290,23 @@
     {
       "type": "creature",
       "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 313.9267,
+          "y": 408.18744,
+          "z": 32.002686
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
       "carryMax": 1,
@@ -343,6 +360,40 @@
           "x": -627.4032,
           "y": -803.6505,
           "z": 27.192196
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 344.61157,
+          "y": -539.88416,
+          "z": 32.159058
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -439.18445,
+          "y": 1299.5847,
+          "z": 31.3
         }
       }
     }

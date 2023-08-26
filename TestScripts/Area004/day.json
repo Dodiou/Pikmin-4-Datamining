@@ -2391,6 +2391,57 @@
     {
       "type": "creature",
       "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -195.43459,
+          "y": 2939.3425,
+          "z": 135.41446
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": -3446,
+          "y": 3044,
+          "z": 31
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 1012.6726,
+          "y": 55.868813,
+          "z": 185.79936
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
       "creatureId": "BIGUJINKO",
       "name": "Mama Sheargrub",
       "carryMax": 20,
@@ -2969,6 +3020,23 @@
           "x": -325.5913,
           "y": -2721.9973,
           "z": 131.38763
+        }
+      }
+    },
+    {
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "MARIGUMO",
+      "name": "Arachnode",
+      "carryMax": 6,
+      "value": 3,
+      "health": 450,
+      "seeds": 4,
+      "transform": {
+        "translation": {
+          "x": 2859,
+          "y": 1929,
+          "z": 65.987564
         }
       }
     },
