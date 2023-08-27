@@ -3,6 +3,7 @@
     {
       "type": "cave-entrance",
       "infoType": "cave",
+      "toMapId": "Cave021_F01",
       "transform": {
         "translation": {
           "x": -802.9045,

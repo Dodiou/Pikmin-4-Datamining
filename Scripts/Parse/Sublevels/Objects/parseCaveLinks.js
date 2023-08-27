@@ -71,14 +71,17 @@ export function parseCaveLinkComp(comp, compsList) {
 
   const type = MarkerTypeMap[comp.Type];
   // Battles and Challenges are unlocked in order, and not at specific caves. Set those links to undefined.
-  const link = type === MarkerTypeMap.CaveEntrance || MarkerTypeMap.CaveExit
+  const toMapId = (type === MarkerType.CaveEntrance || type === MarkerType.CaveExit)
     ? PortalTrigger.Properties?.ToLevelName
     : undefined;
 
   return removeUndefineds({
     type,
     infoType: InfoType.Cave,
-    link,
+    portalId: PortalTrigger.Properties?.PortalNumber,
+    toMapId,
+    toPortalId: PortalTrigger.Properties?.ToPortalNumber,
+    toBaseId: PortalTrigger.Properties?.ToBaseCampId,
     disabledPikmin,
   });
 

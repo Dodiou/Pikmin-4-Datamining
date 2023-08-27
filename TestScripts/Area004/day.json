@@ -3,6 +3,7 @@
     {
       "type": "cave-battle",
       "infoType": "cave",
+      "portalId": 5,
       "transform": {
         "translation": {
           "x": -4648.89,
@@ -16,6 +17,8 @@
     {
       "type": "cave-entrance",
       "infoType": "cave",
+      "portalId": 50,
+      "toMapId": "Cave025_F00",
       "transform": {
         "translation": {
           "x": 931.20825,
@@ -27,6 +30,8 @@
     {
       "type": "cave-entrance",
       "infoType": "cave",
+      "portalId": 51,
+      "toMapId": "Cave026_F00",
       "transform": {
         "translation": {
           "x": -966.8076,
@@ -38,6 +43,8 @@
     {
       "type": "cave-entrance",
       "infoType": "cave",
+      "portalId": 54,
+      "toMapId": "Cave024_F00",
       "transform": {
         "translation": {
           "x": -1933.7495,
@@ -1147,6 +1154,7 @@
     {
       "type": "cave-challenge",
       "infoType": "cave",
+      "portalId": 53,
       "transform": {
         "translation": {
           "x": -960.57794,
@@ -1158,6 +1166,7 @@
     {
       "type": "cave-challenge",
       "infoType": "cave",
+      "portalId": 52,
       "transform": {
         "translation": {
           "x": 1150.8921,
@@ -1169,6 +1178,7 @@
     {
       "type": "cave-challenge",
       "infoType": "cave",
+      "portalId": 55,
       "transform": {
         "translation": {
           "x": 259.00098,

@@ -3,6 +3,8 @@
     {
       "type": "cave-exit",
       "infoType": "cave",
+      "toMapId": "Area003",
+      "toPortalId": 53,
       "transform": {
         "translation": {
           "x": 1157.5,

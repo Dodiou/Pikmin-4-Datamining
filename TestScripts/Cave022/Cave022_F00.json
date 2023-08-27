@@ -3,6 +3,9 @@
     {
       "type": "cave-entrance",
       "infoType": "cave",
+      "toMapId": "Cave022_F01",
+      "toPortalId": 2,
+      "toBaseId": 0,
       "transform": {
         "translation": {
           "x": -414.53003,
@@ -194,6 +197,9 @@
     {
       "type": "cave-exit",
       "infoType": "cave",
+      "portalId": 2,
+      "toMapId": "Area010",
+      "toPortalId": 56,
       "disabledPikmin": {
         "blue": true,
         "yellow": true,
