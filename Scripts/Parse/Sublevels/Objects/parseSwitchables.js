@@ -26,7 +26,6 @@ function parseFence(fenceType, FenceFallAI) {
   });
 }
 
-// TODO: ConveyorNavAI? Properties.ConveyorNavAIParameter.SwitchID
 function parseConveyor(ConveyorAAI) {
   return {
     type: MarkerType.SwitchConveyor,

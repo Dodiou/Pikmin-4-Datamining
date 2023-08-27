@@ -361,7 +361,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -1138.499,

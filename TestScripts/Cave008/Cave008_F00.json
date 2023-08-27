@@ -279,6 +279,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 170,
       "health": 5333,
       "transform": {
         "translation": {
@@ -347,6 +348,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 355,
       "health": 2667,
       "transform": {
         "translation": {
@@ -426,6 +428,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
+      "width": 120,
       "transform": {
         "translation": {
           "x": 913,

@@ -713,7 +713,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -419,

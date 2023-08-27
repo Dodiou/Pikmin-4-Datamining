@@ -244,6 +244,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 225,
       "health": 5333,
       "transform": {
         "translation": {

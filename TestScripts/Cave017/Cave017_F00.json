@@ -264,7 +264,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "drops": [
         {
           "item": "GHoney_C",
@@ -285,7 +285,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "drops": [
         {
           "item": "GHoney_C",
@@ -306,7 +306,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 142,
@@ -426,6 +426,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 170,
       "transform": {
         "translation": {
           "x": -271.00073,
@@ -439,6 +440,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 170,
       "transform": {
         "translation": {
           "x": -277,
@@ -452,6 +454,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 170,
       "transform": {
         "translation": {
           "x": 65.00037,
@@ -465,6 +468,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 170,
       "transform": {
         "translation": {
           "x": 66.99927,
@@ -478,6 +482,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 145,
       "transform": {
         "translation": {
           "x": 904.99927,
@@ -491,6 +496,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 145,
       "transform": {
         "translation": {
           "x": 545.99927,

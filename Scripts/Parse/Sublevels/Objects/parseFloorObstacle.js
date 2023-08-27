@@ -4,12 +4,11 @@ import { DefaultValveId } from "./parseStructure.js";
 import { parseObjectDropList } from "../parseDrops.js";
 
 const FLOOR_RADIUS_REGEX = /G\w+Floor(\d+)uu_C/;
-// TODO I don't think this is correct... uu might not match to actual units 1:1
 function getFloorDiameter(compType) {
   const radiusMatch = compType.match(FLOOR_RADIUS_REGEX);
   if (!radiusMatch) {
     // TODO find default
-    return 100;
+    return -1;
   }
 
   return parseInt(radiusMatch[1]);
@@ -46,7 +45,7 @@ function parseMoveFloor(_comp) {
 function parseSprinkler(comp, compsList) {
   const SprinklerAI = getObjectFromPath(comp.Properties.SprinklerAI, compsList);
   // TODO unknown default
-  const radius = SprinklerAI.Properties?.SprinklerAIParameter?.WaterRange || 300;
+  const radius = SprinklerAI.Properties?.SprinklerAIParameter?.WaterRange || -1;
   const valveId = SprinklerAI.Properties?.ValveID || DefaultValveId;
 
   return {

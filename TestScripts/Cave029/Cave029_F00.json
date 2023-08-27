@@ -61,6 +61,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 145,
       "health": 8000,
       "transform": {
         "translation": {
@@ -74,6 +75,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 145,
       "health": 5333,
       "transform": {
         "translation": {
@@ -359,6 +361,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
+      "width": 145,
       "transform": {
         "translation": {
           "x": -630,
@@ -387,6 +390,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 175,
       "health": 1120,
       "transform": {
         "translation": {
@@ -400,6 +404,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 175,
       "health": 1120,
       "transform": {
         "translation": {
@@ -413,6 +418,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 175,
       "health": 1120,
       "transform": {
         "translation": {

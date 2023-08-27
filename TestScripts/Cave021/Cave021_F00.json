@@ -118,6 +118,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "width": 180,
       "health": 4000,
       "drops": [
         {

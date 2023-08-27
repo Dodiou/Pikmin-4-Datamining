@@ -77,6 +77,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 145,
       "health": 8000,
       "transform": {
         "translation": {
@@ -211,6 +212,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "width": 180,
       "health": 1333,
       "transform": {
         "translation": {
@@ -227,7 +229,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 283,

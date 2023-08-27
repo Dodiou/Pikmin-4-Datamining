@@ -254,6 +254,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 180,
       "health": 5333,
       "transform": {
         "translation": {
@@ -267,6 +268,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 180,
       "health": 2667,
       "transform": {
         "translation": {
@@ -370,6 +372,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 175,
       "health": 1120,
       "transform": {
         "translation": {
@@ -383,6 +386,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 175,
       "health": 1120,
       "transform": {
         "translation": {

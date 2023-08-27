@@ -15,30 +15,33 @@ function parseNumberedGate(comp, compsList) {
     ? undefined
     : triggerComp.Properties?.TriggerDoorAIParameter?.SwitchID || DefaultSwitchID
 
+  const type = MarkerType.GateNumbered;
   return removeUndefineds({
-    type: MarkerType.GateNumbered,
+    type,
     // TODO: might need a different info type
     infoType: InfoType.Gate,
-    switchId
+    switchId,
+    width: getGateWidth(type, comp, compsList)
   });
 }
 
-// TODO: find actual units per wall num
-const WIDTH_PER_WALL_NUM = 100;
 const ROCKGATE_WIDTH_REGEX = /GGateRock(\d+)uu_C/;
-// TODO I don't think this is correct... uu might not match to actual units 1:1
-function getGateWidth(comp) {
-  if (type !== MarkerType.GateCrystal) {
-    return (comp.Properties.AddWallNum || 0) * WIDTH_PER_WALL_NUM;
+function getGateWidth(type, comp, compsList) {
+  if (type === MarkerType.GateCrystal) {
+    const widthMatch = comp.Type.match(ROCKGATE_WIDTH_REGEX);
+    return parseInt(widthMatch[1]);
   }
 
-  const widthMatch = compType.match(ROCKGATE_WIDTH_REGEX);
-  if (!widthMatch) {
-    // TODO find default
-    return 100;
-  }
+  const pillarL = comp.Properties.PillarL && getObjectFromPath(comp.Properties.PillarL, compsList);
+  const pillarR = comp.Properties.PillarR && getObjectFromPath(comp.Properties.PillarR, compsList);
+  // NOTE: Numbered gates use Mesh_OutsideL, non-numbered use Mesh_OutsideL_00
+  const meshL = getObjectFromPath(comp.Properties.Mesh_OutsideL || comp.Properties.Mesh_OutsideL_00, compsList);
+  const meshR = getObjectFromPath(comp.Properties.Mesh_OutsideR || comp.Properties.Mesh_OutsideR_00, compsList);
 
-  return parseInt(widthMatch[1]);
+  const lOffset = (pillarL || meshL).Properties.RelativeLocation?.X || -30;
+  // NOTE: only Crystal gates omit this RelativeLocation, but they have widths in their
+  const rOffset = (pillarR || meshR).Properties.RelativeLocation.X;
+  return round(rOffset - lOffset, 3);
 }
 
 function getDefaultGateDrop(type, undamagedStages) {
@@ -64,6 +67,7 @@ const MarkerTypeMap = {
   'Trigger': MarkerType.GateNumbered,
 }
 const MarkerMatchRegex = '(' + Object.keys(MarkerTypeMap).join('|') + ')';
+
 function parseNonNumberedGate(comp, compsList) {
   const markerMatch = comp.Type.match(MarkerMatchRegex)[1];
   const type = MarkerTypeMap[markerMatch];
@@ -72,8 +76,8 @@ function parseNonNumberedGate(comp, compsList) {
   const LifeComponent = getObjectFromPath(comp.Properties.LifeComponent, compsList);
 
   const undamagedStages = VarGateAI.Properties?.StartValidWallIndex || 3;
-  // TODO: is there a default for this?
-  const maxHealth = LifeComponent.Properties?.Life || 8000;
+  // NOTE: There is a MaxLife property, but it is rarely used and never differs from Life
+  const maxHealth = LifeComponent.Properties?.Life || -1;
   if (!LifeComponent.Properties?.Life) {
     throw new Error('No default max health on gate.');
   }
@@ -83,7 +87,7 @@ function parseNonNumberedGate(comp, compsList) {
   return removeUndefineds({
     type,
     infoType: InfoType.Gate,
-    // width: getGateWidth(comp),
+    width: getGateWidth(type, comp, compsList),
     health,
     // NOTE: pretty sure drop lists are always empty for walls, and are just used to clear the
     //       default drop values

@@ -18,6 +18,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
+      "width": 245,
       "transform": {
         "translation": {
           "x": -1255.4329,
@@ -151,6 +152,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 275,
       "health": 1120,
       "drops": [
         {

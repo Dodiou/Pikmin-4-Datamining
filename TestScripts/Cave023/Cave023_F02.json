@@ -17,6 +17,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
+      "width": 245,
       "transform": {
         "translation": {
           "x": -108.47864,

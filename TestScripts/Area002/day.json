@@ -189,6 +189,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 200,
       "health": 8000,
       "drops": [
         {
@@ -210,6 +211,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 230,
       "health": 8000,
       "drops": [
         {
@@ -262,6 +264,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 195,
       "health": 8000,
       "drops": [
         {
@@ -566,6 +569,7 @@
     {
       "type": "gate-bomb",
       "infoType": "gate",
+      "width": 400,
       "health": 30000,
       "drops": [
         {
@@ -589,6 +593,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "width": 330,
       "health": 4000,
       "drops": [
         {
@@ -610,6 +615,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "width": 217.5,
       "health": 4000,
       "drops": [
         {

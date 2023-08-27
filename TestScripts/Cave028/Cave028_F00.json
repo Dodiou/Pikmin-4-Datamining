@@ -209,6 +209,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "width": 180,
       "health": 1333,
       "transform": {
         "translation": {
@@ -222,6 +223,7 @@
     {
       "type": "gate-ice",
       "infoType": "gate",
+      "width": 180,
       "health": 1333,
       "transform": {
         "translation": {

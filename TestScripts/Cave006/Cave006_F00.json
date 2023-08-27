@@ -17,6 +17,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 295,
       "health": 5333,
       "drops": [
         {

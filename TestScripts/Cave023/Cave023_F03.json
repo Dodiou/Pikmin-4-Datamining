@@ -262,6 +262,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 275,
       "health": 1120,
       "drops": [
         {

@@ -116,6 +116,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 180,
       "health": 8000,
       "drops": [
         {
@@ -139,6 +140,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 170,
       "health": 8000,
       "drops": [
         {

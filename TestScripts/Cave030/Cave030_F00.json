@@ -252,6 +252,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 180,
       "health": 2667,
       "transform": {
         "translation": {

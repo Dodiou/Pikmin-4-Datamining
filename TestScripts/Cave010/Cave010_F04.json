@@ -127,6 +127,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 175,
       "health": 747,
       "drops": [
         {
@@ -148,6 +149,7 @@
     {
       "type": "gate-crystal",
       "infoType": "gate",
+      "width": 275,
       "health": 747,
       "drops": [
         {

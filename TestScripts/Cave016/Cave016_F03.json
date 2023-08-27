@@ -3,6 +3,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
+      "width": 145,
       "transform": {
         "translation": {
           "x": 60.009827,
@@ -122,7 +123,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 1232.2004,

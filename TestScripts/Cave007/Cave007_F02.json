@@ -132,6 +132,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 180,
       "health": 5333,
       "drops": [
         {

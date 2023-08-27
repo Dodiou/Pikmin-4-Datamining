@@ -18,6 +18,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
+      "width": 395,
       "transform": {
         "translation": {
           "x": -1213.5,
@@ -30,6 +31,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
+      "width": 395,
       "transform": {
         "translation": {
           "x": 388.5,
@@ -44,6 +46,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 270,
       "health": 46667,
       "transform": {
         "translation": {
@@ -57,6 +60,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 270,
       "health": 23333,
       "transform": {
         "translation": {
@@ -70,6 +74,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 270,
       "health": 11667,
       "transform": {
         "translation": {

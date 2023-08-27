@@ -16,7 +16,6 @@ export function isDrainComp(comp) {
 }
 
 export function parseMoundComp(comp, compsList) {
-  // TODO parse RebirthInterval?
   const moundAIComp = getObjectFromPath(comp.Properties.TateanaAI, compsList);
   return removeUndefineds({
     type: MarkerType.BreakableMound,

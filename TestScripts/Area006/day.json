@@ -125,7 +125,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -3813.3577,
@@ -138,7 +138,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -866.8488,
@@ -151,7 +151,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -800.1753,
@@ -164,7 +164,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 659.1629,
@@ -177,7 +177,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 2517.145,
@@ -190,7 +190,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 1829,
@@ -203,7 +203,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 2125,
@@ -216,7 +216,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 2770,
@@ -229,7 +229,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -1295,
@@ -242,7 +242,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -2440.2837,
@@ -255,7 +255,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 2293.1626,
@@ -268,7 +268,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 2143,
@@ -281,7 +281,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 221.9094,
@@ -294,7 +294,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -2957.4795,
@@ -307,7 +307,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 1093.4911,
@@ -320,7 +320,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 1728,
@@ -333,7 +333,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -1726.2051,
@@ -346,7 +346,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -2488,
@@ -359,7 +359,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -3660,
@@ -372,7 +372,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 1834,
@@ -385,7 +385,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -2584.2795,
@@ -398,7 +398,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -2545.78,
@@ -411,7 +411,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -2190.4717,
@@ -424,7 +424,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 831,
@@ -463,7 +463,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 369,
@@ -567,7 +567,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "drops": [
         {
           "item": "GKinkaiPick_C",
@@ -588,7 +588,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -476.63153,
@@ -601,7 +601,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -40.33856,
@@ -614,7 +614,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -3777,
@@ -627,7 +627,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 1100,
@@ -640,7 +640,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": true,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": -3929,
@@ -653,7 +653,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 2601,
@@ -666,7 +666,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "drops": [
         {
           "item": "GOtaMango_C",
@@ -687,7 +687,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 1292,
@@ -700,7 +700,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 100,
+      "radius": -1,
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -722,6 +722,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 375,
       "health": 8000,
       "drops": [
         {

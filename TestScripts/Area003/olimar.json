@@ -763,6 +763,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 375,
       "health": 8000,
       "transform": {
         "translation": {
@@ -776,6 +777,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 195,
       "health": 8000,
       "transform": {
         "translation": {

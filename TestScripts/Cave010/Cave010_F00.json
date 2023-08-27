@@ -52,6 +52,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 220,
       "health": 5333,
       "drops": [
         {
@@ -73,6 +74,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 170,
       "health": 5333,
       "drops": [
         {

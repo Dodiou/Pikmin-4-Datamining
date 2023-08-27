@@ -626,6 +626,7 @@
     {
       "type": "gate-bomb",
       "infoType": "gate",
+      "width": 200,
       "health": 30000,
       "transform": {
         "translation": {
@@ -994,6 +995,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 242.5,
       "health": 8000,
       "transform": {
         "translation": {

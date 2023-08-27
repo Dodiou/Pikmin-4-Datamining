@@ -633,6 +633,7 @@
     {
       "type": "gate-electric",
       "infoType": "gate",
+      "width": 255,
       "health": 5333,
       "transform": {
         "translation": {
@@ -773,6 +774,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "FenceFall01",
+      "width": 370,
       "transform": {
         "translation": {
           "x": 2665,

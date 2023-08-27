@@ -18,7 +18,7 @@
       "type": "hazardradial-sprinkler",
       "infoType": "hazard",
       "valveId": "valve1",
-      "radius": 300,
+      "radius": -1,
       "transform": {
         "translation": {
           "x": 550,
@@ -130,6 +130,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 145,
       "health": 8000,
       "drops": [
         {

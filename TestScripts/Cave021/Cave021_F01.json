@@ -33,6 +33,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 145,
       "transform": {
         "translation": {
           "x": 11.559502,
@@ -46,6 +47,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 145,
       "transform": {
         "translation": {
           "x": 0,
@@ -59,6 +61,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 220,
       "transform": {
         "translation": {
           "x": 238.839,
@@ -72,6 +75,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 170,
       "transform": {
         "translation": {
           "x": -247.55147,
@@ -85,6 +89,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 320,
       "transform": {
         "translation": {
           "x": 729.1924,
@@ -98,6 +103,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 120,
       "transform": {
         "translation": {
           "x": -570,
@@ -111,6 +117,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 120,
       "transform": {
         "translation": {
           "x": -242.28693,

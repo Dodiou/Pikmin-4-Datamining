@@ -26,7 +26,6 @@ function parseWaterBoxAIComp(WaterBoxAIComp, texture, normalData) {
   const dynamicData = removeUndefineds({
     amountToFreeze: WaterBoxAIComp.Properties?.WaterBoxAIParameter?.WaterLevel?.AfterMaxIcePikmins,
     image: texture
-    // TODO: is bUseSunMeter important? Only happens in Serene Shores.
   });
 
   if (Object.keys(dynamicData).length === 0) {

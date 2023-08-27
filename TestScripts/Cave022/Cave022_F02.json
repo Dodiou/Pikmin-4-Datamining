@@ -333,6 +333,7 @@
       "type": "gate-numbered",
       "infoType": "gate",
       "switchId": "switch01",
+      "width": 145,
       "transform": {
         "translation": {
           "x": -745,

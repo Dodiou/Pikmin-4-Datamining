@@ -17,6 +17,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 220,
       "health": 8000,
       "transform": {
         "translation": {
@@ -30,6 +31,7 @@
     {
       "type": "gate-dirt",
       "infoType": "gate",
+      "width": 245,
       "health": 8000,
       "transform": {
         "translation": {
