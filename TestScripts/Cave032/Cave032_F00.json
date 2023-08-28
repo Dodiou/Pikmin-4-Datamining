@@ -370,7 +370,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 394,
@@ -383,7 +383,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 243,
@@ -396,7 +396,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 699,

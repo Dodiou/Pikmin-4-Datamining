@@ -432,7 +432,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": -773,
@@ -445,7 +445,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": -711,
@@ -458,7 +458,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": -528,
@@ -471,7 +471,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": -555,
@@ -484,7 +484,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 619,

@@ -330,7 +330,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "drops": [
         {
           "item": "GHoney_C",

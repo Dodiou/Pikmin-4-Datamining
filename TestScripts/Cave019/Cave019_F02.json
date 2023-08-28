@@ -18,7 +18,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -81,7 +81,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -123,7 +123,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 701.13837,
@@ -136,7 +136,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 11.269233,
@@ -149,7 +149,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 1.2692327,

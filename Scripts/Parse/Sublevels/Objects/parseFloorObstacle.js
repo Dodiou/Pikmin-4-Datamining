@@ -11,7 +11,8 @@ function getFloorDiameter(compType) {
     return -1;
   }
 
-  return parseInt(radiusMatch[1]);
+  // The number in the type is a width, not radius
+  return parseInt(radiusMatch[1]) / 2;
 }
 
 function parseMushroomFloor(comp, compsList) {

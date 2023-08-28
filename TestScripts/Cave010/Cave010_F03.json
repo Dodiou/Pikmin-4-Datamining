@@ -218,7 +218,7 @@
     {
       "type": "hazardradial-floorfire",
       "infoType": "hazard",
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": -826,

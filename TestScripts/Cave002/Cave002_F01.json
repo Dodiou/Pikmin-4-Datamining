@@ -20,7 +20,7 @@
     {
       "type": "hazardradial-floorfire",
       "infoType": "hazard",
-      "radius": 525,
+      "radius": 262.5,
       "transform": {
         "translation": {
           "x": 531,
@@ -32,7 +32,7 @@
     {
       "type": "hazardradial-floorfire",
       "infoType": "hazard",
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 685,
@@ -44,7 +44,7 @@
     {
       "type": "hazardradial-floorfire",
       "infoType": "hazard",
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": -387,
@@ -56,7 +56,7 @@
     {
       "type": "hazardradial-floorfire",
       "infoType": "hazard",
-      "radius": 350,
+      "radius": 175,
       "transform": {
         "translation": {
           "x": -700,
@@ -68,7 +68,7 @@
     {
       "type": "hazardradial-floorfire",
       "infoType": "hazard",
-      "radius": 175,
+      "radius": 87.5,
       "transform": {
         "translation": {
           "x": 154.96097,

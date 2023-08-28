@@ -434,7 +434,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 525,
+      "radius": 262.5,
       "drops": [
         {
           "item": "GPiecePick_C",
@@ -455,7 +455,7 @@
       "type": "hazardradial-floormushroom",
       "infoType": "hazard",
       "isPoison": false,
-      "radius": 525,
+      "radius": 262.5,
       "transform": {
         "translation": {
           "x": 544.7898,
