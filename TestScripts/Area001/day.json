@@ -33,9 +33,9 @@
       }
     }
   ],
-  "base-onion": [
+  "base-beagle": [
     {
-      "type": "base-onion",
+      "type": "base-beagle",
       "infoType": "base",
       "baseId": 1,
       "transform": {
@@ -47,7 +47,7 @@
       }
     },
     {
-      "type": "base-onion",
+      "type": "base-beagle",
       "infoType": "base",
       "baseId": 0,
       "transform": {
@@ -59,7 +59,7 @@
       }
     },
     {
-      "type": "base-onion",
+      "type": "base-beagle",
       "infoType": "base",
       "baseId": 2,
       "transform": {
@@ -71,7 +71,7 @@
       }
     },
     {
-      "type": "base-onion",
+      "type": "base-beagle",
       "infoType": "base",
       "baseId": 3,
       "transform": {
@@ -311,9 +311,9 @@
       }
     }
   ],
-  "base-beagle": [
+  "base-onion": [
     {
-      "type": "base-beagle",
+      "type": "base-onion",
       "infoType": "base",
       "baseId": 1,
       "guardedBy": [
@@ -328,7 +328,7 @@
       }
     },
     {
-      "type": "base-beagle",
+      "type": "base-onion",
       "infoType": "base",
       "baseId": 0,
       "transform": {
@@ -340,7 +340,7 @@
       }
     },
     {
-      "type": "base-beagle",
+      "type": "base-onion",
       "infoType": "base",
       "baseId": 2,
       "guardedBy": [
@@ -356,7 +356,7 @@
       }
     },
     {
-      "type": "base-beagle",
+      "type": "base-onion",
       "infoType": "base",
       "baseId": 3,
       "transform": {

@@ -139,8 +139,8 @@ export const MarkerType = {
   SwitchSingle: 'switchable-singleswitch',
   SwitchDouble: 'switchable-doubleswitch',
   // locations
-  BaseOnion: 'base-beagle',
-  BaseBeagle: 'base-onion',
+  BaseOnion: 'base-onion',
+  BaseBeagle: 'base-beagle',
   CaveEntrance: 'cave-entrance',
   CaveExit: 'cave-exit',
   CaveChallenge: 'cave-challenge',

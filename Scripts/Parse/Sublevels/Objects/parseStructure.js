@@ -23,6 +23,16 @@ const BridgeParamDefaults = {
 function parseStructureBridgeComp(BridgeFlexibleAI) {
   const structureParams = { ...BridgeParamDefaults, ...BridgeFlexibleAI.Properties };
   return parseStructureProps(structureParams);
+
+  // const GBridge_From = getObjectFromPath(comp.Properties.GBridge_From, compsList);
+  // const GBridge_To = getObjectFromPath(comp.Properties.GBridge_To, compsList);
+  // const GBridge_From_Child = getObjectFromPath(GBridge_From.Properties.ChildActor, compsList);
+  // const GBridge_To_Child = getObjectFromPath(GBridge_To.Properties.ChildActor, compsList);
+  // const From_Root = getObjectFromPath(GBridge_From_Child.Properties.DefaultSceneRoot, compsList);
+  // const To_Root = getObjectFromPath(GBridge_To_Child.Properties.DefaultSceneRoot, compsList);
+
+  // const toOffset = To_Root.Properties.RelativeLocation?.Y || 0;
+  // const fromOffset = From_Root.Properties.RelativeLocation?.Y || 0;
 }
 
 const ClimbingWallDefaults = {
