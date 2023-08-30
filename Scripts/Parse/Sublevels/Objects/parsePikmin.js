@@ -11,7 +11,7 @@ function parseCandypop(params) {
   const changesTo = changesAt && getPikminColor(params.PongashiChangeColorFromFollow);
 
   // default is undefined
-  const disappearsAt = params.MabikiNumFromFollow + 1;
+  const disappearsAt = params.MabikiNumFromFollow !== undefined ? params.MabikiNumFromFollow + 1 : undefined;
   // Note: egg is the only replacement used.
   const replacedBy = (disappearsAt && params.RandomActorSpawnList?.length)
     ? getTypeFromBlueprint(params.RandomActorSpawnList[0].DropActor.ObjectName)

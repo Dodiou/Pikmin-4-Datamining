@@ -267,7 +267,6 @@
       "type": "candypop-wing",
       "infoType": "candypop",
       "color": "wing",
-      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -289,
@@ -280,7 +279,6 @@
       "type": "candypop-wing",
       "infoType": "candypop",
       "color": "wing",
-      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": -413.33145,
@@ -293,7 +291,6 @@
       "type": "candypop-wing",
       "infoType": "candypop",
       "color": "wing",
-      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 1077.25,
@@ -306,7 +303,6 @@
       "type": "candypop-wing",
       "infoType": "candypop",
       "color": "wing",
-      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 1152.75,
@@ -319,7 +315,6 @@
       "type": "candypop-wing",
       "infoType": "candypop",
       "color": "wing",
-      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 557,
@@ -332,7 +327,6 @@
       "type": "candypop-wing",
       "infoType": "candypop",
       "color": "wing",
-      "disappearsAt": null,
       "transform": {
         "translation": {
           "x": 621,
