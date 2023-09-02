@@ -50,7 +50,7 @@ export const PikminColorEnumMap = {
 }
 
 export const MarkerType = {
-  // collectibles
+  // collectables
   Treasure: 'treasure',
   CastawayNormal: 'castaway-normal',
   CastawayLeafling: 'castaway-leafling',

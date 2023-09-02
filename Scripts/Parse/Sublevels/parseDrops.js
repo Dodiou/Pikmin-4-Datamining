@@ -205,6 +205,23 @@ export function parseFlintBeetleDropList(aiComp) {
 }
 
 
+const DefaultClamclampDropBlueprint = "BlueprintGeneratedClass'GOtaYamaShinju_C'";
+// not really a drop 
+export function parseClamclampDrop(aiComp) {
+  const blueprint = aiComp.Properties.YamashinjuAIParameter?.SpawnPearlInfo?.DropActor?.ObjectName ||
+    DefaultClamclampDropBlueprint;
+
+  return [
+    {
+      ...getObjectFromType(getTypeFromBlueprint(blueprint)),
+      chance: 1,
+      min: 1,
+      max: 1,
+    }
+  ]
+}
+
+
 
 function parseDropItem(
   dropItem,
@@ -234,8 +251,8 @@ function parseDropItem(
     ? dropMarker.amount = dropItem.MinNum
     : undefined;
 
-  // NOTE: only drop conditions are "NoSalvageDropItem" (collectibles that don't respawn),
-  //       "SalvageDropItem" (collectible in drop list has been collected), and "PlayedDemo"
+  // NOTE: only drop conditions are "NoSalvageDropItem" (collectables that don't respawn),
+  //       "SalvageDropItem" (collectable in drop list has been collected), and "PlayedDemo"
   //       which always has a DropCondDemo of "SuckNectar" (i.e. eggs always drop nectar until demo is played)
   // Only the SalvageDropItem is interesting here.
   const revisitOnly = dropItem.DropConditions[0]?.DropCond === 'EDropCondition::SalvageDropItem'

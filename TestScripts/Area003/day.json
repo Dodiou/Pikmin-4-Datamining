@@ -1866,6 +1866,20 @@
       "value": 10,
       "health": 1000,
       "seeds": 15,
+      "drops": [
+        {
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAYAMASHINJU",
+          "name": "Princess Pearl",
+          "weight": 3,
+          "carryMax": 3,
+          "value": 150,
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
           "x": -2861.1108,
@@ -1952,6 +1966,20 @@
       "value": 10,
       "health": 1000,
       "seeds": 15,
+      "drops": [
+        {
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAPINBADGEB",
+          "name": "Ring-of-Return Shield",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 40,
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
           "x": -1696,
@@ -2309,6 +2337,17 @@
       "value": 10,
       "health": 1000,
       "seeds": 15,
+      "drops": [
+        {
+          "type": "onion-flarlic",
+          "infoType": "onion",
+          "color": "flarlic",
+          "weight": 5,
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
       "transform": {
         "translation": {
           "x": -4308.1377,

@@ -1,6 +1,17 @@
 import { getObjectFromPath, removeUndefineds } from "../util.js";
 import { getCreatureFromType } from "./objectBlueprints.js";
-import { parseCreatureDropList, parseFlintBeetleDropList } from './parseDrops.js';
+import { parseClamclampDrop, parseCreatureDropList, parseFlintBeetleDropList } from './parseDrops.js';
+
+function hasSpecialDrops(aiComponentName) {
+  return aiComponentName.includes('Kogane') || // Flint/Glint beetles, Doodlebugs
+    aiComponentName.includes('Yamashinju');    // Pearly clamclamps
+}
+
+function getSpecialDrops(AIComponent) {
+  return AIComponent.Name.includes("Kogane")
+    ? parseFlintBeetleDropList(AIComponent)
+    : parseClamclampDrop(AIComponent)
+}
 
 export function isCreatureComp(comp) {
   return !comp.Properties.EggAI &&
@@ -21,9 +32,9 @@ export function parseCreatureComp(comp, compsList) {
   const creatureProps = getCreatureFromType(comp.Type);
 
   // Note: flint-beetles ignore normal TekiAIParameter drops.
-  let drops = !aiComponentKey.includes("Kogane")
+  let drops = !hasSpecialDrops(aiComponentKey)
     ? parseCreatureDropList(AIComponent)
-    : parseFlintBeetleDropList(AIComponent);
+    : getSpecialDrops(AIComponent);
 
   return removeUndefineds({
     ...creatureProps,

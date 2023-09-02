@@ -66,6 +66,12 @@ export const DefaultObject = {
     ...DefaultSurvivorDrop,
     type: MarkerType.CastawayLeafling,
     isLeafling: true,
+  },
+  'GOnyonCarryBoost_C': {
+    type: MarkerType.OnionFlarlic,
+    infoType: InfoType.Onion,
+    color: 'flarlic',
+    weight: 5
   }
 };
 

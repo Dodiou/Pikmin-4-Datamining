@@ -1,9 +1,9 @@
 import { InfoType, MarkerType, PikminColor } from "../../types.js";
-import { getTreasureFromType } from "../objectBlueprints.js";
+import { DefaultObject, getTreasureFromType } from "../objectBlueprints.js";
 
 // NOTE: Onion spelled w/ onyomi keystrokes in game files
 const OnionColorMap = {
-  'GOnyonCarryBoost_C': 'flarlic',
+  'GOnyonCarryBoost_C': DefaultObject.GOnyonCarryBoost_C.color,
   'GOnyonBootUpRed_C': PikminColor.Red,
   'GOnyonCarryWhite_C': PikminColor.White,
   'GOnyonCarryPurple_C': PikminColor.Purple,
@@ -14,7 +14,7 @@ const OnionColorMap = {
   'GOnyonCarryPink_C': PikminColor.Wing,
 }
 const OnionWeightMap = {
-  'flarlic': 5,
+  'flarlic': DefaultObject.GOnyonCarryBoost_C.weight,
   [PikminColor.Red]: 3,
   [PikminColor.Yellow]: 20,
   [PikminColor.Blue]: 20,
