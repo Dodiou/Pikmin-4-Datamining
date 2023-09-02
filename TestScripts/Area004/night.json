@@ -90,7 +90,8 @@
       "health": 30000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -1418,7 +1419,8 @@
       "health": 1120,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -1469,7 +1471,14 @@
       "radius": 100,
       "drops": [
         {
-          "item": "GTamagoMushi_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "TAMAGOMUSHI",
+          "name": "Mitite",
+          "carryMax": 1,
+          "value": 1,
+          "health": 1,
+          "seeds": 2,
           "chance": 1,
           "min": 10,
           "max": 10
@@ -3008,7 +3017,8 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3033,7 +3043,8 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3058,7 +3069,8 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1

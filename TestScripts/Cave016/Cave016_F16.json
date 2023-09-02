@@ -78,14 +78,22 @@
       "seeds": 50,
       "drops": [
         {
-          "item": "GOtaDragonFruit_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTADRAGONFRUIT",
+          "name": "Fire-Breathing Feast",
+          "weight": 20,
+          "carryMax": 40,
+          "value": 170,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }

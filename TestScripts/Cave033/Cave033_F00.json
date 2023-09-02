@@ -37,7 +37,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -78,7 +79,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -97,7 +99,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -161,7 +164,13 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GOtaMatDollLB_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAMATDOLLLB",
+          "name": "Empty Vase",
+          "weight": 10,
+          "carryMax": 20,
+          "value": 150,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -180,7 +189,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminIce_C",
+          "type": "pikmin-ice",
+          "infoType": "pikmin",
+          "color": "ice",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -331,7 +343,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 8,
           "max": 8
@@ -392,7 +405,8 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -448,7 +462,8 @@
       "radius": 100,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -470,19 +485,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -502,19 +520,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1

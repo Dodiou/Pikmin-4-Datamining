@@ -193,7 +193,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -215,7 +216,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -268,7 +270,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -422,7 +425,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -463,7 +467,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -532,7 +537,8 @@
       "health": 30000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -556,7 +562,8 @@
       "health": 4000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -578,7 +585,8 @@
       "health": 4000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -1478,7 +1486,14 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBaby_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "BABY",
+          "name": "Bulborb Larva",
+          "carryMax": 0,
+          "value": 0,
+          "health": 1,
+          "seeds": 0,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1497,7 +1512,14 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBaby_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "BABY",
+          "name": "Bulborb Larva",
+          "carryMax": 0,
+          "value": 0,
+          "health": 1,
+          "seeds": 0,
           "chance": 1,
           "min": 1,
           "max": 1

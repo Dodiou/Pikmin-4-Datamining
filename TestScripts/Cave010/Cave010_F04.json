@@ -131,7 +131,8 @@
       "health": 747,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -153,7 +154,8 @@
       "health": 747,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -227,14 +229,23 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GOtaDice6WHT_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTADICE6WHT",
+          "name": "Chance Totem",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 20,
+          "amount": 3,
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }
@@ -326,19 +337,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10

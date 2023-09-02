@@ -224,7 +224,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -246,7 +247,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -268,7 +270,8 @@
       "health": 5333,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 4,
           "max": 4
@@ -290,7 +293,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -3098,7 +3102,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -3123,7 +3128,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -3148,7 +3154,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -3173,7 +3180,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3

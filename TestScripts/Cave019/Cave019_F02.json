@@ -21,7 +21,8 @@
       "radius": 87.5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -42,7 +43,8 @@
       "radius": -1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -63,7 +65,8 @@
       "radius": -1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -84,7 +87,8 @@
       "radius": 87.5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -105,7 +109,8 @@
       "radius": -1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -337,14 +342,22 @@
       "seeds": 50,
       "drops": [
         {
-          "item": "GOtaSFCMouse_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTASFCMOUSE",
+          "name": "Creativity Conduit",
+          "weight": 7,
+          "carryMax": 14,
+          "value": 110,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }
@@ -365,19 +378,22 @@
       "isBig": true,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 10,
           "max": 10
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 3,
           "max": 3

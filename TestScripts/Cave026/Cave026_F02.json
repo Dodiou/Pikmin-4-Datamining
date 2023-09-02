@@ -37,7 +37,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -78,7 +79,8 @@
       "health": 1120,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -120,7 +122,8 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 0,
           "max": 1
@@ -146,7 +149,8 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 0,
           "max": 1
@@ -190,14 +194,23 @@
       "seeds": 50,
       "drops": [
         {
-          "item": "GOtaDuckS_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTADUCKS",
+          "name": "Stately Rubber Cutie",
+          "weight": 3,
+          "carryMax": 6,
+          "value": 20,
+          "amount": 5,
           "chance": 1,
           "min": 5,
           "max": 5
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }

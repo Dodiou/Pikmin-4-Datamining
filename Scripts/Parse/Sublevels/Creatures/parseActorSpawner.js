@@ -1,7 +1,5 @@
 import { getTypeFromBlueprint, getObjectFromPath } from "../../util.js";
-import { DefaultIcicleObject } from "../Objects/parseMisc.js";
-import { getCreatureFromType } from "../parseCreature.js";
-import { DefaultEggObject } from "../parseEgg.js";
+import { getCreatureFromType, DefaultObjectWithDrops } from "../objectBlueprints.js";
 
 // NOTE: ActorSpawner is used in Objects as well, but only for mounds. no important info (except maybe larva spawn interval)
 // NOTE: the only non-creature spawns are GIcicle_C, and GEgg_C
@@ -22,11 +20,10 @@ export function parseActorSpawnerComp(comp, compsList) {
   const blueprintName = ActorSpawner.Properties.ActorSpawnAIParameter.DropSpawnMiniInfo.DropActor.ObjectName;
 
   const spawnType = getTypeFromBlueprint(blueprintName);
-  if (spawnType === 'GEgg_C') {
-    return DefaultEggObject;
-  }
-  else if (spawnType === 'GIcicle_C') {
-    return DefaultIcicleObject;
+  const blueprint = DefaultObjectWithDrops[spawnType];
+
+  if (blueprint) {
+    return blueprint;
   }
 
   // TODO: add isDropped property?

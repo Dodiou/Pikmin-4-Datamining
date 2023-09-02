@@ -471,7 +471,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -501,7 +502,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1078,7 +1080,13 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GOtaHeroPartsS_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHEROPARTSS",
+          "name": "Extraordinary Bolt",
+          "weight": 5,
+          "carryMax": 10,
+          "value": 0,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1239,7 +1247,13 @@
       "seeds": 20,
       "drops": [
         {
-          "item": "GOtaHeroPartsZ_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHEROPARTSZ",
+          "name": "Automatic Gear",
+          "weight": 15,
+          "carryMax": 30,
+          "value": 0,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1723,7 +1737,13 @@
       "seeds": 50,
       "drops": [
         {
-          "item": "GOtaHeroPartsAC_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHEROPARTSAC",
+          "name": "Secret Safe",
+          "weight": 50,
+          "carryMax": 100,
+          "value": 0,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1745,7 +1765,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1765,7 +1786,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1787,7 +1809,8 @@
       "radius": 100,
       "drops": [
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1

@@ -1,5 +1,8 @@
-import { getTypeFromBlueprint } from "../util.js";
+import { MarkerType } from "../types.js";
+import { getTypeFromBlueprint, removeUndefineds } from "../util.js";
+import { DefaultObject, getObjectFromType } from "./objectBlueprints.js";
 
+// These arrays are just for reference. not used.
 const AllDropValues = [
   'GHoney_C',             'GPiecePick_C',        'GPikminIce_C',
   'GHotExtract_C',        'GPikminBlue_C',       'GOtaYoshiCookieB_C',
@@ -36,7 +39,7 @@ const AllDropValues = [
   'GHikariStation_C'
 ];
 
-// All non-creature, non-pikmin, non-treasure drops
+// All non-creature, non-pikmin, non-castaway, non-treasure drops
 const ItemDrops = [
   'GHoney_C',
   'GPiecePick_C',
@@ -48,13 +51,7 @@ const ItemDrops = [
 ];
 
 // This drop appears in non-night areas. might just be a copy/paste thing from night enemies.
-const DropsToExclude = ['GHikariStation_C'];
-
-
-const TrackedDropValues = {};
-function trackDropItem(item) {
-  TrackedDropValues[item] = true;
-}
+const DropsToExclude = [MarkerType.PileGlowpellets];
 
 function adjustDropRatios(dropList) {
   if (!dropList.length) {
@@ -77,12 +74,8 @@ function adjustDropRatios(dropList) {
 }
 
 
-export function debugDropItems() {
-  console.log(Object.keys(TrackedDropValues));
-}
-
 export const DefaultLarvaDrop = {
-  item: 'GBaby_C',
+  ...getObjectFromType('GBaby_C'),
   chance: 1.0,
   min: 1,
   max: 1,
@@ -99,7 +92,13 @@ export function parseObjectDropList(comp, defaultDrop = undefined) {
   // there's one mound (Secluded Courtyard Floor 3) with this annoying parameter
   const dropAmountMultiplier = comp.Properties.TateanaAIParameter?.NumDig || 1;
 
-  return parseDropList(comp.Properties.ObjectAIParameter.DropParameter, defaultDrop, dropAmountMultiplier);
+  return parseDropList(
+    comp.Properties.ObjectAIParameter.DropParameter,
+    {
+      defaultDrop,
+      dropAmountMultiplier
+    }
+  );
 }
 
 export function parseCreatureDropList(aiComp) {
@@ -115,19 +114,19 @@ export function parseCreatureDropList(aiComp) {
 //       It drops 1 pellet, three 1 pellets, two 5 pellets instead of its TekiAI drop list.
 const DefaultIridescentBeetleDrops = [
   {
-    item: 'GPellet1_C',
+    ...DefaultObject.GPellet1_C,
     chance: 1.0,
     min: 1,
     max: 1,
   },
   {
-    item: 'GPellet1_C',
+    ...DefaultObject.GPellet1_C,
     chance: 1.0,
     min: 3,
     max: 3,
   },
   {
-    item: 'GPellet5_C',
+    ...DefaultObject.GPellet5_C,
     chance: 1.0,
     min: 2,
     max: 2,
@@ -136,19 +135,19 @@ const DefaultIridescentBeetleDrops = [
 // See: Area006 Teki_Day beetle, near the tunnel near landing site 2
 const DefaultGoldenBeetleDrops = [
   {
-    item: 'GHotExtract_C',
+    ...DefaultObject.GHotExtract_C,
     chance: 1.0,
     min: 1,
     max: 1,
   },
   {
-    item: 'GHotExtract_C',
+    ...DefaultObject.GHotExtract_C,
     chance: 1.0,
     min: 2,
     max: 2,
   },
   {
-    item: 'GHotExtract_C',
+    ...DefaultObject.GHotExtract_C,
     chance: 1.0,
     min: 3,
     max: 3,
@@ -157,25 +156,25 @@ const DefaultGoldenBeetleDrops = [
 // stinkbug. Drops seem random. These are the ones I have seen.
 const DefaultDoodleBugDrops = [
   {
-    item: 'GIceBomb_C',
+    ...DefaultObject.GIceBomb_C,
     chance: 0.5,
     min: 1,
     max: 3,
   },
   {
-    item: 'GBomb_C',
+    ...DefaultObject.GBomb_C,
     chance: 0.5,
     min: 1,
     max: 3,
   },
   {
-    item: 'GTamagoMushi_C', // Mitites.
+    ...getObjectFromType('GTamagoMushi_C'), // Mitites.
     chance: 0.0, // unknown chance
     min: 8,
     max: 8,
   },
   {
-    item: 'GHotExtract_C', // very low chance. also had 2 bombs with it.
+    ...DefaultObject.GHotExtract_C, // very low chance. also had 2 bombs with it.
     chance: 0.0, // unknown chance
     min: 1,
     max: 1,
@@ -205,49 +204,70 @@ export function parseFlintBeetleDropList(aiComp) {
   return DefaultIridescentBeetleDrops;
 }
 
-// NOTE: Some objects have "RareDropParameter", but this always seems to be empty or with drop-rates,min,max set to 0.
-export function parseDropList(DropParameter, defaultDrop = undefined, dropAmountMultiplier = 1) {
-  // TODO: a few have "null" DropActor's. What are the default drops?
-  const dropsWithUndefineds = DropParameter.DropItemParameter.map((dropItem) => {
-    // See any item with "DropRatio": 0.0. They all drop 100% of the time.
-    if (dropItem.DropRatio <= 0.0) {
-      dropItem.DropRatio = 1.0;
-    }
 
-    if (dropItem.MaxNum <= 0) {
-      return undefined;
-    }
-    if (!dropItem.SpawnMiniInfo?.DropActor?.ObjectName) {
-      return defaultDrop;
-    }
 
-    const blueprintName = dropItem.SpawnMiniInfo.DropActor.ObjectName;
-    const internalItemName = getTypeFromBlueprint(blueprintName);
-    trackDropItem(internalItemName);
+function parseDropItem(
+  dropItem,
+  {
+    defaultDrop = undefined,
+    dropAmountMultiplier = 1
+  }
+) {
+  // See any item with "DropRatio": 0.0. They all drop 100% of the time.
+  if (dropItem.DropRatio <= 0.0) {
+    dropItem.DropRatio = 1.0;
+  }
 
-    return {
-      item: internalItemName,
-      chance: dropItem.DropRatio,
-      min: dropItem.MinNum * dropAmountMultiplier,
-      max: dropItem.MaxNum * dropAmountMultiplier,
-    };
+  if (dropItem.MaxNum <= 0) {
+    return undefined;
+  }
+  if (!dropItem.SpawnMiniInfo?.DropActor?.ObjectName) {
+    return defaultDrop;
+  }
+
+  const blueprintName = dropItem.SpawnMiniInfo.DropActor.ObjectName;
+  const internalItemName = getTypeFromBlueprint(blueprintName);
+
+  const dropMarker = getObjectFromType(internalItemName);
+
+  const treasureAmount = (dropMarker.type === MarkerType.Treasure && dropItem.MinNum > 1)
+    ? dropMarker.amount = dropItem.MinNum
+    : undefined;
+
+  // NOTE: only drop conditions are "NoSalvageDropItem" (collectibles that don't respawn),
+  //       "SalvageDropItem" (collectible in drop list has been collected), and "PlayedDemo"
+  //       which always has a DropCondDemo of "SuckNectar" (i.e. eggs always drop nectar until demo is played)
+  // Only the SalvageDropItem is interesting here.
+  const revisitOnly = dropItem.DropConditions[0]?.DropCond === 'EDropCondition::SalvageDropItem'
+    ? true
+    : undefined;
+  return removeUndefineds({
+    ...dropMarker,
+    amount: treasureAmount,
+    chance: dropItem.DropRatio,
+    revisitOnly,
+    min: dropItem.MinNum * dropAmountMultiplier,
+    max: dropItem.MaxNum * dropAmountMultiplier,
   });
-
-  // filter out the undefineds and DropsToExclude
-  const filtered = dropsWithUndefineds.filter(dropItem => dropItem && !DropsToExclude.includes(dropItem.item));
-  // very few have drop ratios that need to be adjusted
-  return adjustDropRatios(filtered);
 }
 
+// NOTE: Some objects have "RareDropParameter", but this always seems to be empty or with drop-rates,min,max set to 0.
+export function parseDropList(
+  DropParameter,
+  options = {}
+) {
+  const {
+    defaultDrop = undefined,
+    dropAmountMultiplier = 1
+  } = options;
 
-export const parseDropInternalName = (internalName) => {
-  if (internalName.startsWith('GOta') || internalName === 'GKinkaiPick_C') {
-    // treasure
-  }
+  // TODO: a few have "null" DropActor's. What are the default drops?
+  const dropsWithUndefineds = DropParameter.DropItemParameter.map((dropItem) =>
+    parseDropItem(dropItem, { defaultDrop, dropAmountMultiplier })
+  );
 
-  if (internalName.startsWith('GPikmin')) {
-    // pikmin
-  }
-
-
+  // filter out the undefineds and DropsToExclude
+  const filtered = dropsWithUndefineds.filter(dropItem => dropItem && !DropsToExclude.includes(dropItem.type));
+  // very few have drop ratios that need to be adjusted
+  return adjustDropRatios(filtered);
 }

@@ -21,7 +21,8 @@
       "health": 5333,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 4,
           "max": 4

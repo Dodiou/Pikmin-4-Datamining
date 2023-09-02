@@ -91,14 +91,21 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GSurvivorA_C",
+          "type": "castaway-normal",
+          "infoType": "castaway",
+          "isLeafling": false,
+          "isKoppaite": false,
+          "weight": 3,
+          "carryMax": 6,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }
@@ -119,19 +126,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -151,19 +161,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1

@@ -1,7 +1,5 @@
 import { InfoType, MarkerType, PikminColor } from "../../types.js";
-import { getInternalId, removeLocalizationMetadata } from "../../util.js";
-import { default as TreasureData } from "../../../../Treasure Data/BaseData.json" assert { type: "json" };
-import { default as TreasureNames } from "../../../../Localization/OtakaraName/en-US/OtakaraName.json" assert { type: "json" };
+import { getTreasureFromType } from "../objectBlueprints.js";
 
 // NOTE: Onion spelled w/ onyomi keystrokes in game files
 const OnionColorMap = {
@@ -43,34 +41,6 @@ function parseOnionComp(comp) {
 }
 
 
-const TreasureNameMap = TreasureNames.OtakaraName;
-function getTreasureName(treasureId) {
-  const localeStr = TreasureNameMap[treasureId];
-  // remove meta-data/styling from treasure names
-  return removeLocalizationMetadata(localeStr);
-}
-
-const TreasureMap = TreasureData[0].Rows;
-function parseTreasureComp(comp) {
-  const treasureId = getInternalId(comp.Type);
-  const treasure = TreasureMap[treasureId];
-
-  if (!treasure) {
-    throw new Error(`Unknown treasure ${treasureId}`);
-  }
-
-  return {
-    type: MarkerType.Treasure,
-    infoType: InfoType.Treasure,
-    treasureId: treasureId,
-    name: getTreasureName(treasureId),
-    weight: treasure.CarryWeightMin,
-    carryMax: treasure.CarryWeightMax,
-    value: treasure.Kira,
-  };
-}
-
-
 function isCastaway(comp) {
   return comp.Type.startsWith('GSurvivor');
 }
@@ -108,7 +78,7 @@ export function parseCollectableComp(comp, compsList) {
     return parseCastaway(comp, compsList);
   }
   else if (comp.Properties.OtakaraAI || comp.Properties.OtaBankCardAI) {
-    return parseTreasureComp(comp, compsList);
+    return getTreasureFromType(comp.Type);
   }
   throw new Error('Unknown collectable!');
 }

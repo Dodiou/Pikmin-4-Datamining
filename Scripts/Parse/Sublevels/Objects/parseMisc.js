@@ -1,11 +1,7 @@
 import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, getPikminColor, removeUndefineds } from "../../util.js";
+import { DefaultObject } from "../objectBlueprints.js";
 import { parseCreatureDropList } from "../parseDrops.js";
-
-export const DefaultIcicleObject = {
-  type: MarkerType.MiscIcicle,
-  infoType: InfoType.Misc
-};
 
 export function isMiscComp(comp) {
   return !!(
@@ -28,7 +24,7 @@ export function parseMiscComp(comp, compsList) {
   }
   else if (comp.Properties.IcicleAI) {
     // todo isFelled or isDropped or something
-    return DefaultIcicleObject;
+    return DefaultObject.GIcicle_C;
   }
   else if (comp.Properties.PelletAI) {
     const PelletAI = getObjectFromPath(comp.Properties.PelletAI, compsList);
@@ -43,10 +39,7 @@ export function parseMiscComp(comp, compsList) {
     };
   }
   else if (comp.Properties.HoneyAI) {
-    return {
-      type: MarkerType.MiscHoney,
-      infoType: InfoType.Misc
-    };
+    return DefaultObject.GHoney_C;
   }
   else if (comp.Properties.TsuyukusaAI) {
     return {

@@ -70,7 +70,8 @@
       "health": 5333,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 4,
           "max": 4
@@ -92,7 +93,8 @@
       "health": 2667,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -349,14 +351,23 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GOtaTomatoS_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTATOMATOS",
+          "name": "Crush Nugget",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 20,
+          "amount": 2,
           "chance": 1,
           "min": 2,
           "max": 2
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }

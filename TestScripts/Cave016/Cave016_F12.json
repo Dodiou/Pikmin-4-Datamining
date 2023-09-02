@@ -36,14 +36,22 @@
       "radius": -1,
       "drops": [
         {
-          "item": "GOtaPuzzleG_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAPUZZLEG",
+          "name": "Memory Fragment (Center Right)",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 50,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 1,
           "max": 1
         }
@@ -362,14 +370,22 @@
       "seeds": 30,
       "drops": [
         {
-          "item": "GOtaPumpkin_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAPUMPKIN",
+          "name": "Mysterious Carriage",
+          "weight": 30,
+          "carryMax": 60,
+          "value": 150,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }
@@ -390,7 +406,8 @@
       "radius": 115.04442,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -410,7 +427,8 @@
       "radius": 115.04442,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3

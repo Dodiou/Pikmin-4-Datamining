@@ -23,6 +23,18 @@ export const PikminSpawnState = {
   Idle: 'idle',
 }
 
+export const PikminColorBlueprintMap = {
+  'GPikminRed_C': PikminColor.Red,
+  'GPikminYellow_C': PikminColor.Yellow,
+  'GPikminBlue_C': PikminColor.Blue,
+  'GPikminPurple_C': PikminColor.Purple,
+  'GPikminWhite_C': PikminColor.White,
+  'GPikminRock_C': PikminColor.Rock,
+  'GPikminWing_C': PikminColor.Wing,
+  'GPikminIce_C': PikminColor.Ice,
+  'GPikminPhoton_C': PikminColor.Glow,
+}
+
 export const PikminColorEnumMap = {
   "EPikminColor::Red": PikminColor.Red,
   "EPikminColor::Yellow": PikminColor.Yellow,

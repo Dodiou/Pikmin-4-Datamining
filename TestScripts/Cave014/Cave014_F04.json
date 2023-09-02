@@ -180,14 +180,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GOtaDisc_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTADISC",
+          "name": "Glinty Circular Disc",
+          "weight": 5,
+          "carryMax": 10,
+          "value": 80,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }
@@ -208,19 +216,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -252,19 +263,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -284,13 +298,21 @@
       "isBig": true,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GTamagoMushi_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "TAMAGOMUSHI",
+          "name": "Mitite",
+          "carryMax": 1,
+          "value": 1,
+          "health": 1,
+          "seeds": 2,
           "chance": 1,
           "min": 10,
           "max": 10

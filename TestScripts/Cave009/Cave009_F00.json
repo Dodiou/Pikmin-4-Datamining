@@ -120,7 +120,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -144,7 +145,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -216,7 +218,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -257,7 +260,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -342,7 +346,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -631,7 +636,8 @@
       "radius": 100,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -679,19 +685,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -711,19 +720,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -836,7 +848,8 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -878,7 +891,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -903,7 +917,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -928,7 +943,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -953,7 +969,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -978,7 +995,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1003,7 +1021,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1028,7 +1047,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1053,7 +1073,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1078,7 +1099,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1103,7 +1125,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1

@@ -21,7 +21,8 @@
       "health": 1333,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -57,7 +58,14 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GKinkaiPick_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "KINKAISTATION",
+          "name": "Gold Nugget",
+          "weight": 1,
+          "carryMax": 1,
+          "value": 5,
+          "amount": 5,
           "chance": 1,
           "min": 5,
           "max": 5
@@ -98,7 +106,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminIce_C",
+          "type": "pikmin-ice",
+          "infoType": "pikmin",
+          "color": "ice",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -298,7 +309,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -323,7 +335,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -348,7 +361,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -370,19 +384,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -402,19 +419,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1

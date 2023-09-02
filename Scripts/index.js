@@ -1,6 +1,5 @@
 import { mkdirSync, readdirSync, writeFileSync } from "fs";
 import { groupBy } from "./Parse/util.js";
-import { debugDropItems } from "./Parse/Sublevels/parseDrops.js";
 import { parseMapFiles } from "./Parse/parseMapFiles.js";
 
 const caves = new Array(36).fill(0).map((_, i) => 'Cave' + ('000' + i).slice(-3));
@@ -68,5 +67,3 @@ function parseAreas() {
 
 parseCaves();
 parseAreas();
-
-debugDropItems();

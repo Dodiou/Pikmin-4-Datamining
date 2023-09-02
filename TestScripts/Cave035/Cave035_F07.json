@@ -19,7 +19,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -38,7 +41,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -57,7 +63,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -76,7 +85,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -95,7 +107,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -114,7 +129,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -133,7 +151,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -152,7 +173,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -215,7 +239,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -234,7 +261,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -830,7 +860,10 @@
       "radius": 150,
       "drops": [
         {
-          "item": "GPikminWhite_C",
+          "type": "pikmin-white",
+          "infoType": "pikmin",
+          "color": "white",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -852,7 +885,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -872,7 +906,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1

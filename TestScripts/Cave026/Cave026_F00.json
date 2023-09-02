@@ -344,7 +344,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -420,7 +421,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -445,7 +447,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -470,14 +473,22 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GOtaIchijiku_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAICHIJIKU",
+          "name": "Delectable Bouquet",
+          "weight": 10,
+          "carryMax": 20,
+          "value": 70,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }
@@ -501,7 +512,8 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -526,7 +538,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -551,7 +564,8 @@
       "radius": 150,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1

@@ -21,7 +21,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminIce_C",
+          "type": "pikmin-ice",
+          "infoType": "pikmin",
+          "color": "ice",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -51,7 +54,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminIce_C",
+          "type": "pikmin-ice",
+          "infoType": "pikmin",
+          "color": "ice",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5

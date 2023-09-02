@@ -84,7 +84,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -175,7 +176,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -194,7 +196,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -343,7 +346,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -386,7 +390,8 @@
       "radius": 125,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -412,7 +417,10 @@
       "radius": 120,
       "drops": [
         {
-          "item": "GPikminIce_C",
+          "type": "pikmin-ice",
+          "infoType": "pikmin",
+          "color": "ice",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -436,7 +444,8 @@
       "radius": 69.201416,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2

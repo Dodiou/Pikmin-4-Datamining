@@ -121,7 +121,8 @@
       "health": 5333,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 4,
           "max": 4
@@ -187,7 +188,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -206,7 +208,13 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GOtaButtonWood_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTABUTTONWOOD",
+          "name": "Perforated Raft",
+          "weight": 1,
+          "carryMax": 2,
+          "value": 10,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -225,7 +233,13 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GOtaButtonWood_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTABUTTONWOOD",
+          "name": "Perforated Raft",
+          "weight": 1,
+          "carryMax": 2,
+          "value": 10,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -266,7 +280,13 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GOtaPlum_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAPLUM",
+          "name": "Lesser Mock Bottom",
+          "weight": 3,
+          "carryMax": 6,
+          "value": 40,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -556,7 +576,8 @@
       "health": 5333,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 4,
           "max": 4
@@ -578,7 +599,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -727,7 +749,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -747,7 +770,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -767,7 +791,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -787,7 +812,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -807,7 +833,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -827,7 +854,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -1186,7 +1214,8 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1211,7 +1240,8 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1236,7 +1266,8 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1261,7 +1292,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1473,7 +1505,13 @@
       "seeds": 20,
       "drops": [
         {
-          "item": "GOtaHanafudaC_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHANAFUDAC",
+          "name": "Talisman of Life (Moon)",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 40,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1532,7 +1570,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1557,19 +1596,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -1645,7 +1687,8 @@
       "seeds": 10,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1755,7 +1798,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 0,
           "max": 1
@@ -1780,7 +1824,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 0,
           "max": 1
@@ -1822,7 +1867,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1844,19 +1890,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -1876,19 +1925,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1

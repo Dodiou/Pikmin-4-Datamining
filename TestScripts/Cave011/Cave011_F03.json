@@ -200,14 +200,22 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GOtaGamaguchi_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAGAMAGUCHI",
+          "name": "Greed-Inducement Device",
+          "weight": 15,
+          "carryMax": 30,
+          "value": 230,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 10,
           "max": 10
         }

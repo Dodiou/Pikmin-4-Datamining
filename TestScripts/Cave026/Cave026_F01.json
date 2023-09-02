@@ -368,7 +368,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -411,7 +412,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -470,14 +472,22 @@
       "seeds": 20,
       "drops": [
         {
-          "item": "GOtaHam_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHAM",
+          "name": "King of Meats",
+          "weight": 300,
+          "carryMax": 600,
+          "value": 500,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 10,
           "max": 10
         }
@@ -515,7 +525,8 @@
       "radius": 500,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -538,7 +549,8 @@
       "radius": 200,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3

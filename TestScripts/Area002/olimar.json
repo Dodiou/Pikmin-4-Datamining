@@ -110,7 +110,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -130,7 +131,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -150,7 +152,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GIceBomb_C",
+          "type": "miscitem-icebomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -170,7 +173,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -874,7 +878,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -893,7 +898,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1014,7 +1020,14 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GBabyCrow_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "BABYCROW",
+          "name": "Downy Snagret",
+          "carryMax": 6,
+          "value": 3,
+          "health": 300,
+          "seeds": 3,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1034,7 +1047,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1054,7 +1068,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1074,7 +1089,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1094,7 +1110,14 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GBabyCrow_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "BABYCROW",
+          "name": "Downy Snagret",
+          "carryMax": 6,
+          "value": 3,
+          "health": 300,
+          "seeds": 3,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1114,7 +1137,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1141,7 +1165,13 @@
       "seeds": 20,
       "drops": [
         {
-          "item": "GOtaHeroPartsT_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHEROPARTST",
+          "name": "Extraordinary Bolt",
+          "weight": 5,
+          "carryMax": 10,
+          "value": 0,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1166,13 +1196,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
@@ -1248,19 +1280,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -1285,19 +1320,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -1628,13 +1666,26 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GOtaHeroPartsD_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHEROPARTSD",
+          "name": "Radiation Canopy",
+          "weight": 20,
+          "carryMax": 40,
+          "value": 0,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GTamagoMushi_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "TAMAGOMUSHI",
+          "name": "Mitite",
+          "carryMax": 1,
+          "value": 1,
+          "health": 1,
+          "seeds": 2,
           "chance": 1,
           "min": 10,
           "max": 10
@@ -1744,7 +1795,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1769,7 +1821,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1794,7 +1847,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1819,13 +1873,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1

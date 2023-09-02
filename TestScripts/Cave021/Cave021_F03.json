@@ -200,14 +200,22 @@
       "seeds": 30,
       "drops": [
         {
-          "item": "GOtaRailwayLineE_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTARAILWAYLINEE",
+          "name": "Thrill-Ride Track",
+          "weight": 7,
+          "carryMax": 14,
+          "value": 150,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 15,
           "max": 15
         }
@@ -228,7 +236,14 @@
       "radius": 140,
       "drops": [
         {
-          "item": "GKinkaiPick_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "KINKAISTATION",
+          "name": "Gold Nugget",
+          "weight": 1,
+          "carryMax": 1,
+          "value": 5,
+          "amount": 10,
           "chance": 1,
           "min": 10,
           "max": 10
@@ -248,7 +263,13 @@
       "radius": 140,
       "drops": [
         {
-          "item": "GOtaDice4Sided_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTADICE4SIDED",
+          "name": "Difficult-Choice Totem",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 20,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -268,7 +289,13 @@
       "radius": 140,
       "drops": [
         {
-          "item": "GOtaDice20_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTADICE20",
+          "name": "Go-with-the-Flow Totem",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 40,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -288,10 +315,23 @@
       "radius": 140,
       "drops": [
         {
-          "item": "GSurvivorLeaf_C",
+          "type": "castaway-leafling",
+          "infoType": "castaway",
+          "isLeafling": true,
+          "isKoppaite": false,
+          "weight": 3,
+          "carryMax": 6,
           "chance": 1,
           "min": 1,
           "max": 1
+        },
+        {
+          "type": "miscitem-honey",
+          "infoType": "misc",
+          "chance": 1,
+          "revisitOnly": true,
+          "min": 3,
+          "max": 3
         }
       ],
       "transform": {
@@ -310,19 +350,22 @@
       "isBig": true,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 10,
           "max": 10
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 3,
           "max": 3

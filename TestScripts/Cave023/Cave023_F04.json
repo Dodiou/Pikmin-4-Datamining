@@ -156,7 +156,8 @@
       "health": 1120,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -282,14 +283,22 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GOtaMacaronA_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAMACARONA",
+          "name": "S.S. Berry",
+          "weight": 3,
+          "carryMax": 6,
+          "value": 40,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }
@@ -364,7 +373,8 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -474,14 +484,23 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GOtaCasinoChip10_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTACASINOCHIP10",
+          "name": "Disk of Angry Wisdom",
+          "weight": 2,
+          "carryMax": 4,
+          "value": 10,
+          "amount": 3,
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 10,
           "max": 10
         }

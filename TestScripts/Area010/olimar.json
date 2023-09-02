@@ -371,7 +371,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -683,7 +684,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GIceBomb_C",
+          "type": "miscitem-icebomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -702,7 +704,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GIceBomb_C",
+          "type": "miscitem-icebomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1559,7 +1562,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -1635,13 +1639,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
@@ -1666,7 +1672,8 @@
       "seeds": 30,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -1725,7 +1732,8 @@
       "seeds": 6,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -1750,7 +1758,8 @@
       "seeds": 6,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -1809,7 +1818,13 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GOtaHeroPartsG_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHEROPARTSG",
+          "name": "Chronos Reactor",
+          "weight": 30,
+          "carryMax": 60,
+          "value": 0,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1916,7 +1931,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1936,7 +1952,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1958,7 +1975,10 @@
       "radius": 50,
       "drops": [
         {
-          "item": "GPikminRed_C",
+          "type": "pikmin-red",
+          "infoType": "pikmin",
+          "color": "red",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -1978,7 +1998,10 @@
       "radius": 100,
       "drops": [
         {
-          "item": "GPikminBlue_C",
+          "type": "pikmin-blue",
+          "infoType": "pikmin",
+          "color": "blue",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -1998,7 +2021,10 @@
       "radius": 150,
       "drops": [
         {
-          "item": "GPikminYellow_C",
+          "type": "pikmin-yellow",
+          "infoType": "pikmin",
+          "color": "yellow",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5

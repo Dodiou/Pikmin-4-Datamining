@@ -171,10 +171,24 @@
       "radius": 700,
       "drops": [
         {
-          "item": "GOtaJoyConR_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAJOYCONR",
+          "name": "Connection Detector",
+          "weight": 10,
+          "carryMax": 20,
+          "value": 150,
           "chance": 1,
           "min": 1,
           "max": 1
+        },
+        {
+          "type": "miscitem-honey",
+          "infoType": "misc",
+          "chance": 1,
+          "revisitOnly": true,
+          "min": 5,
+          "max": 5
         }
       ],
       "transform": {

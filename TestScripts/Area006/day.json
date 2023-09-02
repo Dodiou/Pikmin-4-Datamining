@@ -570,7 +570,14 @@
       "radius": -1,
       "drops": [
         {
-          "item": "GKinkaiPick_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "KINKAISTATION",
+          "name": "Gold Nugget",
+          "weight": 1,
+          "carryMax": 1,
+          "value": 5,
+          "amount": 10,
           "chance": 1,
           "min": 10,
           "max": 10
@@ -669,7 +676,13 @@
       "radius": -1,
       "drops": [
         {
-          "item": "GOtaMango_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAMANGO",
+          "name": "Heroine's Tear",
+          "weight": 12,
+          "carryMax": 24,
+          "value": 90,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -703,7 +716,8 @@
       "radius": -1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -726,7 +740,8 @@
       "health": 8000,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 6,
           "max": 6
@@ -2815,7 +2830,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -2835,7 +2851,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -2855,7 +2872,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -2993,7 +3011,8 @@
       "seeds": 12,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3052,7 +3071,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3094,7 +3114,8 @@
       "seeds": 12,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3187,25 +3208,35 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GIceBomb_C",
+          "type": "miscitem-icebomb",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 3
         },
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 3
         },
         {
-          "item": "GTamagoMushi_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "TAMAGOMUSHI",
+          "name": "Mitite",
+          "carryMax": 1,
+          "value": 1,
+          "health": 1,
+          "seeds": 2,
           "chance": 0,
           "min": 8,
           "max": 8
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0,
           "min": 1,
           "max": 1
@@ -3230,7 +3261,8 @@
       "seeds": 12,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3272,25 +3304,35 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GIceBomb_C",
+          "type": "miscitem-icebomb",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 3
         },
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 3
         },
         {
-          "item": "GTamagoMushi_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "TAMAGOMUSHI",
+          "name": "Mitite",
+          "carryMax": 1,
+          "value": 1,
+          "health": 1,
+          "seeds": 2,
           "chance": 0,
           "min": 8,
           "max": 8
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0,
           "min": 1,
           "max": 1
@@ -3383,7 +3425,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3442,7 +3485,8 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3588,7 +3632,13 @@
       "seeds": 20,
       "drops": [
         {
-          "item": "GOtaLaFrance_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTALAFRANCE",
+          "name": "Tremendous Sniffer",
+          "weight": 12,
+          "carryMax": 24,
+          "value": 90,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3698,7 +3748,8 @@
       "seeds": 8,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3757,7 +3808,8 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3782,7 +3834,13 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GOtaApricot_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAAPRICOT",
+          "name": "Searing Acidshock",
+          "weight": 3,
+          "carryMax": 6,
+          "value": 50,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -3824,19 +3882,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -3861,13 +3922,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
@@ -3892,13 +3955,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
@@ -3923,13 +3988,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
@@ -3954,13 +4021,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
@@ -4019,7 +4088,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4044,7 +4114,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4069,7 +4140,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4094,7 +4166,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4119,7 +4192,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4144,7 +4218,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4169,7 +4244,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4194,7 +4270,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4219,7 +4296,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4244,7 +4322,8 @@
       "seeds": 2,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4269,7 +4348,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4294,7 +4374,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4319,7 +4400,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -4341,13 +4423,21 @@
       "isBig": true,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GTamagoMushi_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "TAMAGOMUSHI",
+          "name": "Mitite",
+          "carryMax": 1,
+          "value": 1,
+          "health": 1,
+          "seeds": 2,
           "chance": 0.5,
           "min": 10,
           "max": 10
@@ -4367,7 +4457,8 @@
       "isBig": true,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -4387,7 +4478,14 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GTamagoMushi_C",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "TAMAGOMUSHI",
+          "name": "Mitite",
+          "carryMax": 1,
+          "value": 1,
+          "health": 1,
+          "seeds": 2,
           "chance": 1,
           "min": 10,
           "max": 10
@@ -4407,7 +4505,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -4427,19 +4526,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -4459,7 +4561,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -4479,19 +4582,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -4511,19 +4617,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1

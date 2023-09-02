@@ -266,14 +266,22 @@
       "seeds": 20,
       "drops": [
         {
-          "item": "GOtaIcePick_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAICEPICK",
+          "name": "Shattering Lance",
+          "weight": 10,
+          "carryMax": 20,
+          "value": 150,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 5,
           "max": 5
         }

@@ -247,7 +247,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -426,7 +427,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 10,
           "max": 10
@@ -445,7 +447,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -464,7 +467,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -484,7 +488,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -504,7 +509,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -724,7 +730,8 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -966,7 +973,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -986,7 +994,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1006,7 +1015,8 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1033,7 +1043,8 @@
       "seeds": 15,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -1075,7 +1086,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -1185,19 +1197,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPellet1_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 2,
           "max": 2
@@ -1324,7 +1339,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1349,7 +1365,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1374,7 +1391,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1416,7 +1434,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1441,7 +1460,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1551,7 +1571,8 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GPellet5_C",
+          "type": "misc-pellet",
+          "InfoType": "misc",
           "chance": 1,
           "min": 3,
           "max": 3
@@ -1627,7 +1648,8 @@
       "seeds": 1,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1737,13 +1759,15 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.5,
           "min": 1,
           "max": 1
@@ -1785,7 +1809,13 @@
       "seeds": 5,
       "drops": [
         {
-          "item": "GOtaHeroPartsB_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAHEROPARTSB",
+          "name": "Ionium Jet",
+          "weight": 10,
+          "carryMax": 20,
+          "value": 0,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -1841,7 +1871,8 @@
       "radius": 150,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -1864,7 +1895,8 @@
       "radius": 100,
       "drops": [
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
           "min": 3,
           "max": 3

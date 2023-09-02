@@ -58,7 +58,7 @@ function parsePikmin(params, pikminState) {
     );
 
   if (otherReplacement && otherReplacement !== 'GEgg_C') {
-    throw new Error('Found a candypop that is not replaced by egg');
+    throw new Error('Found a pikmin spawner that is not replaced by egg');
   }
 
 

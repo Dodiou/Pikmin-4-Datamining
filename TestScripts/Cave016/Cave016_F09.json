@@ -73,14 +73,22 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GOtaMelon_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAMELON",
+          "name": "Wayward Moon",
+          "weight": 50,
+          "carryMax": 100,
+          "value": 200,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 20,
           "max": 20
         }
@@ -101,19 +109,22 @@
       "isBig": true,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 10,
           "max": 10
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 3,
           "max": 3

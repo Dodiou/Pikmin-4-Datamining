@@ -256,7 +256,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminIce_C",
+          "type": "pikmin-ice",
+          "infoType": "pikmin",
+          "color": "ice",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -275,7 +278,10 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GPikminIce_C",
+          "type": "pikmin-ice",
+          "infoType": "pikmin",
+          "color": "ice",
+          "state": "idle",
           "chance": 1,
           "min": 5,
           "max": 5
@@ -294,7 +300,13 @@
       "infoType": "breakable",
       "drops": [
         {
-          "item": "GOtaPotato_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAPOTATO",
+          "name": "Child of the Earth",
+          "weight": 7,
+          "carryMax": 14,
+          "value": 60,
           "chance": 1,
           "min": 1,
           "max": 1
@@ -405,7 +417,13 @@
       "seeds": 12,
       "drops": [
         {
-          "item": "GOtaTomatoM_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTATOMATOM",
+          "name": "Love Nugget",
+          "weight": 10,
+          "carryMax": 20,
+          "value": 90,
           "chance": 1,
           "min": 1,
           "max": 1

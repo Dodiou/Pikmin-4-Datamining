@@ -155,14 +155,23 @@
       "seeds": 0,
       "drops": [
         {
-          "item": "GOtaButtonMetal_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTABUTTONMETAL",
+          "name": "Trap Lid",
+          "weight": 1,
+          "carryMax": 2,
+          "value": 20,
+          "amount": 10,
           "chance": 1,
           "min": 10,
           "max": 10
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 1,
+          "revisitOnly": true,
           "min": 20,
           "max": 20
         }

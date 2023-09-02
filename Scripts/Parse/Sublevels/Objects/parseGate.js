@@ -1,5 +1,6 @@
 import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds, round } from "../../util.js";
+import { DefaultObject } from "../objectBlueprints.js";
 import { parseObjectDropList } from "../parseDrops.js";
 import { DefaultSwitchID } from "./parseSwitchables.js";
 
@@ -51,7 +52,7 @@ function getDefaultGateDrop(type, undamagedStages) {
     // all other gets drop 2 materials per destroyed stage
     : undamagedStages * 2
   return {
-    item: 'GPiecePick_C',
+    ...DefaultObject.GPiecePick_C,
     chance: 1,
     min: materialAmount,
     max: materialAmount,

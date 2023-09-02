@@ -183,19 +183,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -215,19 +218,22 @@
       "isBig": false,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 1,
           "max": 1
@@ -254,14 +260,23 @@
       "seeds": 50,
       "drops": [
         {
-          "item": "GOtaGolfBall_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTAGOLFBALL",
+          "name": "Orbital Communication Sphere",
+          "weight": 5,
+          "carryMax": 10,
+          "value": 40,
+          "amount": 3,
           "chance": 1,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GIceBomb_C",
+          "type": "miscitem-icebomb",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 3,
           "max": 3
         }

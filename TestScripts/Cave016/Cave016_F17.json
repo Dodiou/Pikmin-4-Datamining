@@ -108,19 +108,22 @@
       "isBig": true,
       "drops": [
         {
-          "item": "GHoney_C",
+          "type": "miscitem-honey",
+          "infoType": "misc",
           "chance": 0.75,
           "min": 3,
           "max": 3
         },
         {
-          "item": "GPiecePick_C",
+          "type": "pile-materials",
+          "infoType": "pile",
           "chance": 0.2,
           "min": 10,
           "max": 10
         },
         {
-          "item": "GHotExtract_C",
+          "type": "miscitem-spicy",
+          "infoType": "misc",
           "chance": 0.05,
           "min": 3,
           "max": 3
@@ -147,20 +150,30 @@
       "seeds": 50,
       "drops": [
         {
-          "item": "GOtaShutterGlasses_C",
+          "type": "treasure",
+          "infoType": "treasure",
+          "treasureId": "OTASHUTTERGLASSES",
+          "name": "Don't-See-It Specs",
+          "weight": 12,
+          "carryMax": 24,
+          "value": 180,
           "chance": 1,
           "min": 1,
           "max": 1
         },
         {
-          "item": "GBomb_C",
+          "type": "miscitem-bomb",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 2,
           "max": 2
         },
         {
-          "item": "GIceBomb_C",
+          "type": "miscitem-icebomb",
+          "infoType": "misc",
           "chance": 1,
+          "revisitOnly": true,
           "min": 2,
           "max": 2
         }
