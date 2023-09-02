@@ -1308,12 +1308,17 @@
       }
     }
   ],
-  "misc-pellet": [
+  "creature": [
     {
-      "type": "misc-pellet",
-      "infoType": "misc",
-      "color": "yellow",
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "PELLET5",
+      "name": "Pellet (5)",
+      "carryMax": 10,
+      "value": 4,
+      "health": 0,
       "seeds": 5,
+      "color": "yellow",
       "transform": {
         "translation": {
           "x": 1824,
@@ -1323,10 +1328,15 @@
       }
     },
     {
-      "type": "misc-pellet",
-      "infoType": "misc",
+      "type": "creature",
+      "infoType": "creature",
+      "creatureId": "PELLET1",
+      "name": "Pellet (1)",
+      "carryMax": 2,
+      "value": 2,
+      "health": 0,
+      "seeds": 2,
       "color": "red",
-      "seeds": 1,
       "transform": {
         "translation": {
           "x": 1869,
@@ -1334,578 +1344,7 @@
           "z": 708
         }
       }
-    }
-  ],
-  "castaway-leafling": [
-    {
-      "type": "castaway-leafling",
-      "infoType": "castaway",
-      "isLeafling": true,
-      "isKoppaite": false,
-      "weight": 3,
-      "carryMax": 6,
-      "transform": {
-        "translation": {
-          "x": 3132,
-          "y": 506,
-          "z": 422.3601
-        }
-      }
     },
-    {
-      "type": "castaway-leafling",
-      "infoType": "castaway",
-      "isLeafling": true,
-      "isKoppaite": false,
-      "weight": 3,
-      "carryMax": 6,
-      "transform": {
-        "translation": {
-          "x": 917.8382,
-          "y": -3932.423,
-          "z": 615.58124
-        }
-      }
-    }
-  ],
-  "breakable-hydrojelly": [
-    {
-      "type": "breakable-hydrojelly",
-      "infoType": "breakable",
-      "transform": {
-        "translation": {
-          "x": 1509,
-          "y": -3451,
-          "z": 486.06088
-        }
-      }
-    }
-  ],
-  "breakable-crystal": [
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2779,
-          "y": 520,
-          "z": 16
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1899,
-          "y": 2762,
-          "z": 21.358337
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1774,
-          "y": 2920,
-          "z": 21.358337
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2032,
-          "y": 3000,
-          "z": 21.358337
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1688,
-          "y": 3639,
-          "z": 16
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1860,
-          "y": 3812,
-          "z": 16
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1868,
-          "y": 865,
-          "z": 21.5
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1498,
-          "y": 1047,
-          "z": 21.5
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1520,
-          "y": 855,
-          "z": 21.5
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1794,
-          "y": 646,
-          "z": 21.3
-        }
-      }
-    },
-    {
-      "type": "breakable-crystal",
-      "infoType": "breakable",
-      "drops": [
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2958,
-          "y": 260,
-          "z": 16
-        }
-      }
-    }
-  ],
-  "miscitem-bomb": [
-    {
-      "type": "miscitem-bomb",
-      "infoType": "misc",
-      "transform": {
-        "translation": {
-          "x": 1708,
-          "y": 834,
-          "z": 14.25
-        }
-      }
-    }
-  ],
-  "miscitem-honey": [
-    {
-      "type": "miscitem-honey",
-      "infoType": "misc",
-      "transform": {
-        "translation": {
-          "x": 2747,
-          "y": -2592,
-          "z": 702
-        }
-      }
-    }
-  ],
-  "misc-spiderwort": [
-    {
-      "type": "misc-spiderwort",
-      "infoType": "misc",
-      "transform": {
-        "translation": {
-          "x": 3384.462,
-          "y": 1748.5924,
-          "z": 162
-        }
-      }
-    },
-    {
-      "type": "misc-spiderwort",
-      "infoType": "misc",
-      "transform": {
-        "translation": {
-          "x": 3940.4883,
-          "y": 1573.2502,
-          "z": 293
-        }
-      }
-    }
-  ],
-  "breakable-egg": [
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": false,
-      "drops": [
-        {
-          "type": "miscitem-spicy",
-          "infoType": "misc",
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2145,
-          "y": 961,
-          "z": 21.1781
-        }
-      }
-    },
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": false,
-      "drops": [
-        {
-          "type": "creature",
-          "infoType": "creature",
-          "creatureId": "MINIMOCHI",
-          "name": "Sunsquish",
-          "carryMax": 1,
-          "value": 3,
-          "health": 450,
-          "seeds": 4,
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2850.7236,
-          "y": -2502.5784,
-          "z": 705.6
-        }
-      }
-    },
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": false,
-      "drops": [
-        {
-          "type": "miscitem-honey",
-          "infoType": "misc",
-          "chance": 0.75,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "miscitem-spicy",
-          "infoType": "misc",
-          "chance": 0.05,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2813,
-          "y": -2631,
-          "z": 705.6
-        }
-      }
-    },
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": false,
-      "drops": [
-        {
-          "type": "miscitem-honey",
-          "infoType": "misc",
-          "chance": 0.75,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "miscitem-spicy",
-          "infoType": "misc",
-          "chance": 0.05,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 2320,
-          "y": -1251,
-          "z": 705
-        }
-      }
-    },
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": false,
-      "drops": [
-        {
-          "type": "miscitem-honey",
-          "infoType": "misc",
-          "chance": 0.75,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "miscitem-spicy",
-          "infoType": "misc",
-          "chance": 0.05,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 409,
-          "y": -2085,
-          "z": 655.70355
-        }
-      }
-    },
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": true,
-      "drops": [
-        {
-          "type": "creature",
-          "infoType": "creature",
-          "creatureId": "MINIMOCHI",
-          "name": "Sunsquish",
-          "carryMax": 1,
-          "value": 3,
-          "health": 450,
-          "seeds": 4,
-          "chance": 1,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 487,
-          "y": -2128,
-          "z": 668.545
-        }
-      }
-    },
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": false,
-      "drops": [
-        {
-          "type": "miscitem-honey",
-          "infoType": "misc",
-          "chance": 0.75,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "miscitem-spicy",
-          "infoType": "misc",
-          "chance": 0.05,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1704,
-          "y": -3417,
-          "z": 115
-        }
-      }
-    },
-    {
-      "type": "breakable-egg",
-      "infoType": "breakable",
-      "isBig": false,
-      "drops": [
-        {
-          "type": "miscitem-honey",
-          "infoType": "misc",
-          "chance": 0.75,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "pile-materials",
-          "infoType": "pile",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "type": "miscitem-spicy",
-          "infoType": "misc",
-          "chance": 0.05,
-          "min": 1,
-          "max": 1
-        }
-      ],
-      "transform": {
-        "translation": {
-          "x": 1759,
-          "y": -3461,
-          "z": 115
-        }
-      }
-    }
-  ],
-  "creature": [
     {
       "type": "creature",
       "infoType": "creature",
@@ -3014,8 +2453,14 @@
       "seeds": 5,
       "drops": [
         {
-          "type": "misc-pellet",
-          "InfoType": "misc",
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "PELLET5",
+          "name": "Pellet (5)",
+          "carryMax": 10,
+          "value": 4,
+          "health": 0,
+          "seeds": 5,
           "chance": 1,
           "min": 3,
           "max": 3
@@ -3314,6 +2759,575 @@
           "x": 1688,
           "y": 3325,
           "z": 270.09113
+        }
+      }
+    }
+  ],
+  "castaway-leafling": [
+    {
+      "type": "castaway-leafling",
+      "infoType": "castaway",
+      "isLeafling": true,
+      "isKoppaite": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 3132,
+          "y": 506,
+          "z": 422.3601
+        }
+      }
+    },
+    {
+      "type": "castaway-leafling",
+      "infoType": "castaway",
+      "isLeafling": true,
+      "isKoppaite": false,
+      "weight": 3,
+      "carryMax": 6,
+      "transform": {
+        "translation": {
+          "x": 917.8382,
+          "y": -3932.423,
+          "z": 615.58124
+        }
+      }
+    }
+  ],
+  "breakable-hydrojelly": [
+    {
+      "type": "breakable-hydrojelly",
+      "infoType": "breakable",
+      "transform": {
+        "translation": {
+          "x": 1509,
+          "y": -3451,
+          "z": 486.06088
+        }
+      }
+    }
+  ],
+  "breakable-crystal": [
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2779,
+          "y": 520,
+          "z": 16
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1899,
+          "y": 2762,
+          "z": 21.358337
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1774,
+          "y": 2920,
+          "z": 21.358337
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2032,
+          "y": 3000,
+          "z": 21.358337
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1688,
+          "y": 3639,
+          "z": 16
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1860,
+          "y": 3812,
+          "z": 16
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1868,
+          "y": 865,
+          "z": 21.5
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1498,
+          "y": 1047,
+          "z": 21.5
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1520,
+          "y": 855,
+          "z": 21.5
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1794,
+          "y": 646,
+          "z": 21.3
+        }
+      }
+    },
+    {
+      "type": "breakable-crystal",
+      "infoType": "breakable",
+      "drops": [
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2958,
+          "y": 260,
+          "z": 16
+        }
+      }
+    }
+  ],
+  "miscitem-bomb": [
+    {
+      "type": "miscitem-bomb",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 1708,
+          "y": 834,
+          "z": 14.25
+        }
+      }
+    }
+  ],
+  "miscitem-honey": [
+    {
+      "type": "miscitem-honey",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 2747,
+          "y": -2592,
+          "z": 702
+        }
+      }
+    }
+  ],
+  "misc-spiderwort": [
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 3384.462,
+          "y": 1748.5924,
+          "z": 162
+        }
+      }
+    },
+    {
+      "type": "misc-spiderwort",
+      "infoType": "misc",
+      "transform": {
+        "translation": {
+          "x": 3940.4883,
+          "y": 1573.2502,
+          "z": 293
+        }
+      }
+    }
+  ],
+  "breakable-egg": [
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": false,
+      "drops": [
+        {
+          "type": "miscitem-spicy",
+          "infoType": "misc",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2145,
+          "y": 961,
+          "z": 21.1781
+        }
+      }
+    },
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": false,
+      "drops": [
+        {
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "MINIMOCHI",
+          "name": "Sunsquish",
+          "carryMax": 1,
+          "value": 3,
+          "health": 450,
+          "seeds": 4,
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2850.7236,
+          "y": -2502.5784,
+          "z": 705.6
+        }
+      }
+    },
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": false,
+      "drops": [
+        {
+          "type": "miscitem-honey",
+          "infoType": "misc",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "miscitem-spicy",
+          "infoType": "misc",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2813,
+          "y": -2631,
+          "z": 705.6
+        }
+      }
+    },
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": false,
+      "drops": [
+        {
+          "type": "miscitem-honey",
+          "infoType": "misc",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "miscitem-spicy",
+          "infoType": "misc",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 2320,
+          "y": -1251,
+          "z": 705
+        }
+      }
+    },
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": false,
+      "drops": [
+        {
+          "type": "miscitem-honey",
+          "infoType": "misc",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "miscitem-spicy",
+          "infoType": "misc",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 409,
+          "y": -2085,
+          "z": 655.70355
+        }
+      }
+    },
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": true,
+      "drops": [
+        {
+          "type": "creature",
+          "infoType": "creature",
+          "creatureId": "MINIMOCHI",
+          "name": "Sunsquish",
+          "carryMax": 1,
+          "value": 3,
+          "health": 450,
+          "seeds": 4,
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 487,
+          "y": -2128,
+          "z": 668.545
+        }
+      }
+    },
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": false,
+      "drops": [
+        {
+          "type": "miscitem-honey",
+          "infoType": "misc",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "miscitem-spicy",
+          "infoType": "misc",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1704,
+          "y": -3417,
+          "z": 115
+        }
+      }
+    },
+    {
+      "type": "breakable-egg",
+      "infoType": "breakable",
+      "isBig": false,
+      "drops": [
+        {
+          "type": "miscitem-honey",
+          "infoType": "misc",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "pile-materials",
+          "infoType": "pile",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "type": "miscitem-spicy",
+          "infoType": "misc",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        }
+      ],
+      "transform": {
+        "translation": {
+          "x": 1759,
+          "y": -3461,
+          "z": 115
         }
       }
     }

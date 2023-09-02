@@ -52,14 +52,6 @@ export const DefaultObject = {
     type: MarkerType.MiscBomb,
     infoType: InfoType.Misc
   },
-  'GPellet1_C': {
-    type: MarkerType.MiscPellet,
-    InfoType: InfoType.Misc
-  },
-  'GPellet5_C': {
-    type: MarkerType.MiscPellet,
-    InfoType: InfoType.Misc
-  },
   'GSurvivorA_C': DefaultSurvivorDrop,
   'GSurvivorLouie_C': DefaultSurvivorDrop,
   'GSurvivorLeaf_C': {
@@ -104,7 +96,12 @@ export const DefaultObjectWithDrops = {
 
 
 const CreatureMap = EnemyData[0].Rows;
-const CreatureNamesMap = EnemyNames.GenseiName;
+const CreatureNamesMap = {
+  ...EnemyNames.GenseiName,
+  'PELLET1': 'Pellet (1)',
+  'PELLET5': 'Pellet (5)',
+  'PELLET10': 'Pellet (10)',
+};
 // some special cases
 const CreatureIdMap = {
   'DODOROEGG': 'DODORO',

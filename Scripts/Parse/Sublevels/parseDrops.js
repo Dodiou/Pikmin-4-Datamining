@@ -114,19 +114,19 @@ export function parseCreatureDropList(aiComp) {
 //       It drops 1 pellet, three 1 pellets, two 5 pellets instead of its TekiAI drop list.
 const DefaultIridescentBeetleDrops = [
   {
-    ...DefaultObject.GPellet1_C,
+    ...getObjectFromType('GPellet1_C'),
     chance: 1.0,
     min: 1,
     max: 1,
   },
   {
-    ...DefaultObject.GPellet1_C,
+    ...getObjectFromType('GPellet1_C'),
     chance: 1.0,
     min: 3,
     max: 3,
   },
   {
-    ...DefaultObject.GPellet5_C,
+    ...getObjectFromType('GPellet5_C'),
     chance: 1.0,
     min: 2,
     max: 2,

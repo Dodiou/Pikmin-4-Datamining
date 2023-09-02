@@ -1,6 +1,6 @@
 import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, getPikminColor, removeUndefineds } from "../../util.js";
-import { DefaultObject } from "../objectBlueprints.js";
+import { DefaultObject, getCreatureFromType } from "../objectBlueprints.js";
 import { parseCreatureDropList } from "../parseDrops.js";
 
 export function isMiscComp(comp) {
@@ -14,7 +14,6 @@ export function isMiscComp(comp) {
   );
 }
 
-const PELLET_SEEDS_REGEX = /GPellet(\d+)_C/;
 export function parseMiscComp(comp, compsList) {
   if (comp.Properties.CharcoalAI) {
     return {
@@ -27,15 +26,13 @@ export function parseMiscComp(comp, compsList) {
     return DefaultObject.GIcicle_C;
   }
   else if (comp.Properties.PelletAI) {
+    // TODO: move to parsePellet.js, and add pelplants too
     const PelletAI = getObjectFromPath(comp.Properties.PelletAI, compsList);
-    const seeds = parseInt(comp.Type.match(PELLET_SEEDS_REGEX)[1]);
     const color = getPikminColor(PelletAI.Properties?.AIParameter?.PelletColor || "EPikminColor::Red");
-  
+
     return {
-      type: MarkerType.MiscPellet,
-      infoType: InfoType.Misc,
+      ...getCreatureFromType(comp.Type),
       color,
-      seeds
     };
   }
   else if (comp.Properties.HoneyAI) {
