@@ -38,6 +38,20 @@
       "value": 0,
       "health": 9000,
       "seeds": 0,
+      "damageInfo": {
+        "bomb": 20,
+        "eatBomb": 10,
+        "eatFreeze": 6,
+        "eatIceBomb": 1,
+        "eatPoison": 20,
+        "freeze": 150,
+        "freezeDamageRatio": 0.6,
+        "iceBomb": 3,
+        "oatchiRush": 70,
+        "oatchiRushFreezeRatio": 2,
+        "pikminHit": 0,
+        "purpleHit": 100
+      },
       "drops": [
         {
           "type": "treasure",

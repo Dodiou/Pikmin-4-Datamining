@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FreezeDropItem",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'DropItemFreezeTableRow'",
+        "ObjectPath": "/Script/Carrot4"
+      }
+    },
+    "Rows": {
+      "TekiS": {
+        "FreezeDropType": "EFreezeDropType::TekiS",
+        "Num": 1,
+        "HoneyDropRate": 0.99
+      },
+      "TekiM": {
+        "FreezeDropType": "EFreezeDropType::TekiM",
+        "Num": 1,
+        "HoneyDropRate": 0.9
+      },
+      "TekiL": {
+        "FreezeDropType": "EFreezeDropType::TekiL",
+        "Num": 3,
+        "HoneyDropRate": 0.9
+      },
+      "Boss": {
+        "FreezeDropType": "EFreezeDropType::Boss",
+        "Num": 5,
+        "HoneyDropRate": 0.7
+      },
+      "BigBoss": {
+        "FreezeDropType": "EFreezeDropType::BigBoss",
+        "Num": 10,
+        "HoneyDropRate": 0.6
+      },
+      "NoDrop": {
+        "FreezeDropType": "EFreezeDropType::NoDrop",
+        "Num": 0,
+        "HoneyDropRate": 1.0
+      }
+    }
+  }
+]

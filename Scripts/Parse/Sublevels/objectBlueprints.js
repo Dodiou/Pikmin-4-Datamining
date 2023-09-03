@@ -1,9 +1,10 @@
 import { default as EnemyData } from '../../../Enemy Data/BaseData.json' assert { type: 'json' };
 import { default as EnemyNames } from '../../../Localization/GenseiName/en-US/GenseiName.json' assert { type: 'json' };
 import { default as TreasureData } from "../../../Treasure Data/BaseData.json" assert { type: "json" };
-import { default as TreasureNames } from "../../../Localization/OtakaraName/en-US/OtakaraName.json" assert { type: "json" };
-import { getInternalId, removeLocalizationMetadata } from "../util.js";
+import { default as TreasureNames } from "../../../Localization/OtakaraName/en-US/OtakaraName.json" assert { type: 'json' };
+import { getInternalId, removeLocalizationMetadata, removeUndefineds } from "../util.js";
 import { InfoType, MarkerType, PikminColorBlueprintMap, PikminSpawnState } from "../types.js";
+import { parseFreezeDrops } from './parseFreezeDrops.js';
 
 /**
  * This file contains default object blueprint values.
@@ -140,7 +141,7 @@ export function getCreatureFromType(type) {
   }
   const creatureName = removeLocalizationMetadata(CreatureNamesMap[creatureId]);
 
-  return {
+  return removeUndefineds({
     type: MarkerType.Creature,
     infoType: InfoType.Creature,
     creatureId,
@@ -149,8 +150,23 @@ export function getCreatureFromType(type) {
     carryMax: creature.CarryWeightMax,
     value: creature.Kira,
     health: creature.MaxLife,
-    seeds: creature.CarryIncPikmins
-  };
+    seeds: creature.CarryIncPikmins,
+    freezeDrops: parseFreezeDrops(creature.FreezeDropType),
+    damageInfo: {
+      bomb: creature.BombHit,
+      eatBomb: creature.BombInsideHit,
+      eatFreeze: creature.FreezeInsideHit,
+      eatIceBomb: creature.IceBombInsideHit,
+      eatPoison: creature.PoisonHit,
+      freeze: creature.FreezeHit,
+      freezeDamageRatio: creature.FreezeDamageRatio,
+      iceBomb: creature.IceBombHit,
+      oatchiRush: creature.CrushHit,
+      oatchiRushFreezeRatio: creature.FrozenCrushDamageRate,
+      pikminHit: creature.PressHit,
+      purpleHit: creature.PurpleDirectHit
+    }
+  });
 };
 
 
