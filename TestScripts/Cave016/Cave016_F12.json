@@ -364,6 +364,7 @@
       "infoType": "creature",
       "creatureId": "NISEBOSS",
       "name": "Gildemander",
+      "weight": 20,
       "carryMax": 40,
       "value": 20,
       "health": 6000,

@@ -146,7 +146,7 @@ export function getCreatureFromType(type) {
     infoType: InfoType.Creature,
     creatureId,
     name: creatureName,
-    weight: creature.CarryWeighMin,
+    weight: creature.CarryWeightMin,
     carryMax: creature.CarryWeightMax,
     value: creature.Kira,
     health: creature.MaxLife,

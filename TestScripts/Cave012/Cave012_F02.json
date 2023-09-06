@@ -381,6 +381,7 @@
       "infoType": "creature",
       "creatureId": "YUKIFUTAKUCHIADULT",
       "name": "Arctic Cannon Beetle",
+      "weight": 30,
       "carryMax": 60,
       "value": 20,
       "health": 4500,

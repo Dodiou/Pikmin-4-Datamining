@@ -242,6 +242,7 @@
       "infoType": "creature",
       "creatureId": "RUSHER",
       "name": "Tusked Blowhog",
+      "weight": 7,
       "carryMax": 14,
       "value": 7,
       "health": 900,

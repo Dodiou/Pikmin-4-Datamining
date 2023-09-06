@@ -530,6 +530,7 @@
       "infoType": "creature",
       "creatureId": "BOMBOTAKARA",
       "name": "Bomb Dweevil",
+      "weight": 2,
       "carryMax": 4,
       "value": 2,
       "health": 300,

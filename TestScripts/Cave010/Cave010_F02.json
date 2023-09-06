@@ -98,6 +98,7 @@
       "infoType": "creature",
       "creatureId": "QUEEN",
       "name": "Empress Bulblax",
+      "weight": 20,
       "carryMax": 40,
       "value": 20,
       "health": 5000,

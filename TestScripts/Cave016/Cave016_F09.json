@@ -67,6 +67,7 @@
       "infoType": "creature",
       "creatureId": "DODORO",
       "name": "Smoky Progg",
+      "weight": 0,
       "carryMax": 0,
       "value": 0,
       "health": 5000,

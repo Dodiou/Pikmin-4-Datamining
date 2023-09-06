@@ -149,6 +149,7 @@
       "infoType": "creature",
       "creatureId": "HAGEDAMAGUMO",
       "name": "Baldy Long Legs",
+      "weight": 0,
       "carryMax": 0,
       "value": 0,
       "health": 3700,

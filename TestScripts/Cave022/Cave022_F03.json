@@ -260,6 +260,7 @@
       "infoType": "creature",
       "creatureId": "YUKIMUSHI",
       "name": "Snowfake Fluttertail",
+      "weight": 15,
       "carryMax": 30,
       "value": 20,
       "health": 6000,

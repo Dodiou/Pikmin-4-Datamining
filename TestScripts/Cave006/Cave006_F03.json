@@ -85,6 +85,7 @@
       "infoType": "creature",
       "creatureId": "MAR",
       "name": "Puffy Blowhog",
+      "weight": 1,
       "carryMax": 1,
       "value": 7,
       "health": 3000,

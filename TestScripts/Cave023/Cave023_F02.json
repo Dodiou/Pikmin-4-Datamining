@@ -173,6 +173,7 @@
       "infoType": "creature",
       "creatureId": "HARI",
       "name": "Porquillion",
+      "weight": 12,
       "carryMax": 24,
       "value": 12,
       "health": 5000,

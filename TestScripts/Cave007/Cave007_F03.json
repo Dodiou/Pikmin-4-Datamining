@@ -81,6 +81,7 @@
       "infoType": "creature",
       "creatureId": "MITSUMOCHI",
       "name": "Foolix",
+      "weight": 5,
       "carryMax": 10,
       "value": 20,
       "health": 12000,

@@ -261,6 +261,7 @@
       "infoType": "creature",
       "creatureId": "BIGKINGCHAPPY",
       "name": "Sovereign Bulblax",
+      "weight": 30,
       "carryMax": 60,
       "value": 20,
       "health": 8000,
