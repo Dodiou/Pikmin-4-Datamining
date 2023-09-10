@@ -17,7 +17,7 @@
     {
       "type": "switchable-doubleswitch",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 390,
@@ -32,7 +32,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 145,
       "transform": {
         "translation": {
@@ -46,7 +46,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 145,
       "transform": {
         "translation": {
@@ -60,7 +60,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 220,
       "transform": {
         "translation": {
@@ -74,7 +74,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 170,
       "transform": {
         "translation": {
@@ -88,7 +88,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 320,
       "transform": {
         "translation": {
@@ -102,7 +102,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 120,
       "transform": {
         "translation": {
@@ -116,7 +116,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 120,
       "transform": {
         "translation": {

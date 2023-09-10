@@ -167,7 +167,7 @@
     {
       "type": "switchable-fan",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 2067,
@@ -191,7 +191,7 @@
     {
       "type": "switchable-fan",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 1247,
@@ -215,7 +215,7 @@
     {
       "type": "switchable-fan",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -496.88602,

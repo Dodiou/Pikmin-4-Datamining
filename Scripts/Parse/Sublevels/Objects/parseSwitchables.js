@@ -1,8 +1,8 @@
 import { InfoType, MarkerType } from "../../types.js";
 import { getObjectFromPath, removeUndefineds } from "../../util.js";
 
-// See Cave012_F01. Fences have this ID, but SingleSwitch does not.
-export const DefaultSwitchID = 'switch01';
+// Note: The two fences w/ 'switch01' in Cave012_F01 are the rusted fences that do not fall.
+export const DefaultSwitchID = 'switch00';
 
 function parseFan(CirculatorAI) {
   return {

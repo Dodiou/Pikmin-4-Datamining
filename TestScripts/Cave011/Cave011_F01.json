@@ -96,7 +96,7 @@
     {
       "type": "switchable-fenceiron",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 139.41013,
@@ -109,7 +109,7 @@
     {
       "type": "switchable-fenceiron",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -1,
@@ -122,7 +122,7 @@
     {
       "type": "switchable-fenceiron",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 234,
@@ -135,7 +135,7 @@
     {
       "type": "switchable-fenceiron",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 329.41013,
@@ -148,7 +148,7 @@
     {
       "type": "switchable-fenceiron",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 235.41013,
@@ -271,7 +271,7 @@
     {
       "type": "switchable-singleswitch",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 735,

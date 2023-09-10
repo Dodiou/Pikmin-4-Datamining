@@ -3,7 +3,7 @@
     {
       "type": "switchable-fenceiron",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -81.34405,
@@ -16,7 +16,7 @@
     {
       "type": "switchable-fenceiron",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 452.39932,
@@ -131,7 +131,7 @@
     {
       "type": "switchable-singleswitch",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 548.3081,

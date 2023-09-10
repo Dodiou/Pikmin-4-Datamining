@@ -51,7 +51,7 @@
     {
       "type": "switchable-doubleswitch",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -413.4985,
@@ -149,7 +149,7 @@
     {
       "type": "switchable-conveyor",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 137.6272,
@@ -162,7 +162,7 @@
     {
       "type": "switchable-conveyor",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": 139.5,
@@ -175,7 +175,7 @@
     {
       "type": "switchable-conveyor",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -432.64432,
@@ -188,7 +188,7 @@
     {
       "type": "switchable-conveyor",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -169.40826,
@@ -201,7 +201,7 @@
     {
       "type": "switchable-conveyor",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -695.80646,

@@ -296,7 +296,7 @@
     {
       "type": "switchable-singleswitch",
       "infoType": "switchable",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "transform": {
         "translation": {
           "x": -824.4743,
@@ -334,7 +334,7 @@
     {
       "type": "gate-numbered",
       "infoType": "gate",
-      "switchId": "switch01",
+      "switchId": "switch00",
       "width": 145,
       "transform": {
         "translation": {
