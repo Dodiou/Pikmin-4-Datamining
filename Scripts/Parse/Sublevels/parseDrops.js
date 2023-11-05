@@ -106,6 +106,15 @@ export function parseCreatureDropList(aiComp) {
     return [];
   }
 
+  if (aiComp.Properties?.KurioneAIParameter?.bDropHotExtractOnly) {
+    return {
+      ...getObjectFromType('GHotExtract_C'),
+      chance: 1.0,
+      min: 1,
+      max: 1,
+    };
+  }
+
   return parseDropList(aiComp.Properties.TekiAIParameter.DropParameter);
 }
 
