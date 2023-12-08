@@ -180,7 +180,6 @@ export function parseSublevelsTekis(tekiComps) {
 /*
 Objects to look at:
 BookendAI
-TsuyukusaAI? spicy berries?
 
 // Night objects
 "Name": "WasurenagusaAI" forget-me-nots? This is Lumiknolls
